@@ -1,0 +1,8 @@
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+public
+
+# excel data file
+data_conversion/Where Is My Art.xlsx
