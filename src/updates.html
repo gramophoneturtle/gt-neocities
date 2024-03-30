@@ -1,0 +1,12 @@
+---
+title: Updates
+layout: layouts/base.njk
+---
+{% for item in collections.UpdatePosts %}
+    <div class="updatepost">
+        <p class="header">{{ item.data.posts.PostDate }}</p>
+        <p>Art: {{ item.data.posts.Art }}</p>
+    
+        <p>Site: {{ item.data.posts.Site }}</p>
+    </div>
+{% endfor -%}

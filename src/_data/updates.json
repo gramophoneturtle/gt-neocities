@@ -1,0 +1,22 @@
+[
+    {
+        "PostDate": "2024-03-29",
+        "Art": "TWEWY: It felt like something was missing, What if they were partners?, Life's little crossroads are... . Persona 5: Hello There!",
+        "Site": "New Update section! Homepage shows the latest update. Added Persona 5 category and art URLs use original post date and some part of the title."
+    },
+    {
+        "PostDate": "2024-03-28",
+        "Art": "Kubo picture, Do Not.",
+        "Site": "TWEWY Artwork now has super fancy filtering by single character. Hopefully it doesn't break anaything."
+    },
+    {
+        "PostDate": "2024-03-25",
+        "Art": "Phone Light.",
+        "Site": "Empty page Details are suppressed. Artwork is grouped by Year."
+    },
+    {
+        "PostDate": "2024-03-24",
+        "Art": "Added more TWEWY Art pages.",
+        "Site": "Backend updated to generate those pages more easily. Because of the generation, some things may generate when they don't need to (extra detail sections, etc.)."
+    }
+]

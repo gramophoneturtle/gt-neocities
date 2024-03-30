@@ -7,9 +7,11 @@ import json
 import os
 
 filename_input = "Where Is My Art.xlsx"
-filename_output = "twewy-art.json"
+filename_output_twewy = "twewy-art.json"
+filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
-file_path_output = os.path.join(os.getcwd(),"src\_data\\", filename_output)
+file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
+
 
 # functions
 def make_img_list(_row: pandas.Series) -> list:
@@ -54,7 +56,7 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         }
         artwork_dictionary['date'] = row['Tumblr Date']
         artwork_dictionary['dateYear'] = row['Tumblr Date'][0:4]
-        artwork_dictionary['unique-url'] = "{0}-{1}".format(row['Tumblr Date'],row['Artwork'].replace("\n","")[0:10])
+        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row['Tumblr Date'],row['Artwork'].replace("\n","")[0:10])
 
         if row['title'] == "":
             print("Title is missing for |{0}|".format(row['Artwork'].replace("\n","")[0:40]))
@@ -100,13 +102,13 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
     return nested_json
 
-def main():
-    print('\n1. Reading Excel File.\n')
+def main(sheet_name, file_path_output):
+    print('\n1. Reading Excel File for {0}\n'.format(sheet_name))
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
         file_path_input,
-        sheet_name='TWEWY Series',
+        sheet_name=sheet_name,
         usecols=['Artwork', 'NS?',
                 'Tumblr URL','Tumblr Date',
                 'Pillowfort URL','Pillowfort Date',
@@ -146,4 +148,10 @@ def main():
     print("\n4. Completed.\n")
 
 if __name__ == '__main__':
-    main()
+    # TWEWY
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy)
+    main('TWEWY Series', file_path_output)
+
+    # Persona 5 Sheet
+    # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
+    # main('Other', file_path_output)
