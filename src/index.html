@@ -13,25 +13,14 @@ layout: layouts/base.njk
     The URLs of art pages is a WIP. These main pages should be safe to bookmark, but not the fandom lists or individual art pages.
 </p>
 
-<h2>Updates</h2>
-<ul>
-    <li>2024-03-29: 
-        <p>Art - TWEWY: "It felt like something was missing", "What if they were partners?", "Life's little crossroads are...".</p>
-        <p>Art - Persona 5: "Hello There!"</p>
-        <p>Site: Added Persona 5 category and art URLs use original post date and some part of the title.</p>
-    </li>
-    <li>2024-03-28: 
-        <p>Art: Kubo picture, Do Not.</p>
-        <p>Site: TWEWY Artwork now has super fancy filtering by single character. Hopefully it doesn't break anaything.</p>
-    </li>
-    <li>2024-03-25: 
-        <p>Art: Phone Light. </p>
-        <p>Site: Empty page Details are suppressed. Artwork is grouped by Year.</p>
-    </li>
-    <li>2024-03-24:
-        <p>Art: Added more TWEWY Art pages.</p>  
-        <p>Site: Backend updated to generate those pages more easily. 
-            Because of the generation, some things may generate when they don't need to 
-            (extra detail sections, etc.).</p>
-    </li>
-</ul>
+
+<h2>Latest Update</h2>
+
+{% assign mostRecent = collections.UpdatePosts | first %}
+<div class="updatepost">
+    <p class="header">{{ mostRecent.data.posts.PostDate }}</p>
+    <p>Art: {{ mostRecent.data.posts.Art }}</p>
+
+    <p>Site: {{ mostRecent.data.posts.Site }}</p>
+</div>
+<p>See more <a href="/updates/">Updates</a>.</p>
