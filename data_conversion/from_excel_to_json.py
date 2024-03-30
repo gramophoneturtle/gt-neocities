@@ -56,7 +56,7 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         }
         artwork_dictionary['date'] = row['Tumblr Date']
         artwork_dictionary['dateYear'] = row['Tumblr Date'][0:4]
-        artwork_dictionary['unique-url'] = "{0}-{1}".format(row['Tumblr Date'],row['Artwork'].replace("\n","")[0:10])
+        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row['Tumblr Date'],row['Artwork'].replace("\n","")[0:10])
 
         if row['title'] == "":
             print("Title is missing for |{0}|".format(row['Artwork'].replace("\n","")[0:40]))
@@ -103,7 +103,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
     return nested_json
 
 def main(sheet_name, file_path_output):
-    print('\n1. Reading Excel File.\n')
+    print('\n1. Reading Excel File for {0}\n'.format(sheet_name))
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -148,7 +148,10 @@ def main(sheet_name, file_path_output):
     print("\n4. Completed.\n")
 
 if __name__ == '__main__':
+    # TWEWY
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy)
     main('TWEWY Series', file_path_output)
 
-    # filename_output_p5
+    # Persona 5 Sheet
+    # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
+    # main('Other', file_path_output)
