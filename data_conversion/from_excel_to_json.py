@@ -7,9 +7,11 @@ import json
 import os
 
 filename_input = "Where Is My Art.xlsx"
-filename_output = "twewy-art.json"
+filename_output_twewy = "twewy-art.json"
+filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
-file_path_output = os.path.join(os.getcwd(),"src\_data\\", filename_output)
+file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
+
 
 # functions
 def make_img_list(_row: pandas.Series) -> list:
@@ -100,13 +102,13 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
     return nested_json
 
-def main():
+def main(sheet_name, file_path_output):
     print('\n1. Reading Excel File.\n')
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
         file_path_input,
-        sheet_name='TWEWY Series',
+        sheet_name=sheet_name,
         usecols=['Artwork', 'NS?',
                 'Tumblr URL','Tumblr Date',
                 'Pillowfort URL','Pillowfort Date',
@@ -146,4 +148,7 @@ def main():
     print("\n4. Completed.\n")
 
 if __name__ == '__main__':
-    main()
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy)
+    main('TWEWY Series', file_path_output)
+
+    # filename_output_p5
