@@ -36,4 +36,4 @@ jobs:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
         dist_dir: public
-        protected_files: 'img/*'
+        protected_files: '/img/*'
