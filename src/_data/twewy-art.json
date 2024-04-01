@@ -37,18 +37,26 @@
     "title": "A Supportive Trans Parent",
     "summary": "For those that need it: Father is here for you.",
     "details": "",
-    "characters": "",
+    "characters": "Father",
     "date": "2024-02-11",
     "dateYear": "2024",
-    "uniqueUrl": "2024-02-11-A supporti",
+    "uniqueUrl": "2024-02-11-A Supporti",
     "urls": [
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/742045297016963072"
       },
       {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4323356"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kl5sqi7bh22v "
+      },
+      {
         "sitename": "cohost",
-        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kozdvn3mwk2g"
+        "url": "https://cohost.org/gramophoneturtle/post/5365868-a-supportive-trans-p"
       }
     ],
     "imgs": [
@@ -387,7 +395,7 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\keepsake\\joshKeepsakesFeather05cropped-NS-i-DEFAULT-V1.png",
+        "url": "img\\art\\twewy\\keepsake\\joshKeepsakesFeather05cropped-NS-i-DEFAULT-V1.png",
         "alt": "Art of Yoshiya Joshua Kiryu from The World Ends With You putting an angel feather in his hair. The feather is glowing. Joshua is wearing a spider lily patterned jacket."
       }
     ]

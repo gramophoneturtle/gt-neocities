@@ -13,6 +13,7 @@
   --text-light: #585858;
   --border: #d8dae1;
   --accent: #0d47a1;
+  --border-color: #461a40;
 }
 
 /* Dark theme */
@@ -24,6 +25,7 @@
     --text-light: #ababab;
     --border: #666;
     --accent: #ffb300;
+    --border-color: #995890;
   }
 }
 
@@ -137,9 +139,9 @@ a:hover {
 /* My own general CSS */
 
 .updatepost {
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 0.75rem 0.75rem;
+  border: 3px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 0.25rem 0.5rem;
   margin: 1rem 0rem;
 }
 
@@ -150,6 +152,13 @@ a:hover {
 .updatepost > p.header {
   font-weight: bold;
   border-bottom: 2px dashed var(--accent);
+}
+
+.updatepost > p.footer {
+  font-style: italic;
+  border-top: 2px dashed var(--accent);
+  padding-top: 0.5rem;
+
 }
 
 
