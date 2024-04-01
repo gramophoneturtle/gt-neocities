@@ -1,0 +1,26 @@
+---
+tags:
+  - UpdatePosts
+pagination:
+    data: updates
+    size: 1
+    alias: posts
+    addAllPagesToCollections: true
+permalink: "updates/{{ posts.PostDate | slugify }}/"
+layout: /layouts/base
+---
+<div>
+{%- for item in posts %}
+    <h1>
+        {{  item.data.posts.PostDate }}
+    </h1>
+
+    {%- if item.data.posts.Art %}
+        <p>Art: {{ item.data.posts.Art }}</p>
+    {%- endif -%}
+
+    {%- if item.data.posts.Site %}
+        <p>Site: {{ item.data.posts.Site }}</p>
+    {%- endif -%}
+{% endfor -%}
+</div>

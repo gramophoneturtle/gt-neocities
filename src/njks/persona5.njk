@@ -1,23 +1,24 @@
 ---
 tags:
-  - twewyArt2
+  - ArtP5
 pagination:
-    data: twewy-art
+    data: art-persona5
     size: 1
-    alias: twewyart
+    alias: artwork
     addAllPagesToCollections: true
-permalink: "art/twewy/{{ twewyart.uniqueUrl | slugify }}/"
+permalink: "art/persona5/{{ artwork.uniqueUrl | slugify }}/"
 layout: /layouts/art
 ---
-<div><a href="/art/twewy/">TWEWY</a></div>
+<div><a href="/art/persona5/">Persona 5</a></div>
 
 <div>
   <div>
-  {%- for item in twewyart.imgs %}
-    <div class="artwork">
+  {%- for item in artwork.imgs %}
+    <p>
       <img src="{{ item.url }}"
-        alt="{{ item.alt }}">
-    </div>
+        alt="{{ item.alt }}" 
+        style="width: auto; height:auto;">
+    </p>
     <details>
       <summary>ALT</summary>
       <p>{{ item.alt }}</p>
@@ -26,14 +27,14 @@ layout: /layouts/art
   </div>
 
   <div>
-    <p>{{ twewyart.summary }}</p>
+    <p>{{ artwork.summary }}</p>
   </div>
 
-  {%- if twewyart.details %}
+  {%- if artwork.details %}
   <div>
     <details>
         <summary>Details</summary>
-        <p>{{ twewyart.details }}</p>
+        <p>{{ artwork.details }}</p>
     </details>
   </div>
   {%- endif -%}
@@ -41,11 +42,12 @@ layout: /layouts/art
   <div>
     <p>Posted on:</p>
     <ul>
-      {%- for item in twewyart.urls %}
+      {%- for item in artwork.urls %}
         <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
       {% endfor -%}
     </ul>
   </div>
-  <div><p>Originally posted on {{ twewyart.date }}.</p></div>
-  <div><a href="/art/twewy/">TWEWY</a></div>
+  <div><p>Originally posted on {{ artwork.date }}.</p></div>
+
+  <div><a href="/art/persona5/">Persona 5</a></div>
 </div>

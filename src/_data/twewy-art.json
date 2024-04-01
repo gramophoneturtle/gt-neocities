@@ -6,7 +6,7 @@
     "characters": "Father",
     "date": "2024-03-23",
     "dateYear": "2024",
-    "unique-url": "2024-03-23-Win 11 Pai",
+    "uniqueUrl": "2024-03-23-Win 11 Pai",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -91,7 +91,7 @@
     "characters": "Joshua, Father, Null, Chisa",
     "date": "2023-10-22",
     "dateYear": "2023",
-    "unique-url": "2023-10-22-There was ",
+    "uniqueUrl": "2023-10-22-There was ",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -140,7 +140,7 @@
     "characters": "Joshua",
     "date": "2022-09-22",
     "dateYear": "2022",
-    "unique-url": "2022-09-22-Shibuya Fi",
+    "uniqueUrl": "2022-09-22-Shibuya Fi",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -174,7 +174,7 @@
     "characters": "Kubo",
     "date": "2021-11-20",
     "dateYear": "2021",
-    "unique-url": "2021-11-20-Kubo, High",
+    "uniqueUrl": "2021-11-20-Kubo, High",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -213,7 +213,7 @@
     "characters": "Joshua, Shiki",
     "date": "2021-07-24",
     "dateYear": "2021",
-    "unique-url": "2021-07-24-PERCEIVE M",
+    "uniqueUrl": "2021-07-24-PERCEIVE M",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -242,6 +242,85 @@
         "id": 2,
         "url": "https://64.media.tumblr.com/27f66f5ffa2ad9f1b9d85205e68dc77b/44b9d4e8ff48ead9-3a/s2048x3072/07cdc99f48ac4fb0db89677dcd7e28ba76f2db8f.png",
         "alt": "Art of the real Shiki Misaki from The World Ends With You, smiling with black paint crossing out her eyes with the words \"PERCEIVE ME\" in white over it. There are Mr. Mew - black cats - heads in the background with some layered over top of her."
+      }
+    ]
+  },
+  {
+    "title": "It felt like something was missing.",
+    "summary": "From the Point of Origin by on AO3, part of the Learning Curve series.",
+    "details": "https://archiveofourown.org/works/26092309, https://href.li/?https://archiveofourown.org/series/1888963",
+    "characters": "Hanekoma, Minamimoto",
+    "date": "2021-07-01",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-07-01-It felt li",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/655522952095399936/"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4552919"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kougl54vzk26"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/5332904-it-felt-like-somethi"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "https://64.media.tumblr.com/d03d4837e6ed2138aa9f6c64b1b77d39/0d800775160d95f3-18/s2048x3072/b4ab00a37352089456f10c845baf9abff1776998.png",
+        "alt": "A comic of Sho talking with Hanekoma in the cafe. \u201cYeah, whatever, dad\u2026\u201d  Sho freezes once he realizes what he's said.  \nHanekoma is in front of him. \u201cWhat...did you call me?\u201d Sho berates \nhimself but is cut off."
+      },
+      {
+        "id": 2,
+        "url": "https://64.media.tumblr.com/ee7ff319d8cf4792ae1454480eb5ef63/0d800775160d95f3-f0/s2048x3072/c45591f88107036a5cbbf93ba788331701218006.png",
+        "alt": "The comic comtinues and Hanekoma hugs Sho tightly and Sho slowly returns the hug, both of them smiling, hugging and happy."
+      }
+    ]
+  },
+  {
+    "title": "What if they were\u2026Partners?",
+    "summary": "Inspired by Necrology on AO3!",
+    "details": "This went from \u201chey this is a super cool idea and maybe they became friends\u201d to \u201coh wait if we include canon stuff\u2026 does Megumi not remember Joshua????\u201d and then here was this comic! Also thought that this is another reason why Joshua gave Megumi a chance to fix Shibuya because he wanted to trust his old partner one last time. Lots to play around with in this AU.",
+    "characters": "Joshua, Kitaniji",
+    "date": "2021-05-27",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-05-27-What if th",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/652360778155966464"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4544564"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/5304491-what-if-they-were-pa"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "https://64.media.tumblr.com/435a19ca01a8b75ba2a7b3b098eab4a7/2ec00b9a883c64e0-2c/s2048x3072/64d08802f560ab8180443c1c02d8ac7d5fda9af4.png",
+        "alt": "Joshua celebrates Megumi and him winning the Reapers Game and becoming the Conductor and Composer, but slowly realizes that Megumi doesn't remember who Joshua is. It concerns Joshua."
+      },
+      {
+        "id": 2,
+        "url": "https://64.media.tumblr.com/e7bd6711c39039407a2c376c359b1dbe/2ec00b9a883c64e0-a5/s2048x3072/729479be65ca7316b09f6b9cede6206ce4d0a6e5.png",
+        "alt": "It had taken Joshua by surprise that Megumi had offered to help before he had asked. But now, with Megumi treating him not only as a stranger, but as someone far him, it breaks Joshua's heart and his hand trembles."
+      },
+      {
+        "id": 3,
+        "url": "https://64.media.tumblr.com/349441ffa43d216ed0eb114c3320715e/2ec00b9a883c64e0-e3/s2048x3072/9d6198d8568fb4287e9cae30e20e7a50b3bfe693.png",
+        "alt": "It had taken Joshua by surprise that Megumi had offered to help before he had asked. But now, with Megumi treating him not only as a stranger, but as someone far him, it breaks Joshua's heart."
       }
     ]
   },
@@ -331,7 +410,7 @@
     "characters": "Joshua",
     "date": "2021-03-24",
     "dateYear": "2021",
-    "unique-url": "2021-03-24-Anime styl",
+    "uniqueUrl": "2021-03-24-Anime styl",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -365,7 +444,7 @@
     "characters": "Joshua",
     "date": "2020-11-17",
     "dateYear": "2020",
-    "unique-url": "2020-11-17-Accessoriz",
+    "uniqueUrl": "2020-11-17-Accessoriz",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -399,7 +478,7 @@
     "characters": "Joshua, Kitaniji",
     "date": "2020-10-12",
     "dateYear": "2020",
-    "unique-url": "2020-10-12-Take my ha",
+    "uniqueUrl": "2020-10-12-Take my ha",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -433,7 +512,7 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-09-28",
     "dateYear": "2020",
-    "unique-url": "2020-09-28-For you",
+    "uniqueUrl": "2020-09-28-For you",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -457,6 +536,33 @@
         "id": 1,
         "url": "https://64.media.tumblr.com/523338e0121fc925f58dd87c05341169/fe976360e310354b-1b/s1280x1920/5b22096fdf3e7703e094b2e1c056fef32870b0e2.png",
         "alt": "Art of Yoshiya Joshua Kiryu and Sanae Hanekoma from The World Ends With You. Joshua is handed a glowing. semi-transparent feather, who is wearing a spider lily jacket. Joshua is surprised as he accepts it. Hanekoma is wearing a light tan jacket and is smiling warmly."
+      }
+    ]
+  },
+  {
+    "title": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
+    "summary": "Visiting a world with a TWEWY Bad End. Context and thoughts below.",
+    "details": "Our main game Joshua hops to a parallel world and meets a Neku who did take the shot\u2026and now this Composer Neku is about to get a lesson on parallel worlds. Why doesn\u2019t he know about them already? Maybe there\u2019s enough on his plate being a new Composer and having Shibuya handed off to him in a poor state\u2026and his own mental state isn\u2019t great. Or maybe he does know and he\u2019s in denial that his world\u2019s Joshua isn\u2019t actually gone\u2026 Something like that.\n\nThe Composer form changing colours makes it more fun to draw. What Joshua summons are intended to be something like (dragon) claw noise(?). It catches the fire like when he caught the bullets in the RG. Just something to play with it. (And it looks pretty)",
+    "characters": "Joshua, Neku",
+    "date": "2020-08-04",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-08-04-\"Life\u2019s li",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/625564831349719040"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "https://64.media.tumblr.com/d3990c0f92d39e31dc344d55c3d66457/f9fb26c22d18977e-d6/s1280x1920/58ca53ba4b4821266a666f1f9b676f2016a6f7db.png",
+        "alt": "Joshua from The World Ends With You examines the Room of Reckoning and a glowing fiery figure appears from behind him, throwing a fireball at him. Joshua catches it with a purple claw/flower like summon."
+      },
+      {
+        "id": 2,
+        "url": "https://64.media.tumblr.com/d3990c0f92d39e31dc344d55c3d66457/f9fb26c22d18977e-d6/s1280x1920/58ca53ba4b4821266a666f1f9b676f2016a6f7db.png",
+        "alt": "Joshua tries to reassure the attacking Composer but the Composer yells back at Joshua, angry that Joshua is here. The Composer explains that he erased Joshua last Game, and his appearance becomes more clear and is revealed to be Neku Sakuraba."
       }
     ]
   },
@@ -506,7 +612,7 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-06-19",
     "dateYear": "2020",
-    "unique-url": "2020-06-19-Josh, wait",
+    "uniqueUrl": "2020-06-19-Josh, wait",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -540,7 +646,7 @@
     "characters": "Joshua",
     "date": "2020-05-26",
     "dateYear": "2020",
-    "unique-url": "2020-05-26-Do Not #TW",
+    "uniqueUrl": "2020-05-26-Do Not #TW",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -589,7 +695,7 @@
     "characters": "Joshua",
     "date": "2020-04-18",
     "dateYear": "2020",
-    "unique-url": "2020-04-18-Been meani",
+    "uniqueUrl": "2020-04-18-Been meani",
     "urls": [
       {
         "sitename": "Tumblr",
