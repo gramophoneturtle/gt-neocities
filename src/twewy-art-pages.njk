@@ -14,11 +14,10 @@ layout: /layouts/art
 <div>
   <div>
   {%- for item in twewyart.imgs %}
-    <p>
+    <div class="artwork">
       <img src="{{ item.url }}"
-        alt="{{ item.alt }}" 
-        style="width: 600px; height:auto;">
-    </p>
+        alt="{{ item.alt }}">
+    </div>
     <details>
       <summary>ALT</summary>
       <p>{{ item.alt }}</p>

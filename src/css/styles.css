@@ -132,3 +132,13 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
+
+
+/* || ARTWORK */
+.artwork {
+  margin: 1rem 0rem;
+  padding: 5px;
+  border: solid var(--border) 1px;
+  border-radius: 5px;
+  font-style: italic; /* affects the alt text if image is not fouond. */
+}
