@@ -13,6 +13,10 @@ file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
 
 
+date_column_name = "Earliest Date"
+max_num_images = 6
+
+
 # functions
 def make_img_list(_row: pandas.Series) -> list:
     '''
@@ -20,26 +24,50 @@ def make_img_list(_row: pandas.Series) -> list:
     '''
     img_list = [] 
 
-    for i in range(1, 5):
+    for i in range(1, max_num_images+1):
+        # init
+        kay_img = 'IMG {0}'.format(i)
+        key_alt = 'ALT {0}'.format(i)
+        artwork_id = _row['Artwork'].replace("\n","")[0:40]
+        
         # guards
         # if there is no more images, we don't need to continue
-        if _row['IMG {0}'.format(i)] == "" and _row['ALT {0}'.format(i)] == "" :
+        if _row[kay_img] == "" and _row[key_alt] == "" :
             break
 
         # if there is no image - warn
         if _row['IMG {0}'.format(i)] == "":
-            print("Img URL missing: |{0}| for #{1}".format(_row['Artwork'].replace("\n","")[0:40], i))
+            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i))
             continue
 
         # if there is an image, but no alt text - warn
         if _row['IMG {0}'.format(i)] != "" and _row['ALT {0}'.format(i)] == "":
-            print("Alt text missing! |{0}| for #{1}".format(_row['Artwork'].replace("\n","")[0:40], i))
+            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i))
             continue
 
+        test_url = get_img_url(_row, kay_img)
+        # make sure we don't have the src directory - might get included by accident!
+        if "src" in test_url:
+            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            test_url = test_url.replace("src","")
+
         # we have an image and alt text - good to add
-        img_list.append({'id': i, 'url': _row['IMG {0}'.format(i)],'alt': _row['ALT {0}'.format(i)]})
+        img_list.append({'id': i, 'url': test_url,'alt': _row[key_alt]})
 
     return img_list
+
+def get_img_url(rw, st_nm) -> str:
+    return_url = ""
+
+    list_of_urls = rw[st_nm]
+
+    urls = list_of_urls.split(";")
+    # split by ;
+    # get the first/0th url and return the string
+
+    return_url = urls[0]
+
+    return return_url
 
 def make_url_dict(mydataframe: pandas.DataFrame) -> list:
     return_list = []
@@ -54,9 +82,9 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
             'details': row['detail'],
             'characters': row['characters']
         }
-        artwork_dictionary['date'] = row['Tumblr Date']
-        artwork_dictionary['dateYear'] = row['Tumblr Date'][0:4]
-        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row['Tumblr Date'],row['Artwork'].replace("\n","")[0:10])
+        artwork_dictionary['date'] = row[date_column_name]
+        artwork_dictionary['dateYear'] = row[date_column_name][0:4]
+        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","")[0:10])
 
         if row['title'] == "":
             print("Title is missing for |{0}|".format(row['Artwork'].replace("\n","")[0:40]))
@@ -109,15 +137,19 @@ def main(sheet_name, file_path_output):
     excel_data_df = pandas.read_excel(
         file_path_input,
         sheet_name=sheet_name,
-        usecols=['Artwork', 'NS?',
-                'Tumblr URL','Tumblr Date',
-                'Pillowfort URL','Pillowfort Date',
-                'Bluesky URL','Bluesky Date',
-                'Cohost URL', 'Cohost Date',
-                'ALT 1','ALT 2','ALT 3','ALT 4',
+        usecols=['Artwork', 'NS?', "Earliest Date",
+                'Tumblr URL',
+                'Tumblr Date',
+                'Pillowfort URL',
+                'Pillowfort Date',
+                'Bluesky URL',
+                'Bluesky Date',
+                'Cohost URL', 
+                'Cohost Date',
+                'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6',
                 'characters','fandom','PF tags',
                 'title','summary','detail',
-                'IMG 1','IMG 2','IMG 3','IMG 4']
+                'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6']
         )
 
     # only get nightshaded artworks
@@ -132,9 +164,9 @@ def main(sheet_name, file_path_output):
     #https://stackoverflow.com/questions/49243736/how-do-i-handle-object-of-type-timestamp-is-not-json-serializable-in-python
     # '%Y-%m-%d' -> yyyy-MM-dd
     # ex: Timestamp('2024-03-23 00:00:00') -> '2024-03-23' for Fathers using Windows 11 Paint  
-    nightshadeOnly['Tumblr Date'] = nightshadeOnly['Tumblr Date'].dt.strftime('%Y-%m-%d')
+    nightshadeOnly[date_column_name] = nightshadeOnly[date_column_name].dt.strftime('%Y-%m-%d')
 
-    nightshadeOnly.sort_values(by=["Tumblr Date"], inplace=True, ascending=False)
+    nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
     print("\n2. Processing DataFrame.\n")
     # Convert DataFrame to JSON
