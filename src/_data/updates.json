@@ -1,5 +1,10 @@
 [
     {
+        "PostDate": "2024-04-01",
+        "Art": "TWEWY: Not Your Joshua, You're Shibuya's Composer Now, Composer Neku's RG Appearance",
+        "Site": "Reduced sized of art grid cells and spacing slightly. Added dotted line below Year. TWEWY Character filter header has less bottom spacing."
+    },
+    {
         "PostDate": "2024-03-31",
         "Art": "TWEWY: A Supportive Trans Parent",
         "Site": "Borders around artwork. Italized alt text - will appear italized when image is not found. Cleaned up some titles."

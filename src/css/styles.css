@@ -91,12 +91,12 @@ nav a:last-child {
 
 /* Add a little padding to ensure spacing is correct between content and nav */
 main {
-  padding-top: 1.5rem;
+  padding-top: 0rem;
 }
 
 body > footer {
-  margin-top: 4rem;
-  padding: 1rem 1rem 1rem 1rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
   color: var(--text-light);
   font-size: 0.9rem;
   text-align: center;
@@ -158,9 +158,7 @@ a:hover {
   font-style: italic;
   border-top: 2px dashed var(--accent);
   padding-top: 0.5rem;
-
 }
-
 
 /* || ARTWORK */
 .artwork {

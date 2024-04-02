@@ -3,6 +3,13 @@
     float: left;
     display: block;
     width: 100%;
+    margin-bottom: 2px;
+ }
+
+ .boxheader > h1, h2, h3 {
+    padding-bottom: 0.5rem;
+    margin: 2rem 0rem 1rem 0rem;
+    border-bottom: 2px dashed var(--accent);
  }
 
  /* Clear floats after rows */
@@ -27,12 +34,14 @@
 /* Create three equal columns that floats next to each other */
 .characters {
     float: left;
-    margin: 6px;
-    width: 12rem;
-    height: 12rem;
+    margin: 3px;
+    width: 10.75rem;
+    height: 10.75rem;
     display: none; /* Hide columns by default */
     border: 4px dashed #995890;
+    font-size: medium;
 }
+
   
 /* Clear floats after rows */
 .row:after {
@@ -43,7 +52,7 @@
 
 /* Content */
 .content {
-    padding: 10px;
+    padding: 0.5rem;
     display: grid;
 }
 
@@ -87,6 +96,10 @@
 .smallpadding {
     padding: 0.5rem 0rem;
     margin: 0rem;
-    font-size: medium;
+    font-size: small;
 }
 
+.buttonHeader {
+    margin-bottom: 0.5rem;
+
+}
