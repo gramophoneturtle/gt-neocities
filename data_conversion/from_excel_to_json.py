@@ -54,7 +54,7 @@ def make_img_list(_row: pandas.Series) -> list:
         # make sure it's at root if not using https
         if "https" not in test_url and '\\' != test_url[0:1]:
             print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
-            test_url += "\\" + test_url
+            test_url = "\\" + test_url
 
         # we have an image and alt text - good to add
         img_list.append({'id': i, 'url': test_url,'alt': _row[key_alt]})
