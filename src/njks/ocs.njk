@@ -10,7 +10,6 @@ permalink: "ocs/{{ ocs.Name | slugify }}/"
 layout: /layouts/base
 ---
 <nav>{% include 'partials/navigation_ocs.njk' %}</nav>
-
 <h1>{{ ocs.Name }}</h1>
 <details>
   <summary>Contents</summary>
@@ -33,11 +32,11 @@ layout: /layouts/base
   {%- endif -%}
 
   {%- if ocs.Role %}
-    <p>Currently: {{ ocs.Role }}</p>
+    <p>Current Position: {{ ocs.Role }}</p>
   {%- endif -%}
 
   {%- if ocs.PreviousRoles %}
-    <p>Previously: {{ ocs.PreviousRoles }}</p>
+    <p>Previous Positions: {{ ocs.PreviousRoles }}</p>
   {%- endif -%}
 
   <p>Pronouns: {{ ocs.Pronouns }}</p>

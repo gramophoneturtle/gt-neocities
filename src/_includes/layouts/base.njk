@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="/css/filterByTag.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ twewyart.title if twewyart.title else title}}</title>
+    <title>
+      {% include 'partials/title.njk' %}
+    </title>
   </head>
   <body>
     <header>
@@ -17,7 +19,7 @@
     </header>
 
     <main>
-        <h1>{{ twewyart.title if twewyart.title else title}}</h1>
+        <h1> {% include 'partials/title.njk' %}</h1>
         {{ content | safe }}
     </main>
 

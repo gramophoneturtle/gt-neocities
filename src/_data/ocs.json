@@ -1,7 +1,9 @@
 [
     {
+        "title": "Father",
         "Name": "Father",
-        "Title": "Father",
+        "Role": "Father, Angel",
+        "PreviousRoles": "Condutor(?), Reaper, Human",
         "Pronouns": "He/him",
         "GenderIdentity": "Man",
         "Orientation": "Gay aromantic & asexual",
@@ -78,8 +80,9 @@
         ]
     },
     {
+        "title": "Mother",
         "Name": "Mother",
-        "Title": "Mother",
+        "Role": "Mother, Angel",
         "ActualName": "Reia (IDK about a last name, but that's at least her \"Allowed\" Name.)",
         "Pronouns": "She/her (currently)",
         "GenderIdentity": "Genderfluid - but on a very long time scale.",
@@ -169,6 +172,7 @@
         ]
     },
     {
+        "title": "Null",
         "Name": "Null",
         "ActualName": "[Nothing]",
         "Role": "Reseacher, Fallen",

@@ -1,0 +1,9 @@
+{%- if twewyart.title -%}
+    {{ twewyart.title }}
+{%- elif ocs.title -%}
+    {{ ocs.title }}
+{%- elif artwork.title -%}
+    {{ artwork.title }}
+{%- else -%}
+    {{ title }}
+{%- endif -%}
