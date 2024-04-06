@@ -12,10 +12,8 @@ filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
 
-
 date_column_name = "Earliest Date"
 max_num_images = 6
-
 
 # functions
 def make_img_list(_row: pandas.Series) -> list:
@@ -192,3 +190,5 @@ if __name__ == '__main__':
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
     # main('Other', file_path_output)
+
+

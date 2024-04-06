@@ -1,0 +1,258 @@
+[
+    {
+        "Name": "Father",
+        "Title": "Father",
+        "Pronouns": "He/him",
+        "DOB": "February 13",
+        "NoiseAffinity": "Jellyfish",
+        "Likes": ["Cats"],
+        "Dislikes": ["Backstabbers", "Flimsy Trust (idk the term I'm looking for)"],
+
+        "Apparent Age": "",
+
+        "Relationships": [
+            {
+                "Name": "Reia (Mother)",
+                "Description": "(Working on it)"
+            },
+            {
+                "Name": "Null",
+                "DescriptionList": [
+                    "It's short and simple, really."
+                    ,"They constantly withheld vital information from him. They clearly don't trust him."
+                    ,"From the very beginning. That Player mission that was secretly from the Composer. Having the option to reincarnate ripped from his hands. (He could decide for himself!!)"
+                    ,"Null deserved their punishment (not death, never death, he still needed - no, would have liked - for his Composer to <em>learn</em>) for not taking responsibility for looking after \"Their Lovely Reaper Family\". What nonsense. How high and mighty must you be to ignore the dissent among your so-called Reaper Family? Literally, open your senses! You already know the outcome of literally covering your eyes to reality."
+                    ,"How fitting did you feel it was that you removed your ridiculous bandages after you almost got erased! Did you think I would praise you for finally growing up a little bit?"
+                    ,"How I wish I could have hidden those defeated green eyes when I saw them. I take back what I said.You should grow your hair out longer so I don't have to see them again."
+                    ,"Was it just a Game to you? Since when did you actually care? It truly comes down to ability doesn't it? Even if you think someone is worth your time, their Judgement Time will always come, won't it?"
+                    ,"You'll send them on some sort of \"Mission\" to prove themselves. Or complete <em>something</em> risky. Reapers already had to survive on other Souls. You really had to push our limits in hopes that we could become Good Angel Souls, right?"
+                    ,"Null guided him for their own gain. He was just another \"Investment\" that a supposedly once special Composer was allowed to wrap up even though they were Fallen. What worth does he actually have, if Null influenced his path to Ascension?"
+                    ,"How much did Null influence him? How much of him is actually him?"
+                    ,"He hates him. What else is there to say? Obviously."
+                    ,"And them bringing back Chisa? Oh how could he even <em>entertain</em> half a thought that it was making amends! What a lie. Besides, he doesn't want <em>Null's</em> help! He left for a good reason. If you've been paying attention."
+                    ,"No. No, it was not difficult to find the details of Null's research. If Null can successfully restore Chisa's Soul and have her adjust to the life of her choosing without any major abnormalities - (Not thinking about that. (It's her choice.) <em>Her's.</em>) -  If Null succeeds in <em>that</em>, then you know they get out of it?"
+                    ,"They get their Fallen status removed and will be Blessed once again with a name. So why wouldn't they pick a Soul that would be easy for them? They probably planned it all out, long ago, when they temporary \"suppressed\" my memories of Chisa back then. They already started figuring out what key information they would need to piece together her Soul and restore her from the Void."
+                    ,"If you call \"Suppression\" stealing away one's memories. Guess who found about that later after being told something different before then, hmm?"
+                    ,"Anyways, with that, I'm sure their old partners will come flocking back to them. Oh how they've missed them so! It's not hard to sense. That loneliness. Being abandoned by ones you thought actually cared for you."
+                    ,"You would accept them once again, even though they left you once before? Understandable. If they couldn't handle the dissonance of addressing you by a Name instead of by a Status... Even Chisa can manage it."
+                    ,"You want a name. For youself, and for everyone else."
+                    ,"Go on. Finish your experiment and then finally leave me alone. How dare you bring Chisa back into my life, knowing that she could be ripped away so easily?"
+                ]
+            }
+        ],
+
+        "Inspirations": [
+            {
+                "Name": "NEO Equipment",
+                "Source": "NEO: TWEWY",
+                "Image": "Todo-HasTheShoesAndCoat",
+                "AltText": "Sneaker-Sandals and That Tassel Cardigan",
+                "Description": "In comparison to Mother's well dressed self, Father is the opposite. A Fashion Disaster Angel who takes Hazuki's comfy outfit style and dials it up and breaks it along the way."
+            },
+            {
+                "Name": "That Orange Coat",
+                "Source": "that Website",
+                "Image": "Todo",
+                "AltText": "Thet Cool Coat",
+                "Description": "Patchy. Orange. Just went chaos with it"
+            },
+            {
+                "Name": "NEO Days of the Week",
+                "Source": "NEO: TWEWY",
+                "Image": "Todo",
+                "AltText": "That self made days of the week",
+                "Description": "It's rainbow but something is <em>off</em>."
+            },
+            {
+                "Name": "Do I or Don't I?",
+                "Source": "Tumblr",
+                "SourceURL": "https://gramoturtle.tumblr.com/post/728459753785901056/",
+                "Image": "https://64.media.tumblr.com/3e3913d5ee32e7efc4a4eb95dc72f940/tumblr_ojc05a8mls1ufsa17o1_1280.png",
+                "AltText": "A direct message from the other user saying, \"Hi! You have great eyes, I can't seem to get rid of them.\"",
+                "Embed": " <div class=\"tumblr-post\" data-href=\"https://embed.tumblr.com/embed/post/47YzTkpOPysra817M03OaQ/728459753785901056\" data-did=\"7f811695fdabc48cd72ad2cc048ab147c57568fc\"><a href=\"https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by\">https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by</a></div>  <script async src=\"https://assets.tumblr.com/post.js\"></script>",
+                "AltText": "Hi! You have great eyes, I can't seem to get rid of them.",
+                "Description": "I don't think Father would say this exactly to Null, but Father just so happens to give Null mixed messages about whether Father likes Null in <em>any</em> capacity or really does hate their Soul. <p> The answer is both really. It's Complicated. (If the two of them would Trust each other and just Be Honest and Listen...)"
+            }
+        ]
+    },
+    {
+        "Name": "Mother",
+        "Title": "Mother",
+        "ActualName": "Reia (IDK about a last name, but that's at least her \"Allowed\" Name.)",
+        "Pronouns": "She/her (currently)",
+        "GenderIdentity": "Genderfluid - but on a very long time scale.",
+        "Orientation": "Aromantic, asexual",
+        "NoiseAffinity": "Big powerful creature with claws - like a bear. Might be a little sharper than average.",
+        "DOB": "",
+        "Likes": ["Tea", "Birds"],
+        "Dislikes": [ "Physical contact, even through clothes. A thick blanket would be required, if you would even dare." ],
+        "Pyschs": "Lightning, [REACTED]",
+        "Apparent Age": "",
+        "ImageHeader": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
+        "ImageHeaderAltText": "A black and white image of a woman with a short ponytail and a suit, has a man lying beneath her. A circular light source shines from above her head, looking like a halo.",
+        "Inspirations": [
+            {
+                "Name": "Deus",
+                "Source": "Asura's Wrath",
+                "Image": "Todo",
+                "AltText": "Pretend there is a cool image of Deus using his black and white lighting powers.",
+                "Description": "There is a certain kinda of command *power* that he has that I wanted her to have. And even though I haven't really drawn Mother with. Maybe black and white lighting isn't unique but this is the first time I've seen it, and I'm drawing to black and white patterns."
+            },
+            {
+                "Name": "Titania",
+                "Source": "Fire Emblem: Path of Radiance, Fire Emblem: Radiant Dawn",
+                "Image": "Todo",
+                "AltText": "",
+                "Description": "Visually and personality wise she's not like Titania but I've always wanted to have a powerful, cool and respectable femme character liek Titania. You would think it wouldn't be so hard to find, and yet! <br> When designing Mother and Father, I wanted her to be the formal and well dressed one. A Super Proper Angel like the rest of them. We've only had masculine-ish Angels so far and I wanted a femme Angel to also follow the well dressed-ish manner. Even the \"rule of femme\", it wouldn't surprise me if we do get one cannonically, she would end up like Konishi or Ayano. There's no problem with those sorts of designs but it's just. So. Often. "
+            },
+            {
+                "Name": "Lab Coats",
+                "Source": "",
+                "Image": "Todo",
+                "AltText": "Lab coats!",
+                "Description": "Angels being like scientists? Hecking yeah. Mother's white themeing and white jacket is like a lab coat. Her jacket hanging off her shoulders are (like) her wings."
+            }
+        ],
+        "Relationships": [
+            {
+                "Name": "Father",
+                "DescriptionList": [
+                    "Her co-worker. Source of lower plane knowledge. Plane-mate. Friend. Respectful of boundaries. Does not question her oddities. Does not question his oddities.",
+                    "A contradiction of himself. Searching for his answers in her Soul. A pointless quest. Yet it helps her understand her own self.",
+                    "But not his own self. He will need to look upon his own Soul. He will need to undo the locks on his own Soul or it will stagnate.",
+                    "He is too amusing to fall apart into nothing. So she helps him where she can. She recognizes she could never solve his problems - only he can ultimately do that.",
+                    "But she will support him. Support him until it causes his own self destruction or to the others.",
+                    "She will not lose anyone again if she can help it."
+                ]
+            },
+            {
+                "Name": "Hazuki Mikagi",
+                "DescriptionList": [
+                    "One of her Creations. [WIP]"
+                ]
+            },
+            {
+                "Name": "Her Creator",
+                "DescriptionList": [
+                    "We don't talk about -"
+                ]
+            }
+        ],
+
+        "Sections": [
+            {
+                "Order": 1,
+                "Header": "Present",
+                "SubSections": [
+                    {
+                        "Text": "She's the Mother of the Tokyo (and perhaps the surrounding) region.",
+                        "Image": "",
+                        "ImagePlacement": ""
+                    }
+                ]
+            },
+            {
+                "Order": 2,
+                "Header": "Background",
+                "SubSections": [
+                    {
+                        "Text": "[REDACTED]"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Null",
+        "ActualName": "[Nothing]",
+        "Role": "Reseacher",
+        "PreviousRoles": "Composer",
+        "Pronouns": "They/he",
+        "GenderIdentity": "Non-binary. I could say trans but I don't know if they were born a human, and therefore would be trans, or they were born as an Angel and <em>could maybe</em> have been \"born\" non-binary.",
+
+        "Orientation": "I'm gonna say pan or bi romantic and sexual <em>but</em> they are also probably grey romantic and sexual because I can't wrap my head around alloromantic and allosexual orientations. I thought I could for Null but it's hard to figure out their attractions otherwise. Not that I think it's necessary but it just makes my life easier.",
+        
+        "NoiseAffinity": "Something very branching, webbing and tree like.",
+        "DOB": "October 22? - is the original comic posted date",
+        
+        "Likes": ["Strawberry-banana ice cream", "Floral patterns"],
+        "Dislikes": ["Childish behaviour idk working on it"],
+        "Apparent Age": "",
+        
+        "Inspirations": [
+            {
+                "Name": "Kisuke Urahara",
+                "Source": "Bleach",
+                "Image": "https://dw9to29mmj727.cloudfront.net/products/1591167280.jpg",
+                "AltText": "Bleach Volume 6",
+                "Description": "<p>I don't remember much about Bleach. I read up until they went to rescue Rukia (I think that happened). If it happens multiple times then the first \"big\" one I guess. There was conflict again her brother? I think?<p> Anyways I don't really remember the plot BUT you can probably see from this guy's appearance where I wanted to have Null have their eyes covered, the shorter hair, the jacket flowing outwards, and keeping some traditional clothing in the modern day. I even debated giving Null a hat but I couldn't think of what to give them."
+            },
+            {
+                "Name": "",
+                "Source": "japansesfashioninferno @ Tumblr",
+                "Image": "https://64.media.tumblr.com/0f51bb2797d66282840723a5e3fb854e/218124ed10bbcdcb-83/s2048x3072/d310b298d5824b76d2606a46e28b3d65b5a9ecdd.jpg",
+                "AltText": "The one on the left with that long black jacket, the arm gloves, the loose pants, the black boots.",
+                "SourceURL": "<a href=\"https://gramoturtle.tumblr.com/post/727061035323949056\">https://gramoturtle.tumblr.com/post/727061035323949056</a>",
+                "Embed": " <div class=\"tumblr-post\" data-href=\"https://embed.tumblr.com/embed/post/47YzTkpOPysra817M03OaQ/727061035323949056\" data-did=\"a2a8371610f079dc935f3bca3451dcac017950d7\"><a href=\"https://gramoturtle.tumblr.com/post/727061035323949056\">https://gramoturtle.tumblr.com/post/727061035323949056</a></div>  <script async src=\"https://assets.tumblr.com/post.js\"></script>",
+                "Description": "The one on the left with that long black jacket, the arm gloves, the loose pants, the black boots. Yeah."
+            }
+        ],
+        "Relationships": [
+            {
+                "Name": "Nanashi (Father)",
+                "Description": "There is. A. Lot. Of history."
+            },
+            {
+                "Name": "Whoever the frick their Conductor was.",
+                "Description": "Was, I'm pretty sure. Whatever pronouns their Conductor had, I think at some point they replaced by Reaper!Father. And...I think it might not be because of entirely Natural Reasons shall we say. Reaper!Father was looking for opportunies for rise up at the time, I believe. <p> But while they were around, they understood Null fairly well. They were one of the few Reapers that understood the full serverity of what Null had done during The Incident and the consequences. They were a lower plane being Null would spend quiet hours with, hours at a time, sometimes where there were long periods of silence. Especially after The Incident and they had, either intuited or Null told them, that Null had lost all their partners except for one. <p> The Conductor was not one of Null's partners, but perhaps, if Null did not had a strict rule of not getting intimate with lower plane beings (maybe it was also a higher plane rule or something that other Angels might judge others on), the Conductor could have been one of their partners. <p> The Conductor was one of the Reapers that caught onto Null's crush of Reaper!Father and chose to gently keep and extra eye on Reaper!Father because of that. Since The Conductor was aware for Null's restrictions for lower plane relationships, the Conductor never addressed Null's crush outside of trying to gently make sure Null was aware of them having a crush in the first place. <p> It was also the Conductor's judgement to not have Reaper!Father erased during the Incident when he tried to tear the planes apart where Reaper!Father's daughter, Chisa, vanished. They knocked the Reaper out and personally kept a close on him and monitored his waking moments and tried to calm him down while Null was away."
+            },
+            {
+                "Name": "Reia (Mother)",
+                "Description": "Null doesn't know much about her, but she is the first Angel they've met who can pronounce his [Nothing] of a name om such a way that makes the Dissonance almost <em>pleasant</em>. They can tell they shouldn't ask about her past - there is a strong Force of <em>Do Not Ask For You Will Not Find Answers</em>. <p> Null is intrigued by how differently she handles Nanashi and how honestly Nanashi communicates with her. He can't help but feel a little jealously. They accept Reia's sympathy, because for how well she gets along with their Nanashi, she's aware how grating he can be, and can sense he is not handling himself well and needs help healing. Healing that she can't entirely help on her own."
+            }
+        ]
+    },
+    {
+        "Name": "Chisa",
+        "Pronouns": "She/her",
+        "DOB": "",
+        "Likes": [
+            "Her Family", 
+            "Her scarf", 
+            "Humans, the lower planes"
+        ],
+        "Dislikes": [
+            "Cats (a rivalry, one could say)", 
+            "Reading minds"
+        ],
+
+        "Apparent Age": "",
+        "Relationships": [
+            {
+                "Name": "Father (Angel)",
+                "Description": "(We all know and love him. WIP.)"
+            },
+            {
+                "Name": "Null-Ren (Null)",
+                "DescriptionList": [
+                    "The one who fixed her Soul after it got Voided. Chisa kinda-sorta adopted Null as a new parent.",
+                    "The Void is a very lonely place, even when you're not alone.",
+                    "She loves Null-ren very dearly and is concerned that she's finding herself turn to them more than her actual Father (Angel) when she's really distressed. In some ways she's found them to be a replacement of when Father was a human, but in some ways, gives her more independance, and in other ways, a bit <em>too</em> overprotective, but not in an outright way.",
+                    "She is able to pick up both that Null-ren loves Father and can get so frustrated with him. (She gets that too, it's so painful. She hates it. They both understand it. It's a shared pain they wish they didn't have in common.)",
+                    "She slowly grew to love the possibility of having a new family - of Null-ren and Father - Angel Father - be her new parents. But Null-ren has been gently telling her to let that go - they've both seen how her Father is.",
+                    "Besides, Null-ren tells her, she can still have two parents now. They're just separate. And there's nothing wrong with that. They both love her, and they are, generally, working together to make sure Chisa is happy and looked after.",
+                    "It's not like they're actively trying to make each other miserable. (Debatable.)",
+                    "It's not what Chisa wants, but she grows to accept that."
+                ]
+            },
+            {
+                "Name": "Father (Human)",
+                "Description": "Even though many years have passed since her human Father was alive, she still loves and misses him. There may or may not be hard feelings toward him after Angel!Father passed away with how the family dyanamics changed."
+            },
+            {
+                "Name": "Younger brother",
+                "Description": "He was a very cool brother who got to live a full human life. Chisa is broken hearted that she missed seeing him grow up, but she is happy and proud of him."
+            }
+        ]
+    }
+]

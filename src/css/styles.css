@@ -14,6 +14,7 @@
   --border: #d8dae1;
   --accent: #0d47a1;
   --border-color: #461a40;
+  --dark-background: #a591a3;
 }
 
 /* Dark theme */
@@ -26,6 +27,7 @@
     --border: #666;
     --accent: #ffb300;
     --border-color: #995890;
+    --dark-background: #4e1d48;
   }
 }
 
@@ -47,7 +49,6 @@ body {
   line-height: 1.5;
   margin: 0 auto;
   max-width: 45em;
-  padding: 0 1em;
   grid-template-columns: 1fr min(45rem,90%) 1fr;
 }
 
@@ -166,5 +167,30 @@ a:hover {
   padding: 5px;
   border: solid var(--border) 1px;
   border-radius: 5px;
-  font-style: italic; /* affects the alt text if image is not fouond. */
+  font-style: italic; /* affects the alt text if image is not found. */
+}
+
+
+/* || OC NAV */
+.navoc {
+  background-color: var(--dark-background);
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  margin: 0 0.5rem 1rem 0.5rem;
+  border-radius: var(--standard-border-radius);
+  display: inline-block;
+}
+
+.navoc,
+.navoc:visited {
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.navoc:hover,
+.navoc.current,
+.navoc[aria-current="page"] {
+  border-color: var(--accent);
+  color: var(--accent);
+  cursor: pointer;
 }

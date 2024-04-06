@@ -1,0 +1,128 @@
+---
+tags:
+  - OCs
+pagination:
+    data: ocs
+    size: 1
+    alias: ocs
+    addAllPagesToCollections: true
+permalink: "ocs/{{ ocs.Name | slugify }}/"
+layout: /layouts/base
+---
+<nav>{% include 'partials/navigation_ocs.njk' %}</nav>
+
+<h1>{{ ocs.Name }}</h1>
+  <h2>General</h2>
+
+  
+  {%- if ocs.Title %}
+    <p>Title: {{ ocs.Title }}</p>
+  {%- endif -%}
+
+  
+
+  {%- if ocs.ActualName %}
+    <p>Actual Name: {{ ocs.ActualName }}</p>
+  {%- endif -%}
+
+  {%- if ocs.Role %}
+    <p>Current Role: {{ ocs.Role }}</p>
+  {%- endif -%}
+
+  {%- if ocs.PreviousRoles %}
+    <p>Current Roles: {{ ocs.RoPreviousRolesle }}</p>
+  {%- endif -%}
+
+  <p>Pronouns: {{ ocs.Pronouns }}</p>
+
+  {%- if ocs.GenderIdentity %}
+    <p>Gender: {{ ocs.GenderIdentity | safe }}</p>
+  {%- endif -%}
+
+  {%- if ocs.Orientation %}
+    <p>Orientation: {{ ocs.Orientation | safe }}</p>
+  {%- endif -%}
+
+  {%- if ocs.DOB %}
+    <p>Date of Birth: {{ ocs.DOB }}</p>
+  {%- endif -%}
+
+  {%- if ocs.NoiseAffinity %}
+    <p>Noise Affinity: {{ ocs.NoiseAffinity }}</p>
+  {%- endif -%}
+
+  {%- if ocs.Pyschs %}
+    <p>Pyschs: {{ ocs.Pyschs }}</p>
+  {%- endif -%}
+
+  {%- if ocs.ImageHeader %}
+  <div class="artwork">
+      <img 
+        src="{{ ocs.ImageHeader }}" 
+        alt="{{ocs.ImageHeaderAltText}}"/>
+  </div>
+  {%- endif -%}
+
+  <h2>Likes</h2>
+  <ul>
+      {%- for item in ocs.Likes %}
+      <li>{{ item }}</li>
+      {% endfor -%}
+  </ul>
+  <h2>Dislikes</h2>
+  <ul>
+      {%- for item in ocs.Dislikes %}
+      <li>{{ item }}</li>
+      {% endfor -%}
+  </ul>
+
+  <h2>Relationships</h2>
+  {%- for item in ocs.Relationships %}
+  <details>
+    <summary>{{ item.Name }}</summary>
+
+    {%- if item.Description %}
+    <p>{{ item.Description | safe }}</p>
+    {%- endif -%}
+
+    {%- for entry in item.DescriptionList %}
+      <p>{{ entry | safe }}</p>
+    {% endfor -%}
+  </details>
+  {% endfor -%}
+
+  <h2>Artwork</h2>
+  <ul>
+    {% for post in collections.twewyArt2 | reverse %}
+    {% set artworkCharacters = post.data.twewyart.characters %}
+      {% if ocs.Name in artworkCharacters  %}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.twewyart.title }}</a> 
+      </li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+
+  <h2>Inspirations</h2>
+  {%- for item in ocs.Inspirations %}
+  <details>
+    <summary>{{ item.Name }} from {{ item.Source }}</summary>
+    
+    {%- if item.Image %}
+      <img src="{{ item.Image }}" alt="{{item.AltText}}"/>
+    {%- endif -%}
+    
+    <p>{{ item.Description | safe }}</p>
+    
+    {%- if item.SourceURL %}
+      <p> 
+        <a href= "{{ item.SourceURL }}">Source</a> 
+        - 
+        <a href="{{ item.SourceURL }}" target="_blank" rel="noopener noreferrer">↗</a>
+      </p>
+    {%- endif -%}
+  </details>
+  {% endfor -%}
+
+  
+
