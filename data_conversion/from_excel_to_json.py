@@ -12,10 +12,8 @@ filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
 
-
 date_column_name = "Earliest Date"
 max_num_images = 6
-
 
 # functions
 def make_img_list(_row: pandas.Series) -> list:
@@ -90,6 +88,7 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         artwork_dictionary['date'] = row[date_column_name]
         artwork_dictionary['dateYear'] = row[date_column_name][0:4]
         artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","")[0:10])
+        artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
             print("Title is missing for |{0}|".format(row['Artwork'].replace("\n","")[0:40]))
@@ -143,14 +142,11 @@ def main(sheet_name, file_path_output):
         file_path_input,
         sheet_name=sheet_name,
         usecols=['Artwork', 'NS?', "Earliest Date",
+                 'Spoilers',
                 'Tumblr URL',
-                'Tumblr Date',
                 'Pillowfort URL',
-                'Pillowfort Date',
                 'Bluesky URL',
-                'Bluesky Date',
                 'Cohost URL', 
-                'Cohost Date',
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6',
                 'characters','fandom','PF tags',
                 'title','summary','detail',
@@ -192,3 +188,5 @@ if __name__ == '__main__':
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
     # main('Other', file_path_output)
+
+

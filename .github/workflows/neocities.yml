@@ -34,6 +34,7 @@ jobs:
       uses: bcomnes/deploy-to-neocities@v1
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: true
+        # would like the protected files to work but will figure it out later
+        cleanup: false
         dist_dir: public
         protected_files: '/img/*'
