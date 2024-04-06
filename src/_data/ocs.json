@@ -3,12 +3,16 @@
         "Name": "Father",
         "Title": "Father",
         "Pronouns": "He/him",
+        "GenderIdentity": "Man",
+        "Orientation": "Gay aromantic & asexual",
         "DOB": "February 13",
         "NoiseAffinity": "Jellyfish",
+        "Apparent Age": "20s, late 20s maybe.",
         "Likes": ["Cats"],
         "Dislikes": ["Backstabbers", "Flimsy Trust (idk the term I'm looking for)"],
 
-        "Apparent Age": "",
+        "ImageHeader": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
+        "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
 
         "Relationships": [
             {
@@ -40,7 +44,6 @@
                 ]
             }
         ],
-
         "Inspirations": [
             {
                 "Name": "NEO Equipment",
@@ -53,7 +56,7 @@
                 "Name": "That Orange Coat",
                 "Source": "that Website",
                 "Image": "Todo",
-                "AltText": "Thet Cool Coat",
+                "AltText": "That Cool Coat",
                 "Description": "Patchy. Orange. Just went chaos with it"
             },
             {
@@ -70,8 +73,7 @@
                 "Image": "https://64.media.tumblr.com/3e3913d5ee32e7efc4a4eb95dc72f940/tumblr_ojc05a8mls1ufsa17o1_1280.png",
                 "AltText": "A direct message from the other user saying, \"Hi! You have great eyes, I can't seem to get rid of them.\"",
                 "Embed": " <div class=\"tumblr-post\" data-href=\"https://embed.tumblr.com/embed/post/47YzTkpOPysra817M03OaQ/728459753785901056\" data-did=\"7f811695fdabc48cd72ad2cc048ab147c57568fc\"><a href=\"https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by\">https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by</a></div>  <script async src=\"https://assets.tumblr.com/post.js\"></script>",
-                "AltText": "Hi! You have great eyes, I can't seem to get rid of them.",
-                "Description": "I don't think Father would say this exactly to Null, but Father just so happens to give Null mixed messages about whether Father likes Null in <em>any</em> capacity or really does hate their Soul. <p> The answer is both really. It's Complicated. (If the two of them would Trust each other and just Be Honest and Listen...)"
+                "Description": "I don't think Father would say this exactly to Null, but Father just so happens to give Null mixed messages about whether Father likes Null in <em>any</em> capacity or really does hate their Soul. <p> The answer is both really. It's Complicated. (If the two of them would Work It Out, it could probably work. Trust each other, Be Honest and Listen...)"
             }
         ]
     },
@@ -84,8 +86,13 @@
         "Orientation": "Aromantic, asexual",
         "NoiseAffinity": "Big powerful creature with claws - like a bear. Might be a little sharper than average.",
         "DOB": "",
-        "Likes": ["Tea", "Birds"],
-        "Dislikes": [ "Physical contact, even through clothes. A thick blanket would be required, if you would even dare." ],
+        "Likes": [
+            "Tea", 
+            "Birds"
+        ],
+        "Dislikes": [ 
+            "Physical contact, even through clothes. A thick blanket would be required, if you would even dare."
+        ],
         "Pyschs": "Lightning, [REACTED]",
         "Apparent Age": "",
         "ImageHeader": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
@@ -138,7 +145,6 @@
                 ]
             }
         ],
-
         "Sections": [
             {
                 "Order": 1,
@@ -165,15 +171,15 @@
     {
         "Name": "Null",
         "ActualName": "[Nothing]",
-        "Role": "Reseacher",
+        "Role": "Reseacher, Fallen",
         "PreviousRoles": "Composer",
-        "Pronouns": "They/he",
-        "GenderIdentity": "Non-binary. I could say trans but I don't know if they were born a human, and therefore would be trans, or they were born as an Angel and <em>could maybe</em> have been \"born\" non-binary.",
+        "Pronouns": "They/he, prefernce for they/them.",
+        "GenderIdentity": "Non-binary. I could say trans but I don't know if they were born a human, and therefore would go from male to non-binary. If they were born as an Angel and <em>could maybe</em> have been \"born\" non-binary.",
 
-        "Orientation": "I'm gonna say pan or bi romantic and sexual <em>but</em> they are also probably grey romantic and sexual because I can't wrap my head around alloromantic and allosexual orientations. I thought I could for Null but it's hard to figure out their attractions otherwise. Not that I think it's necessary but it just makes my life easier.",
+        "Orientation": "I'm gonna say bi romantic and sexual <em>but</em> they are also probably grey romantic and sexual partially because I can't wrap my head around alloromantic and allosexual orientations. I thought I could for Null but it's hard to figure out their attractions otherwise when I'm trying to figure out their thoughts. Not that I think it's necessary but it just makes my life easier.",
         
         "NoiseAffinity": "Something very branching, webbing and tree like.",
-        "DOB": "October 22? - is the original comic posted date",
+        "DOB": "Possibly October 22, the date the history comic was first posted.",
         
         "Likes": ["Strawberry-banana ice cream", "Floral patterns"],
         "Dislikes": ["Childish behaviour idk working on it"],
@@ -203,7 +209,7 @@
                 "Description": "There is. A. Lot. Of history."
             },
             {
-                "Name": "Whoever the frick their Conductor was.",
+                "Name": "Their Former Conductor",
                 "Description": "Was, I'm pretty sure. Whatever pronouns their Conductor had, I think at some point they replaced by Reaper!Father. And...I think it might not be because of entirely Natural Reasons shall we say. Reaper!Father was looking for opportunies for rise up at the time, I believe. <p> But while they were around, they understood Null fairly well. They were one of the few Reapers that understood the full serverity of what Null had done during The Incident and the consequences. They were a lower plane being Null would spend quiet hours with, hours at a time, sometimes where there were long periods of silence. Especially after The Incident and they had, either intuited or Null told them, that Null had lost all their partners except for one. <p> The Conductor was not one of Null's partners, but perhaps, if Null did not had a strict rule of not getting intimate with lower plane beings (maybe it was also a higher plane rule or something that other Angels might judge others on), the Conductor could have been one of their partners. <p> The Conductor was one of the Reapers that caught onto Null's crush of Reaper!Father and chose to gently keep and extra eye on Reaper!Father because of that. Since The Conductor was aware for Null's restrictions for lower plane relationships, the Conductor never addressed Null's crush outside of trying to gently make sure Null was aware of them having a crush in the first place. <p> It was also the Conductor's judgement to not have Reaper!Father erased during the Incident when he tried to tear the planes apart where Reaper!Father's daughter, Chisa, vanished. They knocked the Reaper out and personally kept a close on him and monitored his waking moments and tried to calm him down while Null was away."
             },
             {
@@ -223,10 +229,10 @@
         ],
         "Dislikes": [
             "Cats (a rivalry, one could say)", 
-            "Reading minds"
+            "(Literally) Reading minds. Scanning."
         ],
 
-        "Apparent Age": "",
+        "Apparent Age": "Somewhere between 10-15 I think.",
         "Relationships": [
             {
                 "Name": "Father (Angel)",
