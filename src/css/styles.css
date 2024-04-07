@@ -7,28 +7,30 @@
     "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
-  /* Default (light) theme */
-  --bg: #fff;
-  --accent-bg: #f5f7ff;
-  --text: #333;
-  --text-light: #585858;
-  --border: #d8dae1;
-  --accent: #0d47a1;
-  --border-color: #461a40;
-  --dark-background: #a591a3;
+  /* Default (dark) theme */
+  --bg: #212121;
+  --accent-bg: #2b2b2b;
+  --text: #dcdcdc;
+  --text-light: #ababab;
+  --border: #666;
+  --accent: #ffb300;
+  --border-color: #995890;
+  --dark-background: #4e1d48;
+  --hover-img-color: #331b35;
 }
 
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
+/* Light theme */
+@media (prefers-color-scheme: light) {
   :root {
-    --bg: #212121;
-    --accent-bg: #2b2b2b;
-    --text: #dcdcdc;
-    --text-light: #ababab;
-    --border: #666;
-    --accent: #ffb300;
-    --border-color: #995890;
-    --dark-background: #4e1d48;
+    --bg: #cec5b8;
+    --accent-bg: #e6dfdef3;
+    --text: #312b2b;
+    --text-light: #554f4f;
+    --border: #e1dad8;
+    --accent: #681500;
+    --border-color: #b88246;
+    --dark-background: #a591a3;
+    --hover-img-color: rgb(226, 179, 146);
   }
 }
 
