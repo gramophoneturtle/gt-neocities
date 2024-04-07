@@ -1,0 +1,20 @@
+---
+tags:
+  - OCsEmbeds
+pagination:
+    data: ocs
+    size: 1
+    alias: ocs
+    addAllPagesToCollections: true
+permalink: "ocs/{{ ocs.Name | slugify }}-embeds/"
+layout: /layouts/base
+---
+<nav>{% include 'partials/navigation_ocs_embed.njk' %}</nav>
+
+{% include 'partials/ocs_toc.njk' %}
+
+{% include 'partials/ocs_main.njk' %}
+
+{%- if ocs.MusicEmbeds %}
+    <p>Music: {{ ocs.MusicEmbeds | safe }}</p>
+{%- endif -%}
