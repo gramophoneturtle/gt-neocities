@@ -2,6 +2,8 @@
     {
         "title": "Father",
         "Name": "Father",
+        "ImageIconUrl": "\\img\\icons\\FatherCatAva_Trans.png",
+
         "Role": "Father, Angel",
         "PreviousRoles": "Condutor(?), Reaper, Human",
         "Pronouns": "He/him",
@@ -82,6 +84,7 @@
     {
         "title": "Mother",
         "Name": "Mother",
+        "ImageIconUrl": "\\img\\icons\\MotherIcon.png",
         "Role": "Mother, Angel",
         "ActualName": "Reia (IDK about a last name, but that's at least her \"Allowed\" Name.)",
         "Pronouns": "She/her (currently)",
@@ -174,6 +177,7 @@
     {
         "title": "Null",
         "Name": "Null",
+        "ImageIconUrl": "",
         "ActualName": "[Nothing]",
         "Role": "Reseacher, Fallen",
         "PreviousRoles": "Composer",
@@ -223,7 +227,9 @@
         ]
     },
     {
+        "title": "Chisa",
         "Name": "Chisa",
+        "ImageIconUrl": "\\img\\icons\\ChisaIcon.jpg",
         "Pronouns": "She/her",
         "DOB": "",
         "Likes": [
@@ -262,6 +268,33 @@
             {
                 "Name": "Younger brother",
                 "Description": "He was a very cool brother who got to live a full human life. Chisa is broken hearted that she missed seeing him grow up, but she is happy and proud of him."
+            }
+        ]
+    },
+    {
+        "title": "Earrings",
+        "Name": "Earrings",
+        "Pronouns": "They/them",
+        "DOB": "",
+        "Likes": [
+            "Earrings",
+            "Flat sheets"
+        ],
+        "Dislikes": [
+            "Disorder"
+        ],
+
+        "Apparent Age": "",
+        "Relationships": [
+            {
+                "Name": "Hanekoma",
+                "Description": "(WIP)"
+            },
+            {
+                "Name": "Joshua",
+                "DescriptionList": [
+                    ""
+                ]
             }
         ]
     }
