@@ -2,7 +2,7 @@
     {
         "title": "Father",
         "Name": "Father",
-        "ImageIconUrl": "\\img\\icons\\FatherCatAva_Trans.png",
+        "ImageIconUrl": "\\img\\icons\\FatherIcon.png",
 
         "Role": "Father, Angel",
         "PreviousRoles": "Condutor(?), Reaper, Human",
@@ -78,6 +78,13 @@
                 "AltText": "A direct message from the other user saying, \"Hi! You have great eyes, I can't seem to get rid of them.\"",
                 "Embed": " <div class=\"tumblr-post\" data-href=\"https://embed.tumblr.com/embed/post/47YzTkpOPysra817M03OaQ/728459753785901056\" data-did=\"7f811695fdabc48cd72ad2cc048ab147c57568fc\"><a href=\"https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by\">https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by</a></div>  <script async src=\"https://assets.tumblr.com/post.js\"></script>",
                 "Description": "I don't think Father would say this exactly to Null, but Father just so happens to give Null mixed messages about whether Father likes Null in <em>any</em> capacity or really does hate their Soul. <p> The answer is both really. It's Complicated. (If the two of them would Work It Out, it could probably work. Trust each other, Be Honest and Listen...)"
+            },
+            {
+                "Name": "Klavier Gavin",
+                "Source": "Ace Attorney",
+                "Image": "Todo",
+                "AltText": "Leaning forward",
+                "Description": "Early on I wanted him to be like lean forward but just be out of reach. Presently he's more toned down and uses his coat as a protective barrier. The leaning forward thing has become more of a past Null and/or Earrings thing. In addition, it was to contrast with Mother, who would be inspired by Kristoph Gavin."
             }
         ]
     },
@@ -107,7 +114,7 @@
             {
                 "Name": "Deus",
                 "Source": "Asura's Wrath",
-                "Image": "Todo",
+                "Image": "\\img\\refs\\mother\\Deus_Ch17.jpg",
                 "AltText": "Pretend there is a cool image of Deus using his black and white lighting powers.",
                 "Description": "There is a certain kinda of command *power* that he has that I wanted her to have. And even though I haven't really drawn Mother with. Maybe black and white lighting isn't unique but this is the first time I've seen it, and I'm drawing to black and white patterns."
             },
@@ -124,6 +131,20 @@
                 "Image": "Todo",
                 "AltText": "Lab coats!",
                 "Description": "Angels being like scientists? Hecking yeah. Mother's white themeing and white jacket is like a lab coat. Her jacket hanging off her shoulders are (like) her wings."
+            },
+            {
+                "Name": "Apollo Justice",
+                "Source": "Ace Attorney 5: Dual Destinies",
+                "Image": "\\img\\refs\\mother\\aa_Apollo_coat01.png",
+                "AltText": "Coat and arms crossed.",
+                "Description": "He's got that coat and crosses his arms a lot."
+            },
+            {
+                "Name": "Sebastian Debeste & Courtney",
+                "Source": "Ace Attorney Investigations 2",
+                "Image": "Todo",
+                "AltText": "Their more judgement poses.",
+                "Description": "Clothing hanging off their shoulders and arrogant/confident poses? Yeah."
             }
         ],
         "Relationships": [
@@ -177,7 +198,7 @@
     {
         "title": "Null",
         "Name": "Null",
-        "ImageIconUrl": "",
+        "ImageIconUrl": "\\img\\icons\\NullIcon.png",
         "ActualName": "[Nothing]",
         "Role": "Reseacher, Fallen",
         "PreviousRoles": "Composer",
@@ -223,6 +244,32 @@
             {
                 "Name": "Reia (Mother)",
                 "Description": "Null doesn't know much about her, but she is the first Angel they've met who can pronounce his [Nothing] of a name om such a way that makes the Dissonance almost <em>pleasant</em>. They can tell they shouldn't ask about her past - there is a strong Force of <em>Do Not Ask For You Will Not Find Answers</em>. <p> Null is intrigued by how differently she handles Nanashi and how honestly Nanashi communicates with her. He can't help but feel a little jealously. They accept Reia's sympathy, because for how well she gets along with their Nanashi, she's aware how grating he can be, and can sense he is not handling himself well and needs help healing. Healing that she can't entirely help on her own."
+            }
+        ],
+        "Sections": [
+            {
+                "Order": 1,
+                "Header": "Present",
+                "SubSections": [
+                    {
+                        "Text": "Null currently reseaches Souls that have been lost to the space between the planes - known as the Void.",
+                        "Image": "",
+                        "ImagePlacement": ""
+                    }
+                ]
+            },
+            {
+                "Order": 2,
+                "Header": "Background",
+                "SubSections": [
+                    {
+                        "TextList": [
+                            "Null was once a Composer who valued bonding with lower plane citizens to increase the growth and quality of Souls. Not only for the benefit of having healthier Souls, but to increase the likelyhood of Souls reaching Ascension. Exposing an Angel's Soul to lower plane citizens can create huge stress on those Souls."
+                            ,"However, Null found that by gradually increasing the time they are present, the Souls became more tolerant and grew stronger to handle their Soul."
+                            ,"Because of this, visitors to Null's region were challenged by this additional pressure. Some believed the place was cursed. Others believed some otherworldly being kept a closer eye on them and some would stay in hopes that they could receive guidance."
+                        ]
+                    }
+                ]
             }
         ]
     },
