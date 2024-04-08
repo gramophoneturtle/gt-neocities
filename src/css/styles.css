@@ -230,8 +230,10 @@ div.desc {
   padding: 0.25rem 0.25rem 0.5rem;
   text-align: center;
 }
+
+/* Trying to remove the underline?
 a:link > div.desc,
 a:visited > div.desc
 {
   text-decoration: none;
-}
+} */
