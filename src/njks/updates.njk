@@ -11,9 +11,9 @@ layout: /layouts/base
 ---
 <div>
 {%- for item in posts %}
-    <h1>
-        {{  item.data.posts.PostDate }}
-    </h1>
+    <h2>
+        {{ item.data.posts.PostDate }}
+    </h2>
 
     {%- if item.data.posts.Art %}
         <p>Art: {{ item.data.posts.Art }}</p>

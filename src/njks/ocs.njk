@@ -16,8 +16,9 @@ layout: /layouts/base
     <li><a href="#general">General</a></li>
     <li><a href="#likes">Likes</a></li>
     <li><a href="#dislikes">Dislikes</a></li>
-    <li><a href="#artwork">Artwork</a></li>
+    <li><a href="#history">History</a></li>
     <li><a href="#relationships">Relationships</a></li>
+    <li><a href="#artwork">Artwork</a></li>
     <li><a href="#inspirations">Inspirations</a></li>
   </ul>
 </details>
@@ -60,15 +61,16 @@ layout: /layouts/base
     <p>Pyschs: {{ ocs.Pyschs }}</p>
   {%- endif -%}
 
-  {%- if ocs.ImageHeader %}
+{# Put in a representing image, if there is one #}
+{%- if ocs.ImageHeader %}
   <div class="artwork">
       <img 
         src="{{ ocs.ImageHeader }}" 
         alt="{{ocs.ImageHeaderAltText}}"/>
   </div>
-  {%- endif -%}
+{%- endif -%}
 
-  <h2 id="likes">Likes</h2>
+<h2 id="likes">Likes</h2>
   <ul>
       {%- for item in ocs.Likes %}
       <li>{{ item }}</li>
@@ -81,23 +83,32 @@ layout: /layouts/base
       {% endfor -%}
   </ul>
 
-  <h2 id="relationships">Relationships</h2>
+<h2 id="history">History</h2>
+      {%- for item in ocs.History %}
+      <h3 class="noBottomBorder">{{ item.Header }}</h3>
+
+      {%- for entry in item.SubSections %}
+        <p>{{ entry | safe }}</p>
+      {% endfor -%}
+  {% endfor -%}
+
+<h2 id="relationships">Relationships</h2>
   {%- for item in ocs.Relationships %}
-  <details>
-    <summary>{{ item.Name }}</summary>
+    <details>
+      <summary>{{ item.Name }}</summary>
 
-    {%- if item.Description %}
-    <p>{{ item.Description | safe }}</p>
-    {%- endif -%}
+      {%- if item.Description %}
+      <p>{{ item.Description | safe }}</p>
+      {%- endif -%}
 
-    {%- for entry in item.DescriptionList %}
-      <p>{{ entry | safe }}</p>
-    {% endfor -%}
-  </details>
+      {%- for entry in item.DescriptionList %}
+        <p>{{ entry | safe }}</p>
+      {% endfor -%}
+    </details>
   {% endfor -%}
 
 
-  <h2 id="artwork">Artwork</h2>
+<h2 id="artwork">Artwork</h2>
   <ul>
     {% for post in collections.twewyArt2 | reverse %}
     {% set artworkCharacters = post.data.twewyart.characters %}
@@ -109,7 +120,7 @@ layout: /layouts/base
     {% endfor %}
   </ul>
 
-  <h2 id="inspirations">Inspirations</h2>
+<h2 id="inspirations">Inspirations</h2>
   {%- if ocs.Inspirations.length %}
     {%- for item in ocs.Inspirations %}
     <details>
@@ -133,6 +144,3 @@ layout: /layouts/base
   {%- else -%}
     <p>None...Yet?</p>
   {%- endif -%}
-    
-  
-

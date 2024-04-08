@@ -2,6 +2,8 @@
     {
         "title": "Father",
         "Name": "Father",
+        "ImageIconUrl": "\\img\\icons\\FatherIcon.png",
+
         "Role": "Father, Angel",
         "PreviousRoles": "Condutor(?), Reaper, Human",
         "Pronouns": "He/him",
@@ -15,6 +17,24 @@
 
         "ImageHeader": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
+
+        "History": [
+            {
+                "Header": "Present",
+                "SubSections": [
+                    "He's the Father of the Tokyo (and perhaps the surrounding) region. He focuses more on the state of their assigned Children over his assigned partner."
+                ]
+            },
+            {
+                "Header": "History",
+                "SubSections": [
+                    "He was once a human who was married and had two children. Just before his eldest child reached 10 years old, he lost his life and entered the Reapers Game."
+                    ,"At the end of the Reaper's Game he became a Reaper. Since he could not fully accept that he didn't stongly want to come back to life, the Composer of the Game took that option away from him."
+                    ,"He transitioned during his time as a Reaper and watched over his living family from he UG. He was not allowed to interact with humans in the RG and as he grew more comfortable with his gender identity, he stopped watching over them as closely in case there was even a chance they could find out about him."
+                    
+                ]
+            }
+        ],
 
         "Relationships": [
             {
@@ -76,12 +96,20 @@
                 "AltText": "A direct message from the other user saying, \"Hi! You have great eyes, I can't seem to get rid of them.\"",
                 "Embed": " <div class=\"tumblr-post\" data-href=\"https://embed.tumblr.com/embed/post/47YzTkpOPysra817M03OaQ/728459753785901056\" data-did=\"7f811695fdabc48cd72ad2cc048ab147c57568fc\"><a href=\"https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by\">https://gramoturtle.tumblr.com/post/728459753785901056/patrickbateman-fuck-all-the-other-bots-this-is-by</a></div>  <script async src=\"https://assets.tumblr.com/post.js\"></script>",
                 "Description": "I don't think Father would say this exactly to Null, but Father just so happens to give Null mixed messages about whether Father likes Null in <em>any</em> capacity or really does hate their Soul. <p> The answer is both really. It's Complicated. (If the two of them would Work It Out, it could probably work. Trust each other, Be Honest and Listen...)"
+            },
+            {
+                "Name": "Klavier Gavin",
+                "Source": "Ace Attorney",
+                "Image": "Todo",
+                "AltText": "Leaning forward",
+                "Description": "Early on I wanted him to be like lean forward but just be out of reach. Presently he's more toned down and uses his coat as a protective barrier. The leaning forward thing has become more of a past Null and/or Earrings thing. In addition, it was to contrast with Mother, who would be inspired by Kristoph Gavin."
             }
         ]
     },
     {
         "title": "Mother",
         "Name": "Mother",
+        "ImageIconUrl": "\\img\\icons\\MotherIcon.png",
         "Role": "Mother, Angel",
         "ActualName": "Reia (IDK about a last name, but that's at least her \"Allowed\" Name.)",
         "Pronouns": "She/her (currently)",
@@ -96,7 +124,7 @@
         "Dislikes": [ 
             "Physical contact, even through clothes. A thick blanket would be required, if you would even dare."
         ],
-        "Pyschs": "Lightning, [REACTED]",
+        "Pyschs": "Lightning",
         "Apparent Age": "",
         "ImageHeader": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
         "ImageHeaderAltText": "A black and white image of a woman with a short ponytail and a suit, has a man lying beneath her. A circular light source shines from above her head, looking like a halo.",
@@ -104,7 +132,7 @@
             {
                 "Name": "Deus",
                 "Source": "Asura's Wrath",
-                "Image": "Todo",
+                "Image": "\\img\\refs\\mother\\Deus_Ch17.jpg",
                 "AltText": "Pretend there is a cool image of Deus using his black and white lighting powers.",
                 "Description": "There is a certain kinda of command *power* that he has that I wanted her to have. And even though I haven't really drawn Mother with. Maybe black and white lighting isn't unique but this is the first time I've seen it, and I'm drawing to black and white patterns."
             },
@@ -121,6 +149,20 @@
                 "Image": "Todo",
                 "AltText": "Lab coats!",
                 "Description": "Angels being like scientists? Hecking yeah. Mother's white themeing and white jacket is like a lab coat. Her jacket hanging off her shoulders are (like) her wings."
+            },
+            {
+                "Name": "Apollo Justice",
+                "Source": "Ace Attorney 5: Dual Destinies",
+                "Image": "\\img\\refs\\mother\\aa_Apollo_coat01.png",
+                "AltText": "Coat and arms crossed.",
+                "Description": "He's got that coat and crosses his arms a lot."
+            },
+            {
+                "Name": "Sebastian Debeste & Courtney",
+                "Source": "Ace Attorney Investigations 2",
+                "Image": "Todo",
+                "AltText": "Their more judgement poses.",
+                "Description": "Clothing hanging off their shoulders and arrogant/confident poses? Yeah."
             }
         ],
         "Relationships": [
@@ -148,25 +190,11 @@
                 ]
             }
         ],
-        "Sections": [
+        "History": [
             {
-                "Order": 1,
                 "Header": "Present",
                 "SubSections": [
-                    {
-                        "Text": "She's the Mother of the Tokyo (and perhaps the surrounding) region.",
-                        "Image": "",
-                        "ImagePlacement": ""
-                    }
-                ]
-            },
-            {
-                "Order": 2,
-                "Header": "Background",
-                "SubSections": [
-                    {
-                        "Text": "[REDACTED]"
-                    }
+                    "She's the Mother of the Tokyo (and perhaps the surrounding) region. She researches the state and rate of decay within the planes, particularly the higher planes."
                 ]
             }
         ]
@@ -174,6 +202,7 @@
     {
         "title": "Null",
         "Name": "Null",
+        "ImageIconUrl": "\\img\\icons\\NullIcon.png",
         "ActualName": "[Nothing]",
         "Role": "Reseacher, Fallen",
         "PreviousRoles": "Composer",
@@ -220,10 +249,28 @@
                 "Name": "Reia (Mother)",
                 "Description": "Null doesn't know much about her, but she is the first Angel they've met who can pronounce his [Nothing] of a name om such a way that makes the Dissonance almost <em>pleasant</em>. They can tell they shouldn't ask about her past - there is a strong Force of <em>Do Not Ask For You Will Not Find Answers</em>. <p> Null is intrigued by how differently she handles Nanashi and how honestly Nanashi communicates with her. He can't help but feel a little jealously. They accept Reia's sympathy, because for how well she gets along with their Nanashi, she's aware how grating he can be, and can sense he is not handling himself well and needs help healing. Healing that she can't entirely help on her own."
             }
+        ],
+        "History": [
+            {
+                "Header": "Present",
+                "SubSections": [
+                    "Null currently reseaches Souls that have been lost to the space between the planes - known as the Void."
+                ]
+            },
+            {
+                "Header": "Background",
+                "SubSections": [
+                    "Null was once a Composer who valued bonding with lower plane citizens to increase the growth and quality of Souls. Not only for the benefit of having healthier Souls, but to increase the likelyhood of Souls reaching Ascension. Exposing an Angel's Soul to lower plane citizens can create huge stress on those Souls."
+                    ,"However, Null found that by gradually increasing the time they are present, the Souls became more tolerant and grew stronger to handle their Soul."
+                    ,"Because of this, visitors to Null's region were challenged by this additional pressure. Some believed the place was cursed. Others believed some otherworldly being kept a closer eye on them and some would stay in hopes that they could receive guidance."
+                ]
+            }
         ]
     },
     {
+        "title": "Chisa",
         "Name": "Chisa",
+        "ImageIconUrl": "\\img\\icons\\ChisaIcon.jpg",
         "Pronouns": "She/her",
         "DOB": "",
         "Likes": [
@@ -262,6 +309,33 @@
             {
                 "Name": "Younger brother",
                 "Description": "He was a very cool brother who got to live a full human life. Chisa is broken hearted that she missed seeing him grow up, but she is happy and proud of him."
+            }
+        ]
+    },
+    {
+        "title": "Earrings",
+        "Name": "Earrings",
+        "Pronouns": "They/them",
+        "DOB": "",
+        "Likes": [
+            "Earrings",
+            "Flat sheets"
+        ],
+        "Dislikes": [
+            "Disorder"
+        ],
+
+        "Apparent Age": "",
+        "Relationships": [
+            {
+                "Name": "Hanekoma",
+                "Description": "(WIP)"
+            },
+            {
+                "Name": "Joshua",
+                "DescriptionList": [
+                    ""
+                ]
             }
         ]
     }

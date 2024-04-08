@@ -9,43 +9,79 @@ pagination:
 permalink: "art/twewy/{{ twewyart.uniqueUrl | slugify }}/"
 layout: /layouts/art
 ---
-<div><a href="/art/twewy/">TWEWY</a></div>
+<a href="/art/twewy/">TWEWY</a>
 
-<div>
+{# If multiple images, show thumbnails of each and expand on click #}
+{% set enableGalleryGrid = false %}
+{% if twewyart.imgs.length > 1 %}
+  {% set enableGalleryGrid = true %}
+  {# Set the main image #}
+  <div class="artworkContainer">
+    {%- for item in twewyart.imgs %}
+      {% if loop.first %}
+        <img 
+          id="expandedImg" 
+          style="width:100%"
+          src="{{ item.url }}"
+          alt="{{ item.alt }}">
+      {% endif %}
+    {% endfor -%}
+  </div>
+
+  {# Set up the grid below #}
+  <div class="artworkRow">
+    {%- for item in twewyart.imgs %}
+    {% set currentID = [ "img0", loop.index ] | join %}
+      <div class="artworkColumn">
+        <img 
+          src="{{ item.url }}"
+          alt="{{ item.alt }}"
+          onClick="expandArtWork(this);"
+          id = "{{ currentID }}" >
+      </div>
+    {% endfor -%}
+  </div>
+{% else %}
+  {# Set up for single image display. No grid required. #}
   <div>
   {%- for item in twewyart.imgs %}
     <div class="artwork">
       <img src="{{ item.url }}"
         alt="{{ item.alt }}">
     </div>
-    <details>
-      <summary>ALT</summary>
-      <p>{{ item.alt }}</p>
-    </details>
   {% endfor -%}
   </div>
+{% endif %}
 
-  <div>
-    <p>{{ twewyart.summary }}</p>
-  </div>
 
-  {%- if twewyart.details %}
-  <div>
-    <details>
-        <summary>Details</summary>
-        <p>{{ twewyart.details }}</p>
-    </details>
-  </div>
-  {%- endif -%}
 
-  <div>
-    <p>Posted on:</p>
-    <ul>
-      {%- for item in twewyart.urls %}
-        <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
-      {% endfor -%}
-    </ul>
-  </div>
-  <div><p>Originally posted on {{ twewyart.date }}.</p></div>
-  <div><a href="/art/twewy/">TWEWY</a></div>
+
+<div>
+  <p>{{ twewyart.summary }}</p>
 </div>
+
+{%- if twewyart.details %}
+<div>
+  <details>
+      <summary>Details</summary>
+      <p>{{ twewyart.details }}</p>
+  </details>
+</div>
+{%- endif -%}
+
+<div>
+  <p>Posted on:</p>
+  <ul>
+    {%- for item in twewyart.urls %}
+      <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
+    {% endfor -%}
+  </ul>
+</div>
+
+<p>Originally posted on {{ twewyart.date }}.</p>
+
+<a href="/art/twewy/">TWEWY</a>
+
+{% if enableGalleryGrid %}
+  <script src="/js/TabbedImageGallery.js"></script>
+{% endif %}
