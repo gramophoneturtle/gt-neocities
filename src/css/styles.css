@@ -164,14 +164,72 @@ a:hover {
   padding-top: 0.5rem;
 }
 
+/** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
+
 /* || ARTWORK */
-.artwork {
+
+
+.artworkRow {
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.artworkRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.artworkColumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Style the images inside the grid */
+.artworkColumn img {
+  opacity: 0.6; 
+  cursor: pointer; 
+}
+
+.artworkColumn img:hover {
+  opacity: 1;
+}
+
+.artwork, .artworkContainer {
+  opacity: 1;
   margin: 1rem 0rem;
   padding: 5px;
   border: solid var(--border) 1px;
   border-radius: 5px;
   font-style: italic; /* affects the alt text if image is not found. */
 }
+
+/* The expanding image container */
+.artworkContainer {
+  position: relative;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
 
 
 /* || OC NAV */
