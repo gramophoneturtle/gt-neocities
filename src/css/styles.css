@@ -66,6 +66,10 @@ body > header h1 {
   margin: 0.5rem auto;
 }
 
+.noBottomBorder {
+  border-bottom: none;
+}
+
 /* Format navigation */
 nav {
   font-size: 1rem;
@@ -164,11 +168,8 @@ a:hover {
   padding-top: 0.5rem;
 }
 
-/** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
-
 /* || ARTWORK */
-
-
+/** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
 .artworkRow {
   box-sizing: border-box;
 }
@@ -261,12 +262,10 @@ div.gallery {
   float: left;
   margin: 4px;
   width: 10.75rem;
-
   border-color: var(--border-color);
   border-style: solid;
   border-width: 3px;
   border-radius: 5px;
-
 }
 
 div.gallery:hover {
@@ -278,20 +277,11 @@ div.gallery img {
   height: 10.75rem;
   padding: 0.2rem;
   display: grid;
-
   border-bottom: solid var(--border) 1px;
   border-radius: 0px;
-
 }
 
 div.desc {
   padding: 0.25rem 0.25rem 0.5rem;
   text-align: center;
 }
-
-/* Trying to remove the underline?
-a:link > div.desc,
-a:visited > div.desc
-{
-  text-decoration: none;
-} */
