@@ -1,0 +1,48 @@
+---
+tags:
+  - Writing
+pagination:
+    data: writing
+    size: 1
+    alias: story
+    addAllPagesToCollections: true
+permalink: "writing/{{ story.Title | slugify }}/"
+layout: /layouts/base
+---
+<h2>
+    {{ story.Title }}
+</h2>
+
+{%- if story.Characters %}
+    <p>Characters:</p>
+    <ul>
+        {%- for char in story.Characters %}
+            <li>{{ char }}</li>
+        {% endfor -%}
+    </ul>
+{%- endif -%}
+
+<h3>Summary</h3>
+{%- for para in story.Summary %}
+    <p>{{ para }}</p>
+{% endfor -%}
+
+<h3>TOC</h3>
+<ol>
+    {%- for ch in story.Chapters %}
+        <li>
+        <a href= {{ ["#",  ch.Title | slugify ] | join }} >{{ ch.Title }}</a>
+        </li>
+    {% endfor -%}
+</ol>
+
+<h3> </h3>
+{%- for ch in story.Chapters %}
+    <h4 id="{{ ch.Title | slugify  }}"
+        style="text-align: center;">
+        {{ ch.Title }}
+    </h4>
+    {%- for para in ch.Paragraphs %}
+        <p> {{ para }}</p>
+    {% endfor -%}
+{% endfor -%}
