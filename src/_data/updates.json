@@ -1,5 +1,9 @@
 [
     {
+        "PostDate": "2024-04-09",
+        "Site": "Shrunk OC thumbnails slightly for mobile. Header has coloured buttons. (And tested on light mode! Unlike most of the site so far. Sorry! Will work on that in the future.) Fixed buttons linking to other OC pages so they don't go off the page."
+    },
+    {
         "PostDate": "2024-04-07",
         "Site": "OCs have thumbnails. Combined the Links and Contact Page to defer fixing the header navigation. About page has some helpful links for making thsi site. Artwork with multiple images use tabbed images."
     },

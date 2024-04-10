@@ -17,6 +17,15 @@
   --border-color: #995890;
   --dark-background: #4e1d48;
   --hover-img-color: #331b35;
+
+  --null-pink: #C48F97;
+  --null-black: #303030;
+  --null-dark-blue: #242B3B;
+  --null-eye-green: #131913;
+  --null-light-green-base: #657365;
+  --null-light-green-ivy: #829482;
+  --null-dark-green-base: #384138;
+  --null-dark-green-ivy: #131913;
 }
 
 /* Light theme */
@@ -24,13 +33,18 @@
   :root {
     --bg: #cec5b8;
     --accent-bg: #e6dfdef3;
-    --text: #312b2b;
+    --text: #1a1616;
     --text-light: #554f4f;
     --border: #e1dad8;
-    --accent: #681500;
+    --accent: #437206;
     --border-color: #b88246;
     --dark-background: #a591a3;
     --hover-img-color: rgb(226, 179, 146);
+
+    --null-light-green-base: #dde6d8;
+    --null-light-green-ivy: #859685;
+    --null-dark-green-base: #c1cec1;
+    --null-dark-green-ivy: #698b69;
   }
 }
 
@@ -68,33 +82,6 @@ body > header h1 {
 
 .noBottomBorder {
   border-bottom: none;
-}
-
-/* Format navigation */
-nav {
-  font-size: 1rem;
-  line-height: 2;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-bottom: rem;
-}
-
-nav a:last-child {
-  margin-right: 0;
-}
-
-/* Reduce nav side on mobile */
-@media only screen and (max-width: 750px) {
-  nav a {
-    border: none;
-    padding: 0;
-    color: var(--accent);
-    text-decoration: underline;
-    line-height: 1;
-  }
 }
 
 /* Add a little padding to ensure spacing is correct between content and nav */
@@ -231,22 +218,28 @@ a:hover {
   cursor: pointer;
 }
 
-
-
 /* || OC NAV */
-.navoc {
-  background-color: var(--dark-background);
-  padding: 0.5rem 1.5rem;
-  text-decoration: none;
-  margin: 0 0.5rem;
-  border-radius: var(--standard-border-radius);
-  display: inline-block;
+.nav-oc-group {
+  padding: 0rem 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .navoc,
 .navoc:visited {
-  border: 1px solid var(--border);
+  background-color: var(--dark-background);
+  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border-color);
   color: var(--text);
+
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0.15rem 0.15rem;
+
+  font-size: medium;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .navoc:hover,
@@ -257,31 +250,74 @@ a:hover {
   cursor: pointer;
 }
 
-/* || Thumbnails - OCs Test */
-div.gallery {
+
+/* || OC Page - THumbnail + Name underneath */
+div.ocGallery {
   float: left;
-  margin: 4px;
-  width: 10.75rem;
+  margin: 2px;
+  width: 9rem;
   border-color: var(--border-color);
   border-style: solid;
   border-width: 3px;
   border-radius: 5px;
 }
 
-div.gallery:hover {
+div.ocGallery:hover {
   background-color: var(--hover-img-color);
 }
 
-div.gallery img {
-  width: 10.75rem;
-  height: 10.75rem;
-  padding: 0.2rem;
+div.ocGallery img {
+  width: 9rem;
+  height: 9rem;
   display: grid;
-  border-bottom: solid var(--border) 1px;
-  border-radius: 0px;
+}
+
+.ocGallery > a {
+  text-decoration: none;
 }
 
 div.desc {
-  padding: 0.25rem 0.25rem 0.5rem;
+  padding: 0.25rem;
   text-align: center;
+}
+
+
+/* || Format navigation  - HEADER ONLY */
+nav {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 750px) {
+  .navHeader {
+    padding: 0.25rem 0.25rem;
+    font-size: small;
+  }
+}
+
+/* || OC NAV */
+.navHeader,
+.navHeader:visited {
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0rem 0.25rem 0.2rem;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+  border: 3px solid var(--null-light-green-base);
+  border-radius: var(--standard-border-radius);
+  background-color: var(--null-dark-green-base);
+  color: var(--text);
+}
+
+.navHeader:hover,
+.navHeader.current,
+.navHeader[aria-current="page"] {
+  background-color: var(--null-light-green-base);
+  border-color: var(--null-light-green-ivy);
+  color: var(--accent);
+  cursor: pointer;
 }
