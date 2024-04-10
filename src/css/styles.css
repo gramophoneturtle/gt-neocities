@@ -84,8 +84,6 @@ body > header h1 {
   border-bottom: none;
 }
 
-
-
 /* Add a little padding to ensure spacing is correct between content and nav */
 main {
   padding-top: 0rem;
@@ -220,22 +218,28 @@ a:hover {
   cursor: pointer;
 }
 
-
-
 /* || OC NAV */
-.navoc {
-  background-color: var(--dark-background);
-  padding: 0.5rem 1.5rem;
-  text-decoration: none;
-  margin: 0 0.5rem;
-  border-radius: var(--standard-border-radius);
-  display: inline-block;
+.nav-oc-group {
+  padding: 0rem 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .navoc,
 .navoc:visited {
-  border: 1px solid var(--border);
+  background-color: var(--dark-background);
+  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border-color);
   color: var(--text);
+
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0.15rem 0.15rem;
+
+  font-size: medium;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .navoc:hover,
@@ -298,7 +302,7 @@ nav {
 .navHeader:visited {
   width: 7rem;
   padding: 0.2rem 1rem;
-  margin: 0rem 0.25rem 0.75rem;
+  margin: 0rem 0.25rem 0.2rem;
   display: inline-block;
   text-decoration: none;
   text-align: center;
