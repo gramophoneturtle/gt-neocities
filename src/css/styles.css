@@ -246,34 +246,38 @@ a:hover {
   cursor: pointer;
 }
 
-/* || Thumbnails - OCs Test */
-div.gallery {
+
+/* || OC Page - THumbnail + Name underneath */
+div.ocGallery {
   float: left;
-  margin: 4px;
-  width: 10.75rem;
+  margin: 2px;
+  width: 9rem;
   border-color: var(--border-color);
   border-style: solid;
   border-width: 3px;
   border-radius: 5px;
 }
 
-div.gallery:hover {
+div.ocGallery:hover {
   background-color: var(--hover-img-color);
 }
 
-div.gallery img {
-  width: 10.75rem;
-  height: 10.75rem;
-  padding: 0.2rem;
+div.ocGallery img {
+  width: 9rem;
+  height: 9rem;
   display: grid;
-  border-bottom: solid var(--border) 1px;
-  border-radius: 0px;
+}
+
+.ocGallery > a {
+  text-decoration: none;
 }
 
 div.desc {
-  padding: 0.25rem 0.25rem 0.5rem;
+  padding: 0.25rem;
   text-align: center;
 }
+
+
 /* || Format navigation  - HEADER ONLY */
 nav {
   justify-content: center;
