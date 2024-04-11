@@ -412,8 +412,7 @@ nav {
 
 /* Six columns side by side */
 .slideshow-column {
-  float: left;
-  width: 16.66%;
+  width: 24%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -433,3 +432,17 @@ nav {
   background: var(--border-color);
   margin: 1rem 0rem;
 }
+
+
+/* || Acrolling for the thumbnails of multi artwork pages */
+div.scrollmenu {
+  background-color: var(--accent-bg);
+  overflow: auto;
+  white-space: nowrap;
+  align-items: center;
+}
+
+div.scrollmenu > .slideshow-column {
+  display: inline-block;
+}
+
