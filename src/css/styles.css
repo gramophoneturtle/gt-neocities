@@ -372,6 +372,17 @@ nav {
   border-radius: 3px 0 0 3px;
 }
 
+/* MOBILE: shrink the arrows a bit */
+@media only screen and (max-width: 750px) {
+  .slideshow-prev,
+  .slideshow-next {
+    font-size: smaller;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    padding: 7px 5px;
+  }
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .slideshow-prev:hover,
 .slideshow-next:hover {
@@ -386,6 +397,11 @@ nav {
   text-align: center;
   background-color: #222;
   color: var(--text);
+}
+
+.slideshow-caption-container > p {
+  margin: 0.25rem;
+  font-size: smaller;
 }
 
 .slideshow-row:after {
@@ -409,6 +425,8 @@ nav {
 .slideshow-demo:hover {
   opacity: 1;
 }
+
+
 
 /* || Dividers like between art and description for artwork */
 .hr-divide {
