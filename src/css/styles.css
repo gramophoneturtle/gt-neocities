@@ -120,6 +120,10 @@ h2 {
   }
 }
 
+img {
+  opacity: 1;
+}
+
 /* Format links */
 a,
 a:visited {
@@ -132,7 +136,7 @@ a:hover {
 
 
 /* My own general CSS */
-
+/* || UPDATE POSTS */
 .updatepost {
   border: 3px solid var(--border-color);
   border-radius: 0.75rem;
@@ -320,4 +324,94 @@ nav {
   border-color: var(--null-light-green-ivy);
   color: var(--accent);
   cursor: pointer;
+}
+
+
+/* || SlideShow */
+
+.slideshow-img {
+  width: 1005;
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slideshow-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.slideshow-mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.slideshow-prev,
+.slideshow-next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: var(--text);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slideshow-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-prev:hover,
+.slideshow-next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: var(--accent);
+}
+
+/* Number text (1/3 etc) */
+/* Container for image text */
+.slideshow-caption-container {
+  text-align: center;
+  background-color: #222;
+  color: var(--text);
+}
+
+.slideshow-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.slideshow-column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.slideshow-demo {
+  opacity: 0.6;
+}
+
+.active,
+.slideshow-demo:hover {
+  opacity: 1;
+}
+
+/* || Dividers like between art and description for artwork */
+.hr-divide {
+  background: var(--border-color);
+  margin: 1rem 0rem;
 }
