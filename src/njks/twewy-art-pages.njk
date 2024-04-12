@@ -15,46 +15,58 @@ layout: /layouts/art
 {% set enableGalleryGrid = false %}
 {% if twewyart.imgs.length > 1 %}
   {% set enableGalleryGrid = true %}
-  {# Set the main image #}
-  <div class="artworkContainer">
-    {%- for item in twewyart.imgs %}
-      {% if loop.first %}
-        <img 
-          id="expandedImg" 
-          style="width:100%"
-          src="{{ item.url }}"
-          alt="{{ item.alt }}">
-      {% endif %}
-    {% endfor -%}
-  </div>
 
-  {# Set up the grid below #}
-  <div class="artworkRow">
+  {# Main Div - Slideshow Gallery #}
+  <div class="slideshow-container">
+
+    {# 1) Main Slides #}
     {%- for item in twewyart.imgs %}
-    {% set currentID = [ "img0", loop.index ] | join %}
-      <div class="artworkColumn">
-        <img 
+
+      {# TEST - set id for images? Optional  #}
+      {% set currentID = [ "img0", loop.index ] | join %}
+      
+      <div class="slideshow-mySlides">
+        <img style="width:100%"
           src="{{ item.url }}"
           alt="{{ item.alt }}"
-          onClick="expandArtWork(this);"
-          id = "{{ currentID }}" >
+          id="{{ currentID }}" >
       </div>
     {% endfor -%}
+
+    <a id="btnPrev" class="slideshow-prev" onclick="plusSlides(-1)">❮</a>
+    <a id="btnNext" class="slideshow-next" onclick="plusSlides(1)">❯</a>
+
+    <div class="slideshow-caption-container">
+      <p id="caption"></p>
+    </div>
+    
+    {# 2) Thumbnails #}
+    <div class="slideshow-row scrollmenu" >
+    {%- for item in twewyart.imgs %}
+
+      <div class="slideshow-column">
+        <img class="slideshow-demo slideshow-cursor"
+          style="width:100%"
+          src="{{ item.url }}"
+          alt="{{ item.alt }}"
+          onClick="currentSlide({{ loop.index }});" >
+      </div>
+    {% endfor -%}
+    </div>
   </div>
+
 {% else %}
   {# Set up for single image display. No grid required. #}
-  <div>
   {%- for item in twewyart.imgs %}
-    <div class="artwork">
-      <img src="{{ item.url }}"
+    <div>
+      <img 
+        src="{{ item.url }}"
         alt="{{ item.alt }}">
     </div>
   {% endfor -%}
-  </div>
 {% endif %}
 
-
-
+<hr class="hr-divide">
 
 <div>
   <p>{{ twewyart.summary }}</p>
@@ -83,5 +95,5 @@ layout: /layouts/art
 <a href="/art/twewy/">TWEWY</a>
 
 {% if enableGalleryGrid %}
-  <script src="/js/TabbedImageGallery.js"></script>
+  <script src="/js/SlideShowGallery.js"></script>
 {% endif %}
