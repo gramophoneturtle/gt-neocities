@@ -16,8 +16,7 @@ layout: /layouts/art
 {% if twewyart.imgs.length > 1 %}
   {% set enableGalleryGrid = true %}
 
-  {# Trying to do slideshow gallery #}
-  {# Main Div #}
+  {# Main Div - Slideshow Gallery #}
   <div class="slideshow-container">
 
     {# 1) Main Slides #}
@@ -30,12 +29,12 @@ layout: /layouts/art
         <img style="width:100%"
           src="{{ item.url }}"
           alt="{{ item.alt }}"
-          id = "{{ currentID }}" >
+          id="{{ currentID }}" >
       </div>
     {% endfor -%}
 
-    <a class="slideshow-prev" onclick="plusSlides(-1)">❮</a>
-    <a class="slideshow-next" onclick="plusSlides(1)">❯</a>
+    <a id="btnPrev" class="slideshow-prev" onclick="plusSlides(-1)">❮</a>
+    <a id="btnNext" class="slideshow-next" onclick="plusSlides(1)">❯</a>
 
     <div class="slideshow-caption-container">
       <p id="caption"></p>
@@ -60,7 +59,8 @@ layout: /layouts/art
   {# Set up for single image display. No grid required. #}
   {%- for item in twewyart.imgs %}
     <div>
-      <img src="{{ item.url }}"
+      <img 
+        src="{{ item.url }}"
         alt="{{ item.alt }}">
     </div>
   {% endfor -%}

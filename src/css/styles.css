@@ -391,6 +391,10 @@ nav {
   color: var(--accent);
 }
 
+.hidden {
+  display: none;
+}
+
 /* Number text (1/3 etc) */
 /* Container for image text */
 .slideshow-caption-container {
@@ -425,16 +429,7 @@ nav {
   opacity: 1;
 }
 
-
-
-/* || Dividers like between art and description for artwork */
-.hr-divide {
-  background: var(--border-color);
-  margin: 1rem 0rem;
-}
-
-
-/* || Acrolling for the thumbnails of multi artwork pages */
+/* || Scrolling for the thumbnails of multi artwork pages */
 div.scrollmenu {
   background-color: var(--accent-bg);
   overflow: auto;
@@ -446,3 +441,9 @@ div.scrollmenu > .slideshow-column {
   display: inline-block;
 }
 
+
+/* || Dividers like between art and description for artwork */
+.hr-divide {
+  background: var(--border-color);
+  margin: 1rem 0rem;
+}
