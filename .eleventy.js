@@ -1,47 +1,85 @@
 const Image = require("@11ty/eleventy-img");
-// const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const path = require('path')
 
 // (async () => {
-// 	let url = "https://images.unsplash.com/photo-1608178398319-48f814d0750c";
+// 	let url = "";
 // 	let stats = await Image(url, {
-// 		widths: [300],
+// 		widths: [300, 600, auto],
 //     // Array of file format extensions or "auto"
 // 		formats: ["webp", "jpeg"],
+
+//     outputDir: "./public/img/"
+
 // 	});
 
 // 	console.log(stats);
 // })();
 
+// ex for custom filename - goes here?
+// const path = require("path");
+// const Image = require("@11ty/eleventy-img");
+
+// await Image("./test/bio-2017.jpg", {
+// 	widths: [300],
+// 	formats: ["auto"],
+// 	filenameFormat: function (id, src, width, format, options) {
+// 		const extension = path.extname(src);
+// 		const name = path.basename(src, extension);
+
+// 		return `${name}-${width}w.${format}`;
+// 	},
+// });
+
 module.exports = function (eleventyConfig) {
+  // --- PASS HROUGHS
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
-//   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-// 		// which file extensions to process
-// 		extensions: "html",
+  // --- START, eleventy-img
+	function imageShortcode(src, alt, sizes="(min-width: 1024px) 100vw, 50vw") {
+		console.log(`Generating image(s) from:  ${src}`)
+		let options = {
+			widths: [200, 800, 1500],
+			formats: ["webp", "jpeg"],
+			urlPath: "./src/img/",
+			outputDir: "./public/img/",
+			filenameFormat: function (id, src, width, format, options) {
+				const extension = path.extname(src)
+				const name = path.basename(src, extension)
+				return `${name}-${width}w.${format}`
+			}
+		}
 
-// 		// Add any other Image utility options here:
+		// generate images
+		Image(src, options)
 
-// 		// optional, output image formats
-// 		formats: ["webp", "jpeg"],
-// 		// formats: ["auto"],
+		let imageAttributes = {
+			alt,
+			sizes,
+			loading: "lazy",
+			decoding: "async",
+		}
+		// get metadata
+		metadata = Image.statsSync(src, options)
+		return Image.generateHTML(metadata, imageAttributes)
+	}
+	eleventyConfig.addShortcode("image", imageShortcode)
+	// --- END, eleventy-img
 
-// 		// optional, output image widths
-// 		// widths: ["auto"],
 
-//     outputDir: './public/img/',
-//     urlPath: '/src/img/',
+  // shortcode test
+   // ADD THIS
+   eleventyConfig.addShortcode(
+    "headers",
+    (title, subtitle) =>
+      `<h1>${title}</h1>
+        <p>${subtitle}</p>`
+  );
 
-// 		// optional, attributes assigned on <img> override these values.
-// 		defaultAttributes: {
-// 			loading: "lazy",
-// 			decoding: "async",
-// 		},
-// 	});
-
+  // --- RETURN
   return {
     dir: {
       input: "src",
