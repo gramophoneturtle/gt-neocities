@@ -63,7 +63,7 @@
   
 /* Style the buttons */
 .btn {
-    border: 2px solid #51245e;
+    border: 2px solid #301436;
     padding: 10px 12px;
     background-color: #51245e;
     color:#fdf7d3;
@@ -72,10 +72,10 @@
   
 /* Active button */
 .btn.active {
-    background-color: #cca050;
+    background-color: #c98c1d;
     color: rgb(0, 0, 0);
     font: rgb(252, 139, 139) bold italic 14pt;
-    border: 2px solid #e9d4c3;
+    border: 2px solid #eeccaf;
 }
 
 /* Add a grey background color on mouse-over */
