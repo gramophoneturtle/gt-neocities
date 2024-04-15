@@ -22,25 +22,9 @@ module.exports = function (eleventyConfig) {
         const extension = path.extname(src)
 				const name = path.basename(src, extension)
 
-        console.log(`filenameFormat src:  ${src}`)
-
-        
-        let tmpPath = path.dirname(src)
-		    console.log(`> filenameFormat path:  ${tmpPath}`)
-        
-        tmpPath = tmpPath.replace("./src/img/","")
-		    console.log(`> 2  filenameFormat path:  ${tmpPath}`)
-		    console.log(`> 3 proper? filenameFormat Creating:  ${tmpPath}/${name}-${width}w.${format}`)
-        
+        let tmpPath = path.dirname(src).replace("./src/img/","")
         let newFilanme = tmpPath + '/' + name + '-'+ width +'w.' + format;
 
-        // tmpPath = path.normalize(path.format({dir: tmpPath, name:newFilanme, ext: format}))
-		    // console.log(`> 4 proper filenameFormat path:  ${tmpPath}`)
-
-
-		    console.log(`OG filenameFormat Creating:  ${name}-${width}w.${format}`)
-
-        console.log(newFilanme)
         return newFilanme
 			}
 		}
