@@ -15,14 +15,33 @@ module.exports = function (eleventyConfig) {
 		let options = {
 			widths: [600, 900, 1500],
 			formats: ["webp", "jpeg","png"],
-			urlPath: "/img/fin/",
-			outputDir: "./public/img/fin/",
+			urlPath: "/img/",
+			outputDir: "./public/img/",
 
 			filenameFormat: function (id, src, width, format, options) {
         const extension = path.extname(src)
 				const name = path.basename(src, extension)
-        console.log(`Generating image(s) from name:  ${name}`)
-				return `${name}-${width}w.${format}`
+
+        console.log(`filenameFormat src:  ${src}`)
+
+        
+        let tmpPath = path.dirname(src)
+		    console.log(`> filenameFormat path:  ${tmpPath}`)
+        
+        tmpPath = tmpPath.replace("./src/img/","")
+		    console.log(`> 2  filenameFormat path:  ${tmpPath}`)
+		    console.log(`> 3 proper? filenameFormat Creating:  ${tmpPath}/${name}-${width}w.${format}`)
+        
+        let newFilanme = tmpPath + '/' + name + '-'+ width +'w.' + format;
+
+        // tmpPath = path.normalize(path.format({dir: tmpPath, name:newFilanme, ext: format}))
+		    // console.log(`> 4 proper filenameFormat path:  ${tmpPath}`)
+
+
+		    console.log(`OG filenameFormat Creating:  ${name}-${width}w.${format}`)
+
+        console.log(newFilanme)
+        return newFilanme
 			}
 		}
 
