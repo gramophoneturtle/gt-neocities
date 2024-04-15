@@ -15,20 +15,22 @@ layout: layouts/base.njk
 </p>
 
 <!-- Shortcode in use -->
-{% headers "Home", "Learning SSG"%}
+{% headers "Short Code Header Test", "Short Code next section"%}
 
 <!-- path: \public\img\NotFound-120w.jpeg-->
-<!-- % image "public/img/NotFound.jpg", "Photo of a" % -->
+<!-- % image "/site/NotFound.jpg", "Photo of a" % -->
+<!-- 
 
-<picture>
-	<source type="image/webp" srcset="/img/NotFound-120w.webp 120w" sizes="(min-width: 120w) 100vw, 50vw">
-	<source type="image/jpeg" srcset="/img/NotFound-120w.jpeg 120w" sizes="(min-width: 120w) 100vw, 50vw">
-	<img 
-        src="/img/NotFound-120w.jpeg" 
-        alt="Photo" loading="lazy" decoding="async">
-</picture>
+-->
 
-
+<p>
+    4.
+    {% image "./src/img/site/NotFound.png", "Photo of a using image shortcodes from src" %}
+</p>
+<p>
+    3.
+    <img class="testimg" src="/img/site/NotFound.png" alt="The old fashioned way">
+</p>
 
 
 <h2>Latest Update</h2>
