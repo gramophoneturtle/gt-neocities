@@ -1,3 +1,4 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
 // const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
@@ -18,6 +19,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
+
+  // RSS
+  eleventyConfig.addPlugin(pluginRss);
 
 //   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 // 		// which file extensions to process
