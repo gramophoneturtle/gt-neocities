@@ -1,0 +1,51 @@
+---
+title: TWEWY - No Spoilers
+layout: /layouts/base.njk
+date: 2024-01-01
+---
+<p>Ordered by original post date.</p>
+<details>
+  <summary>Characters</summary>
+<div id="myBtnContainer">
+  <div><button class="btn active" onclick="filterSelection('all')">Show all</button></div>
+  <div>
+    <p class="buttonHeader">TWEWY</p>
+    <button class="btn" onclick="filterSelection('Joshua')">Joshua</button>
+    <button class="btn" onclick="filterSelection('Hanekoma')">Hanekoma</button>
+    <button class="btn" onclick="filterSelection('Minamimoto')">Minamimoto</button>
+    <button class="btn" onclick="filterSelection('Kitaniji')">Kitaniji</button>
+    <button class="btn" onclick="filterSelection('Coco')">Coco</button>
+    <button class="btn" onclick="filterSelection('Neku')">Neku</button>
+    <button class="btn" onclick="filterSelection('Shiki')">Shiki</button>
+  </div>
+  <div>
+    <p class="buttonHeader">OCs</p>
+    <button class="btn" onclick="filterSelection('Mother')">Mother</button>
+    <button class="btn" onclick="filterSelection('Father')">Father</button>
+    <button class="btn" onclick="filterSelection('Null')">Null</button>
+    <button class="btn" onclick="filterSelection('Chisa')">Chisa</button>
+  </div>
+</div>
+</details>
+
+{% assign currentYear = "" %}
+{% for post in collections.twewyArtNoSpoilers | reverse %}
+  {% assign postYear = post.data.twewyart.dateYear %}
+  {% if currentYear != postYear %}
+  {% assign currentYear = postYear %}
+    <div class="boxheader"><h3>{{ postYear }}</h3></div>
+  {% endif %}
+    <div classs="row">
+      <div class="characters {{ post.data.twewyart.characters }}">
+        <div class="content">
+          
+          <a href="{{ post.url }}"> {{ post.data.twewyart.title | truncate: 37 }} </a> 
+          
+          <p class="smallpadding">({{ post.data.twewyart.characters }})</p>
+          <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.spoilers }})</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+<script src="/js/filterByTag.js"></script>

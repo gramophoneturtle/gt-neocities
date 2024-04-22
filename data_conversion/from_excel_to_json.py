@@ -7,7 +7,8 @@ import json
 import os
 
 filename_input = "Where Is My Art.xlsx"
-filename_output_twewy = "twewy-art.json"
+filename_output_twewy_all_includespoilers = "twewy-art.json"
+filename_output_twewy_all_nospoilers = "twewy-art-spoiler-free.json"
 filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
@@ -155,19 +156,24 @@ def main(sheet_name, file_path_output, fandom = [""], include_spoilers = True):
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6']
         )
 
-    # only get nightshaded artworks
+    # only get nightshaded artworks and...
     options = ['Yes','yes']
-    nightshadeOnly = excel_data_df[excel_data_df["NS?"].isin(options)]
+    nightshadeOnlyTMP = excel_data_df[excel_data_df["NS?"].isin(options)]
+    nightshadeOnlyTMP.fillna("", inplace=True)
+
+    if include_spoilers == False:
+        options = ['No','no']
+        nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+    else:
+        options = ['Yes','yes','']
+        nightshadeOnly = nightshadeOnlyTMP[not nightshadeOnlyTMP["Spoilers"].isin(options)]
+
 
     # CLEAN UP - Set Defaults
+    # fill in NaN as with default values for each column
+
     # fill in NaN as ""
     # nightshadeOnly.fillna("", inplace=True)
-
-
-    values = {"Spoilers": "Unknown", "fandom": "Unknown", "NS?": ""}
-
-    nightshadeOnly.fillna(value=values, inplace=True)
-    
 
     # "The Sheets API doesn't know what to do with a Python datetime/timestamp. You'll need to convert it - most likely to a str." 
     #https://stackoverflow.com/questions/49243736/how-do-i-handle-object-of-type-timestamp-is-not-json-serializable-in-python
@@ -190,8 +196,11 @@ def main(sheet_name, file_path_output, fandom = [""], include_spoilers = True):
 
 if __name__ == '__main__':
     # TWEWY
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy)
-    main('TWEWY Series', file_path_output)
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_all_includespoilers)
+    main('TWEWY Series', file_path_output, include_spoilers=True)
+
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_all_nospoilers)
+    main('TWEWY Series', file_path_output, include_spoilers=False)
 
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
