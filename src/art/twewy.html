@@ -44,9 +44,10 @@ date: 2024-01-01
       <div class="characters {{ post.data.twewyart.characters }}">
         <div class="content">
           
-          <a href="{{ post.url }}">{{ post.data.twewyart.title }}</a> 
+          <a href="{{ post.url }}"> {{ post.data.twewyart.title | truncate: 37 }} </a> 
           
           <p class="smallpadding">({{ post.data.twewyart.characters }})</p>
+          <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.spoilers }})</p>
         </div>
       </div>
     </div>

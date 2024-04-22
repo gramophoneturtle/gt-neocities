@@ -113,6 +113,8 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
 
         artwork_dictionary['imgs'] = make_img_list(row)
 
+        artwork_dictionary['fandom'] = row['fandom'].split(",")
+
         if artwork_dictionary['imgs']:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
@@ -134,7 +136,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output):
+def main(sheet_name, file_path_output, fandom = [""], include_spoilers = True):
     print('\n1. Reading Excel File for {0}\n'.format(sheet_name))
 
     # Read Excel file
@@ -157,9 +159,15 @@ def main(sheet_name, file_path_output):
     options = ['Yes','yes']
     nightshadeOnly = excel_data_df[excel_data_df["NS?"].isin(options)]
 
-    # CLEAN UP
+    # CLEAN UP - Set Defaults
     # fill in NaN as ""
-    nightshadeOnly.fillna("", inplace=True)
+    # nightshadeOnly.fillna("", inplace=True)
+
+
+    values = {"Spoilers": "Unknown", "fandom": "Unknown", "NS?": ""}
+
+    nightshadeOnly.fillna(value=values, inplace=True)
+    
 
     # "The Sheets API doesn't know what to do with a Python datetime/timestamp. You'll need to convert it - most likely to a str." 
     #https://stackoverflow.com/questions/49243736/how-do-i-handle-object-of-type-timestamp-is-not-json-serializable-in-python
