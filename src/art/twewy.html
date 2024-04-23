@@ -5,7 +5,7 @@ date: 2024-01-01
 ---
 <p>Ordered by original post date.</p>
 
-<p>HEY</p>
+<p>HEY - using filtered tags which means BOTH tags have to be included!! (Not actually what I want, whoops!)</p>
 {% assign currentYear = "" %}
 {% for post in collections.allTWEWY %}
   {% assign postYear = post.data.twewyart.dateYear %}
@@ -22,8 +22,8 @@ date: 2024-01-01
   {% endfor %}
 <p>END</p>
 
-<p>--- 2 ---</p>
-{% for item in collections.all | withTags('twewyArt2') %}
+<h2>--- 2 ---</h2>
+{% for item in collections.all  %}
     <h2>forloop: {{ forloop.index }}</h2>
     <p> item data</p>
     <ul>
@@ -31,7 +31,17 @@ date: 2024-01-01
       <li><p>Permalink: {{ item.data.permalink }}</p></li>
       <li><p>twewyart.title: {{ item.data.twewyart.title }}</p></li> 
       <li><p>ocs.Name: {{ item.data.ocs.Name }}</p></li>
+
     </ul>
+
+    <p>tags?</p>
+    <ol>
+    {% for tg in item.data.tags %}
+      <li><p>{{ tg }}</p></li>
+
+    {% endfor %}
+  </ol>
+
     <p>item page</p>
     <ul>
       <li><p>page.date (sorting): {{ item.page.date }}</p></li>
@@ -40,15 +50,20 @@ date: 2024-01-01
       <li><p>page.outputPath: {{ item.page.outputPath }}</p></li>
     </ul>
 {% endfor %}
+<p>END - ALL, 48</p>
 
-<p>---3 ---</p>
-{% for item in collections.allTWEWY %}
-    Main page: {{ item.data.title }}
+
+<h2>---3 ---</h2>
+{% for item in collections.twewyArt2 %}
+    <h2>forloop: {{ forloop.index }}</h2>
+      <p>page.date (sorting): {{ item.page.date }}</p>
+      Main page: {{ item.data.title }}
     <p>Artwork: {{ item.data.twewyart.title }}</p> 
     <p>OC: {{ item.data.ocs.Name }}</p>
-    <p>{{ item.data.permalink }}</p>
-    <p>forloop: {{ forloop.index }}</p>
+    <p>{{ item.page.outputPath }}</p>
 {% endfor %}
+<p>END - TWEWY art only, 22</p>
+
 
 <details>
   <summary>Characters</summary>

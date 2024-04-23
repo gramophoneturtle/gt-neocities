@@ -45,7 +45,8 @@ module.exports = function (eleventyConfig) {
 // 	});
 
   eleventyConfig.addCollection("allTWEWY", function (collectionApi) {
-    return collectionApi.getFilteredByTags("twewyArt2", "ArtP5");
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("twewyArt2All", "twewyArtNoSpoilers");
   });
 
   return {
