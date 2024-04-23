@@ -4,6 +4,52 @@ layout: /layouts/base.njk
 date: 2024-01-01
 ---
 <p>Ordered by original post date.</p>
+
+<p>HEY</p>
+{% assign currentYear = "" %}
+{% for post in collections.allTWEWY %}
+  {% assign postYear = post.data.twewyart.dateYear %}
+  {% if currentYear != postYear %}
+    {% assign currentYear = postYear %}
+    <div class="boxheader"><h3>{{ postYear }}</h3></div>
+  {% endif %}
+    <p>1</p>
+          <a href="{{ post.url }}">{{ post.data.twewyart.title | truncate: 37 }}</a> 
+          <p class="smallpadding">({{ post.data.twewyart.characters }})</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+<p>END</p>
+
+<p>--- 2 ---</p>
+{% for item in collections.all | withTags('twewyArt2') %}
+    <h2>forloop: {{ forloop.index }}</h2>
+    <p> item data</p>
+    <ul>
+      <li>Main page: {{ item.data.title }}</li>
+      <li><p>Permalink: {{ item.data.permalink }}</p></li>
+      <li><p>twewyart.title: {{ item.data.twewyart.title }}</p></li> 
+      <li><p>ocs.Name: {{ item.data.ocs.Name }}</p></li>
+    </ul>
+    <p>item page</p>
+    <ul>
+      <li><p>page.date (sorting): {{ item.page.date }}</p></li>
+      <li><p>page.url: {{ item.page.url }}</p></li>
+      <li><p>page.templateSyntax: {{ item.page.templateSyntax }}</p></li>
+      <li><p>page.outputPath: {{ item.page.outputPath }}</p></li>
+    </ul>
+{% endfor %}
+
+<p>---3 ---</p>
+{% for item in collections.allTWEWY %}
+    Main page: {{ item.data.title }}
+    <p>Artwork: {{ item.data.twewyart.title }}</p> 
+    <p>OC: {{ item.data.ocs.Name }}</p>
+    <p>{{ item.data.permalink }}</p>
+    <p>forloop: {{ forloop.index }}</p>
+{% endfor %}
+
 <details>
   <summary>Characters</summary>
 <div id="myBtnContainer">
@@ -45,7 +91,7 @@ date: 2024-01-01
         <div class="content">
           
           <a href="{{ post.url }}"> {{ post.data.twewyart.title | truncate: 37 }} </a> 
-          
+          <p class="smallpadding">({{ post.page.date }})</p>
           <p class="smallpadding">({{ post.data.twewyart.characters }})</p>
           <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.spoilers }})</p>
         </div>

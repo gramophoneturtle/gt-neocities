@@ -44,6 +44,10 @@ module.exports = function (eleventyConfig) {
 // 		},
 // 	});
 
+  eleventyConfig.addCollection("allTWEWY", function (collectionApi) {
+    return collectionApi.getFilteredByTags("twewyArt2", "ArtP5");
+  });
+
   return {
     dir: {
       input: "src",
