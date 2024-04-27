@@ -22,7 +22,9 @@ date: 2024-01-01
   {% endfor %}
 <p>END</p>
 
-<h2>--- 2 ---</h2>
+<details>
+  <summary>2) ALL</summary>
+
 {% for item in collections.all  %}
     <h2>forloop: {{ forloop.index }}</h2>
     <p> item data</p>
@@ -31,38 +33,48 @@ date: 2024-01-01
       <li><p>Permalink: {{ item.data.permalink }}</p></li>
       <li><p>twewyart.title: {{ item.data.twewyart.title }}</p></li> 
       <li><p>ocs.Name: {{ item.data.ocs.Name }}</p></li>
-
     </ul>
 
     <p>tags?</p>
     <ol>
-    {% for tg in item.data.tags %}
-      <li><p>{{ tg }}</p></li>
-
-    {% endfor %}
-  </ol>
-
+      {% for tg in item.data.tags %}
+        <li><p>{{ tg }}</p></li>
+      {% endfor %}
+    </ol>
     <p>item page</p>
     <ul>
       <li><p>page.date (sorting): {{ item.page.date }}</p></li>
       <li><p>page.url: {{ item.page.url }}</p></li>
-      <li><p>page.templateSyntax: {{ item.page.templateSyntax }}</p></li>
       <li><p>page.outputPath: {{ item.page.outputPath }}</p></li>
     </ul>
 {% endfor %}
+</details>
 <p>END - ALL, 48</p>
 
-
-<h2>---3 ---</h2>
-{% for item in collections.twewyArt2 %}
+<details>
+<summary>3) By Title</summary>
+{% for item in collections.twewySeriesArtAllByTitle %}
     <h2>forloop: {{ forloop.index }}</h2>
       <p>page.date (sorting): {{ item.page.date }}</p>
-      Main page: {{ item.data.title }}
+      <p>item.data.title: {{ item.data.title }}</p>
     <p>Artwork: {{ item.data.twewyart.title }}</p> 
-    <p>OC: {{ item.data.ocs.Name }}</p>
     <p>{{ item.page.outputPath }}</p>
 {% endfor %}
 <p>END - TWEWY art only, 22</p>
+</details>
+
+<details>
+  <summary>4) By Date</summary>
+{% for item in collections.twewySeriesArtAllByDate %}
+    <h2>forloop: {{ forloop.index }}</h2>
+    <p>page.date (default sorting): {{ item.page.date }}</p>
+    <p>Artwork: {{ item.data.twewyart.title }}</p> 
+    <strong><p>twewyart.date (try custom sort): {{ item.data.twewyart.date }}</p></strong> 
+    <p>{{ item.page.outputPath }}</p>
+{% endfor %}
+<hr>
+</details>
+
 
 
 <details>
