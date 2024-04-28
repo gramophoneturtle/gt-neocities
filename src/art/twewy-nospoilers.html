@@ -20,33 +20,17 @@ date: 2024-01-01
   </div>
   <div>
     <p class="buttonHeader">OCs</p>
-    <button class="btn" onclick="filterSelection('Mother')">Mother</button>
     <button class="btn" onclick="filterSelection('Father')">Father</button>
-    <button class="btn" onclick="filterSelection('Null')">Null</button>
-    <button class="btn" onclick="filterSelection('Chisa')">Chisa</button>
   </div>
 </div>
 </details>
 
+{% assign spoilersClass = "content spoilers" %}
+{% assign nospoilersClass = "content" %}
+
 {% assign currentYear = "" %}
 {% for post in collections.twewyArtNoSpoilers | reverse %}
-  {% assign postYear = post.data.twewyart.dateYear %}
-  {% if currentYear != postYear %}
-  {% assign currentYear = postYear %}
-    <div class="boxheader"><h3>{{ postYear }}</h3></div>
-  {% endif %}
-    <div classs="row">
-      <div class="characters {{ post.data.twewyart.characters }}">
-        <div class="content">
-          
-          <a href="{{ post.url }}"> {{ post.data.twewyart.title | truncate: 37 }} </a> 
-          <p class="smallpadding">({{ post.page.date }})</p>
-          
-          <p class="smallpadding">({{ post.data.twewyart.characters }})</p>
-          <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.spoilers }})</p>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+  {% include 'partials/listing-artwork.njk' %}
+{% endfor %}
 
 <script src="/js/filterByTag.js"></script>

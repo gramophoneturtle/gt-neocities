@@ -37,38 +37,9 @@ date: 2024-01-01
 {% assign spoilersClass = "content spoilers" %}
 {% assign nospoilersClass = "content" %}
 
-
 {% assign currentYear = "" %}
 {% for post in collections.twewySeriesArtAllByDate %}
-  {% assign postYear = post.data.twewyart.dateYear %}
-  {% if currentYear != postYear %}
-  {% assign currentYear = postYear %}
-    <div class="boxheader"><h3>{{ postYear }}</h3></div>
-  {% endif %}
-    <div classs="row">
-      <div class="characters {{ post.data.twewyart.characters }}">
-          {% assign spoilersValue = post.data.twewyart.spoilers | upcase %}
-         
-          {% if spoilersValue == "YES" %}
-           <div class= "content spoilers">
-          {% else %}
-            <div class= "content">
-          {% endif %}
-          
-          <a href="{{ post.url }}"> 
-              {% if spoilersValue == "YES" %}
-                <span class="spoilers"> [!]</span>
-              {% endif %} 
-              {{ post.data.twewyart.title | truncate: 37 }} 
-          </a> 
-          <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.characters }})</p>
-          
-          
-          
-
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+  {% include 'partials/listing-artwork.njk' %}
+{% endfor %}
 
 <script src="/js/filterByTag.js"></script>

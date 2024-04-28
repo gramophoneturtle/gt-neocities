@@ -136,7 +136,7 @@ h2 {
 
 
 
-/* Format links */
+/* || Format links */
 a,
 a:visited {
   color: var(--accent);
@@ -146,7 +146,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* || UPDATE POSTS - /updates/ */
+/* || UPDATE POSTS - /updates/ ------------------------------------- */
 .updatepost {
   background-color: var(--background-container);
   border: 3px solid var(--border-color);
@@ -169,6 +169,21 @@ a:hover {
   border-top: 2px dashed var(--accent);
   padding-top: 0.5rem;
 }
+
+/* || TOC FOR ARTWORK ----------------------------------------- */
+
+.table-overflow {
+  overflow-x: auto;
+}
+
+.table-toc-art {
+    width: 100%;
+    
+    th, td {
+      padding: 8px;
+    }
+}
+
 
 /* || ARTWORK */
 /** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
