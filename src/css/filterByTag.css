@@ -22,7 +22,7 @@
 /* div for each year */
 .row {
     margin: 4px ;
-    border: #995890 2px solid;
+    border: var(--border-color) 2px solid;
 }
   
 /* Add padding BETWEEN each column (if you want) */
@@ -38,7 +38,7 @@
     width: 10.75rem;
     height: 10.75rem;
     display: none; /* Hide columns by default */
-    border: 4px dashed #995890;
+    border: 4px dashed var(--border-color);
     font-size: medium;
 }
 
@@ -54,6 +54,14 @@
 .content {
     padding: 0.5rem;
     display: grid;
+    background-color: var(--background-container);
+}
+
+.spoilers {
+    background-color: var(--background-container-warning);
+    a {
+        font-weight: 600;
+    }
 }
 
 /* The "show" class is added to the filtered elements */
