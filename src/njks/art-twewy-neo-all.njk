@@ -1,0 +1,13 @@
+---
+tags:
+  - twewyArt2
+  - twewyNeoArtAll
+pagination:
+    data: twewy-neo-art
+    size: 1
+    alias: twewyart
+    addAllPagesToCollections: true
+permalink: "art/twewy/{{ twewyart.uniqueUrl | slugify }}/"
+layout: /layouts/art
+---
+{% include 'partials/art-show.njk' %}

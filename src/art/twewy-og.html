@@ -1,5 +1,5 @@
 ---
-title: TWEWY Series - All
+title: TWEWY OG - All
 layout: /layouts/base.njk
 date: 2024-01-01
 ---
@@ -20,11 +20,6 @@ date: 2024-01-01
     <button class="btn" onclick="filterSelection('Shiki')">Shiki</button>
   </div>
   <div>
-    <p class="buttonHeader">NEO TWEWY</p>
-    <button class="btn" onclick="filterSelection('Hazuki')">Hazuki</button>
-    <button class="btn" onclick="filterSelection('Kubo')">Kubo</button>
-  </div>
-  <div>
     <p class="buttonHeader">OCs</p>
     <button class="btn" onclick="filterSelection('Mother')">Mother</button>
     <button class="btn" onclick="filterSelection('Father')">Father</button>
@@ -38,7 +33,7 @@ date: 2024-01-01
 {% assign nospoilersClass = "content" %}
 
 {% assign currentYear = "" %}
-{% for post in collections.twewySeriesArtAllByDate %}
+{% for post in collections.twewyOGArtAll %}
   {% include 'partials/listing-artwork.njk' %}
 {% endfor %}
 

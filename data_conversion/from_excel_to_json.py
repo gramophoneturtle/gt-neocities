@@ -9,6 +9,10 @@ import os
 filename_input = "Where Is My Art.xlsx"
 filename_output_twewy_all_includespoilers = "twewy-art.json"
 filename_output_twewy_all_nospoilers = "twewy-art-spoiler-free.json"
+filename_output_twewy_neo_nospoilers = "twewy-neo-art-spoiler-free.json"
+filename_output_twewy_neo_all = "twewy-neo-art.json"
+filename_output_twewy_series_all = "twewy-series_all.json"
+filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
 filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
@@ -137,7 +141,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output, fandom = [""], include_spoilers = True):
+def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     print('\n1. Reading Excel File for {0}\n'.format(sheet_name))
 
     # Read Excel file
@@ -164,9 +168,15 @@ def main(sheet_name, file_path_output, fandom = [""], include_spoilers = True):
     if include_spoilers == False:
         options = ['No','no']
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+
     else:
         options = ['Yes','yes','']
-        nightshadeOnly = nightshadeOnlyTMP[not nightshadeOnlyTMP["Spoilers"].isin(options)]
+        nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+
+
+    if len(fandoms) == 1:
+        nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].isin(fandoms)]
+        
 
 
     # CLEAN UP - Set Defaults
@@ -197,10 +207,16 @@ def main(sheet_name, file_path_output, fandom = [""], include_spoilers = True):
 if __name__ == '__main__':
     # TWEWY
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_all_includespoilers)
-    main('TWEWY Series', file_path_output, include_spoilers=True)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True)
 
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_all_nospoilers)
-    main('TWEWY Series', file_path_output, include_spoilers=False)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False)
+
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False)
+
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True)
 
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
