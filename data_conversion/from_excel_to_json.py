@@ -164,6 +164,9 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     # only get nightshaded artworks and...
     options = ['Yes','yes']
     nightshadeOnlyTMP = excel_data_df[excel_data_df["NS?"].isin(options)]
+    
+    # CLEAN UP - Set Defaults
+    # fill in NaN as with default values for each column
     nightshadeOnlyTMP.fillna("", inplace=True)
 
     if include_spoilers == False:
@@ -174,19 +177,8 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
         options = ['Yes','yes','']
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
 
-
     if len(fandoms) == 1:
         nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].isin(fandoms)]
-    # elif len(fandoms) > 1:
-    #     nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].isin(fandoms[0]) & nightshadeOnly["fandom"].isin(fandoms[1])]
-        
-
-
-    # CLEAN UP - Set Defaults
-    # fill in NaN as with default values for each column
-
-    # fill in NaN as ""
-    # nightshadeOnly.fillna("", inplace=True)
 
     # "The Sheets API doesn't know what to do with a Python datetime/timestamp. You'll need to convert it - most likely to a str." 
     #https://stackoverflow.com/questions/49243736/how-do-i-handle-object-of-type-timestamp-is-not-json-serializable-in-python
@@ -194,6 +186,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     # ex: Timestamp('2024-03-23 00:00:00') -> '2024-03-23' for Fathers using Windows 11 Paint  
     nightshadeOnly[date_column_name] = nightshadeOnly[date_column_name].dt.strftime('%Y-%m-%d')
 
+    # sort
     nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
     print("\n2. Processing DataFrame.\n")
@@ -208,19 +201,21 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     print("\n4. Completed.\n")
 
 if __name__ == '__main__':
-    # TWEWY
+    # TWEWY OG
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
     main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True)
 
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
     main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False)
 
+    # NEO TWEWY
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
     main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False)
 
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
     main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True)
 
+    # TWEWY Series
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
     main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False)
 

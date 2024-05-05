@@ -153,16 +153,31 @@ a:hover {
   border-radius: 0.75rem;
   padding: 0.25rem 0.5rem;
   margin: 1rem 0rem;
+
+  p {
+    margin: 1rem;
+  }
+
+  p.header {
+    font-weight: bold;
+    border-bottom: 2px dashed var(--accent);
+  }
+
+  p.subheader {
+    font-weight: 600;
+    margin-bottom: 0rem; 
+  }
+
+  details {
+    margin: 0.5rem 1rem;
+
+    summary {
+      font-weight: 600;
+    }
+  }
 }
 
-.updatepost > p {
-  margin: 1rem;
-}
 
-.updatepost > p.header {
-  font-weight: bold;
-  border-bottom: 2px dashed var(--accent);
-}
 
 .updatepost > p.footer {
   font-style: italic;
