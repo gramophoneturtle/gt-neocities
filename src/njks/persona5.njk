@@ -11,42 +11,89 @@ layout: /layouts/art
 ---
 <div><a href="/art/persona5/">Persona 5</a></div>
 
-<div>
-  <div>
+{# If multiple images, show thumbnails of each and expand on click #}
+{% set enableGalleryGrid = false %}
+{% if artwork.imgs.length > 1 %}
+  {% set enableGalleryGrid = true %}
+
+  {# Main Div - Slideshow Gallery #}
+  <div class="slideshow-container">
+
+    {# 1) Main Slides #}
+    {%- for item in artwork.imgs %}
+
+      {# TEST - set id for images? Optional  #}
+      {% set currentID = [ "img0", loop.index ] | join %}
+      
+      <div class="slideshow-mySlides">
+        <img style="width:100%"
+          src="{{ item.url }}"
+          alt="{{ item.alt }}"
+          id="{{ currentID }}" >
+      </div>
+    {% endfor -%}
+
+    <a id="btnPrev" class="slideshow-prev" onclick="plusSlides(-1)">❮</a>
+    <a id="btnNext" class="slideshow-next" onclick="plusSlides(1)">❯</a>
+
+    <div class="slideshow-caption-container">
+      <p id="caption"></p>
+    </div>
+    
+    {# 2) Thumbnails #}
+    <div class="slideshow-row scrollmenu" >
+    {%- for item in artwork.imgs %}
+
+      <div class="slideshow-column">
+        <img class="slideshow-demo slideshow-cursor"
+          style="width:100%"
+          src="{{ item.url }}"
+          alt="{{ item.alt }}"
+          onClick="currentSlide({{ loop.index }});" >
+      </div>
+    {% endfor -%}
+    </div>
+  </div>
+
+{% else %}
+  {# Set up for single image display. No grid required. #}
   {%- for item in artwork.imgs %}
-    <div class="artwork">
-      <img src="{{ item.url }}"
+    <div>
+      <img 
+        src="{{ item.url }}"
         alt="{{ item.alt }}">
     </div>
-    <details>
-      <summary>ALT</summary>
-      <p>{{ item.alt }}</p>
-    </details>
   {% endfor -%}
-  </div>
+{% endif %}
 
-  <div>
-    <p>{{ artwork.summary }}</p>
-  </div>
+<hr class="hr-divide">
 
-  {%- if artwork.details %}
-  <div>
-    <details>
-        <summary>Details</summary>
-        <p>{{ artwork.details }}</p>
-    </details>
-  </div>
-  {%- endif -%}
-
-  <div>
-    <p>Posted on:</p>
-    <ul>
-      {%- for item in artwork.urls %}
-        <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
-      {% endfor -%}
-    </ul>
-  </div>
-  <div><p>Originally posted on {{ artwork.date }}.</p></div>
-
-  <div><a href="/art/persona5/">Persona 5</a></div>
+<div>
+  <p>{{ artwork.summary }}</p>
 </div>
+
+{%- if artwork.details %}
+<div>
+  <details>
+      <summary>Details</summary>
+      <p>{{ artwork.details }}</p>
+  </details>
+</div>
+{%- endif -%}
+
+<div>
+  <p>Posted on:</p>
+  <ul>
+    {%- for item in artwork.urls %}
+      <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
+    {% endfor -%}
+  </ul>
+</div>
+
+<p>Originally posted on {{ artwork.date }}.</p>
+
+<a href="/art/persona5/">Persona 5</a>
+
+{% if enableGalleryGrid %}
+  <script src="/js/SlideShowGallery.js"></script>
+{% endif %}

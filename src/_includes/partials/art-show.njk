@@ -1,16 +1,3 @@
----
-tags:
-  - twewyArt2
-pagination:
-    data: twewy-art
-    size: 1
-    alias: twewyart
-    addAllPagesToCollections: true
-permalink: "art/twewy/{{ twewyart.uniqueUrl | slugify }}/"
-layout: /layouts/art
----
-<a href="/art/twewy/">TWEWY</a>
-
 {# If multiple images, show thumbnails of each and expand on click #}
 {% set enableGalleryGrid = false %}
 {% if twewyart.imgs.length > 1 %}
@@ -92,8 +79,7 @@ layout: /layouts/art
 
 <p>Originally posted on {{ twewyart.date }}.</p>
 
-<a href="/art/twewy/">TWEWY</a>
 
 {% if enableGalleryGrid %}
-  <script src="/js/SlideShowGallery.js"></script>
+<script src="/js/SlideShowGallery.js"></script>
 {% endif %}
