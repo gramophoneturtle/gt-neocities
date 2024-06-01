@@ -1,26 +1,13 @@
----
-tags:
-  - ArtP5
-pagination:
-    data: art-persona5
-    size: 1
-    alias: artwork
-    addAllPagesToCollections: true
-permalink: "art/persona5/{{ artwork.uniqueUrl | slugify }}/"
-layout: /layouts/art
----
-<div><a href="/art/persona5/">Persona 5</a></div>
-
 {# If multiple images, show thumbnails of each and expand on click #}
 {% set enableGalleryGrid = false %}
-{% if artwork.imgs.length > 1 %}
+{% if twewyart.imgs.length > 1 %}
   {% set enableGalleryGrid = true %}
 
   {# Main Div - Slideshow Gallery #}
   <div class="slideshow-container">
 
     {# 1) Main Slides #}
-    {%- for item in artwork.imgs %}
+    {%- for item in twewyart.imgs %}
 
       {# TEST - set id for images? Optional  #}
       {% set currentID = [ "img0", loop.index ] | join %}
@@ -42,7 +29,7 @@ layout: /layouts/art
     
     {# 2) Thumbnails #}
     <div class="slideshow-row scrollmenu" >
-    {%- for item in artwork.imgs %}
+    {%- for item in twewyart.imgs %}
 
       <div class="slideshow-column">
         <img class="slideshow-demo slideshow-cursor"
@@ -57,7 +44,7 @@ layout: /layouts/art
 
 {% else %}
   {# Set up for single image display. No grid required. #}
-  {%- for item in artwork.imgs %}
+  {%- for item in twewyart.imgs %}
     <div>
       <img 
         src="{{ item.url }}"
@@ -69,14 +56,14 @@ layout: /layouts/art
 <hr class="hr-divide">
 
 <div>
-  <p>{{ artwork.summary }}</p>
+  <p>{{ twewyart.summary }}</p>
 </div>
 
-{%- if artwork.details %}
+{%- if twewyart.details %}
 <div>
   <details>
       <summary>Details</summary>
-      <p>{{ artwork.details }}</p>
+      <p>{{ twewyart.details }}</p>
   </details>
 </div>
 {%- endif -%}
@@ -84,16 +71,15 @@ layout: /layouts/art
 <div>
   <p>Posted on:</p>
   <ul>
-    {%- for item in artwork.urls %}
+    {%- for item in twewyart.urls %}
       <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
     {% endfor -%}
   </ul>
 </div>
 
-<p>Originally posted on {{ artwork.date }}.</p>
+<p>Originally posted on {{ twewyart.date }}.</p>
 
-<a href="/art/persona5/">Persona 5</a>
 
 {% if enableGalleryGrid %}
-  <script src="/js/SlideShowGallery.js"></script>
+<script src="/js/SlideShowGallery.js"></script>
 {% endif %}

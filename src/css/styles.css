@@ -7,28 +7,58 @@
     "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
-  /* Default (light) theme */
-  --bg: #fff;
-  --accent-bg: #f5f7ff;
-  --text: #333;
-  --text-light: #585858;
-  --border: #d8dae1;
-  --accent: #0d47a1;
-  --border-color: #461a40;
-  --dark-background: #a591a3;
+  /* Default (dark) theme */
+  --bg: #212121;
+  --accent-bg: #2a2b2a;
+  --text: #dcdcdc;
+  --text-light: #ababab;
+  --border: #666;
+  --accent: #ffb300;
+  --accent-lavendar-light: rgb(202, 151, 209);
+  --border-color: #995890;
+  --dark-background: #4e1d48;
+  --background-container: #30282b;
+  --background-container-warning: #4d253f;
+  --hover-img-color: #331b35;
+
+  --null-pink: #C48F97;
+  --null-black: #303030;
+  --null-dark-blue: #242B3B;
+  --null-eye-green: #131913;
+  --null-light-green-base: #657365;
+  --null-light-green-ivy: #829482;
+  --null-dark-green-base: #384138;
+  --null-dark-green-ivy: #131913;
 }
 
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
+img {
+  opacity: 0.8;
+}
+
+/* Light theme */
+@media (prefers-color-scheme: light) {
   :root {
-    --bg: #212121;
-    --accent-bg: #2b2b2b;
-    --text: #dcdcdc;
-    --text-light: #ababab;
-    --border: #666;
-    --accent: #ffb300;
-    --border-color: #995890;
-    --dark-background: #4e1d48;
+    --bg: #ccceb8;
+    --accent-bg: #b9c4b7f3;
+    --text: #1a1616;
+    --text-light: #554f4f;
+    --border: #5b793a;
+    --accent: rgb(115, 10, 129);
+    --accent-lavendar-light: rgb(176, 14, 197);
+    --border-color: #b88246;
+    --dark-background: #a591a3;
+    --hover-img-color: rgb(226, 179, 146);
+    --background-container: #c7cebf;
+    --background-container-warning: #d3c5a8;
+
+    --null-light-green-base: #dde6d8;
+    --null-light-green-ivy: #859685;
+    --null-dark-green-base: #c1cec1;
+    --null-dark-green-ivy: #698b69;
+  }
+
+  img {
+    opacity: 1;
   }
 }
 
@@ -64,31 +94,8 @@ body > header h1 {
   margin: 0.5rem auto;
 }
 
-/* Format navigation */
-nav {
-  font-size: 1rem;
-  line-height: 2;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-bottom: rem;
-}
-
-nav a:last-child {
-  margin-right: 0;
-}
-
-/* Reduce nav side on mobile */
-@media only screen and (max-width: 750px) {
-  nav a {
-    border: none;
-    padding: 0;
-    color: var(--accent);
-    text-decoration: underline;
-    line-height: 1;
-  }
+.noBottomBorder {
+  border-bottom: none;
 }
 
 /* Add a little padding to ensure spacing is correct between content and nav */
@@ -105,7 +112,7 @@ body > footer {
   border-top: 1px solid var(--border);
 }
 
-/* Format headers */
+/* || Headers, Diff Screen Sizes */
 
 h1 {
   font-size: 2.5rem;
@@ -127,7 +134,9 @@ h2 {
   }
 }
 
-/* Format links */
+
+
+/* || Format links */
 a,
 a:visited {
   color: var(--accent);
@@ -137,24 +146,38 @@ a:hover {
   text-decoration: none;
 }
 
-
-/* My own general CSS */
-
+/* || UPDATE POSTS - /updates/ ------------------------------------- */
 .updatepost {
+  background-color: var(--background-container);
   border: 3px solid var(--border-color);
   border-radius: 0.75rem;
   padding: 0.25rem 0.5rem;
   margin: 1rem 0rem;
+
+  p {
+    margin: 1rem;
+  }
+
+  p.header {
+    font-weight: bold;
+    border-bottom: 2px dashed var(--accent);
+  }
+
+  p.subheader {
+    font-weight: 600;
+    margin-bottom: 0rem; 
+  }
+
+  details {
+    margin: 0.5rem 1rem;
+
+    summary {
+      font-weight: 600;
+    }
+  }
 }
 
-.updatepost > p {
-  margin: 1rem;
-}
 
-.updatepost > p.header {
-  font-weight: bold;
-  border-bottom: 2px dashed var(--accent);
-}
 
 .updatepost > p.footer {
   font-style: italic;
@@ -162,8 +185,53 @@ a:hover {
   padding-top: 0.5rem;
 }
 
+/* || TOC FOR ARTWORK ----------------------------------------- */
+
+.table-overflow {
+  overflow-x: auto;
+}
+
+.table-toc-art {
+    width: 100%;
+    
+    th, td {
+      padding: 8px;
+    }
+}
+
+
 /* || ARTWORK */
-.artwork {
+/** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
+.artworkRow {
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.artworkRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.artworkColumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Style the images inside the grid */
+.artworkColumn img {
+  opacity: 0.6; 
+  cursor: pointer; 
+}
+
+.artworkColumn img:hover {
+  opacity: 1;
+}
+
+.artwork, .artworkContainer {
+  opacity: 1;
   margin: 1rem 0rem;
   padding: 5px;
   border: solid var(--border) 1px;
@@ -171,21 +239,52 @@ a:hover {
   font-style: italic; /* affects the alt text if image is not found. */
 }
 
+/* The expanding image container */
+.artworkContainer {
+  position: relative;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
 
 /* || OC NAV */
-.navoc {
-  background-color: var(--dark-background);
-  padding: 0.5rem 1.5rem;
-  text-decoration: none;
-  margin: 0 0.5rem;
-  border-radius: var(--standard-border-radius);
-  display: inline-block;
+.nav-oc-group {
+  padding: 0rem 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .navoc,
 .navoc:visited {
-  border: 1px solid var(--border);
+  background-color: var(--dark-background);
+  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border-color);
   color: var(--text);
+
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0.15rem 0.15rem;
+
+  font-size: medium;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .navoc:hover,
@@ -194,4 +293,205 @@ a:hover {
   border-color: var(--accent);
   color: var(--accent);
   cursor: pointer;
+}
+
+
+/* || OC Page - THumbnail + Name underneath */
+div.ocGallery {
+  float: left;
+  margin: 2px;
+  width: 9.5rem;
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+div.ocGallery:hover {
+  background-color: var(--hover-img-color);
+}
+
+div.ocGallery img {
+  width: 9.5rem;
+  height: 9.5rem;
+  display: grid;
+}
+
+.ocGallery > a {
+  text-decoration: none;
+}
+
+div.desc {
+  padding: 0.25rem;
+  text-align: center;
+}
+
+
+/* || Format navigation  - HEADER ONLY */
+nav {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 750px) {
+  .navHeader {
+    padding: 0.25rem 0.25rem;
+    font-size: small;
+  }
+}
+
+/* || OC NAV */
+.navHeader,
+.navHeader:visited {
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0rem 0.25rem 0.2rem;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+  border: 3px solid var(--null-light-green-base);
+  border-radius: var(--standard-border-radius);
+  background-color: var(--null-dark-green-base);
+  color: var(--text);
+}
+
+.navHeader:hover,
+.navHeader.current,
+.navHeader[aria-current="page"] {
+  background-color: var(--null-light-green-base);
+  border-color: var(--null-light-green-ivy);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+
+/* || SlideShow */
+
+.slideshow-img {
+  width: 1005;
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slideshow-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.slideshow-mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.slideshow-prev,
+.slideshow-next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: var(--text);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slideshow-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* MOBILE: shrink the arrows a bit */
+@media only screen and (max-width: 750px) {
+  .slideshow-prev,
+  .slideshow-next {
+    font-size: smaller;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    padding: 7px 5px;
+  }
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-prev:hover,
+.slideshow-next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: var(--accent);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+/* Container for image text */
+.slideshow-caption-container {
+  text-align: center;
+  background-color: #222;
+  color: var(--text);
+}
+
+.slideshow-caption-container > p {
+  margin: 0.25rem;
+  font-size: smaller;
+}
+
+.slideshow-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.slideshow-column {
+  width: 24%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.slideshow-demo {
+  opacity: 0.6;
+}
+
+.active,
+.slideshow-demo:hover {
+  opacity: 1;
+}
+
+/* || Scrolling for the thumbnails of multi artwork pages */
+div.scrollmenu {
+  background-color: var(--accent-bg);
+  overflow: auto;
+  white-space: nowrap;
+  align-items: center;
+}
+
+div.scrollmenu > .slideshow-column {
+  display: inline-block;
+}
+
+
+/* || Dividers like between art and description for artwork */
+.hr-divide {
+  background: var(--border-color);
+  margin: 1rem 0rem;
+}
+
+/* || TEST STUFF */
+.testimg {
+  border: 2px solid var(--accent-lavendar-light);
+  margin-bottom: 1rem;
+  padding: 1rem;
 }

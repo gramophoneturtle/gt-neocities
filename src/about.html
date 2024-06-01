@@ -1,7 +1,8 @@
 ---
-title: About Me
+title: About
 layout: layouts/base.njk
 ---
+<h2>About Me</h2>
 <p>
     Despite my handle, I know extremely little about gramophones and turtles. 
     They were just a friend I doodled one day and then later I desparately turned them when I needed a "cool username".
@@ -14,4 +15,26 @@ layout: layouts/base.njk
     I'm also aromantic and asexual, both kinda on the repulsed side. 
     Because of that, for me personnaly, you're not going to see shipping content unless it's of the platonic variety.
     Even then it'll probably have it's own warning cause if my brain is like that even with platonic ships, then I know it'll help someone else too.
+</p>
+
+<h2>About This Site</h2>
+<p>
+    This Site was made using:
+    <ul>
+        <li>VSCode as a free code editor.</li>
+        <li>11ty (eleventy), Nunjucks and Luquid for generating static files using templates.</li>
+        <li>Github for version control/backup the site.</li>
+        <li>A Github Action to automate building and pushing (deploying) the changes to Neocities.</li>
+        <li>Simple.css for base CSS.</li>
+        <li>Using JSON files to store data to populate the templates. For my artwork, it's stored in an Excel file which I have a Python script using pandas to convert the Excel file to JSON.</li>
+    </ul>
+</p>
+<p>
+    Some Tutorials used for this site:
+    <ul>
+        <li><a href="//flamedfury.com/guides/11ty-homepage-neocities/">Setting up a Neocities site using 11ty and Nunjucks. I started with this.</a></li>
+        <li><a href="https://github.com/marketplace/actions/deploy-to-neocities">Github's sample Github Action to automate deployment to Neocities.</a> I had to change it to make it work for me. Calling the job 'deploy' didn't work but calling it 'build' did. I made my workflow file using another tutorial so maybe mixing the two caused issues.</li>
+        <li><a href="https://www.w3schools.com/howto/howto_js_portfolio_filter.asp">Portfolio Gallery with Filtering.</a></li>
+        <li><a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp">Slideshow Gallery, for showing multiple images for pieces of art.</a></li>
+    </ul>
 </p>
