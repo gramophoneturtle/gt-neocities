@@ -227,3 +227,6 @@ if __name__ == '__main__':
     # main('Other', file_path_output)
 
 
+    print("\nMAIN: C O M P L E T E!\n")
+
+

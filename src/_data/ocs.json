@@ -12,8 +12,8 @@
         "DOB": "February 13",
         "NoiseAffinity": "Jellyfish",
         "Apparent Age": "20s, late 20s maybe.",
-        "Likes": ["Cats"],
-        "Dislikes": ["Backstabbers"],
+        "Likes": ["Cats", "Fancy lattes", "Bitter teas and unsweetened lattes", "Fabric arts"],
+        "Dislikes": ["Backstabbers", "Caffeine drinks", "Pointing out his cat \"weakness\""],
 
         "ImageHeader": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
@@ -118,8 +118,9 @@
         "NoiseAffinity": "Big powerful creature with claws - like a bear. Might be a little sharper than average.",
         "DOB": "",
         "Likes": [
-            "Tea", 
-            "Birds"
+            "Black and herbal teas", 
+            "Birds",
+            "Singing"
         ],
         "Dislikes": [ 
             "Physical contact, even through clothes. A thick blanket would be required, if you would even dare."
@@ -213,6 +214,9 @@
         
         "NoiseAffinity": "Something very branching, webbing and tree like.",
         "DOB": "Possibly October 22, the date the history comic was first posted.",
+
+        "ImageHeader": "\\img\\icons\\NullIcon.png",
+        "ImageHeaderAltText": "Modern day Null.",
         
         "Likes": ["Strawberry-banana ice cream", "Floral patterns", "Noodles of all kinds"],
         "Dislikes": ["Two faced behaviours"],
@@ -273,11 +277,17 @@
         "ImageIconUrl": "\\img\\icons\\ChisaIcon.jpg",
         "Pronouns": "She/her",
         "DOB": "",
+
+        "ImageHeader": "\\img\\icons\\ChisaIcon.jpg",
+        "ImageHeaderAltText": "Modern day Chisa after her Soul was restored by Null.",
+
+
         "Likes": [
             "Her Family", 
             "Her scarf", 
             "Humans, the lower planes",
-            "Mint flavoured things, like chocolate chip ice cream"
+            "Mint flavoured things, like chocolate chip ice cream",
+            "Green tea, bubble tea with lots of boba"
         ],
         "Dislikes": [
             "Cats (a rivalry, one could say)", 
