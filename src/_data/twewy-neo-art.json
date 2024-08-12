@@ -1,5 +1,97 @@
 [
   {
+    "title": "Mother: Crafting, Creating",
+    "summary": "First attempt at making a \u201ccreating an Angel\u201d piece. Eventually became a comic.",
+    "details": "When I first saw the reference image from a smaller thumbnail I thought there was a halo, so I wanted to do something with it.",
+    "characters": "Mother, Hazuki",
+    "date": "2023-04-05",
+    "dateYear": "2023",
+    "uniqueUrl": "2023-04-05-Older Moth",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/713789699493445632"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4588919"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kpi2k7tnt327"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/5449938-mother-creating-cr"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
+        "alt": "A black and white drawing of a woman with a short ponytail and a suit, has a man lying beneath her. A circular light source shines from above her head, looking like a halo."
+      },
+      {
+        "id": 2,
+        "url": "https://64.media.tumblr.com/11993b609db46d9a161090443e186a70/e73b0940cc2a3cdc-47/s2048x3072/430083f9d65cf68ba78c1977e810e10cf10cfe0f.jpg",
+        "alt": "Image of a masked doctor under a bright circular light, hovering over a masked patient."
+      }
+    ],
+    "fandom": [
+      "NTWEWY"
+    ]
+  },
+  {
+    "title": "Hazuki Sketches",
+    "summary": "Hazuki practice based in game movie expressions and on official(?) art. These were fun emotions to try to capture because you don't see them in his in game sprites so it's neat to see him looking concerned/conflicted or something along those lines.",
+    "details": "Art style and pose/perspective reference: <a href=\"https://x.com/TWEWY_PR/status/1419675720192708619\">Twitter</a>",
+    "characters": "Hazuki",
+    "date": "2022-08-20",
+    "dateYear": "2022",
+    "uniqueUrl": "2022-08-20-Hazuki pra",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/693128918016966656/\nhttps://gramophoneturtle.tumblr.com/post/693129055619416064/art-style-and-poseperspective-reference"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5146103"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kziknvw5jk2z"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\hazupractice_frown-niDEFV1-gl15V1.png",
+        "alt": "Sketch of Hazuki Mikagi from NEO: The World Ends With You drawn in a pencil style with a gradient from faded red in the top left to purple in the bottom right. He's looking down opened and eye brows furrowed."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\hazupractice_expConcern-niDEFAV1-protected-inLOWV2.png",
+        "alt": "Sketch of Hazuki Mikagi from NEO: The World Ends With You drawn in a pencil style with a gradient from faded red in the top left to purple  in the bottom right. He's looking down, mouth opened and eye brows furrowed."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\hazupractice_closed-niDEFV1-gl15V1.png",
+        "alt": "Sketch of Hazuki Mikagi from NEO: The World Ends With You drawn in a pencil style with a gradient from faded red in the top left to purple in the bottom right. His eyes are closed and he looks content."
+      },
+      {
+        "id": 4,
+        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\HazukiReferences.jpg",
+        "alt": "Three images of Hazuki Mikagi from NEO: The World Ends With You from one of the in game movie cutscenes. In the first, his eyes are closed and he looks maybe content. In the second, he's looking down and to his left, our right, mouth opened and eye brows furrowed. He looks concerned or worried about something. In the third, he's looking down and to his left, our right, mouth closed and eye brows furrowed. He looks concerned or worried about something."
+      }
+    ],
+    "fandom": [
+      "NTWEWY"
+    ]
+  },
+  {
     "title": "Happy Birthday Hazuki!!",
     "summary": "",
     "details": "",
