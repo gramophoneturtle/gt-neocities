@@ -15,10 +15,24 @@ layout: /layouts/base
     </p>
 
     {%- if posts.Art %}
-        <p>Art: {{ posts.Art }}</p>
+        <p>Art: {{ posts.Art | safe }}</p>
+    {%- endif -%}
+
+    {%- if posts.OCs %}
+        <p>OCs: {{ posts.OCs | safe }}</p>
+    {%- endif -%}
+
+    {%- if posts.Writing %}
+        <p>Writing: {{ posts.Writing | safe }}</p>
+    {%- endif -%}
+
+    {%- if posts.FibreArts %}
+        <p>Crochet: {{ posts.FibreArts | safe}}</p>
     {%- endif -%}
 
     {%- if posts.Site %}
-        <p>Site: {{ posts.Site }}</p>
+        <p>Site: {{ posts.Site | safe }}</p>
     {%- endif -%}
+
+    {% include 'partials/update-single-footer.njk' %}
 </div>

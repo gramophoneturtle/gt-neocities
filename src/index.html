@@ -15,20 +15,5 @@ layout: layouts/base.njk
 </p>
 
 <h2>Latest Update</h2>
-
-{% assign mostRecent = collections.UpdatePosts | first %}
-<div class="updatepost">
-    <p class="header">
-        {{ mostRecent.data.posts.PostDate }}
-    </p>
-
-    {%- if mostRecent.data.posts.Art %}
-        <p class="subheader">Art</p> <p>{{ mostRecent.data.posts.Art }}</p>
-    {%- endif -%}
-
-    {%- if mostRecent.data.posts.Site %}
-        <p class="subheader">Site</p> <p>{{ mostRecent.data.posts.Site }}</p>
-    {%- endif -%}
-
-    <p class="footer">More <a href="/updates/">Updates</a>.</p>
-</div>
+    {% assign singlePost = collections.UpdatePosts | first %}
+    {% include 'partials/update-single.njk' %}

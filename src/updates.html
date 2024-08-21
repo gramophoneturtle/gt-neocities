@@ -5,15 +5,10 @@ layout: layouts/base.njk
 {%- for item in collections.UpdatePosts %}
     <div class="updatepost">
         <p class="header">
-            {{ item.data.posts.PostDate }}
+            <a href= "{{ item.url }}"> {{ item.data.posts.PostDate }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a>
         </p>
     
-        {%- if item.data.posts.Art %}
-           <p class="subheader">Art</p> <p>{{ item.data.posts.Art }}</p>
-        {%- endif -%}
-    
-        {%- if item.data.posts.Site %}
-            <p class="subheader">Site</p> <p>{{ item.data.posts.Site }}</p>
-        {%- endif -%}
+        {% assign singlePost = item %}
+        {% include 'partials/update-content.njk' %}
     </div>
 {% endfor -%}
