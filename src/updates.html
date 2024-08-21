@@ -9,11 +9,11 @@ layout: layouts/base.njk
         </p>
     
         {%- if item.data.posts.Art %}
-            <p>Art: {{ item.data.posts.Art }}</p>
+           <p class="subheader">Art</p> <p>{{ item.data.posts.Art }}</p>
         {%- endif -%}
     
         {%- if item.data.posts.Site %}
-            <p>Site: {{ item.data.posts.Site }}</p>
+            <p class="subheader">Site</p> <p>{{ item.data.posts.Site }}</p>
         {%- endif -%}
     </div>
 {% endfor -%}
