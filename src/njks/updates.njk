@@ -18,6 +18,22 @@ layout: /layouts/base
         <p>Art: {{ posts.Art | safe }}</p>
     {%- endif -%}
 
+    {%- if posts.ArtList %}
+        <p class="subheader">Arts</p> 
+        {%- for cate in posts.ArtList %}
+        <details>
+            <summary>{{ cate.Category }}</summary>
+            <ul>
+                {%- for item in cate.List %}
+                <li>
+                    <a href= "{{ item.URL }}"> {{ item.Title }}</a> - <a href="{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a>
+                </li>
+                {% endfor -%}
+            </ul>
+        </details>
+        {% endfor -%}
+    {%- endif -%}
+
     {%- if posts.OCs %}
         <p>OCs: {{ posts.OCs | safe }}</p>
     {%- endif -%}

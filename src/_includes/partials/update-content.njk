@@ -1,6 +1,22 @@
     {%- if singlePost.data.posts.Art %}
        <p class="subheader">Art</p> <p>{{ singlePost.data.posts.Art }}</p>
     {%- endif -%}
+        
+    {%- if singlePost.data.posts.ArtList %}
+            <p class="subheader">Art</p> 
+            {%- for cate in singlePost.data.posts.ArtList %}
+            <details>
+                <summary>{{ cate.Category }}</summary>
+                <ul>
+                    {%- for item in cate.List %}
+                    <li>
+                        <a href= "{{ item.URL }}"> {{ item.Title }}</a> - <a href="{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a>
+                    </li>
+                    {% endfor -%}
+                </ul>
+            </details>
+            {% endfor -%}
+    {%- endif -%}
 
     {%- if singlePost.data.posts.OCs %}
        <p class="subheader">OCs</p> <p>{{ singlePost.data.posts.OCs }}</p>
