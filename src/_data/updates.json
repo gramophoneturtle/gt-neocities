@@ -1,8 +1,25 @@
 [
+
+    {
+        "PostDate": "2024-08-24"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY OCs",
+                "List": [
+                    {
+                        "Title": "Null Heart!",
+                        "URL": "/art/twewy/2024-08-21-null-heart"
+                    }
+                ]
+            }
+        ]
+        ,"Site": "<ul><li>RSS Test! There are a couple of Feeds - All, Art, and Site - to subscribe to.</li><li>Areas where updates are updated are more consistent.</li><li>Can view the Update on its own page too.</li></ul>"
+    },
     {
         "PostDate": "2024-08-11",
         "Art": "<details><summary>TWEWY OCs</summary>Upset Chisa and Comforting Null</details> <details><summary>TWEWY Spoilers / OCs</summary>Past Composer Null Sketch</details> <details><summary>NEO TWEWY Spoilers</summary>Hazuki Sketches</details>"
-        ,"Site": "<ul><li>OC - Father: Likes and Dislikes expanded.</li><li>OC - Mother: Likes expanded.</li><li>OC - Null & Chisa: Placeholder images for their pages added. Chisa Likes expanded.</li><li>Artwork Detail section can contain URLs.</li></ul>"
+        ,"OCs": "<ul><li>Father: Likes and Dislikes expanded.</li><li>Mother: Likes expanded.</li><li>Null & Chisa: Placeholder images for their pages added.</li><li>Chisa: Likes expanded.</li></ul>"
+        ,"Site": "<ul><li>Artwork Detail section can contain URLs.</li></ul>"
     },
     {
         "PostDate": "2024-05-05",

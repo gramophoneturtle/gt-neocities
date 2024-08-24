@@ -9,18 +9,46 @@ pagination:
 permalink: "updates/{{ posts.PostDate | slugify }}/"
 layout: /layouts/base
 ---
-<div>
-{%- for item in posts %}
-    <h2>
-        {{ item.data.posts.PostDate }}
-    </h2>
+<div class="updatepost">
+    <p class="header">
+        {{ posts.Title }} {{ posts.PostDate }}
+    </p>
 
-    {%- if item.data.posts.Art %}
-        <p>Art: {{ item.data.posts.Art }}</p>
+    {%- if posts.Art %}
+        <p>Art: {{ posts.Art | safe }}</p>
     {%- endif -%}
 
-    {%- if item.data.posts.Site %}
-        <p>Site: {{ item.data.posts.Site }}</p>
+    {%- if posts.ArtList %}
+        <p class="subheader">Arts</p> 
+        {%- for cate in posts.ArtList %}
+        <details>
+            <summary>{{ cate.Category }}</summary>
+            <ul>
+                {%- for item in cate.List %}
+                <li>
+                    <a href= "{{ item.URL }}"> {{ item.Title }}</a> - <a href="{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a>
+                </li>
+                {% endfor -%}
+            </ul>
+        </details>
+        {% endfor -%}
     {%- endif -%}
-{% endfor -%}
+
+    {%- if posts.OCs %}
+        <p>OCs: {{ posts.OCs | safe }}</p>
+    {%- endif -%}
+
+    {%- if posts.Writing %}
+        <p>Writing: {{ posts.Writing | safe }}</p>
+    {%- endif -%}
+
+    {%- if posts.FibreArts %}
+        <p>Crochet: {{ posts.FibreArts | safe}}</p>
+    {%- endif -%}
+
+    {%- if posts.Site %}
+        <p>Site: {{ posts.Site | safe }}</p>
+    {%- endif -%}
+
+    {% include 'partials/update-single-footer.njk' %}
 </div>

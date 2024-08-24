@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Gramophone Turtle's RSS Feed - Art</title>
+            <description>Art Updates</description>
+            <link>https://gramophoneturtle.neocities.org</link>
+            <lastBuildDate>
+                Sat, 24 Aug 2024 04:15:00 +0000
+            </lastBuildDate>
+        <ttl>20000</ttl>
+        <item>
+            <title>2024-08-24</title>
+            <description>
+                &lt;h1&gt; &lt;/h1&gt;
+                        &lt;div class=&quot;updatepost&quot;&gt;
+                    &lt;p class=&quot;header&quot;&gt;
+                        2024-08-23
+                    &lt;/p&gt;
+                        &lt;p class=&quot;subheader&quot;&gt;Arts&lt;/p&gt;
+                        &lt;details&gt;
+                            &lt;summary&gt;TWEWY OCs&lt;/summary&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    &lt;a href=&quot;/art/twewy/2024-08-21-null-heart&quot;&gt; Null Heart!&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2024-08-21-null-heart&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;/ul&gt;
+                        &lt;/details&gt;
+                &lt;/div&gt;
+            </description>
+            <link>https://gramophoneturtle.neocities.org/updates/2024-08-24/</link>
+            <pubDate>
+                Sat, 24 Aug 2024 04:15:00 +0000
+            </pubDate>
+        </item>
+        <item>
+            <title>2024-08-11</title>
+            <description>
+                &lt;div class=&quot;updatepost&quot;&gt;
+                    &lt;p class=&quot;header&quot;&gt;
+                        2024-08-11
+                    &lt;/p&gt;
+                        &lt;p&gt;Art: &lt;/p&gt;&lt;details&gt;&lt;summary&gt;TWEWY OCs&lt;/summary&gt;Upset Chisa and Comforting Null&lt;/details&gt; &lt;details&gt;&lt;summary&gt;TWEWY Spoilers / OCs&lt;/summary&gt;Past Composer Null Sketch&lt;/details&gt; &lt;details&gt;&lt;summary&gt;NEO TWEWY Spoilers&lt;/summary&gt;Hazuki Sketches&lt;/details&gt;&lt;p&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            </description>
+            <link>https://gramophoneturtle.neocities.org/updates/2024-08-11/</link>
+            <pubDate>
+                Sun, 11 Aug 2024 09:58 +0100
+            </pubDate>
+        </item>
+    </channel>
+</rss>

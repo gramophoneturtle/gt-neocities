@@ -1,0 +1,37 @@
+{# ---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "My Blog about Boats",
+    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "language": "en",
+    "url": "http://gramophoneturtle.neocities.com/",
+    "author": {
+      "name": "Sal @ Gramophone Turtle",
+      "email": "gramophoneturtle@gmail.com"
+    }
+  }
+}
+
+--- #}
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="feed.xml">
+	<title>Gramophone Turtle - All</title>
+	<subtitle>Site, New Art and Archive Art</subtitle>
+	<link href="http://gramophoneturtle.neocities.com" rel="self" />
+	<link href="http://gramophoneturtle.neocities.com" />
+	
+	<id>{{ metadata.url }}</id>
+	<author>
+		<name>Sal @ Gramophone Turtle</name>
+		<email>gramophoneturtle@gmail.com</email>
+	</author>
+	{%- for post in collections.UpdatePosts | reverse %} 
+		<entry>
+			<title>{{ post.data.title }}</title>
+			<id>{{ absolutePostUrl }}</id>
+		</entry>
+	{%- endfor %}
+</feed>
