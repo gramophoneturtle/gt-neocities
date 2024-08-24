@@ -1,19 +1,28 @@
 [
   {
     "title": "Null Heart!",
-    "summary": "Part of figuring out how to draw Null's face and hairstyle, as well as testing out an brushing on some light colours overtop. Started this around May 2024, and finally finishing it a few months later.",
+    "summary": "Playing around with drawing Null's face and hair, and putting some light colours over top. Started this around May 2024, finally finishing it a few months later.",
     "details": "",
     "characters": "Null",
     "date": "2024-08-21",
     "dateYear": "2024",
     "uniqueUrl": "2024-08-21-Null Heart",
     "spoilers": "no",
-    "urls": [],
+    "urls": [
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5186296"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l2aa53c4bn2x"
+      }
+    ],
     "imgs": [
       {
         "id": 1,
         "url": "\\img\\art\\twewy\\ocs\\Null\\240817-NullHeart\\240817_NullHeart_Effectsv3_LCSC-niDEF1-proDEF2.jpg",
-        "alt": "Art of Null, a masculine looking person with their hands held up forming a heart."
+        "alt": "Art of Null, a masculine looking person, smiling with their hands held up forming a heart."
       }
     ],
     "fandom": [

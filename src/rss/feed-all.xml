@@ -5,21 +5,35 @@
             <description>All Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
             <lastBuildDate>
-                Thu, 22 Aug 2024 01:52:10 +0000
+                Sat, 24 Aug 2024 04:15:00 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
-
         <item>
-            <title>2024-08-22</title>
+            <title>2024-08-24</title>
             <description>
-                Coming Soon!
+                &lt;h1&gt; &lt;/h1&gt;
+                        &lt;div class=&quot;updatepost&quot;&gt;
+                    &lt;p class=&quot;header&quot;&gt;
+                        2024-08-23
+                    &lt;/p&gt;
+                        &lt;p class=&quot;subheader&quot;&gt;Arts&lt;/p&gt;
+                        &lt;details&gt;
+                            &lt;summary&gt;TWEWY OCs&lt;/summary&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    &lt;a href=&quot;/art/twewy/2024-08-21-null-heart&quot;&gt; Null Heart!&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2024-08-21-null-heart&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;/ul&gt;
+                        &lt;/details&gt;
+                        
+                        &lt;p&gt;Site: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;RSS Test! There are a couple of Feeds - All, Art, and Site - to subscribe to.&lt;/li&gt;&lt;li&gt;Areas where updates are updated are more consistent.&lt;/li&gt;&lt;li&gt;Can view the Update on its own page too.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
+                &lt;/div&gt;
             </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-08-22/</link>
+            <link>https://gramophoneturtle.neocities.org/updates/2024-08-24/</link>
             <pubDate>
-                Thu, 22 Aug 2024 01:52:10 +0000
+                Sat, 24 Aug 2024 04:15:00 +0000
             </pubDate>
         </item>
-
         <item>
             <title>2024-08-11</title>
             <description>
@@ -37,8 +51,5 @@
                 Sun, 11 Aug 2024 09:58 +0100
             </pubDate>
         </item>
-
-
-        
     </channel>
 </rss>
