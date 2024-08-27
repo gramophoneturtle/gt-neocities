@@ -1,0 +1,21 @@
+---
+title: Writing
+layout: /layouts/base.njk
+---
+<p>My writing</p>
+
+<ul>
+{% for myStory in collections.Writing %}
+  <li>
+      <a href="{{ myStory.url }}">{{ myStory.data.story.Title }}</a> - 
+      <a href="{{ myStory.url }}" target="_blank" rel="noopener noreferrer">↗</a>
+      
+      {%- if myStory.data.story.Characters %}
+        (Characters: 
+          {%- for char in myStory.data.story.Characters %}
+              {{char}}
+          {% endfor -%})
+      {%- endif -%}
+  </li>
+{% endfor %}
+</ul>
