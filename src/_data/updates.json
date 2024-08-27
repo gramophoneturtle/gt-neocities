@@ -1,36 +1,72 @@
 [
+
+    {
+        "PostDate": "2024-08-24"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY OCs",
+                "List": [
+                    {
+                        "Title": "Null Heart!",
+                        "URL": "/art/twewy/2024-08-21-null-heart"
+                    }
+                ]
+            }
+        ]
+        ,"Site": "<ul><li>RSS Test! There are a couple of Feeds - All, Art, and Site - to subscribe to.</li><li>Areas where updates are updated are more consistent.</li><li>Can view the Update on its own page too.</li></ul>"
+    },
+    {
+        "PostDate": "2024-08-11",
+        "Art": "<details><summary>TWEWY OCs</summary>Upset Chisa and Comforting Null</details> <details><summary>TWEWY Spoilers / OCs</summary>Past Composer Null Sketch</details> <details><summary>NEO TWEWY Spoilers</summary>Hazuki Sketches</details>"
+        ,"OCs": "<ul><li>Father: Likes and Dislikes expanded.</li><li>Mother: Likes expanded.</li><li>Null & Chisa: Placeholder images for their pages added.</li><li>Chisa: Likes expanded.</li></ul>"
+        ,"Site": "<ul><li>Artwork Detail section can contain URLs.</li></ul>"
+    },
+    {
+        "PostDate": "2024-05-05",
+        "Art": "<details><summary>TWEWY OG</summary>Father Smug sprite</details> <details><summary>NEO TWEWY Spoilers (sorta)</summary>Happy Birthday Hazuki (2022)</details>",
+        "Site": "<ul><li>Spoiler filtering for artwork! Filter by entry in the series and whether to include spoilers.</li><li>Updates now have artwork wrapped in details to hide potential spoilers or long art updates.</li></ul>"
+    },
+    {
+        "PostDate": "2024-04-11",
+        "Art": "<details><summary>TWEWY OG Spoilers</summary>Ya did what you had to, Phones.</details>",
+        "Site": "Slideshow for multi artwork images."
+    },
+    {
+        "PostDate": "2024-04-09",
+        "Site": "Shrunk OC thumbnails slightly for mobile. Header has coloured buttons. (And tested on light mode! Unlike most of the site so far. Sorry! Will work on that in the future.) Fixed buttons linking to other OC pages so they don't go off the page."
+    },
     {
         "PostDate": "2024-04-07",
         "Site": "OCs have thumbnails. Combined the Links and Contact Page to defer fixing the header navigation. About page has some helpful links for making thsi site. Artwork with multiple images use tabbed images."
     },
     {
         "PostDate": "2024-04-06",
-        "Art": "TWEWY: Mother: Crafting, Creating; Hanekoma, Higher Vibe Frequency",
+        "Art": "<details><summary>NEO TWEWY Spoilers (sorta)</summary>Mother: Crafting, Creating</details> <details><summary>TWEWY Series Spoilers</summary>Hanekoma, Higher Vibe Frequency</details>",
         "Site": "Added some pages for OCs! Pages are a work in progress. There's some General information, Likes & Dislikes, Relationships, links to Artwork, and Inspirations."
     },
     {
         "PostDate": "2024-04-01",
-        "Art": "TWEWY: Not Your Joshua, You're Shibuya's Composer Now, Composer Neku's RG Appearance",
+        "Art": "<details><summary>TWEWY OG Spoilers (sorta)</summary><ul><li>Not Your Joshua</li><li>You're Shibuya's Composer Now</li><li>Composer Neku's RG Appearance</li></ul></details>",
         "Site": "Reduced sized of art grid cells and spacing slightly. Added dotted line below Year. TWEWY Character filter header has less bottom spacing."
     },
     {
         "PostDate": "2024-03-31",
-        "Art": "TWEWY: A Supportive Trans Parent",
+        "Art": "<details><summary>TWEWY</summary>A Supportive Trans Parent</details>",
         "Site": "Borders around artwork. Italized alt text - will appear italized when image is not found. Cleaned up some titles."
     },
     {
         "PostDate": "2024-03-29",
-        "Art": "TWEWY: It felt like something was missing, What if they were partners?, Life's little crossroads are... . Persona 5: Hello There!",
+        "Art": "<details><summary>TWEWY</summary>It felt like something was missing</details> <details><summary>TWEWY Spoilers</summary><ul><li>What if they were partners?</li><li>Life's little crossroads are...</li></ul></details> <details><summary>Persona 5 Spoilers (sorta)</summary>Hello There!</details>",
         "Site": "New Update section! Homepage shows the latest update. Added Persona 5 category and art URLs use original post date and some part of the title."
     },
     {
         "PostDate": "2024-03-28",
-        "Art": "Kubo picture, Do Not.",
+        "Art": "<details><summary>NEO TWEWY Spoilers</summary>Kubo picture</details> <details><summary>TWEWY Spoilers</summary>Do Not.</details>",
         "Site": "TWEWY Artwork now has super fancy filtering by single character. Hopefully it doesn't break anaything."
     },
     {
         "PostDate": "2024-03-25",
-        "Art": "Phone Light.",
+        "Art": "<details><summary>TWEWY</summary>Phone Light.</details>",
         "Site": "Empty page Details are suppressed. Artwork is grouped by Year."
     },
     {

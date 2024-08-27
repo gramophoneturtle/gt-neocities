@@ -1,3 +1,10 @@
+{# Generating buttons 
+    to link to other OCs
+     #}
 {% for post in collections.OCs  %}
-<a class="navoc" href="{{ post.url }}">{{ post.data.ocs.Name }}</a> 
+        <a 
+            class="navoc" 
+            href="{{ post.url }}">
+                {{ post.data.ocs.Name }}
+            </a> 
 {% endfor %}

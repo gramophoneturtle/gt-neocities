@@ -7,7 +7,13 @@ import json
 import os
 
 filename_input = "Where Is My Art.xlsx"
-filename_output_twewy = "twewy-art.json"
+filename_output_twewy_og_all = "twewy-art.json"
+filename_output_twewy_og_nospoilers = "twewy-art-spoiler-free.json"
+filename_output_twewy_neo_all = "twewy-neo-art.json"
+filename_output_twewy_neo_nospoilers = "twewy-neo-art-spoiler-free.json"
+filename_output_twewy_series_all = "twewy-series.json"
+filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
+
 filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
@@ -113,6 +119,8 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
 
         artwork_dictionary['imgs'] = make_img_list(row)
 
+        artwork_dictionary['fandom'] = row['fandom'].split(",")
+
         if artwork_dictionary['imgs']:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
@@ -134,8 +142,9 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output):
-    print('\n1. Reading Excel File for {0}\n'.format(sheet_name))
+def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
+    print('Processing: {0}. Include Spoilers: {1}\n'.format(sheet_name,  include_spoilers))
+    print('    1. Reading Excel File for {0}\n'.format(sheet_name))
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -153,13 +162,24 @@ def main(sheet_name, file_path_output):
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6']
         )
 
-    # only get nightshaded artworks
+    # only get nightshaded artworks and...
     options = ['Yes','yes']
-    nightshadeOnly = excel_data_df[excel_data_df["NS?"].isin(options)]
+    nightshadeOnlyTMP = excel_data_df[excel_data_df["NS?"].isin(options)]
+    
+    # CLEAN UP - Set Defaults
+    # fill in NaN as with default values for each column
+    nightshadeOnlyTMP.fillna("", inplace=True)
 
-    # CLEAN UP
-    # fill in NaN as ""
-    nightshadeOnly.fillna("", inplace=True)
+    if include_spoilers == False:
+        options = ['No','no']
+        nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+
+    else:
+        options = ['Yes','yes','']
+        nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+
+    if len(fandoms) == 1:
+        nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].isin(fandoms)]
 
     # "The Sheets API doesn't know what to do with a Python datetime/timestamp. You'll need to convert it - most likely to a str." 
     #https://stackoverflow.com/questions/49243736/how-do-i-handle-object-of-type-timestamp-is-not-json-serializable-in-python
@@ -167,26 +187,47 @@ def main(sheet_name, file_path_output):
     # ex: Timestamp('2024-03-23 00:00:00') -> '2024-03-23' for Fathers using Windows 11 Paint  
     nightshadeOnly[date_column_name] = nightshadeOnly[date_column_name].dt.strftime('%Y-%m-%d')
 
+    # sort
     nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
-    print("\n2. Processing DataFrame.\n")
+    print("    2. Processing DataFrame.\n")
     # Convert DataFrame to JSON
     json_str = method1(nightshadeOnly)
 
-    print("\n3. Updating JSON Data.\n")
+    print("    3. Updating JSON Data.\n")
     # Output - can ge to the json file in the src area
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(json_str)
 
-    print("\n4. Completed.\n")
+    print("    4. Completed.\n")
 
 if __name__ == '__main__':
-    # TWEWY
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy)
-    main('TWEWY Series', file_path_output)
+    # TWEWY OG
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True)
+
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False)
+
+    # NEO TWEWY
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False)
+
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True)
+
+    # TWEWY Series
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False)
+
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True)
 
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
     # main('Other', file_path_output)
+
+
+    print("\nMAIN: C O M P L E T E!\n")
 
 

@@ -2,11 +2,31 @@
 title: My Art
 layout: /layouts/base.njk
 ---
-<p>Art by fandom. Artwork is not spoiler marked!</p>
-<ul>
-  {% for post in collections.ArtTOC | reverse %}
-  <li>
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+
+<div class="table-overflow">
+  <table class = "table-toc-art">
+    <tr>
+      <th>Fandom</th>
+      <th>Spoiler Free</th>
+      <th>With Spoilers</th>
+    </tr>
+    <tr>
+      <td rowspan="3">TWEWY Series</td>
+      <td><a href="/art/twewy-og-nospoilers/">Series</a></td>
+      <td><a href="/art/twewy/">Series Spoilers</a></td>
+    </tr>
+    <tr>
+      <td><a href="/art/twewy-og-nospoilers/">OG</a></td>
+      <td><a href="/art/twewy-og/">OG Spoilers</a></td>
+    </tr>
+    <tr>
+      <td><a href="/art/twewy-neo-nospoilers/">NEO</a></td>
+      <td><a href="/art/twewy-neo/">NEO Spoilers</a></td>
+    </tr>
+    <tr>
+      <td>Persona 5</td>
+      <td><a href=""></a></td>
+      <td><a href="/art/persona5/">!!!</a></td>
+    </tr>
+  </table>
+</div>
