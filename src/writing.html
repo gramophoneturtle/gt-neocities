@@ -2,20 +2,19 @@
 title: Writing
 layout: /layouts/base.njk
 ---
-<p>My writing</p>
+<p>Writings, in no particular order.</p>
 
-<ul>
 {% for myStory in collections.Writing %}
-  <li>
-      <a href="{{ myStory.url }}">{{ myStory.data.story.Title }}</a> - 
-      <a href="{{ myStory.url }}" target="_blank" rel="noopener noreferrer">↗</a>
-      
-      {%- if myStory.data.story.Characters %}
-        (Characters: 
-          {%- for char in myStory.data.story.Characters %}
-              {{char}}
-          {% endfor -%})
+
+{% if myStory.data.story.Chapters.length > 0 %}
+  <div class="writingStoryListing">
+      <a class="writingTitle" href="{{ myStory.url }}">{{ myStory.data.story.Title }}</a> 
+      {%- if myStory.data.story.Series.length > 0 %}
+        <p>Part of: {{ myStory.data.story.Series | map: "Name" | join: ", " }}</p>
       {%- endif -%}
-  </li>
+      {%- if myStory.data.story.Characters.length > 0 %}
+        <p>Characters: {{ myStory.data.story.Characters | join: ", " }}</p>
+      {%- endif -%}
+  </div>
+{% endif %}
 {% endfor %}
-</ul>

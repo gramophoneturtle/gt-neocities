@@ -9,12 +9,8 @@ pagination:
 permalink: "writing/{{ story.Title | slugify }}/"
 layout: /layouts/base
 ---
-<h2>
-    {{ story.Title }}
-</h2>
-
 {%- if story.Characters %}
-    <p>Characters:</p>
+    <h3>Characters</h3>
     <ul>
         {%- for char in story.Characters %}
             <li>{{ char }}</li>
@@ -22,19 +18,23 @@ layout: /layouts/base
     </ul>
 {%- endif -%}
 
-<h3>Summary</h3>
-{%- for para in story.Summary %}
-    <p>{{ para }}</p>
-{% endfor -%}
-
-<h3>TOC</h3>
-<ol>
-    {%- for ch in story.Chapters %}
-        <li>
-        <a href= {{ ["#",  ch.Title | slugify ] | join }} >{{ ch.Title }}</a>
-        </li>
+{%- if story.Summary %}
+    <h3>Summary</h3>
+    {%- for para in story.Summary %}
+        <p>{{ para }}</p>
     {% endfor -%}
-</ol>
+{%- endif -%}
+
+{% if story.Chapters.length > 1 %}
+    <h3>Chapters</h3>
+    <ol>
+        {%- for ch in story.Chapters %}
+            <li>
+            <a href= {{ ["#",  ch.Title | slugify ] | join }} >{{ ch.Title }}</a>
+            </li>
+        {% endfor -%}
+    </ol>
+{% endif %}
 
 <h3> </h3>
 {%- for ch in story.Chapters %}
@@ -43,6 +43,6 @@ layout: /layouts/base
         {{ ch.Title }}
     </h4>
     {%- for para in ch.Paragraphs %}
-        <p> {{ para }}</p>
+        <p> {{ para | safe }}</p>
     {% endfor -%}
 {% endfor -%}

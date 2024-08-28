@@ -185,6 +185,33 @@ a:hover {
   padding-top: 0.5rem;
 }
 
+
+/* || WRITING ----------------------------------------- */
+
+.writingStoryListing {
+  background-color: var(--background-container);
+  border: 3px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  margin: 1rem 0rem;
+
+  a {
+    font-weight:600;
+  }
+
+  a:hover {
+    text-decoration: none;
+    border-color: var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+  p {
+    margin: 0.5rem;
+    font-size: medium;
+  }
+}
+
 /* || TOC FOR ARTWORK ----------------------------------------- */
 
 .table-overflow {
