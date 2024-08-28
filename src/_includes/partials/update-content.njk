@@ -23,7 +23,19 @@
     {%- endif -%}
 
     {%- if singlePost.data.posts.Writing %}
-        <p class="subheader">Writing</p> <p>{{ singlePost.data.posts.Writing }}</p>
+        <p class="subheader">Writing</p> 
+        {%- for cate in singlePost.data.posts.Writing %}
+        <details>
+            <summary>{{ cate.Category }}</summary>
+            <ul>
+                {%- for item in cate.List %}
+                <li>
+                    <a href= "{{ item.URL }}"> {{ item.Title }}</a> - <a href="{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a>
+                </li>
+                {% endfor -%}
+            </ul>
+        </details>
+        {% endfor -%}
     {%- endif -%}
 
     {%- if singlePost.data.posts.FibreArts %}
