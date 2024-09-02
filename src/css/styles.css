@@ -115,26 +115,25 @@ body > footer {
 /* || Headers, Diff Screen Sizes */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 h2 {
-  font-size: 2.1rem;
+  font-size: 2rem;
   margin-top: 2rem;
 }
 
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   h2 {
-    font-size: 2.1rem;
-  }
+    font-size: 2rem;
+    margin-top: 1.75rem;
 }
-
-
+}
 
 /* || Format links */
 a,
@@ -177,17 +176,13 @@ a:hover {
   }
 }
 
-
-
 .updatepost > p.footer {
   font-style: italic;
   border-top: 2px dashed var(--accent);
   padding-top: 0.5rem;
 }
 
-
 /* || WRITING ----------------------------------------- */
-
 .writingStoryListing {
   background-color: var(--background-container);
   border: 3px solid var(--border-color);
@@ -211,6 +206,146 @@ a:hover {
     font-size: medium;
   }
 }
+
+/* || OC NAV */
+.nav-oc-group {
+  padding: 0rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.navoc,
+.navoc:visited {
+  background-color: var(--dark-background);
+  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border-color);
+  color: var(--text);
+
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0.15rem 0.15rem;
+
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navoc:hover,
+.navoc.current,
+.navoc[aria-current="page"] {
+  border-color: var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+
+/* || Format navigation - HEADER ONLY ----------------- */
+nav {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 750px) {
+  .navHeader {
+    padding: 0.25rem 0.25rem;
+    font-size: small;
+  }
+}
+
+.navtest2 {
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    text-decoration: none;
+    text-align: center;
+    font-size: medium;
+
+    display: block;
+    float: left;
+    position: relative;
+    transition-duration: 0.5s;
+  }
+    
+  li:hover,
+  li:focus-within {
+    cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+
+  ul li ul {
+    background: var(--accent-bg);/* background fo the whole nav link list */
+    visibility: hidden;
+    opacity: 0;
+    min-width: 1rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 0;
+    display: none;
+    z-index: 1;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+}
+
+
+/* || Menu Button drop down */
+
+.navHeader,
+.navHeader:visited {
+  width: 7rem;
+  padding: 0.2rem 1rem;
+  margin: 0.1rem 0.25rem;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+  border: 3px solid var(--null-light-green-base);
+  border-radius: var(--standard-border-radius);
+  background-color: var(--null-dark-green-base);
+  color: var(--text);
+}
+
+.navHeader:hover,
+.navHeader.current,
+.navHeader[aria-current="page"] {
+  background-color: var(--null-light-green-base);
+  border-color: var(--null-light-green-ivy);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+
+
+
 
 /* || TOC FOR ARTWORK ----------------------------------------- */
 
@@ -290,113 +425,8 @@ a:hover {
   cursor: pointer;
 }
 
-/* || OC NAV */
-.nav-oc-group {
-  padding: 0rem 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.navoc,
-.navoc:visited {
-  background-color: var(--dark-background);
-  border-radius: var(--standard-border-radius);
-  border: 2px solid var(--border-color);
-  color: var(--text);
-
-  width: 7rem;
-  padding: 0.2rem 1rem;
-  margin: 0.15rem 0.15rem;
-
-  font-size: medium;
-
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.navoc:hover,
-.navoc.current,
-.navoc[aria-current="page"] {
-  border-color: var(--accent);
-  color: var(--accent);
-  cursor: pointer;
-}
-
-
-/* || OC Page - THumbnail + Name underneath */
-div.ocGallery {
-  float: left;
-  margin: 2px;
-  width: 9.5rem;
-  border-color: var(--border-color);
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 5px;
-}
-
-div.ocGallery:hover {
-  background-color: var(--hover-img-color);
-}
-
-div.ocGallery img {
-  width: 9.5rem;
-  height: 9.5rem;
-  display: grid;
-}
-
-.ocGallery > a {
-  text-decoration: none;
-}
-
-div.desc {
-  padding: 0.25rem;
-  text-align: center;
-}
-
-
-/* || Format navigation  - HEADER ONLY */
-nav {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-/* Reduce nav side on mobile */
-@media only screen and (max-width: 750px) {
-  .navHeader {
-    padding: 0.25rem 0.25rem;
-    font-size: small;
-  }
-}
-
-/* || OC NAV */
-.navHeader,
-.navHeader:visited {
-  width: 7rem;
-  padding: 0.2rem 1rem;
-  margin: 0rem 0.25rem 0.2rem;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  font-size: medium;
-  border: 3px solid var(--null-light-green-base);
-  border-radius: var(--standard-border-radius);
-  background-color: var(--null-dark-green-base);
-  color: var(--text);
-}
-
-.navHeader:hover,
-.navHeader.current,
-.navHeader[aria-current="page"] {
-  background-color: var(--null-light-green-base);
-  border-color: var(--null-light-green-ivy);
-  color: var(--accent);
-  cursor: pointer;
-}
-
 
 /* || SlideShow */
-
 .slideshow-img {
   width: 1005;
   vertical-align: middle;
@@ -515,6 +545,40 @@ div.scrollmenu > .slideshow-column {
   background: var(--border-color);
   margin: 1rem 0rem;
 }
+
+
+/* || OC Page - THumbnail + Name underneath */
+div.ocGallery {
+  float: left;
+  margin: 2px;
+  width: 9.5rem;
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+div.ocGallery:hover {
+  background-color: var(--hover-img-color);
+}
+
+div.ocGallery img {
+  width: 9.5rem;
+  height: 9.5rem;
+  display: grid;
+}
+
+.ocGallery > a {
+  text-decoration: none;
+}
+
+div.desc {
+  padding: 0.25rem;
+  text-align: center;
+}
+
+
+
 
 /* || TEST STUFF */
 .testimg {

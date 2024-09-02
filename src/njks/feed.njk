@@ -13,10 +13,9 @@
     }
   }
 }
-
 --- #}
-
 <?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="feed.xml">
 	<title>Gramophone Turtle - All</title>
 	<subtitle>Site, New Art and Archive Art</subtitle>
@@ -28,10 +27,19 @@
 		<name>Sal @ Gramophone Turtle</name>
 		<email>gramophoneturtle@gmail.com</email>
 	</author>
-	{%- for post in collections.UpdatePosts | reverse %} 
+	{%- for post in collections.UpdatePosts %} 
 		<entry>
-			<title>{{ post.data.title }}</title>
-			<id>{{ absolutePostUrl }}</id>
+			
+			<id>{{ post.url }}</id>
+
+
+			<title>{{ post.data.posts.PostDate }} Update</title>
+			<url>{{ post.url }}</url>
+			<description>
+				{% set singlePost = post %}
+				{% include 'partials/update-content.njk' %}
+			</description>
 		</entry>
 	{%- endfor %}
 </feed>
+</rss>
