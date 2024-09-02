@@ -12,9 +12,14 @@
     },
     {
         "SitePostDate": "2024-09-02",
-        "EarliestPostDate": "2024-06-16",
         "Title": "Lil' Null Amigurumi",
-        "Sites": "https://www.pillowfort.social/posts/4938319",
+        "urls": [
+            {
+                "sitename": "Pillowfort",
+                "url": "https://www.pillowfort.social/posts/4938319"
+                ,"PostedDate": "2024-06-16"
+            }
+        ],
         "Characters": [
             "Father", "Chisa"
         ],
@@ -46,9 +51,14 @@
     },
     {
         "SitePostDate": "2024-09-02",
-        "EarliestPostDate": "2024-06-16",
         "Title": "A Little Grey Cat",
-        "Sites": "https://www.pillowfort.social/posts/4886838",
+        "urls": [
+            {
+                "sitename": "Pillowfort",
+                "url": "https://www.pillowfort.social/posts/4886838",
+                "PostedDate": "2024-06-16"
+            }
+        ],
         "Characters": [
             "Father", "Chisa"
         ],
@@ -63,7 +73,8 @@
             }
         ],
         "Summary": [
-            ""  
+            "It's Father's Day. So Father makes a litle grey cat for himself.", 
+            "Or so he thinks. When was the last time Father's Day would end up as he expected?" 
         ],
         "Chapters": [
             {
@@ -76,12 +87,17 @@
     },
     {
         "SitePostDate": "2024-09-02",
-        "EarliestPostDate": "2024-06-08",
         "Title": "His Jellyfish (I)",
         "Characters": [
             "Father", "Mother"
         ],
-        "Sites": "https://www.pillowfort.social/posts/4834184",
+        "urls": [
+            {
+                "sitename": "Pillowfort",
+                "url": "https://www.pillowfort.social/posts/4834184"
+                ,"PostedDate": "2024-06-08"
+            }
+        ],
         "Series": [
             {
                 "Name": "Father's Jellyfish",
@@ -108,9 +124,19 @@
         "SitePostDate": "2024-09-02",
         "EarliestPostDate": "2024-09-02",
         "Title": "Null (positive)",
-        "Characters": [
-            "Null", "Father", "Chisa"
+        "urls": [
+            {
+                "sitename": "Pillowfort",
+                "url": "https://www.pillowfort.social/posts/5237642"
+                ,"PostedDate": "2024-09-02"
+            }
         ],
+        "Characters": [
+            "Null", "Father", "Chisa", "A Judge of some sort"
+        ],
+        "Fandoms": [ "TWEWY", "OCs" ],
+        "Words": "~980",
+        "Rating": "G",
         "Series": [
             {
                 "Name": "Restoring Chisa",
@@ -121,6 +147,7 @@
             "Null knows it's foolish to pick Chisa as the team's test subject. At first there was so little to lose, but so much they could gain."
             ,"And now, there is too much they could lose."
         ],
+        "AuthorNotes": "I drafted this around Spring 2024 I think. Finally decided to post it pretty much as is.",
         "Chapters": [
             {
                 "Title": "Risks",
@@ -130,7 +157,7 @@
                     "In the future they could have more access. But this is a test scenario they would need to come across anyways.",
                     "Emotionally? If Null fails, then she could be gone. Forever. Which is what is currently believed.",
                     "If Null fails, but succeeded later with another equally likely Soul…",
-                    "Nanshi already hates them, so there's really nothing more to lose.",
+                    "Nanashi already hates them, so there's really nothing more to lose.",
                     "Except for how Null would feel.",
                     "But they know, Chisa would be strongest motivator for them to succeed the first time. Because, every Soul deserves a chance. Why should another Soul have priority over another.",
                     "But then why should Chisa's Soul be first?",
@@ -151,7 +178,7 @@
                     "What does Null have to lose?",
                     "They could be erased and no one would miss them as they are now. What is missed is who they were and who they could be once again.",
                     "They miss their Name.",
-                    "It is disrespectful to not call someone by Name or Title. Nevermind by one's Signature ID.",
+                    "It is disrespectful to not call someone by Name or Title. Never mind by one's Signature ID.",
                     "His last partner has moved on. To live in two different circles, to risk inviting dissonance into their partner's Soul… they know it. They feel it too.",
                     "It was awkward to refer to someone without doing so directly. For Null, and who they knew. Perhaps, for another being, that would be perfect for them.",
                     "But that's not Null.",

@@ -9,23 +9,31 @@ pagination:
 permalink: "writing/{{ story.Title | slugify }}/"
 layout: /layouts/base
 ---
-<p>Posted on: {{ story.SitePostDate }}</p>
-
-{%- if story.Characters %}
-    <h3>Characters</h3>
-    <ul>
-        {%- for char in story.Characters %}
-            <li>{{ char }}</li>
-        {% endfor -%}
-    </ul>
-{%- endif -%}
-
 {%- if story.Summary %}
     <h3>Summary</h3>
     {%- for para in story.Summary %}
         <p>{{ para }}</p>
     {% endfor -%}
 {%- endif -%}
+
+<p>Posted on: {{ story.SitePostDate }}</p>
+
+{%- if story.Characters %}
+    <h3>Characters</h3>
+    <p>{{ story.Characters | join(", ") }}</p>
+
+{%- endif -%}
+
+{% if story.urls.length > 0 %}
+    <h3>Also Found On</h3>
+    <ul>
+    {%- for item in story.urls %}
+        <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a> 
+            {% if item.PostedDate %} [{{ item.PostedDate }}] {% endif %}
+        </li>
+    {% endfor -%}
+    </ul>
+{% endif %}
 
 {% if story.Chapters.length > 1 %}
     <h3>Chapters</h3>
