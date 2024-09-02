@@ -39,7 +39,19 @@ layout: /layouts/base
     {%- endif -%}
 
     {%- if posts.Writing %}
-        <p>Writing: {{ posts.Writing | safe }}</p>
+        <p class="subheader">Writing</p> 
+        {%- for cate in posts.Writing %}
+        <details>
+            <summary>{{ cate.Category }}</summary>
+            <ul>
+                {%- for item in cate.List %}
+                <li>
+                    <a href= "{{ item.URL }}"> {{ item.Title }}</a> - <a href="{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a>
+                </li>
+                {% endfor -%}
+            </ul>
+        </details>
+        {% endfor -%}
     {%- endif -%}
 
     {%- if posts.FibreArts %}

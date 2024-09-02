@@ -9,6 +9,8 @@ pagination:
 permalink: "writing/{{ story.Title | slugify }}/"
 layout: /layouts/base
 ---
+<p>Posted on: {{ story.SitePostDate }}</p>
+
 {%- if story.Characters %}
     <h3>Characters</h3>
     <ul>

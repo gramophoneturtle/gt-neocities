@@ -15,6 +15,9 @@ layout: /layouts/base.njk
       {%- if myStory.data.story.Characters.length > 0 %}
         <p>Characters: {{ myStory.data.story.Characters | join: ", " }}</p>
       {%- endif -%}
+
+      <p>Posted on: {{ myStory.data.story.SitePostDate }}</p>
+
   </div>
 {% endif %}
 {% endfor %}
