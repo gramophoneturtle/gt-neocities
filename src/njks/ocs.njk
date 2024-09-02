@@ -19,6 +19,7 @@ layout: /layouts/base
     <li><a href="#history">History</a></li>
     <li><a href="#relationships">Relationships</a></li>
     <li><a href="#artwork">Artwork</a></li>
+    <li><a href="#writing">Writing</a></li>
     <li><a href="#inspirations">Inspirations</a></li>
   </ul>
 </details>
@@ -116,6 +117,20 @@ layout: /layouts/base
       <li>
         <a href="{{ post.url }}">{{ post.data.twewyart.title }}</a> 
       </li>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+
+<h2 id="writing">Writing</h2>
+  <ul>
+    {% for post in collections.Writing | reverse %}
+    {% set writingCharacters = post.data.story.Characters %}
+    {% if post.data.story.Chapters.length > 0 %}
+        {% if ocs.Name in writingCharacters  %}
+        <li>
+          <a href="{{ post.url }}">{{ post.data.story.Title }}</a> 
+        </li>
+        {%- endif -%}
       {%- endif -%}
     {% endfor %}
   </ul>
