@@ -1,5 +1,28 @@
 [
     {
+        "PostDate": "2024-09-02 03: More Art"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Mentor Joshua Kiryu",
+                        "URL": "/art/twewy/2020-08-15-mentor-jos/"
+                    }
+                ]
+            },
+            {
+                "Category": "NEO TWEWY Spoilers + OCs",
+                "List": [
+                    {
+                        "Title": "Yoshi-Nii",
+                        "URL": "/art/twewy/2022-04-16-yoshi-nii/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-09-02 02"
         ,"Site": "Added pillowfort links to the writing section."
         ,"OCs": "Null's Father relationship info expanded on."
