@@ -13,15 +13,16 @@
           {% else %}
             <div class= "content">
           {% endif %}
-          
-          <a href="{{ post.url }}"> 
-              {% if spoilersValue == "YES" %}
-                <span class="spoilers"> [!]</span>
-              {% endif %} 
-              {{ post.data.twewyart.title | truncate: 37 }} 
-          </a> 
-          <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.characters }})</p>
-
-        </div>
+              <img
+                src="{{ post.data.twewyart.thumbnailUrl }}"
+                alt="{{ post.data.twewyart.thumbnailAlt }}"
+                >
+              <a href="{{ post.url }}"> 
+                {% if spoilersValue == "YES" %}
+                  <span class="spoilers"> [!]</span>
+                {% endif %} 
+                {{ post.data.twewyart.title | truncate: 37 }} 
+              </a> 
+          </div>
       </div>
     </div>

@@ -460,7 +460,7 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\2020/0815-cNeku3-mentor\\20200815-cNeku3_mentor-nDEFV1-pDEFV2.jpg",
+        "url": "\\img\\art\\twewy\\2020\\0815-cNeku3-mentor\\20200815-cNeku3_mentor-nDEFV1-pDEFV2.jpg",
         "alt": "Composer Neku AU, with Composer Joshua Kiryu showing Composer Neku music."
       }
     ],
@@ -643,6 +643,34 @@
         "alt": "Art of the Composer from The World Ends With You. He's glowing in grayscale, head tilted up and looking down at the viewer with fury in his eyes. He's extremely glowy so it's difficult to make out his features."
       }
     ],
+    "fandom": [
+      "TWEWY"
+    ]
+  },
+  {
+    "title": "Watching Over",
+    "summary": "",
+    "details": "",
+    "characters": "Joshua",
+    "date": "2020-04-11",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-04-11-Watching o",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/615127861716795392/watching-over"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2020\\0411-watchOver\\20200411-watching-nDEFV1-pDEV2.jpg",
+        "alt": "Art of Composer Joshua looking down from a high building's railing."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0411-watchOver\\20200411-thmb-watching-nDEFV1-pDEV2.jpg",
+    "thumbnailAlt": "Art of Composer Joshua looking down from a high building's railing.",
     "fandom": [
       "TWEWY"
     ]

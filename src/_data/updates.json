@@ -1,13 +1,26 @@
 [
     {
-        "PostDate": "2024-09-02 03: More Art"
+        "PostDate": "2024-09-03: Art"
         ,"ArtList": [
+            {
+                "Category": "TWEWY OCs",
+                "List": [
+                    {
+                        "Title": "A Family For A Family",
+                        "URL": "/art/twewy/2024-09-03-father-and/"
+                    }
+                ]
+            },
             {
                 "Category": "TWEWY Spoilers",
                 "List": [
                     {
                         "Title": "Mentor Joshua Kiryu",
                         "URL": "/art/twewy/2020-08-15-mentor-jos/"
+                    },
+                    {
+                        "Title": "Watching Over",
+                        "URL": "/art/twewy/2020-04-11-watching-o/"
                     }
                 ]
             },

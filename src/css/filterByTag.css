@@ -42,7 +42,6 @@
     font-size: medium;
 }
 
-  
 /* Clear floats after rows */
 .row:after {
     content: "";
@@ -52,9 +51,31 @@
 
 /* Content */
 .content {
-    padding: 0.5rem;
     display: grid;
     background-color: var(--background-container);
+
+    grid-template-rows: 0rem 5rem 1fr;
+
+    img {
+        opacity: 0.8;
+        object-fit: cover;
+        float: center;
+
+    }
+
+    a {
+        z-index: 1;
+        padding: 0.5rem;
+        background: rgba(2,0,36, 0.5);
+    }
+
+   
+
+    p.smallpadding {
+        z-index: 2;
+    padding: 0.5rem;
+
+    }
 }
 
 .spoilers {
