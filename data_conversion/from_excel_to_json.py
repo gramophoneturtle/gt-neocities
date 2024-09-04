@@ -91,16 +91,18 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
             'details': row['detail'],
             'characters': row['characters']
         }
+        artworkname = row['Artwork'].replace("\n","")[0:40]
+        
         artwork_dictionary['date'] = row[date_column_name]
         artwork_dictionary['dateYear'] = row[date_column_name][0:4]
         artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","")[0:10])
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
-            print("Title is missing for |{0}|".format(row['Artwork'].replace("\n","")[0:40]))
+            print("Title is missing for |{0}|".format(artworkname))
 
         if row['characters'] == "":
-            print("characters is missing for |{0}|".format(row['Artwork'].replace("\n","")[0:40]))
+            print("characters is missing for |{0}|".format(artworkname))
 
         artwork_dictionary['urls'] = []
 
@@ -118,6 +120,16 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
             artwork_dictionary[urls_key].append({'sitename': site_name.lower(), 'url': row['{0} URL'.format(site_name)]})
 
         artwork_dictionary['imgs'] = make_img_list(row)
+
+        # Add Image thumbnail and alt text if present
+        if row['IMG THMB'] != "" or row['ALT THMB'] != "":
+            if row['IMG THMB'] == "":
+                print("IMG THMB is missing for |{0}|".format(artworkname))
+            elif row['ALT THMB'] == "":
+                print("ALT THMB is missing for |{0}|".format(artworkname))
+            else:
+                artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
+                artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
 
         artwork_dictionary['fandom'] = row['fandom'].split(",")
 
@@ -159,7 +171,8 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6',
                 'characters','fandom','PF tags',
                 'title','summary','detail',
-                'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6']
+                'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6'
+                ,'IMG THMB', 'ALT THMB']
         )
 
     # only get nightshaded artworks and...

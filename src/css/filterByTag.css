@@ -42,7 +42,6 @@
     font-size: medium;
 }
 
-  
 /* Clear floats after rows */
 .row:after {
     content: "";
@@ -52,13 +51,28 @@
 
 /* Content */
 .content {
-    padding: 0.5rem;
     display: grid;
     background-color: var(--background-container);
+    box-sizing: border-box;
+    overflow: hidden;
+
+    img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+        object-fit: cover;
+    }
+    a {
+        z-index: 1;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .spoilers {
-    background-color: var(--background-container-warning);
     a {
         font-weight: 600;
     }

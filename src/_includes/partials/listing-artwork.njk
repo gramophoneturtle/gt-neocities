@@ -6,22 +6,16 @@
   {% endif %}
     <div classs="row">
       <div class="characters {{ post.data.twewyart.characters }}">
-          {% assign spoilersValue = post.data.twewyart.spoilers | upcase %}
-         
-          {% if spoilersValue == "YES" %}
-           <div class= "content spoilers">
-          {% else %}
             <div class= "content">
-          {% endif %}
-          
-          <a href="{{ post.url }}"> 
-              {% if spoilersValue == "YES" %}
-                <span class="spoilers"> [!]</span>
-              {% endif %} 
-              {{ post.data.twewyart.title | truncate: 37 }} 
-          </a> 
-          <p class="smallpadding">({{ post.data.twewyart.fandom }}) ({{ post.data.twewyart.characters }})</p>
-
-        </div>
+              <a href="{{ post.url }}"> 
+                <div class="desc"> 
+                  {{ post.data.twewyart.title | truncate: 37 }}
+                </div>
+                  <img
+                  src="{{ post.data.twewyart.thumbnailUrl }}"
+                  alt="{{ post.data.twewyart.thumbnailAlt }}"
+                  >
+              </a> 
+          </div>
       </div>
     </div>
