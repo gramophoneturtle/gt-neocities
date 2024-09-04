@@ -15,7 +15,8 @@ layout: /layouts/base
     </p>
 
     {%- if posts.Art %}
-        <p>Art: {{ posts.Art | safe }}</p>
+        <p class="subheader">Art</p>
+        <p>{{ posts.Art | safe }}</p>
     {%- endif -%}
 
     {%- if posts.ArtList %}
@@ -35,7 +36,8 @@ layout: /layouts/base
     {%- endif -%}
 
     {%- if posts.OCs %}
-        <p>OCs: {{ posts.OCs | safe }}</p>
+        <p class="subheader">OCs</p> 
+        <p>{{ posts.OCs | safe }}</p>
     {%- endif -%}
 
     {%- if posts.Writing %}
@@ -55,11 +57,13 @@ layout: /layouts/base
     {%- endif -%}
 
     {%- if posts.FibreArts %}
-        <p>Crochet: {{ posts.FibreArts | safe}}</p>
+        <p class="subheader">Crochet</p>
+        <p>{{ posts.FibreArts | safe}}</p>
     {%- endif -%}
 
     {%- if posts.Site %}
-        <p>Site: {{ posts.Site | safe }}</p>
+        <p class="subheader">Site</p>
+        <p>{{ posts.Site | safe }}</p>
     {%- endif -%}
 
     {% include 'partials/update-single-footer.njk' %}
