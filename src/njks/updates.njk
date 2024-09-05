@@ -7,11 +7,11 @@ pagination:
     alias: posts
     addAllPagesToCollections: true
 permalink: "updates/{{ posts.PostDate | slugify }}/"
-layout: /layouts/base
+layout: /layouts/base-without-h1title.njk
 ---
 <div class="updatepost">
     <p class="header">
-        {{ posts.Title }} {{ posts.PostDate }}
+       {{ posts.PostDate }}
     </p>
 
     {%- if posts.Art %}

@@ -6,6 +6,8 @@
     {{ artwork.title }}
 {%- elif story.Title -%}
     {{ story.Title }}
+{%- elif posts.PostDate -%}
+    {{ posts.PostDate}}
 {%- else -%}
     {{ title }}
 {%- endif -%}

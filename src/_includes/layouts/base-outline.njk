@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- From Tumblr -->
+    <link rel="icon" href="https://64.media.tumblr.com/d19aeb85288d522af30d9310066a4f8e/66e2cb5423b2dfa2-5b/s64x64u_c1/d1583854e8539b8336113ee46fd666199ee71072.pnj">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/filterByTag.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://gramophoneturtle.neocities.org/rss/feed-all.xml" rel="alternate" type="application/rss+xml" title="Gramophoneturtle All Updates" />
+    <link href="https://gramophoneturtle.neocities.org/rss/feed-art.xml" rel="alternate" type="application/rss+xml" title="Gramophoneturtle Art Updates" />
+    <link href="https://gramophoneturtle.neocities.org/rss/feed-site.xml" rel="alternate" type="application/rss+xml" title="Gramophoneturtle Site Updates" />
+    <title>
+      {% include 'partials/title.njk' %}
+    </title>
+  </head>
+  <body>
+    <header>
+      {% include 'partials/header.njk' %}
+      <nav>{% include 'partials/navigation.njk' %}</nav>
+    </header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+  <footer>{% include 'partials/footer.njk' %}</footer>
+  </body>
+</html>

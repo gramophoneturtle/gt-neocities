@@ -11,10 +11,12 @@
                 <div class="desc"> 
                   {{ post.data.twewyart.title | truncate: 37 }}
                 </div>
+                {% if post.data.twewyart.thumbnailUrl  %}
                   <img
                   src="{{ post.data.twewyart.thumbnailUrl }}"
                   alt="{{ post.data.twewyart.thumbnailAlt }}"
                   >
+                  {% endif %}
               </a> 
           </div>
       </div>
