@@ -1,14 +1,31 @@
 [
     {
+        "PostDate": "2024-09-06: Artwork from 2020"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Important to Capture",
+                        "URL": "/art/twewy/2020-04-25-Some-thing/"
+                    },
+                    {
+                        "Title": "Scribble Joshua",
+                        "URL": "/art/twewy/2020-04-04-Older-Josh/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-09-03: Art"
-        ,"Title": "Lil' Null Amigurumi"
         ,"ArtList": [
             {
                 "Category": "TWEWY OCs",
                 "List": [
                     {
                         "Title": "A Family For A Family",
-                        "URL": "/art/twewy/2024-09-03-father-and/"
+                        "URL": "/art/twewy/2024-09-03-Family-For/"
                     }
                 ]
             },

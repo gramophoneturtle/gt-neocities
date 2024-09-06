@@ -648,6 +648,39 @@
     ]
   },
   {
+    "title": "Important to Capture",
+    "summary": "Some things are important to capture and remember",
+    "details": "Composer Joshua asks, \"Why do you have that?\" Hanekoma replies \"It's the first time I got you to smile.\"",
+    "characters": "Joshua, Hanekoma",
+    "date": "2020-04-25",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-04-25-Some thing",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/616411766562422784/some-things-are-important-to-capture-and-remember"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2020\\0425-firstsmile\\20200425-01-joshFirstSmile-nDEFV1-pDEF2.jpg",
+        "alt": "Composer Joshua asks, \"Why do you have that?\" Hanekoma replies \"It's the first time I got you to smile.\""
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2020\\0425-firstsmile\\20200425-02-joshFirstSmileComp-nDEFV1-pDEFV2.jpg",
+        "alt": "Composer Joshua."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0425-firstsmile\\20200425-01-joshFirstSmile-nDEFV1-pDEF2.jpg",
+    "thumbnailAlt": "Composer Joshua asks, \"Why do you have that?\" Hanekoma replies \"It's the first time I got you to smile.\"",
+    "fandom": [
+      "TWEWY"
+    ]
+  },
+  {
     "title": "Watching Over",
     "summary": "",
     "details": "",
@@ -671,6 +704,44 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0411-watchOver\\20200411-thmb-watching-nDEFV1-pDEV2.jpg",
     "thumbnailAlt": "Art of Composer Joshua looking down from a high building's railing.",
+    "fandom": [
+      "TWEWY"
+    ]
+  },
+  {
+    "title": "Scribble Joshua",
+    "summary": "Older Joshua and\u2026scribble Joshua",
+    "details": "",
+    "characters": "Joshua",
+    "date": "2020-04-04",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-04-04-Older Josh",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/614512532710916096/older-joshua-andscribble-joshua"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2020\\0404-scribbleJosh\\20200404-01-joshOlder-nDEFV1-pDEFV2.jpg",
+        "alt": "Art of older Joshua from The World Ends With You."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2020\\0404-scribbleJosh\\20200404-02-josh2Older02-nDEFV1-pDEFV2.jpg",
+        "alt": "Art of older Joshua from The World Ends With You, with his body slightly warped."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\twewy\\2020\\0404-scribbleJosh\\20200404-03-josh2Older03-nDEFV1-pDEFV2.jpg",
+        "alt": "Art of older Joshua from The World Ends With You, body more warped and mixing with the background."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0404-scribbleJosh\\20200404-02-josh2Older02-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Art of older Joshua from The World Ends With You, with his body slightly warped.",
     "fandom": [
       "TWEWY"
     ]
