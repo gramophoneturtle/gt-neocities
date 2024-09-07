@@ -95,7 +95,7 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         
         artwork_dictionary['date'] = row[date_column_name]
         artwork_dictionary['dateYear'] = row[date_column_name][0:4]
-        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","")[0:10])
+        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","").lower[0:10])
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
