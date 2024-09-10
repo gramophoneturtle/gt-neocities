@@ -31,17 +31,6 @@
     padding: 4px;
 }
   
-/* Create three equal columns that floats next to each other */
-.characters {
-    float: left;
-    margin: 3px;
-    width: 10.75rem;
-    height: 10.75rem;
-    display: none; /* Hide columns by default */
-    border: 4px dashed var(--border-color);
-    font-size: medium;
-}
-
 /* Clear floats after rows */
 .row:after {
     content: "";
@@ -49,26 +38,48 @@
     clear: both;
 }
 
-/* Content */
+/* Create multiple columns that float next to each other */
+.characters {
+    float: left;
+    margin: 3px;
+    width: 10.75rem;
+    height: 10.75rem;
+    display: none; /* Hide columns by default */
+    border: 1px solid var(--border-color);
+    font-size: small; 
+}
+
+/* Content for the artwork thumbnail */
 .content {
     display: grid;
     background-color: var(--background-container);
     box-sizing: border-box;
     overflow: hidden;
 
+    .desc {
+        height: 2.7rem;
+        padding: 0rem 0.2rem;
+        margin: 0rem;
+        border-bottom: 1px solid var(--border-color);
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+        vertical-align: middle;
+        text-align: center;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
     img {
-        height: 100%;
+        height: 8rem;
         width: 100%;
         display: block;
         position: relative;
         object-fit: cover;
-    }
-    a {
-        z-index: 1;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
+        border-radius: 0rem;
     }
 }
 

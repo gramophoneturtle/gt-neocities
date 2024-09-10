@@ -85,10 +85,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\ocs\\grp\\20240604_ChisaAndNull_SadChisa01-niDEFV1-proint-DEFV2.png",
+        "url": "\\img\\art\\twewy\\ocs\\grp\\20240604-ChisaAndNull-nDEFV1-pDEFV2.jpg",
         "alt": "Chisa cries into her hands, upset. Null sits on the ground, hands on her knees, to comfort her."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\ocs\\grp\\20240604-thmb-ChisaAndNull-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Chisa cries into her hands, upset. Null sits on the ground, hands on her knees, to comfort her.",
     "fandom": [
       "TWEWY"
     ]

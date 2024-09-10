@@ -32,7 +32,7 @@
 }
 
 img {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Light theme */
@@ -55,10 +55,6 @@ img {
     --null-light-green-ivy: #859685;
     --null-dark-green-base: #c1cec1;
     --null-dark-green-ivy: #698b69;
-  }
-
-  img {
-    opacity: 1;
   }
 }
 
