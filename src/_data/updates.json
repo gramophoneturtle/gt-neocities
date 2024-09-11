@@ -3,11 +3,24 @@
         "PostDate": "2024-09-XX"
         ,"ArtList": [
             {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Hallucinations",
+                        "URL": "/art/twewy/2021-01-01-hallucinat/"
+                    }
+                ]
+            },
+            {
                 "Category": "NEO TWEWY Spoilers",
                 "List": [
                     {
                         "Title": "Mother and Father Are Watching",
                         "URL": "/art/twewy/2022-03-21-mother-and/"
+                    },
+                    {
+                        "Title": "Purification in progress...",
+                        "URL": "/art/twewy/2021-12-23-purificati/"
                     }
                 ]
             }
