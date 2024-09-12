@@ -113,10 +113,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\HBdayHaz2022-niDEF-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
         "alt": "Hazuki Mikagi, a charatcer from NEO The Worl Ends With You, with a white border, looking straight ahead with a small smile on his face. The words \"Happy Birthday Hazuki!! 2022.5.5\" is written on it."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
+    "thumbnailAlt": "Art of Hazuki Mikagi.",
     "fandom": [
       "NTWEWY"
     ]
