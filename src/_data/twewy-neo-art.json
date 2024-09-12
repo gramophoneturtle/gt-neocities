@@ -113,10 +113,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\HBdayHaz2022-niDEF-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-HBdayHaz2022-nDEFV1-g10V1.jpg",
         "alt": "Hazuki Mikagi, a charatcer from NEO The Worl Ends With You, with a white border, looking straight ahead with a small smile on his face. The words \"Happy Birthday Hazuki!! 2022.5.5\" is written on it."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
+    "thumbnailAlt": "Art of Hazuki Mikagi.",
     "fandom": [
       "NTWEWY"
     ]
@@ -153,6 +155,42 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0416-yoshinii\\220416-thmb-Yoshi-nii-nDEF1-pDEF2.jpg",
     "thumbnailAlt": "Glowing, Angelic form of Hazuki Mikagi",
+    "fandom": [
+      "NTWEWY"
+    ]
+  },
+  {
+    "title": "Purification in progress\u2026",
+    "summary": "NEOTWEWY x OFF.",
+    "details": "",
+    "characters": "Kubo",
+    "date": "2021-12-23",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-12-23-Purificati",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/671373595871707136/purification-in-progress-ntwewy-x-off"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5276663"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l3tpr5nrry27"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-purificationInProgress-nDEFV1-pDEFV2.jpg",
+        "alt": "Art of Tanzo Kubo drawn in a grayscale pencil style. The top says \"Purification in progress...\""
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-thmb-purificationInProgress-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Tanzo Kubo drawn in a grayscale pencil style.",
     "fandom": [
       "NTWEWY"
     ]

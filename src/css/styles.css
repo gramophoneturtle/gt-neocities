@@ -128,7 +128,7 @@ h2 {
   h2 {
     font-size: 2rem;
     margin-top: 1.75rem;
-}
+  }
 }
 
 /* || Format links */
@@ -193,8 +193,8 @@ a:hover {
   a:hover {
     text-decoration: none;
     border-color: var(--accent);
-  color: var(--accent);
-  cursor: pointer;
+    color: var(--accent);
+    cursor: pointer;
 }
 
   p {
@@ -436,7 +436,32 @@ nav {
 /* Hide the images by default */
 .slideshow-mySlides {
   display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
+/* Slideshow, the showing image - set a max height */
+.slideshow-mySlides > .artworkShowingImage {
+  max-height: 55rem;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artwork-one-image-container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .artwork-one-img-show {
+    max-height: 55rem;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {

@@ -21,10 +21,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\ocs\\Null\\240806PastNull\\20240606-NullPastPractice-niDEFV1-prot-intDEFV2.png",
+        "url": "\\img\\art\\twewy\\ocs\\null\\240806PastNull\\20240806-Null_TimePeriodPractice-niHIGHV1-pDEFV2.jpg",
         "alt": "Art of grinning masculine looking figure with glowing bandages swirl above their head like a halo. There are black and purple branching lines surrounding them, glowing white with a pale rainbow showing behind them."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\ocs\\null\\240806PastNull\\20240806-thmb-Null_TimePeriodPractice-niHIGHV1-pDEFV2.jpg",
+    "thumbnailAlt": "Grinning past Composer Null.",
     "fandom": [
       "TWEWY"
     ]
@@ -230,6 +232,57 @@
         "alt": "Art of eight blurry faces of Yoshiya Joshua Kiryu in his Composer form from The World Ends With You. From top left to right, top to bottom row, the expressions are: 3/4 looking anxious, from above looking determined, looking shy/uneasy, side view and annoyed, determined and shouting, from below looking anxious and yelling, side view looking smug, and then looking amused and looking to the side."
       }
     ],
+    "fandom": [
+      "TWEWY"
+    ]
+  },
+  {
+    "title": "Hallucinations",
+    "summary": "Except the one time that it isn\u2019t.\n\nComposer Neku AU + parallel world cross over: Did you ever wonder why Neku threw fire at \u201cJoshua\u201d immediately on sight? Did you ever wonder if the last Neku saw of Joshua was him smiling on the ground might mess him up a little? (Or Joshua always smiling I suppose.) Well, now you know! Pages 1-3 can be considered part of the general Composer Neku AU, while Page 4 leads directly to this parallel world comic here that started it all.\n",
+    "details": "This idea came around the time I was creating the title/caption \nfor\u00a0\u201cYou\u2019re Shibuya\u2019s Composer now\u201d comic. I was tempted to put \u201cYou\u2019re \nShibuya\u2019s new Composer now, congratulations!\u201d But that sounded \ntoo cruel and decided to call that the\u00a0\u201cJoshua voice\u201d. Which, over time,\n actually became a Joshua voice which haunts Neku. I thought about how \nNeku might try to deal with these and decided, what about throwing fire \nat them? Like how he threw fire at \u201cJoshua\u201d when he first arrived. Why \nnot combined the two? And here we are! I plan to expand more on this, so\n look forward to that!\u00a0Also! You want another layer of imagined \nsnarky Joshua voices?\u00a0\u201cYou saved everyone (but me)\u201d and \u201cThey have \u2026 \nsecond chance (but not me)\u201d, with Neku adding the part in brackets. More\n Fun Thoughts as this AU continues!",
+    "characters": "Joshua, Neku",
+    "date": "2021-01-01",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-01-01-Hallucinat",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/639156047925428224/"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5281820"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l3w7bc6vwh2h"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-hallucinations01_02a-nDEFV1-pDEFV2.jpg",
+        "alt": "Comic page 1 of 4, of Neku Sakuraba as a Composer, talking to a glitching Joshua who vanishes when Neku touches him."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-hallucinations02_02a-nDEFV1-pDEFV2.jpg",
+        "alt": "Comic page 2 of 4, of Neku Sakuraba as a Composer, talking to an older Joshua jokes that Neku should invite all his friends to a party. Neku shoots flames at Joshua."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-hallucinations03_02c-nDEFV1-pDEFV2.jpg",
+        "alt": "Comic page 3 of 4, of Neku Sakuraba as a Composer, showing times he erased Joshua with flames."
+      },
+      {
+        "id": 4,
+        "url": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-hallucinations04_02a-nDEFV1-pDEFV2.jpg",
+        "alt": "Comic page 4 of 4, of Neku Sakuraba as a Composer, showing a fireball at a non-glitchy version of Joshua, which catches Neku's fireball instead of being hit by it."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-thmb-hallucinations-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Scribbly looking Joshua.",
     "fandom": [
       "TWEWY"
     ]
@@ -457,15 +510,17 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\cneku\\91-03-TheirWorld\\composerNeku_TheirWorld01-03-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0820-cnau-theirworld\\20200820-cNeku_TheirWorld01-03-niDEFV1-gl10V1.jpg",
         "alt": "Page 1 of a comic of Composer Neku Sakuraba and Sanae Hanekoma sitting and talking on the edge of a building. Hanekoma tells Neku that he did it - their world is safe now. Beat and Rhyme walk in separate directions from Shiki and Eri in a crowd of people."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\cneku\\91-03-TheirWorld\\composerNeku_TheirWorld02-03-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0820-cnau-theirworld\\20200820-cNeku_TheirWorld02-03-nDEFV1-gl10V1.jpg",
         "alt": "Page 2 of a comic. Eri and Rhyme ask Shiki and Beat separately about a they can't remeber from their dreams. Hanekom looks to Neku as he talks about what he did - taking their memories and changing them. Hanekoma places a hand on Neku's shoulder."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0820-cnau-theirworld\\20200820-thmb-cNeku_TheirWorld02-03-nDEFV1-gl10V1.jpg",
+    "thumbnailAlt": "Hanekoma puts a hand on Neku's shoulder.",
     "fandom": [
       "TWEWY"
     ]
@@ -536,15 +591,17 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\cneku\\01-02-RGConcept\\composerNeku_fullbody-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0809-cnau-concept\\20200809-cNeku2_fullbody-niDEFV1-gl10V1.jpg",
         "alt": "Art of Neku from The World Ends With You, showing him in his glowing, white Composer form at \"UG Full Vibe Frequency\", and his new RG form, \"Down Tuned\", where Neku looks like a young child."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\cneku\\01-02-RGConcept\\composerNeku2_ThemNow_Full-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0809-cnau-concept\\20200809-cNeku2-ThemNow-niDEFV1-gl10V1.jpg",
         "alt": "Art of Neku Sakuraba and Sanae Hanekoma from The World Ends With You. Neku appears as a child in a starry lined hoodie, standing next to Hanekoma."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0809-cnau-concept\\20200809-cNeku2-thmb-ThemNow-niDEFV1-gl10V1.jpg",
+    "thumbnailAlt": "Composer Neku in young human form.",
     "fandom": [
       "TWEWY"
     ]
@@ -690,7 +747,7 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-04-25",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-25-some-thing",
+    "uniqueUrl": "2020-04-25-Some thing",
     "spoilers": "Yes",
     "urls": [
       {
@@ -751,7 +808,7 @@
     "characters": "Joshua",
     "date": "2020-04-04",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-04-older-josh",
+    "uniqueUrl": "2020-04-04-Older Josh",
     "spoilers": "Yes",
     "urls": [
       {

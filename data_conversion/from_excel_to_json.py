@@ -156,7 +156,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     print('Processing: {0}. Include Spoilers: {1}\n'.format(sheet_name,  include_spoilers))
-    print('    1. Reading Excel File for {0}\n'.format(sheet_name))
+    print('  1. Reading Excel File for {0}'.format(sheet_name))
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -203,16 +203,16 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     # sort
     nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
-    print("    2. Processing DataFrame.\n")
+    print("   2. Processing DataFrame.")
     # Convert DataFrame to JSON
     json_str = method1(nightshadeOnly)
 
-    print("    3. Updating JSON Data.\n")
+    print("    3. Updating JSON Data.")
     # Output - can ge to the json file in the src area
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(json_str)
 
-    print("    4. Completed.\n")
+    print("     4. Completed.\n")
 
 if __name__ == '__main__':
     # TWEWY OG
