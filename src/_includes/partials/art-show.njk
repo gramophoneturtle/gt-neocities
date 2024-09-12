@@ -45,8 +45,8 @@
 {% else %}
   {# Set up for single image display. No grid required. #}
   {%- for item in twewyart.imgs %}
-    <div>
-      <img 
+    <div class="artwork-one-image-container">
+      <img class="artwork-one-img-show"
         src="{{ item.url }}"
         alt="{{ item.alt }}">
     </div>

@@ -449,6 +449,20 @@ nav {
   margin-right: auto;
 }
 
+.artwork-one-image-container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .artwork-one-img-show {
+    max-height: 55rem;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
