@@ -1,5 +1,20 @@
 [
     {
+        "PostDate": "2024-09-19"
+        ,"ArtList": [
+            {
+                "Category": "NEO TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "NEO Joshua Anime Photoshops",
+                        "URL": "/art/twewy/2023-08-21-neo-joshua/"
+                    }
+                ]
+            }
+        ]
+        ,"Site": "Links to some friends sites!"
+    },
+    {
         "PostDate": "2024-09-11"
         ,"ArtList": [
             {
@@ -35,11 +50,11 @@
                 "List": [
                     {
                         "Title": "Important to Capture",
-                        "URL": "/art/twewy/2020-04-25-Some-thing/"
+                        "URL": "/art/twewy/2020-04-25-some-thing/"
                     },
                     {
                         "Title": "Scribble Joshua",
-                        "URL": "/art/twewy/2020-04-04-Older-Josh/"
+                        "URL": "/art/twewy/2020-04-04-older-josh/"
                     },
                     {
                         "Title": "I'm Here For You",
@@ -57,7 +72,7 @@
                 "List": [
                     {
                         "Title": "A Family For A Family",
-                        "URL": "/art/twewy/2024-09-03-Family-For/"
+                        "URL": "/art/twewy/2024-09-03-family-for/"
                     }
                 ]
             },
