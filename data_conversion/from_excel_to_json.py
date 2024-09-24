@@ -16,7 +16,7 @@ filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
 
 filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
-file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
+file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
 
 date_column_name = "Earliest Date"
 max_num_images = 8
@@ -155,7 +155,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
     return nested_json
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
-    print('Processing: {0}. Include Spoilers: {1}\n'.format(sheet_name,  include_spoilers))
+    print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
     print('  1. Reading Excel File for {0}'.format(sheet_name))
 
     # Read Excel file
@@ -181,8 +181,9 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     nightshadeOnlyTMP = excel_data_df[excel_data_df["NS?"].isin(options)]
     
     # CLEAN UP - Set Defaults
-    # fill in NaN as with default values for each column
-    nightshadeOnlyTMP.fillna("", inplace=True)
+    # fill in NaN as with default values for each column as an empty string = ""
+    nightshadeOnlyTMP = nightshadeOnlyTMP.infer_objects().fillna("")
+
 
     if include_spoilers == False:
         options = ['No','no']
