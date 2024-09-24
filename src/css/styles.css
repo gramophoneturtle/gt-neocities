@@ -622,6 +622,11 @@ div.desc {
       .friend-link-details-img {
         width: 5rem;
         margin-right: 0.4rem;
+        
+        img {
+          image-rendering: pixelated;
+        }
+
       }
       .friend-link-details-desc {
         font-size: small;
@@ -641,8 +646,6 @@ div.desc {
     }
   }
 }
-
-
 
 /* || TEST STUFF */
 .testimg {
