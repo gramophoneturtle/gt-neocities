@@ -598,8 +598,54 @@ div.desc {
   text-align: center;
 }
 
+/* CONTACTS || Friend links. Width and height are manually set to have ~2 lines of description per link */
+.friend-link-container {
+  .friend-link-item {
+    background-color: var(--background-container);
+    border: solid 0.1rem var(--border-color);
+    border-radius: 0.25rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    
+    width: 22rem;
+    height: 6rem;
+    float: left;
+   
+    .friend-link-details {
+      margin-top: 0.5rem;
+      float: clear;
 
+      div {
+        float: left;
+      }
+      
+      .friend-link-details-img {
+        width: 5rem;
+        margin-right: 0.4rem;
+        
+        img {
+          image-rendering: pixelated;
+        }
 
+      }
+      .friend-link-details-desc {
+        font-size: small;
+        width: 15.25rem;
+      }
+    }
+  }
+
+   /* Reduce nav side on mobile */
+   @media only screen and (max-width: 400px) {
+    .friend-link-item  {
+      width: 18rem;
+      height: 8rem;
+    }
+    .friend-link-details-desc {
+      width: auto;
+    }
+  }
+}
 
 /* || TEST STUFF */
 .testimg {

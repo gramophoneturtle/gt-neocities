@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "title": "[Shopping] For That One Thing",
+    "summary": "TWEWYTOBER2021 Day 15 & 16: Shopping",
+    "details": "",
+    "characters": "Shoka",
+    "date": "2021-10-16",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-10-16-[Shopping]",
+    "spoilers": "No",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/665219585532887040/shopping-twewytober2021-day-15-16-shopping"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4466969"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3knjhowglq42w"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/5030876-shopping-for-that"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-shokaShopping-nDEFV1-pDEFV2.jpg",
+        "alt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
+    "fandom": [
+      "NTWEWY"
+    ]
+  }
+]

@@ -16,10 +16,10 @@ filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
 
 filename_output_p5 = "art-persona5.json"
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
-file_path_output_path = os.path.join(os.getcwd(),"src\_data\\")
+file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
 
 date_column_name = "Earliest Date"
-max_num_images = 6
+max_num_images = 8
 
 # functions
 def make_img_list(_row: pandas.Series) -> list:
@@ -155,7 +155,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
     return nested_json
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
-    print('Processing: {0}. Include Spoilers: {1}\n'.format(sheet_name,  include_spoilers))
+    print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
     print('  1. Reading Excel File for {0}'.format(sheet_name))
 
     # Read Excel file
@@ -164,15 +164,16 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
         sheet_name=sheet_name,
         usecols=['Artwork', 'NS?', "Earliest Date",
                  'Spoilers',
+                'characters','fandom','PF tags',
+                'title','summary','detail',
+                'IMG THMB', 'ALT THMB',
+                'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6','IMG 7','IMG 8',
+                'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6','ALT 7','ALT 8',
                 'Tumblr URL',
                 'Pillowfort URL',
                 'Bluesky URL',
-                'Cohost URL', 
-                'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6',
-                'characters','fandom','PF tags',
-                'title','summary','detail',
-                'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6'
-                ,'IMG THMB', 'ALT THMB']
+                'Cohost URL' 
+                ]
         )
 
     # only get nightshaded artworks and...
@@ -180,8 +181,9 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     nightshadeOnlyTMP = excel_data_df[excel_data_df["NS?"].isin(options)]
     
     # CLEAN UP - Set Defaults
-    # fill in NaN as with default values for each column
-    nightshadeOnlyTMP.fillna("", inplace=True)
+    # fill in NaN as with default values for each column as an empty string = ""
+    nightshadeOnlyTMP = nightshadeOnlyTMP.infer_objects().fillna("")
+
 
     if include_spoilers == False:
         options = ['No','no']
