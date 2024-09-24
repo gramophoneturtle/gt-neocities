@@ -1,13 +1,26 @@
 [
     {
-        "PostDate": "2024-09-19"
+        "PostDate": "2024-09-XX"
         ,"ArtList": [
+            {
+                "Category": "NEO TWEWY",
+                "List": [
+                    {
+                        "Title": "[Shopping] For That One Thing",
+                        "URL": "/art/twewy/2021-10-16-shopping/"
+                    }
+                ]
+            },
             {
                 "Category": "NEO TWEWY Spoilers",
                 "List": [
                     {
                         "Title": "NEO Joshua Anime Photoshops",
                         "URL": "/art/twewy/2023-08-21-neo-joshua/"
+                    },
+                    {
+                        "Title": "There Was A Time When",
+                        "URL": "/art/twewy/2022-01-26-there-was/"
                     }
                 ]
             }
