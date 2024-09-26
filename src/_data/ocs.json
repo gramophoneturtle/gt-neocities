@@ -17,6 +17,7 @@
 
         "ImageHeader": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
+        "BannerButtons": ["https://gramophoneturtle.neocities.org/img/buttons/FatherFan.gif"],
 
         "History": [
             {
@@ -129,6 +130,8 @@
         "Apparent Age": "",
         "ImageHeader": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
         "ImageHeaderAltText": "A black and white image of a woman with a short ponytail and a suit, has a man lying beneath her. A circular light source shines from above her head, looking like a halo.",
+        "BannerButtons": ["https://gramophoneturtle.neocities.org/img/buttons/MotherFan.gif"],
+        
         "Inspirations": [
             {
                 "Name": "Deus",
@@ -217,6 +220,7 @@
 
         "ImageHeader": "\\img\\icons\\NullIcon.png",
         "ImageHeaderAltText": "Modern day Null.",
+        "BannerButtons": ["https://gramophoneturtle.neocities.org/img/buttons/NullFan1.gif","https://gramophoneturtle.neocities.org/img/buttons/NullFan2.gif"],
         
         "Likes": ["Strawberry-banana ice cream", "Floral patterns", "Noodles of all kinds"],
         "Dislikes": ["Two faced behaviours"],
