@@ -119,6 +119,11 @@ h2 {
   margin-top: 2rem;
 }
 
+p.smaller {
+  font-size: smaller;
+  margin: 0.5rem;
+}
+
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {
   h1 {
@@ -250,6 +255,12 @@ nav {
   }
 }
 
+/* override Simple CSS's header > nav extra padding*/
+header > nav {
+  padding-top: 0.5rem;
+}
+
+/* || TOP NAVIGATION */
 .navtest2 {
   a {
     text-decoration: none;
@@ -314,7 +325,6 @@ nav {
 
 
 /* || Menu Button drop down */
-
 .navHeader,
 .navHeader:visited {
   width: 7rem;
@@ -340,11 +350,7 @@ nav {
 }
 
 
-
-
-
 /* || TOC FOR ARTWORK ----------------------------------------- */
-
 .table-overflow {
   overflow-x: auto;
 }
