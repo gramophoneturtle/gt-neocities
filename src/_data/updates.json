@@ -1,5 +1,36 @@
 [
     {
+        "PostDate": "2024-09-XX"
+        ,"ArtList": [
+            {
+                "Category": "NEO TWEWY",
+                "List": [
+                    {
+                        "Title": "The beginning of Kubokupo",
+                        "URL": "/art/twewy/2022-08-24-the-beginn/"
+                    },
+                    {
+                        "Title": "...What? What??? What.",
+                        "URL": "/art/twewy/2022-11-06-what-wh/"
+                    },
+                    {
+                        "Title": "It's [Fashion], Kubokupo!",
+                        "URL": "/art/twewy/2021-10-13-it-s-fash/"
+                    }
+                ]
+            },
+            {
+                "Category": "NEO TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "HazuKweh!",
+                        "URL": "/art/twewy/2021-12-03-hazukweh-o/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-09-24"
         ,"ArtList": [
             {
