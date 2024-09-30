@@ -6,7 +6,8 @@
     "characters": "Null",
     "date": "2024-08-06",
     "dateYear": "2024",
-    "uniqueUrl": "2024-08-06-Null Past ",
+    "uniqueUrl": "2024-08-06-null-past",
+    "UniqueURLKey": "art/twewy//2024-08-06-null-past",
     "spoilers": "yes",
     "urls": [
       {
@@ -38,7 +39,8 @@
     "characters": "Joshua",
     "date": "2022-09-22",
     "dateYear": "2022",
-    "uniqueUrl": "2022-09-22-Shibuya Fi",
+    "uniqueUrl": "2022-09-22-shibuya-fi",
+    "UniqueURLKey": "art/twewy//2022-09-22-shibuya-fi",
     "spoilers": "yes",
     "urls": [
       {
@@ -76,7 +78,8 @@
     "characters": "Joshua, Shiki",
     "date": "2021-07-24",
     "dateYear": "2021",
-    "uniqueUrl": "2021-07-24-PERCEIVE M",
+    "uniqueUrl": "2021-07-24-perceive-m",
+    "UniqueURLKey": "art/twewy//2021-07-24-perceive-m",
     "spoilers": "yes",
     "urls": [
       {
@@ -119,7 +122,8 @@
     "characters": "Joshua, Kitaniji",
     "date": "2021-05-27",
     "dateYear": "2021",
-    "uniqueUrl": "2021-05-27-What if th",
+    "uniqueUrl": "2021-05-27-what-if-th",
+    "UniqueURLKey": "art/twewy//2021-05-27-what-if-th",
     "spoilers": "yes",
     "urls": [
       {
@@ -167,7 +171,8 @@
     "characters": "Joshua, Neku",
     "date": "2021-04-06",
     "dateYear": "2021",
-    "uniqueUrl": "2021-04-06-Not Your J",
+    "uniqueUrl": "2021-04-06-not-your-j",
+    "UniqueURLKey": "art/twewy//2021-04-06-not-your-j",
     "spoilers": "yes",
     "urls": [
       {
@@ -198,12 +203,6 @@
     "thumbnailAlt": "Joshua with his arms crossed,",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU; Composer Neku AU PW"
-    ],
-    "RelatedSeriesOrder": [
-      "2;2"
     ]
   },
   {
@@ -213,7 +212,8 @@
     "characters": "Joshua",
     "date": "2021-03-24",
     "dateYear": "2021",
-    "uniqueUrl": "2021-03-24-Anime styl",
+    "uniqueUrl": "2021-03-24-anime-styl",
+    "UniqueURLKey": "art/twewy//2021-03-24-anime-styl",
     "spoilers": "yes",
     "urls": [
       {
@@ -251,7 +251,8 @@
     "characters": "Joshua, Neku",
     "date": "2021-01-01",
     "dateYear": "2021",
-    "uniqueUrl": "2021-01-01-Hallucinat",
+    "uniqueUrl": "2021-01-01-hallucinat",
+    "UniqueURLKey": "art/twewy//2021-01-01-hallucinat",
     "spoilers": "yes",
     "urls": [
       {
@@ -293,12 +294,6 @@
     "thumbnailAlt": "Scribbly looking Joshua.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU; Composer Neku AU PW"
-    ],
-    "RelatedSeriesOrder": [
-      "4;0"
     ]
   },
   {
@@ -308,7 +303,8 @@
     "characters": "Joshua",
     "date": "2020-11-17",
     "dateYear": "2020",
-    "uniqueUrl": "2020-11-17-Accessoriz",
+    "uniqueUrl": "2020-11-17-accessoriz",
+    "UniqueURLKey": "art/twewy//2020-11-17-accessoriz",
     "spoilers": "yes",
     "urls": [
       {
@@ -337,12 +333,6 @@
     ],
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "For You"
-    ],
-    "RelatedSeriesOrder": [
-      "2"
     ]
   },
   {
@@ -352,7 +342,8 @@
     "characters": "Joshua, Kitaniji",
     "date": "2020-10-12",
     "dateYear": "2020",
-    "uniqueUrl": "2020-10-12-Take my ha",
+    "uniqueUrl": "2020-10-12-take-my-ha",
+    "UniqueURLKey": "art/twewy//2020-10-12-take-my-ha",
     "spoilers": "yes",
     "urls": [
       {
@@ -390,7 +381,8 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-09-28",
     "dateYear": "2020",
-    "uniqueUrl": "2020-09-28-For you co",
+    "uniqueUrl": "2020-09-28-for-you-co",
+    "UniqueURLKey": "art/twewy//2020-09-28-for-you-co",
     "spoilers": "yes",
     "urls": [
       {
@@ -419,12 +411,6 @@
     ],
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "For You"
-    ],
-    "RelatedSeriesOrder": [
-      "1"
     ]
   },
   {
@@ -434,7 +420,8 @@
     "characters": "Neku, Hanekoma",
     "date": "2020-09-09",
     "dateYear": "2020",
-    "uniqueUrl": "2020-09-09-I'm here f",
+    "uniqueUrl": "2020-09-09-im-here-f",
+    "UniqueURLKey": "art/twewy//2020-09-09-im-here-f",
     "spoilers": "yes",
     "urls": [
       {
@@ -461,12 +448,6 @@
     "thumbnailAlt": "Hanekoma hugs a crying Neku.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU"
-    ],
-    "RelatedSeriesOrder": [
-      "4"
     ]
   },
   {
@@ -476,7 +457,8 @@
     "characters": "Neku, Joshua, Hanekoma",
     "date": "2020-09-01",
     "dateYear": "2020",
-    "uniqueUrl": "2020-09-01-\"You\u2019re Sh",
+    "uniqueUrl": "2020-09-01-youre-sh",
+    "UniqueURLKey": "art/twewy//2020-09-01-youre-sh",
     "spoilers": "yes",
     "urls": [
       {
@@ -512,12 +494,6 @@
     "thumbnailAlt": "Neku confronted by Hanekoma.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU"
-    ],
-    "RelatedSeriesOrder": [
-      "1"
     ]
   },
   {
@@ -527,7 +503,8 @@
     "characters": "Neku, Hanekoma, Shiki, Eri, Beat, Rhyme",
     "date": "2020-08-20",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-20-Ya did wha",
+    "uniqueUrl": "2020-08-20-ya-did-wha",
+    "UniqueURLKey": "art/twewy//2020-08-20-ya-did-wha",
     "spoilers": "yes",
     "urls": [
       {
@@ -563,12 +540,6 @@
     "thumbnailAlt": "Hanekoma puts a hand on Neku's shoulder.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU"
-    ],
-    "RelatedSeriesOrder": [
-      "3"
     ]
   },
   {
@@ -578,7 +549,8 @@
     "characters": "Neku, Joshua",
     "date": "2020-08-15",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-15-Mentor Jos",
+    "uniqueUrl": "2020-08-15-mentor-jos",
+    "UniqueURLKey": "art/twewy//2020-08-15-mentor-jos",
     "spoilers": "yes",
     "urls": [
       {
@@ -605,12 +577,6 @@
     "thumbnailAlt": "Thumbnail of Composer Neku AU, with Composer Joshua Kiryu showing Composer Neku music.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU; Composer Neku AU PW"
-    ],
-    "RelatedSeriesOrder": [
-      "3"
     ]
   },
   {
@@ -620,7 +586,8 @@
     "characters": "Neku, Hanekoma",
     "date": "2020-08-09",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-09-#TWEWYSpoi",
+    "uniqueUrl": "2020-08-09-twewyspoi",
+    "UniqueURLKey": "art/twewy//2020-08-09-twewyspoi",
     "spoilers": "yes",
     "urls": [
       {
@@ -656,12 +623,6 @@
     "thumbnailAlt": "Composer Neku in young human form.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU"
-    ],
-    "RelatedSeriesOrder": [
-      "2"
     ]
   },
   {
@@ -671,7 +632,8 @@
     "characters": "Joshua, Neku",
     "date": "2020-08-04",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-04-\"Life\u2019s li",
+    "uniqueUrl": "2020-08-04-lifes-li",
+    "UniqueURLKey": "art/twewy//2020-08-04-lifes-li",
     "spoilers": "yes",
     "urls": [
       {
@@ -707,12 +669,6 @@
     "thumbnailAlt": "Frustrated Composer.",
     "fandom": [
       "TWEWY"
-    ],
-    "RelatedSeries": [
-      "Composer Neku AU; Composer Neku AU PW"
-    ],
-    "RelatedSeriesOrder": [
-      "1"
     ]
   },
   {
@@ -722,7 +678,8 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-06-19",
     "dateYear": "2020",
-    "uniqueUrl": "2020-06-19-Josh, wait",
+    "uniqueUrl": "2020-06-19-josh-wait",
+    "UniqueURLKey": "art/twewy//2020-06-19-josh-wait",
     "spoilers": "yes",
     "urls": [
       {
@@ -760,7 +717,8 @@
     "characters": "Joshua",
     "date": "2020-05-26",
     "dateYear": "2020",
-    "uniqueUrl": "2020-05-26-Do Not #TW",
+    "uniqueUrl": "2020-05-26-do-not-tw",
+    "UniqueURLKey": "art/twewy//2020-05-26-do-not-tw",
     "spoilers": "yes",
     "urls": [
       {
@@ -813,7 +771,8 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-04-25",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-25-Some thing",
+    "uniqueUrl": "2020-04-25-some-thing",
+    "UniqueURLKey": "art/twewy//2020-04-25-some-thing",
     "spoilers": "Yes",
     "urls": [
       {
@@ -846,7 +805,8 @@
     "characters": "Joshua",
     "date": "2020-04-11",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-11-Watching o",
+    "uniqueUrl": "2020-04-11-watching-o",
+    "UniqueURLKey": "art/twewy//2020-04-11-watching-o",
     "spoilers": "Yes",
     "urls": [
       {
@@ -874,7 +834,8 @@
     "characters": "Joshua",
     "date": "2020-04-04",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-04-Older Josh",
+    "uniqueUrl": "2020-04-04-older-josh",
+    "UniqueURLKey": "art/twewy//2020-04-04-older-josh",
     "spoilers": "Yes",
     "urls": [
       {

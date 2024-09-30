@@ -2,11 +2,15 @@
 # Winwdows
 # > py -m pip install pandas
 import pandas
-import logging, sys
+import urllib3
 import json
 import os
+import re
 
+# Excel Database Filename
 filename_input = "Where Is My Art.xlsx"
+
+# GENERATE - TWEWY JSON Files
 filename_output_twewy_og_all = "twewy-art.json"
 filename_output_twewy_og_nospoilers = "twewy-art-spoiler-free.json"
 filename_output_twewy_neo_all = "twewy-neo-art.json"
@@ -14,12 +18,21 @@ filename_output_twewy_neo_nospoilers = "twewy-neo-art-spoiler-free.json"
 filename_output_twewy_series_all = "twewy-series.json"
 filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
 
+# GENERATE - PERSONA 5 JSON Files
 filename_output_p5 = "art-persona5.json"
+
+# GENERATE - Related Series Files
+filename_output_related_twewy = "related\\twewy.json"
+
+
+
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
 
 date_column_name = "Earliest Date"
 max_num_images = 8
+
+related_series_dictionary = {}
 
 # functions
 def make_img_list(_row: pandas.Series) -> list:
@@ -78,7 +91,54 @@ def get_img_url(rw, st_nm) -> str:
 
     return return_url
 
-def make_url_dict(mydataframe: pandas.DataFrame) -> list:
+def update_related_dictionary(rw, rw_unique_url):
+
+    foundseries = rw['RelatedSeries'].split(";")
+    foundindices = rw['RelatedSeriesOrder'].split(";")
+
+    for i_index, i_name in enumerate(foundseries):
+
+        i_name = i_name.strip()
+        print("     ' Looking at: {0}".format(i_name))
+
+        if not i_name in related_series_dictionary.keys():
+            print("    '! {0} is not in related series yet!".format(i_name))
+
+            rel_dictionary = {
+                'SeriesName': i_name,
+                'SeriesEntries': [
+                    {
+                        'Index': -1,
+                        'Name': rw['title'],
+                        'URL': rw_unique_url
+                    }
+                ]
+            }
+            # Add with defaults
+            related_series_dictionary[i_name] = rel_dictionary
+
+        else:
+            print("    ' TODO - UPDATE: {0} is in related series - {1}".format(i_name,related_series_dictionary[i_name]))
+
+        # if i_index < len(foundindices):
+        #     print("    '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
+        # else:
+        #     print("    ' TODO: Current index [{0}] can be looked up. Value: [{1}].".format(i_index,foundindices[i_index]))
+
+    return 
+
+# https://stackoverflow.com/questions/1007481/how-to-replace-whitespaces-with-underscore
+def urlify(s):
+
+    # Remove all non-word characters (everything except numbers and letters)
+    s = re.sub(r'[^\w\s-]', '', s).strip() 
+
+    # Replace all runs of whitespace with a single dash
+    s = re.sub(r"\s+", '-', s)
+
+    return s
+
+def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
     return_list = []
     dict_key = "ARTWORK"
     urls_key = "urls"
@@ -96,7 +156,15 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         
         artwork_dictionary['date'] = row[date_column_name]
         artwork_dictionary['dateYear'] = row[date_column_name][0:4]
-        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","")[0:10])
+
+        # Set up the URL ahead of time - will act as a Key for the artwork
+        artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","").strip()[0:10])
+        artwork_dictionary['uniqueUrl'] = urlify(artwork_dictionary['uniqueUrl'] )
+        artwork_dictionary['uniqueUrl']  = urllib3.util.parse_url(artwork_dictionary['uniqueUrl']).url
+
+        #full relative URL in order to link to other pieces
+        artwork_dictionary['UniqueURLKey'] = base_url + "/" + artwork_dictionary['uniqueUrl'] 
+
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
@@ -151,19 +219,13 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         # List of related artworks
         # Add Image thumbnail and alt text if present
         if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
-            if row['RelatedSeries'] == "":
-                print("\n    RelatedSeries is missing for |{0}|".format(artworkname), end="")
-            elif row['RelatedSeriesOrder'] == "":
-                print("\n    RelatedSeriesOrder is missing for |{0}|".format(artworkname), end="")
-            else:
-                artwork_dictionary['RelatedSeries'] = row['RelatedSeries'].split(",")
-                artwork_dictionary['RelatedSeriesOrder'] = row['RelatedSeriesOrder'].split(",")
+            update_related_dictionary(row, artwork_dictionary['UniqueURLKey'])
 
     return_list.append(tmp_dict)
     return return_list
 
-def method1(nsOnly: pandas.DataFrame) -> str:
-    artwork_dictionary_list = make_url_dict(nsOnly)
+def method1(nsOnly: pandas.DataFrame,base_url) -> str:
+    artwork_dictionary_list = make_url_dict(nsOnly,base_url)
     
     # remove the outer dictionary/list
     nested_json = json.dumps(artwork_dictionary_list[0]["ARTWORK"], indent=2)
@@ -174,7 +236,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
+def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/"):
     print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
     print(' 1. Reading Excel File for {0}'.format(sheet_name), end="...")
 
@@ -228,7 +290,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
 
     print(" 2. Processing DataFrame", end="...")
     # Convert DataFrame to JSON
-    json_str = method1(nightshadeOnly)
+    json_str = method1(nightshadeOnly, base_url)
 
     print(" 3. Updating JSON Data", end="...")
     # Output - can ge to the json file in the src area
@@ -240,24 +302,31 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
 if __name__ == '__main__':
     # TWEWY OG
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
 
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
 
     # NEO TWEWY
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
 
     # TWEWY Series
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+
+    # Write Related Series JSON
+    # Output - can ge to the json file in the src area
+    nested_json = json.dumps(related_series_dictionary, indent=2)
+    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    with open(file_path_output, 'w', encoding='utf-8') as f:
+        f.write(nested_json)
 
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)

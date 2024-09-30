@@ -6,7 +6,8 @@
     "characters": "Kubo, Shoka, Ayano, Shiba",
     "date": "2022-11-06",
     "dateYear": "2022",
-    "uniqueUrl": "2022-11-06-...What? W",
+    "uniqueUrl": "2022-11-06-what-w",
+    "UniqueURLKey": "art/twewy//2022-11-06-what-w",
     "spoilers": "No",
     "urls": [
       {
@@ -29,12 +30,6 @@
     "thumbnailAlt": "Ayano taking a photo with her phone.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "Kubokupo"
-    ],
-    "RelatedSeriesOrder": [
-      "3"
     ]
   },
   {
@@ -44,7 +39,8 @@
     "characters": "Shoka. Kubo",
     "date": "2022-08-24",
     "dateYear": "2022",
-    "uniqueUrl": "2022-08-24-The beginn",
+    "uniqueUrl": "2022-08-24-the-beginn",
+    "UniqueURLKey": "art/twewy//2022-08-24-the-beginn",
     "spoilers": "No",
     "urls": [
       {
@@ -71,12 +67,6 @@
     "thumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "Kubokupo"
-    ],
-    "RelatedSeriesOrder": [
-      "1"
     ]
   },
   {
@@ -86,7 +76,8 @@
     "characters": "Shoka",
     "date": "2021-10-16",
     "dateYear": "2021",
-    "uniqueUrl": "2021-10-16-[Shopping]",
+    "uniqueUrl": "2021-10-16-shopping",
+    "UniqueURLKey": "art/twewy//2021-10-16-shopping",
     "spoilers": "No",
     "urls": [
       {
@@ -117,12 +108,6 @@
     "thumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "TWEWYOBER2021"
-    ],
-    "RelatedSeriesOrder": [
-      "1516"
     ]
   },
   {
@@ -132,7 +117,8 @@
     "characters": "Kubo",
     "date": "2021-10-13",
     "dateYear": "2021",
-    "uniqueUrl": "2021-10-13-It's [Fash",
+    "uniqueUrl": "2021-10-13-its-fash",
+    "UniqueURLKey": "art/twewy//2021-10-13-its-fash",
     "spoilers": "No",
     "urls": [
       {
@@ -163,12 +149,6 @@
     "thumbnailAlt": "Kubo wearing a moogle hoodie.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "Kubokupo"
-    ],
-    "RelatedSeriesOrder": [
-      "2"
     ]
   }
 ]

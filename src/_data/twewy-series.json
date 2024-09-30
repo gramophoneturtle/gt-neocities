@@ -6,7 +6,8 @@
     "characters": "Joshua, Father, Null, Chisa",
     "date": "2023-10-22",
     "dateYear": "2023",
-    "uniqueUrl": "2023-10-22-There was ",
+    "uniqueUrl": "2023-10-22-there-was",
+    "UniqueURLKey": "art/twewy//2023-10-22-there-was",
     "spoilers": "yes",
     "urls": [
       {
@@ -62,7 +63,8 @@
     "characters": "Joshua, Hanekoma, Mother, Father",
     "date": "2022-03-21",
     "dateYear": "2022",
-    "uniqueUrl": "2022-03-21-Mother and",
+    "uniqueUrl": "2022-03-21-mother-and",
+    "UniqueURLKey": "art/twewy//2022-03-21-mother-and",
     "spoilers": "Yes",
     "urls": [
       {
@@ -100,12 +102,6 @@
     "fandom": [
       "TWEWY",
       " NTWEWY"
-    ],
-    "RelatedSeries": [
-      "A Healthy Dose of Chaos AU;NEO Higher Plane Experimentation"
-    ],
-    "RelatedSeriesOrder": [
-      "-1;-1"
     ]
   },
   {
@@ -115,7 +111,8 @@
     "characters": "Hanekoma",
     "date": "2021-11-22",
     "dateYear": "2021",
-    "uniqueUrl": "2021-11-22-Hanekoma, ",
+    "uniqueUrl": "2021-11-22-hanekoma",
+    "UniqueURLKey": "art/twewy//2021-11-22-hanekoma",
     "spoilers": "yes",
     "urls": [
       {

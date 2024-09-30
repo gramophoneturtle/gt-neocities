@@ -6,7 +6,8 @@
     "characters": "Joshua",
     "date": "2023-08-21",
     "dateYear": "2023",
-    "uniqueUrl": "2023-08-21-NEO Joshua",
+    "uniqueUrl": "2023-08-21-neo-joshua",
+    "UniqueURLKey": "art/twewy//2023-08-21-neo-joshua",
     "spoilers": "yes",
     "urls": [
       {
@@ -77,7 +78,8 @@
     "characters": "Mother, Hazuki",
     "date": "2023-04-05",
     "dateYear": "2023",
-    "uniqueUrl": "2023-04-05-Older Moth",
+    "uniqueUrl": "2023-04-05-older-moth",
+    "UniqueURLKey": "art/twewy//2023-04-05-older-moth",
     "spoilers": "Yes",
     "urls": [
       {
@@ -120,7 +122,8 @@
     "characters": "Hazuki",
     "date": "2022-08-20",
     "dateYear": "2022",
-    "uniqueUrl": "2022-08-20-Hazuki pra",
+    "uniqueUrl": "2022-08-20-hazuki-pra",
+    "UniqueURLKey": "art/twewy//2022-08-20-hazuki-pra",
     "spoilers": "yes",
     "urls": [
       {
@@ -169,7 +172,8 @@
     "characters": "Hazuki",
     "date": "2022-05-05",
     "dateYear": "2022",
-    "uniqueUrl": "2022-05-05-Happy Birt",
+    "uniqueUrl": "2022-05-05-happy-birt",
+    "UniqueURLKey": "art/twewy//2022-05-05-happy-birt",
     "spoilers": "yes",
     "urls": [
       {
@@ -201,7 +205,8 @@
     "characters": "Mother, Father, Joshua, Hazuki",
     "date": "2022-04-16",
     "dateYear": "2022",
-    "uniqueUrl": "2022-04-16-Yoshi-nii.",
+    "uniqueUrl": "2022-04-16-yoshi-nii",
+    "UniqueURLKey": "art/twewy//2022-04-16-yoshi-nii",
     "spoilers": "Yes",
     "urls": [
       {
@@ -237,7 +242,8 @@
     "characters": "Minamimoto, Hanekoma",
     "date": "2022-01-26",
     "dateYear": "2022",
-    "uniqueUrl": "2022-01-26-There Was ",
+    "uniqueUrl": "2022-01-26-there-was",
+    "UniqueURLKey": "art/twewy//2022-01-26-there-was",
     "spoilers": "Yes",
     "urls": [
       {
@@ -279,12 +285,6 @@
     "thumbnailAlt": "Minamimoto looking upset.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "A Healthy Dose Of Chaos"
-    ],
-    "RelatedSeriesOrder": [
-      "1"
     ]
   },
   {
@@ -294,7 +294,8 @@
     "characters": "Kubo",
     "date": "2021-12-23",
     "dateYear": "2021",
-    "uniqueUrl": "2021-12-23-Purificati",
+    "uniqueUrl": "2021-12-23-purificati",
+    "UniqueURLKey": "art/twewy//2021-12-23-purificati",
     "spoilers": "Yes",
     "urls": [
       {
@@ -330,7 +331,8 @@
     "characters": "Kubo, Hazuki, Joshua",
     "date": "2021-12-17",
     "dateYear": "2021",
-    "uniqueUrl": "2021-12-17-Hoodie Bud",
+    "uniqueUrl": "2021-12-17-hoodie-bud",
+    "UniqueURLKey": "art/twewy//2021-12-17-hoodie-bud",
     "spoilers": "Yes",
     "urls": [
       {
@@ -359,12 +361,6 @@
     "thumbnailAlt": "Haz and Kubo talking.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "Kubokupo"
-    ],
-    "RelatedSeriesOrder": [
-      "5"
     ]
   },
   {
@@ -374,7 +370,8 @@
     "characters": "Hazuki",
     "date": "2021-12-03",
     "dateYear": "2021",
-    "uniqueUrl": "2021-12-03-HazuKweh!O",
+    "uniqueUrl": "2021-12-03-hazukweho",
+    "UniqueURLKey": "art/twewy//2021-12-03-hazukweho",
     "spoilers": "Yes",
     "urls": [
       {
@@ -406,12 +403,6 @@
     "thumbnailAlt": "Chocobo hoodie Hazuki.",
     "fandom": [
       "NTWEWY"
-    ],
-    "RelatedSeries": [
-      "Kubokupo"
-    ],
-    "RelatedSeriesOrder": [
-      "4"
     ]
   },
   {
@@ -421,7 +412,8 @@
     "characters": "Kubo",
     "date": "2021-11-20",
     "dateYear": "2021",
-    "uniqueUrl": "2021-11-20-Kubo, High",
+    "uniqueUrl": "2021-11-20-kubo-high",
+    "UniqueURLKey": "art/twewy//2021-11-20-kubo-high",
     "spoilers": "yes",
     "urls": [
       {
