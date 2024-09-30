@@ -41,23 +41,23 @@ def make_img_list(_row: pandas.Series) -> list:
 
         # if there is no image - warn
         if _row['IMG {0}'.format(i)] == "":
-            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i))
+            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i), start="\n")
             continue
 
         # if there is an image, but no alt text - warn
         if _row['IMG {0}'.format(i)] != "" and _row['ALT {0}'.format(i)] == "":
-            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i))
+            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i), start="\n")
             continue
 
         test_url = get_img_url(_row, kay_img)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i), start="\n")
             test_url = test_url.replace("src","")
 
         # make sure it's at root if not using https
         if "https" not in test_url and '\\' != test_url[0:1]:
-            print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i), start="\n")
             test_url = "\\" + test_url
 
         # we have an image and alt text - good to add
@@ -85,6 +85,7 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
     tmp_dict = {dict_key: []}
     for _, row in mydataframe.iterrows():
 
+        # MAIN INFO
         artwork_dictionary =  {
             'title': row['title'], 
             'summary': row['summary'], 
@@ -99,13 +100,15 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
-            print("Title is missing for |{0}|".format(artworkname))
+            print("\n    Title is missing for |{0}|".format(artworkname), end="")
 
         if row['characters'] == "":
-            print("characters is missing for |{0}|".format(artworkname))
+            print("\n    characters is missing for |{0}|".format(artworkname), end="")
 
+        # URLS -------------------------------------------------
         artwork_dictionary['urls'] = []
 
+        # Gather URL posts on other websites
         site_name = "Tumblr"
         if row['{0} URL'.format(site_name)] != "":
             artwork_dictionary[urls_key].append({'sitename': site_name, 'url': row['{0} URL'.format(site_name)]})
@@ -119,25 +122,42 @@ def make_url_dict(mydataframe: pandas.DataFrame) -> list:
         if row['{0} URL'.format(site_name)] != "" and row['{0} URL'.format(site_name)].upper() != "Drafted".upper():
             artwork_dictionary[urls_key].append({'sitename': site_name.lower(), 'url': row['{0} URL'.format(site_name)]})
 
+       
+
+        # IMAGES -------------------------------------------------
         artwork_dictionary['imgs'] = make_img_list(row)
 
         # Add Image thumbnail and alt text if present
         if row['IMG THMB'] != "" or row['ALT THMB'] != "":
             if row['IMG THMB'] == "":
-                print("IMG THMB is missing for |{0}|".format(artworkname))
+                print("\n    IMG THMB is missing for |{0}|".format(artworkname), end="")
             elif row['ALT THMB'] == "":
-                print("ALT THMB is missing for |{0}|".format(artworkname))
+                print("\n    ALT THMB is missing for |{0}|".format(artworkname), end="")
             else:
                 artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
                 artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
 
-        artwork_dictionary['fandom'] = row['fandom'].split(",")
-
+        # Add if img + alt was found, otherwise, print warning message
         if artwork_dictionary['imgs']:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
         else:
-            print("    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
+            print("\n    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]), start="\n")
+    
+
+         # FANDOM LISTING -----------------------------------------
+        artwork_dictionary['fandom'] = row['fandom'].split(",")
+
+        # List of related artworks
+        # Add Image thumbnail and alt text if present
+        if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
+            if row['RelatedSeries'] == "":
+                print("\n    RelatedSeries is missing for |{0}|".format(artworkname), end="")
+            elif row['RelatedSeriesOrder'] == "":
+                print("\n    RelatedSeriesOrder is missing for |{0}|".format(artworkname), end="")
+            else:
+                artwork_dictionary['RelatedSeries'] = row['RelatedSeries'].split(",")
+                artwork_dictionary['RelatedSeriesOrder'] = row['RelatedSeriesOrder'].split(",")
 
     return_list.append(tmp_dict)
     return return_list
@@ -156,7 +176,7 @@ def method1(nsOnly: pandas.DataFrame) -> str:
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
-    print('  1. Reading Excel File for {0}'.format(sheet_name))
+    print(' 1. Reading Excel File for {0}'.format(sheet_name), end="...")
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -166,6 +186,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
                  'Spoilers',
                 'characters','fandom','PF tags',
                 'title','summary','detail',
+                'RelatedSeries','RelatedSeriesOrder',
                 'IMG THMB', 'ALT THMB',
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6','IMG 7','IMG 8',
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6','ALT 7','ALT 8',
@@ -205,16 +226,16 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     # sort
     nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
-    print("   2. Processing DataFrame.")
+    print(" 2. Processing DataFrame", end="...")
     # Convert DataFrame to JSON
     json_str = method1(nightshadeOnly)
 
-    print("    3. Updating JSON Data.")
+    print(" 3. Updating JSON Data", end="...")
     # Output - can ge to the json file in the src area
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(json_str)
 
-    print("     4. Completed.\n")
+    print(" 4. Completed!\n")
 
 if __name__ == '__main__':
     # TWEWY OG
