@@ -1,6 +1,6 @@
 [
     {
-        "PostDate": "2024-09-XX"
+        "PostDate": "2024-09-29"
         ,"ArtList": [
             {
                 "Category": "NEO TWEWY",
@@ -10,12 +10,12 @@
                         "URL": "/art/twewy/2022-08-24-the-beginn/"
                     },
                     {
-                        "Title": "...What? What??? What.",
-                        "URL": "/art/twewy/2022-11-06-what-wh/"
-                    },
-                    {
                         "Title": "It's [Fashion], Kubokupo!",
                         "URL": "/art/twewy/2021-10-13-it-s-fash/"
+                    },
+                    {
+                        "Title": "...What? What??? What.",
+                        "URL": "/art/twewy/2022-11-06-what-wh/"
                     }
                 ]
             },
