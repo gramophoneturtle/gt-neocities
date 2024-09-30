@@ -184,15 +184,15 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True):
     # fill in NaN as with default values for each column as an empty string = ""
     nightshadeOnlyTMP = nightshadeOnlyTMP.infer_objects().fillna("")
 
-
+    # Filter by spoilers
     if include_spoilers == False:
         options = ['No','no']
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
-
     else:
         options = ['Yes','yes','']
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
 
+    # Choose to filter by fandoms
     if len(fandoms) == 1:
         nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].isin(fandoms)]
 

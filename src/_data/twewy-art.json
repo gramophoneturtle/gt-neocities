@@ -190,10 +190,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\cneku\\02-02_NotYourJoshua\\doNotMistakeMe5-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2021\\0406-cnau-mistake\\20210406-doNotMistakeMe5-nDEFV1-gl10V1-800.jpg",
         "alt": "Comic of Neku Sakuraba and Yoshiya Joshua Kiryu from The World Ends With You. Neku, in his glowing white Composer form, yells at Joshua. Joshua transforms into his own Composer form, with the words, \"DO NOT MISTAKE ME FOR YOUR JOSHUA\"."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0406-cnau-mistake\\20210406-thmb-doNotMistakeMe5-nDEFV1-gl10V1-800.jpg",
+    "thumbnailAlt": "Joshua with his arms crossed,",
     "fandom": [
       "TWEWY"
     ]
@@ -467,15 +469,17 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\cneku\\01-01-NewComposer\\composerNeku2-01-09c-niy-DEFAULT-V1-gl-10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-cNeku2-01-09c-nDEFV1-g10V1-800.jpg",
         "alt": "Comic of Neku shooting Joshua from The World Ends With You. Neku opens his eyes wide after his gunshot hits Joshua, triggering the Reapers Game symbol to rise from his body in a bright, glowing white symbol. Joshua's glowing, glitching body falls to the floor and Neku reaches out, crying, and calling Joshua's name. "
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\cneku\\01-01-NewComposer\\composerNeku2-02-13d-niy-DEFAULT-V1-gl-20-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-cNeku2-02-13d-nDEFV1-g20V1-800.jpg",
         "alt": "A comic of Neku trying to get close to Joshua's fading and glitching body - looking older and faintly smiling. Hanekoma, with white wings spread wide, stops Neku and tells him, \"What's done is done. There's no turning back.\""
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-thmb-cNeku2-02-13d-nDEFV1-g20V1-800.jpg",
+    "thumbnailAlt": "Neku confronted by Hanekoma.",
     "fandom": [
       "TWEWY"
     ]
@@ -610,7 +614,7 @@
     "title": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
     "summary": "Visiting a world with a TWEWY Bad End.",
     "details": "Our main game Joshua hops to a parallel world and meets a Neku who did take the shot\u2026and now this Composer Neku is about to get a lesson on parallel worlds. Why doesn\u2019t he know about them already? Maybe there\u2019s enough on his plate being a new Composer and having Shibuya handed off to him in a poor state\u2026and his own mental state isn\u2019t great. Or maybe he does know and he\u2019s in denial that his world\u2019s Joshua isn\u2019t actually gone\u2026 Something like that.\n\nThe Composer form changing colours makes it more fun to draw. What Joshua summons are intended to be something like (dragon) claw noise(?). It catches the fire like when he caught the bullets in the RG. Just something to play with it. (And it looks pretty)",
-    "characters": "Joshua, Neku, Hanekoma",
+    "characters": "Joshua, Neku",
     "date": "2020-08-04",
     "dateYear": "2020",
     "uniqueUrl": "2020-08-04-\"Life\u2019s li",
@@ -636,15 +640,17 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\cneku\\02-01-Crossroads\\composerNeku01_06-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0804-cnau-crossroads\\20200804-composerNeku01_06-nDEFV1-gl10V1-800.jpg",
         "alt": "Joshua from The World Ends With You examines the Room of Reckoning and a glowing fiery figure appears from behind him, throwing a fireball at him. Joshua catches it with a purple claw/flower like summon."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\cneku\\02-01-Crossroads\\composerNeku02_06-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2020\\0804-cnau-crossroads\\20200804-composerNeku02_06-nDEFV1-gl10V1-800.jpg",
         "alt": "Joshua tries to reassure the attacking Composer but the Composer yells back at Joshua, angry that Joshua is here. The Composer explains that he erased Joshua last Game, and his appearance becomes more clear and is revealed to be Neku Sakuraba."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0804-cnau-crossroads\\20200804-thmb-composerNeku02_06-nDEFV1-gl10V1-800.jpg",
+    "thumbnailAlt": "Frustrated Composer.",
     "fandom": [
       "TWEWY"
     ]

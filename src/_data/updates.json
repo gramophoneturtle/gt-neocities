@@ -1,5 +1,41 @@
 [
     {
+        "PostDate": "2024-09-29"
+        ,"ArtList": [
+            {
+                "Category": "NEO TWEWY",
+                "List": [
+                    {
+                        "Title": "The beginning of Kubokupo",
+                        "URL": "/art/twewy/2022-08-24-the-beginn/"
+                    },
+                    {
+                        "Title": "It's [Fashion], Kubokupo!",
+                        "URL": "/art/twewy/2021-10-13-it-s-fash/"
+                    },
+                    {
+                        "Title": "...What? What??? What.",
+                        "URL": "/art/twewy/2022-11-06-what-wh/"
+                    }
+                ]
+            },
+            {
+                "Category": "NEO TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "HazuKweh!",
+                        "URL": "/art/twewy/2021-12-03-hazukweh-o/"
+                    },
+                    {
+                        "Title": "Hoodie Buddies!",
+                        "URL": "/art/twewy/2021-12-17-hoodie-bud/"
+                    }
+                ]
+            }
+        ]
+        ,"Site": "RSS Links displayed on the index/landing page and the footer. Header and Footer have reduced margins/padding so they take up less space."
+    },
+    {
         "PostDate": "2024-09-24"
         ,"ArtList": [
             {

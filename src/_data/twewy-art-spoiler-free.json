@@ -117,10 +117,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\ocs\\FatherSprites\\FatherSprite_20240307_FatherScheming-niDEFV1-gl10V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0331-smugfather\\20240331-FatherScheming-nDEFV1-g10V1-800.jpg",
         "alt": "Art of a man with long dark blonde hair tied back in a low loose pony tail. He's wearing a mixture of clothing types and colours with one gloved raised up. The glove is a reverse of an almost rainbow, which includes grey."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2024\\0331-smugfather\\20240331-thmb-FatherScheming-nDEFV1-g10V1-800.jpg",
+    "thumbnailAlt": "Scheming Father with hand raised.",
     "fandom": [
       "TWEWY"
     ]

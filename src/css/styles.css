@@ -119,6 +119,11 @@ h2 {
   margin-top: 2rem;
 }
 
+p.smaller {
+  font-size: smaller;
+  margin: 0.5rem;
+}
+
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {
   h1 {
@@ -250,6 +255,12 @@ nav {
   }
 }
 
+/* override Simple CSS's header > nav extra padding*/
+header > nav {
+  padding-top: 0.5rem;
+}
+
+/* || TOP NAVIGATION */
 .navtest2 {
   a {
     text-decoration: none;
@@ -314,7 +325,6 @@ nav {
 
 
 /* || Menu Button drop down */
-
 .navHeader,
 .navHeader:visited {
   width: 7rem;
@@ -340,11 +350,7 @@ nav {
 }
 
 
-
-
-
 /* || TOC FOR ARTWORK ----------------------------------------- */
-
 .table-overflow {
   overflow-x: auto;
 }
@@ -477,10 +483,11 @@ nav {
   width: auto;
   padding: 16px;
   margin-top: -50px;
+  background-color: rgba(0, 0, 0, 0.35);
   color: var(--text);
   font-weight: bold;
   font-size: 20px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 20px;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -488,7 +495,6 @@ nav {
 /* Position the "next button" to the right */
 .slideshow-next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* MOBILE: shrink the arrows a bit */
@@ -506,7 +512,7 @@ nav {
 .slideshow-prev:hover,
 .slideshow-next:hover {
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  border-radius: 20px;
   color: var(--accent);
 }
 
@@ -520,11 +526,11 @@ nav {
   text-align: center;
   background-color: #222;
   color: var(--text);
-}
 
-.slideshow-caption-container > p {
-  margin: 0.25rem;
-  font-size: smaller;
+  p {
+    margin: 0.25rem;
+    font-size: smaller;
+  }
 }
 
 .slideshow-row:after {
@@ -554,12 +560,11 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
   align-items: center;
-}
 
-div.scrollmenu > .slideshow-column {
-  display: inline-block;
+  .slideshow-column {
+    display: inline-block;
+  }
 }
-
 
 /* || Dividers like between art and description for artwork */
 .hr-divide {
