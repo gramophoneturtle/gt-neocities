@@ -1,0 +1,26 @@
+---
+tags:
+  - TagRelatedTWEWY
+  - TagRelatedAll
+pagination:
+    data: relatedtwewy
+    size: 1
+    alias: RelTWEWY
+    addAllPagesToCollections: true
+permalink: "art/twewy/related/{{ RelTWEWY.SeriesName | slugify }}/"
+layout: /layouts/base.njk
+---
+{%- if RelTWEWY.SeriesName %}
+    <h3>{{RelTWEWY.SeriesName}}</h3>
+{%- endif -%}
+
+{% if RelTWEWY.SeriesEntries.length > 0 %}
+    <ul>
+    {%- for item in RelTWEWY.SeriesEntries %}
+        <li>
+            {% if item.Index %} [{{ item.Index }}] - {% endif %}
+            <a href= "/{{ item.URL }}">{{ item.Name }}</a> - <a href="/{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a> 
+        </li>
+    {% endfor -%}
+    </ul>
+{% endif %}
