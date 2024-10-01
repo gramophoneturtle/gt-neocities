@@ -2,10 +2,12 @@
 title: TWEWY Series and AUs
 layout: /layouts/base.njk
 ---
-{% for post in collections.TagRelatedTWEWY | reverse %}
-    <div class="ocGallery">
-      <a href="{{ post.url }}">
+<div><p>Back to <a href="/art/">Art</a>.</p></div>
+
+{% for post in collections.TagRelatedTWEWY %}
+    <a href="{{ post.url }}">
+        <div class="ocGallery">
           {{ post.data.RelTWEWY.SeriesName }}
-      </a> 
-    </div>
+        </div>
+    </a> 
 {% endfor %}
