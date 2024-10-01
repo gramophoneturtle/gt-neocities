@@ -1,6 +1,7 @@
 [
   {
     "SeriesName": "Fan Art of Fan Work",
+    "SeriesURL": "fan-art-of-fan-work",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -16,44 +17,45 @@
   },
   {
     "SeriesName": "Composer Neku AU",
+    "SeriesURL": "composer-neku-au",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 2,
         "Name": "Not Your Joshua",
         "URL": "art/twewy//2021-04-06-not-your-j"
       },
       {
-        "Index": -1,
+        "Index": 4,
         "Name": "Hallucinations",
         "URL": "art/twewy//2021-01-01-hallucinat"
       },
       {
-        "Index": -1,
+        "Index": 4,
         "Name": "I\u2019m here for you",
         "URL": "art/twewy//2020-09-09-im-here-f"
       },
       {
-        "Index": -1,
+        "Index": 1,
         "Name": "You\u2019re Shibuya\u2019s new Composer now.",
         "URL": "art/twewy//2020-09-01-youre-sh"
       },
       {
-        "Index": -1,
+        "Index": 3,
         "Name": "Ya did what you had to, Phones.",
         "URL": "art/twewy//2020-08-20-ya-did-wha"
       },
       {
-        "Index": -1,
+        "Index": 3,
         "Name": "Mentor Joshua Kiryu? Mentor Joshua Kiryu!",
         "URL": "art/twewy//2020-08-15-mentor-jos"
       },
       {
-        "Index": -1,
+        "Index": 2,
         "Name": "Composer Neku's RG Appearance",
         "URL": "art/twewy//2020-08-09-twewyspoi"
       },
       {
-        "Index": -1,
+        "Index": 1,
         "Name": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
         "URL": "art/twewy//2020-08-04-lifes-li"
       }
@@ -61,14 +63,15 @@
   },
   {
     "SeriesName": "Composer Neku AU PW",
+    "SeriesURL": "composer-neku-au-pw",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 2,
         "Name": "Not Your Joshua",
         "URL": "art/twewy//2021-04-06-not-your-j"
       },
       {
-        "Index": -1,
+        "Index": 0,
         "Name": "Hallucinations",
         "URL": "art/twewy//2021-01-01-hallucinat"
       },
@@ -86,14 +89,15 @@
   },
   {
     "SeriesName": "For You",
+    "SeriesURL": "for-you",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 2,
         "Name": "Accessorizing",
         "URL": "art/twewy//2020-11-17-accessoriz"
       },
       {
-        "Index": -1,
+        "Index": 1,
         "Name": "For You",
         "URL": "art/twewy//2020-09-28-for-you-co"
       }
@@ -101,29 +105,30 @@
   },
   {
     "SeriesName": "Kubokupo",
+    "SeriesURL": "kubokupo",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 3,
         "Name": "...What? What??? What.",
         "URL": "art/twewy//2022-11-06-what-w"
       },
       {
-        "Index": -1,
+        "Index": 1,
         "Name": "The beginning of Kubokupo",
         "URL": "art/twewy//2022-08-24-the-beginn"
       },
       {
-        "Index": -1,
+        "Index": 2,
         "Name": "It's [Fashion], Kubokupo!",
         "URL": "art/twewy//2021-10-13-its-fash"
       },
       {
-        "Index": -1,
+        "Index": 5,
         "Name": "Hoodie Buddies! ",
         "URL": "art/twewy//2021-12-17-hoodie-bud"
       },
       {
-        "Index": -1,
+        "Index": 4,
         "Name": "HazuKweh!",
         "URL": "art/twewy//2021-12-03-hazukweho"
       }
@@ -131,9 +136,10 @@
   },
   {
     "SeriesName": "TWEWYOBER2021",
+    "SeriesURL": "twewyober2021",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 1516,
         "Name": "[Shopping] For That One Thing",
         "URL": "art/twewy//2021-10-16-shopping"
       }
@@ -141,9 +147,10 @@
   },
   {
     "SeriesName": "A Healthy Dose Of Chaos",
+    "SeriesURL": "a-healthy-dose-of-chaos",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 1,
         "Name": "There Was A Time When\u2026",
         "URL": "art/twewy//2022-01-26-there-was"
       }
@@ -151,6 +158,7 @@
   },
   {
     "SeriesName": "OFF",
+    "SeriesURL": "off",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -161,6 +169,7 @@
   },
   {
     "SeriesName": "NEO Higher Plane Experimentation",
+    "SeriesURL": "neo-higher-plane-experimentation",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -181,6 +190,7 @@
   },
   {
     "SeriesName": "A Healthy Dose of Chaos AU",
+    "SeriesURL": "a-healthy-dose-of-chaos-au",
     "SeriesEntries": [
       {
         "Index": -1,

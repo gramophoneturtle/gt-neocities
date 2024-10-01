@@ -7,7 +7,7 @@ pagination:
     size: 1
     alias: RelTWEWY
     addAllPagesToCollections: true
-permalink: "art/twewy/related/{{ RelTWEWY.SeriesName | slugify }}/"
+permalink: "art/twewy/related/{{ RelTWEWY.SeriesURL | slugify }}/"
 layout: /layouts/base-without-h1title.njk
 ---
 {%- if RelTWEWY.SeriesName %}

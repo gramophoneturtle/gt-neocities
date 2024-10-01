@@ -105,20 +105,31 @@ def update_related_dictionary(rw, rw_unique_url):
     foundindices = rw['RelatedSeriesOrder'].split(";")
 
     for i_index, i_name in enumerate(foundseries):
-
         i_name = i_name.strip()
-        print("     > Looking at: {0}".format(i_name))
 
         index_dict = find_rel_dict_ser_name_index(related_series_list, "SeriesName", i_name)
 
+        # Get the index of the entry in the series
+        int_i_index = -1
+        if i_index < len(foundindices):
+            try:
+                int_i_index = foundindices[i_index]
+                int_i_index = int(int_i_index)
+            except ValueError:
+                int_i_index = -1
+                print("    >> Looking at: {0}".format(i_name))
+                print("      !! TODO: Current index [{0}] for foundindices is not an int! Default to [-1].".format(i_index,foundindices[i_index]))
+        else:
+            print("    >> Looking at: {0}".format(i_name))
+            print("      '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
+        
+        # Add new seriesand first entry
         if index_dict == -1:
-            print("    >> {0} is not in related series yet!".format(i_name))
-
             rel_dictionary = {
                 'SeriesName': i_name,
-                'SeriesEntries': [
-                    {
-                        'Index': -1,
+                "SeriesURL": urlify(i_name),
+                'SeriesEntries': [ {
+                        'Index': int_i_index,
                         'Name': rw['title'],
                         'URL': rw_unique_url
                     }
@@ -126,23 +137,15 @@ def update_related_dictionary(rw, rw_unique_url):
             }
             # Add with defaults
             related_series_list.append(rel_dictionary)
-
+        # Add new entry to existing series
         else:
-            print("    ' TODO - UPDATE: {0} is in related series - {1}".format(i_name,""))
-
             new_entry = {
-                        'Index': -1,
-                        'Name': rw['title'],
-                        'URL': rw_unique_url
-                    }
-
+                    'Index': int_i_index,
+                    'Name': rw['title'],
+                    'URL': rw_unique_url
+                }
+            
             related_series_list[index_dict]["SeriesEntries"].append(new_entry)
-
-        # if i_index < len(foundindices):
-        #     print("    '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
-        # else:
-        #     print("    ' TODO: Current index [{0}] can be looked up. Value: [{1}].".format(i_index,foundindices[i_index]))
-
     return 
 
 # https://stackoverflow.com/questions/1007481/how-to-replace-whitespaces-with-underscore
@@ -153,6 +156,8 @@ def urlify(s):
 
     # Replace all runs of whitespace with a single dash
     s = re.sub(r"\s+", '-', s)
+
+    s = urllib3.util.parse_url(s).url
 
     return s
 
@@ -178,7 +183,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         # Set up the URL ahead of time - will act as a Key for the artwork
         artwork_dictionary['uniqueUrl'] = "{0}-{1}".format(row[date_column_name],row['Artwork'].replace("\n","").strip()[0:10])
         artwork_dictionary['uniqueUrl'] = urlify(artwork_dictionary['uniqueUrl'] )
-        artwork_dictionary['uniqueUrl']  = urllib3.util.parse_url(artwork_dictionary['uniqueUrl']).url
+        artwork_dictionary['uniqueUrl'] = urllib3.util.parse_url(artwork_dictionary['uniqueUrl']).url
 
         #full relative URL in order to link to other pieces
         artwork_dictionary['UniqueURLKey'] = base_url + "/" + artwork_dictionary['uniqueUrl'] 
@@ -229,7 +234,6 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
             tmp_dict[dict_key].append(artwork_dictionary)
         else:
             print("\n    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]), start="\n")
-    
 
          # FANDOM LISTING -----------------------------------------
         artwork_dictionary['fandom'] = row['fandom'].split(",")
@@ -238,6 +242,9 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         # Add Image thumbnail and alt text if present
         if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
             update_related_dictionary(row, artwork_dictionary['UniqueURLKey'])
+            
+            # Add to artwork so it can link back! Complex List of Lists
+            artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
 
     return_list.append(tmp_dict)
     return return_list
@@ -247,10 +254,6 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
     
     # remove the outer dictionary/list
     nested_json = json.dumps(artwork_dictionary_list[0]["ARTWORK"], indent=2)
-
-    #TO DO?
-    # Another variant of the dumps() function, called dump(), simply serializes the object to a text file. So if f is a text file object opened for writing, we can do this:
-    # json.dump(x, f)
 
     return nested_json
 
