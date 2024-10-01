@@ -22,7 +22,7 @@ filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
 filename_output_p5 = "art-persona5.json"
 
 # GENERATE - Related Series Files
-filename_output_related_twewy = "related\\twewy.json"
+filename_output_related_twewy = "relatedtwewy.json"
 
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
@@ -109,9 +109,9 @@ def update_related_dictionary(rw, rw_unique_url):
         i_name = i_name.strip()
         print("     > Looking at: {0}".format(i_name))
 
-        if find_rel_dict_ser_name_index(related_series_list, "SeriesName", i_name) == -1:
+        index_dict = find_rel_dict_ser_name_index(related_series_list, "SeriesName", i_name)
 
-        # if not i_name in related_series_list.keys():
+        if index_dict == -1:
             print("    >> {0} is not in related series yet!".format(i_name))
 
             rel_dictionary = {
@@ -129,6 +129,14 @@ def update_related_dictionary(rw, rw_unique_url):
 
         else:
             print("    ' TODO - UPDATE: {0} is in related series - {1}".format(i_name,""))
+
+            new_entry = {
+                        'Index': -1,
+                        'Name': rw['title'],
+                        'URL': rw_unique_url
+                    }
+
+            related_series_list[index_dict]["SeriesEntries"].append(new_entry)
 
         # if i_index < len(foundindices):
         #     print("    '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
