@@ -68,6 +68,18 @@
 </div>
 {%- endif -%}
 
+
+{% if twewyart.RelatedSeriesAndURL.length > 1 %}
+<div>
+  <p>Series</p>
+  <ul>
+    {%- for item in twewyart.RelatedSeriesAndURL %}
+      <li><a href="/art/twewy/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
+    {% endfor -%}
+  </ul>
+</div>
+{% endif %}
+
 <div>
   <p>Posted on:</p>
   <ul>
