@@ -24,17 +24,17 @@ filename_output_p5 = "art-persona5.json"
 # GENERATE - Related Series Files
 filename_output_related_twewy = "related\\twewy.json"
 
-
-
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
 
 date_column_name = "Earliest Date"
 max_num_images = 8
 
-related_series_dictionary = {}
+related_series_list = []
 
 # functions
+
+# IMAGE LISTS -------------------------------------
 def make_img_list(_row: pandas.Series) -> list:
     '''
     Must have IMG source URL AND Alt Text
@@ -91,6 +91,14 @@ def get_img_url(rw, st_nm) -> str:
 
     return return_url
 
+
+# RELATED DICTIONARY -------------------------------------
+def find_rel_dict_ser_name_index(lst, key, value):
+    for i, dic in enumerate(lst):
+        if dic[key] == value:
+            return i
+    return -1
+
 def update_related_dictionary(rw, rw_unique_url):
 
     foundseries = rw['RelatedSeries'].split(";")
@@ -99,10 +107,12 @@ def update_related_dictionary(rw, rw_unique_url):
     for i_index, i_name in enumerate(foundseries):
 
         i_name = i_name.strip()
-        print("     ' Looking at: {0}".format(i_name))
+        print("     > Looking at: {0}".format(i_name))
 
-        if not i_name in related_series_dictionary.keys():
-            print("    '! {0} is not in related series yet!".format(i_name))
+        if find_rel_dict_ser_name_index(related_series_list, "SeriesName", i_name) == -1:
+
+        # if not i_name in related_series_list.keys():
+            print("    >> {0} is not in related series yet!".format(i_name))
 
             rel_dictionary = {
                 'SeriesName': i_name,
@@ -115,10 +125,10 @@ def update_related_dictionary(rw, rw_unique_url):
                 ]
             }
             # Add with defaults
-            related_series_dictionary[i_name] = rel_dictionary
+            related_series_list.append(rel_dictionary)
 
         else:
-            print("    ' TODO - UPDATE: {0} is in related series - {1}".format(i_name,related_series_dictionary[i_name]))
+            print("    ' TODO - UPDATE: {0} is in related series - {1}".format(i_name,""))
 
         # if i_index < len(foundindices):
         #     print("    '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
@@ -323,7 +333,7 @@ if __name__ == '__main__':
 
     # Write Related Series JSON
     # Output - can ge to the json file in the src area
-    nested_json = json.dumps(related_series_dictionary, indent=2)
+    nested_json = json.dumps(related_series_list, indent=2)
     file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(nested_json)
