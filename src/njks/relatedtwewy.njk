@@ -8,7 +8,7 @@ pagination:
     alias: RelTWEWY
     addAllPagesToCollections: true
 permalink: "art/twewy/related/{{ RelTWEWY.SeriesName | slugify }}/"
-layout: /layouts/base.njk
+layout: /layouts/base-without-h1title.njk
 ---
 {%- if RelTWEWY.SeriesName %}
     <h3>{{RelTWEWY.SeriesName}}</h3>
