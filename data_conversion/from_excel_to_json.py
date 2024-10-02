@@ -373,6 +373,10 @@ if __name__ == '__main__':
 
     # Write Related Series JSON
     # Output - can ge to the json file in the src area
+
+    for rel_list_item in related_series_list:
+        rel_list_item["SeriesEntries"].sort(key=lambda x: x["Index"])
+
     nested_json = json.dumps(related_series_list, indent=2)
     file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
     with open(file_path_output, 'w', encoding='utf-8') as f:
