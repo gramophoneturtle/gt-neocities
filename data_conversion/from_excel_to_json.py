@@ -55,23 +55,23 @@ def make_img_list(_row: pandas.Series) -> list:
 
         # if there is no image - warn
         if _row['IMG {0}'.format(i)] == "":
-            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i), start="\n")
+            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i))
             continue
 
         # if there is an image, but no alt text - warn
         if _row['IMG {0}'.format(i)] != "" and _row['ALT {0}'.format(i)] == "":
-            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i), start="\n")
+            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i))
             continue
 
         test_url = get_img_url(_row, kay_img)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i), start="\n")
+            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # make sure it's at root if not using https
         if "https" not in test_url and '\\' != test_url[0:1]:
-            print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i), start="\n")
+            print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = "\\" + test_url
 
         # we have an image and alt text - good to add
@@ -108,7 +108,7 @@ def make_vid_list(_row: pandas.Series) -> list:
         test_url = get_img_url(_row, key_vid)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i), start="\n")
+            print("!! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # we have an image and alt text - good to add
@@ -124,6 +124,8 @@ def find_rel_dict_ser_name_index(lst, key, value):
     return -1
 
 def update_related_dictionary(rw, rw_unique_url):
+
+    artworkname = rw['Artwork'].replace("\n","")[0:40]
 
     foundseries = rw['RelatedSeries'].split(";")
     foundindices = rw['RelatedSeriesOrder'].split(";")
@@ -141,10 +143,10 @@ def update_related_dictionary(rw, rw_unique_url):
                 int_i_index = int(int_i_index)
             except ValueError:
                 int_i_index = -1
-                print("    >> Looking at: {0}".format(i_name))
+                print("    Related for {0} -AU/Series- {1}".format(artworkname,i_name))
                 print("      !! TODO: Current index [{0}] for foundindices is not an int! Default to [-1].".format(i_index,foundindices[i_index]))
         else:
-            print("    >> Looking at: {0}".format(i_name))
+            print("    Related for {0} -AU/Series- {1}".format(artworkname,i_name))
             print("      '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
         
         # Add new seriesand first entry
@@ -210,15 +212,15 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         artwork_dictionary['uniqueUrl'] = urllib3.util.parse_url(artwork_dictionary['uniqueUrl']).url
 
         #full relative URL in order to link to other pieces
-        artwork_dictionary['UniqueURLKey'] = base_url + "/" + artwork_dictionary['uniqueUrl'] 
+        artwork_dictionary['UniqueURLKey'] = os.path.join(base_url, artwork_dictionary['uniqueUrl'])
 
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
-            print("\n    Title is missing for |{0}|".format(artworkname), end="")
+            print("    Title is missing for |{0}|".format(artworkname))
 
         if row['characters'] == "":
-            print("\n    characters is missing for |{0}|".format(artworkname), end="")
+            print("    characters is missing for |{0}|".format(artworkname))
 
         # URLS -------------------------------------------------
         artwork_dictionary['urls'] = []
@@ -237,17 +239,15 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         if row['{0} URL'.format(site_name)] != "" and row['{0} URL'.format(site_name)].upper() != "Drafted".upper():
             artwork_dictionary[urls_key].append({'sitename': site_name.lower(), 'url': row['{0} URL'.format(site_name)]})
 
-       
-
         # IMAGES -------------------------------------------------
         artwork_dictionary['imgs'] = make_img_list(row)
 
         # Add Image thumbnail and alt text if present
         if row['IMG THMB'] != "" or row['ALT THMB'] != "":
             if row['IMG THMB'] == "":
-                print("\n    IMG THMB is missing for |{0}|".format(artworkname), end="")
+                print("    IMG THMB is missing for |{0}|".format(artworkname))
             elif row['ALT THMB'] == "":
-                print("\n    ALT THMB is missing for |{0}|".format(artworkname), end="")
+                print("    ALT THMB is missing for |{0}|".format(artworkname))
             else:
                 artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
                 artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
@@ -258,7 +258,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
         else:
-            print("\n    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]), start="\n")
+            print("    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
 
         # VIDEOS -------------------------------------------------
         artwork_dictionary['vids'] = make_vid_list(row)
@@ -287,7 +287,7 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/"):
     print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
-    print(' 1. Reading Excel File for {0}'.format(sheet_name), end="...")
+    print(' 1. Reading Excel File for {0}'.format(sheet_name), end="...\n")
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -338,11 +338,11 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     # sort
     nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
-    print(" 2. Processing DataFrame", end="...")
+    print(" 2. Processing DataFrame", end="...\n")
     # Convert DataFrame to JSON
     json_str = method1(nightshadeOnly, base_url)
 
-    print(" 3. Updating JSON Data", end="...")
+    print(" 3. Updating JSON Data", end="...\n")
     # Output - can ge to the json file in the src area
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(json_str)

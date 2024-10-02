@@ -7,7 +7,7 @@
     "date": "2023-08-21",
     "dateYear": "2023",
     "uniqueUrl": "2023-08-21-neo-joshua",
-    "UniqueURLKey": "art/twewy//2023-08-21-neo-joshua",
+    "UniqueURLKey": "art/twewy/2023-08-21-neo-joshua",
     "spoilers": "yes",
     "urls": [
       {
@@ -80,7 +80,7 @@
     "date": "2023-04-05",
     "dateYear": "2023",
     "uniqueUrl": "2023-04-05-older-moth",
-    "UniqueURLKey": "art/twewy//2023-04-05-older-moth",
+    "UniqueURLKey": "art/twewy/2023-04-05-older-moth",
     "spoilers": "Yes",
     "urls": [
       {
@@ -125,7 +125,7 @@
     "date": "2022-08-20",
     "dateYear": "2022",
     "uniqueUrl": "2022-08-20-hazuki-pra",
-    "UniqueURLKey": "art/twewy//2022-08-20-hazuki-pra",
+    "UniqueURLKey": "art/twewy/2022-08-20-hazuki-pra",
     "spoilers": "yes",
     "urls": [
       {
@@ -176,7 +176,7 @@
     "date": "2022-05-05",
     "dateYear": "2022",
     "uniqueUrl": "2022-05-05-happy-birt",
-    "UniqueURLKey": "art/twewy//2022-05-05-happy-birt",
+    "UniqueURLKey": "art/twewy/2022-05-05-happy-birt",
     "spoilers": "yes",
     "urls": [
       {
@@ -210,7 +210,7 @@
     "date": "2022-04-16",
     "dateYear": "2022",
     "uniqueUrl": "2022-04-16-yoshi-nii",
-    "UniqueURLKey": "art/twewy//2022-04-16-yoshi-nii",
+    "UniqueURLKey": "art/twewy/2022-04-16-yoshi-nii",
     "spoilers": "Yes",
     "urls": [
       {
@@ -248,7 +248,7 @@
     "date": "2022-02-14",
     "dateYear": "2022",
     "uniqueUrl": "2022-02-14-yoshi-ya-h",
-    "UniqueURLKey": "art/twewy//2022-02-14-yoshi-ya-h",
+    "UniqueURLKey": "art/twewy/2022-02-14-yoshi-ya-h",
     "spoilers": "Yes",
     "urls": [
       {
@@ -268,6 +268,8 @@
         "alt": "Art of a darkened Joshua wearing Yoshi hoodie with errie lighting and odd pattern over top the image."
       }
     ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-thmb-YoshiYa-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Joshua in a Yoshi hoodie.",
     "vids": [
       {
         "id": 1,
@@ -292,7 +294,7 @@
     "date": "2022-01-26",
     "dateYear": "2022",
     "uniqueUrl": "2022-01-26-there-was",
-    "UniqueURLKey": "art/twewy//2022-01-26-there-was",
+    "UniqueURLKey": "art/twewy/2022-01-26-there-was",
     "spoilers": "Yes",
     "urls": [
       {
@@ -351,7 +353,7 @@
     "date": "2021-12-23",
     "dateYear": "2021",
     "uniqueUrl": "2021-12-23-purificati",
-    "UniqueURLKey": "art/twewy//2021-12-23-purificati",
+    "UniqueURLKey": "art/twewy/2021-12-23-purificati",
     "spoilers": "Yes",
     "urls": [
       {
@@ -395,7 +397,7 @@
     "date": "2021-12-17",
     "dateYear": "2021",
     "uniqueUrl": "2021-12-17-hoodie-bud",
-    "UniqueURLKey": "art/twewy//2021-12-17-hoodie-bud",
+    "UniqueURLKey": "art/twewy/2021-12-17-hoodie-bud",
     "spoilers": "Yes",
     "urls": [
       {
@@ -449,7 +451,7 @@
     "date": "2021-12-03",
     "dateYear": "2021",
     "uniqueUrl": "2021-12-03-hazukweho",
-    "UniqueURLKey": "art/twewy//2021-12-03-hazukweho",
+    "UniqueURLKey": "art/twewy/2021-12-03-hazukweho",
     "spoilers": "Yes",
     "urls": [
       {
@@ -498,7 +500,7 @@
     "date": "2021-11-20",
     "dateYear": "2021",
     "uniqueUrl": "2021-11-20-kubo-high",
-    "UniqueURLKey": "art/twewy//2021-11-20-kubo-high",
+    "UniqueURLKey": "art/twewy/2021-11-20-kubo-high",
     "spoilers": "yes",
     "urls": [
       {
