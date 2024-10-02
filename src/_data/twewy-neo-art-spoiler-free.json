@@ -28,6 +28,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\1106-snoozebud\\20221106-thmb-SnoozeBuds-nDEFV1-pDEFV2-800.jpg",
     "thumbnailAlt": "Ayano taking a photo with her phone.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -71,6 +72,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0824-fango\\20220824-thmb-KuboFG01-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -118,6 +120,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -165,6 +168,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1013-tt21-fashion\\20211013-thmb-kupoKubo3-nDEFV1-pDEFV2-800.jpg",
     "thumbnailAlt": "Kubo wearing a moogle hoodie.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -172,6 +176,10 @@
       [
         "Kubokupo",
         "kubokupo"
+      ],
+      [
+        "TWEWYTOBER2021",
+        "twewytober2021"
       ]
     ]
   }

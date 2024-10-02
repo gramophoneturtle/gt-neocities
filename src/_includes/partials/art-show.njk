@@ -1,3 +1,4 @@
+{# IMAGES #}
 {# If multiple images, show thumbnails of each and expand on click #}
 {% set enableGalleryGrid = false %}
 {% if twewyart.imgs.length > 1 %}
@@ -9,7 +10,6 @@
     {# 1) Main Slides #}
     {%- for item in twewyart.imgs %}
 
-      {# TEST - set id for images? Optional  #}
       {% set currentID = [ "img0", loop.index ] | join %}
       
       <div class="slideshow-mySlides">
@@ -30,7 +30,6 @@
     {# 2) Thumbnails #}
     <div class="slideshow-row scrollmenu" >
     {%- for item in twewyart.imgs %}
-
       <div class="slideshow-column">
         <img class="slideshow-demo slideshow-cursor"
           style="width:100%"
@@ -55,10 +54,24 @@
 
 <hr class="hr-divide">
 
+{# VIDEOS #}
+{% if twewyart.vids.length > 0 %}
 <div>
-  <p>{{ twewyart.summary }}</p>
+    {%- for item in twewyart.vids %}
+      <div>
+        <video controls loop muted playsinline>
+          <source src="{{item.url}}" type="video/mp4">
+        </video>
+      </div>
+    {% endfor -%}
 </div>
+<hr class="hr-divide">
+{% endif %}
 
+{# SUMMARY #}
+<div><p>{{ twewyart.summary | safe}}</p></div>
+
+{# DETAILS #}
 {%- if twewyart.details %}
 <div>
   <details>
@@ -68,7 +81,7 @@
 </div>
 {%- endif -%}
 
-
+{# AUs/RELATED SERIES #}
 {% if twewyart.RelatedSeriesAndURL.length > 0 %}
 <div>
   <p>Series</p>
@@ -80,6 +93,7 @@
 </div>
 {% endif %}
 
+{# OTHER SITES #}
 <div>
   <p>Posted on:</p>
   <ul>
@@ -89,8 +103,8 @@
   </ul>
 </div>
 
+{# ORIGINAL POST DATE #}
 <p>Originally posted on {{ twewyart.date }}.</p>
-
 
 {% if enableGalleryGrid %}
 <script src="/js/SlideShowGallery.js"></script>

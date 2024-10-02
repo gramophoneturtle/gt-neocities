@@ -29,6 +29,7 @@ file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
 
 date_column_name = "Earliest Date"
 max_num_images = 8
+max_num_videos = 1
 
 related_series_list = []
 
@@ -91,6 +92,29 @@ def get_img_url(rw, st_nm) -> str:
 
     return return_url
 
+def make_vid_list(_row: pandas.Series) -> list:
+    vid_list = [] 
+
+    for i in range(1, max_num_videos+1):
+        # init
+        key_vid = 'VID {0}'.format(i)
+        artwork_id = _row['Artwork'].replace("\n","")[0:40]
+        
+        # guards
+        # if there is no more videos, we don't need to continue
+        if _row[key_vid] == "" :
+            break
+
+        test_url = get_img_url(_row, key_vid)
+        # make sure we don't have the src directory - might get included by accident!
+        if "src" in test_url:
+            print("!! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i), start="\n")
+            test_url = test_url.replace("src","")
+
+        # we have an image and alt text - good to add
+        vid_list.append({'id': i, 'url': test_url})
+
+    return vid_list
 
 # RELATED DICTIONARY -------------------------------------
 def find_rel_dict_ser_name_index(lst, key, value):
@@ -228,12 +252,16 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
                 artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
                 artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
 
+        # CHECK IF HAVE MINIMUM -----------------------------------
         # Add if img + alt was found, otherwise, print warning message
         if artwork_dictionary['imgs']:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
         else:
             print("\n    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]), start="\n")
+
+        # VIDEOS -------------------------------------------------
+        artwork_dictionary['vids'] = make_vid_list(row)
 
          # FANDOM LISTING -----------------------------------------
         artwork_dictionary['fandom'] = row['fandom'].split(",")
@@ -273,6 +301,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
                 'IMG THMB', 'ALT THMB',
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6','IMG 7','IMG 8',
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6','ALT 7','ALT 8',
+                'VID 1',
                 'Tumblr URL',
                 'Pillowfort URL',
                 'Bluesky URL',

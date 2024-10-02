@@ -67,6 +67,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2023\\0821-neojosh\\20230821-thmb-NEOJosh-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "A screenshot edit of Joshua from The World Ends With You Animation to make it look like his NEO self. He looks very serious.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ]
@@ -111,6 +112,7 @@
         "alt": "Image of a masked doctor under a bright circular light, hovering over a masked patient."
       }
     ],
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ]
@@ -161,6 +163,7 @@
         "alt": "Three images of Hazuki Mikagi from NEO: The World Ends With You from one of the in game movie cutscenes. In the first, his eyes are closed and he looks maybe content. In the second, he's looking down and to his left, our right, mouth opened and eye brows furrowed. He looks concerned or worried about something. In the third, he's looking down and to his left, our right, mouth closed and eye brows furrowed. He looks concerned or worried about something."
       }
     ],
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ]
@@ -194,6 +197,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
     "thumbnailAlt": "Art of Hazuki Mikagi.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ]
@@ -231,8 +235,53 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0416-yoshinii\\220416-thmb-Yoshi-nii-nDEF1-pDEF2.jpg",
     "thumbnailAlt": "Glowing, Angelic form of Hazuki Mikagi",
+    "vids": [],
     "fandom": [
       "NTWEWY"
+    ]
+  },
+  {
+    "title": "Yoshi-ya Hoodie!",
+    "summary": "He\u2019s in a better mood cause his hoodie got changed to a colour he prefers, but don\u2019t you dare call him Yoshi-<em>anything</em>. ",
+    "details": "",
+    "characters": "Joshua",
+    "date": "2022-02-14",
+    "dateYear": "2022",
+    "uniqueUrl": "2022-02-14-yoshi-ya-h",
+    "UniqueURLKey": "art/twewy//2022-02-14-yoshi-ya-h",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/676182607415967744/yoshi-ya-hoodie-hes-in-a-better-mood-cause-his"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-YoshiYa-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Art of Joshua wearing a light blue Yoshi hoodie, side view, with dramatic rim lighting behind him."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-DGP_exp2-nightshade-intensity-DEFAULT-V1-protected-intensity-DEFAULT-V2.png",
+        "alt": "Art of a darkened Joshua wearing Yoshi hoodie with errie lighting and odd pattern over top the image."
+      }
+    ],
+    "vids": [
+      {
+        "id": 1,
+        "url": "\\vid\\art\\twewy\\2022\\0214-yoshihood\\yoshiyahoodie.mp4"
+      }
+    ],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Kubokupo",
+        "kubokupo"
+      ]
     ]
   },
   {
@@ -283,6 +332,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0126-cafe\\20220126-thmb-cafeVisit01_2-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Minamimoto looking upset.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -326,6 +376,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-thmb-purificationInProgress-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Tanzo Kubo drawn in a grayscale pencil style.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -338,8 +389,8 @@
   },
   {
     "title": "Hoodie Buddies! ",
-    "summary": "KuboKupo, HazuKweh and Yoshi\u2026ya.",
-    "details": "<ul><li>Haz and Kubo\u2019s outfits are based on the FFXIII versions</li><li>Haz gets two adornments cause why not</li><li>One is the special red chocobo that has the Crazy Chocobo theme. The intensity of it is kiiinda similar to some parts of the World Is Yours but the main part is it\u2019s red/kinda colourful like the Phoenix Cantus</li><li>The other white one is based on the Angel of Valhalla. He gets it because\u2026 Angel</li><li>Kubo gets Mog Clock staff cause time things</li></ul>",
+    "summary": "The Hoodie Buddy Gang grows! KuboKupo, HazuKweh and Yoshi\u2026ya.",
+    "details": "<ul>\n<li>Haz and Kubo\u2019s outfits are based on the FFXIII versions of Chocobos and Moogles</li>\n<li>Haz gets two adornments cause why not</li>\n<li>One adornment is the special red chocobo that has the Crazy Chocobo theme. The intensity of it is kiiinda similar to some parts of the World Is Yours but the main part is it\u2019s red/kinda colourful like the Phoenix Cantus</li>\n<li>The other adornment is the white one which is based on the Angel of Valhalla. He gets it because\u2026 Angel</li>\n<li>Kubo gets Mog's Clock staff cause Time Things!</li>\n</ul>",
     "characters": "Kubo, Hazuki, Joshua",
     "date": "2021-12-17",
     "dateYear": "2021",
@@ -350,18 +401,26 @@
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/670832288717733888/hoodie-buddies-kubokupo-hazukweh-and"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5386345"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l5ieacwpdi2a"
       }
     ],
     "imgs": [
       {
         "id": 1,
         "url": "\\img\\art\\twewy\\2021\\1217-hoodbuds\\20211217-yoshi01c-nDEFV1-pDEFV2-800.jpg",
-        "alt": "Comic. Kubo says \"And - there\" as a red chocobo figurine appears on Haz's shoulder, who is wearing a yellow chocobo hoodie. Kubo is wearing his Mog moogie hoodie. Kubo tells Haz \"Now, say it.\" Haz says \"Kupo\" and Kubo tells him \"No, no, no, yours is 'Kweh!'\" Haz responds with an attempted enthusiastic \"...Kweh\" and Kubo responds \"Ah, well, good enough\". Joshua watches them. Haz notices and greets him, \"Hey, Joshua. Here to join us?\" Joshua responds, trying not to laugh, \"Oh, no. Just seeing what the fuss was about. Besides I-\""
+        "alt": "Comic page 1. Kubo says \"And - there\" as a red chocobo figurine appears on Haz's shoulder, who is wearing a yellow chocobo hoodie. Kubo is wearing his Mog moogie hoodie. Kubo tells Haz \"Now, say it.\" Haz says \"Kupo\" and Kubo tells him \"No, no, no, yours is 'Kweh!'\" Haz responds with an attempted enthusiastic \"...Kweh\" and Kubo responds \"Ah, well, good enough\". Joshua watches them. Haz notices and greets him, \"Hey, Joshua. Here to join us?\" Joshua responds, trying not to laugh, \"Oh, no. Just seeing what the fuss was about. Besides I-\""
       },
       {
         "id": 2,
         "url": "\\img\\art\\twewy\\2021\\1217-hoodbuds\\20211217-yoshi02f-nDEFV1-pDEFV2-800.jpg",
-        "alt": "Comic of Kubo leaning over to Haz, \"I've got the perfect outfit.\" Haz responds with \"Oh?\" Joshua continues, \"-So there's no need to-\" but gets cut off by Kubo laughing and dramatically points the Mog Clock staff at Joshua and saying, \"One special hoodie, for one-\". Joshua is now wearing a green Yoshi hoodie. Kubo finishes his sentence, \"-YOSHI-ya Kiryu!\" Joshua is less than impressed under the hood."
+        "alt": "Comic page 2. Kubo leans over to Haz, \"I've got the perfect outfit.\" Haz responds with \"Oh?\" Joshua continues, \"-So there's no need to-\" but gets cut off by Kubo laughing and dramatically points the Mog Clock staff at Joshua and saying, \"One special hoodie, for one-\". Joshua is now wearing a green Yoshi hoodie. Kubo finishes his sentence, \"-YOSHI-ya Kiryu!\" Joshua is less than impressed under the hood."
       },
       {
         "id": 3,
@@ -371,6 +430,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1217-hoodbuds\\20211217-thmb-yoshi01c-nDEFV1-pDEFV2-800.jpg",
     "thumbnailAlt": "Haz and Kubo talking.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -419,6 +479,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1203-hazukweh\\20240929-thmb-hazukweh02-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Chocobo hoodie Hazuki.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
@@ -469,6 +530,7 @@
         "alt": "Art of a glowing Kubo with Soul Pulvis flying around. A Soul Pulvis perches on his raised right arm like a bird. In greyscale."
       }
     ],
+    "vids": [],
     "fandom": [
       "NTWEWY"
     ],
