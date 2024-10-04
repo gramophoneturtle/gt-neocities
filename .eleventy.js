@@ -21,8 +21,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/rss");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
-
-
 //   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 // 		// which file extensions to process
 // 		extensions: "html",
@@ -85,6 +83,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("twewyOGArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyOGArt").sort(function (a, b) {
+
+      let nameA = a.data.twewyart.date.toUpperCase();
+      let nameB = b.data.twewyart.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+
+    });
+  });
+
+
+   // PERSONA 5 - Sort by DATE
+   eleventyConfig.addCollection("allPersona5ByDate", function (collectionApi) {
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("TagPersona5Art").sort(function (a, b) {
 
       let nameA = a.data.twewyart.date.toUpperCase();
       let nameB = b.data.twewyart.date.toUpperCase();

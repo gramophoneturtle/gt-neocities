@@ -20,6 +20,7 @@ filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
 
 # GENERATE - PERSONA 5 JSON Files
 filename_output_p5 = "art-persona5.json"
+filename_output_p5_nospoilers = "art-persona5-spoiler-free.json"
 
 # GENERATE - Related Series Files
 filename_output_related_twewy = "relatedtwewy.json"
@@ -350,41 +351,46 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     print(" 4. Completed!\n")
 
 if __name__ == '__main__':
-    # TWEWY OG
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
+    # # TWEWY OG
+    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
+    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
+    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
+    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    # NEO TWEWY
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
+    # # NEO TWEWY
+    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
+    # main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
+    # main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    # TWEWY Series
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
+    # # TWEWY Series
+    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
+    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
+    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    # Write Related Series JSON
-    # Output - can ge to the json file in the src area
+    # # Write Related Series JSON
+    # # Output - can ge to the json file in the src area
 
-    for rel_list_item in related_series_list:
-        rel_list_item["SeriesEntries"].sort(key=lambda x: x["Index"])
+    # for rel_list_item in related_series_list:
+    #     rel_list_item["SeriesEntries"].sort(key=lambda x: x["Index"])
 
-    nested_json = json.dumps(related_series_list, indent=2)
-    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
-    with open(file_path_output, 'w', encoding='utf-8') as f:
-        f.write(nested_json)
+    # nested_json = json.dumps(related_series_list, indent=2)
+    # file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    # with open(file_path_output, 'w', encoding='utf-8') as f:
+    #     f.write(nested_json)
 
-    # Persona 5 Sheet
-    # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
-    # main('Other', file_path_output)
+    # OTHER - Persona 5 Sheet
+    fandomkey="persona5"
+    file_path_output = os.path.join(file_path_output_path, filename_output_p5)
+    main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=True, base_url="art/{0}/".format(fandomkey))
+
+    
+    file_path_output = os.path.join(file_path_output_path, filename_output_p5_nospoilers)
+    main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=False, base_url="art/{0}/".format(fandomkey))
 
 
     print("\nMAIN: C O M P L E T E!\n")
