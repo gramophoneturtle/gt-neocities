@@ -194,9 +194,14 @@
     ]
   },
   {
-    "SeriesName": "A Healthy Dose Of Chaos",
+    "SeriesName": "A Healthy Dose of Chaos",
     "SeriesURL": "a-healthy-dose-of-chaos",
     "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Mother and Father Are Watching",
+        "URL": "art/twewy/2022-03-21-mother-and"
+      },
       {
         "Index": 1,
         "Name": "There Was A Time When\u2026",
@@ -233,17 +238,6 @@
         "Index": -1,
         "Name": "Hanekoma, Higher Vibe Frequency.",
         "URL": "art/twewy/2021-11-22-hanekoma"
-      }
-    ]
-  },
-  {
-    "SeriesName": "A Healthy Dose of Chaos",
-    "SeriesURL": "a-healthy-dose-of-chaos",
-    "SeriesEntries": [
-      {
-        "Index": -1,
-        "Name": "Mother and Father Are Watching",
-        "URL": "art/twewy/2022-03-21-mother-and"
       }
     ]
   }
