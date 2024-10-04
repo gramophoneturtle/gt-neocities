@@ -70,6 +70,12 @@
     "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Anime Photoshops",
+        "anime-photoshops"
+      ]
     ]
   },
   {
@@ -200,6 +206,12 @@
     "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Happy Birthday",
+        "happy-birthday"
+      ]
     ]
   },
   {
@@ -254,6 +266,14 @@
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/676182607415967744/yoshi-ya-hoodie-hes-in-a-better-mood-cause-his"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5397914"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l5nv7pq4zc2v"
       }
     ],
     "imgs": [
@@ -264,8 +284,8 @@
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-DGP_exp2-nightshade-intensity-DEFAULT-V1-protected-intensity-DEFAULT-V2.png",
-        "alt": "Art of a darkened Joshua wearing Yoshi hoodie with errie lighting and odd pattern over top the image."
+        "url": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-DGP_exp2-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Art of a darkened Joshua wearing Yoshi hoodie with eerie lighting and odd pattern over top the image."
       }
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-thmb-YoshiYa-nDEFV1-pDEFV2.jpg",
@@ -281,8 +301,8 @@
     ],
     "RelatedSeriesAndURL": [
       [
-        "Kubokupo",
-        "kubokupo"
+        "Hoodie Buddies",
+        "hoodie-buddies"
       ]
     ]
   },
@@ -438,8 +458,8 @@
     ],
     "RelatedSeriesAndURL": [
       [
-        "Kubokupo",
-        "kubokupo"
+        "Hoodie Buddies",
+        "hoodie-buddies"
       ]
     ]
   },
@@ -487,8 +507,8 @@
     ],
     "RelatedSeriesAndURL": [
       [
-        "Kubokupo",
-        "kubokupo"
+        "Hoodie Buddies",
+        "hoodie-buddies"
       ]
     ]
   },

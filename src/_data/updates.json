@@ -3,6 +3,24 @@
         "PostDate": "2024-10-XX"
         ,"ArtList": [
             {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Hanyakoma Hoodie!",
+                        "URL": "/"
+                    }
+                ]
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Possession",
+                        "URL": "/"
+                    }
+                ]
+            },
+            {
                 "Category": "NEO TWEWY Spoilers",
                 "List": [
                     {
