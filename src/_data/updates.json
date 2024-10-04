@@ -1,17 +1,18 @@
 [
     {
-        "PostDate": "2024-10-XX"
+        "PostDate": "2024-10-0X"
+        ,"ArtSummary": "TWEWY - finished added Hoodie Buddies series."
         ,"ArtList": [
             {
                 "Category": "TWEWY",
                 "List": [
                     {
                         "Title": "Hanyakoma Hoodie!",
-                        "URL": "/"
+                        "URL": "/art/twewy/2022-03-01-hanyakoma/"
                     },
                     {
                         "Title": "Why, Oh Why...",
-                        "URL": "/"
+                        "URL": "/art/twewy/2024-10-02-null-why/"
                     }
                 ]
             },
@@ -20,7 +21,7 @@
                 "List": [
                     {
                         "Title": "Possession",
-                        "URL": "/"
+                        "URL": "/art/twewy/2021-01-16-possession/"
                     }
                 ]
             },
