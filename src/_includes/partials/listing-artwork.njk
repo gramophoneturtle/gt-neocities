@@ -9,9 +9,9 @@
             <div class= "content">
               <a href="{{ post.url }}"> 
                 <div class="desc"> 
-                  {{ post.data.twewyart.title | truncate: 37 }}
+                  {{ post.data.twewyart.title | truncate: 40 }}
                 </div>
-                {% if post.data.twewyart.thumbnailUrl  %}
+                {% if post.data.twewyart.thumbnailUrl != ""  %}
                   <img
                   src="{{ post.data.twewyart.thumbnailUrl }}"
                   alt="{{ post.data.twewyart.thumbnailAlt }}"

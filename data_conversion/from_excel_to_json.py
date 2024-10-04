@@ -123,7 +123,7 @@ def find_rel_dict_ser_name_index(lst, key, value):
             return i
     return -1
 
-def update_related_dictionary(rw, rw_unique_url):
+def update_related_dictionary(rw, aw_dict):
 
     artworkname = rw['Artwork'].replace("\n","")[0:40]
 
@@ -149,28 +149,25 @@ def update_related_dictionary(rw, rw_unique_url):
             print("    Related for {0} -AU/Series- {1}".format(artworkname,i_name))
             print("      '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
         
+        new_entry = {
+                'Index': int_i_index,
+                'Name': aw_dict['title'],
+                'URL': aw_dict['UniqueURLKey'],
+                'ThumbnailURL': aw_dict['thumbnailUrl'],
+                'ThumbnailAlt': aw_dict['thumbnailAlt']
+            }
+
         # Add new seriesand first entry
         if index_dict == -1:
             rel_dictionary = {
                 'SeriesName': i_name,
                 "SeriesURL": urlify(i_name),
-                'SeriesEntries': [ {
-                        'Index': int_i_index,
-                        'Name': rw['title'],
-                        'URL': rw_unique_url
-                    }
-                ]
+                'SeriesEntries': [ new_entry ]
             }
             # Add with defaults
             related_series_list.append(rel_dictionary)
         # Add new entry to existing series
         else:
-            new_entry = {
-                    'Index': int_i_index,
-                    'Name': rw['title'],
-                    'URL': rw_unique_url
-                }
-            
             related_series_list[index_dict]["SeriesEntries"].append(new_entry)
     return 
 
@@ -243,6 +240,8 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         artwork_dictionary['imgs'] = make_img_list(row)
 
         # Add Image thumbnail and alt text if present
+        artwork_dictionary['thumbnailUrl'] = ""
+        artwork_dictionary['thumbnailAlt'] = ""
         if row['IMG THMB'] != "" or row['ALT THMB'] != "":
             if row['IMG THMB'] == "":
                 print("    IMG THMB is missing for |{0}|".format(artworkname))
@@ -269,7 +268,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         # List of related artworks
         # Add Image thumbnail and alt text if present
         if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
-            update_related_dictionary(row, artwork_dictionary['UniqueURLKey'])
+            update_related_dictionary(row, artwork_dictionary)
             
             # Add to artwork so it can link back! Complex List of Lists
             artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
