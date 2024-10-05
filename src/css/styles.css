@@ -21,6 +21,8 @@
   --background-container-warning: #4d253f;
   --hover-img-color: #331b35;
 
+  --button-arrow-color: #ffb300;
+
   --null-pink: #C48F97;
   --null-black: #303030;
   --null-dark-blue: #242B3B;
@@ -29,6 +31,11 @@
   --null-light-green-ivy: #829482;
   --null-dark-green-base: #384138;
   --null-dark-green-ivy: #131913;
+  
+  --null-background-container-border: #657365;
+  --null-background-container: #242b26;
+
+  --father-caramel: #b88246;
 }
 
 img {
@@ -43,18 +50,23 @@ img {
     --text: #1a1616;
     --text-light: #554f4f;
     --border: #5b793a;
-    --accent: rgb(115, 10, 129);
+    --accent: #7a5300;
     --accent-lavendar-light: rgb(176, 14, 197);
-    --border-color: #b88246;
+    --border-color: #698b69;
     --dark-background: #a591a3;
-    --hover-img-color: rgb(226, 179, 146);
+    --hover-img-color: #dde6d8;
     --background-container: #c7cebf;
     --background-container-warning: #d3c5a8;
+
+    --button-arrow-color: #C48F97;
 
     --null-light-green-base: #dde6d8;
     --null-light-green-ivy: #859685;
     --null-dark-green-base: #c1cec1;
     --null-dark-green-ivy: #698b69;
+
+    --null-background-container-border: #657365;
+    --null-background-container: #b9c4b7f3;
   }
 }
 
@@ -100,7 +112,7 @@ main {
 }
 
 body > footer {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   padding: 0.5rem;
   color: var(--text-light);
   font-size: 0.9rem;
@@ -119,9 +131,19 @@ h2 {
   margin-top: 2rem;
 }
 
+h3 {
+  margin: 0rem;
+}
+
 p.smaller {
   font-size: smaller;
   margin: 0.5rem;
+}
+
+p.less-margin-padding {
+  padding: 0.5rem 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Reduce header size on mobile */
@@ -513,7 +535,7 @@ header > nav {
 .slideshow-next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  color: var(--accent);
+  color: var(--button-arrow-color);
 }
 
 .hidden {
@@ -524,8 +546,11 @@ header > nav {
 /* Container for image text */
 .slideshow-caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: var(--accent-bg);
   color: var(--text);
+  border-radius: var(--standard-border-radius);
+  border: var(--border) 1px solid;
+  margin: 0.5rem 0rem;
 
   p {
     margin: 0.25rem;
@@ -542,21 +567,29 @@ header > nav {
 /* Six columns side by side */
 .slideshow-column {
   width: 24%;
+
+  /* Add a transparency effect for thumnbail images */
+  .slideshow-demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .slideshow-demo:hover {
+    opacity: 1;
+  }
+
+  .active{
+    border: var(--border) 3px solid;
+  }
 }
 
-/* Add a transparency effect for thumnbail images */
-.slideshow-demo {
-  opacity: 0.6;
-}
 
-.active,
-.slideshow-demo:hover {
-  opacity: 1;
-}
 
 /* || Scrolling for the thumbnails of multi artwork pages */
 div.scrollmenu {
   background-color: var(--accent-bg);
+  border-radius: var(--standard-border-radius);
+  border: var(--border) 1px solid;
   overflow: auto;
   white-space: nowrap;
   align-items: center;
@@ -651,6 +684,78 @@ div.desc {
     }
   }
 }
+
+/* || RELATED SERIES - Thumbnail and title */
+.related-series-entry {
+  border: var(--null-background-container-border) 3px solid;
+  border-radius: var(--standard-border-radius);
+  margin: 1rem 0rem;
+  background-color: var(--null-background-container);
+
+  div {
+    display: grid;
+    box-sizing: border-box;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 6rem;
+  }
+
+  .column-side {
+      height: 6rem;
+      width: 25%;
+      border-right: var(--null-background-container-border) 3px solid;
+      display: inline-block;
+      img {
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+        object-fit: cover;
+    }
+  }
+
+  .column-remaining {
+    height: inherit;
+    max-height: 6rem;
+    width: 70%;
+    display: inline-block;
+    position: relative;
+  }
+
+  .desc {
+    padding: 0;
+    margin: 0% 0.5%;
+    font-size: larger;
+    text-align: left;
+  }
+
+  a {
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+}
+
+.related-series-entry:hover{
+  background-color: var(--hover-img-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .related-series-entry {
+    border: var(--null-background-container-border) 2px solid;
+  }
+
+  .column-side {
+    border-right: var(--null-background-container-border) 2px solid;
+  }
+  .desc {
+    font-size: large;
+  }
+}
+
 
 /* || TEST STUFF */
 .testimg {

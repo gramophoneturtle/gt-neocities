@@ -15,14 +15,24 @@ layout: /layouts/base-without-h1title.njk
 {%- endif -%}
 
 {% if RelTWEWY.SeriesEntries.length > 0 %}
-    <ul>
     {%- for item in RelTWEWY.SeriesEntries %}
-        <li>
-            {% if item.Index %} [{{ item.Index }}] - {% endif %}
-            <a href= "/{{ item.URL }}">{{ item.Name }}</a> - <a href="/{{ item.URL }}" target="_blank" rel="noopener noreferrer">↗</a> 
-        </li>
+    <div class = "related-series-entry">
+        <a href= "/{{ item.URL }}">
+            <div class="column-side">
+                {% if item.ThumbnailURL != ""  %}
+                    <img
+                    src="{{ item.ThumbnailURL }}"
+                    alt="{{ item.ThumbnailAlt }}"
+                    >
+                {% endif %}
+            </div>
+
+            <div class="desc column-remaining">
+                {{ item.Name }}
+            </div> 
+        </a> 
+    </div>
     {% endfor -%}
-    </ul>
 {% endif %}
 
-<p>Back to <a href="/art/twewy/related/">TWEWY AUs and Series</a></p>
+<p class="less-margin-padding">Back to <a href="/art/twewy/related/">TWEWY AUs and Series</a></p>

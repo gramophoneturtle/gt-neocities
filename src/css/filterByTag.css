@@ -79,8 +79,7 @@
         display: block;
         position: relative;
         object-fit: cover;
-        border-top-right-radius: 0rem;
-        border-bottom-right-radius: 0rem;
+        border-radius: 0rem;
     }
 }
 
