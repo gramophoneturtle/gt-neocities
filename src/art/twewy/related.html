@@ -5,8 +5,8 @@ layout: /layouts/base.njk
 <div><p>Back to <a href="/art/">Art</a>.</p></div>
 
 {% for item in collections.TagRelatedTWEWY %}
+<a href="{{ item.url }}">
     <div class = "related-series-entry">
-      <a href="{{ item.url }}">
           <div class="column-side">
               {% if item.ThumbnailURL != ""  %}
                   <img
