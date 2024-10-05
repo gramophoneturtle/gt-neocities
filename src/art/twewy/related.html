@@ -4,10 +4,20 @@ layout: /layouts/base.njk
 ---
 <div><p>Back to <a href="/art/">Art</a>.</p></div>
 
-{% for post in collections.TagRelatedTWEWY %}
-    <a href="{{ post.url }}">
-        <div class="ocGallery">
-          {{ post.data.RelTWEWY.SeriesName }}
-        </div>
-    </a> 
+{% for item in collections.TagRelatedTWEWY %}
+    <div class = "related-series-entry">
+      <a href="{{ item.url }}">
+          <div class="column-side">
+              {% if item.ThumbnailURL != ""  %}
+                  <img
+                  src="{{ item.data.RelTWEWY.ThumbnailURL }}"
+                  alt="{{ item.data.RelTWEWY.ThumbnailAlt }}"
+                  >
+              {% endif %}
+          </div>
+          <div class="desc column-remaining">
+          {{ item.data.RelTWEWY.SeriesName }} 
+          </div> 
+      </a> 
+  </div>
 {% endfor %}
