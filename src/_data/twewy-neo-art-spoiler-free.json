@@ -6,7 +6,8 @@
     "characters": "Kubo, Shoka, Ayano, Shiba",
     "date": "2022-11-06",
     "dateYear": "2022",
-    "uniqueUrl": "2022-11-06-...What? W",
+    "uniqueUrl": "2022-11-06-what-w",
+    "UniqueURLKey": "art/twewy/2022-11-06-what-w",
     "spoilers": "No",
     "urls": [
       {
@@ -27,8 +28,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\1106-snoozebud\\20221106-thmb-SnoozeBuds-nDEFV1-pDEFV2-800.jpg",
     "thumbnailAlt": "Ayano taking a photo with her phone.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Hoodie Buddies",
+        "hoodie-buddies"
+      ]
     ]
   },
   {
@@ -38,7 +46,8 @@
     "characters": "Shoka. Kubo",
     "date": "2022-08-24",
     "dateYear": "2022",
-    "uniqueUrl": "2022-08-24-The beginn",
+    "uniqueUrl": "2022-08-24-the-beginn",
+    "UniqueURLKey": "art/twewy/2022-08-24-the-beginn",
     "spoilers": "No",
     "urls": [
       {
@@ -63,8 +72,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0824-fango\\20220824-thmb-KuboFG01-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Hoodie Buddies",
+        "hoodie-buddies"
+      ]
     ]
   },
   {
@@ -74,7 +90,8 @@
     "characters": "Shoka",
     "date": "2021-10-16",
     "dateYear": "2021",
-    "uniqueUrl": "2021-10-16-[Shopping]",
+    "uniqueUrl": "2021-10-16-shopping",
+    "UniqueURLKey": "art/twewy/2021-10-16-shopping",
     "spoilers": "No",
     "urls": [
       {
@@ -103,8 +120,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "TWEWYTOBER2021",
+        "twewytober2021"
+      ]
     ]
   },
   {
@@ -114,7 +138,8 @@
     "characters": "Kubo",
     "date": "2021-10-13",
     "dateYear": "2021",
-    "uniqueUrl": "2021-10-13-It's [Fash",
+    "uniqueUrl": "2021-10-13-its-fash",
+    "UniqueURLKey": "art/twewy/2021-10-13-its-fash",
     "spoilers": "No",
     "urls": [
       {
@@ -143,8 +168,19 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\1013-tt21-fashion\\20211013-thmb-kupoKubo3-nDEFV1-pDEFV2-800.jpg",
     "thumbnailAlt": "Kubo wearing a moogle hoodie.",
+    "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Hoodie Buddies",
+        "hoodie-buddies"
+      ],
+      [
+        "TWEWYTOBER2021",
+        "twewytober2021"
+      ]
     ]
   }
 ]

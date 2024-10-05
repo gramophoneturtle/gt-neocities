@@ -1,5 +1,47 @@
 [
     {
+        "PostDate": "2024-10-04"
+        ,"ArtSummary": "TWEWY - finished added Hoodie Buddies series."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Hanyakoma Hoodie!",
+                        "URL": "/art/twewy/2022-03-01-hanyakoma/"
+                    },
+                    {
+                        "Title": "Why, Oh Why...",
+                        "URL": "/art/twewy/2024-10-02-null-why/"
+                    }
+                ]
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Possession",
+                        "URL": "/art/twewy/2021-01-16-possession/"
+                    },
+                    {
+                        "Title": "Home",
+                        "URL": "/art/twewy/2020-10-15-lonely-tho/"
+                    }
+                ]
+            },
+            {
+                "Category": "NEO TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Yoshi-ya Hoodie!",
+                        "URL": "/art/twewy/2022-02-14-yoshi-ya-h/"
+                    }
+                ]
+            }
+        ]
+        ,"Site": "Related artwork links added! All the AUs/Series are linked from the Art page and on each page that is connected to an AU/Series. Writing version will come one day."
+    },
+    {
         "PostDate": "2024-09-29"
         ,"ArtList": [
             {
@@ -11,7 +53,7 @@
                     },
                     {
                         "Title": "It's [Fashion], Kubokupo!",
-                        "URL": "/art/twewy/2021-10-13-it-s-fash/"
+                        "URL": "/art/twewy/2021-10-13-its-fash/"
                     },
                     {
                         "Title": "...What? What??? What.",
@@ -24,7 +66,7 @@
                 "List": [
                     {
                         "Title": "HazuKweh!",
-                        "URL": "/art/twewy/2021-12-03-hazukweh-o/"
+                        "URL": "/art/twewy/2021-12-03-hazukweho"
                     },
                     {
                         "Title": "Hoodie Buddies!",

@@ -1,0 +1,45 @@
+---
+tags:
+  - TagRelatedTWEWY
+  - TagRelatedAll
+pagination:
+    data: relatedtwewy
+    size: 1
+    alias: RelTWEWY
+    addAllPagesToCollections: true
+permalink: "art/twewy/related/{{ RelTWEWY.SeriesURL | slugify }}/"
+layout: /layouts/base-without-h1title.njk
+---
+{%- if RelTWEWY.SeriesName %}
+    <h3>{{RelTWEWY.SeriesName}}</h3>
+{%- endif -%}
+
+{% if RelTWEWY.ThumbnailURL != ""  %}
+    <img
+    src="{{ RelTWEWY.ThumbnailURL }}"
+    alt="{{ RelTWEWY.ThumbnailAlt }}"
+    >
+{% endif %}
+
+{% if RelTWEWY.SeriesEntries.length > 0 %}
+    {%- for item in RelTWEWY.SeriesEntries %}
+    <div class = "related-series-entry">
+        <a href= "/{{ item.URL }}">
+            <div class="column-side">
+                {% if item.ThumbnailURL != ""  %}
+                    <img
+                    src="{{ item.ThumbnailURL }}"
+                    alt="{{ item.ThumbnailAlt }}"
+                    >
+                {% endif %}
+            </div>
+
+            <div class="desc column-remaining">
+                {{ item.Name }}
+            </div> 
+        </a> 
+    </div>
+    {% endfor -%}
+{% endif %}
+
+<p class="less-margin-padding">Back to <a href="/art/twewy/related/">TWEWY AUs and Series</a></p>

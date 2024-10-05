@@ -8,6 +8,8 @@
     {{ story.Title }}
 {%- elif posts.PostDate -%}
     {{ posts.PostDate}}
+{%- elif RelTWEWY.SeriesName -%}
+    {{RelTWEWY.SeriesName}}
 {%- else -%}
     {{ title }}
 {%- endif -%}

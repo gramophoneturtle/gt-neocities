@@ -45,7 +45,7 @@
     width: 10.75rem;
     height: 10.75rem;
     display: none; /* Hide columns by default */
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
     font-size: small; 
 }
 

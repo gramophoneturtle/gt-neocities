@@ -6,7 +6,8 @@
     "characters": "Joshua, Father, Null, Chisa",
     "date": "2023-10-22",
     "dateYear": "2023",
-    "uniqueUrl": "2023-10-22-There was ",
+    "uniqueUrl": "2023-10-22-there-was",
+    "UniqueURLKey": "art/twewy/2023-10-22-there-was",
     "spoilers": "yes",
     "urls": [
       {
@@ -50,6 +51,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2023\\1022-cnull\\20231022-ComposerNULL_thmb-nDEFV1-gl20V1.jpg",
     "thumbnailAlt": "Composer Null hunched over in pain.",
+    "vids": [],
     "fandom": [
       "TWEWY",
       " NTWEWY"
@@ -62,7 +64,8 @@
     "characters": "Joshua, Hanekoma, Mother, Father",
     "date": "2022-03-21",
     "dateYear": "2022",
-    "uniqueUrl": "2022-03-21-Mother and",
+    "uniqueUrl": "2022-03-21-mother-and",
+    "UniqueURLKey": "art/twewy/2022-03-21-mother-and",
     "spoilers": "Yes",
     "urls": [
       {
@@ -97,9 +100,20 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Joshua looking annoyed.",
+    "vids": [],
     "fandom": [
       "TWEWY",
       " NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "A Healthy Dose of Chaos",
+        "a-healthy-dose-of-chaos"
+      ],
+      [
+        "NEO Higher Plane Experimentation",
+        "neo-higher-plane-experimentation"
+      ]
     ]
   },
   {
@@ -109,7 +123,8 @@
     "characters": "Hanekoma",
     "date": "2021-11-22",
     "dateYear": "2021",
-    "uniqueUrl": "2021-11-22-Hanekoma, ",
+    "uniqueUrl": "2021-11-22-hanekoma",
+    "UniqueURLKey": "art/twewy/2021-11-22-hanekoma",
     "spoilers": "yes",
     "urls": [
       {
@@ -136,9 +151,18 @@
         "alt": "Art of Sanae Hanekoma from the World Ends With You. A glowing man in a glowing form like the Composer. From top to his waist he has a gradient over him from orange to red to purple. From waist to feet it goes from grape purple, green, blue, green/teal. A clear blue day sky is the background."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY",
       " NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "NEO Higher Plane Experimentation",
+        "neo-higher-plane-experimentation"
+      ]
     ]
   }
 ]

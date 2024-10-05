@@ -6,7 +6,8 @@
     "characters": "Null",
     "date": "2024-08-06",
     "dateYear": "2024",
-    "uniqueUrl": "2024-08-06-Null Past ",
+    "uniqueUrl": "2024-08-06-null-past",
+    "UniqueURLKey": "art/twewy/2024-08-06-null-past",
     "spoilers": "yes",
     "urls": [
       {
@@ -27,6 +28,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\ocs\\null\\240806PastNull\\20240806-thmb-Null_TimePeriodPractice-niHIGHV1-pDEFV2.jpg",
     "thumbnailAlt": "Grinning past Composer Null.",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -38,7 +40,8 @@
     "characters": "Joshua",
     "date": "2022-09-22",
     "dateYear": "2022",
-    "uniqueUrl": "2022-09-22-Shibuya Fi",
+    "uniqueUrl": "2022-09-22-shibuya-fi",
+    "UniqueURLKey": "art/twewy/2022-09-22-shibuya-fi",
     "spoilers": "yes",
     "urls": [
       {
@@ -65,6 +68,9 @@
         "alt": "Art of Shibuya's Scramble Crossing from The World Ends With You looking out towards the 109, 104 in this this world, building during the daytime. People in the city are generally represented are blue vertical blobs, but the four in the foreground are distinct. Orange hair, purple top, white shorts. Blonde hair, black beanie, white tank top, beige-yellow pants. Blonde hair, black beanie, coral sweater, white shorts. Black hair, green sweater, pale yellow skirt, black leggings. In the sky, there are ripples, and beyond them, watching down and much larger than any of the other buildings, is a white figure with wavey, barely shoulder length hair. His features are difficult to make out. He watches the humans down in the Scramble Crossing."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -76,7 +82,8 @@
     "characters": "Joshua, Shiki",
     "date": "2021-07-24",
     "dateYear": "2021",
-    "uniqueUrl": "2021-07-24-PERCEIVE M",
+    "uniqueUrl": "2021-07-24-perceive-m",
+    "UniqueURLKey": "art/twewy/2021-07-24-perceive-m",
     "spoilers": "yes",
     "urls": [
       {
@@ -108,6 +115,9 @@
         "alt": "Art of the real Shiki Misaki from The World Ends With You, smiling with black paint crossing out her eyes with the words \"PERCEIVE ME\" in white over it. There are Mr. Mew - black cats - heads in the background with some layered over top of her."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -119,7 +129,8 @@
     "characters": "Joshua, Kitaniji",
     "date": "2021-05-27",
     "dateYear": "2021",
-    "uniqueUrl": "2021-05-27-What if th",
+    "uniqueUrl": "2021-05-27-what-if-th",
+    "UniqueURLKey": "art/twewy/2021-05-27-what-if-th",
     "spoilers": "yes",
     "urls": [
       {
@@ -156,8 +167,17 @@
         "alt": "It had taken Joshua by surprise that Megumi had offered to help before he had asked. But now, with Megumi treating him not only as a stranger, but as someone far him, it breaks Joshua's heart."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Fan Art of Fan Work",
+        "fan-art-of-fan-work"
+      ]
     ]
   },
   {
@@ -167,7 +187,8 @@
     "characters": "Joshua, Neku",
     "date": "2021-04-06",
     "dateYear": "2021",
-    "uniqueUrl": "2021-04-06-Not Your J",
+    "uniqueUrl": "2021-04-06-not-your-j",
+    "UniqueURLKey": "art/twewy/2021-04-06-not-your-j",
     "spoilers": "yes",
     "urls": [
       {
@@ -196,8 +217,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\0406-cnau-mistake\\20210406-thmb-doNotMistakeMe5-nDEFV1-gl10V1-800.jpg",
     "thumbnailAlt": "Joshua with his arms crossed,",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -207,7 +235,8 @@
     "characters": "Joshua",
     "date": "2021-03-24",
     "dateYear": "2021",
-    "uniqueUrl": "2021-03-24-Anime styl",
+    "uniqueUrl": "2021-03-24-anime-styl",
+    "UniqueURLKey": "art/twewy/2021-03-24-anime-styl",
     "spoilers": "yes",
     "urls": [
       {
@@ -234,8 +263,69 @@
         "alt": "Art of eight blurry faces of Yoshiya Joshua Kiryu in his Composer form from The World Ends With You. From top left to right, top to bottom row, the expressions are: 3/4 looking anxious, from above looking determined, looking shy/uneasy, side view and annoyed, determined and shouting, from below looking anxious and yelling, side view looking smug, and then looking amused and looking to the side."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ]
+  },
+  {
+    "title": "Possession",
+    "summary": "Ever think about the natural state of the Higher Plane? How the UG could become like that?\nRemember Kitaniji\u2019s plan for saving Shibuya?\nEver wonder about those chains next the throne?\nWhat if some Angels got\u2026impatient?\n\nDesign choices and thoughts about the power balance between the Composer, Producer and Higher Plane below.",
+    "details": "<p>The ID for the Producer in charge would allow Them to override the Composer\u2019s control. Might not be necessary depending on the power gap between the two in the UG but this method would be a guaranteed way to take over. The idea would be for emergencies, which is why Producers would be carefully chosen from the HP to make the proper judgement. I kept Hanekoma\u2019s ID as his wristwatch and made the possessing Angel\u2019s ID as earrings, mostly to keep it simple and easily visible. They need Hanekoma\u2019s ID for the plan since he\u2019s the Producer so They\u2019re using him, making both IDs visible. I like to think the RoR is designed by the HP so with permission anyone from the HP could hijack the District.</p>\n\n<p>The symbol at the bottom page 1 is based on a cat skull (but not a stylized CAT skull which I thought about using later, whoops) with a \u201cweb of bones and a hint of skulls\u201d. I had this style in mind for other HP ideas but they\u2019re on hold now so I\u2019m bringing that here cause it\u2019s a lot of fun to play around with. (If you ever stared at the bridge above the Shibuya River you might be able to make out the influence! Well and CAT\u2019s art.)</p>\n\n<p>The spreading floor pattern uses the same idea. It seemed like a cool way to visually show the Angel taking over. I was thinking They can just \u201cattach\u201d or \u201cplug\u201d themselves into the RoR like plugging cords in or something? Be able to naturally combine. Or maybe \u201cweave\u201d their wings into the \u201cfabric of Shibuya\u201d as how AD Joshua describes the RoR.</p>\n\n<p>There was a thought about visually designing an Angel instead of using Hanekoma\u2019s body (sequel I swear if we don\u2019t get more Angels\u2026) but I wasn\u2019t in the mood for it. Hopefully with the idea of using IDs as described above and possession/using his form it doesn\u2019t seem too odd to use Hanekoma.</p>\n\n<p>And how does the HP feel about this? I like to believe They\u2019re against this. Too much intervention, even if it works out. They\u2019re divided on what They should do with this \u201clost\u201d world. Do They descend and apprehend the Fallen Angels? (Was thinking there\u2019s a small(?) group of them doing this.) Or do They sit back, observe and report to other worlds that aren\u2019t a lost cause? And if it\u2019s the second option, are there other Angels that oppose that and interfere? Maybe some Producers neighbouring Shibuya, perhaps?</p>\n\n<p><em>\u201cNo one has ever accused Angels of being in a hurry.\u201d Hah! We\u2019ve got plenty of \u201cShibuya\"s so let\u2019s experiment! If we break one, we\u2019ll just let the Composer fix it, since he loves Shibuya so, so much!</em></p>",
+    "characters": "Joshua, Hanekoma, Earrings",
+    "date": "2021-01-16",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-01-16-possession",
+    "UniqueURLKey": "art/twewy/2021-01-16-possession",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/640494042988396544/possession-ever-think-about-the-natural-state-of"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4421861"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kmq7s54hb72l"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/5024339-possession"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0116-possession\\20210116-possession_pg1f-nDEFV1-pDEFV2-800.jpg",
+        "alt": "The Composer greets a visitor who takes on Hanekoma's face and demands they show their true face instead."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2021\\0116-possession\\20210116-possession_pg2e-nDEFV1-pDEFV2-800.jpg",
+        "alt": "The Composer flies up and away from the throne room chains and fire back white beams from above. The chains cut through the beams, bind the Composer, and bind him to the throne. The Angel smiles and the Composer glares back."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\twewy\\2021\\0116-possession\\20210116-possession_pg3f-nDEFV1-pDEFV2-800.jpg",
+        "alt": "The Angel monologues as their wings merge into the floor and light up the room. They monologue at the Composer as they put him to sleep."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0116-possession\\20210116-thmb-possession.jpg",
+    "thumbnailAlt": "Joshua faces the winged visitor.",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Higher Plane Experimentation",
+        "higher-plane-experimentation"
+      ]
     ]
   },
   {
@@ -245,7 +335,8 @@
     "characters": "Joshua, Neku",
     "date": "2021-01-01",
     "dateYear": "2021",
-    "uniqueUrl": "2021-01-01-Hallucinat",
+    "uniqueUrl": "2021-01-01-hallucinat",
+    "UniqueURLKey": "art/twewy/2021-01-01-hallucinat",
     "spoilers": "yes",
     "urls": [
       {
@@ -285,8 +376,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-thmb-hallucinations-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Scribbly looking Joshua.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -296,7 +394,8 @@
     "characters": "Joshua",
     "date": "2020-11-17",
     "dateYear": "2020",
-    "uniqueUrl": "2020-11-17-Accessoriz",
+    "uniqueUrl": "2020-11-17-accessoriz",
+    "UniqueURLKey": "art/twewy/2020-11-17-accessoriz",
     "spoilers": "yes",
     "urls": [
       {
@@ -323,6 +422,62 @@
         "alt": "Art of Yoshiya Joshua Kiryu from The World Ends With You putting an angel feather in his hair. The feather is glowing. Joshua is wearing a spider lily patterned jacket."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "For You",
+        "for-you"
+      ]
+    ]
+  },
+  {
+    "title": "Home",
+    "summary": "<blockquote>\n        <p>Lonely thoughts they seep, into mind</p>\n        <p>Into me, pushing deep</p>\n        <p>Wash the dirt, a hard days work</p>\n        <p>Know my place</p>\n        <p>On my own</p>\n        <p>No poison in my bones</p>\n        <p></p>\n        <p>On my own</p>\n        <p>This is where I build my home</p>\n        <p>My home,</p>\n        <p>this will always be my home</p>\n        <p></p>\n        <p>I need someone, to hold</p>\n        <p>My home</p>\n        <p>This will always be my home</p>\n</blockquote>\n<p><em>Home - Ellie Goulding</em></p>\n<p>I had a vague comic mind for this song but I didn\u2019t really know what to do for it, so I touched up a piece playing with the Room of Reckoning that\u2019s related in case I don\u2019t get around to it.</p>",
+    "details": "",
+    "characters": "Joshua",
+    "date": "2020-10-15",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-10-15-lonely-tho",
+    "UniqueURLKey": "art/twewy/2020-10-15-lonely-tho",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/632079271494615040/lonely-thoughts-they-seep-into-mind-into-me"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4417177"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kmnnqbfozn27"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/4932781-home"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2020\\1015-home\\20201015-isolation2Shrink-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Zoomed out art of the Composer sitting slumped over on his throne in the Room of Reckoning.  TWEWY's Shibuya's 104 crossing can be seen through the floor."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2020\\1015-home\\20201015-isolation2Shrink_small-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Zoomed in art of the Composer sitting slumped over on his throne in the Room of Reckoning.  TWEWY's Shibuya's 104 crossing can be seen through the floor."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\1015-home\\20201015-thmb-isolation2Shrink_small-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Composer sitting slumped on his throne.",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -334,7 +489,8 @@
     "characters": "Joshua, Kitaniji",
     "date": "2020-10-12",
     "dateYear": "2020",
-    "uniqueUrl": "2020-10-12-Take my ha",
+    "uniqueUrl": "2020-10-12-take-my-ha",
+    "UniqueURLKey": "art/twewy/2020-10-12-take-my-ha",
     "spoilers": "yes",
     "urls": [
       {
@@ -361,6 +517,9 @@
         "alt": "The Composer and Megumi Kitaniji from The World Ends With You. The Composer spreads his arms wide and smiles, taking in the city. He turns towards Kitaniji and holds out a hand to him. Kitaniji takes the Composer's hand and glows."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -372,7 +531,8 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-09-28",
     "dateYear": "2020",
-    "uniqueUrl": "2020-09-28-For you co",
+    "uniqueUrl": "2020-09-28-for-you-co",
+    "UniqueURLKey": "art/twewy/2020-09-28-for-you-co",
     "spoilers": "yes",
     "urls": [
       {
@@ -399,8 +559,17 @@
         "alt": "Art of Yoshiya Joshua Kiryu and Sanae Hanekoma from The World Ends With You. Joshua is handed a glowing. semi-transparent feather, who is wearing a spider lily jacket. Joshua is surprised as he accepts it. Hanekoma is wearing a light tan jacket and is smiling warmly."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "For You",
+        "for-you"
+      ]
     ]
   },
   {
@@ -410,7 +579,8 @@
     "characters": "Neku, Hanekoma",
     "date": "2020-09-09",
     "dateYear": "2020",
-    "uniqueUrl": "2020-09-09-I'm here f",
+    "uniqueUrl": "2020-09-09-im-here-f",
+    "UniqueURLKey": "art/twewy/2020-09-09-im-here-f",
     "spoilers": "yes",
     "urls": [
       {
@@ -435,8 +605,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0909-cnau-nh\\20200909-thmb-NHHug_nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Hanekoma hugs a crying Neku.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -446,7 +623,8 @@
     "characters": "Neku, Joshua, Hanekoma",
     "date": "2020-09-01",
     "dateYear": "2020",
-    "uniqueUrl": "2020-09-01-\"You\u2019re Sh",
+    "uniqueUrl": "2020-09-01-youre-sh",
+    "UniqueURLKey": "art/twewy/2020-09-01-youre-sh",
     "spoilers": "yes",
     "urls": [
       {
@@ -480,8 +658,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-thmb-cNeku2-02-13d-nDEFV1-g20V1-800.jpg",
     "thumbnailAlt": "Neku confronted by Hanekoma.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -491,7 +676,8 @@
     "characters": "Neku, Hanekoma, Shiki, Eri, Beat, Rhyme",
     "date": "2020-08-20",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-20-Ya did wha",
+    "uniqueUrl": "2020-08-20-ya-did-wha",
+    "UniqueURLKey": "art/twewy/2020-08-20-ya-did-wha",
     "spoilers": "yes",
     "urls": [
       {
@@ -525,8 +711,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0820-cnau-theirworld\\20200820-thmb-cNeku_TheirWorld02-03-nDEFV1-gl10V1.jpg",
     "thumbnailAlt": "Hanekoma puts a hand on Neku's shoulder.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -536,7 +729,8 @@
     "characters": "Neku, Joshua",
     "date": "2020-08-15",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-15-Mentor Jos",
+    "uniqueUrl": "2020-08-15-mentor-jos",
+    "UniqueURLKey": "art/twewy/2020-08-15-mentor-jos",
     "spoilers": "yes",
     "urls": [
       {
@@ -561,8 +755,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0815-cNeku3-mentor\\20200815-thmb-cNeku3_mentor-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Thumbnail of Composer Neku AU, with Composer Joshua Kiryu showing Composer Neku music.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -572,7 +773,8 @@
     "characters": "Neku, Hanekoma",
     "date": "2020-08-09",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-09-#TWEWYSpoi",
+    "uniqueUrl": "2020-08-09-twewyspoi",
+    "UniqueURLKey": "art/twewy/2020-08-09-twewyspoi",
     "spoilers": "yes",
     "urls": [
       {
@@ -606,8 +808,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0809-cnau-concept\\20200809-cNeku2-thmb-ThemNow-niDEFV1-gl10V1.jpg",
     "thumbnailAlt": "Composer Neku in young human form.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -617,7 +826,8 @@
     "characters": "Joshua, Neku",
     "date": "2020-08-04",
     "dateYear": "2020",
-    "uniqueUrl": "2020-08-04-\"Life\u2019s li",
+    "uniqueUrl": "2020-08-04-lifes-li",
+    "UniqueURLKey": "art/twewy/2020-08-04-lifes-li",
     "spoilers": "yes",
     "urls": [
       {
@@ -651,8 +861,15 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0804-cnau-crossroads\\20200804-thmb-composerNeku02_06-nDEFV1-gl10V1-800.jpg",
     "thumbnailAlt": "Frustrated Composer.",
+    "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
     ]
   },
   {
@@ -662,7 +879,8 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-06-19",
     "dateYear": "2020",
-    "uniqueUrl": "2020-06-19-Josh, wait",
+    "uniqueUrl": "2020-06-19-josh-wait",
+    "UniqueURLKey": "art/twewy/2020-06-19-josh-wait",
     "spoilers": "yes",
     "urls": [
       {
@@ -689,6 +907,9 @@
         "alt": "Yoshiya Joshua Kiryu and Sanae Hanekoma from The World Ends With You at sunset. Joshua is mid gesture when Hanekoma places a hand on his shoulder, gently pulling him back. Hanekoma looks dead ahead with a serious and slightly displeased expression. His eyes and writstwatch glow yellow-orange and the top of his hair goes over the top border."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -700,7 +921,8 @@
     "characters": "Joshua",
     "date": "2020-05-26",
     "dateYear": "2020",
-    "uniqueUrl": "2020-05-26-Do Not #TW",
+    "uniqueUrl": "2020-05-26-do-not-tw",
+    "UniqueURLKey": "art/twewy/2020-05-26-do-not-tw",
     "spoilers": "yes",
     "urls": [
       {
@@ -742,6 +964,9 @@
         "alt": "Art of the Composer from The World Ends With You. He's glowing in grayscale, head tilted up and looking down at the viewer with fury in his eyes. He's extremely glowy so it's difficult to make out his features."
       }
     ],
+    "thumbnailUrl": "",
+    "thumbnailAlt": "",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -753,7 +978,8 @@
     "characters": "Joshua, Hanekoma",
     "date": "2020-04-25",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-25-Some thing",
+    "uniqueUrl": "2020-04-25-some-thing",
+    "UniqueURLKey": "art/twewy/2020-04-25-some-thing",
     "spoilers": "Yes",
     "urls": [
       {
@@ -775,6 +1001,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0425-firstsmile\\20200425-01-joshFirstSmile-nDEFV1-pDEF2.jpg",
     "thumbnailAlt": "Composer Joshua asks, \"Why do you have that?\" Hanekoma replies \"It's the first time I got you to smile.\"",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -786,7 +1013,8 @@
     "characters": "Joshua",
     "date": "2020-04-11",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-11-Watching o",
+    "uniqueUrl": "2020-04-11-watching-o",
+    "UniqueURLKey": "art/twewy/2020-04-11-watching-o",
     "spoilers": "Yes",
     "urls": [
       {
@@ -803,6 +1031,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0411-watchOver\\20200411-thmb-watching-nDEFV1-pDEV2.jpg",
     "thumbnailAlt": "Art of Composer Joshua looking down from a high building's railing.",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]
@@ -814,7 +1043,8 @@
     "characters": "Joshua",
     "date": "2020-04-04",
     "dateYear": "2020",
-    "uniqueUrl": "2020-04-04-Older Josh",
+    "uniqueUrl": "2020-04-04-older-josh",
+    "UniqueURLKey": "art/twewy/2020-04-04-older-josh",
     "spoilers": "Yes",
     "urls": [
       {
@@ -841,6 +1071,7 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\0404-scribbleJosh\\20200404-02-josh2Older02-nDEFV1-pDEFV2.jpg",
     "thumbnailAlt": "Art of older Joshua from The World Ends With You, with his body slightly warped.",
+    "vids": [],
     "fandom": [
       "TWEWY"
     ]

@@ -6,5 +6,10 @@ public
 
 # excel data file
 data_conversion/Where Is My Art.xlsx
+
+# src resources
 src/img/
+src/vid/
+
+# other
 .cache/eleventy-fetch-771e2ee768352bc06ce998c0240241
