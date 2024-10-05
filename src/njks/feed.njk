@@ -1,44 +1,44 @@
-{# ---json
+---json
 {
   "permalink": "feed.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
-    "title": "My Blog about Boats",
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "title": "Gramophone Turtle's RSS Feed",
+    "description": "Site, New Art and Archive Art.",
     "language": "en",
-    "url": "http://gramophoneturtle.neocities.com/",
+    "base": "http://gramophoneturtle.neocities.com/",
     "author": {
       "name": "Sal @ Gramophone Turtle",
       "email": "gramophoneturtle@gmail.com"
     }
   }
 }
---- #}
+---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="feed.xml">
-	<title>Gramophone Turtle - All</title>
-	<subtitle>Site, New Art and Archive Art</subtitle>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+	<title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
 	<link href="http://gramophoneturtle.neocities.com" rel="self" />
-	<link href="http://gramophoneturtle.neocities.com" />
 	
-	<id>{{ metadata.url }}</id>
-	<author>
-		<name>Sal @ Gramophone Turtle</name>
-		<email>gramophoneturtle@gmail.com</email>
-	</author>
+	<lastBuildDate>
+		Mon, 30 Sep 2024 00:59:58 +0000
+	 </lastBuildDate>
+
+	<id>{{ metadata.base }}</id>
+
 	{%- for post in collections.UpdatePosts %} 
 		<entry>
-			
 			<id>{{ post.url }}</id>
-
-
 			<title>{{ post.data.posts.PostDate }} Update</title>
 			<url>{{ post.url }}</url>
 			<description>
 				{% set singlePost = post %}
 				{% include 'partials/update-content.njk' %}
 			</description>
+			<pubDate>
+				{# {{ post.data.posts.PostDate | dateToRfc3339 }} #}
+				Mon, 30 Sep 2024 00:59:58 +0000
+			</pubDate>
 		</entry>
 	{%- endfor %}
 </feed>
