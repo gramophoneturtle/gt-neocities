@@ -312,6 +312,17 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     print(" 4. Completed!\n")
 
 if __name__ == '__main__':
+
+    # Read currently existing TWEWY related series information
+    # ex: banner stuff + alt text
+    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    with open(file_path_output, 'r') as file:
+        test_rel_series = json.load(file)
+
+    twewy_related_series_list = RelatedSeriesList()
+    twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
+
+    # READ EXCEL FILE
     # TWEWY OG
     file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
     main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
@@ -334,7 +345,6 @@ if __name__ == '__main__':
     main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
 
     # Write Related Series JSON
-    
     # Sort Series Enrties by index
     twewy_related_series_list.sortSeriesEntries()
 
@@ -344,11 +354,9 @@ if __name__ == '__main__':
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(nested_json)
     
-
     # Persona 5 Sheet
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
     # main('Other', file_path_output)
-
 
     print("\nMAIN: C O M P L E T E!\n")
 

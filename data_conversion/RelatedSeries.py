@@ -6,6 +6,25 @@ class RelatedSeriesList:
     def __init__(self):
         self.Series = []
 
+    def loadSeriesOnlyFromJson(self, json):
+        self.Series = []
+        
+        # for each series
+        for item_series in json:
+            # see if RelatedSeries alreayd exists
+            index_dict = self.find_rel_dict_ser_name_index(item_series["SeriesName"])
+
+            if index_dict == -1:
+                rel_dictionary = RelatedSeries(item_series["SeriesName"], 
+                                               thumbnailURL = item_series["ThumbnailURL"],
+                                               thumbnailAlt = item_series["ThumbnailAlt"])
+                
+                #reset here so it's not [ [] ] - will make it better later
+                rel_dictionary.SeriesEntries = []
+                
+                # Add with defaults
+                self.Series.append(rel_dictionary)
+
     def find_rel_dict_ser_name_index(self, value):
         for i, dic in enumerate(self.Series):
             if dic.SeriesName == value:
@@ -48,10 +67,14 @@ class RelatedSeries:
     SeriesName = ""
     SeriesURL = ""
     SeriesEntries = []
+    ThumbnailURL = ""
+    ThumbnailAlt = ""
 
-    def __init__(self, name, new_entry):
+    def __init__(self, name, new_entry = [], thumbnailURL = "", thumbnailAlt = ""):
         self.SeriesName = name
         self.SeriesURL = utility.urlify(name)
+        self.ThumbnailURL = thumbnailURL
+        self.ThumbnailAlt = thumbnailAlt
         self.SeriesEntries = [ new_entry ]
 
 class RelatedEntry:
