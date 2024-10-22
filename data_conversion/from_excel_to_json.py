@@ -202,40 +202,41 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         # IMAGES -------------------------------------------------
         artwork_dictionary['imgs'] = make_img_list(row)
 
-        # Add Image thumbnail and alt text if present
-        artwork_dictionary['thumbnailUrl'] = ""
-        artwork_dictionary['thumbnailAlt'] = ""
-        if row['IMG THMB'] != "" or row['ALT THMB'] != "":
-            if row['IMG THMB'] == "":
-                print("    IMG THMB is missing for |{0}|".format(artworkname))
-            elif row['ALT THMB'] == "":
-                print("    ALT THMB is missing for |{0}|".format(artworkname))
-            else:
-                artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
-                artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
-
         # CHECK IF HAVE MINIMUM -----------------------------------
         # Add if img + alt was found, otherwise, print warning message
         if artwork_dictionary['imgs']:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
+
+            # Add Image thumbnail and alt text if present
+            artwork_dictionary['thumbnailUrl'] = ""
+            artwork_dictionary['thumbnailAlt'] = ""
+            if row['IMG THMB'] != "" or row['ALT THMB'] != "":
+                if row['IMG THMB'] == "":
+                    print("    IMG THMB is missing for |{0}|".format(artworkname))
+                elif row['ALT THMB'] == "":
+                    print("    ALT THMB is missing for |{0}|".format(artworkname))
+                else:
+                    artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
+                    artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
+
+            # VIDEOS -------------------------------------------------
+            artwork_dictionary['vids'] = make_vid_list(row)
+
+            # FANDOM LISTING -----------------------------------------
+            artwork_dictionary['fandom'] = row['fandom'].split(",")
+
+            # List of related artworks
+            # Add Image thumbnail and alt text if present
+            if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
+                update_related_dictionary(row, artwork_dictionary)
+                
+                # Add to artwork so it can link back! Complex List of Lists
+                artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
         else:
             print("    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
 
-        # VIDEOS -------------------------------------------------
-        artwork_dictionary['vids'] = make_vid_list(row)
-
-         # FANDOM LISTING -----------------------------------------
-        artwork_dictionary['fandom'] = row['fandom'].split(",")
-
-        # List of related artworks
-        # Add Image thumbnail and alt text if present
-        if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
-            update_related_dictionary(row, artwork_dictionary)
-            
-            # Add to artwork so it can link back! Complex List of Lists
-            artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
-
+       
     return_list.append(tmp_dict)
     return return_list
 

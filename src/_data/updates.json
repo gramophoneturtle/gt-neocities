@@ -1,5 +1,41 @@
 [
     {
+        "PostDate": "2024-10-25"
+        ,"ArtSummary": "Composer Neku Artwork"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Said you wanted to watch CAT work?",
+                        "URL": "/art/twewy/2021-05-16-said-you/"
+                    },
+                    {
+                        "Title": "Hobbies are important to have, Phones.",
+                        "URL": "/art/twewy/2021-04-21-hobbies-ar/"
+                    },
+                    {
+                        "Title": "Chill Time - Watching CAT Work",
+                        "URL": "/art/twewy/2021-01-10-chill-time/"
+                    },
+                    {
+                        "Title": "It’s going to be a zetta fun time, Feathers!",
+                        "URL": "/art/twewy/2021-06-13-its-going/"
+                    }
+                ]
+            },
+            {
+                "Category": "NEO TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Hazuki Anime Photoshops",
+                        "URL": "/art/twewy/2023-10-05-hazuki-ani/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-10-04"
         ,"ArtSummary": "TWEWY - finished added Hoodie Buddies series."
         ,"ArtList": [
