@@ -63,6 +63,13 @@
         "ThumbnailAlt": "Scribbly looking Joshua."
       },
       {
+        "Index": 6,
+        "Name": "I\u2019m here for you too.",
+        "URL": "art/twewy/2020-09-15-im-here-f",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0915-cnau-heretoo\\20200915-thmb-hereToo02_04-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma and Composer Neku."
+      },
+      {
         "Index": 10,
         "Name": "\u201cSaid you wanted to watch CAT work?\u201d",
         "URL": "art/twewy/2021-05-16-said-you",
@@ -103,6 +110,13 @@
         "URL": "art/twewy/2020-08-15-mentor-jos",
         "ThumbnailURL": "\\img\\art\\twewy\\2020\\0815-cNeku3-mentor\\20200815-thmb-cNeku3_mentor-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Thumbnail of Composer Neku AU, with Composer Joshua Kiryu showing Composer Neku music."
+      },
+      {
+        "Index": 201,
+        "Name": "Act A Friend",
+        "URL": "art/twewy/2022-10-12-act-a-frie",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\1012-cnau-haz\\20221012-thmb-cNekuMeetingHaz02_02a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Neku and Hazuki"
       }
     ]
   },
