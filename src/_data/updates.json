@@ -1,7 +1,7 @@
 [
     {
         "PostDate": "2024-10-26: Composer Neku Artwork, new Hanekoma piece, new friend link"
-        ,"Site": "New friend link! Some backend rework for loading related series, so it's mostly an artwork dump for what you'll actually see!"
+        ,"Site": "New friend link! Some backend rework for loading related series, so it's mostly an artwork dump for what you'll actually see! And I fixed the CSS for artwork thumbnail titles for mobile so they aren't so big and get cut off."
         ,"ArtSummary": "Composer Neku Artwork, new Hanekoma piece, new friend link"
         ,"ArtList": [
             {

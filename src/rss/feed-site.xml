@@ -5,9 +5,26 @@
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
           <lastBuildDate>
-               Sat, 05 Oct 2024 03:24:13 +0000
+               Sun, 27 Oct 2024 02:36:31 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
+
+        <item>
+            <title>2024-10-26: Composer Neku Artwork, new Hanekoma piece, new friend link.</title>
+            <description>
+                &lt;div class=&quot;updatepost&quot;&gt;
+                    &lt;p class=&quot;header&quot;&gt;
+                    2024-10-26: Composer Neku Artwork, new Hanekoma piece, new friend link
+                    &lt;/p&gt;
+                        &lt;p class=&quot;subheader&quot;&gt;Site&lt;/p&gt;
+                        &lt;p&gt;New friend link! Some backend rework for loading related series, so it's mostly an artwork dump for what you'll actually see! And I fixed the CSS for artwork thumbnail titles for mobile so they aren't so big and get cut off.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
+                &lt;/div&gt;
+            </description>
+            <link>https://gramophoneturtle.neocities.org/updates/2024-10-26-composer-neku-artwork-new-hanekoma-piece-new-friend-link/</link>
+            <pubDate>
+                Sun, 27 Oct 2024 02:36:31 +0000
+            </pubDate>
+        </item>
         <item>
             <title>2024-10-04: Related/AU section for art added! Plus more art.</title>
             <description>

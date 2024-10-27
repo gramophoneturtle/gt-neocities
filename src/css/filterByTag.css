@@ -83,6 +83,13 @@
     }
 }
 
+/* Reduce artwork thumbnail title font size on mobile */
+@media only screen and (max-width: 720px) {
+    .content .desc {
+      font-size: small;
+    }
+  }
+
 .spoilers {
     a {
         font-weight: 600;
