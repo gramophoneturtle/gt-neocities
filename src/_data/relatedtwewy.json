@@ -2,6 +2,8 @@
   {
     "SeriesName": "Fan Art of Fan Work",
     "SeriesURL": "fan-art-of-fan-work",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -54,6 +56,41 @@
         "ThumbnailAlt": "Hanekoma hugs a crying Neku."
       },
       {
+        "Index": 5,
+        "Name": "Hallucinations",
+        "URL": "art/twewy/2021-01-01-hallucinat",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-thmb-hallucinations-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Scribbly looking Joshua."
+      },
+      {
+        "Index": 6,
+        "Name": "I\u2019m here for you too.",
+        "URL": "art/twewy/2020-09-15-im-here-f",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0915-cnau-heretoo\\20200915-thmb-hereToo02_04-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma and Composer Neku."
+      },
+      {
+        "Index": 10,
+        "Name": "\u201cSaid you wanted to watch CAT work?\u201d",
+        "URL": "art/twewy/2021-05-16-said-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0516-cnau-canwatch\\20210516-thmb-iCanWatchYouWork-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma"
+      },
+      {
+        "Index": 11,
+        "Name": "Chill Time - Watching CAT Work.",
+        "URL": "art/twewy/2021-01-10-chill-time",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0110-cnau-catwork\\20210110-thmb-NekuComforts03-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma and Composer Neku"
+      },
+      {
+        "Index": 12,
+        "Name": "Hobbies are important to have, Phones.",
+        "URL": "art/twewy/2021-04-21-hobbies-ar",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0421-cnau-hobbies\\20210421-thmb-hobbies05a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Neku"
+      },
+      {
         "Index": 101,
         "Name": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
         "URL": "art/twewy/2020-08-04-lifes-li",
@@ -75,17 +112,19 @@
         "ThumbnailAlt": "Thumbnail of Composer Neku AU, with Composer Joshua Kiryu showing Composer Neku music."
       },
       {
-        "Index": 104,
-        "Name": "Hallucinations",
-        "URL": "art/twewy/2021-01-01-hallucinat",
-        "ThumbnailURL": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-thmb-hallucinations-nDEFV1-pDEFV2.jpg",
-        "ThumbnailAlt": "Scribbly looking Joshua."
+        "Index": 201,
+        "Name": "Act A Friend",
+        "URL": "art/twewy/2022-10-12-act-a-frie",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\1012-cnau-haz\\20221012-thmb-cNekuMeetingHaz02_02a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Neku and Hazuki"
       }
     ]
   },
   {
     "SeriesName": "Higher Plane Experimentation",
     "SeriesURL": "higher-plane-experimentation",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 20210116,
@@ -99,6 +138,8 @@
   {
     "SeriesName": "For You",
     "SeriesURL": "for-you",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 1,
@@ -119,6 +160,8 @@
   {
     "SeriesName": "Hoodie Buddies",
     "SeriesURL": "hoodie-buddies",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 1,
@@ -174,6 +217,8 @@
   {
     "SeriesName": "TWEWYTOBER2021",
     "SeriesURL": "twewytober2021",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 1314,
@@ -194,6 +239,8 @@
   {
     "SeriesName": "Anime Photoshops",
     "SeriesURL": "anime-photoshops",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 1,
@@ -201,12 +248,21 @@
         "URL": "art/twewy/2023-08-21-neo-joshua",
         "ThumbnailURL": "\\img\\art\\twewy\\2023\\0821-neojosh\\20230821-thmb-NEOJosh-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "A screenshot edit of Joshua from The World Ends With You Animation to make it look like his NEO self. He looks very serious."
+      },
+      {
+        "Index": 2,
+        "Name": "Hazuki Anime Photoshops",
+        "URL": "art/twewy/2023-10-05-hazuki-ani",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\1005-animehaz\\20231005-thmb-AmimeEditsNEO_Haz18a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Anime Hazuki."
       }
     ]
   },
   {
     "SeriesName": "Happy Birthday",
     "SeriesURL": "happy-birthday",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 505,
@@ -220,6 +276,8 @@
   {
     "SeriesName": "A Healthy Dose of Chaos",
     "SeriesURL": "a-healthy-dose-of-chaos",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -240,6 +298,8 @@
   {
     "SeriesName": "OFF",
     "SeriesURL": "off",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -253,6 +313,8 @@
   {
     "SeriesName": "NEO Higher Plane Experimentation",
     "SeriesURL": "neo-higher-plane-experimentation",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -274,6 +336,21 @@
         "URL": "art/twewy/2021-11-22-hanekoma",
         "ThumbnailURL": "",
         "ThumbnailAlt": ""
+      }
+    ]
+  },
+  {
+    "SeriesName": "Composer Minamimoto AU",
+    "SeriesURL": "composer-minamimoto-au",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "It\u2019s going to be a zetta fun time, Feathers!",
+        "URL": "art/twewy/2021-06-13-its-going",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0613-ShoTime\\20210613-thmb-itsShoTimeFeathersFIN-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Minamimoto."
       }
     ]
   }

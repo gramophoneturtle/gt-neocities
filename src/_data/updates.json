@@ -1,5 +1,59 @@
 [
     {
+        "PostDate": "2024-10-26: Composer Neku Artwork, new Hanekoma piece, new friend link"
+        ,"Site": "New friend link! Some backend rework for loading related series, so it's mostly an artwork dump for what you'll actually see! And I fixed the CSS for artwork thumbnail titles for mobile so they aren't so big and get cut off."
+        ,"ArtSummary": "Composer Neku Artwork, new Hanekoma piece, new friend link"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Purfect Painting Pose",
+                        "URL": "/art/twewy/2024-10-26-purfect-pa/"
+                    }
+                ]
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "I'm here for you too.",
+                        "URL": "/art/twewy/2020-09-15-im-here-f/"
+                    },
+                    {
+                        "Title": "Said you wanted to watch CAT work?",
+                        "URL": "/art/twewy/2021-05-16-said-you/"
+                    },
+                    {
+                        "Title": "Hobbies are important to have, Phones.",
+                        "URL": "/art/twewy/2021-04-21-hobbies-ar/"
+                    },
+                    {
+                        "Title": "Chill Time - Watching CAT Work",
+                        "URL": "/art/twewy/2021-01-10-chill-time/"
+                    },
+                    {
+                        "Title": "It’s going to be a zetta fun time, Feathers!",
+                        "URL": "/art/twewy/2021-06-13-its-going/"
+                    }
+                ]
+            },
+            {
+                "Category": "NEO TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Hazuki Anime Photoshops",
+                        "URL": "/art/twewy/2023-10-05-hazuki-ani/"
+                    },
+                    {
+                        "Title": "Act A Friend",
+                        "URL": "/art/twewy/2022-10-12-act-a-frie/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-10-04"
         ,"ArtSummary": "TWEWY - finished added Hoodie Buddies series."
         ,"ArtList": [
