@@ -1,8 +1,25 @@
 [
     {
+        "PostDate": "2024-10-27"
+        ,"Site": ""
+        ,"OCs": "Father - Added Relationship for Null's Conductor which contains potential glove lore! For Father, Mother and Null, added a Banner/Stamp section! TOC for characters will only contain links to sections with content."
+        ,"ArtSummary": ""
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Don't",
+                        "URL": "/art/twewy/2020-09-24-donttwew/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-10-26: Composer Neku Artwork, new Hanekoma piece, new friend link"
         ,"Site": "New friend link! Some backend rework for loading related series, so it's mostly an artwork dump for what you'll actually see! And I fixed the CSS for artwork thumbnail titles for mobile so they aren't so big and get cut off."
-        ,"ArtSummary": "Composer Neku Artwork, new Hanekoma piece, new friend link"
+        ,"ArtSummary": "Composer Neku Artwork, new Hanekoma piece"
         ,"ArtList": [
             {
                 "Category": "TWEWY",

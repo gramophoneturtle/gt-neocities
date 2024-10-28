@@ -29,6 +29,13 @@
     "SeriesEntries": [
       {
         "Index": 1,
+        "Name": "Don't",
+        "URL": "art/twewy/2020-09-24-donttwew",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0924-cnau-dont\\20200924-thmb-cNeku_Dont_v2_combined-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Neku"
+      },
+      {
+        "Index": 1,
         "Name": "You\u2019re Shibuya\u2019s new Composer now.",
         "URL": "art/twewy/2020-09-01-youre-sh",
         "ThumbnailURL": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-thmb-cNeku2-02-13d-nDEFV1-g20V1-800.jpg",

@@ -749,6 +749,50 @@
     ]
   },
   {
+    "title": "Don't",
+    "summary": "Played around with adding stars/particles to his aura when adding color.Also...don't cross Composer Neku. Very spiky.",
+    "details": "",
+    "characters": "Neku",
+    "date": "2020-09-24",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-09-24-donttwew",
+    "UniqueURLKey": "art/twewy/2020-09-24-donttwew",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/630188546680045568/dont-been-thinking-of-adding-starsparticles-to"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5508353"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l7k6ui4bij2d"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2020\\0924-cnau-dont\\20200924-cNeku_Dont_v2_combined-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Art of 3 Composer Nekus with his bright form turning very spiky with sparkles. The left one is a bight purple-blue vivid colour. The middle is a less purple-blue colour. The right most one is more blue."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0924-cnau-dont\\20200924-thmb-cNeku_Dont_v2_combined-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Composer Neku",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
+    ]
+  },
+  {
     "title": "I\u2019m here for you too.",
     "summary": "Really I just wanted to have Neku give Hanekoma a hug but then a comic \nhappened. Maybe with more dialogue than necessary. Some Composer Neku AU\n context below.",
     "details": "<ul><li>This would be like a second half/mirroring a conversation about Hanekoma being there for Neku and how they need to open and honest with each other</li><li>Neku knows what Hanekoma did during the Game (whether Hanekoma confessed on his own or Neku figured out he was hiding something and prodded him about it) but the Higher Plane hasn\u2019t done anything or don\u2019t know about Hanekoma yet\u2026I think is where I want to go with this? Point is Neku knows that there\u2019s a chance they might take him away, permanently or temporarily, or something, and maybe without warning</li><li>Joshua is a touchy subject for them both. Hanekoma is pretty good about Joshua being brought up, but for Neku it\u2019s entirely dependent on his mood. It\u2019s gotten easier for Neku as time passes but it\u2019s not easy</li><li>Working on it made me think about how this AU would be a neat way to explore how Neku and Hanekoma would develop and move on from their losses. Something to think about/revisit</li></ul>",
@@ -1133,12 +1177,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "https://64.media.tumblr.com/6bcbe7c1018199627ad44ec13c4c7a03/bf6d0e2abd0beca9-92/s1280x1920/c8e929bbeef4f17bcc81c786b6d58b8ff716667c.png",
+        "url": "\\img\\art\\twewy\\2020\\0619-joshwait\\20200619-whatDoYou_01-nDEFV1-g10V1-800.jpg",
         "alt": "Yoshiya Joshua Kiryu and Sanae Hanekoma from The World Ends With You at sunset. Joshua is mid gesture when Hanekoma places a hand on his shoulder, gently pulling him back. Hanekoma looks dead ahead with a serious and slightly displeased expression. His eyes and writstwatch glow yellow-orange and the top of his hair goes over the top border."
       }
     ],
-    "thumbnailUrl": "",
-    "thumbnailAlt": "",
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0619-joshwait\\20200619-thmb-whatDoYou_01-nDEFV1-g10V1.jpg",
+    "thumbnailAlt": "Joshua",
     "vids": [],
     "fandom": [
       "TWEWY"
