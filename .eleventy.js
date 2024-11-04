@@ -27,7 +27,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/rss");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
-	eleventyConfig.addPlugin(pluginRss);
+
+// rss?
+
+  eleventyConfig.addPlugin(pluginRss);
 
 
 //   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {

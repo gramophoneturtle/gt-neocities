@@ -14,13 +14,30 @@ layout: /layouts/base
   <summary>Contents</summary>
   <ul>
     <li><a href="#general">General</a></li>
-    <li><a href="#likes">Likes</a></li>
-    <li><a href="#dislikes">Dislikes</a></li>
-    <li><a href="#history">History</a></li>
-    <li><a href="#relationships">Relationships</a></li>
+
+    {%- if ocs.Likes.length %}
+      <li><a href="#likes">Likes</a></li>
+    {%- endif -%}
+    {%- if ocs.Disikes.length %}
+      <li><a href="#dislikes">Dislikes</a></li>
+    {%- endif -%}
+
+    {%- if ocs.History.length %}
+      <li><a href="#history">History</a></li>
+    {%- endif -%}
+    {%- if ocs.Relationships.length %}
+      <li><a href="#relationships">Relationships</a></li>
+    {%- endif -%}
+
     <li><a href="#artwork">Artwork</a></li>
     <li><a href="#writing">Writing</a></li>
-    <li><a href="#inspirations">Inspirations</a></li>
+
+    {%- if ocs.Inspirations.length %}
+      <li><a href="#inspirations">Inspirations</a></li>
+    {%- endif -%}
+    {%- if ocs.BannerButtonStampList.length %}
+      <li><a href="#banners">Banners and Icons</a></li>
+    {%- endif -%}
   </ul>
 </details>
 <h2 id="general">General</h2>
@@ -71,28 +88,36 @@ layout: /layouts/base
   </div>
 {%- endif -%}
 
+{%- if ocs.Likes.length %}
 <h2 id="likes">Likes</h2>
   <ul>
       {%- for item in ocs.Likes %}
       <li>{{ item }}</li>
       {% endfor -%}
   </ul>
-  <h2 id="dislikes">Dislikes</h2>
+{% endif %}
+
+{%- if ocs.Dislikes.length %}
+<h2 id="dislikes">Dislikes</h2>
   <ul>
       {%- for item in ocs.Dislikes %}
       <li>{{ item }}</li>
       {% endfor -%}
   </ul>
+{% endif %}
 
-<h2 id="history">History</h2>
-      {%- for item in ocs.History %}
-      <h3 class="noBottomBorder">{{ item.Header }}</h3>
+{%- if ocs.History.length %}
+  <h2 id="history">History</h2>
+  {%- for item in ocs.History %}
+  <h3 class="noBottomBorder">{{ item.Header }}</h3>
 
-      {%- for entry in item.SubSections %}
-        <p>{{ entry | safe }}</p>
-      {% endfor -%}
+    {%- for entry in item.SubSections %}
+      <p>{{ entry | safe }}</p>
+    {% endfor -%}
   {% endfor -%}
+{% endif %}
 
+{%- if ocs.Relationships.length %}
 <h2 id="relationships">Relationships</h2>
   {%- for item in ocs.Relationships %}
     <details>
@@ -107,7 +132,7 @@ layout: /layouts/base
       {% endfor -%}
     </details>
   {% endfor -%}
-
+  {% endif %}
 
 <h2 id="artwork">Artwork</h2>
   <ul>
@@ -135,8 +160,8 @@ layout: /layouts/base
     {% endfor %}
   </ul>
 
-<h2 id="inspirations">Inspirations</h2>
-  {%- if ocs.Inspirations.length %}
+{%- if ocs.Inspirations.length %}
+  <h2 id="inspirations">Inspirations</h2>
     {%- for item in ocs.Inspirations %}
     <details>
       <summary>{{ item.Name }} from {{ item.Source }}</summary>
@@ -156,6 +181,15 @@ layout: /layouts/base
       {%- endif -%}
     </details>
     {% endfor -%}
-  {%- else -%}
-    <p>None...Yet?</p>
+  {%- endif -%}
+
+  {%- if ocs.BannerButtonStampList.length %}
+  <h2 id="banners">Banners and Icons</h2>
+  <p>Here are some banners and stamps! Anyone can make these and I'll put them here for anyone to add to their own site!</p>
+  {%- for item in ocs.BannerButtonStampList %}
+    <figure>
+      <img src="{{ item.URL }}"> 
+      <figcaption>Type: {{item.ImgType}}, {{item.MediaType}}. Credit: {{item.Credit}}</figcaption>
+    </figure>
+  {% endfor -%}
   {%- endif -%}

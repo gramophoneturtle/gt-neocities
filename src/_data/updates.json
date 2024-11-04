@@ -1,8 +1,43 @@
 [
     {
+        "PostDate": "2024-11-03"
+        ,"date": "2024-11-03"
+        ,"OCs": "Father - Added Relationship for Null's Conductor which contains potential glove lore! For Father, Mother and Null, added a Banner/Stamp section! TOC for characters will only contain links to sections with content."
+        ,"ArtSummary": ""
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Don't",
+                        "URL": "/art/twewy/2020-09-24-donttwew/"
+                    },
+                    {
+                        "Title": "Hello There...!",
+                        "URL": "/art/twewy/2024-10-29-hello-ther/"
+                    }
+                ]
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Thank You - Hazuki",
+                        "URL": "/art/twewy/2024-03-12-thank-you"
+                    },
+                    {
+                        "Title": "An Order of Mews for Joshua!",
+                        "URL": "art/twewy/2024-11-01-an-order-o"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-10-26: Composer Neku Artwork, new Hanekoma piece, new friend link"
+        ,"date": "2024-10-26"
         ,"Site": "New friend link! Some backend rework for loading related series, so it's mostly an artwork dump for what you'll actually see! And I fixed the CSS for artwork thumbnail titles for mobile so they aren't so big and get cut off."
-        ,"ArtSummary": "Composer Neku Artwork, new Hanekoma piece, new friend link"
+        ,"ArtSummary": "Composer Neku Artwork, new Hanekoma piece"
         ,"ArtList": [
             {
                 "Category": "TWEWY",
@@ -55,6 +90,7 @@
     },
     {
         "PostDate": "2024-10-04"
+        ,"date": "2024-10-04"
         ,"ArtSummary": "TWEWY - finished added Hoodie Buddies series."
         ,"ArtList": [
             {
@@ -97,6 +133,7 @@
     },
     {
         "PostDate": "2024-09-29"
+        ,"date": "2024-09-29"
         ,"ArtList": [
             {
                 "Category": "NEO TWEWY",
@@ -133,6 +170,7 @@
     },
     {
         "PostDate": "2024-09-24"
+        ,"date": "2024-09-24"
         ,"ArtList": [
             {
                 "Category": "NEO TWEWY",
@@ -161,6 +199,7 @@
     },
     {
         "PostDate": "2024-09-11"
+        ,"date": "2024-09-11"
         ,"ArtList": [
             {
                 "Category": "TWEWY Spoilers",
@@ -189,6 +228,7 @@
     },
     {
         "PostDate": "2024-09-06: Artwork from 2020"
+        ,"date": "2024-09-06"
         ,"ArtList": [
             {
                 "Category": "TWEWY Spoilers",

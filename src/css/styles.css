@@ -146,6 +146,23 @@ p.less-margin-padding {
   margin-bottom: 0.75rem;
 }
 
+/* || CAPTIONS - General. Currently used for OC banners */
+figure {
+  border-radius: var(--standard-border-radius);
+  border: var(--border) 1px solid;
+  margin: 0.2rem;
+
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+
+  max-width: 30%;
+
+  figcaption {
+    margin-block: 0.25rem;
+  }
+}
+
+
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {
   h1 {
@@ -230,7 +247,7 @@ a:hover {
   }
 }
 
-/* || OC NAV */
+/* || OC NAV ---------------------------------------- */
 .nav-oc-group {
   padding: 0rem 0.5rem;
   margin-bottom: 0.5rem;
@@ -686,6 +703,14 @@ div.desc {
 }
 
 /* || RELATED SERIES - Thumbnail and title */
+
+.img-banner {
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+
+}
+
 .related-series-entry {
   border: var(--null-background-container-border) 3px solid;
   border-radius: var(--standard-border-radius);
