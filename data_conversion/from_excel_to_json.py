@@ -13,14 +13,6 @@ from models.ArtworkCategory import ArtworkCategory
 # Excel Database Filename
 filename_input = "Where Is My Art.xlsx"
 
-# GENERATE - TWEWY JSON Files
-filename_output_twewy_og_all = "twewy-art.json"
-filename_output_twewy_og_nospoilers = "twewy-art-spoiler-free.json"
-filename_output_twewy_neo_all = "twewy-neo-art.json"
-filename_output_twewy_neo_nospoilers = "twewy-neo-art-spoiler-free.json"
-filename_output_twewy_series_all = "twewy-series.json"
-filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
-
 # GENERATE - PERSONA 5 JSON Files
 filename_output_p5 = "art-persona5.json"
 filename_output_p5_nospoilers = "art-persona5-spoiler-free.json"
