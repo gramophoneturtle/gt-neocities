@@ -12,6 +12,12 @@ const Image = require("@11ty/eleventy-img");
 // 	console.log(stats);
 // })();
 
+
+
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
+
+
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -20,6 +26,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/rss");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
+
+
+// rss?
+
+  eleventyConfig.addPlugin(pluginRss);
+
 
 //   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 // 		// which file extensions to process

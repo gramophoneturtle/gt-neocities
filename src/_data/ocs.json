@@ -17,7 +17,26 @@
 
         "ImageHeader": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
-        "BannerButtons": ["https://gramophoneturtle.neocities.org/img/buttons/FatherFan.gif"],
+        "BannerButtonStampList": [
+                {
+                    "URL": "/img/banners/FatherFan_88x31.gif",
+                    "Credit": "LeGaosaure",
+                    "ImgType": "88x31",
+                    "MediaType": "gif"
+                },
+                {
+                    "URL": "/img/banners/FatherFan_Static.png",
+                    "Credit": "LeGaosaure",
+                    "ImgType": "88x31",
+                    "MediaType": "png"
+                },
+                {
+                    "URL": "/img/banners/Father_Stamp.gif",
+                    "Credit": "LeGaosaure",
+                    "ImgType": "Stamp",
+                    "MediaType": "gif"
+                }
+        ],
 
         "History": [
             {
@@ -64,6 +83,15 @@
                     ,"You would accept them once again, even though they left you once before? Understandable. If they couldn't handle the dissonance of addressing you by a Name instead of by a Status... Even Chisa can manage it."
                     ,"You want a name. For youself, and for everyone else."
                     ,"Go on. Finish your experiment and then finally leave me alone. How dare you bring Chisa back into my life, knowing that she could be ripped away so easily?"
+                ]
+            },
+            {
+                "Name": "Null's Conductor",
+                "DescriptionList": [
+                    "A Reaper with an affinity for some white formed plants with stained glass petals and leaves in her Noise form."
+                    ,"Father's gloves may or may not have been inspired by the more friendly version of Null's Noise form. He began wearing gloves after her death. He wore the odd rainbow gloves sometime after he gained the title of Father."
+                    ,"For what rainbow includes a light grey?"
+                    ,"Well, white would be too obvious...don't you think?"
                 ]
             }
         ],
@@ -130,8 +158,18 @@
         "Apparent Age": "",
         "ImageHeader": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
         "ImageHeaderAltText": "A black and white image of a woman with a short ponytail and a suit, has a man lying beneath her. A circular light source shines from above her head, looking like a halo.",
-        "BannerButtons": ["https://gramophoneturtle.neocities.org/img/buttons/MotherFan.gif"],
+        "BannerButtons": [],
         
+        "BannerButtonStampList": [
+                {
+                    "URL": "/img/banners/Mother_Stamp.gif",
+                    "Credit": "LeGaosaure",
+                    "ImgType": "Stamp",
+                    "MediaType": "gif"
+                }
+        ],
+
+
         "Inspirations": [
             {
                 "Name": "Deus",
@@ -220,8 +258,26 @@
 
         "ImageHeader": "\\img\\icons\\NullIcon.png",
         "ImageHeaderAltText": "Modern day Null.",
-        "BannerButtons": ["https://gramophoneturtle.neocities.org/img/buttons/NullFan1.gif","https://gramophoneturtle.neocities.org/img/buttons/NullFan2.gif"],
+        "BannerButtons": [
+            "/img/buttons/NullFan1.gif",
+            "/img/buttons/NullFan2.gif"],
         
+        "BannerButtonStampList": [
+            {
+                "URL": "/img/banners/NullFan1_81x31.gif",
+                "Credit": "LeGaosaure",
+                "ImgType": "88x31",
+                "MediaType": "png"
+            },
+            {
+                "URL": "/img/banners/Null_Stamp.gif",
+                "Credit": "LeGaosaure",
+                "ImgType": "Stamp",
+                "MediaType": "gif"
+            }
+        ],
+
+
         "Likes": ["Strawberry-banana ice cream", "Floral patterns", "Noodles of all kinds"],
         "Dislikes": ["Two faced behaviours"],
         "Apparent Age": "",
@@ -344,13 +400,6 @@
         "Name": "Earrings",
         "Pronouns": "They/them",
         "DOB": "",
-        "Likes": [
-            "Earrings",
-            "Flat sheets"
-        ],
-        "Dislikes": [
-            "Disorder"
-        ],
 
         "Apparent Age": "",
         "Relationships": [

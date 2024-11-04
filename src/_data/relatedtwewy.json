@@ -2,242 +2,384 @@
   {
     "SeriesName": "Fan Art of Fan Work",
     "SeriesURL": "fan-art-of-fan-work",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": -1,
         "Name": "What if they were\u2026Partners?",
-        "URL": "art/twewy/2021-05-27-what-if-th"
+        "URL": "art/twewy/2021-05-27-what-if-th",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
       },
       {
         "Index": -1,
         "Name": "It felt like something was missing.",
-        "URL": "art/twewy/2021-07-01-it-felt-li"
+        "URL": "art/twewy/2021-07-01-it-felt-li",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
       }
     ]
   },
   {
     "SeriesName": "Composer Neku AU",
     "SeriesURL": "composer-neku-au",
+    "ThumbnailURL": "\\img\\art\\twewy\\related\\ComposerNekuBanner.jpg",
+    "ThumbnailAlt": "Composer Neku AU",
     "SeriesEntries": [
       {
         "Index": 1,
         "Name": "You\u2019re Shibuya\u2019s new Composer now.",
-        "URL": "art/twewy/2020-09-01-youre-sh"
-      },
-      {
-        "Index": 1,
-        "Name": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
-        "URL": "art/twewy/2020-08-04-lifes-li"
+        "URL": "art/twewy/2020-09-01-youre-sh",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-thmb-cNeku2-02-13d-nDEFV1-g20V1-800.jpg",
+        "ThumbnailAlt": "Neku confronted by Hanekoma."
       },
       {
         "Index": 2,
-        "Name": "Not Your Joshua",
-        "URL": "art/twewy/2021-04-06-not-your-j"
+        "Name": "Don't",
+        "URL": "art/twewy/2020-09-24-donttwew",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0924-cnau-dont\\20200924-thmb-cNeku_Dont_v2_combined-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Neku"
       },
       {
         "Index": 2,
         "Name": "Composer Neku's RG Appearance",
-        "URL": "art/twewy/2020-08-09-twewyspoi"
+        "URL": "art/twewy/2020-08-09-twewyspoi",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0809-cnau-concept\\20200809-cNeku2-thmb-ThemNow-niDEFV1-gl10V1.jpg",
+        "ThumbnailAlt": "Composer Neku in young human form."
       },
       {
         "Index": 3,
         "Name": "Ya did what you had to, Phones.",
-        "URL": "art/twewy/2020-08-20-ya-did-wha"
-      },
-      {
-        "Index": 3,
-        "Name": "Mentor Joshua Kiryu? Mentor Joshua Kiryu!",
-        "URL": "art/twewy/2020-08-15-mentor-jos"
-      },
-      {
-        "Index": 4,
-        "Name": "Hallucinations",
-        "URL": "art/twewy/2021-01-01-hallucinat"
+        "URL": "art/twewy/2020-08-20-ya-did-wha",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0820-cnau-theirworld\\20200820-thmb-cNeku_TheirWorld02-03-nDEFV1-gl10V1.jpg",
+        "ThumbnailAlt": "Hanekoma puts a hand on Neku's shoulder."
       },
       {
         "Index": 4,
         "Name": "I\u2019m here for you",
-        "URL": "art/twewy/2020-09-09-im-here-f"
-      }
-    ]
-  },
-  {
-    "SeriesName": "Composer Neku AU PW",
-    "SeriesURL": "composer-neku-au-pw",
-    "SeriesEntries": [
-      {
-        "Index": 0,
-        "Name": "Hallucinations",
-        "URL": "art/twewy/2021-01-01-hallucinat"
+        "URL": "art/twewy/2020-09-09-im-here-f",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0909-cnau-nh\\20200909-thmb-NHHug_nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma hugs a crying Neku."
       },
       {
-        "Index": 2,
-        "Name": "Not Your Joshua",
-        "URL": "art/twewy/2021-04-06-not-your-j"
+        "Index": 5,
+        "Name": "Hallucinations",
+        "URL": "art/twewy/2021-01-01-hallucinat",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\20210101-cnauhall\\20210101-thmb-hallucinations-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Scribbly looking Joshua."
+      },
+      {
+        "Index": 6,
+        "Name": "I\u2019m here for you too.",
+        "URL": "art/twewy/2020-09-15-im-here-f",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0915-cnau-heretoo\\20200915-thmb-hereToo02_04-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma and Composer Neku."
+      },
+      {
+        "Index": 10,
+        "Name": "\u201cSaid you wanted to watch CAT work?\u201d",
+        "URL": "art/twewy/2021-05-16-said-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0516-cnau-canwatch\\20210516-thmb-iCanWatchYouWork-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma"
+      },
+      {
+        "Index": 11,
+        "Name": "Chill Time - Watching CAT Work.",
+        "URL": "art/twewy/2021-01-10-chill-time",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0110-cnau-catwork\\20210110-thmb-NekuComforts03-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma and Composer Neku"
+      },
+      {
+        "Index": 12,
+        "Name": "Hobbies are important to have, Phones.",
+        "URL": "art/twewy/2021-04-21-hobbies-ar",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0421-cnau-hobbies\\20210421-thmb-hobbies05a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Neku"
       },
       {
         "Index": 101,
         "Name": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
-        "URL": "art/twewy/2020-08-04-lifes-li"
+        "URL": "art/twewy/2020-08-04-lifes-li",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0804-cnau-crossroads\\20200804-thmb-composerNeku02_06-nDEFV1-gl10V1-800.jpg",
+        "ThumbnailAlt": "Frustrated Composer."
+      },
+      {
+        "Index": 102,
+        "Name": "Not Your Joshua",
+        "URL": "art/twewy/2021-04-06-not-your-j",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0406-cnau-mistake\\20210406-thmb-doNotMistakeMe5-nDEFV1-gl10V1-800.jpg",
+        "ThumbnailAlt": "Joshua with his arms crossed,"
       },
       {
         "Index": 103,
         "Name": "Mentor Joshua Kiryu? Mentor Joshua Kiryu!",
-        "URL": "art/twewy/2020-08-15-mentor-jos"
+        "URL": "art/twewy/2020-08-15-mentor-jos",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0815-cNeku3-mentor\\20200815-thmb-cNeku3_mentor-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Thumbnail of Composer Neku AU, with Composer Joshua Kiryu showing Composer Neku music."
+      },
+      {
+        "Index": 201,
+        "Name": "Act A Friend",
+        "URL": "art/twewy/2022-10-12-act-a-frie",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\1012-cnau-haz\\20221012-thmb-cNekuMeetingHaz02_02a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Neku and Hazuki"
       }
     ]
   },
   {
     "SeriesName": "Higher Plane Experimentation",
     "SeriesURL": "higher-plane-experimentation",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 20210116,
         "Name": "Possession",
-        "URL": "art/twewy/2021-01-16-possession"
+        "URL": "art/twewy/2021-01-16-possession",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0116-possession\\20210116-thmb-possession.jpg",
+        "ThumbnailAlt": "Joshua faces the winged visitor."
       }
     ]
   },
   {
     "SeriesName": "For You",
     "SeriesURL": "for-you",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": 1,
         "Name": "For You",
-        "URL": "art/twewy/2020-09-28-for-you-co"
+        "URL": "art/twewy/2020-09-28-for-you-co",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
       },
       {
         "Index": 2,
         "Name": "Accessorizing",
-        "URL": "art/twewy/2020-11-17-accessoriz"
+        "URL": "art/twewy/2020-11-17-accessoriz",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
       }
     ]
   },
   {
     "SeriesName": "Hoodie Buddies",
     "SeriesURL": "hoodie-buddies",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0824-fango\\20220824-thmb-KuboFG01-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones.",
     "SeriesEntries": [
       {
         "Index": 1,
         "Name": "The beginning of Kubokupo",
-        "URL": "art/twewy/2022-08-24-the-beginn"
+        "URL": "art/twewy/2022-08-24-the-beginn",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0824-fango\\20220824-thmb-KuboFG01-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones."
       },
       {
         "Index": 2,
         "Name": "It's [Fashion], Kubokupo!",
-        "URL": "art/twewy/2021-10-13-its-fash"
+        "URL": "art/twewy/2021-10-13-its-fash",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1013-tt21-fashion\\20211013-thmb-kupoKubo3-nDEFV1-pDEFV2-800.jpg",
+        "ThumbnailAlt": "Kubo wearing a moogle hoodie."
       },
       {
         "Index": 3,
         "Name": "...What? What??? What.",
-        "URL": "art/twewy/2022-11-06-what-w"
+        "URL": "art/twewy/2022-11-06-what-w",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\1106-snoozebud\\20221106-thmb-SnoozeBuds-nDEFV1-pDEFV2-800.jpg",
+        "ThumbnailAlt": "Ayano taking a photo with her phone."
       },
       {
         "Index": 4,
         "Name": "HazuKweh!",
-        "URL": "art/twewy/2021-12-03-hazukweho"
+        "URL": "art/twewy/2021-12-03-hazukweho",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1203-hazukweh\\20240929-thmb-hazukweh02-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Chocobo hoodie Hazuki."
       },
       {
         "Index": 5,
         "Name": "Hoodie Buddies! ",
-        "URL": "art/twewy/2021-12-17-hoodie-bud"
+        "URL": "art/twewy/2021-12-17-hoodie-bud",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1217-hoodbuds\\20211217-thmb-yoshi01c-nDEFV1-pDEFV2-800.jpg",
+        "ThumbnailAlt": "Haz and Kubo talking."
       },
       {
         "Index": 6,
         "Name": "Yoshi-ya Hoodie!",
-        "URL": "art/twewy/2022-02-14-yoshi-ya-h"
+        "URL": "art/twewy/2022-02-14-yoshi-ya-h",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0214-yoshihood\\20220214-thmb-YoshiYa-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Joshua in a Yoshi hoodie."
       },
       {
         "Index": 7,
         "Name": "Hanyakoma Hoodie!",
-        "URL": "art/twewy/2022-03-01-hanyakoma"
+        "URL": "art/twewy/2022-03-01-hanyakoma",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0301-hanyakoma\\20220301-thmb-Hanyakoma_Grey-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hanekoma wearing a black and white cat hoodie."
       }
     ]
   },
   {
     "SeriesName": "TWEWYTOBER2021",
     "SeriesURL": "twewytober2021",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
     "SeriesEntries": [
       {
         "Index": 1314,
         "Name": "It's [Fashion], Kubokupo!",
-        "URL": "art/twewy/2021-10-13-its-fash"
+        "URL": "art/twewy/2021-10-13-its-fash",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1013-tt21-fashion\\20211013-thmb-kupoKubo3-nDEFV1-pDEFV2-800.jpg",
+        "ThumbnailAlt": "Kubo wearing a moogle hoodie."
       },
       {
         "Index": 1516,
         "Name": "[Shopping] For That One Thing",
-        "URL": "art/twewy/2021-10-16-shopping"
+        "URL": "art/twewy/2021-10-16-shopping",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display."
       }
     ]
   },
   {
     "SeriesName": "Anime Photoshops",
     "SeriesURL": "anime-photoshops",
+    "ThumbnailURL": "\\img\\art\\twewy\\2023\\0821-neojosh\\20230821-thmb-NEOJosh-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "A screenshot edit of Joshua from The World Ends With You Animation to make it look like his NEO self. He looks very serious.",
     "SeriesEntries": [
       {
         "Index": 1,
         "Name": "NEO Joshua Anime Photoshops",
-        "URL": "art/twewy/2023-08-21-neo-joshua"
+        "URL": "art/twewy/2023-08-21-neo-joshua",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\0821-neojosh\\20230821-thmb-NEOJosh-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "A screenshot edit of Joshua from The World Ends With You Animation to make it look like his NEO self. He looks very serious."
+      },
+      {
+        "Index": 2,
+        "Name": "Hazuki Anime Photoshops",
+        "URL": "art/twewy/2023-10-05-hazuki-ani",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\1005-animehaz\\20231005-thmb-AmimeEditsNEO_Haz18a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Anime Hazuki."
       }
     ]
   },
   {
     "SeriesName": "Happy Birthday",
     "SeriesURL": "happy-birthday",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
+    "ThumbnailAlt": "Art of Hazuki Mikagi.",
     "SeriesEntries": [
       {
         "Index": 505,
         "Name": "Happy Birthday Hazuki!!",
-        "URL": "art/twewy/2022-05-05-happy-birt"
+        "URL": "art/twewy/2022-05-05-happy-birt",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
+        "ThumbnailAlt": "Art of Hazuki Mikagi."
+      },
+      {
+        "Index": 20241101,
+        "Name": "An Order of Mews for Joshua!",
+        "URL": "art/twewy/2024-11-01-an-order-o",
+        "ThumbnailURL": "\\img\\art\\twewy\\2024\\1101-hbdayjosh\\20241101-thmb-joshbday2024-nLOWV1-pLOWV2.jpg",
+        "ThumbnailAlt": "Joshua and Mews"
       }
     ]
   },
   {
     "SeriesName": "A Healthy Dose of Chaos",
     "SeriesURL": "a-healthy-dose-of-chaos",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Joshua looking annoyed.",
     "SeriesEntries": [
       {
         "Index": -1,
         "Name": "Mother and Father Are Watching",
-        "URL": "art/twewy/2022-03-21-mother-and"
+        "URL": "art/twewy/2022-03-21-mother-and",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Joshua looking annoyed."
       },
       {
         "Index": 1,
         "Name": "There Was A Time When\u2026",
-        "URL": "art/twewy/2022-01-26-there-was"
+        "URL": "art/twewy/2022-01-26-there-was",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0126-cafe\\20220126-thmb-cafeVisit01_2-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Minamimoto looking upset."
       }
     ]
   },
   {
     "SeriesName": "OFF",
     "SeriesURL": "off",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-thmb-purificationInProgress-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Tanzo Kubo drawn in a grayscale pencil style.",
     "SeriesEntries": [
       {
         "Index": -1,
         "Name": "Purification in progress\u2026",
-        "URL": "art/twewy/2021-12-23-purificati"
+        "URL": "art/twewy/2021-12-23-purificati",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-thmb-purificationInProgress-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Tanzo Kubo drawn in a grayscale pencil style."
       }
     ]
   },
   {
     "SeriesName": "NEO Higher Plane Experimentation",
     "SeriesURL": "neo-higher-plane-experimentation",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
     "SeriesEntries": [
       {
         "Index": -1,
         "Name": "Kubo, Higher Vibe Frequency.",
-        "URL": "art/twewy/2021-11-20-kubo-high"
+        "URL": "art/twewy/2021-11-20-kubo-high",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
       },
       {
         "Index": -1,
         "Name": "Mother and Father Are Watching",
-        "URL": "art/twewy/2022-03-21-mother-and"
+        "URL": "art/twewy/2022-03-21-mother-and",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Joshua looking annoyed."
       },
       {
         "Index": -1,
         "Name": "Hanekoma, Higher Vibe Frequency.",
-        "URL": "art/twewy/2021-11-22-hanekoma"
+        "URL": "art/twewy/2021-11-22-hanekoma",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
+      }
+    ]
+  },
+  {
+    "SeriesName": "Composer Minamimoto AU",
+    "SeriesURL": "composer-minamimoto-au",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\0613-ShoTime\\20210613-thmb-itsShoTimeFeathersFIN-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Composer Minamimoto.",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "It\u2019s going to be a zetta fun time, Feathers!",
+        "URL": "art/twewy/2021-06-13-its-going",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0613-ShoTime\\20210613-thmb-itsShoTimeFeathersFIN-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Minamimoto."
+      }
+    ]
+  },
+  {
+    "SeriesName": "Thank You",
+    "SeriesURL": "thank-you",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 20230312,
+        "Name": "Thank you - Hazuki",
+        "URL": "art/twewy/2024-03-12-thank-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\0312-tyhaz\\20230312-thmb-Haz_thankYou-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hazuki"
       }
     ]
   }

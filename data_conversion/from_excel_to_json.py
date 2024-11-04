@@ -7,6 +7,8 @@ import json
 import os
 import re
 
+from RelatedSeries import RelatedSeriesList
+
 # Excel Database Filename
 filename_input = "Where Is My Art.xlsx"
 
@@ -32,7 +34,8 @@ date_column_name = "Earliest Date"
 max_num_images = 8
 max_num_videos = 1
 
-related_series_list = []
+# Related Series
+twewy_related_series_list = RelatedSeriesList()
 
 # functions
 
@@ -117,14 +120,7 @@ def make_vid_list(_row: pandas.Series) -> list:
 
     return vid_list
 
-# RELATED DICTIONARY -------------------------------------
-def find_rel_dict_ser_name_index(lst, key, value):
-    for i, dic in enumerate(lst):
-        if dic[key] == value:
-            return i
-    return -1
-
-def update_related_dictionary(rw, rw_unique_url):
+def update_related_dictionary(rw, aw_dict):
 
     artworkname = rw['Artwork'].replace("\n","")[0:40]
 
@@ -134,45 +130,7 @@ def update_related_dictionary(rw, rw_unique_url):
     for i_index, i_name in enumerate(foundseries):
         i_name = i_name.strip()
 
-        index_dict = find_rel_dict_ser_name_index(related_series_list, "SeriesName", i_name)
-
-        # Get the index of the entry in the series
-        int_i_index = -1
-        if i_index < len(foundindices):
-            try:
-                int_i_index = foundindices[i_index]
-                int_i_index = int(int_i_index)
-            except ValueError:
-                int_i_index = -1
-                print("    Related for {0} -AU/Series- {1}".format(artworkname,i_name))
-                print("      !! TODO: Current index [{0}] for foundindices is not an int! Default to [-1].".format(i_index,foundindices[i_index]))
-        else:
-            print("    Related for {0} -AU/Series- {1}".format(artworkname,i_name))
-            print("      '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
-        
-        # Add new seriesand first entry
-        if index_dict == -1:
-            rel_dictionary = {
-                'SeriesName': i_name,
-                "SeriesURL": urlify(i_name),
-                'SeriesEntries': [ {
-                        'Index': int_i_index,
-                        'Name': rw['title'],
-                        'URL': rw_unique_url
-                    }
-                ]
-            }
-            # Add with defaults
-            related_series_list.append(rel_dictionary)
-        # Add new entry to existing series
-        else:
-            new_entry = {
-                    'Index': int_i_index,
-                    'Name': rw['title'],
-                    'URL': rw_unique_url
-                }
-            
-            related_series_list[index_dict]["SeriesEntries"].append(new_entry)
+        twewy_related_series_list.update(i_index, i_name, aw_dict, foundindices)
     return 
 
 # https://stackoverflow.com/questions/1007481/how-to-replace-whitespaces-with-underscore
@@ -218,10 +176,10 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
-            print("    Title is missing for |{0}|".format(artworkname))
+            print("        Title is missing for |{0}|".format(artworkname))
 
         if row['characters'] == "":
-            print("    characters is missing for |{0}|".format(artworkname))
+            print("        characters is missing for |{0}|".format(artworkname))
 
         # URLS -------------------------------------------------
         artwork_dictionary['urls'] = []
@@ -243,38 +201,41 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         # IMAGES -------------------------------------------------
         artwork_dictionary['imgs'] = make_img_list(row)
 
-        # Add Image thumbnail and alt text if present
-        if row['IMG THMB'] != "" or row['ALT THMB'] != "":
-            if row['IMG THMB'] == "":
-                print("    IMG THMB is missing for |{0}|".format(artworkname))
-            elif row['ALT THMB'] == "":
-                print("    ALT THMB is missing for |{0}|".format(artworkname))
-            else:
-                artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
-                artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
-
         # CHECK IF HAVE MINIMUM -----------------------------------
         # Add if img + alt was found, otherwise, print warning message
         if artwork_dictionary['imgs']:
             # completed, add to final dictionary
             tmp_dict[dict_key].append(artwork_dictionary)
+
+            # Add Image thumbnail and alt text if present
+            artwork_dictionary['thumbnailUrl'] = ""
+            artwork_dictionary['thumbnailAlt'] = ""
+            if row['IMG THMB'] != "" or row['ALT THMB'] != "":
+                if row['IMG THMB'] == "":
+                    print("    IMG THMB is missing for |{0}|".format(artworkname))
+                elif row['ALT THMB'] == "":
+                    print("    ALT THMB is missing for |{0}|".format(artworkname))
+                else:
+                    artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
+                    artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
+
+            # VIDEOS -------------------------------------------------
+            artwork_dictionary['vids'] = make_vid_list(row)
+
+            # FANDOM LISTING -----------------------------------------
+            artwork_dictionary['fandom'] = row['fandom'].split(",")
+
+            # List of related artworks
+            # Add Image thumbnail and alt text if present
+            if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
+                update_related_dictionary(row, artwork_dictionary)
+                
+                # Add to artwork so it can link back! Complex List of Lists
+                artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
         else:
             print("    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
 
-        # VIDEOS -------------------------------------------------
-        artwork_dictionary['vids'] = make_vid_list(row)
-
-         # FANDOM LISTING -----------------------------------------
-        artwork_dictionary['fandom'] = row['fandom'].split(",")
-
-        # List of related artworks
-        # Add Image thumbnail and alt text if present
-        if row['RelatedSeries'] != "" or row['RelatedSeriesOrder'] != "":
-            update_related_dictionary(row, artwork_dictionary['UniqueURLKey'])
-            
-            # Add to artwork so it can link back! Complex List of Lists
-            artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
-
+       
     return_list.append(tmp_dict)
     return return_list
 
@@ -351,46 +312,56 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     print(" 4. Completed!\n")
 
 if __name__ == '__main__':
-    # # TWEWY OG
-    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
-    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
-    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
+    # Read currently existing TWEWY related series information
+    # ex: banner stuff + alt text
+    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    with open(file_path_output, 'r') as file:
+        test_rel_series = json.load(file)
 
-    # # NEO TWEWY
-    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
-    # main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
+    twewy_related_series_list = RelatedSeriesList()
+    twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
 
-    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
-    # main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    # READ EXCEL FILE
+    # TWEWY OG
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    # # TWEWY Series
-    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
-    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    # file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
-    # main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    # NEO TWEWY
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    # # Write Related Series JSON
-    # # Output - can ge to the json file in the src area
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
+    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    # for rel_list_item in related_series_list:
-    #     rel_list_item["SeriesEntries"].sort(key=lambda x: x["Index"])
+    # TWEWY Series
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    # nested_json = json.dumps(related_series_list, indent=2)
-    # file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
-    # with open(file_path_output, 'w', encoding='utf-8') as f:
-    #     f.write(nested_json)
+    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
+    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
 
-    # OTHER - Persona 5 Sheet
-    fandomkey="persona5"
-    file_path_output = os.path.join(file_path_output_path, filename_output_p5)
-    main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=True, base_url="art/{0}/".format(fandomkey))
+    # Write Related Series JSON
+    # Sort Series Enrties by index
+    twewy_related_series_list.sortSeriesEntries()
+
+    # Output - can ge to the json file in the src area
+    nested_json = json.dumps(twewy_related_series_list.Series, default=lambda x: x.__dict__, indent=2) 
+    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    with open(file_path_output, 'w', encoding='utf-8') as f:
+        f.write(nested_json)
+    
+    # Persona 5 Sheet
+    # fandomkey="persona5"
+    # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
+    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=True, base_url="art/{0}/".format(fandomkey))
 
     
-    file_path_output = os.path.join(file_path_output_path, filename_output_p5_nospoilers)
-    main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=False, base_url="art/{0}/".format(fandomkey))
+    # file_path_output = os.path.join(file_path_output_path, filename_output_p5_nospoilers)
+    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=False, base_url="art/{0}/".format(fandomkey))
 
 
     print("\nMAIN: C O M P L E T E!\n")
