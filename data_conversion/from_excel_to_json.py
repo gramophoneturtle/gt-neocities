@@ -8,6 +8,7 @@ import os
 import re
 
 from RelatedSeries import RelatedSeriesList
+from models.ArtworkCategory import ArtworkCategory
 
 # Excel Database Filename
 filename_input = "Where Is My Art.xlsx"
@@ -321,28 +322,47 @@ if __name__ == '__main__':
 
     twewy_related_series_list = RelatedSeriesList()
     twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
-
+    
     # READ EXCEL FILE
     # TWEWY OG
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
-
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
+    twewy_art = ArtworkCategory(
+        sheet_name = 'TWEWY Series',
+        output_path = file_path_output_path,
+        fandoms_list = [],
+        base_url = "art/twewy/",
+        spoilers_filename = filename_output_twewy_og_all,
+        nospoilers_filename = filename_output_twewy_og_nospoilers
+    )
+    
+    main(twewy_art.SheetName, twewy_art.SpoilersFileNamePath, fandoms = ["TWEWY"], include_spoilers=True, base_url=twewy_art.BaseURL)
+    main(twewy_art.SheetName, twewy_art.NoSpoilersFileNamePath, fandoms = ["TWEWY"], include_spoilers=False, base_url=twewy_art.BaseURL)
 
     # NEO TWEWY
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
+    ntwewy_art = ArtworkCategory(
+        sheet_name = 'TWEWY Series',
+        output_path = file_path_output_path,
+        fandoms_list = [],
+        base_url = "art/twewy/",
+        spoilers_filename = filename_output_twewy_neo_all,
+        nospoilers_filename = filename_output_twewy_neo_nospoilers
+    )
 
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    main(ntwewy_art.SheetName, ntwewy_art.NoSpoilersFileNamePath, fandoms = ["NTWEWY"], include_spoilers=False, base_url=ntwewy_art.BaseURL)
+    main(ntwewy_art.SheetName, ntwewy_art.SpoilersFileNamePath, fandoms = ["NTWEWY"], include_spoilers=True, base_url=ntwewy_art.BaseURL)
 
     # TWEWY Series
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
 
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    twewyseries_art = ArtworkCategory(
+        sheet_name = 'TWEWY Series',
+        output_path = file_path_output_path,
+        fandoms_list = [],
+        base_url = "art/twewy/",
+        spoilers_filename = filename_output_twewy_series_all,
+        nospoilers_filename = filename_output_twewy_series_nospoilers
+    )
+
+    main(twewyseries_art.SheetName, twewyseries_art.NoSpoilersFileNamePath, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url=twewyseries_art.BaseURL)
+    main(twewyseries_art.SheetName, twewyseries_art.SpoilersFileNamePath, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url=twewyseries_art.BaseURL)
 
     # Write Related Series JSON
     # Sort Series Enrties by index

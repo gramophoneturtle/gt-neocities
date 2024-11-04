@@ -14,3 +14,4 @@ src/vid/
 # other
 .cache/eleventy-fetch-771e2ee768352bc06ce998c0240241
 data_conversion/__pycache__/*
+data_conversion/models/__pycache__/ArtworkCategory.cpython-312.pyc
