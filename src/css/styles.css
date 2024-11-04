@@ -703,6 +703,14 @@ div.desc {
 }
 
 /* || RELATED SERIES - Thumbnail and title */
+
+.img-banner {
+  max-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+
+}
+
 .related-series-entry {
   border: var(--null-background-container-border) 3px solid;
   border-radius: var(--standard-border-radius);

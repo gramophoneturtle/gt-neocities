@@ -1,7 +1,7 @@
 [
     {
-        "PostDate": "2024-10-27"
-        ,"date": "2024-10-27"
+        "PostDate": "2024-11-03"
+        ,"date": "2024-11-03"
         ,"OCs": "Father - Added Relationship for Null's Conductor which contains potential glove lore! For Father, Mother and Null, added a Banner/Stamp section! TOC for characters will only contain links to sections with content."
         ,"ArtSummary": ""
         ,"ArtList": [
@@ -11,6 +11,23 @@
                     {
                         "Title": "Don't",
                         "URL": "/art/twewy/2020-09-24-donttwew/"
+                    },
+                    {
+                        "Title": "Hello There...!",
+                        "URL": "/art/twewy/2024-10-29-hello-ther/"
+                    }
+                ]
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Thank You - Hazuki",
+                        "URL": "/art/twewy/2024-03-12-thank-you"
+                    },
+                    {
+                        "Title": "An Order of Mews for Joshua!",
+                        "URL": "art/twewy/2024-11-01-an-order-o"
                     }
                 ]
             }

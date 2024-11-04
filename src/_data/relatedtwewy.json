@@ -29,17 +29,17 @@
     "SeriesEntries": [
       {
         "Index": 1,
-        "Name": "Don't",
-        "URL": "art/twewy/2020-09-24-donttwew",
-        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0924-cnau-dont\\20200924-thmb-cNeku_Dont_v2_combined-nDEFV1-pDEFV2.jpg",
-        "ThumbnailAlt": "Composer Neku"
-      },
-      {
-        "Index": 1,
         "Name": "You\u2019re Shibuya\u2019s new Composer now.",
         "URL": "art/twewy/2020-09-01-youre-sh",
         "ThumbnailURL": "\\img\\art\\twewy\\2020\\0901-cnau-shot\\20200901-thmb-cNeku2-02-13d-nDEFV1-g20V1-800.jpg",
         "ThumbnailAlt": "Neku confronted by Hanekoma."
+      },
+      {
+        "Index": 2,
+        "Name": "Don't",
+        "URL": "art/twewy/2020-09-24-donttwew",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0924-cnau-dont\\20200924-thmb-cNeku_Dont_v2_combined-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Composer Neku"
       },
       {
         "Index": 2,
@@ -167,8 +167,8 @@
   {
     "SeriesName": "Hoodie Buddies",
     "SeriesURL": "hoodie-buddies",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0824-fango\\20220824-thmb-KuboFG01-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones.",
     "SeriesEntries": [
       {
         "Index": 1,
@@ -224,8 +224,8 @@
   {
     "SeriesName": "TWEWYTOBER2021",
     "SeriesURL": "twewytober2021",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
     "SeriesEntries": [
       {
         "Index": 1314,
@@ -246,8 +246,8 @@
   {
     "SeriesName": "Anime Photoshops",
     "SeriesURL": "anime-photoshops",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2023\\0821-neojosh\\20230821-thmb-NEOJosh-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "A screenshot edit of Joshua from The World Ends With You Animation to make it look like his NEO self. He looks very serious.",
     "SeriesEntries": [
       {
         "Index": 1,
@@ -268,8 +268,8 @@
   {
     "SeriesName": "Happy Birthday",
     "SeriesURL": "happy-birthday",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
+    "ThumbnailAlt": "Art of Hazuki Mikagi.",
     "SeriesEntries": [
       {
         "Index": 505,
@@ -277,14 +277,21 @@
         "URL": "art/twewy/2022-05-05-happy-birt",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
         "ThumbnailAlt": "Art of Hazuki Mikagi."
+      },
+      {
+        "Index": 20241101,
+        "Name": "An Order of Mews for Joshua!",
+        "URL": "art/twewy/2024-11-01-an-order-o",
+        "ThumbnailURL": "\\img\\art\\twewy\\2024\\1101-hbdayjosh\\20241101-thmb-joshbday2024-nLOWV1-pLOWV2.jpg",
+        "ThumbnailAlt": "Joshua and Mews"
       }
     ]
   },
   {
     "SeriesName": "A Healthy Dose of Chaos",
     "SeriesURL": "a-healthy-dose-of-chaos",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Joshua looking annoyed.",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -305,8 +312,8 @@
   {
     "SeriesName": "OFF",
     "SeriesURL": "off",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-thmb-purificationInProgress-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Tanzo Kubo drawn in a grayscale pencil style.",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -349,8 +356,8 @@
   {
     "SeriesName": "Composer Minamimoto AU",
     "SeriesURL": "composer-minamimoto-au",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\0613-ShoTime\\20210613-thmb-itsShoTimeFeathersFIN-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Composer Minamimoto.",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -358,6 +365,21 @@
         "URL": "art/twewy/2021-06-13-its-going",
         "ThumbnailURL": "\\img\\art\\twewy\\2021\\0613-ShoTime\\20210613-thmb-itsShoTimeFeathersFIN-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Composer Minamimoto."
+      }
+    ]
+  },
+  {
+    "SeriesName": "Thank You",
+    "SeriesURL": "thank-you",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 20230312,
+        "Name": "Thank you - Hazuki",
+        "URL": "art/twewy/2024-03-12-thank-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\0312-tyhaz\\20230312-thmb-Haz_thankYou-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Hazuki"
       }
     ]
   }
