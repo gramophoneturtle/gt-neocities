@@ -328,41 +328,26 @@ if __name__ == '__main__':
     twewy_art = ArtworkCategory(
         sheet_name = 'TWEWY Series',
         output_path = file_path_output_path,
-        fandoms_list = [],
-        base_url = "art/twewy/",
-        spoilers_filename = filename_output_twewy_og_all,
-        nospoilers_filename = filename_output_twewy_og_nospoilers
-    )
-    
-    main(twewy_art.SheetName, twewy_art.SpoilersFileNamePath, fandoms = ["TWEWY"], include_spoilers=True, base_url=twewy_art.BaseURL)
-    main(twewy_art.SheetName, twewy_art.NoSpoilersFileNamePath, fandoms = ["TWEWY"], include_spoilers=False, base_url=twewy_art.BaseURL)
-
-    # NEO TWEWY
-    ntwewy_art = ArtworkCategory(
-        sheet_name = 'TWEWY Series',
-        output_path = file_path_output_path,
-        fandoms_list = [],
-        base_url = "art/twewy/",
-        spoilers_filename = filename_output_twewy_neo_all,
-        nospoilers_filename = filename_output_twewy_neo_nospoilers
+        fandoms_list = [
+                {
+                    "Section": "TWEWY",
+                    "Filename": "twewy-art"
+                },
+                {
+                    "Section": "NTWEWY",
+                    "Filename": "twewy-neo-art"
+                },
+                {
+                    "Section": "TWEWY, NTWEWY",
+                    "Filename": "twewy-series"
+                } 
+            ],
+        base_url = "art/twewy/"
     )
 
-    main(ntwewy_art.SheetName, ntwewy_art.NoSpoilersFileNamePath, fandoms = ["NTWEWY"], include_spoilers=False, base_url=ntwewy_art.BaseURL)
-    main(ntwewy_art.SheetName, ntwewy_art.SpoilersFileNamePath, fandoms = ["NTWEWY"], include_spoilers=True, base_url=ntwewy_art.BaseURL)
-
-    # TWEWY Series
-
-    twewyseries_art = ArtworkCategory(
-        sheet_name = 'TWEWY Series',
-        output_path = file_path_output_path,
-        fandoms_list = [],
-        base_url = "art/twewy/",
-        spoilers_filename = filename_output_twewy_series_all,
-        nospoilers_filename = filename_output_twewy_series_nospoilers
-    )
-
-    main(twewyseries_art.SheetName, twewyseries_art.NoSpoilersFileNamePath, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url=twewyseries_art.BaseURL)
-    main(twewyseries_art.SheetName, twewyseries_art.SpoilersFileNamePath, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url=twewyseries_art.BaseURL)
+    for category in twewy_art.Fandoms:
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
 
     # Write Related Series JSON
     # Sort Series Enrties by index
