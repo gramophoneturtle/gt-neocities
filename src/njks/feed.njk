@@ -32,7 +32,7 @@
 			<link>{{ absolutePostUrl }}</link>
 			<description>
 				{% set singlePost = post %}
-				{% include 'partials/update-content.njk' %}
+				{% include 'partials/updates/update-rss-feeds.njk' %}
 			</description>
 			<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
 			{# <pubDate>{{ post.data.posts.date | dateToRfc822 }}</pubDate> #}
