@@ -702,6 +702,19 @@ div.desc {
   }
 }
 
+.friend-link-container:after {
+  clear: both;
+}
+
+/* SHOW BANNER CODE */
+pre {
+
+  code {
+    font-size: smaller;
+    line-height: 0;
+  }
+}
+
 /* || RELATED SERIES - Thumbnail and title */
 
 .img-banner {

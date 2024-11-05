@@ -1,0 +1,19 @@
+<div class="friend-link-container">
+    {% for friendlink in collections.TagFriendLinks  %}
+        <div class ="friend-link-item">
+            <div class="friend-link-details-title">
+                <a href="{{ friendlink.data.aFriendLinks.SiteURL }}">
+                    {{ friendlink.data.aFriendLinks.Name }} </a>
+            </div>
+            <div class ="friend-link-details">
+                <div class="friend-link-details-img">
+                    <img src="{{ friendlink.data.aFriendLinks.BannerURL }}"
+                    alt="{{ friendlink.data.aFriendLinks.BannerAlt }}">
+                </div>
+                <div class="friend-link-details-desc">
+                    {{ friendlink.data.aFriendLinks.Description }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
