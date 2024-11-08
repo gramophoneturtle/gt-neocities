@@ -242,7 +242,7 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/"):
     print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
-    print(' 1. Reading Excel File for {0}'.format(sheet_name), end="...\n")
+    print(' 1. Reading Excel File for {0}'.format(fandoms), end="...\n")
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -370,6 +370,25 @@ if __name__ == '__main__':
     for category in persona5_art.Fandoms:
         main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=persona5_art.BaseURL)
         main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=persona5_art.BaseURL)
+
+    # XCX----------------------------------------------------------- #
+    fandomkey = "XCX"
+    artworksCategories = ArtworkCategory(
+        sheet_name = 'Other',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": fandomkey,
+                    "Filename": "art-{0}".format(fandomkey.lower())
+                }
+            ],
+        base_url = "art/{0}/".format(fandomkey.lower())
+    )
+
+    for category in artworksCategories.Fandoms:
+        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
+        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
+
 
 
     # Persona 5 Sheet

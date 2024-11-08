@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Eleonora",
+    "summary": "",
+    "details": "",
+    "characters": "Eleonora",
+    "date": "2017-08-06",
+    "dateYear": "2017",
+    "uniqueUrl": "2017-08-06-eleonora",
+    "UniqueURLKey": "art/xcx/2017-08-06-eleonora",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/163884627928/eleonora-a-newly-bought-switch-and-games-ate-my"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3laa552l24g2f"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\xcx\\2017\\0806-eleonora\\20170806-eleonora-nDEFV1-pDEFV2.jpg",
+        "alt": "Digital art of Eleonora from Xenoblade Chronicles X with her arms crossed."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\xcx\\2017\\0806-eleonora\\20170806-thmb-eleonora-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Eleonora",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ]
+  },
+  {
+    "title": "Sera's Knife",
+    "summary": "",
+    "details": "",
+    "characters": "Cross",
+    "date": "2017-07-18",
+    "dateYear": "2017",
+    "uniqueUrl": "2017-07-18-seras-kni",
+    "UniqueURLKey": "art/xcx/2017-07-18-seras-kni",
+    "spoilers": "No",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/163157693148/some-sera-drawings-im-not-sure-ill-refine"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l7ogkhocyz24"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\xcx\\2017\\0718-seraknife\\20170718-Sera_Knife_colours-sign-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Digital art of a Xenoblade X Cross called Sera, swinging her oddly shaped knife down as she lunges forward."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\xcx\\2017\\0718-seraknife\\20170718-thmb-Sera_Knife_colours-sign-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Sera",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ]
+  }
+]
