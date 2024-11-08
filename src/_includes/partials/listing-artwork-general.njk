@@ -1,20 +1,20 @@
 
-{% assign postYear = post.data.twewyart.dateYear %}
+{% assign postYear = post.data.aArtwork.dateYear %}
   {% if currentYear != postYear %}
   {% assign currentYear = postYear %}
     <div class="boxheader"><h3>{{ postYear }}</h3></div>
   {% endif %}
     <div classs="row">
-      <div class="characters {{ post.data.twewyart.characters }}">
+      <div class="characters {{ post.data.aArtwork.characters }}">
             <div class= "content">
               <a href="{{ post.url }}"> 
                 <div class="desc"> 
-                  {{ post.data.twewyart.title | truncate: 37 }}
+                  {{ post.data.aArtwork.title | truncate: 37 }}
                 </div>
-                {% if post.data.twewyart.thumbnailUrl  %}
+                {% if post.data.aArtwork.thumbnailUrl  %}
                   <img
-                  src="{{ post.data.twewyart.thumbnailUrl }}"
-                  alt="{{ post.data.twewyart.thumbnailAlt }}"
+                  src="{{ post.data.aArtwork.thumbnailUrl }}"
+                  alt="{{ post.data.aArtwork.thumbnailAlt }}"
                   >
                   {% endif %}
               </a> 
