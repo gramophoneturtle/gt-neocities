@@ -3,7 +3,7 @@ class ArtworkCategory:
     spoiler_free_filename = "-spoiler-free"
     filename_ext = ".json"
 
-    def __init__(self, sheet_name = "", output_path = "", fandoms_list = [], base_url = "", spoilers_filename = "", nospoilers_filename = ""):
+    def __init__(self, sheet_name = "", output_path = "", fandoms_list = [], base_url = ""):
         self.SheetName = sheet_name
         self.Fandoms = fandoms_list
         self.BaseURL = base_url

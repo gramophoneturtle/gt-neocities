@@ -60,13 +60,17 @@
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/183508055198/crow-no-more-twitter-my-p5-art"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l6qe7ijg6w2y"
       }
     ],
     "imgs": [
       {
         "id": 1,
         "url": "\\img\\art\\persona5\\2019\\0319-crownomore\\20190316-crown04-nDEFV1-pDEFV2-800.jpg",
-        "alt": "Goro Akechi gives Robin Hood a crown of lotus flowers on a ship, surrounded by city buildings."
+        "alt": "Art of Goro Akechi giving Robin Hood a crown of lotus flowers on a ship, surrounded by city buildings."
       }
     ],
     "thumbnailUrl": "\\img\\art\\persona5\\2019\\0319-crownomore\\20190316-thmb-crown04-nDEFV1-pDEFV2.jpg",
