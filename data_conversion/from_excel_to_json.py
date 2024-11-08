@@ -52,23 +52,23 @@ def make_img_list(_row: pandas.Series) -> list:
 
         # if there is no image - warn
         if _row['IMG {0}'.format(i)] == "":
-            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i))
+            print("    Img URL missing: |{0}| for #{1}".format(artwork_id, i))
             continue
 
         # if there is an image, but no alt text - warn
         if _row['IMG {0}'.format(i)] != "" and _row['ALT {0}'.format(i)] == "":
-            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i))
+            print("    Alt text missing! |{0}| for #{1}".format(artwork_id, i))
             continue
 
         test_url = get_img_url(_row, kay_img)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("    !! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # make sure it's at root if not using https
         if "https" not in test_url and '\\' != test_url[0:1]:
-            print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("    !! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = "\\" + test_url
 
         # we have an image and alt text - good to add
@@ -105,7 +105,7 @@ def make_vid_list(_row: pandas.Series) -> list:
         test_url = get_img_url(_row, key_vid)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("    !! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # we have an image and alt text - good to add
@@ -225,8 +225,12 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
                 
                 # Add to artwork so it can link back! Complex List of Lists
                 artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
+        
+            # Add Related Writing
+            artwork_dictionary['RelatedWritingURL'] = row['RelatedWriting']
+
         else:
-            print("    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
+            print("    !! Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
 
        
     return_list.append(tmp_dict)
@@ -252,7 +256,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
                  'Spoilers',
                 'characters','fandom','PF tags',
                 'title','summary','detail',
-                'RelatedSeries','RelatedSeriesOrder',
+                'RelatedSeries','RelatedSeriesOrder', 'RelatedWriting',
                 'IMG THMB', 'ALT THMB',
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6','IMG 7','IMG 8',
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6','ALT 7','ALT 8',

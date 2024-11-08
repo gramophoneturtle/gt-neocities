@@ -81,6 +81,11 @@
 </div>
 {%- endif -%}
 
+{# RELATED WRITING #}
+{%- if twewyart.RelatedWritingURL %}
+    <a href="{{twewyart.RelatedWritingURL}}">Related Writing</a> - <a href="{{twewyart.RelatedWritingURL}}" target="_blank" rel="noopener noreferrer">↗</a>
+{%- endif -%}
+
 {# AUs/RELATED SERIES #}
 {% if twewyart.RelatedSeriesAndURL.length > 0 %}
 <div>
