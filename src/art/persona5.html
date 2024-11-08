@@ -4,24 +4,21 @@ layout: /layouts/base.njk
 date: 2024-02-01
 ---
 <p>Ordered by original post date.</p>
+<details>
+  <summary>Characters</summary>
+<div id="myBtnContainer">
+  <div><button class="btn active" onclick="filterSelection('all')">Show all</button></div>
+  <div>
+    <button class="btn" onclick="filterSelection('Akechi')">Akechi</button>
+    <button class="btn" onclick="filterSelection('Robin Hood')">Robin Hood</button>
+    <button class="btn" onclick="filterSelection('Loki')">Loki</button>
+  </div>
+</div>
+</details>
 
 {% assign currentYear = "" %}
-{% for post in collections.ArtP5 | reverse %}
-  {% assign postYear = post.data.artwork.dateYear %}
-  {% if currentYear != postYear %}
-  {% assign currentYear = postYear %}
-    <div class="boxheader"><h3>{{ postYear }}</h3></div>
-  {% endif %}
-    <div classs="row">
-      <div class="characters {{ post.data.artwork.characters }}">
-        <div class="content">
-          
-          <a href="{{ post.url }}">{{ post.data.artwork.title }}</a> 
-          
-          <p class="smallpadding">({{ post.data.artwork.characters }})</p>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+{% for post in collections.TagPersona5Art | reverse %}
+    {% include 'partials/listing-artwork-general.njk' %}
+{% endfor %}
 
 <script src="/js/filterByTag.js"></script>
