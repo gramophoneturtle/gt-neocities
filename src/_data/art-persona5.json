@@ -1,29 +1,85 @@
 [
   {
     "title": "Hello There!",
-    "summary": "",
+    "summary": "Missed drawing Loki so here he is!!",
     "details": "",
     "characters": "Loki",
     "date": "2021-02-12",
     "dateYear": "2021",
-    "uniqueUrl": "2021-02-12-Hello ther",
+    "uniqueUrl": "2021-02-12-hello-ther",
+    "UniqueURLKey": "art/persona5/2021-02-12-hello-ther",
+    "spoilers": "yes",
     "urls": [
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/642959997725196288"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4556507"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3koxmhzvwi22y"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/5336026-hello-there"
       }
     ],
     "imgs": [
       {
         "id": 1,
-        "url": "https://64.media.tumblr.com/61f8075e2416baf26ea6c9a32bc76fa9/459c5ce8b69acf7d-27/s1280x1920/63cae0a760e4db5d392f550eba3f27fd5622329d.png",
+        "url": "\\img\\art\\persona5\\2021\\0212-missyou\\20210212-lokiMissYouNoSword03_78-niDEFV1-gl10V1-800.jpg",
         "alt": "Art of Loki from Persona 5 from the waist up and his arms spread wide. Loki is a human and geometric shaped being with a chaotic black and white stripe pattern over his body, two horns coming out of his eyes, and many braided black and red strands. "
       },
       {
         "id": 2,
-        "url": "https://64.media.tumblr.com/30595cb01ef2ac5f14fc1cd0daf2c240/459c5ce8b69acf7d-46/s1280x1920/24a488220edae990effee3e18a15818c9f5c7499.png",
+        "url": "\\img\\art\\persona5\\2021\\0212-missyou\\20210212-lokiMissYouNoSword03-niDEFV1-gl10V1-800.jpg",
         "alt": "Art of Loki from Persona 5 from the ankles up and his arms spread wide. Loki is a human and geometric shaped being with a chaotic black and white stripe pattern over his body, two horns coming out of his eyes, and many braided black and red strands. "
       }
-    ]
+    ],
+    "thumbnailUrl": "\\img\\art\\persona5\\2021\\0212-missyou\\20210212-thmb-lokiMissYouNoSword03-niDEFV1-gl10V1.jpg",
+    "thumbnailAlt": "Loki",
+    "vids": [],
+    "fandom": [
+      "persona5"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Crow No More",
+    "summary": "A crown of lotus flowers.",
+    "details": "For reference, in the protagonists name, \"Ren\", means \"lotus.\"",
+    "characters": "Akechi, Robin Hood",
+    "date": "2019-03-16",
+    "dateYear": "2019",
+    "uniqueUrl": "2019-03-16-crow-no-mo",
+    "UniqueURLKey": "art/persona5/2019-03-16-crow-no-mo",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/183508055198/crow-no-more-twitter-my-p5-art"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3l6qe7ijg6w2y"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\persona5\\2019\\0319-crownomore\\20190316-crown04-nDEFV1-pDEFV2-800.jpg",
+        "alt": "Art of Goro Akechi giving Robin Hood a crown of lotus flowers on a ship, surrounded by city buildings."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\persona5\\2019\\0319-crownomore\\20190316-thmb-crown04-nDEFV1-pDEFV2.jpg",
+    "thumbnailAlt": "Akechi gives Robin Hood a crown of lotus flowers.",
+    "vids": [],
+    "fandom": [
+      "persona5"
+    ],
+    "RelatedWritingURL": ""
   }
 ]

@@ -113,6 +113,20 @@
       },
       {
         "Index": 103,
+        "Name": "Redecoration",
+        "URL": "art/twewy/2020-10-20-redecorati",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\1020-redecoration\\20201020-thmb-redecor.jpg",
+        "ThumbnailAlt": "Neku and Joshua"
+      },
+      {
+        "Index": 104,
+        "Name": "Names",
+        "URL": "art/twewy/2020-12-06-names",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\1206-cnau-names\\20201206-thmb-names.jpg",
+        "ThumbnailAlt": "Neku and Joshua."
+      },
+      {
+        "Index": 111,
         "Name": "Mentor Joshua Kiryu? Mentor Joshua Kiryu!",
         "URL": "art/twewy/2020-08-15-mentor-jos",
         "ThumbnailURL": "\\img\\art\\twewy\\2020\\0815-cNeku3-mentor\\20200815-thmb-cNeku3_mentor-nDEFV1-pDEFV2.jpg",
@@ -133,6 +147,13 @@
     "ThumbnailURL": "",
     "ThumbnailAlt": "",
     "SeriesEntries": [
+      {
+        "Index": 1,
+        "Name": "Higher Plane Experimentation - The Beginning",
+        "URL": "art/twewy/2020-11-12-higher-pla",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\1112-hpe-start\\20201112-thmb-HPIntegration.jpg",
+        "ThumbnailAlt": "Hanekoma"
+      },
       {
         "Index": 20210116,
         "Name": "Possession",
@@ -272,7 +293,7 @@
     "ThumbnailAlt": "Art of Hazuki Mikagi.",
     "SeriesEntries": [
       {
-        "Index": 505,
+        "Index": 220505,
         "Name": "Happy Birthday Hazuki!!",
         "URL": "art/twewy/2022-05-05-happy-birt",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",

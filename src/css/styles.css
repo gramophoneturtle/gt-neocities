@@ -9,6 +9,8 @@
 
   /* Default (dark) theme */
   --bg: #212121;
+  /* TODO Want it to be on the outer borders */
+  --bg-outer: #323531;
   --accent-bg: #2a2b2a;
   --text: #dcdcdc;
   --text-light: #ababab;
@@ -109,6 +111,9 @@ body > header h1 {
 /* Add a little padding to ensure spacing is correct between content and nav */
 main {
   padding-top: 0rem;
+
+  /* TODO has the bg of the default area be different than the main */
+  /* background: var(--bg); */
 }
 
 body > footer {

@@ -8,20 +8,14 @@ import os
 import re
 
 from RelatedSeries import RelatedSeriesList
+from models.ArtworkCategory import ArtworkCategory
 
 # Excel Database Filename
 filename_input = "Where Is My Art.xlsx"
 
-# GENERATE - TWEWY JSON Files
-filename_output_twewy_og_all = "twewy-art.json"
-filename_output_twewy_og_nospoilers = "twewy-art-spoiler-free.json"
-filename_output_twewy_neo_all = "twewy-neo-art.json"
-filename_output_twewy_neo_nospoilers = "twewy-neo-art-spoiler-free.json"
-filename_output_twewy_series_all = "twewy-series.json"
-filename_output_twewy_series_nospoilers = "twewy-series-spoiler-free.json"
-
 # GENERATE - PERSONA 5 JSON Files
 filename_output_p5 = "art-persona5.json"
+filename_output_p5_nospoilers = "art-persona5-spoiler-free.json"
 
 # GENERATE - Related Series Files
 filename_output_related_twewy = "relatedtwewy.json"
@@ -58,23 +52,23 @@ def make_img_list(_row: pandas.Series) -> list:
 
         # if there is no image - warn
         if _row['IMG {0}'.format(i)] == "":
-            print("Img URL missing: |{0}| for #{1}".format(artwork_id, i))
+            print("    Img URL missing: |{0}| for #{1}".format(artwork_id, i))
             continue
 
         # if there is an image, but no alt text - warn
         if _row['IMG {0}'.format(i)] != "" and _row['ALT {0}'.format(i)] == "":
-            print("Alt text missing! |{0}| for #{1}".format(artwork_id, i))
+            print("    Alt text missing! |{0}| for #{1}".format(artwork_id, i))
             continue
 
         test_url = get_img_url(_row, kay_img)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("    !! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # make sure it's at root if not using https
         if "https" not in test_url and '\\' != test_url[0:1]:
-            print("!! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("    !! Img URL missing \\. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = "\\" + test_url
 
         # we have an image and alt text - good to add
@@ -111,15 +105,13 @@ def make_vid_list(_row: pandas.Series) -> list:
         test_url = get_img_url(_row, key_vid)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("!! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            print("    !! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # we have an image and alt text - good to add
         vid_list.append({'id': i, 'url': test_url})
 
     return vid_list
-
-
 
 def update_related_dictionary(rw, aw_dict):
 
@@ -177,10 +169,10 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         artwork_dictionary['spoilers'] = row['Spoilers']
 
         if row['title'] == "":
-            print("    Title is missing for |{0}|".format(artworkname))
+            print("        Title is missing for |{0}|".format(artworkname))
 
         if row['characters'] == "":
-            print("    characters is missing for |{0}|".format(artworkname))
+            print("        characters is missing for |{0}|".format(artworkname))
 
         # URLS -------------------------------------------------
         artwork_dictionary['urls'] = []
@@ -233,8 +225,12 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
                 
                 # Add to artwork so it can link back! Complex List of Lists
                 artwork_dictionary['RelatedSeriesAndURL'] = [[u.strip(), urlify(u)] for u in row['RelatedSeries'].split(";")]
+        
+            # Add Related Writing
+            artwork_dictionary['RelatedWritingURL'] = row['RelatedWriting']
+
         else:
-            print("    Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
+            print("    !! Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
 
        
     return_list.append(tmp_dict)
@@ -250,7 +246,7 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/"):
     print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
-    print(' 1. Reading Excel File for {0}'.format(sheet_name), end="...\n")
+    print(' 1. Reading Excel File for {0}'.format(fandoms), end="...\n")
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -260,7 +256,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
                  'Spoilers',
                 'characters','fandom','PF tags',
                 'title','summary','detail',
-                'RelatedSeries','RelatedSeriesOrder',
+                'RelatedSeries','RelatedSeriesOrder', 'RelatedWriting',
                 'IMG THMB', 'ALT THMB',
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6','IMG 7','IMG 8',
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6','ALT 7','ALT 8',
@@ -322,28 +318,32 @@ if __name__ == '__main__':
 
     twewy_related_series_list = RelatedSeriesList()
     twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
-
+    
     # READ EXCEL FILE
-    # TWEWY OG
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=True, base_url="art/twewy/")
+    # TWEWY ----------------------------------------------------------- #
+    twewy_art = ArtworkCategory(
+        sheet_name = 'TWEWY Series',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": "TWEWY",
+                    "Filename": "twewy-art"
+                },
+                {
+                    "Section": "NTWEWY",
+                    "Filename": "twewy-neo-art"
+                },
+                {
+                    "Section": "TWEWY, NTWEWY",
+                    "Filename": "twewy-series"
+                } 
+            ],
+        base_url = "art/twewy/"
+    )
 
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_og_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY"], include_spoilers=False, base_url="art/twewy/")
-
-    # NEO TWEWY
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=False, base_url="art/twewy/")
-
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_neo_all)
-    main('TWEWY Series', file_path_output, fandoms = ["NTWEWY"], include_spoilers=True, base_url="art/twewy/")
-
-    # TWEWY Series
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_nospoilers)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=False, base_url="art/twewy/")
-
-    file_path_output = os.path.join(file_path_output_path, filename_output_twewy_series_all)
-    main('TWEWY Series', file_path_output, fandoms = ["TWEWY, NTWEWY"], include_spoilers=True, base_url="art/twewy/")
+    for category in twewy_art.Fandoms:
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
 
     # Write Related Series JSON
     # Sort Series Enrties by index
@@ -354,10 +354,56 @@ if __name__ == '__main__':
     file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(nested_json)
+
+    # Reset is???
+    twewy_related_series_list = RelatedSeriesList()
     
+    # PERSONA 5 ----------------------------------------------------------- #
+    persona5_art = ArtworkCategory(
+        sheet_name = 'Other',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": "persona5",
+                    "Filename": "art-persona5"
+                }
+            ],
+        base_url = "art/persona5/"
+    )
+
+    for category in persona5_art.Fandoms:
+        main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=persona5_art.BaseURL)
+        main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=persona5_art.BaseURL)
+
+    # XCX----------------------------------------------------------- #
+    fandomkey = "XCX"
+    artworksCategories = ArtworkCategory(
+        sheet_name = 'Other',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": fandomkey,
+                    "Filename": "art-{0}".format(fandomkey.lower())
+                }
+            ],
+        base_url = "art/{0}/".format(fandomkey.lower())
+    )
+
+    for category in artworksCategories.Fandoms:
+        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
+        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
+
+
+
     # Persona 5 Sheet
+    # fandomkey="persona5"
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
-    # main('Other', file_path_output)
+    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=True, base_url="art/{0}/".format(fandomkey))
+
+    
+    # file_path_output = os.path.join(file_path_output_path, filename_output_p5_nospoilers)
+    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=False, base_url="art/{0}/".format(fandomkey))
+
 
     print("\nMAIN: C O M P L E T E!\n")
 

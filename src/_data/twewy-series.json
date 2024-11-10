@@ -1,5 +1,45 @@
 [
   {
+    "title": "Order of Mews Part 2",
+    "summary": "Another seven Mr. Mews requested and created, not eight, because Glitch \nMew is special. This Mew is rumoured to have been created by an Angel \nthat tried to recreate the power of Shiki Misaki but could not. (Please \ntry to use traditional methods next time, Angel.) ",
+    "details": "",
+    "characters": "Mr.Mew",
+    "date": "2023-11-19",
+    "dateYear": "2023",
+    "uniqueUrl": "2023-11-19-order-of-m",
+    "UniqueURLKey": "art/twewy/2023-11-19-order-of-m",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/734431203338371072/an-order-of-mr-mews-part-2-another-eight-mr"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/3991448"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3kepicblj6k2v"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2023\\0907-ordermews\\20230907-ManyMews2-nDV1-pDV2-800.jpg",
+        "alt": "Digital Art of a four by five grid of black cat stuffed animals called Mr. Mew, dressed as characters from The World Ends With You series. Row 1 from left to right is Coco Atarashi (NEO), Megumi Kitaniji with a timer on his right paw, Sanae Hanekoma with feathers on his tail, and Neku Sakuraba (OG). Row 2 is Hazuki Mikagi with his necklace wrapped around his tail, Mother (OC) with her tie wrapped around her tail, Father (OC), and Rindo Kanade with his mask on. Row 3 is Joshua (NEO) with black stars on his paw pads, ears and tail, Joshua (OG), Yoshiya (A New Day) with an orange cell phone that says \"HELP\" and Shiki Misaki (NEO). Row 4 is a Mew with Reaper wings, a Mew with Angel wings, a red glitched Mew, and Tsugumi Matsunae."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2023\\0907-ordermews\\20230907-thmb-ManyMews2-nDV1-pDV2.jpg",
+    "thumbnailAlt": "Mr. Mews",
+    "vids": [],
+    "fandom": [
+      "TWEWY",
+      " NTWEWY"
+    ],
+    "RelatedWritingURL": "/writing/an-order-of-mews/"
+  },
+  {
     "title": "There was once a Composer called NULL",
     "summary": "Father tells Joshua a story about a foolish Composer and an event that \nhad a terrible price. I don\u2019t know when Joshua would hear the story but I\n put it roughly around NEO as a part of Father trying to fix things with\n Joshua. (We\u2019ll get to the start of that another day. Given the\u2026stunt, \nJoshua tried to pull at the end of OG TWEWY.)",
     "details": "There is a bit more to this event, but Father is not sharing that \ninformation right now. The attack on the Composer was designed to cause \ndamage to the lower planes and the Composer. Because the Composer spent \nso much time with the Reapers, and taught them a lot about the planes \nand themself, it gave them the knowledge the needed to actually cause \nsignificant damage.If the attack had succeeded, and they had \ndefeated the Composer, one of them would have become the Composer and \nstill would have had to clean up their own mess. But at least it would \nhave been a functioning Composer to handle it.But instead, they \ndidn\u2019t, so the region was felt was a partially functioning Composer, \nunable to help out or transfer their power over to someone who could. \nLuckily all Reapers had the same training, so they were able to fix \nthings eventually, but not without losses.Now that knowledge \nabout the planes and the Composer\u2019s abilities is not openly shared, so \nif something similar were to happen to a Composer again, the same damage\n won\u2019t - shouldn\u2019t - be possible.And one more fun fact about the \nstory - Father was there\u2026as a Reaper. Perhaps Joshua will get to learn \nthat, and more details about those events.",
@@ -55,7 +95,8 @@
     "fandom": [
       "TWEWY",
       " NTWEWY"
-    ]
+    ],
+    "RelatedWritingURL": ""
   },
   {
     "title": "Mother and Father Are Watching",
@@ -114,7 +155,8 @@
         "NEO Higher Plane Experimentation",
         "neo-higher-plane-experimentation"
       ]
-    ]
+    ],
+    "RelatedWritingURL": ""
   },
   {
     "title": "Hanekoma, Higher Vibe Frequency.",
@@ -163,6 +205,7 @@
         "NEO Higher Plane Experimentation",
         "neo-higher-plane-experimentation"
       ]
-    ]
+    ],
+    "RelatedWritingURL": ""
   }
 ]

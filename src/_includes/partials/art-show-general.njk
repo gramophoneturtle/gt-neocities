@@ -1,14 +1,14 @@
 {# IMAGES #}
 {# If multiple images, show thumbnails of each and expand on click #}
 {% set enableGalleryGrid = false %}
-{% if twewyart.imgs.length > 1 %}
+{% if aArtwork.imgs.length > 1 %}
   {% set enableGalleryGrid = true %}
 
   {# Main Div - Slideshow Gallery #}
   <div class="slideshow-container">
 
     {# 1) Main Slides #}
-    {%- for item in twewyart.imgs %}
+    {%- for item in aArtwork.imgs %}
 
       {% set currentID = [ "img0", loop.index ] | join %}
       
@@ -29,7 +29,7 @@
     
     {# 2) Thumbnails #}
     <div class="slideshow-row scrollmenu" >
-    {%- for item in twewyart.imgs %}
+    {%- for item in aArtwork.imgs %}
       <div class="slideshow-column">
         <img class="slideshow-demo slideshow-cursor"
           style="width:100%"
@@ -43,7 +43,7 @@
 
 {% else %}
   {# Set up for single image display. No grid required. #}
-  {%- for item in twewyart.imgs %}
+  {%- for item in aArtwork.imgs %}
     <div class="artwork-one-image-container">
       <img class="artwork-one-img-show"
         src="{{ item.url }}"
@@ -57,7 +57,7 @@
 {# VIDEOS #}
 {% if twewyart.vids.length > 0 %}
 <div>
-    {%- for item in twewyart.vids %}
+    {%- for item in aArtwork.vids %}
       <div>
         <video controls loop muted playsinline>
           <source src="{{item.url}}" type="video/mp4">
@@ -69,30 +69,25 @@
 {% endif %}
 
 {# SUMMARY #}
-<div><p>{{ twewyart.summary | safe}}</p></div>
+<div><p>{{ aArtwork.summary | safe}}</p></div>
 
 {# DETAILS #}
-{%- if twewyart.details %}
+{%- if aArtwork.details %}
 <div>
   <details>
       <summary>Details</summary>
-      <p>{{ twewyart.details | safe }}</p>
+      <p>{{ aArtwork.details | safe }}</p>
   </details>
 </div>
 {%- endif -%}
 
-{# RELATED WRITING #}
-{%- if twewyart.RelatedWritingURL %}
-    <a href="{{twewyart.RelatedWritingURL}}">Related Writing</a> - <a href="{{twewyart.RelatedWritingURL}}" target="_blank" rel="noopener noreferrer">↗</a>
-{%- endif -%}
-
 {# AUs/RELATED SERIES #}
-{% if twewyart.RelatedSeriesAndURL.length > 0 %}
+{% if aArtwork.RelatedSeriesAndURL.length > 0 %}
 <div>
   <p>Series</p>
   <ul>
-    {%- for item in twewyart.RelatedSeriesAndURL %}
-      <li><a href="/art/twewy/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
+    {%- for item in aArtwork.RelatedSeriesAndURL %}
+      <li><a href="/art/TODO/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
     {% endfor -%}
   </ul>
 </div>
@@ -102,14 +97,14 @@
 <div>
   <p>Posted on:</p>
   <ul>
-    {%- for item in twewyart.urls %}
+    {%- for item in aArtwork.urls %}
       <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
     {% endfor -%}
   </ul>
 </div>
 
 {# ORIGINAL POST DATE #}
-<p>Originally posted on {{ twewyart.date }}.</p>
+<p>Originally posted on {{ aArtwork.date }}.</p>
 
 {% if enableGalleryGrid %}
 <script src="/js/SlideShowGallery.js"></script>

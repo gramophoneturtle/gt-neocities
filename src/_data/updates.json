@@ -1,5 +1,74 @@
 [
     {
+        "PostDate": "2024-11-10: Writing; P5, TWEWY, XCX artwork"
+        ,"date": "2024-11-10"
+        ,"Site": "Order of Mews Writing. Father Icon for favicon. Persona 5 artwork uses same stye as TWEWY. Added Xenoblade X section."
+        ,"ArtList": [
+            {
+                "Category": "Persona 5",
+                "List": [
+                    {
+                        "Title": "Well, how was that?",
+                        "URL": "/art/persona5/2018-10-07-well-how/"
+                    }
+                ]
+            },
+            {
+                "Category": "Persona 5 Spoilers",
+                "List": [
+                    {
+                        "Title": "Crow No more",
+                        "URL": "/art/persona5/2019-03-16-crow-no-mo/"
+                    }
+                ]
+            },
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Noise Feathers",
+                        "URL": "/art/twewy/2020-11-04-noise-feat/"
+                    }
+                ]
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Redecoration",
+                        "URL": "/art/twewy/2020-10-20-redecorati/"
+                    },
+                    {
+                        "Title": "Names",
+                        "URL": "/art/twewy/2020-12-06-names/"
+                    },
+                    {
+                        "Title": "Higher Plane Experimentation - The Beginning",
+                        "URL": "/art/twewy/2020-11-12-higher-pla/"
+                    }
+                ]
+            },
+            {
+                "Category": "Xenoblade X",
+                "List": [
+                    {
+                        "Title": "Eleonora",
+                        "URL": "/art/xcx/2017-08-06-eleonora/"
+                    },
+                    {
+                        "Title": "Sera's Knife",
+                        "URL": "/art/xcx/2017-07-18-seras-kni/"
+                    }
+                    ,
+                    {
+                        "Title": "Nagi Sketch",
+                        "URL": "/art/xcx/2017-08-21-nagi-sketc"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-11-04: Updated Site Banner"
         ,"date": "2024-11-04"
         ,"Site": "Updated site banner and cleared up wording about using my banner."

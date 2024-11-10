@@ -158,15 +158,20 @@
         "Apparent Age": "",
         "ImageHeader": "\\img\\art\\twewy\\ocs\\MotherCreator\\Mother_Creation-niDEFAULT-V1-glin5-V1.png",
         "ImageHeaderAltText": "A black and white image of a woman with a short ponytail and a suit, has a man lying beneath her. A circular light source shines from above her head, looking like a halo.",
-        "BannerButtons": [],
         
         "BannerButtonStampList": [
-                {
-                    "URL": "/img/banners/Mother_Stamp.gif",
-                    "Credit": "LeGaosaure",
-                    "ImgType": "Stamp",
-                    "MediaType": "gif"
-                }
+            {
+                "URL": "/img/banners/MotherFan_88x31.gif",
+                "Credit": "LeGaosaure",
+                "ImgType": "88x31",
+                "MediaType": "gif"
+            },
+            {
+                "URL": "/img/banners/Mother_Stamp.gif",
+                "Credit": "LeGaosaure",
+                "ImgType": "Stamp",
+                "MediaType": "gif"
+            }
         ],
 
 
@@ -258,13 +263,10 @@
 
         "ImageHeader": "\\img\\icons\\NullIcon.png",
         "ImageHeaderAltText": "Modern day Null.",
-        "BannerButtons": [
-            "/img/buttons/NullFan1.gif",
-            "/img/buttons/NullFan2.gif"],
         
         "BannerButtonStampList": [
             {
-                "URL": "/img/banners/NullFan1_81x31.gif",
+                "URL": "/img/banners/NullFan1_88x31.png",
                 "Credit": "LeGaosaure",
                 "ImgType": "88x31",
                 "MediaType": "png"
