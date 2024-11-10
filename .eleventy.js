@@ -107,7 +107,7 @@ module.exports = function (eleventyConfig) {
 
 
    // PERSONA 5 - Sort by DATE
-   eleventyConfig.addCollection("allPersona5ByDate", function (collectionApi) {
+   eleventyConfig.addCollection("Persona5ByDateCollection", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("TagPersona5Art").sort(function (a, b) {
 
