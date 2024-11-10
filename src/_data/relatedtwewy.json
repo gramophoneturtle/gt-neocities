@@ -148,6 +148,13 @@
     "ThumbnailAlt": "",
     "SeriesEntries": [
       {
+        "Index": 1,
+        "Name": "Higher Plane Experimentation - The Beginning",
+        "URL": "art/twewy/2020-11-12-higher-pla",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\1112-hpe-start\\20201112-thmb-HPIntegration.jpg",
+        "ThumbnailAlt": "Hanekoma"
+      },
+      {
         "Index": 20210116,
         "Name": "Possession",
         "URL": "art/twewy/2021-01-16-possession",

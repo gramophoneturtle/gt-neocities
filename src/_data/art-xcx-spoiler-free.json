@@ -1,5 +1,36 @@
 [
   {
+    "title": "Nagi Sketch",
+    "summary": "",
+    "details": "",
+    "characters": "Nagi",
+    "date": "2017-08-21",
+    "dateYear": "2017",
+    "uniqueUrl": "2017-08-21-nagi-sketc",
+    "UniqueURLKey": "art/xcx/2017-08-21-nagi-sketc",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/164469479673/some-sketches-of-lin-nagi-and-vandham-who-were"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\xcx\\2017\\0821-nagisketch\\20170821-nagiSketch-nLV1-pLV2-800.jpg",
+        "alt": "Digital art sketch of a man named Nagi Kentaro from Xenoblade Chronicles X."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\xcx\\2017\\0821-nagisketch\\20170821-thmb-nagiSketch.jpg",
+    "thumbnailAlt": "Nagi",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Eleonora",
     "summary": "",
     "details": "",

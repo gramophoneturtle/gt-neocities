@@ -1,6 +1,6 @@
 [
     {
-        "PostDate": "2024-11-10: Writing, multi-fandom artwork"
+        "PostDate": "2024-11-10: Writing, non-TWEWY fandom artwork"
         ,"date": "2024-11-10"
         ,"Site": "Order of Mews Writing. Father Icon for favicon. Persona 5 artwork uses same stye as TWEWY. Added Xenoblade X section."
         ,"ArtList": [
@@ -41,6 +41,10 @@
                     {
                         "Title": "Names",
                         "URL": "/art/twewy/2020-12-06-names/"
+                    },
+                    {
+                        "Title": "Higher Plane Experimentation - The Beginning",
+                        "URL": "/art/twewy/2020-11-12-higher-pla/"
                     }
                 ]
             },
@@ -54,6 +58,11 @@
                     {
                         "Title": "Sera's Knife",
                         "URL": "/art/xcx/2017-07-18-seras-kni/"
+                    }
+                    ,
+                    {
+                        "Title": "Nagi Sketch",
+                        "URL": "/art/xcx/2017-08-21-nagi-sketc"
                     }
                 ]
             }
