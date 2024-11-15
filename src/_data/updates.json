@@ -1,5 +1,32 @@
 [
     {
+        "PostDate": "2024-11-??: Visual Novel Test??"
+        ,"date": "2024-11-12"
+        ,"Site": "Added a visual novel to the site made with Ren'JS."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Love You, Null-ren!",
+                        "URL": "/"
+                    }
+                ]
+            }
+        ]
+        ,"Writing": [
+            {
+                "Category": "Ren'JS",
+                "List": [
+                    {
+                        "Title": "An Experiment",
+                        "URL": "/writing/an-experiment/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2024-11-10: Writing; P5, TWEWY, XCX artwork"
         ,"date": "2024-11-10"
         ,"Site": "Order of Mews Writing. Father Icon for favicon. Persona 5 artwork uses same stye as TWEWY. Added Xenoblade X section."

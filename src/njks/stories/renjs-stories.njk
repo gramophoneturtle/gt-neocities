@@ -1,0 +1,24 @@
+---
+tags:
+  - TagRenJS
+pagination:
+    data: stories.data-renjs
+    size: 1
+    alias: story
+    addAllPagesToCollections: true
+permalink: "writing/{{ story.Title | slugify }}/"
+layout: /layouts/base
+---
+<iframe src="{{story.URL}}" title="{{story.Title}}" width="800px" height="600px"></iframe> 
+
+{%- if story.Summary %}
+    <h3>Summary</h3>
+    {%- for para in story.Summary %}
+        <p>{{ para }}</p>
+    {% endfor -%}
+{%- endif -%}
+
+{%- if story.Characters %}
+    <h3>Characters</h3>
+    <p>{{ story.Characters | join(", ") }}</p>
+{%- endif -%}

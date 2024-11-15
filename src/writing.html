@@ -4,6 +4,8 @@ layout: /layouts/base.njk
 ---
 <p>Writings, in no particular order.</p>
 
+<h2>Writing</h2>
+
 {% for myStory in collections.Writing %}
 
 {% if myStory.data.story.Chapters.length > 0 %}
@@ -20,4 +22,21 @@ layout: /layouts/base.njk
 
   </div>
 {% endif %}
+{% endfor %}
+
+
+<h2>Ren'JS</h2>
+
+<p>Interactive visual novels!</p>
+
+{% for myStory in collections.TagRenJS %}
+  <div class="writingStoryListing">
+      <a class="writingTitle" href="{{ myStory.url }}">{{ myStory.data.story.Title }}</a> 
+      {%- if myStory.data.story.Characters.length > 0 %}
+        <p>Characters: {{ myStory.data.story.Characters | join: ", " }}</p>
+      {%- endif -%}
+
+      <p>Posted on: {{myStory.data.story.SitePostDate}}</p>
+
+  </div>
 {% endfor %}
