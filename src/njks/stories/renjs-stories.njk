@@ -7,18 +7,10 @@ pagination:
     alias: story
     addAllPagesToCollections: true
 permalink: "writing/{{ story.Title | slugify }}/"
-layout: /layouts/base
+layout: /layouts/base-without-h1title
 ---
-<iframe src="{{story.URL}}" title="{{story.Title}}" width="800px" height="600px"></iframe> 
 
-{%- if story.Summary %}
-    <h3>Summary</h3>
-    {%- for para in story.Summary %}
-        <p>{{ para }}</p>
-    {% endfor -%}
-{%- endif -%}
+<script src="renjs.js"></script>
+<script src="boot.js"></script>
 
-{%- if story.Characters %}
-    <h3>Characters</h3>
-    <p>{{ story.Characters | join(", ") }}</p>
-{%- endif -%}
+<div id="renjs-canvas"></div>

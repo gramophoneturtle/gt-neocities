@@ -1,0 +1,87 @@
+start:
+  - show fatherrainbow: WITH FADE CONTINUE
+  - choice:
+    - "Welcome!":
+      - scene: welcome
+    - "Them":
+      - scene: thoseTwo
+
+welcome:
+  - show fatherrainbow: WITH FADE CONTINUE
+  - show father: normalF AT LEFT WITH FADE
+  - father says: Hello, welcome to ~
+  - father says: (bold)A Quick Test!(end)
+  - chisaPort says normal90F: Are you ready to hear Father's stories?!
+  - var isReady: 1
+  - choice:
+    - "Yes!":
+      - father says: How lovely~!
+    - "I'm not ready!!":
+      - father says normal_handUpF: No worries!
+    - "No, I don't trust his stories.":
+      - var isReady: 0
+      - show father_jelly: WITH FADE CONTINUE
+      - father says annoyedF: ...
+      - father says annoyed_medF: Well, I'll be here when you're ready!
+      - father says annoyedF: (How (bold)DARE(end) you say that to Chisa!?)
+      - show fatherrainbow: WITH FADE CONTINUE
+      - father says normalF: ...
+      - father says: Ignoring that response.
+  - show mother: normal AT OUTRIGHT WITH CUT
+  - show mother: AT RIGHT WITH MOVE
+  - mother says: Is Our Guest ready?
+  - if ({isReady} == 1):
+    - father says normalF: Indeed!
+    - mother says happy: Wonderful.
+  - else:
+    - father says annoyedF: ...No.
+    - father says annoyed_medF: (A lesson in Parenting is required.)
+    - mother says annoyed: ...Is that so?
+    - mother says: (Understood.)
+    - mother normal says: Well I suppose...
+    - father says normalF: They lucked out.
+    - mother says normal: Indeed. This is only a test.
+  - father says: We don't know when there will be more. But -
+  - mother says normal: They did make it this far.
+  - father says: So... Congrats!
+  - choice:
+    - father says: Credits?
+    - "Credits":
+      - scene: credits
+    - "I'm good.":
+      - scene: endingTheGame
+
+thoseTwo:
+  - show rectangles_light: WITH FADE
+  - show chisa: normal AT OUTRIGHT WITH CUT
+  - show chisa: AT RIGHT WITH MOVE
+  - chisa says: Null-ren!
+  - show nuull: normalF AT OUTLEFT WITH CUT
+  - show nuull: normalF AT LEFT WITH MOVE
+  - nuull says normalF: Chisa?
+  - chisa says annoyed: Null-ren...
+  - nuull says: What's wrong?
+  - chisa says: I...
+  - hide ALL:
+  - show chisa_hug_null: WITH FADE
+  - nuull says: Ch-Chisa...!
+  - chisa says: I love you!!
+  - endgame:
+
+credits:
+  - father says: Credits it is!
+  - hide ALL:
+  - effect ROLLINGCREDITS:
+    text:
+      - Made with Ren'JS
+      - null
+      - Created by
+      - Sal / GramophoneTurtle
+      - null
+      - More at
+      - https://gramophoneturtle.neocities.org
+  - endgame:
+
+endingTheGame:
+  - father says: Farewell!
+  - endgame:

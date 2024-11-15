@@ -1,0 +1,43 @@
+
+backgrounds:
+  rectangles_light: /assets/backgrounds/rectangles-light.png
+  fatherrainbow: /assets/backgrounds/FatherRainbow.png
+  father_jelly: /assets/backgrounds/fatherjelly-rectangle-flipped.png
+  chisa_hug_null: /assets/backgrounds/ChisaHugNull.png
+
+characters:
+  father:
+    displayName: Father
+    speechColour: "#FFDDAA"
+    looks:
+      normalF: /assets/characters/father/neutral-notilt-idle-065_F.png
+      normal_handUpF: /assets/characters/father/neutral-notilt-hand-idle-065_F.png
+      annoyedF: /assets/characters/father/annoyed-minor-idle-065_F.png
+      annoyed_medF: /assets/characters/father/annoyed-medium-idle-065_F.png
+  mother:
+    displayName: Mother
+    speechColour: "#DDAAFF"
+    looks:
+      normal: /assets/characters/mother/neutral_idle_065.png
+      annoyed: /assets/characters/mother/annoyed_idle_065.png
+      happy: /assets/characters/mother/happy_idle_065.png
+  chisaPort:
+    displayName: Chisa
+    color: "#99C4FF"
+    messageBox: pinkWithPortrait
+    nameBox: blueNameBox
+    portraits:
+      normal: /assets/characters/chisa/portraits/ChisaIcon_portrait_100.jpg
+      normal90F: /assets/characters/chisa/portraits/neutral-idle-032-F.png
+  chisa:
+    displayName: Chisa
+    color: "#BBD6FF"
+    looks:
+      normal: /assets/characters/chisa/neutral-idle-065.png
+      annoyed: /assets/characters/chisa/annoyed-brown-idle-065.png
+  nuull:
+    displayName: "Null"
+    color: "#DDFFDD"
+    looks:
+      normal: /assets/characters/null/neutral-idle-065.png
+      normalF: /assets/characters/null/neutral-idle-065F.png
