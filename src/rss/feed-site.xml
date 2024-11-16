@@ -4,10 +4,24 @@
         <title>Gramophone Turtle's RSS Feed - Site</title>
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-            <lastBuildDate>
-               Sun, 10 Nov 2024 22:25:14 +0000
+           <lastBuildDate>
+               Sat, 16 Nov 2024 03:49:35 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
+
+        <item>
+            <title>2024-11-15: Visual Novel Test!</title>
+            <description>
+                &lt;p&gt;Site&lt;/p&gt; &lt;p&gt;Added a test visual novel to the site made with Ren&amp;#39;JS. Made the main site&amp;#39;s contents wider.&lt;/p&gt;
+
+                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
+
+            </description>
+            <link>https://gramophoneturtle.neocities.org/updates/2024-11-15-visual-novel-test/</link>
+            <pubDate>
+                Sat, 16 Nov 2024 03:49:35 +0000
+            </pubDate>
+        </item>
 
         <item>
             <title>2024-11-10: Writing; P5, TWEWY, XCX artwork</title>
