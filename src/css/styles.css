@@ -7,6 +7,9 @@
     "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
+  /* Menu drop menu padding */
+  --nav-padding: 0.4rem;
+
   /* Default (dark) theme */
   --bg: #212121;
   /* TODO Want it to be on the outer borders */
@@ -89,8 +92,19 @@ body {
   font-size: 1.15rem;
   line-height: 1.5;
   margin: 0 auto;
-  max-width: 45em;
-  grid-template-columns: 1fr min(45rem,90%) 1fr;
+  max-width: 55rem;
+
+  /* grid-template-columns property specifies the number (and the widths) of columns in a grid layout. */
+  /* The fr unit (a “fraction”) 
+    can be used when defining grids like any other CSS length 
+    such as %, px or em.
+  */
+
+  /* So here - 
+    We define the middle area and then split the remaining sides have the same remaining fraction
+    So if the min rem option is changed here, should make sure the max-width matches??
+  */
+  grid-template-columns: 1fr min(55rem,90%) 1fr;
 }
 
 body > header {
@@ -177,6 +191,10 @@ figure {
   h2 {
     font-size: 2rem;
     margin-top: 1.75rem;
+  }
+
+  main > p {
+    margin: 0.8rem 0;
   }
 }
 
@@ -304,7 +322,7 @@ header > nav {
   padding-top: 0.5rem;
 }
 
-/* || TOP NAVIGATION */
+/* || TOP NAVIGATION - "background" area */
 .navtest2 {
   a {
     text-decoration: none;
@@ -328,7 +346,9 @@ header > nav {
     display: block;
     float: left;
     position: relative;
-    transition-duration: 0.5s;
+    transition-duration: 1.5s;
+
+    padding-top: var(--nav-padding);
   }
     
   li:hover,
@@ -352,13 +372,18 @@ header > nav {
     z-index: 1;
   }
   
+  /* The drop down sub menus */
   ul li:hover > ul,
   ul li:focus-within > ul,
   ul li ul:hover,
   ul li ul:focus {
-     visibility: visible;
-     opacity: 1;
-     display: block;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    margin-top: 0rem;
+    padding-bottom: var(--nav-padding);
+    border: var(--border) 2px solid;
+    border-top: none;
   }
   
   ul li ul li {
@@ -368,7 +393,7 @@ header > nav {
 }
 
 
-/* || Menu Button drop down */
+/* |||| TOP NAVIGATION - menu button links --------------- */
 .navHeader,
 .navHeader:visited {
   width: 7rem;
@@ -807,6 +832,15 @@ pre {
   padding: 1rem;
 }
 
+/* || RENJS CANVAS ------------------------------------ */
 #renjs-canvas {
   max-height: 800px;
+  margin: 2rem 0rem;
+}
+
+/* Less margin surrounding the game'c canvas/div for mobile */
+@media only screen and (max-width: 600px) {
+  #renjs-canvas {
+    margin: 1rem 0rem;
+  }
 }
