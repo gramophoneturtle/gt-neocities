@@ -1,5 +1,40 @@
 [
   {
+    "title": "Love You Null-ren!",
+    "summary": "A hug for an adopted parent!",
+    "details": "",
+    "characters": "Chisa, Null",
+    "date": "2024-11-12",
+    "dateYear": "2024",
+    "uniqueUrl": "2024-11-12-love-you-n",
+    "UniqueURLKey": "art/twewy/2024-11-12-love-you-n",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5571969"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lar7x5o7c22c"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2024\\1112-hugnull\\20241112-ChisaHugNull-nDV1pDV2-800.jpg",
+        "alt": "Digital art of Chisa, a girl, giving Null, a masculine looking non-binary person, a hug. Chisa has three red hearts coming off of her head. Chisa and Null are smiling."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2024\\1112-hugnull\\20241112-thmb-ChisaHugNull-nDV1pDV2.jpg",
+    "thumbnailAlt": "Chisa and Null",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Purfect Painting Pose",
     "summary": "Pose practice that felt perfect for Hanekoma. Also haven't drawn him in a while! Pose reference <a href=\"https://bsky.app/profile/adorkastock.com/post/3l3j2t3xyvl2d\">Adorkastock's BlueSky post</a>.",
     "details": "",
@@ -445,6 +480,10 @@
         "url": "https://gramophoneturtle.tumblr.com/post/633898405211619328/noise-feathers-this-was-a-fun-exercise-figuring"
       },
       {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5566872"
+      },
+      {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lal3n5kvnk26"
       }
@@ -473,6 +512,49 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2020\\1104-feathers\\20201104-thmb-feathers.jpg",
     "thumbnailAlt": "Abstract Feathers",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "I've got you.",
+    "summary": "",
+    "details": "",
+    "characters": "Joshua, Hanekoma",
+    "date": "2020-08-23",
+    "dateYear": "2020",
+    "uniqueUrl": "2020-08-23-ive-got-y",
+    "UniqueURLKey": "art/twewy/2020-08-23-ive-got-y",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/627258436561862656"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4431450"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3laz6aschzc25"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/4882708-i-ve-got-you"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2020\\0823-joshgotyou\\20200823-joshgotyou-nDV1-pDV2.jpg",
+        "alt": "Digital art of Joshua and Hanekoma hugging each other from The World Ends with You."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2020\\0823-joshgotyou\\20200823-thmb-joshgotyou-nDV1-pDV2.jpg",
+    "thumbnailAlt": "Hanekoma and Joshua",
     "vids": [],
     "fandom": [
       "TWEWY"

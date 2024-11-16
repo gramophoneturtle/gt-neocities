@@ -1,15 +1,19 @@
 [
     {
-        "PostDate": "2024-11-??: Visual Novel Test??"
+        "PostDate": "2024-11-15: Visual Novel Test!"
         ,"date": "2024-11-12"
-        ,"Site": "Added a visual novel to the site made with Ren'JS."
+        ,"Site": "Added a test visual novel to the site made with Ren'JS. Made the main site's contents wider."
         ,"ArtList": [
             {
                 "Category": "TWEWY",
                 "List": [
                     {
                         "Title": "Love You, Null-ren!",
-                        "URL": "/"
+                        "URL": "/art/twewy/2024-11-12-love-you-n"
+                    },
+                    {
+                        "Title": "I've Got You",
+                        "URL": "/art/twewy/2020-08-23-ive-got-y"
                     }
                 ]
             }
