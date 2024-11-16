@@ -1,10 +1,14 @@
 ---
 title: Writing
-layout: /layouts/base.njk
+layout: /layouts/base-without-h1title.njk
 ---
-<p>Writings, in no particular order.</p>
+<p>My writings, in no particular order. Jump to:</p>
+<ul>
+  <li><a href="#writing">Writing</a></li>
+  <li><a href="#renjs">Ren'JS</a></li>
+</ul>
 
-<h2>Writing</h2>
+<h2 id="writing">Writing</h2>
 
 {% for myStory in collections.Writing %}
 
@@ -25,7 +29,7 @@ layout: /layouts/base.njk
 {% endfor %}
 
 
-<h2>Ren'JS</h2>
+<h2 id="renjs">Ren'JS</h2>
 
 <p>Interactive visual novels!</p>
 
