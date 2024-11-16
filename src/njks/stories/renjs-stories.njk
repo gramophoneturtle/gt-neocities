@@ -1,0 +1,18 @@
+---
+tags:
+  - TagRenJS
+pagination:
+    data: stories.data-renjs
+    size: 1
+    alias: story
+    addAllPagesToCollections: true
+permalink: "writing/{{ story.Title | slugify }}/"
+layout: /layouts/base-without-h1title
+---
+
+<script src="renjs.js"></script>
+<script src="boot.js"></script>
+
+<div id="renjs-canvas"></div>
+
+<p>Back to <a href="/writing">Writing</a>.</p>

@@ -1,8 +1,14 @@
 ---
 title: Writing
-layout: /layouts/base.njk
+layout: /layouts/base-without-h1title.njk
 ---
-<p>Writings, in no particular order.</p>
+<p>My writings, in no particular order. Jump to:</p>
+<ul>
+  <li><a href="#writing">Writing</a></li>
+  <li><a href="#renjs">Ren'JS</a></li>
+</ul>
+
+<h2 id="writing">Writing</h2>
 
 {% for myStory in collections.Writing %}
 
@@ -20,4 +26,21 @@ layout: /layouts/base.njk
 
   </div>
 {% endif %}
+{% endfor %}
+
+
+<h2 id="renjs">Ren'JS</h2>
+
+<p>Interactive visual novels!</p>
+
+{% for myStory in collections.TagRenJS %}
+  <div class="writingStoryListing">
+      <a class="writingTitle" href="{{ myStory.url }}">{{ myStory.data.story.Title }}</a> 
+      {%- if myStory.data.story.Characters.length > 0 %}
+        <p>Characters: {{ myStory.data.story.Characters | join: ", " }}</p>
+      {%- endif -%}
+
+      <p>Posted on: {{myStory.data.story.SitePostDate}}</p>
+
+  </div>
 {% endfor %}
