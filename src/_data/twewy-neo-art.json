@@ -1,5 +1,56 @@
 [
   {
+    "title": "His Ward",
+    "summary": "The idea for this was meant to be the \"other side\" of the \"<a href=\"https://gramophoneturtle.neocities.org/art/twewy/2022-09-22-shibuya-fi/\">Shibuya Fish Tank</a>\" but I wanted to draw Hazuki not all glowy so we got this instead! The wings were a last minute idea! I was adding the background shadows and on a whim I blocked in some shadowy wings on the walls and was like...Oh no! I love this but I also want this done! The less refined they were the better the shadowy wings looked so they're not as Funky as others I've done.",
+    "details": "",
+    "characters": "Hazuki",
+    "date": "2024-11-18",
+    "dateYear": "2024",
+    "uniqueUrl": "2024-11-18-his-ward",
+    "UniqueURLKey": "art/twewy/2024-11-18-his-ward",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5600080"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3lbbhennr5c22"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2024\\1118-hisward\\20241118-HazuOrbv2_v2-ShadowEyes-nLV1-pLV2-800.jpg",
+        "alt": "Digital art of Hazuki Mikagi from NEO: The World Ends with you holding a glowing orb containing the Shinjuku area in Tokyo. Behind him are shadowy wings with glowing eyes in the thicker parts looking at the orb."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2024\\1118-hisward\\20241118-HazuOrbv2_V1-ShadowWings-nDV1-pLV2-800.jpg",
+        "alt": "Digital art of Hazuki Mikagi from NEO: The World Ends with you holding a glowing orb containing the Shinjuku area in Tokyo. Behind him are shadowy wings."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\twewy\\2024\\1118-hisward\\20241118-HazuOrbv2_v3-GlowAndShadow-nLV1-pLV2-800.jpg",
+        "alt": "Digital art of Hazuki Mikagi from NEO: The World Ends with you holding a glowing orb containing the Shinjuku area in Tokyo. Behind him are glowing feathery wings with a darker skeletal shape inside. The skeletal wings have glowing eyes in the thicker parts looking at the orb."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2024\\1118-hisward\\20241118-HazuOrbv2-thmb-ShadowEyes-nLV1-pLV2.jpg",
+    "thumbnailAlt": "Hazuki",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "NEO Higher Plane Experimentation",
+        "neo-higher-plane-experimentation"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "An Order of Mews for Joshua!",
     "summary": "Happy Birthday Joshua!",
     "details": "",
@@ -231,6 +282,50 @@
         "Anime Photoshops",
         "anime-photoshops"
       ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "New Shoes With a Fashionable Twist!!",
+    "summary": "Surely these perfect shoes don't exist...",
+    "details": "",
+    "characters": "Hazuki, Joshua, Father",
+    "date": "2023-04-07",
+    "dateYear": "2023",
+    "uniqueUrl": "2023-04-07-new-shoes",
+    "UniqueURLKey": "art/twewy/2023-04-07-new-shoes",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/713964870100533249"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5588032"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lb24gu4j522l"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2023\\0407-NewShoes\\20230407-NewShoes-nDV1-pDV2-800.jpg",
+        "alt": "A single page comic with NEO: The World Ends With You characters and OCs. Hazuki says, \"Everyone, I picked up freshly styled shoes.\" He shows his camo patterned slip on shoes with the pattern oriented vertically. Hazuki continues, \"Fashionable, don't you think?\" \n\nThe next panel shows the same image of the shoes, but faded, and the camo pattern it oriented horizontally. A chibi head of Joshua is thinking \"it's just...rotated\". A chibi head next to him with long hair, Father, is smiling and giving a thumbs up with a heart bubble."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2023\\0407-NewShoes\\shoeref_1280.jpg",
+        "alt": "A pair of grey vertical patterned camo shoes, hanging up at a store."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2023\\0407-NewShoes\\20230407-thmb-NewShoes-nDV1-pDV2.jpg",
+    "thumbnailAlt": "Hazuki",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
     ],
     "RelatedWritingURL": ""
   },

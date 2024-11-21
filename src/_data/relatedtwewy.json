@@ -98,6 +98,13 @@
         "ThumbnailAlt": "Neku"
       },
       {
+        "Index": 15,
+        "Name": "\"Regular\" Composer Neku",
+        "URL": "art/twewy/2021-08-29-regular-co",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0829-cnau-compneku\\20210829-thmb-CompNeku-nDV1pDV2.jpg",
+        "ThumbnailAlt": "Composer Neku"
+      },
+      {
         "Index": 101,
         "Name": "Life\u2019s little crossroads are often as simple as the pull of a trigger.",
         "URL": "art/twewy/2020-08-04-lifes-li",
@@ -371,6 +378,13 @@
         "URL": "art/twewy/2021-11-22-hanekoma",
         "ThumbnailURL": "",
         "ThumbnailAlt": ""
+      },
+      {
+        "Index": 200,
+        "Name": "His Ward",
+        "URL": "art/twewy/2024-11-18-his-ward",
+        "ThumbnailURL": "\\img\\art\\twewy\\2024\\1118-hisward\\20241118-HazuOrbv2-thmb-ShadowEyes-nLV1-pLV2.jpg",
+        "ThumbnailAlt": "Hazuki"
       }
     ]
   },
