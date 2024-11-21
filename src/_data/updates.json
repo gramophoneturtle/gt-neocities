@@ -1,5 +1,46 @@
 [
     {
+        "PostDate": "2024-11-20: Artwork Upload"
+        ,"date": "2024-11-20"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Mood",
+                        "URL": "/art/twewy/2022-11-24-moodtwewy/"
+                    },
+                    {
+                        "Title": "Pose practice that turned into Father practice.",
+                        "URL": "/art/twewy/2022-06-10-pose-pract/"
+                    }
+                ] 
+            }, 
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "\"Regular\" Composer Neku",
+                        "URL": "/art/twewy/2021-08-29-regular-co/"
+                    }
+                ] 
+            }, 
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "His Ward",
+                        "URL": "/art/twewy/2024-11-18-his-ward/"
+                    },
+                    {
+                        "Title": "New Shoes With a Fashionable Twist!!",
+                        "URL": "/art/twewy/2023-04-07-new-shoes/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2024-11-15: Visual Novel Test!"
         ,"date": "2024-11-12"
         ,"Site": "Added a test visual novel to the site made with Ren'JS. Made the main site's contents wider."
