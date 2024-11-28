@@ -286,6 +286,61 @@
     "RelatedWritingURL": ""
   },
   {
+    "title": "Executor, It\u2019s Your Time!",
+    "summary": "Kubo\u2019s turn for funky wings! They\u2019re a mix of scythes, (goose) feathers, and making them abstract like what I did for Joshua.",
+    "details": "Back for TWEWYOBER2021, there was a prompt called \"Creation\" that I wanted to do a NEO version. At the time, NEO was still too new, so I made a Hanekoma and Red SKull Pin version. Years later, I finally got around to making the NEO version with Kubo that I originally wanted to.",
+    "characters": "Kubo",
+    "date": "2023-08-15",
+    "dateYear": "2023",
+    "uniqueUrl": "2023-08-15-executor",
+    "UniqueURLKey": "art/twewy/2023-08-15-executor",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/725730341825937408"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/3615624"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3lbndleio3s2q"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2023\\0815-kubowings\\20230815-KuboWings_V1Mixed-D1D2-800.jpg",
+        "alt": "Digital art of Tanzo Kubo from NEO: The World Ends With You with abstract skeletal eye wings inside partially transparent feathery wings. There are floating Shinjuku-styled Player pins surrounding him, floating in his hands, and some create a halo above his head."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2023\\0815-kubowings\\20230815-KuboWings_V2Skele-D1D2-800.jpg",
+        "alt": "Digital art of Tanzo Kubo from NEO: The World Ends With You with abstract skeletal eye wings. There are floating Shinjuku-styled Player pins surrounding him, floating in his hands, and some create a halo above his head."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\twewy\\2023\\0815-kubowings\\20230815-KuboWings_V3Clearer-D1D2-800.jpg",
+        "alt": "Digital art of Tanzo Kubo from NEO: The World Ends With You with abstract skeletal eye wings inside feathery wings. There are floating Shinjuku-styled Player pins surrounding him, floating in his hands, and some create a halo above his head."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2023\\0815-kubowings\\20230815-thmb-KuboWings-D1D2.jpg",
+    "thumbnailAlt": "Kubo",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "NEO Higher Plane Experimentation",
+        "neo-higher-plane-experimentation"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "New Shoes With a Fashionable Twist!!",
     "summary": "Surely these perfect shoes don't exist...",
     "details": "",
