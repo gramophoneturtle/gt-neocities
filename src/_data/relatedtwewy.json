@@ -380,6 +380,13 @@
         "ThumbnailAlt": ""
       },
       {
+        "Index": 4,
+        "Name": "Executor, It\u2019s Your Time!",
+        "URL": "art/twewy/2023-08-15-executor",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\0815-kubowings\\20230815-thmb-KuboWings-D1D2.jpg",
+        "ThumbnailAlt": "Kubo"
+      },
+      {
         "Index": 200,
         "Name": "His Ward",
         "URL": "art/twewy/2024-11-18-his-ward",
@@ -415,6 +422,43 @@
         "URL": "art/twewy/2024-03-12-thank-you",
         "ThumbnailURL": "\\img\\art\\twewy\\2023\\0312-tyhaz\\20230312-thmb-Haz_thankYou-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Hazuki"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Father and Mews",
+    "SeriesURL": "father-and-mews",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 2,
+        "Name": "Introducing new Gatto Nero dolls, Mild Mew and Wild Mew!",
+        "URL": "art/twewy/2022-03-07-introducin",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-thmb-MildMew-L1L2.jpg",
+        "ThumbnailAlt": "Mr. Mew"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Redraws",
+    "SeriesURL": "redraws",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 1,
+        "Name": "Redraw: A slightly surprised Neku!",
+        "URL": "art/twewy/2020-06-11-a-slightly",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0611-redraw01\\20200611-thmb-Redraw01Neku-D1D2.jpg",
+        "ThumbnailAlt": "Neku"
+      },
+      {
+        "Index": 2,
+        "Name": "Would you trust this young man\u2019s smile?",
+        "URL": "art/twewy/2020-06-18-would-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0618-redraw02\\20200618-thmb-Redraw02Josh-D1D2.jpg",
+        "ThumbnailAlt": "Joshua"
       }
     ]
   }
