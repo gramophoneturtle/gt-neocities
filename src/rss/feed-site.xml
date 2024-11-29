@@ -5,10 +5,24 @@
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
            <lastBuildDate>
-               Sat, 16 Nov 2024 03:49:35 +0000
+               Fri, 29 Nov 2024 03:13:38 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
 
+        <item>
+            <title>2024-11-28: Backend fixing</title>
+			<link>http://gramophoneturtle.neocities.com//updates/2024-11-28-backend-fixing/</link>
+			<description>
+                
+                &lt;p&gt;Site&lt;/p&gt; &lt;p&gt;Back end update - Favicons of all expected sizes generated..&lt;/p&gt;
+                
+                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
+
+            </Description>
+            <pubDate>
+                Fri, 29 Nov 2024 03:13:38 +0000
+            </pubDate>
+        </item>
         <item>
             <title>2024-11-15: Visual Novel Test!</title>
             <description>
@@ -119,95 +133,6 @@
             <link>https://gramophoneturtle.neocities.org/updates/2024-09-24/</link>
             <pubDate>
                 Tue, 24 Sep 2024 20:54:06 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-11: Old artwork, thumbnail clean up</title>
-            <description>
-                &lt;p class=&quot;subheader&quot;&gt;Site&lt;/p&gt;
-                &lt;p&gt;Cleaned up artwork thumbails for TWEWY Series. Started adding some and will more over time.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-11/</link>
-            <pubDate>
-                Thu, 12 Sep 2024 02:23:47 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-03: Art</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                    2024-09-03: Art
-                &lt;/p&gt;
-                    
-                    &lt;p class=&quot;subheader&quot;&gt;Site&lt;/p&gt;
-                    &lt;p&gt;Start showing of artwork thumbnails.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-03-art/</link>
-            <pubDate>
-                Wed, 04 Sep 2024 05:20:04 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-02</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                    2024-09-02 02
-                &lt;/p&gt;
-                    &lt;p&gt;Site: Added pillowfort links to the writing section.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-02-02/</link>
-            <pubDate>
-                Mon, 02 Sep 2024 04:27:58 +0000
-            </pubDate>
-        </item>
-
-        <item>
-            <title>2024-09-02</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                    2024-09-02
-                &lt;/p&gt;
-                    
-                    &lt;p&gt;Site: New Writing page!&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-02/</link>
-            <pubDate>
-                Mon, 02 Sep 2024 01:03:34 +0000
-            </pubDate>
-        </item>
-
-        <item>
-            <title>2024-08-24</title>
-            <description>
-                &lt;h1&gt; &lt;/h1&gt;
-                        &lt;div class=&quot;updatepost&quot;&gt;
-                    &lt;p class=&quot;header&quot;&gt;
-                        2024-08-24
-                    &lt;/p&gt;
-                        &lt;p&gt;Site: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;RSS Test! There are a couple of Feeds - All, Art, and Site - to subscribe to.&lt;/li&gt;&lt;li&gt;Areas where updates are updated are more consistent.&lt;/li&gt;&lt;li&gt;Can view the Update on its own page too.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-                &lt;/div&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-08-24/</link>
-            <pubDate>
-                Sat, 24 Aug 2024 04:15:00 +0000
-            </pubDate>
-        </item>
-
-        <item>
-            <title>2024-08-11</title>
-            <description>
-                &lt;div class=&quot;updatepost&quot;&gt;
-                    &lt;p class=&quot;header&quot;&gt;
-                        2024-08-11
-                    &lt;/p&gt;
-                        &lt;p&gt;Site: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;Artwork Detail section can contain URLs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-                &lt;/div&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-08-11/</link>
-            <pubDate>
-                Sun, 11 Aug 2024 09:58 +0100
             </pubDate>
         </item>
     </channel>

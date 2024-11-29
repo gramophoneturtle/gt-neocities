@@ -5,9 +5,81 @@
             <description>All Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
             <lastBuildDate>
-               Thu, 21 Nov 2024 04:35:45 +0000
+               Fri, 29 Nov 2024 03:13:38 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
+
+        <item>
+            <title>2024-11-28: Backend fixing</title>
+			<link>http://gramophoneturtle.neocities.com//updates/2024-11-28-backend-fixing/</link>
+			<description>
+
+                &lt;p&gt;Art&lt;/p&gt;
+                &lt;details&gt;
+                    &lt;summary&gt;TWEWY&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2024-11-24-null-smile&quot;&gt; Null Smile!&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-05-15-hanekoma-p&quot;&gt; Hanekoma Practice&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-06-11-a-slightly&quot;&gt; Redraw: A slightly surprised Neku!&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-06-18-would-you&quot;&gt; Would you trust this young man&amp;#39;s smile?&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                
+                &lt;details&gt;
+                    &lt;summary&gt;TWEWY Spoilers&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2023-04-27-it-couldn&quot;&gt; It couldn&amp;#39;t happen to you&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-07-02-guardians&quot;&gt; Guardians&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-05-17-sorry-j&quot;&gt; Sorry, J...&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                
+                &lt;details&gt;
+                    &lt;summary&gt;NTWEWY&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2022-03-07-introducin&quot;&gt; Mild and Wild Mews&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                
+                &lt;details&gt;
+                    &lt;summary&gt;NTWEWY Spoilers&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2023-08-15-executor&quot;&gt; Executor, It&amp;#39;s Your Time!&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                
+                &lt;p&gt;Site&lt;/p&gt; &lt;p&gt;Back end update - Favicons of all expected sizes generated..&lt;/p&gt;
+                
+                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
+
+            </Description>
+            <pubDate>
+                Fri, 29 Nov 2024 03:13:38 +0000
+            </pubDate>
+        </item>
 
         <item>
             <title>2024-11-20: Artwork Upload</title>
@@ -56,7 +128,6 @@
                 Thu, 21 Nov 2024 04:35:45 +0000
             </pubDate>
         </item>
-
         <item>
             <title>2024-11-15: Visual Novel Test!</title>
             <description>
@@ -434,176 +505,6 @@
             <link>https://gramophoneturtle.neocities.org/updates/2024-09-24/</link>
             <pubDate>
                 Tue, 24 Sep 2024 20:54:06 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-11: Old artwork, thumbnail clean up</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                2024-09-11: Old artwork, thumbnail clean up
-                &lt;/p&gt;
-                    &lt;p class=&quot;subheader&quot;&gt;Arts&lt;/p&gt;
-                    &lt;details&gt;
-                        &lt;summary&gt;TWEWY Spoilers&lt;/summary&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;
-                                &lt;a href=&quot;https://gramophoneturtle.neocities.org/art/twewy/2021-01-01-hallucinat/&quot;&gt; Hallucinations&lt;/a&gt; - &lt;a href=&quot;https://gramophoneturtle.neocities.org/art/twewy/2021-01-01-hallucinat/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;/ul&gt;
-                    &lt;/details&gt;
-                    
-                    &lt;details&gt;
-                        &lt;summary&gt;NEO TWEWY Spoilers&lt;/summary&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;
-                                &lt;a href=&quot;https://gramophoneturtle.neocities.org/art/twewy/2022-03-21-mother-and/&quot;&gt; Mother and Father Are Watching&lt;/a&gt; - &lt;a href=&quot;https://gramophoneturtle.neocities.org/art/twewy/2022-03-21-mother-and/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            
-                            &lt;li&gt;
-                                &lt;a href=&quot;https://gramophoneturtle.neocities.org/art/twewy/2021-12-23-purificati/&quot;&gt; Purification in progress...&lt;/a&gt; - &lt;a href=&quot;https://gramophoneturtle.neocities.org/art/twewy/2021-12-23-purificati/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;/ul&gt;
-                    &lt;/details&gt;
-                    
-                    &lt;p class=&quot;subheader&quot;&gt;Site&lt;/p&gt;
-                    &lt;p&gt;Cleaned up artwork thumbails for TWEWY Series. Started adding some and will more over time.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-11/</link>
-            <pubDate>
-                Thu, 12 Sep 2024 02:23:47 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-06: Artwork from 2020</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                2024-09-06: Artwork from 2020
-                &lt;/p&gt;
-                    &lt;p class=&quot;subheader&quot;&gt;Arts&lt;/p&gt;
-                    &lt;details&gt;
-                        &lt;summary&gt;TWEWY Spoilers&lt;/summary&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2020-04-25-some-thing/&quot;&gt; Important to Capture&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2020-04-25-some-thing/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2020-04-04-older-josh/&quot;&gt; Scribble Joshua&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2020-04-04-older-josh/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2020-09-09-i-m-here-f/&quot;&gt; I'm Here For You&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2020-09-09-i-m-here-f/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;/ul&gt;
-                    &lt;/details&gt;
-                    &lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-06-artwork-from-2020/</link>
-            <pubDate>
-                Sat, 07 Sep 2024 04:50:55 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-03: Art</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                    2024-09-03: Art
-                &lt;/p&gt;
-                    &lt;p class=&quot;subheader&quot;&gt;Arts&lt;/p&gt;
-                    &lt;details&gt;
-                        &lt;summary&gt;TWEWY OCs&lt;/summary&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2024-09-03-father-and/&quot;&gt; A Family For A Family&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2024-09-03-father-and/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;/ul&gt;
-                    &lt;/details&gt;
-                    
-                    &lt;details&gt;
-                        &lt;summary&gt;TWEWY Spoilers&lt;/summary&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2020-08-15-mentor-jos/&quot;&gt; Mentor Joshua Kiryu&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2020-08-15-mentor-jos/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2020-04-11-watching-o/&quot;&gt; Watching Over&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2020-04-11-watching-o/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;/ul&gt;
-                    &lt;/details&gt;
-                    
-                    &lt;details&gt;
-                        &lt;summary&gt;NEO TWEWY Spoilers + OCs&lt;/summary&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;
-                                &lt;a href=&quot;/art/twewy/2022-04-16-yoshi-nii/&quot;&gt; Yoshi-Nii&lt;/a&gt; - &lt;a href=&quot;/art/twewy/2022-04-16-yoshi-nii/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;/ul&gt;
-                    &lt;/details&gt;
-                    
-                    &lt;p class=&quot;subheader&quot;&gt;Site&lt;/p&gt;
-                    &lt;p&gt;Start showing of artwork thumbnails.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-03-art/</link>
-            <pubDate>
-                Wed, 04 Sep 2024 05:20:04 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-02</title>
-            <description>
-                &lt;p class=&quot;header&quot;&gt;
-                    2024-09-02 02
-                &lt;/p&gt;
-                    &lt;p&gt;OCs: Null's Father relationship info expanded on.&lt;/p&gt;
-                    &lt;p&gt;Site: Added pillowfort links to the writing section.&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-02-02/</link>
-            <pubDate>
-                Mon, 02 Sep 2024 04:27:58 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-09-02</title>
-            <description>
-            &lt;p class=&quot;header&quot;&gt;
-                2024-09-02
-            &lt;/p&gt;
-                &lt;p&gt;OCs: New Writing section that links to all the written stories that OC appears in.&lt;/p&gt;
-                &lt;p class=&quot;subheader&quot;&gt;Writing&lt;/p&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;From pillowfort&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href=&quot;/writing/his-jellyfish-i/&quot;&gt; His Jellyfish (I)&lt;/a&gt; - &lt;a href=&quot;/writing/his-jellyfish-i/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                        &lt;/li&gt;
-                        
-                        &lt;li&gt;
-                            &lt;a href=&quot;/writing/a-little-grey-cat/&quot;&gt; A Little Grey Cat&lt;/a&gt; - &lt;a href=&quot;/writing/a-little-grey-cat/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                        &lt;/li&gt;
-                        
-                        &lt;li&gt;
-                            &lt;a href=&quot;/writing/lil-null-amigurumi/&quot;&gt; Lil' Null Amigurumi&lt;/a&gt; - &lt;a href=&quot;/writing/lil-null-amigurumi/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                
-                &lt;details&gt;
-                    &lt;summary&gt;New&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href=&quot;/writing/null-positive/&quot;&gt; Null (Positive)&lt;/a&gt; - &lt;a href=&quot;/writing/null-positive/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;↗&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                
-                &lt;p&gt;Site: New Writing page!&lt;/p&gt;&lt;p class=&quot;footer&quot;&gt;More &lt;a href=&quot;/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-09-02/</link>
-            <pubDate>
-                Mon, 02 Sep 2024 01:03:34 +0000
             </pubDate>
         </item>
     </channel>
