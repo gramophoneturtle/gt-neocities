@@ -86,6 +86,52 @@
     "RelatedWritingURL": ""
   },
   {
+    "title": "Introducing new Gatto Nero dolls, Mild Mew and Wild Mew!",
+    "summary": "Designed these two on stream with the help of chat! These Mews led to a Meiker game called <a href=\"https://meiker.io/play/14135/online.html\">Mewse Designer!</a>",
+    "details": "",
+    "characters": "Mr. Mew",
+    "date": "2022-03-07",
+    "dateYear": "2022",
+    "uniqueUrl": "2022-03-07-introducin",
+    "UniqueURLKey": "art/twewy/2022-03-07-introducin",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/678077818123468800/introducing-new-gatto-nero-dolls-mild-mew-and"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lbxhqemkxk2e"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-MildMew-L1L2-800.jpg",
+        "alt": "Digital art of a long haired cat like doll called Mr. Mew from The World Ends With You. The background is a blue rectangle on white. The words \"Mild Mew\" is written in the bottom left."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-WildMew-L1L2-800.jpg",
+        "alt": "Digital art of a very furry and long haired Mr. Mew from the World Ends With You. Mr. Mew has a short T shaped eyes and triangle shaped cat nose and mouth. The background is a light brown rectangle on white. The words \"Wild Mew\" is written in the bottom left."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-thmb-MildMew-L1L2.jpg",
+    "thumbnailAlt": "Mr. Mew",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Father and Mews",
+        "father-and-mews"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "[Shopping] For That One Thing",
     "summary": "TWEWYTOBER2021 Day 15 & 16: Shopping",
     "details": "",

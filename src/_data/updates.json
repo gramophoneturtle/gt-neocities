@@ -1,7 +1,7 @@
 [
     {
-        "PostDate": "2024-11-??: Backend fixing"
-        ,"date": "2024-11-??"
+        "PostDate": "2024-11-28: Backend fixing"
+        ,"date": "2024-11-28"
         ,"Site": "Back end update - Favicons of all expected sizes generated.."
         ,"ArtList": [
             {
@@ -12,8 +12,16 @@
                         "URL": "/art/twewy/2024-11-24-null-smile"
                     },
                     {
-                        "Title": ".",
-                        "URL": "/"
+                        "Title": "Hanekoma Practice",
+                        "URL": "/art/twewy/2020-05-15-hanekoma-p"
+                    },
+                    {
+                        "Title": "Redraw: A slightly surprised Neku!",
+                        "URL": "/art/twewy/2020-06-11-a-slightly"
+                    },
+                    {
+                        "Title": "Would you trust this young man's smile?",
+                        "URL": "/art/twewy/2020-06-18-would-you"
                     }
                 ] 
             }, 
@@ -21,21 +29,34 @@
                 "Category": "TWEWY Spoilers",
                 "List": [
                     {
-                        "Title": "...",
-                        "URL": "/"
+                        "Title": "It couldn't happen to you",
+                        "URL": "/art/twewy/2023-04-27-it-couldn"
+                    },
+                    {
+                        "Title": "Guardians",
+                        "URL": "/art/twewy/2020-07-02-guardians"
+                    },
+                    {
+                        "Title": "Sorry, J...",
+                        "URL": "/art/twewy/2020-05-17-sorry-j"
                     }
                 ] 
             }, 
+            {
+                "Category": "NTWEWY",
+                "List": [
+                    {
+                        "Title": "Mild and Wild Mews",
+                        "URL": "/art/twewy/2022-03-07-introducin"
+                    }
+                ] 
+            },
             {
                 "Category": "NTWEWY Spoilers",
                 "List": [
                     {
                         "Title": "Executor, It's Your Time!",
                         "URL": "/art/twewy/2023-08-15-executor"
-                    },
-                    {
-                        "Title": "...",
-                        "URL": "/"
                     }
                 ] 
             }

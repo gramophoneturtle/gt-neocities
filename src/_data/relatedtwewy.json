@@ -424,5 +424,42 @@
         "ThumbnailAlt": "Hazuki"
       }
     ]
+  },
+  {
+    "SeriesName": "Father and Mews",
+    "SeriesURL": "father-and-mews",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 2,
+        "Name": "Introducing new Gatto Nero dolls, Mild Mew and Wild Mew!",
+        "URL": "art/twewy/2022-03-07-introducin",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-thmb-MildMew-L1L2.jpg",
+        "ThumbnailAlt": "Mr. Mew"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Redraws",
+    "SeriesURL": "redraws",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 1,
+        "Name": "Redraw: A slightly surprised Neku!",
+        "URL": "art/twewy/2020-06-11-a-slightly",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0611-redraw01\\20200611-thmb-Redraw01Neku-D1D2.jpg",
+        "ThumbnailAlt": "Neku"
+      },
+      {
+        "Index": 2,
+        "Name": "Would you trust this young man\u2019s smile?",
+        "URL": "art/twewy/2020-06-18-would-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0618-redraw02\\20200618-thmb-Redraw02Josh-D1D2.jpg",
+        "ThumbnailAlt": "Joshua"
+      }
+    ]
   }
 ]
