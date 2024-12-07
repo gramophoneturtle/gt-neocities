@@ -21,24 +21,23 @@
     {# <link>{{ metadata.base | addPathPrefixToFullUrl }}</link> #}
     <link>{{ metadata.base }}</link>
     <description>{{ metadata.description }}</description>
-    <language>{{ metadata.language or page.lang }}</language>
+    {#- <language>{{ metadata.language or page.lang }}</language> -#}
     {%- for post in collections.UpdatePosts  %}
-
-		{% set items =  [metadata.base, post.url] %}
+		{%- set items = [metadata.base, post.url] -%}
 		{%- set absolutePostUrl = items | join  %}
-
+    <ttl>20000</ttl>
 		<item>
 			<title>{{ post.data.posts.PostDate }}</title>
 			<link>{{ absolutePostUrl }}</link>
 			<description>
-				{% set singlePost = post %}
+				{%- set singlePost = post -%}
 				{% include 'partials/updates/update-rss-feeds.njk' %}
         {% include 'partials/updates/update-rss-footer.njk' %}
 			</description>
 			<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-			{# <pubDate>{{ post.data.posts.date | dateToRfc822 }}</pubDate> #}
-			<dc:creator>{{ metadata.author.name }}</dc:creator>
-			<guid>{{ absolutePostUrl }}</guid>
+			{#- <pubDate>{{ post.data.posts.date | dateToRfc822 }}</pubDate> -#}
+			{#- <dc:creator>{{ metadata.author.name }}</dc:creator> -#}
+			{#- <guid>{{ absolutePostUrl }}</guid> #}
 		</item>
     {%- endfor %}
   </channel>
