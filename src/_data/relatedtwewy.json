@@ -1,6 +1,7 @@
 [
   {
     "SeriesName": "Fan Art of Fan Work",
+    "SeriesDescription": "Fanart of other fanworks.",
     "SeriesURL": "fan-art-of-fan-work",
     "ThumbnailURL": "",
     "ThumbnailAlt": "",
@@ -23,6 +24,7 @@
   },
   {
     "SeriesName": "Composer Neku AU",
+    "SeriesDescription": "An AU where Neku takes the shot and becomes Shibuya's new Composer. It's broken into multiple parts. First is general Composer Neku. Second is a PW cross over with Joshua from TWEWY visiting Composer Neku's world. After is misc ideas including NEO and having my Father and Mother OCs interact with Neku.",
     "SeriesURL": "composer-neku-au",
     "ThumbnailURL": "\\img\\art\\twewy\\related\\ComposerNekuBanner.jpg",
     "ThumbnailAlt": "Composer Neku AU",
@@ -150,9 +152,10 @@
   },
   {
     "SeriesName": "Higher Plane Experimentation",
+    "SeriesDescription": "Playing around with ideas not covered in the main game. Inspired by the Secret Reports.",
     "SeriesURL": "higher-plane-experimentation",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2020\\1112-hpe-start\\20201112-thmb-HPIntegration.jpg",
+    "ThumbnailAlt": "Hanekoma",
     "SeriesEntries": [
       {
         "Index": 1,
@@ -172,6 +175,7 @@
   },
   {
     "SeriesName": "For You",
+    "SeriesDescription": "A mini-series of Joshua get an important item.",
     "SeriesURL": "for-you",
     "ThumbnailURL": "",
     "ThumbnailAlt": "",
@@ -194,6 +198,7 @@
   },
   {
     "SeriesName": "Hoodie Buddies",
+    "SeriesDescription": "It started with drawing Kubo in a Moogle hoodie and then evolved into a series of others getting hoodies and how Kubo ended up with the hoodie in the first place.",
     "SeriesURL": "hoodie-buddies",
     "ThumbnailURL": "\\img\\art\\twewy\\2022\\0824-fango\\20220824-thmb-KuboFG01-nDEFV1-pDEFV2.jpg",
     "ThumbnailAlt": "Tanzo Kubo and Shoka Sakurana from NEO The World Ends With You looking at their phones.",
@@ -251,6 +256,7 @@
   },
   {
     "SeriesName": "TWEWYTOBER2021",
+    "SeriesDescription": "TWEWYTober 2021 prompts. A prompt would cover two days, but I ended up doing about half of them.",
     "SeriesURL": "twewytober2021",
     "ThumbnailURL": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
     "ThumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display.",
@@ -273,6 +279,7 @@
   },
   {
     "SeriesName": "Anime Photoshops",
+    "SeriesDescription": "Edits of TWEWY Animation screenshots to turn them into older or other characters in NEO.",
     "SeriesURL": "anime-photoshops",
     "ThumbnailURL": "\\img\\art\\twewy\\2023\\0821-neojosh\\20230821-thmb-NEOJosh-nDEFV1-pDEFV2.jpg",
     "ThumbnailAlt": "A screenshot edit of Joshua from The World Ends With You Animation to make it look like his NEO self. He looks very serious.",
@@ -295,6 +302,7 @@
   },
   {
     "SeriesName": "Happy Birthday",
+    "SeriesDescription": "Birthday Pictures!",
     "SeriesURL": "happy-birthday",
     "ThumbnailURL": "\\img\\art\\twewy\\2022\\0505-bdayhazu\\20220505-thmb-HBdayHaz2022-nDEFV1-g10V1.jpg",
     "ThumbnailAlt": "Art of Hazuki Mikagi.",
@@ -317,6 +325,7 @@
   },
   {
     "SeriesName": "A Healthy Dose of Chaos",
+    "SeriesDescription": "A post NEO TWEWY AU in which Joshua, Hanekoma, Minamimoto and Coco have to work together for...Reasons.",
     "SeriesURL": "a-healthy-dose-of-chaos",
     "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
     "ThumbnailAlt": "Joshua looking annoyed.",
@@ -339,6 +348,7 @@
   },
   {
     "SeriesName": "OFF",
+    "SeriesDescription": "(NEO) TWEWY x OFF crossover.",
     "SeriesURL": "off",
     "ThumbnailURL": "\\img\\art\\twewy\\2021\\1112-purification\\20211223-thmb-purificationInProgress-nDEFV1-pDEFV2.jpg",
     "ThumbnailAlt": "Tanzo Kubo drawn in a grayscale pencil style.",
@@ -354,9 +364,10 @@
   },
   {
     "SeriesName": "NEO Higher Plane Experimentation",
+    "SeriesDescription": "Higher Plane Experimentation but with NEO Secret Report knowledge!",
     "SeriesURL": "neo-higher-plane-experimentation",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2023\\0815-kubowings\\20230815-thmb-KuboWings-D1D2.jpg",
+    "ThumbnailAlt": "Kubo",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -397,6 +408,7 @@
   },
   {
     "SeriesName": "Composer Minamimoto AU",
+    "SeriesDescription": "Composer Minamimoto AU.",
     "SeriesURL": "composer-minamimoto-au",
     "ThumbnailURL": "\\img\\art\\twewy\\2021\\0613-ShoTime\\20210613-thmb-itsShoTimeFeathersFIN-nDEFV1-pDEFV2.jpg",
     "ThumbnailAlt": "Composer Minamimoto.",
@@ -412,9 +424,10 @@
   },
   {
     "SeriesName": "Thank You",
+    "SeriesDescription": "Tumblr and Cohost Ask Drawings.",
     "SeriesURL": "thank-you",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2023\\0312-tyhaz\\20230312-thmb-Haz_thankYou-nDEFV1-pDEFV2.jpg",
+    "ThumbnailAlt": "Hazuki",
     "SeriesEntries": [
       {
         "Index": 20230312,
@@ -427,9 +440,10 @@
   },
   {
     "SeriesName": "Father and Mews",
+    "SeriesDescription": "A mini-series Father and Mew related things.",
     "SeriesURL": "father-and-mews",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-thmb-MildMew-L1L2.jpg",
+    "ThumbnailAlt": "Mr. Mew",
     "SeriesEntries": [
       {
         "Index": 2,
@@ -442,9 +456,10 @@
   },
   {
     "SeriesName": "Redraws",
+    "SeriesDescription": "2020 Redraw Event that occurred during the summer.",
     "SeriesURL": "redraws",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\2020\\0611-redraw01\\20200611-thmb-Redraw01Neku-D1D2.jpg",
+    "ThumbnailAlt": "Neku",
     "SeriesEntries": [
       {
         "Index": 1,
