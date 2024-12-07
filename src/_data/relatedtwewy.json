@@ -329,7 +329,7 @@
         "ThumbnailAlt": "Joshua looking annoyed."
       },
       {
-        "Index": 1,
+        "Index": 10,
         "Name": "There Was A Time When\u2026",
         "URL": "art/twewy/2022-01-26-there-was",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0126-cafe\\20220126-thmb-cafeVisit01_2-nDEFV1-pDEFV2.jpg",
@@ -459,6 +459,34 @@
         "URL": "art/twewy/2020-06-18-would-you",
         "ThumbnailURL": "\\img\\art\\twewy\\2020\\0618-redraw02\\20200618-thmb-Redraw02Josh-D1D2.jpg",
         "ThumbnailAlt": "Joshua"
+      },
+      {
+        "Index": 3,
+        "Name": "We Got This!",
+        "URL": "art/twewy/2020-06-27-weve-got",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0627-redraw03\\20200627-thmb-redraw03-D1D2.jpg",
+        "ThumbnailAlt": "Shiki"
+      },
+      {
+        "Index": 4,
+        "Name": "Redraw Week 4",
+        "URL": "art/twewy/2020-07-01-added-a-co",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0701-redraw04\\20200701-thmb-redraw4-D1D2.jpg",
+        "ThumbnailAlt": "Neku and Beat"
+      },
+      {
+        "Index": 5,
+        "Name": "Redraw Week 5",
+        "URL": "art/twewy/2020-07-11-twewy-redr",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0711-redraw05\\20200711-thmb-redraw5-D1D2.jpg",
+        "ThumbnailAlt": "Neku"
+      },
+      {
+        "Index": 6,
+        "Name": "TWEWY Redraw Week 6 with a Slightly Sharper Sho!",
+        "URL": "art/twewy/2020-07-16-a-slightly",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0716-redraw06\\20200716-thmb-redraw6-D1D2.jpg",
+        "ThumbnailAlt": "Minamimoto"
       }
     ]
   }

@@ -1,8 +1,72 @@
 [
     {
+        "PostDate": "2024-12-06: Backend fixing"
+        ,"date": "2024-12-06"
+        ,"Site": "Artwork dump."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "We Got This!",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Redraw Week 4",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Redraw Week 5",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "TWEWY Redraw Week 6 with a Slightly Sharper Sho!",
+                        "URL": "/"
+                    }
+                ] 
+            }, 
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "I Caught Your Reflection",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "G",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "S",
+                        "URL": "/"
+                    }
+                ] 
+            }, 
+            {
+                "Category": "NTWEWY",
+                "List": [
+                    {
+                        "Title": "M",
+                        "URL": "/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Ex",
+                        "URL": "/"
+                    }
+                ] 
+            }
+        ]
+    },
+
+    {
         "PostDate": "2024-11-28: Backend fixing"
         ,"date": "2024-11-28"
-        ,"Site": "Back end update - Favicons of all expected sizes generated.."
+        ,"Site": "Back end update - Favicons of all expected sizes generated."
         ,"ArtList": [
             {
                 "Category": "TWEWY",
