@@ -1,31 +1,31 @@
 [
     {
-        "PostDate": "2024-12-06: Backend fixing"
-        ,"date": "2024-12-06"
-        ,"Site": "Artwork dump."
+        "PostDate": "2024-12-07: Related Series Desc and Artwork dump."
+        ,"date": "2024-12-07"
+        ,"Site": "All Related Series have Descriptions. More have placeholder banners and thumbnails."
         ,"ArtList": [
             {
                 "Category": "TWEWY",
                 "List": [
                     {
                         "Title": "We Got This!",
-                        "URL": "/"
+                        "URL": "/art/twewy/2020-06-27-weve-got/"
                     },
                     {
                         "Title": "Redraw Week 4",
-                        "URL": "/"
+                        "URL": "/art/twewy/2020-07-01-added-a-co/"
                     },
                     {
                         "Title": "Redraw Week 5",
-                        "URL": "/"
+                        "URL": "/art/twewy/2020-07-11-twewy-redr/"
                     },
                     {
                         "Title": "TWEWY Redraw Week 6 with a Slightly Sharper Sho!",
-                        "URL": "/"
+                        "URL": "/art/twewy/2020-07-16-a-slightly/"
                     },
                     {
                         "Title": "It's done",
-                        "URL": "/"
+                        "URL": "/art/twewy/2020-07-25-its-done/"
                     }
                 ] 
             }, 
@@ -34,24 +34,7 @@
                 "List": [
                     {
                         "Title": "I Caught Your Reflection",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "G",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "S",
-                        "URL": "/"
-                    }
-                ] 
-            }, 
-            {
-                "Category": "NTWEWY",
-                "List": [
-                    {
-                        "Title": "M",
-                        "URL": "/"
+                        "URL": "/art/twewy/2020-06-14-i-caught-y/"
                     }
                 ] 
             },
@@ -59,14 +42,13 @@
                 "Category": "NTWEWY Spoilers",
                 "List": [
                     {
-                        "Title": "Ex",
-                        "URL": "/"
+                        "Title": "They Call It Teamwork (Joshua + Minamimoto)",
+                        "URL": "/art/twewy/2022-02-08-they-call"
                     }
                 ] 
             }
         ]
     },
-
     {
         "PostDate": "2024-11-28: Backend fixing"
         ,"date": "2024-11-28"
