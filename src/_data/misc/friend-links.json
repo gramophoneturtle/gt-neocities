@@ -3,21 +3,21 @@
         "SiteURL": "https://legaosaure-craft.neocities.org",
         "Name": "LeGaosaure's Craft Site",
         "Description": "Collection of their fiber crafts.",
-        "BannerURL": "https://legaosaure-craft.neocities.org/LeGaosaure-craft_button.png",
+        "BannerURL": "\\img\\banners\\friends\\LeGaosaure-craft_button.png",
         "BannerAlt": "LeGaosaure craft website button"
     },
     {
         "SiteURL": "https://legaosaure-archive.neocities.org",
         "Name": "LeGaosaure's Writing Archive",
         "Description": "Backup of their fanfics from AO3 across many fandoms.",
-        "BannerURL": "https://legaosaure-archive.neocities.org/LeGaosaure-archive_button.png",
+        "BannerURL": "\\img\\banners\\friends\\LeGaosaure-archive_button.png",
         "BannerAlt": "LeGaosaure writing website button"
     },
     {
         "SiteURL": "https://heartgrooooove.neocities.org",
         "Name": "heartgrooooove's art/variety website",
         "Description": "heartgrooooove's art archive and variety website with lots of misc. goodies.",
-        "BannerURL": "https://heartgrooooove.neocities.org/webbanner.png",
+        "BannerURL": "\\img\\banners\\friends\\heartgrooooove-webbanner.png",
         "BannerAlt": "heartgrooooove website button"
     }
 ]
