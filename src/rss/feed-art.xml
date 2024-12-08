@@ -5,10 +5,56 @@
             <description>Art Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
             <lastBuildDate>
-               Fri, 29 Nov 2024 03:13:38 +0000
+               Sun, 08 Dec 2024 00:06:50 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
-
+        <item>
+            <title>2024-12-07: Related Series Desc and Artwork dump.</title>
+			<link>http://gramophoneturtle.neocities.com/updates/2024-12-07-related-series-desc-and-artwork-dump/</link>
+			<description>
+                &lt;p&gt;Art&lt;/p&gt;
+                &lt;details&gt;
+                    &lt;summary&gt;TWEWY&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-06-27-weve-got/&quot;&gt; We Got This!&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-07-01-added-a-co/&quot;&gt; Redraw Week 4&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-07-11-twewy-redr/&quot;&gt; Redraw Week 5&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-07-16-a-slightly/&quot;&gt; TWEWY Redraw Week 6 with a Slightly Sharper Sho!&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-07-25-its-done/&quot;&gt; It&amp;#39;s done&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                &lt;details&gt;
+                    &lt;summary&gt;TWEWY Spoilers&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2020-06-14-i-caught-y/&quot;&gt; I Caught Your Reflection&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                &lt;details&gt;
+                    &lt;summary&gt;NTWEWY Spoilers&lt;/summary&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2022-02-08-they-call&quot;&gt; They Call It Teamwork (Joshua + Minamimoto)&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;/ul&gt;
+                &lt;/details&gt;
+                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
+            </description>
+            <pubDate>
+                Sun, 08 Dec 2024 00:06:50 +0000
+            </pubDate>
+        </item>
         <item>
             <title>2024-11-28: Backend fixing</title>
 			<link>http://gramophoneturtle.neocities.com//updates/2024-11-28-backend-fixing/</link>
@@ -77,7 +123,6 @@
                 Fri, 29 Nov 2024 03:13:38 +0000
             </pubDate>
         </item>
-
         <item>
             <title>2024-11-20: Artwork Upload</title>
             <description>
