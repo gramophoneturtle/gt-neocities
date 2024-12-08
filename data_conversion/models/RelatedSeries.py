@@ -15,9 +15,11 @@ class RelatedSeriesList:
             index_dict = self.find_rel_dict_ser_name_index(item_series["SeriesName"])
 
             if index_dict == -1:
+                # Series already exists, so load the existing info
                 rel_dictionary = RelatedSeries(item_series["SeriesName"], 
                                                thumbnailURL = item_series["ThumbnailURL"],
-                                               thumbnailAlt = item_series["ThumbnailAlt"])
+                                               thumbnailAlt = item_series["ThumbnailAlt"],
+                                               sDescription = item_series["SeriesDescription"])
                 
                 #reset here so it's not [ [] ] - will make it better later
                 rel_dictionary.SeriesEntries = []
@@ -65,13 +67,15 @@ class RelatedSeriesList:
 
 class RelatedSeries:
     SeriesName = ""
+    SeriesDescription = ""
     SeriesURL = ""
     SeriesEntries = []
     ThumbnailURL = ""
     ThumbnailAlt = ""
 
-    def __init__(self, name, new_entry = [], thumbnailURL = "", thumbnailAlt = ""):
+    def __init__(self, name, new_entry = [], thumbnailURL = "", thumbnailAlt = "", sDescription = ""):
         self.SeriesName = name
+        self.SeriesDescription = sDescription
         self.SeriesURL = utility.urlify(name)
         self.ThumbnailURL = thumbnailURL
         self.ThumbnailAlt = thumbnailAlt

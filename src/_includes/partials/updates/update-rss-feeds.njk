@@ -1,47 +1,46 @@
-{%- if singlePost.data.posts.Art %}
-<p>Art</p> <p>{{ singlePost.data.posts.Art }}</p>
-{%- endif -%}
- 
-{%- if singlePost.data.posts.ArtList %}
-     <p>Art</p> 
-     {%- for cate in singlePost.data.posts.ArtList %}
-     <details>
-         <summary>{{ cate.Category }}</summary>
-         <ul>
-             {%- for item in cate.List %}
-             <li>
-                 <a href= "https://gramophoneturtle.neocities.org{{ item.URL }}"> {{ item.Title }}</a>
-             </li>
-             {% endfor -%}
-         </ul>
-     </details>
-     {% endfor -%}
-{%- endif -%}
+            {%- if singlePost.data.posts.Art -%}
+                <p>Art</p> <p>{{ singlePost.data.posts.Art }}</p>
+            {%- endif -%}
+            {%- if singlePost.data.posts.ArtList %}
+                <p>Art</p> 
+                {%- for cate in singlePost.data.posts.ArtList %}
+                <details>
+                    <summary>{{ cate.Category }}</summary>
+                    <ul>
+                        {% for item in cate.List -%}
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org{{ item.URL }}"> {{ item.Title }}</a>
+                        </li>
+                        {% endfor -%}
+                    </ul>
+                </details>
+                {%- endfor -%}
+            {%- endif -%}
 
-{%- if singlePost.data.posts.OCs %}
-<p>OCs</p> <p>{{ singlePost.data.posts.OCs }}</p>
-{%- endif -%}
+            {%- if singlePost.data.posts.OCs %}
+                <p>OCs</p> <p>{{ singlePost.data.posts.OCs }}</p>
+            {%- endif -%}
 
-{%- if singlePost.data.posts.Writing %}
- <p>Writing</p> 
- {%- for cate in singlePost.data.posts.Writing %}
- <details>
-     <summary>{{ cate.Category }}</summary>
-     <ul>
-         {%- for item in cate.List %}
-         <li>
-             <a href= "{{ item.URL }}"> {{ item.Title }}</a>
-         </li>
-         {% endfor -%}
-     </ul>
- </details>
- {% endfor -%}
-{%- endif -%}
+            {%- if singlePost.data.posts.Writing -%}
+                <p>Writing</p> 
+            {%- for cate in singlePost.data.posts.Writing -%}
+                <details>
+                    <summary>{{ cate.Category }}</summary>
+                    <ul>
+                        {%- for item in cate.List -%}
+                        <li> <a href= "{{ item.URL }}"> {{ item.Title }}</a> </li>
+                        {%- endfor -%}
+                    </ul>
+                </details>
+            {%- endfor -%}
+            {%- endif -%}
 
-{%- if singlePost.data.posts.FibreArts %}
- <p>Crochet</p> <p>{{ singlePost.data.posts.FibreArts }}</p>
-{%- endif -%}
+            {%- if singlePost.data.posts.FibreArts -%}
+                <p>Crochet</p>
+                <p>{{ singlePost.data.posts.FibreArts }}</p>
+            {%- endif -%}
 
-{%- if singlePost.data.posts.Site %}
- <p>Site</p> <p>{{ singlePost.data.posts.Site }}</p>
-{%- endif -%}
+            {%- if singlePost.data.posts.Site %}
+                <p>Site</p> 
+                <p>{{ singlePost.data.posts.Site }}</p>
+            {%- endif -%}

@@ -21,6 +21,10 @@ layout: /layouts/base-without-h1title.njk
     >
 {% endif %}
 
+{%- if RelTWEWY.SeriesDescription %}
+    <p>{{RelTWEWY.SeriesDescription}}</p>
+{%- endif -%}
+
 {% if RelTWEWY.SeriesEntries.length > 0 %}
     {%- for item in RelTWEWY.SeriesEntries %}
     <div class = "related-series-entry">

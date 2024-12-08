@@ -7,7 +7,7 @@ import json
 import os
 import re
 
-from RelatedSeries import RelatedSeriesList
+from models.RelatedSeries import RelatedSeriesList
 from models.ArtworkCategory import ArtworkCategory
 
 # Excel Database Filename
@@ -230,7 +230,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
             artwork_dictionary['RelatedWritingURL'] = row['RelatedWriting']
 
         else:
-            print("    !! Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
+            print("        !! Skipped over adding entry. No Img urls found for |{0}|\n".format(row['Artwork'].replace("\n","")[0:40]))
 
        
     return_list.append(tmp_dict)
@@ -245,8 +245,8 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
     return nested_json
 
 def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/"):
-    print('Processing: {0}. Include Spoilers: {1}'.format(sheet_name,  include_spoilers))
-    print(' 1. Reading Excel File for {0}'.format(fandoms), end="...\n")
+    print('Processing. Sheet: {0}. Include Spoilers: {1}'.format(sheet_name, include_spoilers), end="")
+    print(' Fandom: {0}.'.format(fandoms))
 
     # Read Excel file
     excel_data_df = pandas.read_excel(
@@ -297,16 +297,16 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     # sort
     nightshadeOnly.sort_values(by=[date_column_name], inplace=True, ascending=False)
 
-    print(" 2. Processing DataFrame", end="...\n")
+    print(" 1. Processing DataFrame", end="...\n")
     # Convert DataFrame to JSON
     json_str = method1(nightshadeOnly, base_url)
 
-    print(" 3. Updating JSON Data", end="...\n")
+    print(" 2. Updating JSON Data", end="...")
     # Output - can ge to the json file in the src area
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(json_str)
 
-    print(" 4. Completed!\n")
+    print(" Completed!\n")
 
 if __name__ == '__main__':
 
