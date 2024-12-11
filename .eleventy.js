@@ -99,29 +99,44 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("twewyOGArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyOGArt").sort(function (a, b) {
-
       let nameA = a.data.twewyart.date.toUpperCase();
       let nameB = b.data.twewyart.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
-
     });
   });
-
 
    // PERSONA 5 - Sort by DATE
    eleventyConfig.addCollection("Persona5ByDateCollection", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("TagPersona5Art").sort(function (a, b) {
-
       let nameA = a.data.aArtwork.date.toUpperCase();
       let nameB = b.data.aArtwork.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
-
     });
+  });
+
+
+  // Filter artwork to get the most recently added ones
+  eleventyConfig.addCollection("RecentArtwork", function (collectionApi) {
+    // Get URLs from the Update post into an array
+    const artworkList = collectionApi.getFilteredByTags("UpdatePosts")[0].data.posts.ArtList;
+    var urlArr = [];
+    for (let i = 0; i < artworkList.length; i++) {
+      for (let j = 0; j < artworkList[i].List.length; j++) {
+        urlArr.push(artworkList[i].List[j].URL);
+      }
+    } 
+
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("twewyArt2").filter(function (item) {
+			// Only return content that was originally a markdown file
+			let artworkURL = item.page.url;
+			return urlArr.includes(artworkURL);
+		});
   });
 
   // RETURN ------------------------------------------------------------------- //
