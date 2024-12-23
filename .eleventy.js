@@ -1,22 +1,8 @@
-const Image = require("@11ty/eleventy-img");
-// const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-
-// (async () => {
-// 	let url = "https://images.unsplash.com/photo-1608178398319-48f814d0750c";
-// 	let stats = await Image(url, {
-// 		widths: [300],
-//     // Array of file format extensions or "auto"
-// 		formats: ["webp", "jpeg"],
-// 	});
-
-// 	console.log(stats);
-// })();
-
-
-
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-
+// const path = require("path");
+// const eleventyImage = require("@11ty/eleventy-img");
+// const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
@@ -30,35 +16,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/writing/an-experiment");
 
-
-
-// rss?
-
+  // RSS
   eleventyConfig.addPlugin(pluginRss);
 
-
-//   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-// 		// which file extensions to process
-// 		extensions: "html",
-
-// 		// Add any other Image utility options here:
-
-// 		// optional, output image formats
-// 		formats: ["webp", "jpeg"],
-// 		// formats: ["auto"],
-
-// 		// optional, output image widths
-// 		// widths: ["auto"],
-
-//     outputDir: './public/img/',
-//     urlPath: '/src/img/',
-
-// 		// optional, attributes assigned on <img> override these values.
-// 		defaultAttributes: {
-// 			loading: "lazy",
-// 			decoding: "async",
-// 		},
-// 	});
+  /** COLLECTION FILTERING AND SORTING ------------------------------------- */
 
   // when tags are spoilers and NO SPOILERS, gonna end up with nothing!
   // However, can use this for having:
