@@ -274,6 +274,20 @@
         "URL": "art/twewy/2021-10-16-shopping",
         "ThumbnailURL": "\\img\\art\\twewy\\2021\\1016-tt21-shopping\\20211016-thmb-shokaShopping-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Shoka Sakurane stands outside a shop, looking at a Mr. Mew Gatto Nero coat on display."
+      },
+      {
+        "Index": 1718,
+        "Name": "Watching Over The [Streets]",
+        "URL": "art/twewy/2021-10-18-watching-o",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1018-tt21-streets\\20211018-thmb-twewytober2021_1718Streets-L1D2.jpg",
+        "ThumbnailAlt": "Joshua"
+      },
+      {
+        "Index": 2324,
+        "Name": "Your [Power] Is Not Enough",
+        "URL": "art/twewy/2021-10-24-your-powe",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1024-tt21-power\\20211024-thmb-twewytober2324_Power-D1D2.jpg",
+        "ThumbnailAlt": "Joshua"
       }
     ]
   },
@@ -516,6 +530,29 @@
         "URL": "art/twewy/2020-07-25-its-done",
         "ThumbnailURL": "\\img\\art\\twewy\\2020\\0725-redraw07\\20200725-thmb-redraw07.jpg",
         "ThumbnailAlt": "Joshua"
+      },
+      {
+        "Index": 8,
+        "Name": "We did it!",
+        "URL": "art/twewy/2020-08-02-we-did-it",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0802-redraw08\\20200802-thmb-redraw8-L1D2.jpg",
+        "ThumbnailAlt": "Hifiving"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Song Inspired",
+    "SeriesDescription": "",
+    "SeriesURL": "song-inspired",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 200614,
+        "Name": "I Caught Your Reflection",
+        "URL": "art/twewy/2020-06-14-i-caught-y",
+        "ThumbnailURL": "\\img\\art\\twewy\\2020\\0614-reflection\\20200614-thmb-Reflection-D1D2.jpg",
+        "ThumbnailAlt": "Neku and Joshua"
       }
     ]
   }

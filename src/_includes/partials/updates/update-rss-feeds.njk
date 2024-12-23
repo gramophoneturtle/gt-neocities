@@ -1,5 +1,5 @@
             {%- if singlePost.data.posts.Art -%}
-                <p>Art</p> <p>{{ singlePost.data.posts.Art }}</p>
+                {{ "<p>Art</p><p>" | escape }}{{ singlePost.data.posts.Art }} {{ "</p>" | escape }}
             {%- endif -%}
             {%- if singlePost.data.posts.ArtList %}
                 <p>Art</p> 

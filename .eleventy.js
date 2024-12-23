@@ -1,22 +1,8 @@
-const Image = require("@11ty/eleventy-img");
-// const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-
-// (async () => {
-// 	let url = "https://images.unsplash.com/photo-1608178398319-48f814d0750c";
-// 	let stats = await Image(url, {
-// 		widths: [300],
-//     // Array of file format extensions or "auto"
-// 		formats: ["webp", "jpeg"],
-// 	});
-
-// 	console.log(stats);
-// })();
-
-
-
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-
+// const path = require("path");
+// const eleventyImage = require("@11ty/eleventy-img");
+// const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
@@ -30,35 +16,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/writing/an-experiment");
 
-
-
-// rss?
-
+  // RSS
   eleventyConfig.addPlugin(pluginRss);
 
-
-//   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-// 		// which file extensions to process
-// 		extensions: "html",
-
-// 		// Add any other Image utility options here:
-
-// 		// optional, output image formats
-// 		formats: ["webp", "jpeg"],
-// 		// formats: ["auto"],
-
-// 		// optional, output image widths
-// 		// widths: ["auto"],
-
-//     outputDir: './public/img/',
-//     urlPath: '/src/img/',
-
-// 		// optional, attributes assigned on <img> override these values.
-// 		defaultAttributes: {
-// 			loading: "lazy",
-// 			decoding: "async",
-// 		},
-// 	});
+  /** COLLECTION FILTERING AND SORTING ------------------------------------- */
 
   // when tags are spoilers and NO SPOILERS, gonna end up with nothing!
   // However, can use this for having:
@@ -99,29 +60,44 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("twewyOGArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyOGArt").sort(function (a, b) {
-
       let nameA = a.data.twewyart.date.toUpperCase();
       let nameB = b.data.twewyart.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
-
     });
   });
-
 
    // PERSONA 5 - Sort by DATE
    eleventyConfig.addCollection("Persona5ByDateCollection", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("TagPersona5Art").sort(function (a, b) {
-
       let nameA = a.data.aArtwork.date.toUpperCase();
       let nameB = b.data.aArtwork.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
-
     });
+  });
+
+
+  // Filter artwork to get the most recently added ones
+  eleventyConfig.addCollection("RecentArtwork", function (collectionApi) {
+    // Get URLs from the Update post into an array
+    const artworkList = collectionApi.getFilteredByTags("UpdatePosts")[0].data.posts.ArtList;
+    var urlArr = [];
+    for (let i = 0; i < artworkList.length; i++) {
+      for (let j = 0; j < artworkList[i].List.length; j++) {
+        urlArr.push(artworkList[i].List[j].URL);
+      }
+    } 
+
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("twewyArt2").filter(function (item) {
+			// Only return content that was originally a markdown file
+			let artworkURL = item.page.url;
+			return urlArr.includes(artworkURL);
+		});
   });
 
   // RETURN ------------------------------------------------------------------- //

@@ -63,7 +63,7 @@ def make_img_list(_row: pandas.Series) -> list:
         test_url = get_img_url(_row, kay_img)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("    !! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            # print("    !! Img URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # make sure it's at root if not using https
@@ -105,7 +105,7 @@ def make_vid_list(_row: pandas.Series) -> list:
         test_url = get_img_url(_row, key_vid)
         # make sure we don't have the src directory - might get included by accident!
         if "src" in test_url:
-            print("    !! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
+            # print("    !! VIDEO URL contains src. Fixing for |{0}| #{1}".format(artwork_id, i))
             test_url = test_url.replace("src","")
 
         # we have an image and alt text - good to add
@@ -209,7 +209,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
                 elif row['ALT THMB'] == "":
                     print("    ALT THMB is missing for |{0}|".format(artworkname))
                 else:
-                    artwork_dictionary['thumbnailUrl'] = row['IMG THMB']
+                    artwork_dictionary['thumbnailUrl'] = row['IMG THMB'].replace("src","")
                     artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
 
             # VIDEOS -------------------------------------------------
