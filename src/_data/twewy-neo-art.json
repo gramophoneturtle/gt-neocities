@@ -11,6 +11,10 @@
     "spoilers": "yes",
     "urls": [
       {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/769545239751000064/recent-neo-twewy-spoiler-ish-related"
+      },
+      {
         "sitename": "Pillowfort",
         "url": "https://www.pillowfort.social/posts/5600080"
       },
@@ -61,6 +65,10 @@
     "UniqueURLKey": "art/twewy/2024-11-01-an-order-o",
     "spoilers": "yes",
     "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/769545239751000064/recent-neo-twewy-spoiler-ish-related"
+      },
       {
         "sitename": "Pillowfort",
         "url": "https://www.pillowfort.social/posts/5527689"
@@ -688,7 +696,7 @@
   },
   {
     "title": "They Call It Teamwork (Joshua + Minamimoto)",
-    "summary": "<p>If there\u2019s fighting involved, this team up would be the one I think everyone would avoid. But when the situation does call for it, they do know how to\u2026play nice. </p><p>Also, They are watching.</p><p>2024 update: Added a more coloured version to spice up the first one.</p>",
+    "summary": "<p>If there\u2019s fighting involved, this team up would be the one I think everyone would avoid. But when the situation does call for it, they do know how to\u2026play nice. </p><p>Also, They are watching.</p><p>2024 update: Aadded a more coloured version to spice up the first one.</p>",
     "details": "<p>Since Noise are too low level for the Higher Plane and I want something equivalent, I tried combining the concept of Soul Pulvis (no organic body, graffiti pattern only) and CAT\u2019s style into one form. Using CAT\u2019s style in the HP was something I\u2019ve been wanting to do for a while to play with the idea that CAT\u2019s style is inspired by the Higher Plane. I don\u2019t know if I\u2019ll stick with that design choice, probably go less organic for general designs but I wanted to try this out.</p>\n<p>The rings are\u2026there. Something something Angels dwelling in the rings and watching which is absolutely not conveyed I don\u2019t think cause I was done with the piece.</p>",
     "characters": "Joshua, Minamimoto",
     "date": "2022-02-08",
@@ -700,6 +708,14 @@
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/675639606863151104/they-call-it-teamwork-joshua-minamimoto-if"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5676246"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lcszk6gmsk2c"
       }
     ],
     "imgs": [

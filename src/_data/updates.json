@@ -1,5 +1,46 @@
 [
     {
+        "PostDate": "2024-12-22: FInished Adding TWEWY 2020 Weekly Redraws"
+        ,"date": "2024-12-22"
+        ,"Site": ""
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Comforts for Mother",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Shut Up, Father!!",
+                        "URL": "/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "We did it!",
+                        "URL": "/"
+                    },    
+                    {
+                        "Title": "Comforts for Father",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Watching Over The [Streets]",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Your [Power] Is Not Enough",
+                        "URL": "/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2024-12-07: Related Series Desc and Artwork dump."
         ,"date": "2024-12-07"
         ,"Site": "All Related Series have Descriptions. More have placeholder banners and thumbnails."
