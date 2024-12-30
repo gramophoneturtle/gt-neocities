@@ -188,7 +188,7 @@
     "urls": [
       {
         "sitename": "Tumblr",
-        "url": 4
+        "url": "https://gramophoneturtle.tumblr.com/post/769821863697367040/purfect-painting-pose-pose-practice-that-felt"
       },
       {
         "sitename": "Pillowfort",
@@ -484,37 +484,37 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans01_TransPride-n-DEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_TransPride-L1D2-800.jpg",
         "alt": "Digital art of a smiling, chibi style man called Father wearing transgender color gloves and pointing to \"Trans Rights!\" written in the transgender flag colors."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans02_Amazing-niDEFAULT-V1-gla10-V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_Amazing-L1D2-800.jpg",
         "alt": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"You're Amazing!\" written in transgender colors."
       },
       {
         "id": 3,
-        "url": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_FashionCrimes-L1D2-800.jpg",
         "alt": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\"."
       },
       {
         "id": 4,
-        "url": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans04_Proud-ni-V1-gl-15V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_Proud-L1D2-800.jpg",
         "alt": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"I'm Proud Of You!\" written in transgender colors."
       },
       {
         "id": 5,
-        "url": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans05_Rights-niDEFAULT-V1-gl10-V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_Rights-L1D2-800.jpg",
         "alt": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Trans Rights!\" written in transgender colors."
       },
       {
         "id": 6,
-        "url": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans06_Support-niDEFAULT-V1-gla10-V1.png",
+        "url": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_Support-L1D2-800.jpg",
         "alt": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"I Support You!\" written in transgender colors."
       }
     ],
-    "thumbnailUrl": "",
-    "thumbnailAlt": "",
+    "thumbnailUrl": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_thmb-L1D2.jpg",
+    "thumbnailAlt": "Father",
     "vids": [],
     "fandom": [
       "TWEWY"

@@ -329,6 +329,34 @@
         "ThumbnailAlt": "Art of Hazuki Mikagi."
       },
       {
+        "Index": 20211224,
+        "Name": "Happy Birthday Coco!!",
+        "URL": "art/twewy/2021-12-24-happy-birt",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1224-bday-coco\\20211224-BDay-Coco-L1D2-250.jpg",
+        "ThumbnailAlt": "Coco"
+      },
+      {
+        "Index": 20211228,
+        "Name": "Happy Birthday Kanon!!",
+        "URL": "art/twewy/2021-12-28-happy-birt",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1228-bday-kanon\\20211228-BDay-Kanon-L1D2-250.jpg",
+        "ThumbnailAlt": "Kanon"
+      },
+      {
+        "Index": 20220101,
+        "Name": "Happy Birthday Tsugumi!!",
+        "URL": "art/twewy/2022-01-01-happy-birt",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0101-bday-tsugumi\\20220101-thmb-BDay-Tsugumi-L1D2.jpg",
+        "ThumbnailAlt": "Tsugumi"
+      },
+      {
+        "Index": 20220122,
+        "Name": "Happy Birthday Rhyme!!",
+        "URL": "art/twewy/2022-01-20-happy-birt",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0120-bday-rhyme\\20220120-thmb-BDay-Rhyme-L1D2.jpg",
+        "ThumbnailAlt": "Rhyme"
+      },
+      {
         "Index": 20241101,
         "Name": "An Order of Mews for Joshua!",
         "URL": "art/twewy/2024-11-01-an-order-o",
@@ -467,11 +495,25 @@
     "ThumbnailAlt": "Mr. Mew",
     "SeriesEntries": [
       {
+        "Index": 1,
+        "Name": "Totally Not A Gift On A Totally Not Special Day",
+        "URL": "art/twewy/2022-06-19-totally-no",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0619-cushiongift\\20220619-thmb-cushionGift-L1D2.jpg",
+        "ThumbnailAlt": "Father and Mr. Mew"
+      },
+      {
         "Index": 2,
         "Name": "Introducing new Gatto Nero dolls, Mild Mew and Wild Mew!",
         "URL": "art/twewy/2022-03-07-introducin",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0307-mews\\20220307-thmb-MildMew-L1L2.jpg",
         "ThumbnailAlt": "Mr. Mew"
+      },
+      {
+        "Index": 3,
+        "Name": "Father has an unhealthy obsession with cat shaped Souls",
+        "URL": "art/twewy/2022-05-10-father-has",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0510-fathermew\\20220510-thmb-FatherWild-D1D2.jpg",
+        "ThumbnailAlt": "Father and Mr. Mew"
       }
     ]
   },

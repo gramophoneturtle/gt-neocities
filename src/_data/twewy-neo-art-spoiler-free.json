@@ -101,6 +101,10 @@
         "url": "https://gramophoneturtle.tumblr.com/post/678077818123468800/introducing-new-gatto-nero-dolls-mild-mew-and"
       },
       {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5759760"
+      },
+      {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lbxhqemkxk2e"
       }
@@ -127,6 +131,125 @@
       [
         "Father and Mews",
         "father-and-mews"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Happy Birthday Tsugumi!!",
+    "summary": "",
+    "details": "",
+    "characters": "Tsugumi",
+    "date": "2022-01-01",
+    "dateYear": "2022",
+    "uniqueUrl": "2022-01-01-happy-birt",
+    "UniqueURLKey": "art/twewy/2022-01-01-happy-birt",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/672222856685420544/happy-birthday-tsugumi"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2022\\0101-bday-tsugumi\\20220101-BDay-Tsugumi-L1D2-800.jpg",
+        "alt": "Tsugumi Matsunae looking at the viewer determined. A red/pink glow covers her. She's not wearing her headphones and she has light in her eyes. The writing in the picture says \"Happy Birthday Tsugumi!! 2022.1.1\""
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0101-bday-tsugumi\\20220101-thmb-BDay-Tsugumi-L1D2.jpg",
+    "thumbnailAlt": "Tsugumi",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Happy Birthday",
+        "happy-birthday"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Happy Birthday Kanon!!",
+    "summary": "",
+    "details": "",
+    "characters": "Kanon",
+    "date": "2021-12-28",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-12-28-happy-birt",
+    "UniqueURLKey": "art/twewy/2021-12-28-happy-birt",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/671849939880624128/happy-birthday-kanon"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lefs3ubog22b"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\1228-bday-kanon\\20211228-BDay-Kanon-L1D2-800.jpg",
+        "alt": "Digital art of Kanon Tachibana with and orange to purple overlay on top. The diamond on her hat, earring and necklace catch the orange light and shines brightly. Written overtop in pink is \"Happy Birthday Kanon!! 2021.12.28\""
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\1228-bday-kanon\\20211228-BDay-Kanon-L1D2-250.jpg",
+    "thumbnailAlt": "Kanon",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Happy Birthday",
+        "happy-birthday"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Happy Birthday Coco!!",
+    "summary": "",
+    "details": "",
+    "characters": "Coco",
+    "date": "2021-12-24",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-12-24-happy-birt",
+    "UniqueURLKey": "art/twewy/2021-12-24-happy-birt",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/671467600852762624/happy-birthday-coco-prettied-up-a-panel-from"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lefsjrmpmk2b"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\1224-bday-coco\\20211224-BDay-Coco-L1D2-800.jpg",
+        "alt": "Digital art of Coco Atarashi from a high angle shot. The words \"HAPPY BIRTHDAY COCO!! 2021.12.24\" are written in green on a pink and purple background."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\1224-bday-coco\\20211224-BDay-Coco-L1D2-250.jpg",
+    "thumbnailAlt": "Coco",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Happy Birthday",
+        "happy-birthday"
       ]
     ],
     "RelatedWritingURL": ""

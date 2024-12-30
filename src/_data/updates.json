@@ -1,5 +1,50 @@
 [
     {
+        "PostDate": "2024-12-29: Artwork upload. Old Jan/Dec TWEWY BDay Art."
+        ,"date": "2024-12-29"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Father has an unhealthy obsession with cat shaped Souls",
+                        "URL": "/art/twewy/2022-05-10-father-has"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY",
+                "List": [
+                    {
+                        "Title": "Happy Birthday Tsugumi!!",
+                        "URL": "/art/twewy/2022-01-01-happy-birt"
+                    },    
+                    {
+                        "Title": "Happy Birthday Kanon!!",
+                        "URL": "/art/twewy/2021-12-28-happy-birt"
+                    },
+                    {
+                        "Title": "Happy Birthday Coco!!",
+                        "URL": "/art/twewy/2021-12-24-happy-birt"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Happy Birthday Rhyme!!",
+                        "URL": "/art/twewy/2022-01-20-happy-birt"
+                    },    
+                    {
+                        "Title": "Totally Not A Gift On A Totally Not Special Day",
+                        "URL": "/art/twewy/2022-06-19-totally-no"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2024-12-22: New TWEWY Art. Finished Adding TWEWY 2020 Weekly Redraws"
         ,"date": "2024-12-22"
         ,"ArtList": [
