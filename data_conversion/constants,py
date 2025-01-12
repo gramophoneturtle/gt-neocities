@@ -1,0 +1,11 @@
+import os
+
+
+# Excel Database Filename
+FILENAME_INPUT = "Where Is My Art.xlsx"
+
+FILE_PATH_INPUT = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
+FILE_PATH_OUTPUT_PATH = os.path.join(os.getcwd(),"src\\_data\\")
+
+
+DATE_COLUMN_NAME = "Earliest Date"

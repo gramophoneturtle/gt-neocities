@@ -9,6 +9,7 @@ import re
 
 from models.RelatedSeries import RelatedSeriesList
 from models.ArtworkCategory import ArtworkCategory
+from models.Crochet import *
 
 # Excel Database Filename
 filename_input = "Where Is My Art.xlsx"
@@ -319,87 +320,84 @@ if __name__ == '__main__':
     twewy_related_series_list = RelatedSeriesList()
     twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
     
-    # READ EXCEL FILE
-    # TWEWY ----------------------------------------------------------- #
-    twewy_art = ArtworkCategory(
-        sheet_name = 'TWEWY Series',
-        output_path = file_path_output_path,
-        fandoms_list = [
-                {
-                    "Section": "TWEWY",
-                    "Filename": "twewy-art"
-                },
-                {
-                    "Section": "NTWEWY",
-                    "Filename": "twewy-neo-art"
-                },
-                {
-                    "Section": "TWEWY, NTWEWY",
-                    "Filename": "twewy-series"
-                } 
-            ],
-        base_url = "art/twewy/"
-    )
+    # # READ EXCEL FILE
+    # # TWEWY ----------------------------------------------------------- #
+    # twewy_art = ArtworkCategory(
+    #     sheet_name = 'TWEWY Series',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": "TWEWY",
+    #                 "Filename": "twewy-art"
+    #             },
+    #             {
+    #                 "Section": "NTWEWY",
+    #                 "Filename": "twewy-neo-art"
+    #             },
+    #             {
+    #                 "Section": "TWEWY, NTWEWY",
+    #                 "Filename": "twewy-series"
+    #             } 
+    #         ],
+    #     base_url = "art/twewy/"
+    # )
 
-    for category in twewy_art.Fandoms:
-        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
-        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
+    # for category in twewy_art.Fandoms:
+    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
+    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
 
-    # Write Related Series JSON
-    # Sort Series Enrties by index
-    twewy_related_series_list.sortSeriesEntries()
+    # # Write Related Series JSON
+    # # Sort Series Enrties by index
+    # twewy_related_series_list.sortSeriesEntries()
 
-    # Output - can ge to the json file in the src area
-    nested_json = json.dumps(twewy_related_series_list.Series, default=lambda x: x.__dict__, indent=2) 
-    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
-    with open(file_path_output, 'w', encoding='utf-8') as f:
-        f.write(nested_json)
+    # # Output - can ge to the json file in the src area
+    # nested_json = json.dumps(twewy_related_series_list.Series, default=lambda x: x.__dict__, indent=2) 
+    # file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    # with open(file_path_output, 'w', encoding='utf-8') as f:
+    #     f.write(nested_json)
 
-    # Reset is???
-    twewy_related_series_list = RelatedSeriesList()
+    # # Reset is???
+    # twewy_related_series_list = RelatedSeriesList()
     
-    # PERSONA 5 ----------------------------------------------------------- #
-    persona5_art = ArtworkCategory(
-        sheet_name = 'Other',
-        output_path = file_path_output_path,
-        fandoms_list = [
-                {
-                    "Section": "persona5",
-                    "Filename": "art-persona5"
-                }
-            ],
-        base_url = "art/persona5/"
-    )
+    # # PERSONA 5 ----------------------------------------------------------- #
+    # persona5_art = ArtworkCategory(
+    #     sheet_name = 'Other',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": "persona5",
+    #                 "Filename": "art-persona5"
+    #             }
+    #         ],
+    #     base_url = "art/persona5/"
+    # )
 
-    for category in persona5_art.Fandoms:
-        main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=persona5_art.BaseURL)
-        main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=persona5_art.BaseURL)
+    # for category in persona5_art.Fandoms:
+    #     main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=persona5_art.BaseURL)
+    #     main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=persona5_art.BaseURL)
 
-    # XCX----------------------------------------------------------- #
-    fandomkey = "XCX"
-    artworksCategories = ArtworkCategory(
-        sheet_name = 'Other',
-        output_path = file_path_output_path,
-        fandoms_list = [
-                {
-                    "Section": fandomkey,
-                    "Filename": "art-{0}".format(fandomkey.lower())
-                }
-            ],
-        base_url = "art/{0}/".format(fandomkey.lower())
-    )
+    # # XCX----------------------------------------------------------- #
+    # fandomkey = "XCX"
+    # artworksCategories = ArtworkCategory(
+    #     sheet_name = 'Other',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": fandomkey,
+    #                 "Filename": "art-{0}".format(fandomkey.lower())
+    #             }
+    #         ],
+    #     base_url = "art/{0}/".format(fandomkey.lower())
+    # )
 
-    for category in artworksCategories.Fandoms:
-        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
-        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
+    # for category in artworksCategories.Fandoms:
+    #     main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
+    #     main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
 
 
-    # Persona 5 Sheet
-    # fandomkey="persona5"
-    # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
-    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=True, base_url="art/{0}/".format(fandomkey))
-
+    # CROCHET ----------------------------------------------------------- #
+    process_crochet()
     
     # file_path_output = os.path.join(file_path_output_path, filename_output_p5_nospoilers)
     # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=False, base_url="art/{0}/".format(fandomkey))
