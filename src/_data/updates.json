@@ -1,5 +1,47 @@
 [
     {
+        "PostDate": "2025-01: Started Porting Analysis Posts for TWEWY"
+        ,"date": "2025-01"
+        ,"Site": "New Anaylsis Section!"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "F",
+                        "URL": "/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY",
+                "List": [
+                    {
+                        "Title": "H",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Happy Birthday Coco!!",
+                        "URL": "/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "H",
+                        "URL": "/"
+                    },    
+                    {
+                        "Title": "T",
+                        "URL": "/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2024-12-29: Artwork upload. Old Jan/Dec TWEWY BDay Art."
         ,"date": "2024-12-29"
         ,"ArtList": [
