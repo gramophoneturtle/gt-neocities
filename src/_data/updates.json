@@ -1,40 +1,31 @@
 [
     {
-        "PostDate": "2025-01: Started Porting Analysis Posts for TWEWY"
-        ,"date": "2025-01"
+        "PostDate": "2025-01-12: Started Porting Analysis Posts for TWEWY"
+        ,"date": "2025-01-12"
         ,"Site": "New Anaylsis Section!"
         ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Cat Comcatibility - Chisa",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Mother Practice (TWEWY Anime Redraw)",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "Warm Drink",
+                        "URL": "/"
+                    }
+                ] 
+            },
             {
                 "Category": "TWEWY Spoilers",
                 "List": [
                     {
-                        "Title": "F",
-                        "URL": "/"
-                    }
-                ] 
-            },
-            {
-                "Category": "NTWEWY",
-                "List": [
-                    {
-                        "Title": "H",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "Happy Birthday Coco!!",
-                        "URL": "/"
-                    }
-                ] 
-            },
-            {
-                "Category": "NTWEWY Spoilers",
-                "List": [
-                    {
-                        "Title": "H",
-                        "URL": "/"
-                    },    
-                    {
-                        "Title": "T",
+                        "Title": "Mr. Mew Expression Roulette",
                         "URL": "/"
                     }
                 ] 

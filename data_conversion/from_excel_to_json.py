@@ -212,6 +212,14 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
                     artwork_dictionary['thumbnailUrl'] = row['IMG THMB'].replace("src","")
                     artwork_dictionary['thumbnailAlt'] = row['ALT THMB']
 
+            # REFS ---------------------------------------------------
+            # At the moment for testing, have 1 reference image
+            artwork_dictionary['REF 1'] = row['REF 1'].replace("src","")
+            artwork_dictionary['REF ALT 1'] = row['REF ALT 1']
+
+            # Wanrings
+            artwork_dictionary['Warnings'] = row['warnings']
+
             # VIDEOS -------------------------------------------------
             artwork_dictionary['vids'] = make_vid_list(row)
 
@@ -255,11 +263,12 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
         usecols=['Artwork', 'NS?', "Earliest Date",
                  'Spoilers',
                 'characters','fandom','PF tags',
-                'title','summary','detail',
+                'title','summary','detail', 'warnings',
                 'RelatedSeries','RelatedSeriesOrder', 'RelatedWriting',
                 'IMG THMB', 'ALT THMB',
                 'IMG 1','IMG 2','IMG 3','IMG 4','IMG 5','IMG 6','IMG 7','IMG 8',
                 'ALT 1','ALT 2','ALT 3','ALT 4','ALT 5','ALT 6','ALT 7','ALT 8',
+                'REF 1', 'REF ALT 1',
                 'VID 1',
                 'Tumblr URL',
                 'Pillowfort URL',
