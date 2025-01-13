@@ -604,5 +604,21 @@
         "ThumbnailAlt": "Composer sitting slumped on his throne."
       }
     ]
+  },
+  {
+    "SeriesName": "Producer Mr. Mew",
+    "SeriesDescription": "",
+    "SeriesURL": "producer-mr-mew",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Mr. Mew Expression Roulette",
+        "URL": "art/twewy/2021-07-22-mr-mew-ex",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0722-mewexp\\mewexpr-thmb-L1L2.jpg",
+        "ThumbnailAlt": "Joshua and Mr. Mew"
+      }
+    ]
   }
 ]

@@ -52,10 +52,9 @@
   {% endfor -%}
 {% endif %}
 
-<hr class="hr-divide">
-
 {# VIDEOS #}
-{% if twewyart.vids.length > 0 %}
+{% if aArtwork.vids.length > 0 %}
+<hr class="hr-divide">
 <div>
     {%- for item in aArtwork.vids %}
       <div>
@@ -65,11 +64,13 @@
       </div>
     {% endfor -%}
 </div>
-<hr class="hr-divide">
 {% endif %}
 
 {# SUMMARY #}
-<div><p>{{ aArtwork.summary | safe}}</p></div>
+{%- if aArtwork.summary %}
+  <h2>Notes</h2>
+  <div><p>{{ aArtwork.summary | safe}}</p></div>
+{%- endif -%}
 
 {# DETAILS #}
 {%- if aArtwork.details %}
@@ -81,10 +82,20 @@
 </div>
 {%- endif -%}
 
+{# REFERENCE IMAGE(S)#}
+{%- if aArtwork.REF1 %}
+  <h2>References</h2>
+  <div class="artwork-one-image-container">
+    <img class="artwork-one-img-show"
+      src="{{ twewyart.REF1 }}"
+      alt="{{ twewyart.REFALT1 }}">
+  </div>
+{%- endif -%}
+
 {# AUs/RELATED SERIES #}
 {% if aArtwork.RelatedSeriesAndURL.length > 0 %}
 <div>
-  <p>Series</p>
+  <h2>Series</h2>
   <ul>
     {%- for item in aArtwork.RelatedSeriesAndURL %}
       <li><a href="/art/TODO/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
@@ -95,7 +106,7 @@
 
 {# OTHER SITES #}
 <div>
-  <p>Posted on:</p>
+  <h2>Posted On</h2>
   <ul>
     {%- for item in aArtwork.urls %}
       <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
