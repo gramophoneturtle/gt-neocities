@@ -8,20 +8,9 @@ date: 2024-01-01
   <summary>Characters</summary>
 <div id="myBtnContainer">
   <div><button class="btn active" onclick="filterSelection('all')">Show all</button></div>
-  <div>
-    <p class="buttonHeader">TWEWY</p>
-    <button class="btn" onclick="filterSelection('Joshua')">Joshua</button>
-    <button class="btn" onclick="filterSelection('Hanekoma')">Hanekoma</button>
-    <button class="btn" onclick="filterSelection('Minamimoto')">Minamimoto</button>
-    <button class="btn" onclick="filterSelection('Kitaniji')">Kitaniji</button>
-    <button class="btn" onclick="filterSelection('Coco')">Coco</button>
-    <button class="btn" onclick="filterSelection('Neku')">Neku</button>
-    <button class="btn" onclick="filterSelection('Shiki')">Shiki</button>
-  </div>
-  <div>
-    <p class="buttonHeader">OCs</p>
-    <button class="btn" onclick="filterSelection('Father')">Father</button>
-  </div>
+  {% include 'partials/artwork/characters/twewy-og.njk' %}
+  {% include 'partials/artwork/characters/twewy-neo.njk' %}
+  {% include 'partials/artwork/characters/ocs.njk' %}
 </div>
 </details>
 
