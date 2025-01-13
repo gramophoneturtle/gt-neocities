@@ -2,22 +2,22 @@
     {
         "PostDate": "2025-01-12: Started Porting Analysis Posts for TWEWY"
         ,"date": "2025-01-12"
-        ,"Site": "New Anaylsis Section!"
+        ,"Site": "New Anaylsis Section! Will slowly add to it over time. Currently has one for TWEWY & NTWEWY. Might organize them a differently in the future. Artwork pages now has headers and separate section for reference images."
         ,"ArtList": [
             {
                 "Category": "TWEWY",
                 "List": [
                     {
                         "Title": "Cat Comcatibility - Chisa",
-                        "URL": "/"
+                        "URL": "/art/twewy/2025-01-08-cat-comcat/"
                     },
                     {
                         "Title": "Mother Practice (TWEWY Anime Redraw)",
-                        "URL": "/"
+                        "URL": "/art/twewy/2025-01-05-mother-pra/"
                     },
                     {
                         "Title": "Warm Drink",
-                        "URL": "/"
+                        "URL": "/art/twewy/2023-12-24-warm-drink/"
                     }
                 ] 
             },
@@ -26,7 +26,7 @@
                 "List": [
                     {
                         "Title": "Mr. Mew Expression Roulette",
-                        "URL": "/"
+                        "URL": "/art/twewy/2021-07-22-mr-mew-ex/"
                     }
                 ] 
             }
