@@ -214,8 +214,8 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
 
             # REFS ---------------------------------------------------
             # At the moment for testing, have 1 reference image
-            artwork_dictionary['REF 1'] = row['REF 1'].replace("src","")
-            artwork_dictionary['REF ALT 1'] = row['REF ALT 1']
+            artwork_dictionary['REF1'] = row['REF 1'].replace("src","")
+            artwork_dictionary['REFALT1'] = row['REF ALT 1']
 
             # Wanrings
             artwork_dictionary['Warnings'] = row['warnings']

@@ -52,24 +52,25 @@
   {% endfor -%}
 {% endif %}
 
-<hr class="hr-divide">
-
 {# VIDEOS #}
 {% if twewyart.vids.length > 0 %}
-<div>
-    {%- for item in twewyart.vids %}
-      <div>
-        <video controls loop muted playsinline>
-          <source src="{{item.url}}" type="video/mp4">
-        </video>
-      </div>
-    {% endfor -%}
-</div>
 <hr class="hr-divide">
+<div>
+      {%- for item in twewyart.vids %}
+        <div>
+          <video controls loop muted playsinline>
+            <source src="{{item.url}}" type="video/mp4">
+          </video>
+        </div>
+      {% endfor -%}
+  </div>
 {% endif %}
 
 {# SUMMARY #}
-<div><p>{{ twewyart.summary | safe}}</p></div>
+{%- if twewyart.summary %}
+  <h2>Notes</h2>
+  <div><p>{{ twewyart.summary | safe}}</p></div>
+{%- endif -%}
 
 {# DETAILS #}
 {%- if twewyart.details %}
@@ -81,15 +82,26 @@
 </div>
 {%- endif -%}
 
+{# REFERENCE IMAGE(S)#}
+{%- if twewyart.REF1 %}
+  <h2>References</h2>
+  <div class="artwork-one-image-container">
+    <img class="artwork-one-img-show"
+      src="{{ twewyart.REF1 }}"
+      alt="{{ twewyart.REFALT1 }}">
+  </div>
+{%- endif -%}
+
 {# RELATED WRITING #}
 {%- if twewyart.RelatedWritingURL %}
-    <a href="{{twewyart.RelatedWritingURL}}">Related Writing</a> - <a href="{{twewyart.RelatedWritingURL}}" target="_blank" rel="noopener noreferrer">↗</a>
+  <h2>Related Writing</h2>
+  <a href="{{twewyart.RelatedWritingURL}}">Related Writing</a> - <a href="{{twewyart.RelatedWritingURL}}" target="_blank" rel="noopener noreferrer">↗</a>
 {%- endif -%}
 
 {# AUs/RELATED SERIES #}
 {% if twewyart.RelatedSeriesAndURL.length > 0 %}
 <div>
-  <p>Series</p>
+  <h2>Series</h2>
   <ul>
     {%- for item in twewyart.RelatedSeriesAndURL %}
       <li><a href="/art/twewy/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
@@ -100,7 +112,7 @@
 
 {# OTHER SITES #}
 <div>
-  <p>Posted on:</p>
+  <h2>Posted On</h2>
   <ul>
     {%- for item in twewyart.urls %}
       <li><a href= "{{ item.url }}">{{ item.sitename }}</a> - <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">↗</a></li>
