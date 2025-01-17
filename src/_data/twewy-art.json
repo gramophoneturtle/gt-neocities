@@ -99,52 +99,6 @@
     "RelatedWritingURL": ""
   },
   {
-    "title": "Warm Drink",
-    "summary": "Warm Drink. CAT Mug. Happy Neku.",
-    "details": "",
-    "characters": "Neku",
-    "date": "2023-12-24",
-    "dateYear": "2023",
-    "uniqueUrl": "2023-12-24-warm-drink",
-    "UniqueURLKey": "art/twewy/2023-12-24-warm-drink",
-    "spoilers": "",
-    "urls": [
-      {
-        "sitename": "Tumblr",
-        "url": "https://gramophoneturtle.tumblr.com/post/737652560548298752/warm-drink-cat-mug-happy-neku"
-      },
-      {
-        "sitename": "Pillowfort",
-        "url": "https://www.pillowfort.social/posts/4134022"
-      },
-      {
-        "sitename": "Bluesky",
-        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3khdu4tmkso2j"
-      },
-      {
-        "sitename": "cohost",
-        "url": "https://cohost.org/gramophoneturtle/post/4848181-warm-drink-cat-mug"
-      }
-    ],
-    "imgs": [
-      {
-        "id": 1,
-        "url": "\\img\\art\\twewy\\2023\\1224-holineku\\20231224-HappyHolidaysNeku-L1L2.jpg",
-        "alt": "Digital art of Neku Sakuraba from The World Ends With You,. He drinks from a CAT theme mug on a light blue and white textured background."
-      }
-    ],
-    "thumbnailUrl": "\\img\\art\\twewy\\2023\\1224-holineku\\20231224-thmb-HappyHolidaysNeku-L1L2-250.jpg",
-    "thumbnailAlt": "Neku",
-    "REF1": "",
-    "REFALT1": "",
-    "Warnings": "",
-    "vids": [],
-    "fandom": [
-      "TWEWY"
-    ],
-    "RelatedWritingURL": ""
-  },
-  {
     "title": "It couldn\u2019t happen to you",
     "summary": "Found an old Composer drawing and decided to finish it up a bit by adding the aura, the pulling away bits and a gradient. The \u201cyou\u201d I think was supposed to refer to Hanekoma, but there\u2019s nothing else in the file that answers that. This would have been based on the TWEWY Final Remix version.",
     "details": "",
@@ -577,7 +531,7 @@
   },
   {
     "title": "Mr. Mew Expression Roulette",
-    "summary": "Producer Mr. Mew AU: Maybe one day They\u2019ll learn how to change the threads on Their face to make expressions. And maybe, just maybe, one day They\u2019ll see the point to it.",
+    "summary": "<p>Producer Mr. Mew AU: Maybe one day They\u2019ll learn how to change the threads on Their face to make expressions. And maybe, just maybe, one day They\u2019ll see the point to it.</p>\n<p>Part of/inspired by the Curiosity Killed the Cat fanfic series on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\">Neocities</a> by LetoLeGaosaure. Please check it out for more context!</p>",
     "details": "",
     "characters": "Joshua, Mr. Mew",
     "date": "2021-07-22",
@@ -589,17 +543,304 @@
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/657425026620981248/mr-mew-expression-roulette-producer-mr-mew-au"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5822140"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lftdegfows2q"
       }
     ],
     "imgs": [
       {
         "id": 1,
         "url": "\\img\\art\\twewy\\2021\\0722-mewexp\\20210722-mewExpr_FullSize.gif",
-        "alt": "A Mr. Mew expression roulette. A balck cat plushie sits on top of a glowing white figure's head who is watxhing them, as they cycles through shocked, tearful and happy expressions. At their happiest, the glowing figure closes his eyes."
+        "alt": "A gif of a Mr. Mew expression roulette. A black cat plushie sits on top of the Composer's head, watching them, as they cycles through shocked, tearful and happy expressions. At their happiest, the glowing figure closes his eyes."
       }
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2021\\0722-mewexp\\mewexpr-thmb-L1L2.jpg",
     "thumbnailAlt": "Joshua and Mr. Mew",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Producer Mr. Mew",
+        "producer-mr-mew"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "What A Wonder Fad That Would Be?",
+    "summary": "<p><strong>This was done before NEO so no worries about any NEO spoilers!</strong></p>\n<p>Brain: Hey you know who else has a Mr. Mew plush?</br>\nMe: Oh no??? (Oh yes?!)</p>\n<p>An AU of the Producer Mr. Mew AU. No fic for this scene, but the general context can be found from the Curiosity Killed the Cat fanfic series on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\"> by LetoLeGaosaure.</p>",
+    "details": "I used slight colouring to help differentiate the Mr. Mews. There\u2019s no meaning behind them, other than giving Tsugumi\u2019s a orange one to loosely tie to her skirt colour. I did try a red aura but it didn\u2019t look good. Josh keeps the default blue from the game that I\u2019ve been using. Played around with her aura too - it\u2019s more curvy and flowy than Joshua\u2019s just for something different. Meant to do this with other Composers I\u2019ve drawn but forgot to keep it consistent with them.",
+    "characters": "Joshua, Tsugumi, Mr. Mew",
+    "date": "2021-07-21",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-07-21-what-a-won",
+    "UniqueURLKey": "art/twewy/2021-07-21-what-a-won",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/656522375229227008/what-a-wonder-fad-that-would-be-producer-mr-mew"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0721-pmm-fad\\20210721-AFad-L1L2.-800.jpg",
+        "alt": "Digital comic of Composer Joshua and Composer Tsugumi meeting up. They introduce their own Producers to one another, who are both using Mr. Mew bodies. Tsugumi wonders if it's a fad, and Joshua is not a fan."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0721-pmm-fad\\20210721-thmb-AFad-L1L2-250.jpg",
+    "thumbnailAlt": "Mr. Mews",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Producer Mr. Mew",
+        "producer-mr-mew"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Lost Angel",
+    "summary": "<p>Producer Mr. Mew AU: With Mr. Mew as the new Producer, there\u2019s one less member at the Hachiko reunion. With Sanae gone, Joshua won\u2019t ever know what he would say about this.</p>\n<p>Scene from the \"Reunion minus one\" fic from the Curiosity Killed the Cat fanfic series on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\">Neocities</a> by LetoLeGaosaure.</p>",
+    "details": "",
+    "characters": "Neku, Shiki, Joshua, Mr. Mew",
+    "date": "2021-07-20",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-07-20-lost-angel",
+    "UniqueURLKey": "art/twewy/2021-07-20-lost-angel",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/657250389506326528"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/3743737"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lfvm3o2vec2r"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0720-pmm-reunion\\20210720-ReunionMinusOne01-L1L2-800.jpg",
+        "alt": "Comic page 1 of 2 of Shiki and Neku's reunion from The World Ends With You. Shiki calls Neku's name. Neku doesn't recognize her and is disappointed that this unfamiliar girl is not holding Mr. Mew. Shiki throws herself at Neku and hugs him tightly, saying his name over & over."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2021\\0720-pmm-reunion\\20210720-ReunionMinusOne02-L1L2-800.jpg",
+        "alt": "Comic page 2 of 2 of Shiki and Neku's reunion. Shiki wonders where Mr. Mew went & Neku says he's probably watching over her like a guardian angel. Joshua from atop 104 remarks how perceptive Neku is. Mr Mew stands besides Joshua."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0720-pmm-reunion\\20210720-thmb-ReunionMinusOne-L1L2-250.jpg",
+    "thumbnailAlt": "Shiki",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Producer Mr. Mew",
+        "producer-mr-mew"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Mr. Mew will know of the things you\u2019ll share and the things you\u2019ll hide",
+    "summary": "Producer Mr. Mew AU: Even Eri gets affected. Scenes are from \"All cats are black at night\", part of the Curiosity killed the cat series on <a href=\\\"https://archiveofourown.org/series/2381206\\\">AO3</a> and <a href=\\\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\\\">Neocities</a>. The lyrics are my own addition which inspired me to draw this part! They\u2019re modified lyrics from <a href=\"https://www.youtube.com/watch?v=ABW7Xu0fvv0\">Jonathan Bear\u2019s Theme</a> from Jimmy and the Pulsating Mass.",
+    "details": "",
+    "characters": "Eri, Mr. Mew",
+    "date": "2021-07-06",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-07-06-mr-mew-wi",
+    "UniqueURLKey": "art/twewy/2021-07-06-mr-mew-wi",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/655979581693624320"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/3743770"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0722-pmm-nightmare\\20210722-01staresAndStares-L1L2-800.jpg",
+        "alt": "A digital comic of Mr. Mew standing large and imposing in the Room of Reckoning with song lyrics. The lyrics are \"Mr. Mew just stands and stares and stares and stares, at-\" Suddenly Eri wakes up, covered in sweat & scared."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2021\\0722-pmm-nightmare\\20210722-02staresAndStares-L1L2-800.jpg",
+        "alt": "A digital comic of Mr. Mew standing large and imposing in the Room of Reckoning. Suddenly Eri wakes up, covered in sweat & scared."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0722-pmm-nightmare\\20210722-thmb-staresAndStares-L1L2-250.jpg",
+    "thumbnailAlt": "Mr. Mew",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Producer Mr. Mew",
+        "producer-mr-mew"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Protecting what you have left",
+    "summary": "<p>TODO</p>\n<p>Part of/inspired by the Curiosity Killed the Cat fanfic series on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\">Neocities</a> by LetoLeGaosaure. Please check it out for more context!</p>",
+    "details": "",
+    "characters": "Rhyme, Minamimoto, Joshua, Mr. Mew",
+    "date": "2021-07-03",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-07-03-protecting",
+    "UniqueURLKey": "art/twewy/2021-07-03-protecting",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/655728636882796544"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/3743765"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0703-pmm-lost\\20210703-LostAndFound-01RS-L1L2-800.jpg",
+        "alt": "Comic page 1 of 2 of Rhyme running into Minamimoto at the Udagawa CAT Mural, from The World Ends With You. She finds Sho Minamimoto sitting with his legs drawn up to his chest. He's wearing dark tattered clothing and has black Taboo markings on his arms."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2021\\0703-pmm-lost\\20210703-LostAndFound-02JM-L1L2-800.jpg",
+        "alt": "Comic page 2 of 2 Joshua and Mr Mew by the Udagawa CAT Mural. Mr. Mew says \"Maybe I should bleach this wall,\" and Joshua replies \"You wouldn't dare.\" Mr. Mew counters back with, \"He's gone. Why should you go on thinking of him?\""
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0703-pmm-lost\\20210703-thmb-LostAndFound-L1L2-250.jpg",
+    "thumbnailAlt": "Minamimoto",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Producer Mr. Mew",
+        "producer-mr-mew"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Hi",
+    "summary": "<p>The first \"serious\" comic for the Producer \"Mr. Mew\" AU.</p>\n<p>Part of/inspired by the Curiosity Killed the Cat fanfic series on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\">Neocities</a> by LetoLeGaosaure. Please check it out for more context!</p>",
+    "details": "",
+    "characters": "Joshua, Mr. Mew",
+    "date": "2021-06-23",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-06-23-hi",
+    "UniqueURLKey": "art/twewy/2021-06-23-hi",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/654798253031849984"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/3743698"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lfvkbxly4c2u"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0623-pmm-hi\\20210623-HiComposer-L1L2-800.jpg",
+        "alt": "Digital art of Composer Joshua, a glowing white figure, rests in his throne, thinking to himself, \"Finally, time to relax. Today has been -\" and gets interrupted by clanking chains. He turns to the sound to see Mr. Mew, a black cat stuffed animal, hanging off the chains next to him, watching him, with white feathers falling around them."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0623-pmm-hi\\20210623-thmb-HiComposer-L1L2-250.jpg",
+    "thumbnailAlt": "Mr. Mew",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Producer Mr. Mew",
+        "producer-mr-mew"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "It Was Just A Joke",
+    "summary": "<p>The Beginning of Producer Mr. Mew. It was a totally (not) 100% accurate \"next time preview\" for TWEWY Anime Episode 12, where we get a new feathered friend!!</p>\n<p>Part of/inspired by the Curiosity Killed the Cat fanfic series on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\">Neocities</a> by LetoLeGaosaure. Please check it out for more context!</p>",
+    "details": "",
+    "characters": "Mr. Mew",
+    "date": "2021-06-20",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-06-20-it-started",
+    "UniqueURLKey": "art/twewy/2021-06-20-it-started",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/654552919370317824/they-say-a-cat-has-nine-lives-letolegaosaure"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\0620-anime12-pmm\\20210620-TWEWYAnimeEp12-FakePreview-tmblr-L1L2-800.jpg",
+        "alt": "Digital art of a large Mr. Mew, a cat, with angel wings, stands tall and looks over the 104 building in Shibuya. Feathers are falling everywhere."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\0620-anime12-pmm\\20210620-thmb-TWEWYAnimeEp12-L1L2-250.jpg",
+    "thumbnailAlt": "Mr. Mew",
     "REF1": "",
     "REFALT1": "",
     "Warnings": "",
