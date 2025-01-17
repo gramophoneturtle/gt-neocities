@@ -6,7 +6,7 @@
     "title": "Gramophone Turtle's RSS Feed",
     "description": "Site, New Art and Archive Art!!!",
 	"language": "en",
-    "base": "http://gramophoneturtle.neocities.org",
+    "base": "https://gramophoneturtle.neocities.org",
     "author": {
       "name": "Gramophone Turtle"
     }
@@ -20,12 +20,12 @@
     <title>{{ metadata.title }}</title>
     {# <link>{{ metadata.base | addPathPrefixToFullUrl }}</link> #}
     <link>{{ metadata.base }}</link>
+    <ttl>20000</ttl>
     <description>{{ metadata.description }}</description>
     {#- <language>{{ metadata.language or page.lang }}</language> -#}
     {%- for post in collections.UpdatePosts  %}
 		{%- set items = [metadata.base, post.url] -%}
 		{%- set absolutePostUrl = items | join  %}
-    <ttl>20000</ttl>
 		<item>
 			<title>{{ post.data.posts.PostDate }}</title>
 			<link>{{ absolutePostUrl }}</link>
