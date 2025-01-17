@@ -22,7 +22,7 @@ layout: /layouts/base-without-h1title.njk
 {% endif %}
 
 {%- if RelTWEWY.SeriesDescription %}
-    <p>{{RelTWEWY.SeriesDescription}}</p>
+    <p>{{RelTWEWY.SeriesDescription | safe}}</p>
 {%- endif -%}
 
 {% if RelTWEWY.SeriesEntries.length > 0 %}

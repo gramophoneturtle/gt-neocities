@@ -1,5 +1,44 @@
 [
     {
+        "PostDate": "2025-01-16: P!Mr. Mew AU series fully added."
+        ,"date": "2025-01-16"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "It Was Just A Joke",
+                        "URL": "/art/twewy/2021-06-20-it-started/"
+                    },
+                    {
+                        "Title": "Hi",
+                        "URL": "/art/twewy/2021-06-23-hi/"
+                    },
+                    {
+                        "Title": "Lost Angel",
+                        "URL": "/art/twewy/2021-07-20-lost-angel/"
+                    },
+                    {
+                        "Title": "Protecting what you have left",
+                        "URL": "/art/twewy/2021-07-03-protecting/"
+                    },
+                    {
+                        "Title": "Mr. Mew will know of the things...",
+                        "URL": "/art/twewy/2021-07-06-mr-mew-wi/"
+                    },
+                    {
+                        "Title": "What A Wonderful Fad That Would Be?",
+                        "URL": "/art/twewy/2021-07-21-what-a-won/"
+                    },
+                    {
+                        "Title": "Unification of Minds",
+                        "URL": "/art/twewy/2021-12-29-chain-of-c/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-01-12: Started Porting Analysis Posts for TWEWY"
         ,"date": "2025-01-12"
         ,"Site": "New Analysis Section! Will slowly add to it over time. Currently has one for TWEWY & NTWEWY. Might organize them a differently in the future. Artwork pages now has headers and separate section for reference images."

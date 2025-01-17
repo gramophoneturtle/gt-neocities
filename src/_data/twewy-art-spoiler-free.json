@@ -662,6 +662,52 @@
     "RelatedWritingURL": ""
   },
   {
+    "title": "Warm Drink",
+    "summary": "Warm Drink. CAT Mug. Happy Neku.",
+    "details": "",
+    "characters": "Neku",
+    "date": "2023-12-24",
+    "dateYear": "2023",
+    "uniqueUrl": "2023-12-24-warm-drink",
+    "UniqueURLKey": "art/twewy/2023-12-24-warm-drink",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/737652560548298752/warm-drink-cat-mug-happy-neku"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4134022"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3khdu4tmkso2j"
+      },
+      {
+        "sitename": "cohost",
+        "url": "https://cohost.org/gramophoneturtle/post/4848181-warm-drink-cat-mug"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2023\\1224-holineku\\20231224-HappyHolidaysNeku-L1L2.jpg",
+        "alt": "Digital art of Neku Sakuraba from The World Ends With You,. He drinks from a CAT theme mug on a light blue and white textured background."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2023\\1224-holineku\\20231224-thmb-HappyHolidaysNeku-L1L2-250.jpg",
+    "thumbnailAlt": "Neku",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Mood",
     "summary": "Father is actually really good with cats, but today the mood is \u201cNo.\u201d",
     "details": "It was called \"Mood\" because this was actually vent art! Mood: cat was me. Wanted to be a cat that could nap on a friendly coat but do not touch.",
@@ -864,7 +910,7 @@
     "title": "Noise Feathers",
     "summary": "This was a fun exercise figuring out the shapes and colours of these feathers from the bloom and hands. I didn\u2019t make vectors of these so their quality and compression probably isn\u2019t great but feel free to use/edit them! Credit isn\u2019t necessary for these feathers.",
     "details": "",
-    "characters": "",
+    "characters": "No Characters",
     "date": "2020-11-04",
     "dateYear": "2020",
     "uniqueUrl": "2020-11-04-noise-feat",

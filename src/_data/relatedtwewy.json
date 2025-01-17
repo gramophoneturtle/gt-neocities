@@ -369,8 +369,8 @@
     "SeriesName": "A Healthy Dose of Chaos",
     "SeriesDescription": "A post NEO TWEWY AU in which Joshua, Hanekoma, Minamimoto and Coco have to work together for...Reasons.",
     "SeriesURL": "a-healthy-dose-of-chaos",
-    "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
-    "ThumbnailAlt": "Joshua looking annoyed.",
+    "ThumbnailURL": "\\img\\art\\twewy\\2021\\1229-hivemind\\20211229-HiveMind02_Inactive-L1L2-800.jpg",
+    "ThumbnailAlt": "Joshua and Angel summons",
     "SeriesEntries": [
       {
         "Index": -1,
@@ -378,6 +378,13 @@
         "URL": "art/twewy/2022-03-21-mother-and",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Joshua looking annoyed."
+      },
+      {
+        "Index": 1,
+        "Name": "Chain of Command - Unification of Minds",
+        "URL": "art/twewy/2021-12-29-chain-of-c",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1229-hivemind\\20211229-thmb-HiveMind00-L1L2-250.jpg",
+        "ThumbnailAlt": "Joshua and Angel summons"
       },
       {
         "Index": 10,
@@ -607,17 +614,59 @@
   },
   {
     "SeriesName": "Producer Mr. Mew",
-    "SeriesDescription": "",
+    "SeriesDescription": "Welcome to the Producer \"Mr. Mew\" AU! Most of the story is on <a href=\"https://archiveofourown.org/series/2381206\">AO3</a> and <a href=\"https://legaosaure-archive.neocities.org/TWEWY/CuriosityKilledTheCat\">Neocities</a> in the Curiosity killed the cat series by LetoLeGaosaure. I/my twitch chat came up with this AU as a joke and I\u00e2\u20ac\u2122m mostly just drawing pictures for it. Please check out the series for more context!",
     "SeriesURL": "producer-mr-mew",
-    "ThumbnailURL": "",
-    "ThumbnailAlt": "",
+    "ThumbnailURL": "\\img\\art\\twewy\\related\\ProducerMrMewBanner.png",
+    "ThumbnailAlt": "Mr. Mew, a black cat plushie, staring at the Composer, a glowing white figure, while hanging off a chain with white feathers falling around them. the text at the top says \"Producer Mr. Mew AU\".",
     "SeriesEntries": [
       {
-        "Index": -1,
+        "Index": 0,
+        "Name": "It Was Just A Joke",
+        "URL": "art/twewy/2021-06-20-it-started",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0620-anime12-pmm\\20210620-thmb-TWEWYAnimeEp12-L1L2-250.jpg",
+        "ThumbnailAlt": "Mr. Mew"
+      },
+      {
+        "Index": 1,
+        "Name": "Hi",
+        "URL": "art/twewy/2021-06-23-hi",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0623-pmm-hi\\20210623-thmb-HiComposer-L1L2-250.jpg",
+        "ThumbnailAlt": "Mr. Mew"
+      },
+      {
+        "Index": 2,
+        "Name": "Lost Angel",
+        "URL": "art/twewy/2021-07-20-lost-angel",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0720-pmm-reunion\\20210720-thmb-ReunionMinusOne-L1L2-250.jpg",
+        "ThumbnailAlt": "Shiki"
+      },
+      {
+        "Index": 3,
+        "Name": "Protecting what you have left",
+        "URL": "art/twewy/2021-07-03-protecting",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0703-pmm-lost\\20210703-thmb-LostAndFound-L1L2-250.jpg",
+        "ThumbnailAlt": "Minamimoto"
+      },
+      {
+        "Index": 5,
+        "Name": "Mr. Mew will know of the things you\u2019ll share and the things you\u2019ll hide",
+        "URL": "art/twewy/2021-07-06-mr-mew-wi",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0722-pmm-nightmare\\20210722-thmb-staresAndStares-L1L2-250.jpg",
+        "ThumbnailAlt": "Mr. Mew"
+      },
+      {
+        "Index": 10,
         "Name": "Mr. Mew Expression Roulette",
         "URL": "art/twewy/2021-07-22-mr-mew-ex",
         "ThumbnailURL": "\\img\\art\\twewy\\2021\\0722-mewexp\\mewexpr-thmb-L1L2.jpg",
         "ThumbnailAlt": "Joshua and Mr. Mew"
+      },
+      {
+        "Index": 11,
+        "Name": "What A Wonderful Fad That Would Be",
+        "URL": "art/twewy/2021-07-21-what-a-won",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0721-pmm-fad\\20210721-thmb-AFad-L1L2-250.jpg",
+        "ThumbnailAlt": "Mr. Mews"
       }
     ]
   }
