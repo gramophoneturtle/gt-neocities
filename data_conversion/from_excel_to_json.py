@@ -402,6 +402,23 @@ if __name__ == '__main__':
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
+    # Asura's wrath----------------------------------------------------------- #
+    fandomkey = "asuras-wrath"
+    artworksCategories = ArtworkCategory(
+        sheet_name = 'Other',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": fandomkey,
+                    "Filename": "art-{0}".format(fandomkey.lower())
+                }
+            ],
+        base_url = "art/{0}/".format(fandomkey.lower())
+    )
+
+    for category in artworksCategories.Fandoms:
+        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
+        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
 
     # Persona 5 Sheet

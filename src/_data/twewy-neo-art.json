@@ -1,5 +1,47 @@
 [
   {
+    "title": "VOID MEW",
+    "summary": "Hazuki tried crafting a Mr. Mew and the result is questionable.",
+    "details": "",
+    "characters": "Hazuki, Mr. Mew",
+    "date": "2025-01-18",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-01-18-void-mew",
+    "UniqueURLKey": "art/twewy/2025-01-18-void-mew",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/773047564038766592/void-mew-hazuki-tried-crafting-a-mr-mew-and-the"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5831721"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lg2avzjuds2e"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0118-voidmew\\20250118-HazukiVoidMew-L1D2-800.jpg",
+        "alt": "Digital art of Hazuki Mikagi holding a special Mr. Mew from NEO The World Ends With You. This Mr. Mew has a cat like smile but the white eyes and mouth have been replaced by black eyes with white outlines that glow red. The background is an abstract city like form make out of squares and rectangles. There are also 3 rows of yellow barcode like shapes in the background."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0118-voidmew\\20250118-thmb-HazukiVoidMew-L1D2-250.jpg",
+    "thumbnailAlt": "Hazuki and Mr. Mew",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "His Ward",
     "summary": "The idea for this was meant to be the \"other side\" of the \"<a href=\"https://gramophoneturtle.neocities.org/art/twewy/2022-09-22-shibuya-fi/\">Shibuya Fish Tank</a>\" but I wanted to draw Hazuki not all glowy so we got this instead! The wings were a last minute idea! I was adding the background shadows and on a whim I blocked in some shadowy wings on the walls and was like...Oh no! I love this but I also want this done! The less refined they were the better the shadowy wings looked so they're not as Funky as others I've done.",
     "details": "",
@@ -530,7 +572,7 @@
   {
     "title": "Hazuki Sketches",
     "summary": "Hazuki practice based in game movie expressions and on official(?) art. These were fun emotions to try to capture because you don't see them in his in game sprites so it's neat to see him looking concerned/conflicted or something along those lines.",
-    "details": "Art style and pose/perspective reference: <a href=\"https://x.com/TWEWY_PR/status/1419675720192708619\">Twitter</a>",
+    "details": "Art style and pose/perspective reference: <a href=\"https://x.com/TWEWY_PR/status/1419675720192708619\">Twitter</a> / From the <a href=\"https://twewy.wiki/wiki/Hazuki_Mikagi/Gallery#/media/File:Hazuki_by_Nomura.jpg\">wiki</a>.",
     "characters": "Hazuki",
     "date": "2022-08-20",
     "dateYear": "2022",
@@ -554,29 +596,24 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\hazupractice_frown-niDEFV1-gl15V1.png",
+        "url": "\\img\\art\\twewy\\2022\\0820-hazsketch\\hazupractice_frown-DV1gl15V1-800.jpg",
         "alt": "Sketch of Hazuki Mikagi from NEO: The World Ends With You drawn in a pencil style with a gradient from faded red in the top left to purple in the bottom right. He's looking down opened and eye brows furrowed."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\hazupractice_expConcern-niDEFAV1-protected-inLOWV2.png",
+        "url": "\\img\\art\\twewy\\2022\\0820-hazsketch\\hazupractice_expConcern-DV1LV2-800.jpg",
         "alt": "Sketch of Hazuki Mikagi from NEO: The World Ends With You drawn in a pencil style with a gradient from faded red in the top left to purple  in the bottom right. He's looking down, mouth opened and eye brows furrowed."
       },
       {
         "id": 3,
-        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\hazupractice_closed-niDEFV1-gl15V1.png",
+        "url": "\\img\\art\\twewy\\2022\\0820-hazsketch\\hazupractice_closed-DV1gl15V1-800.jpg",
         "alt": "Sketch of Hazuki Mikagi from NEO: The World Ends With You drawn in a pencil style with a gradient from faded red in the top left to purple in the bottom right. His eyes are closed and he looks content."
-      },
-      {
-        "id": 4,
-        "url": "\\img\\art\\twewy\\neo\\haz-bday-doodles\\HazukiReferences.jpg",
-        "alt": "Three images of Hazuki Mikagi from NEO: The World Ends With You from one of the in game movie cutscenes. In the first, his eyes are closed and he looks maybe content. In the second, he's looking down and to his left, our right, mouth opened and eye brows furrowed. He looks concerned or worried about something. In the third, he's looking down and to his left, our right, mouth closed and eye brows furrowed. He looks concerned or worried about something."
       }
     ],
-    "thumbnailUrl": "",
-    "thumbnailAlt": "",
-    "REF1": "",
-    "REFALT1": "",
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0820-hazsketch\\thmb-hazupractice-DV1gl15V1-250.jpg",
+    "thumbnailAlt": "Hazuki",
+    "REF1": "\\img\\art\\twewy\\2022\\0820-hazsketch\\HazukiReferences.jpg",
+    "REFALT1": "Three images of Hazuki Mikagi from NEO: The World Ends With You from one of the in game movie cutscenes. In the first, his eyes are closed and he looks maybe content. In the second, he's looking down and to his left, our right, mouth opened and eye brows furrowed. He looks concerned or worried about something. In the third, he's looking down and to his left, our right, mouth closed and eye brows furrowed. He looks concerned or worried about something.",
     "Warnings": "",
     "vids": [],
     "fandom": [

@@ -1,5 +1,30 @@
 [
     {
+        "PostDate": "2025-01-18: New Asura's Wrath artwork section and new NTWEWY artwork"
+        ,"date": "2025-01-18"
+        ,"Site": "New Artwork section for Asura's Wrath. Asura's Wrath artwork is mostly, if not all, screenshot redraws. An incredibly beautiful game that was fun to practice lighting and metal work with. Also added descriptions for each fandom in the art table to explain what I focused on for that fandom."
+        ,"ArtList": [
+            {
+                "Category": "Asura's Wrath",
+                "List": [
+                    {
+                        "Title": "Asura, after he punched a mass that...",
+                        "URL": "/art/asuras-wrath/2017-09-01-asura-aft/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "VOID MEW",
+                        "URL": "/art/twewy/2025-01-18-void-mew/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-01-16: P!Mr. Mew AU series fully added."
         ,"date": "2025-01-16"
         ,"ArtList": [
@@ -29,12 +54,18 @@
                     {
                         "Title": "What A Wonderful Fad That Would Be?",
                         "URL": "/art/twewy/2021-07-21-what-a-won/"
-                    },
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
                     {
                         "Title": "Unification of Minds",
                         "URL": "/art/twewy/2021-12-29-chain-of-c/"
                     }
                 ] 
+
             }
         ]
     },
