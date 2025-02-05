@@ -1,5 +1,46 @@
 [
     {
+        "PostDate": "2025-02-05: New and Old N/TWEWY Arts"
+        ,"date": "2025-02-05"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "(Yes hug. No hug. Maybe hug???)",
+                        "URL": "/art/twewy/2023-12-25-father-and/"
+                    },
+                    {
+                        "Title": "Serpent Conductor",
+                        "URL": "/art/twewy/2025-01-31-serpent-co/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Twister, Twister...",
+                        "URL": "/art/twewy/2024-01-28-twister-t/"
+                    },
+                    {
+                        "Title": "Null Intro Post",
+                        "URL": "/art/twewy/2023-11-24-null-intro/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Found You, Faker!",
+                        "URL": "/art/twewy/2025-02-05-found-you/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-01-18: New Asura's Wrath artwork section and new NTWEWY artwork"
         ,"date": "2025-01-18"
         ,"Site": "New Artwork section for Asura's Wrath. Asura's Wrath artwork is mostly, if not all, screenshot redraws. An incredibly beautiful game that was fun to practice lighting and metal work with. Also added descriptions for each fandom in the art table to explain what I focused on for that fandom."

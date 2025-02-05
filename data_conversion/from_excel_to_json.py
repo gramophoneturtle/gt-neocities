@@ -262,7 +262,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
         sheet_name=sheet_name,
         usecols=['Artwork', 'NS?', "Earliest Date",
                  'Spoilers',
-                'characters','fandom','PF tags',
+                'characters','fandom','PF Tags',
                 'title','summary','detail', 'warnings',
                 'RelatedSeries','RelatedSeriesOrder', 'RelatedWriting',
                 'IMG THMB', 'ALT THMB',
@@ -419,17 +419,6 @@ if __name__ == '__main__':
     for category in artworksCategories.Fandoms:
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
-
-
-    # Persona 5 Sheet
-    # fandomkey="persona5"
-    # file_path_output = os.path.join(file_path_output_path, filename_output_p5)
-    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=True, base_url="art/{0}/".format(fandomkey))
-
-    
-    # file_path_output = os.path.join(file_path_output_path, filename_output_p5_nospoilers)
-    # main('Other', file_path_output, fandoms = [fandomkey], include_spoilers=False, base_url="art/{0}/".format(fandomkey))
-
 
     print("\nMAIN: C O M P L E T E!\n")
 
