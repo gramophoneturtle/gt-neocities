@@ -251,6 +251,13 @@
         "URL": "art/twewy/2022-03-01-hanyakoma",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0301-hanyakoma\\20220301-thmb-Hanyakoma_Grey-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Hanekoma wearing a black and white cat hoodie."
+      },
+      {
+        "Index": 8,
+        "Name": "Found You, Faker!",
+        "URL": "art/twewy/2025-02-05-found-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\0205-faker\\20250205-thmb-FakerMinamis01-L1L2-250.jpg",
+        "ThumbnailAlt": "Minanimoto"
       }
     ]
   },
@@ -667,6 +674,37 @@
         "URL": "art/twewy/2021-07-21-what-a-won",
         "ThumbnailURL": "\\img\\art\\twewy\\2021\\0721-pmm-fad\\20210721-thmb-AFad-L1L2-250.jpg",
         "ThumbnailAlt": "Mr. Mews"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Composer Neku AU, Barcode Language",
+    "SeriesDescription": "",
+    "SeriesURL": "composer-neku-au-barcode-language",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": []
+  },
+  {
+    "SeriesName": "Barcode Language",
+    "SeriesDescription": "",
+    "SeriesURL": "barcode-language",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 20210421,
+        "Name": "Hobbies are important to have, Phones.",
+        "URL": "art/twewy/2021-04-21-hobbies-ar",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0421-cnau-hobbies\\20210421-thmb-hobbies05a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Neku"
+      },
+      {
+        "Index": 20250118,
+        "Name": "VOID MEW",
+        "URL": "art/twewy/2025-01-18-void-mew",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\0118-voidmew\\20250118-thmb-HazukiVoidMew-L1D2-250.jpg",
+        "ThumbnailAlt": "Hazuki and Mr. Mew"
       }
     ]
   }

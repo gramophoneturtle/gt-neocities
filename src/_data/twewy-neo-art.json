@@ -1,5 +1,58 @@
 [
   {
+    "title": "Found You, Faker!",
+    "summary": "This has been stuck in my head ever since I started the hoodie series and finally it's been drawn!!",
+    "details": "",
+    "characters": "Minamimoto, Rindo, Fret, Nagi, Shoka",
+    "date": "2025-02-05",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-02-05-found-you",
+    "UniqueURLKey": "art/twewy/2025-02-05-found-you",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/774671130158039040/i-finally-found-you-faker-this-has-been-stuck-in"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5898568"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lhhcw5ad5s2t"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0205-faker\\20250205-FakerMinamis01-L1L2-800.jpg",
+        "alt": "A digital comic of Sho Minamimoto from NEO: The World Ends With You, meeting another version of himself. The team's Minamimoto says, \"I finally found you...\" and reveals he is wearing a Shadow the Hedgehog hoodie under his coat. Then he and the other Minamimoto say at the same time \"FAKER!\" The other Minamimoto is wearing a Sonic the Hedgehog hoodie. From a distance, a confused Fret, Nagi, Rindo and Shoka watch the two Minamimotos."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2025\\0205-faker\\20250205-FakerMinamis03-L1L2-800.jpg",
+        "alt": "Two doodles of Sho Minamimoto from NEO: The World Ends With You, one wearing a Sonic the Hedgehog hoodie and the other wearing a Shadow the Hedgehog hoodie. The Sonic one says excitedly, \"SO ZETTA SLOW!\" and the Shadow one says sadly, \"The order of operations...\""
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0205-faker\\20250205-thmb-FakerMinamis01-L1L2-250.jpg",
+    "thumbnailAlt": "Minanimoto",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Hoodie Buddies",
+        "hoodie-buddies"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "VOID MEW",
     "summary": "Hazuki tried crafting a Mr. Mew and the result is questionable.",
     "details": "",
@@ -38,6 +91,12 @@
     "vids": [],
     "fandom": [
       "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Barcode Language",
+        "barcode-language"
+      ]
     ],
     "RelatedWritingURL": ""
   },
@@ -948,13 +1007,17 @@
       {
         "sitename": "Tumblr",
         "url": "https://gramophoneturtle.tumblr.com/post/673911211156537344/happy-birthday-rhyme"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5838789"
       }
     ],
     "imgs": [
       {
         "id": 1,
         "url": "\\img\\art\\twewy\\2022\\0120-bday-rhyme\\20220120-BDay-Rhyme-L1D2-800.jpg",
-        "alt": "NEO TWEWY Rhyme sitting with her knees drawn up and holding her phone. She's looking at the viewer witha smile on her face. Text says \"Happy Birthday Rhyme!! 2022.1.20\""
+        "alt": "Digital art of Rhyme from NEO The World Ends With You sitting with her knees drawn up and holding her phone. She's looking at the viewer with a smile on her face. Text says \"Happy Birthday Rhyme!! 2022.1.20\""
       }
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2022\\0120-bday-rhyme\\20220120-thmb-BDay-Rhyme-L1D2.jpg",
