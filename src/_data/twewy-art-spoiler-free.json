@@ -1,5 +1,47 @@
 [
   {
+    "title": "Serpent Conductor",
+    "summary": "Made for January\u2019s VGen Challenge of \u201cSerpent\u201d.",
+    "details": "",
+    "characters": "Kitaniji",
+    "date": "2025-01-31",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-01-31-serpent-co",
+    "UniqueURLKey": "art/twewy/2025-01-31-serpent-co",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/774249624309579776/serpent-conductor-made-for-januarys-vgen"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5882812"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lh3kp4psos2h"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0131-serpent\\20250131-SerpentMegumi-L1L2-800.jpg",
+        "alt": "Digital art of Megumi Kitaniji from The World Ends With You with an arm raised up high. His serpent Noise form is behind him and the graffiti-skeletal parts of his Noise form appear around Megumi like they are wings."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0131-serpent\\20250131-thmb-SerpentMegumi-L1L2-250.jpg",
+    "thumbnailAlt": "Megumi Kitaniji",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Cat Comcatibility - Chisa",
     "summary": "Chisa gets a whole comic for her Cat Comcatibility Check! She unfortunately chose to try and make friends with a cat That Did Not Want Pets. So now begins her arc of declaring war on cats, not helped by her Father seemly siding with those feisty furballs over her!",
     "details": "<p>A stunning example of Father's parenting! Keeping it spoiler free for this post, but his current perspective and priority Chisa, life, cats, and so on causes some friction between the two.</p>\n<p>While Null understands Father's perspective they have become incredibly protective of Chisa, and at times a little much like this cat interaction here. They didn't need to pull Chisa away so strongly and scare away the cat and they didn't need to try and confront Father about it so strongly.</p>\n<p>Chisa knows a cat scratch wouldn\u2019t have been awful, and she knew there was a possibility of it happening in the first place but she was hoped it would be ok somehow. Despite that, she was hoping her Father would have shown at least a hint of proper care towards her. Just a small, even lightly spoken, \u201cYou ok? It\u2019ll heal over quickly, see?\u201d</p>\n<p>It's something she <em>wants</em> to hear.</p>",
@@ -652,6 +694,48 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_thmb-L1D2.jpg",
     "thumbnailAlt": "Father",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "(Yes hug. No hug. Maybe hug???)",
+    "summary": "Father wants to give a hug but can\u2019t quite\u2026Embrace it. But it\u2019s ok. Null understands.",
+    "details": "<p>It\u2019s probably going to be a bit before I can properly explain it, but Null has done a big Thing for Father and Father is so, so, so thankful for it. So much that Father wants to give Null a hug! It\u2019s difficult for Father to full commit to it because of their rocky history, and especially since this Thing seems too good to be true.</p>",
+    "characters": "Father, Null",
+    "date": "2023-12-25",
+    "dateYear": "2023",
+    "uniqueUrl": "2023-12-25-father-and",
+    "UniqueURLKey": "art/twewy/2023-12-25-father-and",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/737696872600420352"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/4135632"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3khf3kieqxn2n"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2023\\1225-nullhug\\20231225-NullHugFather-L1L2-612.jpg",
+        "alt": "Digital art of Father, a man with long hair and an orange autumn patterned coat, hugging Null, a non-binary person with black and pink tipped hair and a long green coat with an ivy pattern,. Father is hesitant, while Null full embraces it, wrapping their arms around Father's shoulders."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2023\\1225-nullhug\\20231225-thmb-NullHugFather-L1L2-250.jpg",
+    "thumbnailAlt": "Null and Father",
     "REF1": "",
     "REFALT1": "",
     "Warnings": "",

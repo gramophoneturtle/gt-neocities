@@ -251,6 +251,13 @@
         "URL": "art/twewy/2022-03-01-hanyakoma",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0301-hanyakoma\\20220301-thmb-Hanyakoma_Grey-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Hanekoma wearing a black and white cat hoodie."
+      },
+      {
+        "Index": 8,
+        "Name": "Found You, Faker!",
+        "URL": "art/twewy/2025-02-05-found-you",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\0205-faker\\20250205-thmb-FakerMinamis01-L1L2-250.jpg",
+        "ThumbnailAlt": "Minanimoto"
       }
     ]
   },
@@ -667,6 +674,29 @@
         "URL": "art/twewy/2021-07-21-what-a-won",
         "ThumbnailURL": "\\img\\art\\twewy\\2021\\0721-pmm-fad\\20210721-thmb-AFad-L1L2-250.jpg",
         "ThumbnailAlt": "Mr. Mews"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Barcode Language",
+    "SeriesDescription": "<p>Starting explicitly in NEO, there is interesting barcode like writing on special material pins, the opening vision of Shibuya going goodbye, the plane Rindo 'travels' to when he first goes back in time and in the final boss area. (There might be others but it's Been A While.)</p><p>It also appeared kinda sorta in TWEWY's Anime at the end with Joshua in the corridor, facing Neku and ready to shoot. It's hidden in bottom right hand corner and really hard to see but it stands out when you see it. The style doesn't quite match NEO's but something odd is there. (I'll go post about this one day. Probably.) </p><p>Anyways, I wanted to use language for Angellic Stuff but I haven't used it as much as I'd like. Artwork in this series hae those barcodes in it.</p>",
+    "SeriesURL": "barcode-language",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 20210421,
+        "Name": "Hobbies are important to have, Phones.",
+        "URL": "art/twewy/2021-04-21-hobbies-ar",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\0421-cnau-hobbies\\20210421-thmb-hobbies05a-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Neku"
+      },
+      {
+        "Index": 20250118,
+        "Name": "VOID MEW",
+        "URL": "art/twewy/2025-01-18-void-mew",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\0118-voidmew\\20250118-thmb-HazukiVoidMew-L1D2-250.jpg",
+        "ThumbnailAlt": "Hazuki and Mr. Mew"
       }
     ]
   }
