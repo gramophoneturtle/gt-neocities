@@ -1,4 +1,42 @@
-[
+[ 
+    {
+        "PostDate": "2025-02-21"
+        ,"date": "2025-02-21"
+        ,"Site": "Added a 'Related Series' under TWEWY for Commissions. This is temporary until I set up a better way to group them."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Cheer Up, Sota!",
+                        "URL": "/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Coat Tassels",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "I've got my Eyes on you",
+                        "URL": "/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Two Totez Besties Drawin",
+                        "URL": "/"
+                    }
+                ] 
+            }
+        ]
+    },
     {
         "PostDate": "2025-02-05: New and Old N/TWEWY Arts"
         ,"date": "2025-02-05"

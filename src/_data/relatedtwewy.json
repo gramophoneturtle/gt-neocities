@@ -381,6 +381,13 @@
     "SeriesEntries": [
       {
         "Index": -1,
+        "Name": "Two Totez Besties Drawin\u2019",
+        "URL": "art/twewy/2022-08-02-two-totez",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0802-besties\\20220802-thmb-CocoHaneResurrection-L1L2-250.jpg",
+        "ThumbnailAlt": "Hanekoma and Coco"
+      },
+      {
+        "Index": -1,
         "Name": "Mother and Father Are Watching",
         "URL": "art/twewy/2022-03-21-mother-and",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
@@ -436,8 +443,8 @@
         "Index": -1,
         "Name": "Kubo, Higher Vibe Frequency.",
         "URL": "art/twewy/2021-11-20-kubo-high",
-        "ThumbnailURL": "",
-        "ThumbnailAlt": ""
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1120-hvfkubo\\20211120-thmb-Kubo-L1L2-250.jpg",
+        "ThumbnailAlt": "Kubo"
       },
       {
         "Index": -1,
@@ -692,11 +699,34 @@
         "ThumbnailAlt": "Neku"
       },
       {
+        "Index": 20220830,
+        "Name": "Coat \u201cTassels\u201d",
+        "URL": "art/twewy/2022-08-30-coat-tass",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0830-posefather\\20220830-thmb-PoseofTheDay-L1L2-250.jpg",
+        "ThumbnailAlt": "Father"
+      },
+      {
         "Index": 20250118,
         "Name": "VOID MEW",
         "URL": "art/twewy/2025-01-18-void-mew",
         "ThumbnailURL": "\\img\\art\\twewy\\2025\\0118-voidmew\\20250118-thmb-HazukiVoidMew-L1D2-250.jpg",
         "ThumbnailAlt": "Hazuki and Mr. Mew"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Commission",
+    "SeriesDescription": "",
+    "SeriesURL": "commission",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 20250219,
+        "Name": "Cheer Up, Sota!",
+        "URL": "art/twewy/2025-02-20-cheer-up",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\0219-comm-cheerup\\20250219-thmb-TY-CheerUpSota-D1D2-250.jpg",
+        "ThumbnailAlt": "Nao"
       }
     ]
   }

@@ -1,5 +1,53 @@
 [
   {
+    "title": "Cheer Up, Sota!",
+    "summary": "Sketch commission of Nao cheering Sota up! Thank you banchagu for commission, this was so much fun!",
+    "details": "",
+    "characters": "Nao, Sota",
+    "date": "2025-02-20",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-02-20-cheer-up",
+    "UniqueURLKey": "art/twewy/2025-02-20-cheer-up",
+    "spoilers": "No",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/776018446526906368/digital-art-sketch-of-nao-pulling-down-sotas"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5949831"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3limptfhkxc2e"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0219-comm-cheerup\\20250219-TY-CheerUpSota-D1D2-800.jpg",
+        "alt": "Digital art sketch of Nao pulling down Sota's sunglasses, causing him to laugh, from The World Ends With You. The sketch lines are coloured yellow, orange and red."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0219-comm-cheerup\\20250219-thmb-TY-CheerUpSota-D1D2-250.jpg",
+    "thumbnailAlt": "Nao",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Commission",
+        "commission"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Serpent Conductor",
     "summary": "Made for January\u2019s VGen Challenge of \u201cSerpent\u201d.",
     "details": "",
@@ -830,6 +878,54 @@
     "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Coat \u201cTassels\u201d",
+    "summary": "Father TWEWY OC practice with Pose Maniacs Pose of the Day.",
+    "details": "Similar to his coat tassels, Mother's coat can also change shape to be wing/feathery and/or bird like, just got to get inspired 1 hour before bed and spend...more than 1 hour working it.\n\nThe writing is based on the Axion pin cause I wanted to practice the writing on those pins.",
+    "characters": "Father",
+    "date": "2022-08-30",
+    "dateYear": "2022",
+    "uniqueUrl": "2022-08-30-coat-tass",
+    "UniqueURLKey": "art/twewy/2022-08-30-coat-tass",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/694073825701298176/coat-tassels-father-twewy-oc-practice-with-pose"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5934109"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3libcn4ac3c2l"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2022\\0830-posefather\\20220830-PoseofTheDay-L1L2-800.jpg",
+        "alt": "Digital art of my OC called Father, a man with his right arm outstretched in front of him and the other bent and raised up next to his head, his left leg bent and half raised to meet his left knee. He's wearing an orange patchy coat with a brown hood and a golden clasp holding the coat together and rainbow gloves. He has frosted blue jeggings, pink leg warmers, rainbow socks with black sneaker sandals. His coat has extremely long and glowing feathers that create rim lighting on his body. He's facing a glowing sigil with very square like writing going from the center of the circle to outwards."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0830-posefather\\20220830-thmb-PoseofTheDay-L1L2-250.jpg",
+    "thumbnailAlt": "Father",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "Eye Strain",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Barcode Language",
+        "barcode-language"
+      ]
     ],
     "RelatedWritingURL": ""
   },
