@@ -380,20 +380,6 @@
     "ThumbnailAlt": "Joshua and Angel summons",
     "SeriesEntries": [
       {
-        "Index": -1,
-        "Name": "Two Totez Besties Drawin\u2019",
-        "URL": "art/twewy/2022-08-02-two-totez",
-        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0802-besties\\20220802-thmb-CocoHaneResurrection-L1L2-250.jpg",
-        "ThumbnailAlt": "Hanekoma and Coco"
-      },
-      {
-        "Index": -1,
-        "Name": "Mother and Father Are Watching",
-        "URL": "art/twewy/2022-03-21-mother-and",
-        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
-        "ThumbnailAlt": "Joshua looking annoyed."
-      },
-      {
         "Index": 1,
         "Name": "Chain of Command - Unification of Minds",
         "URL": "art/twewy/2021-12-29-chain-of-c",
@@ -401,11 +387,25 @@
         "ThumbnailAlt": "Joshua and Angel summons"
       },
       {
-        "Index": 10,
+        "Index": 2,
+        "Name": "Mother and Father Are Watching",
+        "URL": "art/twewy/2022-03-21-mother-and",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Joshua looking annoyed."
+      },
+      {
+        "Index": 5,
         "Name": "There Was A Time When\u2026",
         "URL": "art/twewy/2022-01-26-there-was",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0126-cafe\\20220126-thmb-cafeVisit01_2-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Minamimoto looking upset."
+      },
+      {
+        "Index": 12,
+        "Name": "Two Totez Besties Drawin\u2019",
+        "URL": "art/twewy/2022-08-02-two-totez",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0802-besties\\20220802-thmb-CocoHaneResurrection-L1L2-250.jpg",
+        "ThumbnailAlt": "Hanekoma and Coco"
       },
       {
         "Index": 30,
