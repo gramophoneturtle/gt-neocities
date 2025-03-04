@@ -1,5 +1,47 @@
 [
   {
+    "title": "Thank You Bouquet",
+    "summary": "<p>Made for February's VGen Challenge of \"Bouquet\". I decided to spotlight one of my OCs this time, even though none of them are really associated with bouquets of flowers. Null is the closest, who I associate with trees/branches/roots, but sometimes Null's hair with the pink tips sometimes makes me think of pink petals - cherry blossoms maybe - and decided to give them a bouquet!</p>\n<p>I don't know a lot about flower language and combining them but apparently this is a bouquet for giving thanks? If not, the colours I think go well together.</p>\n<p>So, thank you, Null!</p>",
+    "details": "",
+    "characters": "Null",
+    "date": "2025-02-28",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-02-28-thank-you",
+    "UniqueURLKey": "art/twewy/2025-02-28-thank-you",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/776768813183139840/digital-art-of-my-original-character-called"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5977106"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3ljbjfekcos23"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0228-bouquet\\20250228-bouquet-null-L1L2-800.jpg",
+        "alt": "Digital art of my original character, called Null, holding a bouquet of flowers containing white lilies, pink roses and Eustoma Russellianum. Their eyes are closed as the hold the bouquet close to their chest and face, enjoying the fragrance. Behind them are stylized bushes and a tree in shades of green."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0228-bouquet\\20250228-thmb-bouquet-null-L1L2-250.jpg",
+    "thumbnailAlt": "Null",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Cheer Up, Sota!",
     "summary": "Sketch commission of Nao cheering Sota up! Thank you banchagu for commission, this was so much fun!",
     "details": "",
@@ -973,6 +1015,59 @@
     "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Happy Birthday Hanekoma!!",
+    "summary": "The one with two birthdays, because of the Japanese and English translation.",
+    "details": "",
+    "characters": "Hanekoma",
+    "date": "2022-03-03",
+    "dateYear": "2022",
+    "uniqueUrl": "2022-03-03-happy-birt",
+    "UniqueURLKey": "art/twewy/2022-03-03-happy-birt",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/777102653806215168"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/5988665"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3ljkxaqgxns2o"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2022\\0303-bday-hanekoma\\20220303-BDayHanekomaRed-L1L2-800.jpg",
+        "alt": "Digital art of Sanae Hanekoma spray painting a border around himself from dark red to bright orange in a clockwise circle. The words \"Happy Birthday Hanekoma!! 2022.3.3 is written in light blue in the bottom right."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2022\\0303-bday-hanekoma\\20220304-BDayHanekomaBlue-L1L2-800.jpg",
+        "alt": "Digital art of Sanae Hanekoma spray painting a border around himself from dark blue to light blue in a counterclockwise circle. The words \"Happy Birthday Hanekoma!! 2022.3.4 is written in light red in the bottom right."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2022\\0303-bday-hanekoma\\20220303-thmb-BDayHanekoma-L1L2-250.jpg",
+    "thumbnailAlt": "Hanekoma",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Happy Birthday",
+        "happy-birthday"
+      ]
     ],
     "RelatedWritingURL": ""
   },
