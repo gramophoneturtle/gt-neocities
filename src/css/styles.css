@@ -844,3 +844,12 @@ pre {
     margin: 1rem 0rem;
   }
 }
+
+/** ANALYSIS ------------------------------------------------- */
+.quote-english {
+  border-inline-start: 0.35rem solid green;
+}
+
+.quote-japanese {
+  border-inline-start: 0.35rem solid red;
+}
