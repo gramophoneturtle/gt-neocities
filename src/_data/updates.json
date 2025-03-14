@@ -1,4 +1,80 @@
-[
+[ 
+    {
+        "PostDate": "2025-03-14: Crossover Art Support and more Art"
+        ,"date": "2025-03-14"
+        ,"Site": "Crossover art support! Not complete but it's on its way. Plan is have have all crossover art appear in the crossover art section and also in any fandom it's part of. Right now it's in one or the other. Also, the Art page's fandom description is a little smaller. And a big dump of artwork! And fixed Father's OC page to grab the right image and played with using asides for OC pages."
+        ,"ArtList": [
+            {
+                "Category": "Crosssover",
+                "List": [
+                    {
+                        "Title": "Mother Pikmin",
+                        "URL": "/art/gen/2025-03-09-mother-pik/"
+                    },
+                    {
+                        "Title": "Would You Take My Hand?",
+                        "URL": "/art/gen/2025-02-25-would-you/"
+                    },
+                    {
+                        "Title": "Snacks! Nom Nom!",
+                        "URL": "/art/gen/2025-02-20-snacks-no/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Crosssover Spoilers - NTWEWY",
+                "List": [
+                    {
+                        "Title": "Hazuki Inkagi",
+                        "URL": "/art/gen/2023-08-15-hazuki-ink/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Cheer Up, Sota!",
+                        "URL": "/art/twewy/2025-02-20-cheer-up/"
+                    },
+                    {
+                        "Title": "Happy Birthday Hanekoma!!",
+                        "URL": "/art/twewy/2022-03-03-happy-birt/"
+                    },
+                    {
+                        "Title": "Thank You Bouquet",
+                        "URL": "/art/twewy/2025-02-28-thank-you/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Coat Tassels",
+                        "URL": "/art/twewy/2022-08-30-coat-tass/"
+                    },
+                    {
+                        "Title": "I've got my Eyes on you",
+                        "URL": "/art/twewy/2023-06-18-ive-got-m/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "Two Totez Besties Drawin",
+                        "URL": "/art/twewy/2022-08-02-two-totez/"
+                    },
+                    {
+                        "Title": "Didn't You Know? The Dead Don't Age",
+                        "URL": "/art/twewy/2021-11-14-didnt-you/"
+                    }
+                ] 
+            }
+        ]
+    },
     {
         "PostDate": "2025-02-05: New and Old N/TWEWY Arts"
         ,"date": "2025-02-05"

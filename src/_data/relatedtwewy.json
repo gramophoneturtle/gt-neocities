@@ -364,6 +364,13 @@
         "ThumbnailAlt": "Rhyme"
       },
       {
+        "Index": 20220303,
+        "Name": "Happy Birthday Hanekoma!!",
+        "URL": "art/twewy/2022-03-03-happy-birt",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0303-bday-hanekoma\\20220303-thmb-BDayHanekoma-L1L2-250.jpg",
+        "ThumbnailAlt": "Hanekoma"
+      },
+      {
         "Index": 20241101,
         "Name": "An Order of Mews for Joshua!",
         "URL": "art/twewy/2024-11-01-an-order-o",
@@ -380,13 +387,6 @@
     "ThumbnailAlt": "Joshua and Angel summons",
     "SeriesEntries": [
       {
-        "Index": -1,
-        "Name": "Mother and Father Are Watching",
-        "URL": "art/twewy/2022-03-21-mother-and",
-        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
-        "ThumbnailAlt": "Joshua looking annoyed."
-      },
-      {
         "Index": 1,
         "Name": "Chain of Command - Unification of Minds",
         "URL": "art/twewy/2021-12-29-chain-of-c",
@@ -394,11 +394,25 @@
         "ThumbnailAlt": "Joshua and Angel summons"
       },
       {
-        "Index": 10,
+        "Index": 2,
+        "Name": "Mother and Father Are Watching",
+        "URL": "art/twewy/2022-03-21-mother-and",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
+        "ThumbnailAlt": "Joshua looking annoyed."
+      },
+      {
+        "Index": 5,
         "Name": "There Was A Time When\u2026",
         "URL": "art/twewy/2022-01-26-there-was",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0126-cafe\\20220126-thmb-cafeVisit01_2-nDEFV1-pDEFV2.jpg",
         "ThumbnailAlt": "Minamimoto looking upset."
+      },
+      {
+        "Index": 12,
+        "Name": "Two Totez Besties Drawin\u2019",
+        "URL": "art/twewy/2022-08-02-two-totez",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0802-besties\\20220802-thmb-CocoHaneResurrection-L1L2-250.jpg",
+        "ThumbnailAlt": "Hanekoma and Coco"
       },
       {
         "Index": 30,
@@ -436,8 +450,8 @@
         "Index": -1,
         "Name": "Kubo, Higher Vibe Frequency.",
         "URL": "art/twewy/2021-11-20-kubo-high",
-        "ThumbnailURL": "",
-        "ThumbnailAlt": ""
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1120-hvfkubo\\20211120-thmb-Kubo-L1L2-250.jpg",
+        "ThumbnailAlt": "Kubo"
       },
       {
         "Index": -1,
@@ -692,6 +706,13 @@
         "ThumbnailAlt": "Neku"
       },
       {
+        "Index": 20220830,
+        "Name": "Coat \u201cTassels\u201d",
+        "URL": "art/twewy/2022-08-30-coat-tass",
+        "ThumbnailURL": "\\img\\art\\twewy\\2022\\0830-posefather\\20220830-thmb-PoseofTheDay-L1L2-250.jpg",
+        "ThumbnailAlt": "Father"
+      },
+      {
         "Index": 20250118,
         "Name": "VOID MEW",
         "URL": "art/twewy/2025-01-18-void-mew",
@@ -699,5 +720,13 @@
         "ThumbnailAlt": "Hazuki and Mr. Mew"
       }
     ]
+  },
+  {
+    "SeriesName": "Commission",
+    "SeriesDescription": "",
+    "SeriesURL": "commission",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": []
   }
 ]

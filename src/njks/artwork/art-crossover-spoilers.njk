@@ -1,0 +1,13 @@
+---
+tags:
+  - TagCOArt
+  - TagCOArtSpoilers
+pagination:
+    data: art-crossover
+    size: 1
+    alias: aArtwork
+    addAllPagesToCollections: true
+permalink: "art/gen/{{ aArtwork.uniqueUrl | slugify }}/"
+layout: /layouts/art
+---
+{% include 'partials/art-show-general.njk' %}
