@@ -5,9 +5,19 @@
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
            <lastBuildDate>
-               Sun, 19 Jan 2025 00:58:31 +0000
+               Fri, 14 Mar 2025 20:32:43 +0000
             </lastBuildDate>
         <ttl>20000</ttl>
+        <item>
+			<title>2025-03-14: Crossover Art Support and more Art</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2025-03-14-crossover-art-support-and-more-art/</link>
+			<description>
+                &lt;p&gt;Site&lt;/p&gt; 
+                &lt;p&gt;Crossover art support! Not complete but it&amp;#39;s on its way. Plan is have have all crossover art appear in the crossover art section and also in any fandom it&amp;#39;s part of. Right now it&amp;#39;s in one or the other. Also, the Art page&amp;#39;s fandom description is a little smaller. And a big dump of artwork! And fixed Father&amp;#39;s OC page to grab the right image and played with using asides for OC pages.&lt;/p&gt;
+                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
+			</description>
+			<pubDate>Fri, 14 Mar 2025 20:32:43 +0000</pubDate>
+		</item>
         <item>
 			<title>2025-01-18: New Asura&#39;s Wrath artwork section and new NTWEWY artwork</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2025-01-18-new-asura-s-wrath-artwork-section-and-new-ntwewy-artwork/</link>
@@ -28,75 +38,5 @@
 			</description>
 			<pubDate>Mon, 13 Jan 2025 03:36:05 +0000</pubDate>
 		</item>
-
-        <item>
-            <title>2024-12-07: Related Series Desc and Artwork dump.</title>
-			<link>http://gramophoneturtle.neocities.com/updates/2024-12-07-related-series-desc-and-artwork-dump/</link>
-			<description>
-                &lt;p&gt;Site&lt;/p&gt; 
-                &lt;p&gt;All Related Series have Descriptions. More have placeholder banners and thumbnails.&lt;/p&gt;
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-            </description>
-            <pubDate>
-                Sun, 08 Dec 2024 00:06:50 +0000
-            </pubDate>
-        </item>
-
-        <item>
-            <title>2024-11-28: Backend fixing</title>
-			<link>http://gramophoneturtle.neocities.com//updates/2024-11-28-backend-fixing/</link>
-			<description>
-                
-                &lt;p&gt;Site&lt;/p&gt; &lt;p&gt;Back end update - Favicons of all expected sizes generated..&lt;/p&gt;
-                
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-
-            </description>
-            <pubDate>
-                Fri, 29 Nov 2024 03:13:38 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-11-15: Visual Novel Test!</title>
-            <description>
-                &lt;p&gt;Site&lt;/p&gt; &lt;p&gt;Added a test visual novel to the site made with Ren&amp;#39;JS. Made the main site&amp;#39;s contents wider.&lt;/p&gt;
-
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-11-15-visual-novel-test/</link>
-            <pubDate>
-                Sat, 16 Nov 2024 03:49:35 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-11-10: Writing; P5, TWEWY, XCX artwork</title>
-            <description>
-                &lt;p&gt;Site&lt;/p&gt;
-                &lt;p&gt;
-                Order of Mews Writing. Father Icon for favicon. Persona 5 artwork uses same stye as TWEWY. Added Xenoblade X section.
-                &lt;/p&gt;
-                &lt;p&gt;
-                More
-                &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates&lt;/a&gt;.
-                &lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-11-10-writing-p5-twewy-xcx-artwork/</link>
-            <pubDate>
-                Sun, 10 Nov 2024 22:25:14 +0000
-            </pubDate>
-        </item>
-        <item>
-            <title>2024-11-04: Updated Site Banner</title>
-            <description>
-                &lt;p&gt;Site&lt;/p&gt; &lt;p&gt;Updated site banner and cleared up wording about using my banner.&lt;/p&gt;
-
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates&lt;/a&gt;.&lt;/p&gt;
-            </description>
-            <link>https://gramophoneturtle.neocities.org/updates/2024-11-04-updated-site-banner/</link>
-            <pubDate>
-                Tue, 05 Nov 2024 00:20:15 +0000
-            </pubDate>
-        </item>
     </channel>
 </rss>
