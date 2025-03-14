@@ -252,7 +252,7 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/"):
+def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/", fandoms_str=""):
     print('Processing. Sheet: {0}. Include Spoilers: {1}'.format(sheet_name, include_spoilers), end="")
     print(' Fandom: {0}.'.format(fandoms))
 
@@ -294,7 +294,19 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
 
     # Choose to filter by fandoms
-    if len(fandoms) == 1:
+    # 25.03: use fandom_str to filter by a fandom when multiple are listed - good for crossovers...kinda
+    
+    # Second thought. If it's a cross over, just... put them in a general/crossover section?
+    # Then in the 11ty JS file, filter based on the fandom list? Kinda like how spoilers/nospoilers are?
+    
+    #    Ex: fandom: ["TWEWY, LobotomyCorporation, Crossover"]
+    #    if fandom_str is "LobotomyCorporation", is will be returned 
+    # using fandoms (a list/array) is the old way of doing is and will only work for EXACT matches
+    # plan for TWEWY and NTWEWY is to get them seperate here and then combine them in the 11ty js file
+    # like how no-spoilers and spoilers are combined.
+    if fandoms_str != "":
+        nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].str.contains(fandoms_str, regex=False)]
+    elif len(fandoms) == 1:
         nightshadeOnly = nightshadeOnly[nightshadeOnly["fandom"].isin(fandoms)]
 
     # "The Sheets API doesn't know what to do with a Python datetime/timestamp. You'll need to convert it - most likely to a str." 
@@ -364,7 +376,7 @@ if __name__ == '__main__':
     with open(file_path_output, 'w', encoding='utf-8') as f:
         f.write(nested_json)
 
-    # Reset is???
+    # Reset it???
     twewy_related_series_list = RelatedSeriesList()
     
     # PERSONA 5 ----------------------------------------------------------- #
@@ -413,12 +425,70 @@ if __name__ == '__main__':
                     "Filename": "art-{0}".format(fandomkey.lower())
                 }
             ],
-        base_url = "art/{0}/".format(fandomkey.lower())
+        base_url = "art/{0}/".format(fandomkey.lower()),
     )
 
     for category in artworksCategories.Fandoms:
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
+
+    # HOW TO HANDLE THE CROSS OVER STUFF
+    # xover ----------------------------------------------------------- #
+    # use new base URL which won't have the fandom specific - good for cross overs
+    # will use art/gen for the base path
+    # As lon as one of the fandoms say "Crossover", it will be included
+    fandomkey = "Crossover"
+    artworksCategories = ArtworkCategory(
+        sheet_name = 'Other',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": fandomkey,
+                    "Filename": "art-{0}".format(fandomkey.lower())
+                }
+            ],
+        base_url = "art/gen",
+    )
+
+    for category in artworksCategories.Fandoms:
+        main(artworksCategories.SheetName, 
+             artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
+             fandoms = [category["Section"]], include_spoilers=False, 
+             base_url=artworksCategories.NewBaseURL, 
+             fandoms_str=category["Section"])
+        main(artworksCategories.SheetName, 
+             artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), 
+             fandoms = [category["Section"]], include_spoilers=True, 
+             base_url=artworksCategories.NewBaseURL, 
+             fandoms_str=category["Section"])
+
+   
+        
+    # # Void Stranger ----------------------------------------------------------- #
+    # # use new base URL which won't have the fandom specific - good for cross overs
+    # fandomkey = "void-stranger"
+    # artworksCategories = ArtworkCategory(
+    #     sheet_name = 'Other',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": fandomkey,
+    #                 "Filename": "art-{0}".format(fandomkey.lower())
+    #             }
+    #         ],
+    #     base_url = "art/".format(fandomkey.lower()),
+    #     new_base_url = "art/".format(fandomkey.lower())
+    # )
+
+    # for category in artworksCategories.Fandoms:
+    #     # main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
+    #     main(artworksCategories.SheetName, 
+    #          artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
+    #          fandoms = [category["Section"]], include_spoilers=False, 
+    #          base_url=artworksCategories.NewBaseURL, 
+    #          fandoms_str=category["Section"])
+
+
 
     print("\nMAIN: C O M P L E T E!\n")
 

@@ -727,14 +727,6 @@
     "SeriesURL": "commission",
     "ThumbnailURL": "",
     "ThumbnailAlt": "",
-    "SeriesEntries": [
-      {
-        "Index": 20250219,
-        "Name": "Cheer Up, Sota!",
-        "URL": "art/twewy/2025-02-20-cheer-up",
-        "ThumbnailURL": "\\img\\art\\twewy\\2025\\0219-comm-cheerup\\20250219-thmb-TY-CheerUpSota-D1D2-250.jpg",
-        "ThumbnailAlt": "Nao"
-      }
-    ]
+    "SeriesEntries": []
   }
 ]

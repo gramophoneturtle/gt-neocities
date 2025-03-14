@@ -1304,5 +1304,52 @@
       ]
     ],
     "RelatedWritingURL": ""
+  },
+  {
+    "title": "Didn\u2019t You Know? The Dead Don\u2019t Age",
+    "summary": "What if Neku didn\u2019t age. (It\u2019s ok he would get fixed up but until then he\u2019s getting a hug!!)",
+    "details": "",
+    "characters": "Neku, Beat",
+    "date": "2021-11-14",
+    "dateYear": "2021",
+    "uniqueUrl": "2021-11-14-didnt-you",
+    "UniqueURLKey": "art/twewy/2021-11-14-didnt-you",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/667862043924250624/didnt-you-know-the-dead-dont-age-what-if-neku"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6002566"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3ljv6pnjw6s2h"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2021\\1114-deadfor3\\20211114-DeadFor3_01-L1L2-800.jpg",
+        "alt": "Page 1 of 2 of a digital comic of Beat and Neku from NEO The World Ends With You. Beats sees a shorter, 15 year old Neku. Panel of Neku holding his arm. Beat says \"You, You haven't...\" Close up on Neku's half smile. Neku says \"Beat, the Dead don't age.\" Beat tries to cut in, \"But\" Neku cuts him off There's nothing you can do about it\""
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\twewy\\2021\\1114-deadfor3\\20211114-DeadFor3_02-L1L2-800.jpg",
+        "alt": "Page 2 of 2 of a digital comic. Neku tears up and says \"It's...It's okay Beat... I'm-\" Beat cuts him off with a hug. Neku's shocked eyes can be seen over Beat's shoulder. \"Listen up, Phones! We're gonna win and get you fixed up.\" From Beat's perspective, he continues \"I'll go beat up prissy kid if I have to.\" Side view of Neku returning the hug, Beat continues. \"There's no way I'mma let you lose more than you already have. You got that?\" Neku replies, \"...Thanks, Beat\""
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2021\\1114-deadfor3\\20211114-thmb-DeadFor3_01-L1L2-250.jpg",
+    "thumbnailAlt": "Neku",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedWritingURL": ""
   }
 ]
