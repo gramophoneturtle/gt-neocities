@@ -15,7 +15,7 @@
         "Likes": ["Cats", "Fancy lattes", "Bitter teas and unsweetened lattes", "Fabric arts"],
         "Dislikes": ["Backstabbers", "Caffeine drinks", "Pointing out his cat \"weakness\""],
 
-        "ImageHeader": "\\img\\art\\twewy\\FatherTransSupport\\FatherTrans03_FashionCrimes-niDEFAULT-V1-gl15-V1.png",
+        "ImageHeader": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_FashionCrimes-L1D2-800.jpg",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
         "BannerButtonStampList": [
                 {
@@ -42,7 +42,7 @@
             {
                 "Header": "Present",
                 "SubSections": [
-                    "He's the Father of the Tokyo (and perhaps the surrounding) region. He focuses more on the state of their assigned Children over his assigned partner."
+                    "He's the Father of the Tokyo (and perhaps the surrounding) region. He focuses more on the state of their assigned Children over his assigned partner, Reia, the \"Mother\" of the Children."
                 ]
             },
             {
@@ -51,7 +51,6 @@
                     "He was once a human who was married and had two children. Just before his eldest child reached 10 years old, he lost his life and entered the Reapers Game."
                     ,"At the end of the Reaper's Game he became a Reaper. Since he could not fully accept that he didn't stongly want to come back to life, the Composer of the Game took that option away from him."
                     ,"He transitioned during his time as a Reaper and watched over his living family from he UG. He was not allowed to interact with humans in the RG and as he grew more comfortable with his gender identity, he stopped watching over them as closely in case there was even a chance they could find out about him."
-                    
                 ]
             }
         ],
@@ -145,7 +144,7 @@
         "GenderIdentity": "Genderfluid - but on a very long time scale. (And if Angel borned beings can be non-binary, she then isn't trans. But if human born, she would be trans 100%. There is no aXab that would not have her pursue transition care.)",
         "Orientation": "Aromantic, asexual",
         "NoiseAffinity": "Big powerful creature with claws - like a bear. Might be a little sharper than average.",
-        "DOB": "",
+        "DOB": "January 10",
         "Likes": [
             "Black and herbal teas", 
             "Birds",
@@ -261,8 +260,8 @@
         "NoiseAffinity": "Something very branching, webbing and tree like.",
         "DOB": "Possibly October 22, the date the history comic was first posted.",
 
-        "ImageHeader": "\\img\\icons\\NullIcon.png",
-        "ImageHeaderAltText": "Modern day Null.",
+        "ImageHeader": "\\img\\art\\twewy\\2024\\1124-nullsmile\\20241124-NullSmile-D1D2-800.jpg",
+        "ImageHeaderAltText": "Digital art of Null, a macusline looking non-binary person, smiling and looking down and to their side.",
         
         "BannerButtonStampList": [
             {
@@ -336,6 +335,7 @@
             },
             {
                 "Header": "Background",
+                "Aside": "<img src=\"\\img\\art\\twewy\\2024\\1029-hellothere\\20241029-PastNullComposer-03DARKER-nDEFV1-pDEFV2-800.jpg\">",
                 "SubSections": [
                     "Null was once a Composer who valued bonding with lower plane citizens to increase the growth and quality of Souls. Not only for the benefit of having healthier Souls, but to increase the likelyhood of Souls reaching Ascension. Exposing an Angel's Soul to lower plane citizens can create huge stress on those Souls."
                     ,"However, Null found that by gradually increasing the time they are present, the Souls became more tolerant and grew stronger to handle their Soul."
@@ -349,7 +349,9 @@
         "Name": "Chisa",
         "ImageIconUrl": "\\img\\icons\\ChisaIcon.jpg",
         "Pronouns": "She/her",
-        "DOB": "",
+        "GenderIdentity": "Girl",
+        "Role": "Angel Guest",
+        "DOB": "Some time in the Spring or Summer",
 
         "ImageHeader": "\\img\\icons\\ChisaIcon.jpg",
         "ImageHeaderAltText": "Modern day Chisa after her Soul was restored by Null.",

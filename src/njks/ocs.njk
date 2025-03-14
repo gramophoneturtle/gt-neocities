@@ -45,6 +45,14 @@ layout: /layouts/base
     <p>Title: {{ ocs.Title }}</p>
   {%- endif -%}
 
+  <div>
+  {# Put in a representing image, if there is one #}
+  {%- if ocs.ImageHeader %}
+  <aside> <img 
+    src="{{ ocs.ImageHeader }}" 
+    alt="{{ocs.ImageHeaderAltText}}"/> </aside>
+  {%- endif -%}
+
   {%- if ocs.ActualName %}
     <p>Actual Name: {{ ocs.ActualName }}</p>
   {%- endif -%}
@@ -79,15 +87,8 @@ layout: /layouts/base
     <p>Pyschs: {{ ocs.Pyschs }}</p>
   {%- endif -%}
 
-{# Put in a representing image, if there is one #}
-{%- if ocs.ImageHeader %}
-  <div class="artwork">
-      <img 
-        src="{{ ocs.ImageHeader }}" 
-        alt="{{ocs.ImageHeaderAltText}}"/>
-  </div>
-{%- endif -%}
-
+</div>
+<div>
 {%- if ocs.Likes.length %}
 <h2 id="likes">Likes</h2>
   <ul>
@@ -105,16 +106,22 @@ layout: /layouts/base
       {% endfor -%}
   </ul>
 {% endif %}
-
+</div>
 {%- if ocs.History.length %}
   <h2 id="history">History</h2>
   {%- for item in ocs.History %}
-  <h3 class="noBottomBorder">{{ item.Header }}</h3>
+    <h3 class="noBottomBorder">{{ item.Header }}</h3>
+    <div>
+      {% if item.Aside.length %}
+      <aside> {{ item.Aside | safe }} </aside>
+      {% endif %}
 
-    {%- for entry in item.SubSections %}
+      {%- for entry in item.SubSections %}
       <p>{{ entry | safe }}</p>
+      {% endfor -%}
+      
+    </div>
     {% endfor -%}
-  {% endfor -%}
 {% endif %}
 
 {%- if ocs.Relationships.length %}
