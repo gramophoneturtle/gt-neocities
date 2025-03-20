@@ -19,7 +19,7 @@ layout: /layouts/base-without-h1title.njk
         <p>{{ posts.Art | safe }}</p>
     {%- endif -%}
 
-    {%- if posts.ArtList %}
+    {%- if posts.ArtList.length > 0 %}
         <p class="subheader">Arts</p> 
         {%- for cate in posts.ArtList %}
         <details>
