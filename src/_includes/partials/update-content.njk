@@ -2,7 +2,7 @@
        <p class="subheader">Art</p> <p>{{ singlePost.data.posts.Art }}</p>
     {%- endif -%}
         
-    {%- if singlePost.data.posts.ArtList %}
+    {%- if singlePost.data.posts.ArtList.length > 0 %}
             <p class="subheader">Art</p> 
             {%- for cate in singlePost.data.posts.ArtList %}
             <details>
