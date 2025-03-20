@@ -47,6 +47,7 @@
   --father-caramel: #b88246;
 
   --quote-b: #b88246;
+  --quote-c: #829482;
 }
 
 img {
@@ -80,6 +81,7 @@ img {
     --null-background-container: #b9c4b7f3;
 
     --quote-b: #9f6b30;
+    --quote-c: #995890;
   }
 }
 
@@ -863,9 +865,18 @@ pre {
   border-inline-start: 0.35rem solid var(--quote-b);
 }
 
+.quote-translation {
+  border-inline-start: 0.35rem solid var(--quote-c);
+}
+
 .goroawase {
   td {
     text-align: center; 
     vertical-align: middle;
   }
+}
+
+.translate-single-img {
+  max-height: inherit; 
+  object-fit: cover;
 }
