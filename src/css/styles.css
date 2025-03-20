@@ -17,10 +17,14 @@
   --accent-bg: #2a2b2a;
   --text: #dcdcdc;
   --text-light: #ababab;
+
   --border: #666;
   --accent: #ffb300;
+
   --accent-lavendar-light: rgb(202, 151, 209);
+  
   --border-color: #995890;
+  
   --dark-background: #4e1d48;
   --background-container: #30282b;
   --background-container-warning: #4d253f;
@@ -41,6 +45,8 @@
   --null-background-container: #242b26;
 
   --father-caramel: #b88246;
+
+  --quote-b: #b88246;
 }
 
 img {
@@ -72,6 +78,8 @@ img {
 
     --null-background-container-border: #657365;
     --null-background-container: #b9c4b7f3;
+
+    --quote-b: #9f6b30;
   }
 }
 
@@ -145,9 +153,10 @@ h1 {
   font-size: 2.3rem;
 }
 
-h2 {
+h2.def {
   font-size: 2rem;
   margin-top: 2rem;
+  border-bottom: 2px double var(--accent);
 }
 
 h3 {
@@ -847,9 +856,16 @@ pre {
 
 /** ANALYSIS ------------------------------------------------- */
 .quote-english {
-  border-inline-start: 0.35rem solid green;
+  border-inline-start: 0.35rem solid var(--border-color);
 }
 
 .quote-japanese {
-  border-inline-start: 0.35rem solid red;
+  border-inline-start: 0.35rem solid var(--quote-b);
+}
+
+.goroawase {
+  td {
+    text-align: center; 
+    vertical-align: middle;
+  }
 }
