@@ -278,7 +278,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
         )
 
     # only get nightshaded artworks and...
-    options = ['Yes','yes']
+    options = ['Yes','yes', 'skipped', 'Skipped']
     nightshadeOnlyTMP = excel_data_df[excel_data_df["NS?"].isin(options)]
     
     # CLEAN UP - Set Defaults

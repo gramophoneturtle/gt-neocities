@@ -1,4 +1,47 @@
-[ 
+[
+    {
+        "PostDate": "2025-04-09: Xenoblade X Arts - 2025 + March 2016"
+        ,"date": "2025-04-09"
+        ,"ArtList": [
+            {
+                "Category": "Xenoblade X",
+                "List": [
+                    {
+                        "Title": "Sera Practice (2016)",
+                        "URL": "/art/xcx/2016-03-09-sera-pract/"
+                    },
+                    {
+                        "Title": "Sera Armour Practice",
+                        "URL": "/art/xcx/2016-03-12-sera-armou/"
+                    },
+                    {
+                        "Title": "Lin, Lao and Tatsu Practice",
+                        "URL": "/art/xcx/2016-03-16-lin-lao-a/"
+                    },
+                    {
+                        "Title": "Sera pose Practice (Raygun)",
+                        "URL": "/art/xcx/2016-03-19-sera-pose/"
+                    },
+                    {
+                        "Title": "Lin Expression Practice",
+                        "URL": "/art/xcx/2016-03-28-lin-expres/"
+                    },
+                    {
+                        "Title": "Sera Is Ready To Return",
+                        "URL": "/art/xcx/2025-03-18-sera-is-re/"
+                    },
+                    {
+                        "Title": "Potato Club",
+                        "URL": "/art/xcx/2025-03-30-potato-clu/"
+                    },
+                    {
+                        "Title": "Tatsu!",
+                        "URL": "/art/xcx/2025-04-03-tatsu/"
+                    }
+                ] 
+            }
+        ]
+    },
     {
         "PostDate": "2025-03-19: Goroawase Analysis"
         ,"date": "2025-03-19"

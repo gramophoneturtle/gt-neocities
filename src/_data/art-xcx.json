@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "title": "Compare And Constrast",
+    "summary": "<p>Someone asked in a tag once if they could use my colour palette picks: Yes, feel free to use them!</p>",
+    "details": "",
+    "characters": "Lin, Lao",
+    "date": "2026-03-26",
+    "dateYear": "2026",
+    "uniqueUrl": "2026-03-26-compare-an",
+    "UniqueURLKey": "art/xcx/2026-03-26-compare-an",
+    "spoilers": "Yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/141731593688/some-xenoblade-x-late-story-compare-and-contrast"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\xcx\\2016\\0326-constrast\\160326-comparecontrast-01control-800.jpg",
+        "alt": "Control: Lao in the Prog Ares"
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\xcx\\2016\\0326-constrast\\160326-comparecontrast-02powerless-800.jpg",
+        "alt": "Powerless: Lao in the fluid, with a large eye looking at him"
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\xcx\\2016\\0326-constrast\\160326-comparecontrast-03connect-800.jpg",
+        "alt": "Connect: Lao placing his hand in Lin's hands."
+      },
+      {
+        "id": 4,
+        "url": "\\img\\art\\xcx\\2016\\0326-constrast\\160326-comparecontrast-04deparation-800.jpg",
+        "alt": "Separation: Lin reaching for Lao who is being pulled under."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\xcx\\2016\\0326-constrast\\160326-thmb-comparecontrast-250.jpg",
+    "thumbnailAlt": "Hands",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ],
+    "RelatedWritingURL": ""
+  }
+]
