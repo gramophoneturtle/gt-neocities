@@ -1,5 +1,89 @@
 [
   {
+    "title": "Nopon Friends 1",
+    "summary": "Made them for stream to play with as I go through the main story of Xenoblade X. If all goes according to plan, I\u2019ll be making one for each party member, and maybe some stream favourite side characters. ",
+    "details": "",
+    "characters": "Lin, Elma, Tatsu, Irina, Gwin, Sera",
+    "date": "2025-04-19",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-04-19-nopon-frie",
+    "UniqueURLKey": "art/xcx/2025-04-19-nopon-frie",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/781267114242850816/nopon-friends-made-them-for-stream-to-play-with"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6154137"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3ln6fo4ocn224"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\xcx\\2025\\0419-ychnopon\\250419-ShowOffNopon-L1L2-800.jpg",
+        "alt": "Digital art of four chibi Nopon from Xenoblade X. From left to right, they are dressed as characters from the game: Tatsu, Sera (my avatar/cross), Elma and Lin."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\xcx\\2025\\0419-ychnopon\\250419-thmb-ShowOffNopon-L1L2-250.jpg",
+    "thumbnailAlt": "Nopon",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Elma Practice",
+    "summary": "Clothing and armour shading practice with Elma.",
+    "details": "",
+    "characters": "Elma",
+    "date": "2025-04-16",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-04-16-elma-pract",
+    "UniqueURLKey": "art/xcx/2025-04-16-elma-pract",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/780999839650594816/clothing-and-armour-shading-practice-with-elma"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6143582"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lmwy5fbez224"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\xcx\\2025\\0414-elma\\20250414-ElmaPractice-L1L2-800.jpg",
+        "alt": "Digital art of Elma from Xenoblade Chronicles X with her hand on her hip. There is an angular light blue and teal border around her, and at the bottom it says \"Elma\"."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\xcx\\2025\\0414-elma\\20250414-thmb-ElmaPractice-L1L2-250.jpg",
+    "thumbnailAlt": "Elma",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Tatsu!",
     "summary": "My potato buddy! I've grown to love Tatsu this time around.",
     "details": "",
