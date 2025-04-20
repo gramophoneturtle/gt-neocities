@@ -2,7 +2,7 @@
     {
         "PostDate": "2025-04-19: TWEWY & XCX for 2025. April 2016 XCX Artwork."
         ,"date": "2025-04-19"
-        ,"Site": "XCX Related series started."
+        ,"Site": "XCX Related series started. One of the XCX artworks is missing a thumbnail but will added later."
         ,"ArtList": [
             {
                 "Category": "TWEWY",
@@ -10,7 +10,12 @@
                     {
                         "Title": "Nao Doodle",
                         "URL": "/art/twewy/2025-04-04-nao-doodle/"
-                    },
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
                     {
                         "Title": "Finger Painting",
                         "URL": "/art/twewy/2025-04-14-finger-pai/"
@@ -54,7 +59,7 @@
                     },
                     {
                         "Title": "Family Help 2",
-                        "URL": "/"
+                        "URL": "/art/xcx/2016-04-24-family-hel/"
                     },
                     {
                         "Title": "Celica 2",
