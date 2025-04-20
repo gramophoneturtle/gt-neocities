@@ -1,5 +1,53 @@
 [
   {
+    "title": "Finger Painting",
+    "summary": "Part of the C!Neku having hobbies mini-series. Rescued this from my 2021 WIPs.",
+    "details": "",
+    "characters": "Neku",
+    "date": "2025-04-14",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-04-14-finger-pai",
+    "UniqueURLKey": "art/twewy/2025-04-14-finger-pai",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/780847075235643392/finger-painting-part-of-the-cneku-having-hobbies"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6136697"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lmsqbhpdi22k"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0414-cnau-paint\\250414-cNekuInPaint-L1L2-800.jpg",
+        "alt": "Digital art of Neku Sakuraba from Composer Neku AU in The World Ends With You, sitting crossed legged looking up from a high angle above him. He looks younger than he does in game and the inside of his light blue hoodie has stars against the dark purple lining. He has paints on his hands and clothes, and all along the ground."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0414-cnau-paint\\250414-thmb-cNekuInPaint-L1L2-250.jpg",
+    "thumbnailAlt": "Neku",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Composer Neku AU",
+        "composer-neku-au"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Hello There...!",
     "summary": "Another Composer Null picture! Various versions because even though the \nfirst and last ones match Null the best, being more dark than colourful \nor light, these other ones are really cool.",
     "details": "",

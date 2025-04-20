@@ -19,6 +19,7 @@ filename_output_p5_nospoilers = "art-persona5-spoiler-free.json"
 
 # GENERATE - Related Series Files
 filename_output_related_twewy = "relatedtwewy.json"
+filename_output_related_xcx = "relatedxcx.json"
 
 file_path_input = os.path.join(os.getcwd(),"data_conversion\\", filename_input)
 file_path_output_path = os.path.join(os.getcwd(),"src\\_data\\")
@@ -118,7 +119,7 @@ def update_related_dictionary(rw, aw_dict):
     artworkname = rw['Artwork'].replace("\n","")[0:40]
 
     foundseries = rw['RelatedSeries'].split(";")
-    foundindices = rw['RelatedSeriesOrder'].split(";")
+    foundindices = str(rw['RelatedSeriesOrder']).split(";")
 
     for i_index, i_name in enumerate(foundseries):
         i_name = i_name.strip()
@@ -413,6 +414,20 @@ if __name__ == '__main__':
     for category in artworksCategories.Fandoms:
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
+
+    # Write Related Series JSON
+    # Sort Series Enrties by index
+    twewy_related_series_list.sortSeriesEntries()
+
+    # Output - can ge to the json file in the src area
+    nested_json = json.dumps(twewy_related_series_list.Series, default=lambda x: x.__dict__, indent=2) 
+    file_path_output = os.path.join(file_path_output_path, filename_output_related_xcx)
+    with open(file_path_output, 'w', encoding='utf-8') as f:
+        f.write(nested_json)
+
+    # Reset it???
+    twewy_related_series_list = RelatedSeriesList()
+
 
     # Asura's wrath----------------------------------------------------------- #
     fandomkey = "asuras-wrath"

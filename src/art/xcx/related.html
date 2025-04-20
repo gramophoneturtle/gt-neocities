@@ -1,0 +1,23 @@
+---
+title: XCX Series and AUs
+layout: /layouts/base.njk
+---
+<div><p>Back to <a href="/art/">Art</a>.</p></div>
+
+{% for item in collections.TagRelatedXCX %}
+<a href="{{ item.url }}">
+    <div class = "related-series-entry">
+          <div class="column-side">
+              {% if item.ThumbnailURL != ""  %}
+                  <img
+                  src="{{ item.data.RelXCX.ThumbnailURL }}"
+                  alt="{{ item.data.RelXCX.ThumbnailAlt }}"
+                  >
+              {% endif %}
+          </div>
+          <div class="desc column-remaining">
+          {{ item.data.RelXCX.SeriesName }} 
+          </div> 
+      </a> 
+  </div>
+{% endfor %}
