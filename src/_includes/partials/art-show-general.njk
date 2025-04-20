@@ -98,7 +98,7 @@
   <h2>Series</h2>
   <ul>
     {%- for item in aArtwork.RelatedSeriesAndURL %}
-      <li><a href="/art/TODO/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
+      <li><a href="/art/{{ aArtwork.fandom[0] | lower}}/related/{{ item[1] }}">{{ item[0] }}</a> - <a href="/art/twewy/related/{{ item[1] }}" target="_blank" rel="noopener noreferrer">↗</a></li>
     {% endfor -%}
   </ul>
 </div>

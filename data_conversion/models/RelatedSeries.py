@@ -42,13 +42,14 @@ class RelatedSeriesList:
         if i_index < len(foundindices):
             try:
                 int_i_index = foundindices[i_index]
-                int_i_index = int(int_i_index)
+                if isinstance(int_i_index, str):
+                    int_i_index = int(int_i_index)
             except ValueError:
                 int_i_index = -1
-                print("    Related -AU/Series- {1}".format(i_name))
-                print("      !! TODO: Current index [{0}] for foundindices is not an int! Default to [-1].".format(i_index,foundindices[i_index]))
+                print("    Related -AU/Series- {0}".format(i_name))
+                print("      !! TODO: Current index [{0}] for foundindices is not an int {1}! Default to [-1].".format(i_index,foundindices[i_index]))
         else:
-            print("    Related for -AU/Series- {1}".format(i_name))
+            print("    Related for -AU/Series- {0}".format(i_name))
             print("      '! Current index [{0}] is less than indices found: {1}. Default to [-1].".format(i_index,foundindices))
 
         new_entry = RelatedEntry(int_i_index, aw_dict)

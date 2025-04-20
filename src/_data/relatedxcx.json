@@ -1,0 +1,101 @@
+[
+  {
+    "SeriesName": "Celica",
+    "SeriesDescription": "",
+    "SeriesURL": "celica",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Celica 2",
+        "URL": "art/xcx/2016-04-30-celica-2",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0430-celica2\\160430-thmb-celia-250.jpg",
+        "ThumbnailAlt": "Celica"
+      },
+      {
+        "Index": -1,
+        "Name": "Celica 1",
+        "URL": "art/xcx/2016-04-23-celica-1",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0423-celica\\160423-thmb-celica-250.jpg",
+        "ThumbnailAlt": "Celica"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Family Help",
+    "SeriesDescription": "",
+    "SeriesURL": "family-help",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Family Help 2",
+        "URL": "art/xcx/2016-04-24-family-hel",
+        "ThumbnailURL": "",
+        "ThumbnailAlt": ""
+      },
+      {
+        "Index": -1,
+        "Name": "Family Help 1",
+        "URL": "art/xcx/2016-04-14-family-hel",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0412-familyhelp\\160412-thmb-bitOfFamilyHelp-250.jpg",
+        "ThumbnailAlt": "Lao and Lin"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Expression Practice",
+    "SeriesDescription": "",
+    "SeriesURL": "expression-practice",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Elma Expression Practice",
+        "URL": "art/xcx/2016-04-08-elma-expre",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0408-elmapractice\\160408-thmb-elmaexp-250.jpg",
+        "ThumbnailAlt": "Elma"
+      },
+      {
+        "Index": -1,
+        "Name": "Lao Expression Practice",
+        "URL": "art/xcx/2016-04-04-lao-expres",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0404-laopractice\\160404-thmb-lao expressions-250.jpg",
+        "ThumbnailAlt": "Lao"
+      },
+      {
+        "Index": -1,
+        "Name": "Lin Expression Practice",
+        "URL": "art/xcx/2016-03-28-lin-expres",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0326-linpractice\\160326-lin-expressions-250.jpg",
+        "ThumbnailAlt": "Lin"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Tatsu-Tots",
+    "SeriesDescription": "",
+    "SeriesURL": "tatsu-tots",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Tatsu-Tots",
+        "URL": "art/xcx/2016-04-01-tatsu-tots",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0401-kitchfamily\\20160401-thmb-kitchfamily-01-250.jpg",
+        "ThumbnailAlt": "Tatsu-Tot"
+      },
+      {
+        "Index": -1,
+        "Name": "Lin, Lao and Tatsu Practice",
+        "URL": "art/xcx/2016-03-16-lin-lao-a",
+        "ThumbnailURL": "\\img\\art\\xcx\\2016\\0316-laolin\\160316-thmb-lao-lin-practice-250.jpg",
+        "ThumbnailAlt": "Lao"
+      }
+    ]
+  }
+]

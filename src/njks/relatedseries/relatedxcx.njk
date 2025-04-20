@@ -1,0 +1,49 @@
+---
+tags:
+  - TagRelatedXCX
+  - TagRelatedAll
+pagination:
+    data: relatedxcx
+    size: 1
+    alias: RelXCX
+    addAllPagesToCollections: true
+permalink: "art/xcx/related/{{ RelXCX.SeriesURL | slugify }}/"
+layout: /layouts/base-without-h1title.njk
+---
+{%- if RelXCX.SeriesName %}
+    <h3>{{RelXCX.SeriesName}}</h3>
+{%- endif -%}
+
+{% if RelXCX.ThumbnailURL != ""  %}
+    <img class = "img-banner"
+    src="{{ RelXCX.ThumbnailURL }}"
+    alt="{{ RelXCX.ThumbnailAlt }}"
+    >
+{% endif %}
+
+{%- if RelXCX.SeriesDescription %}
+    <p>{{RelXCX.SeriesDescription | safe}}</p>
+{%- endif -%}
+
+{% if RelXCX.SeriesEntries.length > 0 %}
+    {%- for item in RelXCX.SeriesEntries %}
+    <div class = "related-series-entry">
+        <a href= "/{{ item.URL }}">
+            <div class="column-side">
+                {% if item.ThumbnailURL != ""  %}
+                    <img
+                    src="{{ item.ThumbnailURL }}"
+                    alt="{{ item.ThumbnailAlt }}"
+                    >
+                {% endif %}
+            </div>
+
+            <div class="desc column-remaining">
+                {{ item.Name }}
+            </div> 
+        </a> 
+    </div>
+    {% endfor -%}
+{% endif %}
+
+<p class="less-margin-padding">Back to <a href="/art/xcx/related/">XCX AUs and Series</a></p>
