@@ -1,5 +1,21 @@
 [
   {
+    "SeriesName": "Nopon Friends",
+    "SeriesDescription": "",
+    "SeriesURL": "nopon-friends",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Nopon Friends 1",
+        "URL": "art/xcx/2025-04-19-nopon-frie",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0419-ychnopon\\250419-thmb-ShowOffNopon-L1L2-250.jpg",
+        "ThumbnailAlt": "Nopon"
+      }
+    ]
+  },
+  {
     "SeriesName": "Celica",
     "SeriesDescription": "",
     "SeriesURL": "celica",
