@@ -1,4 +1,71 @@
 [
+     {
+        "PostDate": "2025-05-17: TWEWY & XCX Artwork"
+        ,"date": "2025-05-17"
+        ,"Site": "More 2025 artwork and added some more OC info for everyone! Updates to likes, dislikes, history and/or history aside images!"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "To Be Called A Father",
+                        "URL": "/art/twewy/2025-04-30-to-be-call"
+                    },
+                    {
+                        "Title": "Who's this kid again?",
+                        "URL": "/art/twewy/2025-05-08-whos-this"
+                    },
+                    {
+                        "Title": "Happy Mother's Day!",
+                        "URL": "/art/twewy/2025-05-11-happy-moth"
+                    },
+                    {
+                        "Title": "Father Stretch!",
+                        "URL": "/art/twewy/2025-04-29-father-str/"
+                    },
+                    {
+                        "Title": "Sip, Sip, Hydrate!",
+                        "URL": "/art/twewy/2025-05-12-sip-sip-hy"
+                    }
+                ] 
+            },
+            {
+                "Category": "Crossover",
+                "List": [
+                    {
+                        "Title": "I can see the Interference",
+                        "URL": "/art/gen/2025-05-07-i-can-see/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Xenoblade X",
+                "List": [
+
+                    {
+                        "Title": "Nopon Friends 2",
+                        "URL": "/art/xcx/2025-04-25-nopon-frie/"
+                    },
+                    {
+                        "Title": "Nopon Friends 3",
+                        "URL": "/art/xcx/2025-05-01-nopon-frie/"
+                    },
+                    {
+                        "Title": "Nopon Friends 4",
+                        "URL": "/art/xcx/2025-05-04-nopon-frie/"
+                    },
+                    {
+                        "Title": "Rook - Decoy Round!",
+                        "URL": "/art/xcx/2025-05-14-rook-decoy/"
+                    },
+                    {
+                        "Title": "Sera - Essence Exchange!",
+                        "URL": "/art/xcx/2025-05-15-sera-essen/"
+                    }
+                ] 
+            }
+        ]
+    },
     {
         "PostDate": "2025-04-19: TWEWY & XCX for 2025. April 2016 XCX Artwork."
         ,"date": "2025-04-19"

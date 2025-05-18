@@ -1,5 +1,65 @@
 [
   {
+    "SeriesName": "Battle Arts",
+    "SeriesDescription": "",
+    "SeriesURL": "battle-arts",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Sera - Essence Exchange!",
+        "URL": "art/xcx/2025-05-15-sera-essen",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0514-sera\\250514-thmb-Sal_Sera-NoBorder-L1L2-250.jpg",
+        "ThumbnailAlt": "Sera"
+      },
+      {
+        "Index": -1,
+        "Name": "Rook - Decoy Round!",
+        "URL": "art/xcx/2025-05-14-rook-decoy",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0514-rook\\250514-thmb-Rook-L1L2-250.jpg",
+        "ThumbnailAlt": "Rook"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Nopon Friends",
+    "SeriesDescription": "",
+    "SeriesURL": "nopon-friends",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Nopon Friends 4",
+        "URL": "art/xcx/2025-05-04-nopon-frie",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0504-nopon4\\250504-thmb-NoponShowOff04-L1L2-250.jpg",
+        "ThumbnailAlt": "Nopon"
+      },
+      {
+        "Index": -1,
+        "Name": "Nopon Friends 3",
+        "URL": "art/xcx/2025-05-01-nopon-frie",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0501-nopon3\\250501-thmb-NoponShowOff03-L1L2-250.jpg",
+        "ThumbnailAlt": "Nopon"
+      },
+      {
+        "Index": -1,
+        "Name": "Nopon Friends 2",
+        "URL": "art/xcx/2025-04-25-nopon-frie",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0425-nopon2\\250425-thmb-NoponShowOff02-L1L2-250.jpg",
+        "ThumbnailAlt": "Nopon"
+      },
+      {
+        "Index": -1,
+        "Name": "Nopon Friends 1",
+        "URL": "art/xcx/2025-04-19-nopon-frie",
+        "ThumbnailURL": "\\img\\art\\xcx\\2025\\0419-ychnopon\\250419-thmb-ShowOffNopon-L1L2-250.jpg",
+        "ThumbnailAlt": "Nopon"
+      }
+    ]
+  },
+  {
     "SeriesName": "Celica",
     "SeriesDescription": "",
     "SeriesURL": "celica",

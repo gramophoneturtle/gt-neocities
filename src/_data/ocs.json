@@ -5,15 +5,15 @@
         "ImageIconUrl": "\\img\\icons\\FatherIcon.png",
 
         "Role": "Father, Angel",
-        "PreviousRoles": "Condutor(?), Reaper, Human",
+        "PreviousRoles": "Conductor(?), Reaper, Human",
         "Pronouns": "He/him",
         "GenderIdentity": "Man",
         "Orientation": "Gay aromantic & asexual",
         "DOB": "February 13",
         "NoiseAffinity": "Jellyfish",
-        "Apparent Age": "20s, late 20s maybe.",
-        "Likes": ["Cats", "Fancy lattes", "Bitter teas and unsweetened lattes", "Fabric arts"],
-        "Dislikes": ["Backstabbers", "Caffeine drinks", "Pointing out his cat \"weakness\""],
+        "Apparent Age": "Late 20s maybe.",
+        "Likes": ["Cats", "Fancy sweet lattes", "Fruit teas", "Fabric arts"],
+        "Dislikes": ["Backstabbers", "People who can't speak their minds", "Black coffee/bitter drinks", "Pointing out his cat \"weakness\""],
 
         "ImageHeader": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_FashionCrimes-L1D2-800.jpg",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
@@ -43,10 +43,12 @@
                 "Header": "Present",
                 "SubSections": [
                     "He's the Father of the Tokyo (and perhaps the surrounding) region. He focuses more on the state of their assigned Children over his assigned partner, Reia, the \"Mother\" of the Children."
+                    ,"Recently he's been unexpectedly reunited with his daughter, who he last saw before he died and before he transitioned. They have a lot to catch up on but they seem to be doing well."
                 ]
             },
             {
                 "Header": "History",
+                "Aside": "<img src=\"/img/art/twewy/2025/0430-egg/20250430-FatherTranstition-Chisa-L1L2-800.jpg\">",
                 "SubSections": [
                     "He was once a human who was married and had two children. Just before his eldest child reached 10 years old, he lost his life and entered the Reapers Game."
                     ,"At the end of the Reaper's Game he became a Reaper. Since he could not fully accept that he didn't stongly want to come back to life, the Composer of the Game took that option away from him."
@@ -239,8 +241,17 @@
         "History": [
             {
                 "Header": "Present",
+                "Aside": "<img src=\"/img/art/twewy/2025/0511-motherpose/250511-MothePosePractice_Apollo02-L1L2-800.jpg\">",
                 "SubSections": [
                     "She's the Mother of the Tokyo (and perhaps the surrounding) region. She researches the state and rate of decay within the planes, particularly the higher planes."
+                    ,"She doesn't know much about humans, but enjoys listening to her assigned Parent Partner - \"Father\" - tell her all about them. She has poor luck with getting along with animals, as if they can sense there's something unsettling lurking beneath her Angelic presence."
+                    ,"What is lurking? That's Confidential, my friend."
+                ]
+            },
+             {
+                "Header": "Past",
+                "SubSections": [
+                    "What is there to say? She's an Angel, what more do you want?"
                 ]
             }
         ]
@@ -279,7 +290,7 @@
         ],
 
 
-        "Likes": ["Strawberry-banana ice cream", "Floral patterns", "Noodles of all kinds"],
+        "Likes": ["Strawberry-banana ice cream", "Floral patterns", "Noodles of all kinds", "Green and bitter tea"],
         "Dislikes": ["Two faced behaviours"],
         "Apparent Age": "",
         
@@ -371,6 +382,25 @@
         ],
 
         "Apparent Age": "Somewhere between 10-15 I think.",
+
+        "History": [
+            {
+                "Header": "Present",
+                "Aside": "<img src=\"/img/art/twewy/2024/0903-familyOfFamily/20240903-ChisaAndFather02-nDEFV1-pDEFV2.jpg\">",
+                "SubSections": [
+                    "Her Soul has been restored by Null, who she has adopted as a parent and calls them Null-ren. Null brought her to her now Angel and transitioned Father to reunite them."
+                    ,"It's been a little rocky at times for them to catch up but she still loves her father, even if he seems to care more about cats than her."
+                    ,"She's currently a Guest in the Higher Plane and has chosen independently, before she even knew of father still being around, to become a human again so she can live out the rest of her human life before it was stolen away from the Void."
+                ]
+            },
+             {
+                "Header": "Past",
+                "SubSections": [
+                    "Her Soul was lost to the Void so her time spent as a human and potential afterlife was robbed from her. She spent decades, if not hundreds of years trapped in the Void, semi-aware of time and existence passing."
+                ]
+            }
+        ],
+
         "Relationships": [
             {
                 "Name": "Father (Angel)",
