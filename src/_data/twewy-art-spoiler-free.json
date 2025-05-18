@@ -178,6 +178,48 @@
     "RelatedWritingURL": ""
   },
   {
+    "title": "Father Stretch!",
+    "summary": "Drew my OC, Father, doing a cute stretching animation! It was made for stream that I can put up when I should be taking a stretch break.\n\nDon't forgot to take breaks, get up, and stretch!!",
+    "details": "",
+    "characters": "Father",
+    "date": "2025-04-29",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-04-29-father-str",
+    "UniqueURLKey": "art/twewy/2025-04-29-father-str",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/782206741926608896/father-stretch-drew-my-oc-father-doing-a-cute"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6195029"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lnyhumr7f22t"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\0429-stretch\\250429-Stretch_Smaller.gif",
+        "alt": "A gif of my OC, Father, standing up with his hands stretched up and locked together held straight over his head. He starts standing straight up, then tilts to his right, then back to center, then to his left, and then loops."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\0429-stretch\\250429-thmb-stretch-250.jpg",
+    "thumbnailAlt": "Father",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Nao Doodle",
     "summary": "",
     "details": "",
