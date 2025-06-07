@@ -1,5 +1,42 @@
 [
-     {
+    {
+        "PostDate": "2025-06-07: TWEWY & XCX Artwork"
+        ,"date": "2025-06-07"
+        ,"Site": ""
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Null Chibi",
+                        "URL": "/art/twewy/2025-05-30-null-chibi/"
+                    },
+                     {
+                        "Title": "Father's Spirit City - Bay Window",
+                        "URL": "/art/twewy/2025-05-31-fathers-s/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Xenoblade X",
+                "List": [
+                    {
+                        "Title": "Nopon Friends 5",
+                        "URL": "/art/xcx/2025-06-02-nopon-frie/"
+                    },
+                    {
+                        "Title": "Nopon Pride",
+                        "URL": "/art/xcx/2025-06-02-nopon-prid/"
+                    },
+                    {
+                        "Title": "YCH Christie-pon",
+                        "URL": "/art/xcx/2025-06-05-ych-christ/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-05-17: TWEWY & XCX Artwork"
         ,"date": "2025-05-17"
         ,"Site": "More 2025 artwork and added some more OC info for everyone! Updates to likes, dislikes, history and/or history aside images!"
