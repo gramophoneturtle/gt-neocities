@@ -348,6 +348,10 @@
       {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3l4kfpvvf5c25"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "TODO"
       }
     ],
     "imgs": [
@@ -431,6 +435,10 @@
       {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3lbndleio3s2q"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "TODO"
       }
     ],
     "imgs": [
@@ -1331,6 +1339,10 @@
       {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3ljv6pnjw6s2h"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/@gramophoneturtle/114128285832183694"
       }
     ],
     "imgs": [
