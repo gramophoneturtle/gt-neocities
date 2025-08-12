@@ -440,13 +440,18 @@
         "ImageHeader": "\\img\\icons\\ChisaIcon.jpg",
         "ImageHeaderAltText": "Modern day Chisa after her Soul was restored by Null.",
 
+        "Appearance": [
+            "She's used to traditional Japanese clothing but is curious about the modern times and fashion. She likes the \"modern look\" and doesn't mind experimenting."
+        ],
 
         "Likes": [
             "Her Family", 
             "Her scarf", 
             "Humans, the lower planes",
             "Mint flavoured things, like chocolate chip ice cream",
-            "Green tea, bubble tea with lots of boba"
+            "Green tea, bubble tea with lots of boba",
+            "Making friendship bracelets", 
+            "Playing her orange-Father themed jellyfish, little Null jellyfish and little Chisa jellyfish that Father made for her"
         ],
         "Dislikes": [
             "Cats (a rivalry, one could say)", 
@@ -482,14 +487,15 @@
             {
                 "Name": "Null-Ren (Null)",
                 "DescriptionList": [
-                    "The one who fixed her Soul after it got Voided. Chisa kinda-sorta adopted Null as a new parent.",
-                    "The Void is a very lonely place, even when you're not alone.",
-                    "She loves Null-ren very dearly and is concerned that she's finding herself turn to them more than her actual Father (Angel) when she's really distressed. In some ways she's found them to be a replacement of when Father was a human, but in some ways, gives her more independance, and in other ways, a bit <em>too</em> overprotective, but not in an outright way.",
-                    "She is able to pick up both that Null-ren loves Father and can get so frustrated with him. (She gets that too, it's so painful. She hates it. They both understand it. It's a shared pain they wish they didn't have in common.)",
-                    "She slowly grew to love the possibility of having a new family - of Null-ren and Father - Angel Father - be her new parents. But Null-ren has been gently telling her to let that go - they've both seen how her Father is.",
-                    "Besides, Null-ren tells her, she can still have two parents now. They're just separate. And there's nothing wrong with that. They both love her, and they are, generally, working together to make sure Chisa is happy and looked after.",
-                    "It's not like they're actively trying to make each other miserable. (Debatable.)",
-                    "It's not what Chisa wants, but she grows to accept that."
+                    "The one who fixed her Soul after it got Voided. Chisa kinda-sorta adopted Null as a new parent Null, who she calls \"Null-ren\"."
+                    ,"The Void is a very lonely place, even when you're not alone."
+                    ,"She loves Null-ren very dearly and is concerned that she's finding herself turn to them more than her actual Father (Angel) when she's really distressed. In some ways she's found them to be a replacement of when Father was a human, but in some ways, gives her more independance, and in other ways, a bit <em>too</em> overprotective, but not in an outright way."
+                    ,"She loves spending time with them and visiting various places in Tokyo (or whatever city either of them would like them to visit since they can just Go Anywhere). She enjoys how Null is open to letting her try new things (safely of course!!) and they may have enjoyed a fashion trip of trying on dresses and maybe even a goth outfit."
+                    ,"She is able to pick up both that Null-ren loves Father and can get so frustrated with him. (She gets that too, it's so painful. She hates it. They both understand it. It's a shared pain they wish they didn't have in common.)"
+                    ,"She slowly grew to love the possibility of having a new family - of Null-ren and Father - Angel Father - be her new parents. But Null-ren has been gently telling her to let that go - they've both seen how her Father is."
+                    ,"Besides, Null-ren tells her, she can still have two parents now. They're just separate. And there's nothing wrong with that. They both love her, and they are, generally, working together to make sure Chisa is happy and looked after."
+                    ,"It's not like they're actively trying to make each other miserable. (Debatable.)"
+                    ,"It's not what Chisa wants, but she grows to accept that."
                 ]
             },
             {
