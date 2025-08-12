@@ -12,8 +12,24 @@
         "DOB": "February 13",
         "NoiseAffinity": "Jellyfish",
         "Apparent Age": "Late 20s maybe.",
-        "Likes": ["Cats", "Fancy sweet lattes", "Fruit teas", "Fabric arts", "Seafood"],
-        "Dislikes": ["Backstabbers", "People who can't speak their minds", "Black coffee/bitter drinks", "Pointing out his cat \"weakness\""],
+        "Likes": ["Cats", 
+            "Fancy sweet lattes", 
+            "Fruit teas", 
+            "Fabric arts (knitting, crochet)", 
+            "Mr. Mew dolls or his Mr. Mew cushion",
+            "Seafood"],
+        "Dislikes": ["Backstabbers", 
+        "People who can't speak their minds", 
+        "People who baby him",
+        "Black coffee/bitter drinks", 
+        "Pointing out his cat \"weakness\""],
+
+        "Appearance": [
+            "Gloves: He will always wear gloves and some form of socks, but they don't have to have his rainbow pattern. His striped gloves and socks also shift what colours they start at. They also don't match but they all use the same colours and follow the same pattern: red, purple, blue, green, yellow, orange, grey and then back to red. For example, the finger tips of one glove starts at red but the other starts at orange, and one big toe will start at yellow but the other will be green."
+            ,"Hair: go ahead and mess with how he ties up his hair. He won't cut it, but if you want to give him a bun and a ponytail, all the more power to Father! I don't know if he would wear an overly \"girly\" hair clips, yet he will wear his usual silly cheap sparkly blue hair tie."
+            ,"Coat: His coat colour pattern placement shifts around."
+            ,"Phone: Father has an old bag phone, not a modern looking smart phone. It might secretly be a smart phone with a bag phone \"case\" but it sure looks like an old phone."
+        ],
 
         "ImageHeader": "\\img\\art\\twewy\\2024\\0211-fathersupport\\20240211-FatherTrans_FashionCrimes-L1D2-800.jpg",
         "ImageHeaderAltText": "A smiling, winking chibi style man called Father wearing transgender color gloves and pointing to \"Be trans, do crimes\" written in transgender colors, and below his arm in colors from Father's clothes \"(against fashion)\".",
@@ -43,6 +59,8 @@
                 "Header": "Present",
                 "SubSections": [
                     "He's the Father of the Tokyo (and perhaps the surrounding) region. He focuses more on the state of their assigned Children over his assigned partner, Reia, the \"Mother\" of the Children."
+                    ,"Father is his title, and he has always preferred to be addressed by his titles throughout his life. He is a transgender man, somewhere on the aroace spectrum. He's physically appears to be somewhere in his late 20/early 30s and uses he/him pronouns. He can turn into a complex Jellyfish Noise (design still a WIP)."
+                    ,"Due to some troubled family history, he doesn't believe himself to be a good parent, so he tries his best to fulfill his current Parent role to make up for it, but also tries not to get too attached to his new Children. He knows what losing a child is like and knows how much it hurts to lose people you were close to."
                     ,"Recently he's been unexpectedly reunited with his daughter, who he last saw before he died and before he transitioned. They have a lot to catch up on but they seem to be doing well."
                 ]
             },
@@ -97,7 +115,10 @@
         "Relationships": [
             {
                 "Name": "Reia (Mother)",
-                "Description": "(Working on it)"
+                "DescriptionList": [
+                    "His \"Mother\" Parent Partner. They start off as co-workers and become good friends. Despite them being Father and Mother, those are titles for the Roles they have. They watch over and guide their assigned Composer \"Children\", who watch over and run the Reapers Game in the Underground"
+                    ,"He likes to hang out with like \"do your own thing in the same room\" or he info dumps about human things. He used to try and get her to comment on his odd outfit choices but gave up when she pretty much passes over it."
+                ]
             },
             {
                 "Name": "Null",
@@ -121,6 +142,15 @@
                     ,"You would accept them once again, even though they left you once before? Understandable. If they couldn't handle the dissonance of addressing you by a Name instead of by a Status... Even Chisa can manage it."
                     ,"You want a name. For youself, and for everyone else."
                     ,"Go on. Finish your experiment and then finally leave me alone. How dare you bring Chisa back into my life, knowing that she could be ripped away so easily?"
+                    ,"In all seriousness,"
+                    ,"The Composer Father once worked for as a Reaper. Despite the Composer being supportive of Father's transition and helped guide him, Father did not like the Composer's arrogance and overconfidence and false \"Reaper Family\" attitude which made him both like and dislike hanging around the Composer. After a certain Incident where the Composer was punished for their failings, the Composer stopped spending time with Father and withdrawing into themself, causing distance between them to grow. When Father Ascends and becomes an Angel, he learns about Null's Fall and how much they kept from Father to avoid his punishment from causing the Incident, and how they truly felt about him, which was a large part in the decline of their status and mental health. Frustrated and done with Null, he decides to never speak with Null again, for both of their sakes."
+                    ,"They would both die for each other and he trusts Null will look after Chisa but he does not trust Null to be truthful to him. It's complicated."
+                ]
+            },
+            {
+                "Name": "Chisa",
+                "DescriptionList": [
+                    "His daughter! He loves his daughter so so much!! Chisa is able to adjust to his transition well enough so their relationship grows generally well. Both in life and afterlife, he happily makes dolls and dress up clothes for her to play with. In the afterlife he doesn't baby her and sometimes neglects her, since he's used to his Angel Children and their independence. He also not quite as gentle and soft as he used to be, his sarcasm and banter throws Chisa off a bit. He does let his caring side show around Chisa, and if he messes up he does his best to correct his behaviour around her."
                 ]
             },
             {
@@ -287,9 +317,14 @@
                 ]
             },
              {
-                "Header": "Past",
+                "Header": "Ok but seriously",
                 "SubSections": [
-                    "What is there to say? She's an Angel, what more do you want?"
+                    "A Higher Plane Entity who is not a \"pure\" Angel. To aid in suppressing her innate Chaos, she was gifted a Band which she placed around her neck."
+                    ,"Her Creator created her with Chaos mixed in, and the Angels of the Higher Plane would be able to detect that and become weary of her, so she was given a Band to suppross her innate Chaos."
+                    ,"She had a special, almost undetectable band on her neck that reads \"REIA\" if you look at it sideways. Sometimes when she's nervous or uneasy, she will touch part of her tie or neck, because it gives her comfort. She is not allowed to tell others of her origins and is forbidden from seeking out her siblings to connect with - although she wouldn't be able to recognize them on sight since many of them now have a new form and frequency from the Bands. She has some memories of her Creator and vaguer memories of playing with parts of her so called \"siblings\" as they were being assembled."
+                    ,"She didn't think of them as siblings but as she learned more about Angels and Humans, she felt the best word to describe them would be siblings. She doesn't miss them on an individual level, but she hopes they are adapting to their new home and hope they were lucky to have such interesting an accepting beings to surround themselves with."
+                    ,"Her current co-worker, \"Father\", does not know, and cannot know her origins. However he seems to accept her and her lacking knowledge of humans and how some things are run in the Higher Plane. He's been a little odd, seemingly trying to get her to say something in particular about how he fashions himself, but she doesn't know what to say and he seems to drop prodding for some sort of reaction shortly afterward and continue along with whatever he had intended to do shortly after. She's grown to appreciate his kindness and his oddness, and hopes that her Band never fails her, for she would hate for him, their Children, and all the other Angels how have accepted her, to fear the innate Chaos she carries."
+                    ,"Perhaps one day she won't have to rely on the Band and can be free to be herself, but she sees now that day could be far away, given the current state of the higher planes."
                 ]
             }
         ]

@@ -15,6 +15,10 @@ layout: /layouts/base
   <ul>
     <li><a href="#general">General</a></li>
 
+    {%- if ocs.Appearance.length %}
+      <li><a href="#appearance">Appearance</a></li>
+    {%- endif -%}
+
     {%- if ocs.Likes.length %}
       <li><a href="#likes">Likes</a></li>
     {%- endif -%}
@@ -86,8 +90,17 @@ layout: /layouts/base
   {%- if ocs.Pyschs %}
     <p>Pyschs: {{ ocs.Pyschs }}</p>
   {%- endif -%}
-
 </div>
+
+{%- if ocs.Appearance.length %}
+  <div>
+    <h2 id="appearance">Appearance</h2>
+      {%- for line in ocs.Appearance %}
+        <p>{{ line | safe }}</p>
+      {% endfor -%}
+    </div>
+{% endif %}
+
 <div>
 {%- if ocs.Likes.length %}
 <h2 id="likes">Likes</h2>
@@ -107,6 +120,7 @@ layout: /layouts/base
   </ul>
 {% endif %}
 </div>
+
 {%- if ocs.History.length %}
   <h2 id="history">History</h2>
   {%- for item in ocs.History %}
