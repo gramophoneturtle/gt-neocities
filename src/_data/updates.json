@@ -2,8 +2,31 @@
     {
         "PostDate": "2025-08-??: OC info from ArtFight"
         ,"date": "2025-08-??"
-        ,"Site": "Updated Father and Chisa's OC pages from ArtFight. Added Mastodon and Sheezy Art post links to artwork. || Artwork: REIA, Happy Father Day, His Blessing"
-        ,"ArtList": []
+        ,"Site": "Updated Father and Chisa's OC pages from ArtFight. Added Mastodon and Sheezy Art post links to artwork. Added Alt Text accordians to images."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Happy Father Day",
+                        "URL": "/art/twewy/2025-06-15-happy-fath/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "REIA",
+                        "URL": "/art/twewy/2025-06-09-reia/"
+                    },
+                    {
+                        "Title": "His Blessing",
+                        "URL": "/art/twewy/2025-06-22-his-blessi/"
+                    }
+                ] 
+            }
+        ]
     },
     {
         "PostDate": "2025-06-08: Father backstory update"
