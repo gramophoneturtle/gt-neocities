@@ -57,9 +57,22 @@ module.exports = function (eleventyConfig) {
   });
 
   // Sort by DATE
+  // OG TWEWY
   eleventyConfig.addCollection("twewyOGArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyOGArt").sort(function (a, b) {
+      let nameA = a.data.twewyart.date.toUpperCase();
+      let nameB = b.data.twewyart.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+    });
+  });
+
+  // NEO TWEWY
+  eleventyConfig.addCollection("twewyNEOArtAllByDate", function (collectionApi) {
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("twewyNeoArt").sort(function (a, b) {
       let nameA = a.data.twewyart.date.toUpperCase();
       let nameB = b.data.twewyart.date.toUpperCase();
       if (nameA > nameB) return -1;
