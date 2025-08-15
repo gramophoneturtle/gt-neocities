@@ -57,9 +57,22 @@ module.exports = function (eleventyConfig) {
   });
 
   // Sort by DATE
+  // OG TWEWY
   eleventyConfig.addCollection("twewyOGArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyOGArt").sort(function (a, b) {
+      let nameA = a.data.twewyart.date.toUpperCase();
+      let nameB = b.data.twewyart.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+    });
+  });
+
+  // NEO TWEWY
+  eleventyConfig.addCollection("twewyNEOArtAllByDate", function (collectionApi) {
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("twewyNeoArt").sort(function (a, b) {
       let nameA = a.data.twewyart.date.toUpperCase();
       let nameB = b.data.twewyart.date.toUpperCase();
       if (nameA > nameB) return -1;
@@ -83,17 +96,20 @@ module.exports = function (eleventyConfig) {
 
   // Filter artwork to get the most recently added ones
   eleventyConfig.addCollection("RecentArtwork", function (collectionApi) {
-    // Get URLs from the Update post into an array
-    const artworkList = collectionApi.getFilteredByTags("UpdatePosts")[0].data.posts.ArtList;
+    // Get URLs from the latest 3 Update post into an array
     var urlArr = [];
-    for (let i = 0; i < artworkList.length; i++) {
-      for (let j = 0; j < artworkList[i].List.length; j++) {
-        urlArr.push(artworkList[i].List[j].URL);
-      }
-    } 
+    let artworkList;
+    for (let k= 0; k < 3; k++) {
+      artworkList = collectionApi.getFilteredByTags("UpdatePosts")[k].data.posts.ArtList;
+      for (let i = 0; i < artworkList.length; i++) {
+        for (let j = 0; j < artworkList[i].List.length; j++) {
+          urlArr.push(artworkList[i].List[j].URL);
+        }
+      } 
+    }
 
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
-    return collectionApi.getFilteredByTags("twewyArt2").filter(function (item) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			// Only return content that was originally a markdown file
 			let artworkURL = item.page.url;
 			return urlArr.includes(artworkURL);

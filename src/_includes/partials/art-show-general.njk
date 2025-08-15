@@ -23,6 +23,11 @@
     <a id="btnPrev" class="slideshow-prev" onclick="plusSlides(-1)">❮</a>
     <a id="btnNext" class="slideshow-next" onclick="plusSlides(1)">❯</a>
 
+    <details id="alt-text" class="alt-text">
+    <summary>ALT</summary>
+       {# ALt text will be updated per slide #}
+    </details>
+
     <div class="slideshow-caption-container">
       <p id="caption"></p>
     </div>
@@ -32,7 +37,7 @@
     {%- for item in aArtwork.imgs %}
       <div class="slideshow-column">
         <img class="slideshow-demo slideshow-cursor"
-          style="width:100%"
+          style="width:100%; height:200px; object-fit:cover;"
           src="{{ item.url }}"
           alt="{{ item.alt }}"
           onClick="currentSlide({{ loop.index }});" >
@@ -49,6 +54,10 @@
         src="{{ item.url }}"
         alt="{{ item.alt }}">
     </div>
+    <details class="alt-text">
+      <summary>ALT</summary>
+      {{ item.alt }}
+    </details>
   {% endfor -%}
 {% endif %}
 

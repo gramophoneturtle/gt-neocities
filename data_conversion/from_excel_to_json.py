@@ -191,6 +191,14 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         site_name = "Cohost"
         if row['{0} URL'.format(site_name)] != "" and row['{0} URL'.format(site_name)].upper() != "Drafted".upper():
             artwork_dictionary[urls_key].append({'sitename': site_name.lower(), 'url': row['{0} URL'.format(site_name)]})
+        
+        site_name = "Mastodon"
+        if row['{0} URL'.format(site_name)]:
+           artwork_dictionary[urls_key].append({'sitename': site_name, 'url': row['{0} URL'.format(site_name)]})
+        
+        site_name = "Sheezy"
+        if row['{0} URL'.format(site_name)]:
+           artwork_dictionary[urls_key].append({'sitename': site_name, 'url': row['{0} URL'.format(site_name)]})
 
         # IMAGES -------------------------------------------------
         artwork_dictionary['imgs'] = make_img_list(row)
@@ -274,7 +282,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
                 'Tumblr URL',
                 'Pillowfort URL',
                 'Bluesky URL',
-                'Cohost URL' 
+                'Cohost URL', 'Mastodon URL', 'Sheezy URL'
                 ]
         )
 

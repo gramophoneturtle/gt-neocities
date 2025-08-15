@@ -15,8 +15,10 @@ function showSlides(n) {
   let hideCSS = " hidden";
   let i;
   let slides = document.getElementsByClassName("slideshow-mySlides");
+  let slideImages = document.getElementsByClassName("artworkShowingImage");
   let dots = document.getElementsByClassName("slideshow-demo");
   let captionText = document.getElementById("caption");
+  let altText = document.getElementById("alt-text");
 
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -56,4 +58,7 @@ function showSlides(n) {
   // Update slide number
   let theSlideNumber = slideIndex + "/" + slides.length; 
   captionText.innerHTML = theSlideNumber;
+
+  // update alt text
+  altText.innerHTML="<summary>ALT</summary>" + slideImages[slideIndex-1].alt;
 }

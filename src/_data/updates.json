@@ -1,4 +1,34 @@
-[{
+[
+    {
+        "PostDate": "2025-08-14: OC info, Visible Alt Text, Artworks"
+        ,"date": "2025-08-14"
+        ,"Site": "Updated Father and Chisa's OC pages from ArtFight. Added Mastodon and Sheezy Art post links to artwork. Added Alt Text accordians to artwork."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Happy Father Day",
+                        "URL": "/art/twewy/2025-06-15-happy-fath/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY Spoilers",
+                "List": [
+                    {
+                        "Title": "REIA",
+                        "URL": "/art/twewy/2025-06-09-reia/"
+                    },
+                    {
+                        "Title": "His Blessing",
+                        "URL": "/art/twewy/2025-06-22-his-blessi/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-06-08: Father backstory update"
         ,"date": "2025-06-08"
         ,"Site": "When preparing for Art Fight, I decided to write out Father's backstory from stuff I've mentioned on streams from his Reaper days and him ascending the Reaper ranks."
