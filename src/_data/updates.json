@@ -1,5 +1,45 @@
 [
     {
+        "PostDate": "2025-10-23: ArtFight Artwork pt 1"
+        ,"date": "2025-10-23"
+        ,"Site": ""
+        ,"ArtList": [
+            {
+                "Category": "ArtFight",
+                "List": [
+                    {
+                        "Title": "What Is He Thinking About...?",
+                        "URL": "/art/gen/2025-07-29-valen-louv/"
+                    },
+                    {
+                        "Title": "Cinder - CrimsonVixen",
+                        "URL": "/art/gen/2025-07-28-cinder-cri/"
+                    },
+                    {
+                        "Title": "ArtFight - Happy Kahdu",
+                        "URL": "/art/gen/2025-07-18-kahdu-pina/"
+                    },
+                    {
+                        "Title": "ArtFight - terminal-5 Expression Roulette",
+                        "URL": "/art/gen/2025-07-09-terminal5/"
+                    },
+                    {
+                        "Title": "ArtFight - Happy Starling",
+                        "URL": "/art/gen/2025-07-07-happy-star/"
+                    },
+                    {
+                        "Title": "Gunnar Volk",
+                        "URL": "/art/gen/2025-07-06-gunnar-vol/"
+                    },
+                    {
+                        "Title": "ArtFight - Mirza Chilling",
+                        "URL": "/art/gen/2025-07-04-mirza-chil/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-08-14: OC info, Visible Alt Text, Artworks"
         ,"date": "2025-08-14"
         ,"Site": "Updated Father and Chisa's OC pages from ArtFight. Added Mastodon and Sheezy Art post links to artwork. Added Alt Text accordians to artwork."
