@@ -7,9 +7,9 @@ tags:
 pagination:
     data: twewy-art
     size: 1
-    alias: twewyart
+    alias: aArtwork
     addAllPagesToCollections: true
-permalink: "art/twewy/{{ twewyart.uniqueUrl | slugify }}/"
+permalink: "art/twewy/{{ aArtwork.uniqueUrl | slugify }}/"
 layout: /layouts/art
 ---
-{% include 'partials/art-show.njk' %}
+{% include 'partials/art-show-general.njk' %}

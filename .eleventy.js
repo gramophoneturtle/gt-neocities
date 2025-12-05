@@ -33,9 +33,9 @@ module.exports = function (eleventyConfig) {
   // SORTING ------------------------------------------------------------------- // 
   // Sort by TITLE
   eleventyConfig.addCollection("twewySeriesArtAllByTitle", (collection) =>
-    collection.getFilteredByTags("twewyArt2").sort((a, b) => {
-      let nameA = a.data.twewyart.title.toUpperCase();
-      let nameB = b.data.twewyart.title.toUpperCase();
+    collection.getFilteredByTags("aArtwork").sort((a, b) => {
+      let nameA = a.data.aArtwork.title.toUpperCase();
+      let nameB = b.data.aArtwork.title.toUpperCase();
       if (nameA < nameB) return -1;
       else if (nameA > nameB) return 1;
       else return 0;
@@ -47,8 +47,8 @@ module.exports = function (eleventyConfig) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyArt2").sort(function (a, b) {
 
-      let nameA = a.data.twewyart.date.toUpperCase();
-      let nameB = b.data.twewyart.date.toUpperCase();
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
@@ -61,8 +61,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("twewyOGArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyOGArt").sort(function (a, b) {
-      let nameA = a.data.twewyart.date.toUpperCase();
-      let nameB = b.data.twewyart.date.toUpperCase();
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
@@ -73,16 +73,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("twewyNEOArtAllByDate", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyNeoArt").sort(function (a, b) {
-      let nameA = a.data.twewyart.date.toUpperCase();
-      let nameB = b.data.twewyart.date.toUpperCase();
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
       if (nameA > nameB) return -1;
       else if (nameA < nameB) return 1;
       else return 0;
     });
   });
 
-   // PERSONA 5 - Sort by DATE
-   eleventyConfig.addCollection("Persona5ByDateCollection", function (collectionApi) {
+  // PERSONA 5 - Sort by DATE
+  eleventyConfig.addCollection("Persona5ByDateCollection", function (collectionApi) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("TagPersona5Art").sort(function (a, b) {
       let nameA = a.data.aArtwork.date.toUpperCase();
@@ -115,6 +115,7 @@ module.exports = function (eleventyConfig) {
 			return urlArr.includes(artworkURL);
 		});
   });
+
 
   // RETURN ------------------------------------------------------------------- //
   return {
