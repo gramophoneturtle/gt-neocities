@@ -1,5 +1,47 @@
 [
     {
+        "PostDate": "2025-11-27"
+        ,"date": "2025-11-27"
+        ,"pubDate": "Thu, 27 Nov 2025"
+        ,"Site": "Added About Link for How to build RenPy for Web and Test Web Builds"
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Bonus Hug",
+                        "URL": "/art/twewy/2025-08-25-bonus-hug"
+                    },
+                    {
+                        "Title": "Rubi and Ignacio - ClickBaitDemo",
+                        "URL": "/art/twewy/2025-08-03-rubi-and-i"
+                    },
+                    {
+                        "Title": "Tesuji and Seki - ArtFight 2025",
+                        "URL": "/art/twewy/2025-07-02-tesuji-and"
+                    },
+                    {
+                        "Title": "W",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "W",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "W",
+                        "URL": "/"
+                    },
+                    {
+                        "Title": "W",
+                        "URL": "/"
+                    }
+                ] 
+            }
+        ]
+    },
+
+    {
         "PostDate": "2025-10-23: ArtFight Artwork pt 1"
         ,"date": "2025-10-23"
         ,"pubDate": "Thu, 23 Oct 2025"

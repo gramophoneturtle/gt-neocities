@@ -735,5 +735,28 @@
     "ThumbnailURL": "",
     "ThumbnailAlt": "",
     "SeriesEntries": []
+  },
+  {
+    "SeriesName": "ArtFight2025",
+    "SeriesDescription": "",
+    "SeriesURL": "artfight2025",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Rubi and Ignacio - ClickBaitDemo",
+        "URL": "art/twewy/2025-08-03-rubi-and-i",
+        "ThumbnailURL": "\\img\\art\\artfight\\250731-rubiignacio\\250731-thmb-ClickBaitDemo.jpg",
+        "ThumbnailAlt": "Rubi and Ignacio"
+      },
+      {
+        "Index": -1,
+        "Name": "Tesuji and Seki - ArtFight 2025",
+        "URL": "art/twewy/2025-07-02-tesuji-and",
+        "ThumbnailURL": "\\img\\art\\artfight\\250702-tesujiseki\\CosArtz-Crystal_frame_TS.jpg",
+        "ThumbnailAlt": "Tesuji and Seki"
+      }
+    ]
   }
 ]
