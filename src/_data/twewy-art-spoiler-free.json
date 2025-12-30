@@ -1,8 +1,54 @@
 [
   {
+    "title": "Father Gaming",
+    "summary": "For an OC Fun prompt on Pillowfort",
+    "details": "",
+    "characters": "Father",
+    "date": "2025-10-05",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-10-05-father-gam",
+    "UniqueURLKey": "art/twewy/2025-10-05-father-gam",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/796589498149502976/"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6717452"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3m2hnw63aoc2t"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115322821748325711"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\1005-gaming\\251005-OCFunShape-D2.jpg",
+        "alt": "Digital art of my OC, Father, half curled up and playing on some red portable gaming console. He's looks down at it frustrated. Father is dressed up as he normally is - an autumn patterned coat with feathery white tassels along the lower edge of his coat, and a green shirt underneath. He's wearing light blue faded jeggings, pink leg warmers, rainbow socks, and black and white sneaker sandals. His long dirty blonde hair is tied back with a fuzzy blue hair tie into a low ponytail going down over his back."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\1005-gaming\\251005-thmb-OCFunShape-D2-250.jpg",
+    "thumbnailAlt": "Father",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Bonus Hug",
-    "summary": "",
-    "details": "For a Tumblr ask in thanks for thanking me for reblogging all those hugs",
+    "summary": "For a Tumblr ask in thanks for thanking me for reblogging all those hugs",
+    "details": "",
     "characters": "Father, Chisa",
     "date": "2025-08-25",
     "dateYear": "2025",
@@ -36,8 +82,8 @@
     ],
     "thumbnailUrl": "\\img\\art\\twewy\\2025\\0825-bonus-hug\\250825-thmb-ChisaFatherHug-L1L2-250.jpg",
     "thumbnailAlt": "Chisa and Father",
-    "REF1": "https://www.istockphoto.com/photo/they-make-a-good-team-gm2176777667-596247415?searchscope=image%2Cfilm",
-    "REFALT1": "",
+    "REF1": "",
+    "REFALT1": "https://www.istockphoto.com/photo/they-make-a-good-team-gm2176777667-596247415?searchscope=image%2Cfilm",
     "Warnings": "",
     "vids": [],
     "fandom": [
@@ -1453,6 +1499,10 @@
       {
         "sitename": "cohost",
         "url": "https://cohost.org/gramophoneturtle/post/4848181-warm-drink-cat-mug"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115668385053599366"
       }
     ],
     "imgs": [
@@ -1470,6 +1520,12 @@
     "vids": [],
     "fandom": [
       "TWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Warm Drink",
+        "warm-drink"
+      ]
     ],
     "RelatedWritingURL": ""
   },

@@ -99,7 +99,7 @@ module.exports = function (eleventyConfig) {
     // Get URLs from the latest 3 Update post into an array
     var urlArr = [];
     let artworkList;
-    for (let k= 0; k < 3; k++) {
+    for (let k= 0; k < 5; k++) {
       artworkList = collectionApi.getFilteredByTags("UpdatePosts")[k].data.posts.ArtList;
       for (let i = 0; i < artworkList.length; i++) {
         for (let j = 0; j < artworkList[i].List.length; j++) {
@@ -107,6 +107,9 @@ module.exports = function (eleventyConfig) {
         }
       } 
     }
+
+    
+
 
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
@@ -116,6 +119,9 @@ module.exports = function (eleventyConfig) {
 		});
   });
 
+  // collectionApi.getFilteredByTags("TagCOArt").array.forEach(item => {
+  //   // DO STUFF like add the fanomd tags that are not Crossover
+  // });
 
   // RETURN ------------------------------------------------------------------- //
   return {

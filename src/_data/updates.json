@@ -1,10 +1,23 @@
 [
     {
-        "PostDate": "2025-11-27"
-        ,"date": "2025-11-27"
-        ,"pubDate": "Thu, 27 Nov 2025"
-        ,"Site": "Added About Link for How to build RenPy for Web and Test Web Builds"
+        "PostDate": "2025-12-30"
+        ,"date": "2025-12-30"
+        ,"pubDate": "Tue, 30 Dec 2025"
+        ,"Site": "Added About link for How to build RenPy for Web and Test Web Builds. Added a Recent Artwork page under Arts and does not currently have a spolier filter and the recent artwork is not sorted properly."
         ,"ArtList": [
+            {
+                "Category": "Art Fight",
+                "List": [
+                    {
+                        "Title": "Rubi and Ignacio - ClickBaitDemo",
+                        "URL": "/art/twewy/2025-08-03-rubi-and-i"
+                    },
+                    {
+                        "Title": "Tesuji and Seki - ArtFight 2025",
+                        "URL": "/art/twewy/2025-07-02-tesuji-and"
+                    }
+                ] 
+            },
             {
                 "Category": "TWEWY",
                 "List": [
@@ -13,28 +26,8 @@
                         "URL": "/art/twewy/2025-08-25-bonus-hug"
                     },
                     {
-                        "Title": "Rubi and Ignacio - ClickBaitDemo",
-                        "URL": "/art/twewy/2025-08-03-rubi-and-i"
-                    },
-                    {
-                        "Title": "Tesuji and Seki - ArtFight 2025",
-                        "URL": "/art/twewy/2025-07-02-tesuji-and"
-                    },
-                    {
-                        "Title": "W",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "W",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "W",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "W",
-                        "URL": "/"
+                        "Title": "Father Gaming",
+                        "URL": "/art/twewy/2025-10-05-father-gam/"
                     }
                 ] 
             }
