@@ -735,5 +735,44 @@
     "ThumbnailURL": "",
     "ThumbnailAlt": "",
     "SeriesEntries": []
+  },
+  {
+    "SeriesName": "ArtFight2025",
+    "SeriesDescription": "",
+    "SeriesURL": "artfight2025",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": -1,
+        "Name": "Rubi and Ignacio - ClickBaitDemo",
+        "URL": "art/twewy/2025-08-03-rubi-and-i",
+        "ThumbnailURL": "\\img\\art\\artfight\\250731-rubiignacio\\250731-thmb-ClickBaitDemo.jpg",
+        "ThumbnailAlt": "Rubi and Ignacio"
+      },
+      {
+        "Index": -1,
+        "Name": "Tesuji and Seki - ArtFight 2025",
+        "URL": "art/twewy/2025-07-02-tesuji-and",
+        "ThumbnailURL": "\\img\\art\\artfight\\250702-tesujiseki\\CosArtz-Crystal_frame_TS.jpg",
+        "ThumbnailAlt": "Tesuji and Seki"
+      }
+    ]
+  },
+  {
+    "SeriesName": "Warm Drink",
+    "SeriesDescription": "",
+    "SeriesURL": "warm-drink",
+    "ThumbnailURL": "",
+    "ThumbnailAlt": "",
+    "SeriesEntries": [
+      {
+        "Index": 231224,
+        "Name": "Warm Drink",
+        "URL": "art/twewy/2023-12-24-warm-drink",
+        "ThumbnailURL": "\\img\\art\\twewy\\2023\\1224-holineku\\20231224-thmb-HappyHolidaysNeku-L1L2-250.jpg",
+        "ThumbnailAlt": "Neku"
+      }
+    ]
   }
 ]

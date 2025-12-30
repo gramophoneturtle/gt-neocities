@@ -1,0 +1,16 @@
+<div classs="row">
+  <div class="characters {{ post.data.aArtwork.characters }} show">
+      <div class= "content">
+        <a href="{{ post.url }}"> 
+          <div class="desc"> 
+            {{ post.data.aArtwork.title | truncate: 37 }}
+          </div>
+          {% if post.data.aArtwork.thumbnailUrl  %}
+            <img
+            src="{{ post.data.aArtwork.thumbnailUrl }}"
+            alt="{{ post.data.aArtwork.thumbnailAlt }}"
+            >
+            {% endif %}
+        </a> 
+    </div>
+</div>

@@ -4,10 +4,22 @@
         <title>Gramophone Turtle's RSS Feed - Site</title>
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-           <lastBuildDate>
-               Sun, 20 Apr 2025 04:04:12 +0000
-            </lastBuildDate>
-        <ttl>20000</ttl>
+            <lastBuildDate> Tue, 30 Dec 2025 </lastBuildDate>
+            <ttl>20000</ttl>
+		<item>
+			<title>2025-12-30</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2025-12-30/</link>
+			<description>
+        <![CDATA[
+                <p>Site</p> 
+                <p>Added About link for How to build RenPy for Web and Test Web Builds. Added a Recent Artwork page under Arts and does not currently have a spolier filter and the recent artwork is not sorted properly.</p>
+                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+        ]]>
+			</description>
+			<pubDate>Tue, 30 Dec 2025</pubDate>
+			 <dc:creator>Gramophone Turtle</dc:creator> 
+			<guid>https://gramophoneturtle.neocities.org/updates/2025-12-30/</guid>
+		</item>
         <item>
 			<title>2025-04-19: TWEWY &amp; XCX for 2025. April 2016 XCX Artwork.</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2025-04-19-twewy-and-xcx-for-2025-april-2016-xcx-artwork/</link>

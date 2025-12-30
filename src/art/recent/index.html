@@ -1,0 +1,14 @@
+---
+title: Recent
+layout: /layouts/base.njk
+---
+<p>Most recent artwork.</p>
+
+{% assign spoilersClass = "content spoilers" %}
+{% assign nospoilersClass = "content" %}
+
+{% for post in collections.RecentArtwork | reverse | limit:20  %}
+    {% include 'partials/artwork/display/thunbnail-element.njk' %}
+{% endfor %}
+
+<script src="/js/filterByTag.js"></script>
