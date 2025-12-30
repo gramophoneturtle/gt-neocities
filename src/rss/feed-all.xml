@@ -4,10 +4,46 @@
         <title>Gramophone Turtle's RSS Feed</title>
             <description>All Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-            <lastBuildDate>
-               Thu, 23 Oct 2025
-            </lastBuildDate>
-        <ttl>20000</ttl>
+            <lastBuildDate> Tue, 30 Dec 2025 </lastBuildDate>
+            <ttl>20000</ttl>
+		<item>
+			<title>2025-12-30</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2025-12-30/</link>
+			<description>
+        <![CDATA[
+                <p>Art</p>
+                <details>
+                    <summary>Art Fight</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-08-03-rubi-and-i"> Rubi and Ignacio - ClickBaitDemo</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-07-02-tesuji-and"> Tesuji and Seki - ArtFight 2025</a>
+                        </li>
+                        </ul>
+                </details>
+                <details>
+                    <summary>TWEWY</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-08-25-bonus-hug"> Bonus Hug</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-10-05-father-gam/"> Father Gaming</a>
+                        </li>
+                        </ul>
+                </details>
+                <p>Site</p> 
+                <p>Added About link for How to build RenPy for Web and Test Web Builds. Added a Recent Artwork page under Arts and does not currently have a spolier filter and the recent artwork is not sorted properly.</p>
+                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+        ]]>
+			</description>
+			<pubDate>Tue, 30 Dec 2025</pubDate>
+			 <dc:creator>Gramophone Turtle</dc:creator> 
+			<guid>https://gramophoneturtle.neocities.org/updates/2025-12-30/</guid>
+		</item>
+
         <item>
 			<title>2025-10-23: ArtFight Artwork pt 1</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2025-10-23-artfight-artwork-pt-1/</link>
