@@ -4,8 +4,52 @@
         <title>Gramophone Turtle's RSS Feed - Art</title>
             <description>Art Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-              <lastBuildDate> Tue, 30 Dec 2025 </lastBuildDate>
-            <ttl>20000</ttl>
+
+             <lastBuildDate> Mon, 12 Jan 2026 </lastBuildDate>
+    <ttl>20000</ttl>
+		<item>
+			<title>2026-01-12</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2026-01-01/</link>
+			<description>
+        <![CDATA[
+                <p>Art</p>
+                <details>
+                    <summary>TWEWY</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-10-06-father-spo/"> Father Spirit Form with Spooky Spirit Friends!</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-10-18-noodles/"> Null Doodles</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-11-01-happy-birt/"> Happy Birthday Joshua</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-11-05-angry-fath/"> Angry Father Jelly</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-11-15-father-and/"> Father &amp; Catsy!</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-11-17-bnnuy-glov/"> Bnnuy Gloves</a>
+                        </li>
+                        </ul>
+                </details>
+                <details>
+                    <summary>NEO TWEWY</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-10-20-happy-birt/"> Happy Birthday Rindo!</a>
+                        </li>
+                        </ul>
+                </details>
+                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+        ]]>
+			</description>
+			<pubDate>Mon, 12 Jan 2026</pubDate>
+			<guid>https://gramophoneturtle.neocities.org/updates/2026-01-02/</guid>
+		</item>
 		<item>
 			<title>2025-12-30</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2025-12-30/</link>
