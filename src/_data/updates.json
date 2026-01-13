@@ -1,5 +1,51 @@
 [
     {
+        "PostDate": "2026-01-12"
+        ,"date": "2026-01-12"
+        ,"pubDate": "Mon, 12 Jan 2026"
+        ,"Site": "Added two more NEO TWEWY Analysis posts from Tumblr. Added Cara links to artwork."
+        ,"ArtList": [
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Father Spirit Form with Spooky Spirit Friends!",
+                        "URL": "/art/twewy/2025-10-06-father-spo/"
+                    },
+                    {
+                        "Title": "Null Doodles",
+                        "URL": "/art/twewy/2025-10-18-noodles/"
+                    },
+                    {
+                        "Title": "Happy Birthday Joshua",
+                        "URL": "/art/twewy/2025-11-01-happy-birt/"
+                    },
+                    {
+                        "Title": "Angry Father Jelly",
+                        "URL": "/art/twewy/2025-11-05-angry-fath/"
+                    },
+                    {
+                        "Title": "Father & Catsy!",
+                        "URL": "/art/twewy/2025-11-15-father-and/"
+                    },
+                    {
+                        "Title": "Bnnuy Gloves",
+                        "URL": "/art/twewy/2025-11-17-bnnuy-glov/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NEO TWEWY",
+                "List": [
+                    {
+                        "Title": "Happy Birthday Rindo!",
+                        "URL": "/art/twewy/2025-10-20-happy-birt/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2025-12-30"
         ,"date": "2025-12-30"
         ,"pubDate": "Tue, 30 Dec 2025"
@@ -37,6 +83,7 @@
     {
         "PostDate": "2025-10-23: ArtFight Artwork pt 1"
         ,"date": "2025-10-23"
+        ,"pubDate": "Thu, 23 Oct 2025"
         ,"pubDate": "Thu, 23 Oct 2025"
         ,"Site": ""
         ,"ArtList": [
