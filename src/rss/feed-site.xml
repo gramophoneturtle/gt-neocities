@@ -4,21 +4,20 @@
         <title>Gramophone Turtle's RSS Feed - Site</title>
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-            <lastBuildDate> Mon, 12 Jan 2026 </lastBuildDate>
-    
-    <ttl>20000</ttl>
+           	<lastBuildDate> Mon, 12 Jan 2026 </lastBuildDate>
+    		<ttl>20000</ttl>
 		<item>
 			<title>2026-01-12</title>
-			<link>https://gramophoneturtle.neocities.org/updates/2026-01-01/</link>
+			<link>https://gramophoneturtle.neocities.org/updates/2026-01-12/</link>
 			<description>
-        <![CDATA[
-                <p>Site</p> 
-                <p>Added two more NEO TWEWY Analysis posts from Tumblr. Added Cara links to artwork.</p>
-                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
-        ]]>
+				<![CDATA[
+						<p>Site</p> 
+						<p>Added two more NEO TWEWY Analysis posts from Tumblr. Added Cara links to artwork.</p>
+						<p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+				]]>
 			</description>
 			<pubDate>Mon, 12 Jan 2026</pubDate>
-			<guid>https://gramophoneturtle.neocities.org/updates/2026-01-02/</guid>
+			<guid>https://gramophoneturtle.neocities.org/updates/2026-01-12/</guid>
 		</item>
 		<item>
 			<title>2025-12-30</title>
@@ -31,7 +30,6 @@
         ]]>
 			</description>
 			<pubDate>Tue, 30 Dec 2025</pubDate>
-			 <dc:creator>Gramophone Turtle</dc:creator> 
 			<guid>https://gramophoneturtle.neocities.org/updates/2025-12-30/</guid>
 		</item>
         <item>
