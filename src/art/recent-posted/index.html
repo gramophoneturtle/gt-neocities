@@ -1,0 +1,15 @@
+---
+title: Chronological Artwork
+layout: /layouts/base.njk
+---
+<p>Chronological Artwork. No filters, contains spoilers.</p>
+
+{% assign spoilersClass = "content spoilers" %}
+{% assign nospoilersClass = "content" %}
+
+{% assign currentYear = "" %}
+{% for post in collections.RecentArtworkPostDate | reverse %}
+    {% include 'partials/listing-artwork-general.njk' %}
+{% endfor %}
+
+<script src="/js/filterByTag.js"></script>

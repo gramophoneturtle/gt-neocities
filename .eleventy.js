@@ -108,15 +108,24 @@ module.exports = function (eleventyConfig) {
       } 
     }
 
-    
-
-
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			// Only return content that was originally a markdown file
 			let artworkURL = item.page.url;
 			return urlArr.includes(artworkURL);
 		});
+  });
+
+  // BAsed on when the were posted online, not to the site
+  eleventyConfig.addCollection("RecentArtworkPostDate", function (collectionApi) {
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("MyArt").sort(function (a, b) {
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+    });
   });
 
   // collectionApi.getFilteredByTags("TagCOArt").array.forEach(item => {
