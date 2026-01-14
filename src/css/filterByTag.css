@@ -1,3 +1,28 @@
+:root {
+  /* cahracter width */
+  --thmb-width: 12rem;
+  --char-height: 15rem;
+}
+
+/* Reduce artwork thumbnail title font size on mobile */
+@media only screen and (max-width: 600px) {
+    :root {
+      --thmb-width: 8rem;
+      --char-height: 10rem;
+    }
+
+    .content .desc {
+      font-size: small;
+    }
+
+  }
+
+.spoilers {
+    a {
+        font-weight: 600;
+    }
+}
+
 /* Header for the rows*/
 .boxheader {
     float: left;
@@ -41,11 +66,12 @@
 /* Create multiple columns that float next to each other */
 .characters {
     float: left;
-    margin: 3px;
-    width: 10.75rem;
-    height: 10.75rem;
+    margin: 0.16rem;
+    width: var(--thmb-width);
+    height: var(--char-height);
     display: none; /* Hide columns by default */
-    border: 2px solid var(--border-color);
+    border: 0.2rem solid var(--border-color);
+    border-radius: 0.5rem;
     font-size: small; 
 }
 
@@ -74,27 +100,16 @@
     }
 
     img {
-        height: 8rem;
-        width: 100%;
+        height: var(--thmb-width);
+        width: var(--thmb-width);
         display: block;
         position: relative;
         object-fit: cover;
-        border-radius: 0rem;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
     }
 }
 
-/* Reduce artwork thumbnail title font size on mobile */
-@media only screen and (max-width: 720px) {
-    .content .desc {
-      font-size: small;
-    }
-  }
 
-.spoilers {
-    a {
-        font-weight: 600;
-    }
-}
 
 /* The "show" class is added to the filtered elements */
 .show {
