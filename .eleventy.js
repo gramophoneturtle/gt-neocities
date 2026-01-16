@@ -1,5 +1,7 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+const utilsTemp = require("util");
+
 // const path = require("path");
 // const eleventyImage = require("@11ty/eleventy-img");
 // const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
@@ -118,7 +120,7 @@ module.exports = function (eleventyConfig) {
 
   // BAsed on when the were posted online, not to the site
   eleventyConfig.addCollection("RecentArtworkPostDate", function (collectionApi) {
-    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    // Sort by artwork actual posted date on the intermets
     return collectionApi.getFilteredByTags("MyArt").sort(function (a, b) {
       let nameA = a.data.aArtwork.date.toUpperCase();
       let nameB = b.data.aArtwork.date.toUpperCase();
@@ -128,9 +130,24 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // collectionApi.getFilteredByTags("TagCOArt").array.forEach(item => {
-  //   // DO STUFF like add the fanomd tags that are not Crossover
-  // });
+
+  eleventyConfig.addFilter("dump", (obj) => {
+    return utilsTemp.inspect(obj);
+  });
+
+  // Project Moon
+  eleventyConfig.addCollection("ProjectMoonArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("ProjectMoon");
+    })
+  });
+
+  // Splatoon
+  eleventyConfig.addCollection("SplatoonArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Splatoon");
+    })
+  });
 
   // RETURN ------------------------------------------------------------------- //
   return {
