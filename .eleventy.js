@@ -135,6 +135,16 @@ module.exports = function (eleventyConfig) {
     return utilsTemp.inspect(obj);
   });
 
+  let fandoms = ["Pikmin"];
+  // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];
+
+  // Pikmin
+  eleventyConfig.addCollection("PikminArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Pikmin");
+    })
+  });
+
   // Project Moon
   eleventyConfig.addCollection("ProjectMoonArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
@@ -142,10 +152,32 @@ module.exports = function (eleventyConfig) {
     })
   });
 
-  // Splatoon
-  eleventyConfig.addCollection("SplatoonArt", function (collectionApi) {
+  // // was hoping to automate it... huh
+  // fandoms.forEach(item => {
+  //   let newFandom = item + "Art";
+  //   eleventyConfig.addCollection(newFandom, function (collectionApi) {
+  //     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+	// 		  return item.data.aArtwork.fandom.includes(item);
+  //     })
+  //   });
+  // });
+
+  eleventyConfig.addCollection("SuperPuzzledCatArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			return item.data.aArtwork.fandom.includes("Splatoon");
+			return item.data.aArtwork.fandom.includes("super-puzzled-cat");
+    })
+  });
+
+  // Splatoon
+  eleventyConfig.addCollection("SplatoonArtSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Splatoon") && item.data.aArtwork.spoilers == "Yes";
+    })
+  });
+
+  eleventyConfig.addCollection("VoidStrangerArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("void-stranger");
     })
   });
 
