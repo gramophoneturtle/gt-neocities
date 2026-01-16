@@ -274,7 +274,7 @@ def addCategorySingle(fandomKey = "", sheetName = ""):
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
-def addCategoryFromMultiple(fandomKey = "", sheetName = ""):
+def addCategoryFromMultiple(fandomKey = "", sheetName = "", exclude_crossover=True):
     artworksCategories = ArtworkCategory(
         sheet_name = sheetName,
         output_path = file_path_output_path,
@@ -293,12 +293,14 @@ def addCategoryFromMultiple(fandomKey = "", sheetName = ""):
              artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), 
              fandoms = [category["Section"]], include_spoilers=True, 
              base_url=artworksCategories.NewBaseURL,
-             fandoms_str=category["Section"])
+             fandoms_str=category["Section"],
+             exclude_crossover = exclude_crossover)
         main(artworksCategories.SheetName, 
              artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
              fandoms = [category["Section"]], include_spoilers=False, 
              base_url=artworksCategories.NewBaseURL,
-             fandoms_str=category["Section"])
+             fandoms_str=category["Section"],
+             exclude_crossover = exclude_crossover)
    
     # # NEW
     # for category in artworksCategories.Fandoms:
@@ -323,7 +325,7 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/", fandoms_str=""):
+def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/", fandoms_str="", exclude_crossover=True):
     print('Processing. Sheet: {0}. Include Spoilers: {1}'.format(sheet_name, include_spoilers), end="")
     print(' Fandom: {0}.'.format(fandoms))
 
@@ -363,6 +365,11 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     else:
         options = ['Yes','yes','']
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+
+    # Filter by Crossover
+    if exclude_crossover:
+        nightshadeOnly = nightshadeOnly[~nightshadeOnly["fandom"].str.contains("Crossover", regex=False)]
+
 
     # Choose to filter by fandoms
     # 25.03: use fandom_str to filter by a fandom when multiple are listed - good for crossovers...kinda
@@ -520,8 +527,9 @@ if __name__ == '__main__':
     # ArtFight
     # addCategorySingle("ArtFight","Other")
 
-    # ProjectMoon
-    addCategoryFromMultiple("ProjectMoon","Other")
+    ## ProjectMoon
+    # addCategorySingle("ProjectMoon","Other")
+    addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
 
     # addCategoryFromMultiple("Pikmin","Other")
     # addCategoryFromMultiple("void-stranger","Other")
@@ -552,12 +560,14 @@ if __name__ == '__main__':
              artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
              fandoms = [category["Section"]], include_spoilers=False, 
              base_url=artworksCategories.NewBaseURL, 
-             fandoms_str=category["Section"])
+             fandoms_str=category["Section"],
+             exclude_crossover=False)
         main(artworksCategories.SheetName, 
              artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), 
              fandoms = [category["Section"]], include_spoilers=True, 
              base_url=artworksCategories.NewBaseURL, 
-             fandoms_str=category["Section"])
+             fandoms_str=category["Section"]
+             ,exclude_crossover=False)
 
    
         
