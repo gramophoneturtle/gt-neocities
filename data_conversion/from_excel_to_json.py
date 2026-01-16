@@ -237,7 +237,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
             artwork_dictionary['vids'] = make_vid_list(row)
 
             # FANDOM LISTING -----------------------------------------
-            artwork_dictionary['fandom'] = row['fandom'].split(",")
+            artwork_dictionary['fandom'] = [x.strip() for x in row['fandom'].split(",")]
 
             # List of related artworks
             # Add Image thumbnail and alt text if present
@@ -413,42 +413,42 @@ if __name__ == '__main__':
     
     # READ EXCEL FILE
     # TWEWY ----------------------------------------------------------- #
-    twewy_art = ArtworkCategory(
-        sheet_name = 'TWEWY Series',
-        output_path = file_path_output_path,
-        fandoms_list = [
-                {
-                    "Section": "TWEWY",
-                    "Filename": "twewy-art"
-                },
-                {
-                    "Section": "NTWEWY",
-                    "Filename": "twewy-neo-art"
-                },
-                {
-                    "Section": "TWEWY, NTWEWY",
-                    "Filename": "twewy-series"
-                } 
-            ],
-        base_url = "art/twewy/"
-    )
+    # twewy_art = ArtworkCategory(
+    #     sheet_name = 'TWEWY Series',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": "TWEWY",
+    #                 "Filename": "twewy-art"
+    #             },
+    #             {
+    #                 "Section": "NTWEWY",
+    #                 "Filename": "twewy-neo-art"
+    #             },
+    #             {
+    #                 "Section": "TWEWY, NTWEWY",
+    #                 "Filename": "twewy-series"
+    #             } 
+    #         ],
+    #     base_url = "art/twewy/"
+    # )
 
-    for category in twewy_art.Fandoms:
-        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
-        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
+    # for category in twewy_art.Fandoms:
+    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
+    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
 
-    # Write Related Series JSON
-    # Sort Series Enrties by index
-    twewy_related_series_list.sortSeriesEntries()
+    # # Write Related Series JSON
+    # # Sort Series Enrties by index
+    # twewy_related_series_list.sortSeriesEntries()
 
-    # Output - can ge to the json file in the src area
-    nested_json = json.dumps(twewy_related_series_list.Series, default=lambda x: x.__dict__, indent=2) 
-    file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
-    with open(file_path_output, 'w', encoding='utf-8') as f:
-        f.write(nested_json)
+    # # Output - can ge to the json file in the src area
+    # nested_json = json.dumps(twewy_related_series_list.Series, default=lambda x: x.__dict__, indent=2) 
+    # file_path_output = os.path.join(file_path_output_path, filename_output_related_twewy)
+    # with open(file_path_output, 'w', encoding='utf-8') as f:
+    #     f.write(nested_json)
 
-    # Reset it???
-    twewy_related_series_list = RelatedSeriesList()
+    # # Reset it???
+    # twewy_related_series_list = RelatedSeriesList()
     
     # # PERSONA 5 ----------------------------------------------------------- #
     # persona5_art = ArtworkCategory(
@@ -518,10 +518,10 @@ if __name__ == '__main__':
     #     main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
     # ArtFight
-    addCategorySingle("ArtFight","Other")
+    # addCategorySingle("ArtFight","Other")
 
     # ProjectMoon
-    # addCategoryFromMultiple("ProjectMoon","Other")
+    addCategoryFromMultiple("ProjectMoon","Other")
 
     # addCategoryFromMultiple("Pikmin","Other")
     # addCategoryFromMultiple("void-stranger","Other")
