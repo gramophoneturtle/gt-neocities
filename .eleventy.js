@@ -6,6 +6,14 @@ const utilsTemp = require("util");
 // const eleventyImage = require("@11ty/eleventy-img");
 // const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
+function sortaArtworkDate(a, b) {
+        let nameA = a.data.aArtwork.date.toUpperCase();
+        let nameB = b.data.aArtwork.date.toUpperCase();
+        if (nameA > nameB) return -1;
+        else if (nameA < nameB) return 1;
+        else return 0;
+    };
+
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -169,10 +177,55 @@ module.exports = function (eleventyConfig) {
   });
 
   // Splatoon
-  eleventyConfig.addCollection("SplatoonArtSpoilers", function (collectionApi) {
+  eleventyConfig.addCollection("SplatoonArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			return item.data.aArtwork.fandom.includes("Splatoon") && item.data.aArtwork.spoilers == "Yes";
+			return item.data.aArtwork.fandom.includes("Splatoon");
     })
+  });
+
+  // TWEWY - OG
+  eleventyConfig.addCollection("TWEWYArt", function (collectionApi) {
+    
+    let temp = collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("TWEWY");
+      });
+    // let temp2 = temp.filter(function (item2) { 
+    //     return !item2.data.aArtwork.fandom.find( (item3) => item3 === "NTWEWY");
+    //   })
+      temp2 = temp.filter((item2) => item2.data.aArtwork.fandom !== "NTWEWY");
+    return temp2
+      .sort(sortaArtworkDate);
+  });
+
+   // TWEWY - OG, no spoilers
+  eleventyConfig.addCollection("TWEWYArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("TWEWY") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .filter(function (item) { 
+        return !item.data.aArtwork.fandom.includes("NTWEWY");
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  // TWEWY - NEO
+  eleventyConfig.addCollection("NEOTWEWYArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("NTWEWY")
+      })
+      .sort(sortaArtworkDate);
+  });
+
+   // TWEWY - NEO, no spoilers
+  eleventyConfig.addCollection("NEOTWEWYArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("NTWEWY") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
   });
 
   eleventyConfig.addCollection("VoidStrangerArt", function (collectionApi) {
