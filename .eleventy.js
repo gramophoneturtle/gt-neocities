@@ -155,9 +155,11 @@ module.exports = function (eleventyConfig) {
 
   // Project Moon
   eleventyConfig.addCollection("ProjectMoonArt", function (collectionApi) {
-    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			return item.data.aArtwork.fandom.includes("ProjectMoon");
-    })
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) {
+        return item.data.aArtwork.fandom.includes("ProjectMoon");
+      })
+      .sort(sortaArtworkDate);
   });
 
   // // was hoping to automate it... huh
