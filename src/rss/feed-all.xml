@@ -4,9 +4,65 @@
         <title>Gramophone Turtle's RSS Feed</title>
             <description>All Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-           <lastBuildDate> Mon, 12 Jan 2026 </lastBuildDate>
+           <lastBuildDate> Sat, 17 Jan 2026 </lastBuildDate>
     
     <ttl>20000</ttl>
+		<item>
+			<title>2026-01-17</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2026-01-17/</link>
+			<description>
+        <![CDATA[
+                <p>Art</p>
+                <details>
+                    <summary>Project Moon</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/project-moon/2025-06-26-chibi-dant/"> Chibi Dante Commission</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/project-moon/2025-08-23-rose-rip-s/"> Rose - Rip Space Commission</a>
+                        </li>
+                        </ul>
+                </details>
+                <details>
+                    <summary>TWEWY</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-11-20-reunion/"> Reunion</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-11-26-a-gentle-s/"> A Gentle Smile</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-12-02-alone-null/"> Alone - Null Positive</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-12-17-warm-shiki/"> Warm Shiki</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-12-24-cocos-day/"> Coco&#39;s Day</a>
+                        </li>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2026-01-10-happy-birt/"> Happy Birthday Mother!!</a>
+                        </li>
+                        </ul>
+                </details>
+                <details>
+                    <summary>NTWEWY</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/twewy/2025-12-28-light-win/"> Light, Wind, and Dreams</a>
+                        </li>
+                        </ul>
+                </details>
+                <p>Site</p> 
+                <p>New artwork categories to have cross over artwork appear where they should: Pikmin, Project Moon, Splatoon, Super Puzzled Cat, Void Stranger. Removed cross over section for the time being. TWEWY artwork: Fixed some minor non-spoiler filtering between games vs series.</p>
+                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+        ]]>
+			</description>
+			<pubDate>Sat, 17 Jan 2026</pubDate>
+			<guid>https://gramophoneturtle.neocities.org/updates/2026-01-17/</guid>
+		</item>
 		<item>
 			<title>2026-01-12</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2026-01-12/</link>
@@ -123,140 +179,6 @@
                 &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
 			</description>
 			<pubDate>Thu, 23 Oct 2025</pubDate>
-		</item>
-
-        <item>
-			<title>2025-08-14: OC info, Visible Alt Text, Artworks</title>
-			<link>https://gramophoneturtle.neocities.org/updates/2025-08-14-oc-info-from-artfight/</link>
-			<description>
-                &lt;p&gt;Art&lt;/p&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;TWEWY&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-06-15-happy-fath/&quot;&gt; Happy Father Day&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;TWEWY Spoilers&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-06-09-reia/&quot;&gt; REIA&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-06-22-his-blessi/&quot;&gt; His Blessing&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;p&gt;Site&lt;/p&gt; 
-                &lt;p&gt;Updated Father and Chisa&amp;#39;s OC pages from ArtFight. Added Mastodon and Sheezy Art post links to artwork. Added Alt Text accordians to artwork.&lt;/p&gt;
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-			</description>
-			<pubDate>Thu, 14 Aug 2025</pubDate>
-		</item>
-        <item>
-			<title>2025-06-08: Father backstory update</title>
-			<link>https://gramophoneturtle.neocities.org/updates/2025-06-08-father-backstory-update/</link>
-			<description>
-                &lt;p&gt;Site&lt;/p&gt; 
-                &lt;p&gt;When preparing for Art Fight, I decided to write out Father&amp;#39;s backstory from stuff I&amp;#39;ve mentioned on streams from his Reaper days and him ascending the Reaper ranks.&lt;/p&gt;
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-			</description>
-			<pubDate>Sun, 08 Jun 2025</pubDate>
-		</item>
-        <item>
-			<title>2025-06-07: TWEWY &amp; XCX Artwork</title>
-			<link>https://gramophoneturtle.neocities.org/updates/2025-06-07-twewy-and-xcx-artwork/</link>
-			<description>
-                &lt;p&gt;Art&lt;/p&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;TWEWY&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-05-30-null-chibi/&quot;&gt; Null Chibi&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-05-31-fathers-s/&quot;&gt; Father&amp;#39;s Spirit City - Bay Window&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;Xenoblade X&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-06-02-nopon-frie/&quot;&gt; Nopon Friends 5&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-06-02-nopon-prid/&quot;&gt; Nopon Pride&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-06-05-ych-christ/&quot;&gt; YCH Christie-pon&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-			</description>
-			<pubDate>Sat, 07 Jun 2025 21:08:34 +0000</pubDate>
-		</item>
-        <item>
-			<title>2025-05-17: TWEWY &amp; XCX Artwork</title>
-			<link>https://gramophoneturtle.neocities.org/updates/2025-05-17-twewy-and-xcx-artwork/</link>
-			<description>
-                &lt;p&gt;Art&lt;/p&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;TWEWY&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-04-30-to-be-call&quot;&gt; To Be Called A Father&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-05-08-whos-this&quot;&gt; Who&amp;#39;s this kid again?&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-05-11-happy-moth&quot;&gt; Happy Mother&amp;#39;s Day!&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-04-29-father-str/&quot;&gt; Father Stretch!&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/twewy/2025-05-12-sip-sip-hy&quot;&gt; Sip, Sip, Hydrate!&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;Crossover&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/gen/2025-05-07-i-can-see/&quot;&gt; I can see the Interference&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;details&gt;
-                    &lt;summary&gt;Xenoblade X&lt;/summary&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-04-25-nopon-frie/&quot;&gt; Nopon Friends 2&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-05-01-nopon-frie/&quot;&gt; Nopon Friends 3&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-05-04-nopon-frie/&quot;&gt; Nopon Friends 4&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-05-14-rook-decoy/&quot;&gt; Rook - Decoy Round!&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;li&gt;
-                            &lt;a href= &quot;https://gramophoneturtle.neocities.org/art/xcx/2025-05-15-sera-essen/&quot;&gt; Sera - Essence Exchange!&lt;/a&gt;
-                        &lt;/li&gt;
-                        &lt;/ul&gt;
-                &lt;/details&gt;
-                &lt;p&gt;Site&lt;/p&gt; 
-                &lt;p&gt;More 2025 artwork and added some more OC info for everyone! Updates to likes, dislikes, history and/or history aside images!&lt;/p&gt;
-                &lt;p&gt;More &lt;a href=&quot;https://gramophoneturtle.neocities.org/updates/&quot;&gt;Updates.&lt;/a&gt;&lt;/p&gt;
-			</description>
-			<pubDate>Sun, 18 May 2025 00:55:16 +0000</pubDate>
 		</item>
     </channel>
 </rss>
