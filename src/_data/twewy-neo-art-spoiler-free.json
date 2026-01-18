@@ -1,5 +1,111 @@
 [
   {
+    "title": "Light, Wind, and Dreams",
+    "summary": "VGen Commission for Wicked Twin Twister on Tumblr, featuring Rindo from NEO The World Ends With You reading a book called \"\u5149\u3068\u98a8\u3068\u5922\", \"Light, Wind and Dreams\", in the Replay void. I had a lot of fun putting this together!",
+    "details": "",
+    "characters": "Rindo",
+    "date": "2025-12-28",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-12-28-light-win",
+    "UniqueURLKey": "art/twewy/2025-12-28-light-win",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/804229722787725312/light-wind-and-dreams-vgen-commission-for"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7046726"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mb3qdaqtns2q"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115800361718862236"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/d1cd5b87-d8ab-4f8d-bec5-de19c6a92415"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\1228-comm-rindo\\251228-ARTIST-Witt-RindoBook-D2-800.jpg",
+        "alt": "Digital art of Rindo from NEO The World Ends With You holding a book titled \"\u5149\u3068\u98a8\u3068\u5922\" translated to \"Light, Wind and Dreams\" in English in the Replay void. Rindo holds the open book in his right hand, with his other hand in his coat pocket. He is wearing black rectangle-frame glasses instead of his usual black mask. The green spiraling Replay void background is done in a paintery style and a little simplified than how it appears in game."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\1228-comm-rindo\\251228-ARTIST-thmb-Witt-RindoBook-D2-250.jpg",
+    "thumbnailAlt": "Rindo",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Coco's Day",
+    "summary": "For Coco's birthday on 2025/12/25.",
+    "details": "",
+    "characters": "Coco",
+    "date": "2025-12-24",
+    "dateYear": "2025",
+    "uniqueUrl": "2025-12-24-cocos-day",
+    "UniqueURLKey": "art/twewy/2025-12-24-cocos-day",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/803879881395011584/cocos-day"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7031089"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3marzc5fgtk2r"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115778504335846051"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/971ab4cb-6799-4318-9149-7d509fa41b92"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\twewy\\2025\\1224-bday-coco\\251224-CocoBDay-D2-800.jpg",
+        "alt": "Digital art of Coco Atarashi from NEO The World Ends With You. She's looking down at the viewer with a pointy teeth smile."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\twewy\\2025\\1224-bday-coco\\251224-thmb-CocoBDay-D2-250.jpg",
+    "thumbnailAlt": "Coco",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "NTWEWY"
+    ],
+    "RelatedSeriesAndURL": [
+      [
+        "Happy Birthday",
+        "happy-birthday"
+      ]
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Happy Birthday Rindo!",
     "summary": "Also Happy Six Fanarts number 2!",
     "details": "",

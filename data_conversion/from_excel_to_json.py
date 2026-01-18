@@ -420,29 +420,29 @@ if __name__ == '__main__':
     
     # READ EXCEL FILE
     # TWEWY ----------------------------------------------------------- #
-    # twewy_art = ArtworkCategory(
-    #     sheet_name = 'TWEWY Series',
-    #     output_path = file_path_output_path,
-    #     fandoms_list = [
-    #             {
-    #                 "Section": "TWEWY",
-    #                 "Filename": "twewy-art"
-    #             },
-    #             {
-    #                 "Section": "NTWEWY",
-    #                 "Filename": "twewy-neo-art"
-    #             },
-    #             {
-    #                 "Section": "TWEWY, NTWEWY",
-    #                 "Filename": "twewy-series"
-    #             } 
-    #         ],
-    #     base_url = "art/twewy/"
-    # )
+    twewy_art = ArtworkCategory(
+        sheet_name = 'TWEWY Series',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": "TWEWY",
+                    "Filename": "twewy-art"
+                },
+                {
+                    "Section": "NTWEWY",
+                    "Filename": "twewy-neo-art"
+                },
+                {
+                    "Section": "TWEWY, NTWEWY",
+                    "Filename": "twewy-series"
+                } 
+            ],
+        base_url = "art/twewy/"
+    )
 
-    # for category in twewy_art.Fandoms:
-    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
-    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
+    for category in twewy_art.Fandoms:
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
 
     # # Write Related Series JSON
     # # Sort Series Enrties by index
