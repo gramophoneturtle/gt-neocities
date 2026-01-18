@@ -1,5 +1,64 @@
 [
     {
+        "PostDate": "2026-01-17"
+        ,"date": "2026-01-17"
+        ,"pubDate": "Sat, 17 Jan 2026"
+        ,"Site": "New artwork categories to have cross over artwork appear where they should: Pikmin, Project Moon, Splatoon, Super Puzzled Cat, Void Stranger. Removed cross over section for the time being. TWEWY artwork: Fixed some minor non-spoiler filtering between games vs series."
+        ,"ArtList": [
+            {
+                "Category": "Project Moon",
+                "List": [
+                    {
+                        "Title": "Chibi Dante Commission",
+                        "URL": "/art/project-moon/2025-06-26-chibi-dant/"
+                    },
+                    {
+                        "Title": "Rose - Rip Space Commission",
+                        "URL": "/art/project-moon/2025-08-23-rose-rip-s/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Reunion",
+                        "URL": "/art/twewy/2025-11-20-reunion/"
+                    },
+                    {
+                        "Title": "A Gentle Smile",
+                        "URL": "/art/twewy/2025-11-26-a-gentle-s/"
+                    },
+                    {
+                        "Title": "Alone - Null Positive",
+                        "URL": "/art/twewy/2025-12-02-alone-null/"
+                    },
+                    {
+                        "Title": "Warm Shiki",
+                        "URL": "/art/twewy/2025-12-17-warm-shiki/"
+                    },
+                    {
+                        "Title": "Coco's Day",
+                        "URL": "/art/twewy/2025-12-24-cocos-day/"
+                    },
+                    {
+                        "Title": "Happy Birthday Mother!!",
+                        "URL": "/art/twewy/2026-01-10-happy-birt/"
+                    }
+                ] 
+            },
+            {
+                "Category": "NTWEWY",
+                "List": [
+                    {
+                        "Title": "Light, Wind, and Dreams",
+                        "URL": "/art/twewy/2025-12-28-light-win/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2026-01-12"
         ,"date": "2026-01-12"
         ,"pubDate": "Mon, 12 Jan 2026"
@@ -79,11 +138,9 @@
             }
         ]
     },
-
     {
         "PostDate": "2025-10-23: ArtFight Artwork pt 1"
         ,"date": "2025-10-23"
-        ,"pubDate": "Thu, 23 Oct 2025"
         ,"pubDate": "Thu, 23 Oct 2025"
         ,"Site": ""
         ,"ArtList": [

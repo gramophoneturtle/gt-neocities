@@ -1,8 +1,18 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+const utilsTemp = require("util");
+
 // const path = require("path");
 // const eleventyImage = require("@11ty/eleventy-img");
 // const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+
+function sortaArtworkDate(a, b) {
+        let nameA = a.data.aArtwork.date.toUpperCase();
+        let nameB = b.data.aArtwork.date.toUpperCase();
+        if (nameA > nameB) return -1;
+        else if (nameA < nameB) return 1;
+        else return 0;
+    };
 
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
@@ -108,9 +118,6 @@ module.exports = function (eleventyConfig) {
       } 
     }
 
-    
-
-
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			// Only return content that was originally a markdown file
@@ -119,9 +126,123 @@ module.exports = function (eleventyConfig) {
 		});
   });
 
-  // collectionApi.getFilteredByTags("TagCOArt").array.forEach(item => {
-  //   // DO STUFF like add the fanomd tags that are not Crossover
+  // BAsed on when the were posted online, not to the site
+  eleventyConfig.addCollection("RecentArtworkPostDate", function (collectionApi) {
+    // Sort by artwork actual posted date on the intermets
+    return collectionApi.getFilteredByTags("MyArt").sort(function (a, b) {
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+    });
+  });
+
+
+  eleventyConfig.addFilter("dump", (obj) => {
+    return utilsTemp.inspect(obj);
+  });
+
+  let fandoms = ["Pikmin"];
+  // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];
+
+  // Pikmin
+  eleventyConfig.addCollection("PikminArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Pikmin");
+    })
+  });
+
+  // Project Moon
+  eleventyConfig.addCollection("ProjectMoonArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("ProjectMoon");
+    })
+  });
+
+  // // was hoping to automate it... huh
+  // fandoms.forEach(item => {
+  //   let newFandom = item + "Art";
+  //   eleventyConfig.addCollection(newFandom, function (collectionApi) {
+  //     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+	// 		  return item.data.aArtwork.fandom.includes(item);
+  //     })
+  //   });
   // });
+
+  eleventyConfig.addCollection("SuperPuzzledCatArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("super-puzzled-cat");
+    })
+  });
+
+  // Splatoon
+  eleventyConfig.addCollection("SplatoonArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Splatoon");
+    })
+  });
+
+  // TWEWY Series ------------------------------------------------------------//
+  eleventyConfig.addCollection("TWEWYSeriesArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("TWEWY") || item.data.aArtwork.fandom.includes("NTWEWY");
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  // Series No Spoilers
+  eleventyConfig.addCollection("TWEWYSeriesArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return (item.data.aArtwork.fandom.includes("TWEWY") || item.data.aArtwork.fandom.includes("NTWEWY")) &&  item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  // TWEWY - OG
+  eleventyConfig.addCollection("TWEWYArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("TWEWY");
+      })
+      .sort(sortaArtworkDate);
+  });
+
+   // TWEWY - OG, no spoilers
+  eleventyConfig.addCollection("TWEWYArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("TWEWY") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  // TWEWY - NEO
+  eleventyConfig.addCollection("NEOTWEWYArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("NTWEWY")
+      })
+      .sort(sortaArtworkDate);
+  });
+
+   // TWEWY - NEO, no spoilers
+  eleventyConfig.addCollection("NEOTWEWYArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("NTWEWY") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+  // -------------------------------------------------------------------------- //
+
+  eleventyConfig.addCollection("VoidStrangerArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("void-stranger");
+    })
+  });
 
   // RETURN ------------------------------------------------------------------- //
   return {

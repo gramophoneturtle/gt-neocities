@@ -1,5 +1,5 @@
 ---
-title: Recent
+title: Recent Site Artwork
 layout: /layouts/base.njk
 ---
 <p>Most recent artwork.</p>
@@ -7,7 +7,7 @@ layout: /layouts/base.njk
 {% assign spoilersClass = "content spoilers" %}
 {% assign nospoilersClass = "content" %}
 
-{% for post in collections.RecentArtwork | reverse | limit:20  %}
+{% for post in collections.RecentArtwork | reverse | limit:24  %}
     {% include 'partials/artwork/display/thunbnail-element.njk' %}
 {% endfor %}
 

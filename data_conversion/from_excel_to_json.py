@@ -200,6 +200,10 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
         if row['{0} URL'.format(site_name)]:
            artwork_dictionary[urls_key].append({'sitename': site_name, 'url': row['{0} URL'.format(site_name)]})
 
+        site_name = "Cara"
+        if row['{0} URL'.format(site_name)]:
+           artwork_dictionary[urls_key].append({'sitename': site_name, 'url': row['{0} URL'.format(site_name)]})
+
         # IMAGES -------------------------------------------------
         artwork_dictionary['imgs'] = make_img_list(row)
 
@@ -233,7 +237,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
             artwork_dictionary['vids'] = make_vid_list(row)
 
             # FANDOM LISTING -----------------------------------------
-            artwork_dictionary['fandom'] = row['fandom'].split(",")
+            artwork_dictionary['fandom'] = [x.strip() for x in row['fandom'].split(",")]
 
             # List of related artworks
             # Add Image thumbnail and alt text if present
@@ -253,8 +257,7 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
     return_list.append(tmp_dict)
     return return_list
 
-def addCategory(fandomKey = "", sheetName = ""):
-     # Asura's wrath----------------------------------------------------------- #
+def addCategorySingle(fandomKey = "", sheetName = ""):
     artworksCategories = ArtworkCategory(
         sheet_name = sheetName,
         output_path = file_path_output_path,
@@ -271,6 +274,48 @@ def addCategory(fandomKey = "", sheetName = ""):
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
+def addCategoryFromMultiple(fandomKey = "", sheetName = "", exclude_crossover=True):
+    artworksCategories = ArtworkCategory(
+        sheet_name = sheetName,
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": fandomKey,
+                    "Filename": "art-{0}".format(fandomKey.lower())
+                }
+            ],
+        base_url = "art/{0}/".format(fandomKey.lower()),
+    )
+
+    # OLD
+    for category in artworksCategories.Fandoms:
+        main(artworksCategories.SheetName, 
+             artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), 
+             fandoms = [category["Section"]], include_spoilers=True, 
+             base_url=artworksCategories.NewBaseURL,
+             fandoms_str=category["Section"],
+             exclude_crossover = exclude_crossover)
+        main(artworksCategories.SheetName, 
+             artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
+             fandoms = [category["Section"]], include_spoilers=False, 
+             base_url=artworksCategories.NewBaseURL,
+             fandoms_str=category["Section"],
+             exclude_crossover = exclude_crossover)
+   
+    # # NEW
+    # for category in artworksCategories.Fandoms:
+    #     main(artworksCategories.SheetName, 
+    #          artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
+    #          fandoms = [category["Section"]], include_spoilers=False, 
+    #          base_url=artworksCategories.NewBaseURL, 
+    #          fandoms_str=category["Section"])
+    #     main(artworksCategories.SheetName, 
+    #          artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), 
+    #          fandoms = [category["Section"]], include_spoilers=True, 
+    #          base_url=artworksCategories.NewBaseURL, 
+    #          fandoms_str=category["Section"])
+
+
 
 def method1(nsOnly: pandas.DataFrame,base_url) -> str:
     artwork_dictionary_list = make_url_dict(nsOnly,base_url)
@@ -280,7 +325,7 @@ def method1(nsOnly: pandas.DataFrame,base_url) -> str:
 
     return nested_json
 
-def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/", fandoms_str=""):
+def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, base_url="/", fandoms_str="", exclude_crossover=True):
     print('Processing. Sheet: {0}. Include Spoilers: {1}'.format(sheet_name, include_spoilers), end="")
     print(' Fandom: {0}.'.format(fandoms))
 
@@ -301,7 +346,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
                 'Tumblr URL',
                 'Pillowfort URL',
                 'Bluesky URL',
-                'Cohost URL', 'Mastodon URL', 'Sheezy URL'
+                'Cohost URL', 'Mastodon URL', 'Sheezy URL', 'Cara URL'
                 ]
         )
 
@@ -320,6 +365,11 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
     else:
         options = ['Yes','yes','']
         nightshadeOnly = nightshadeOnlyTMP[nightshadeOnlyTMP["Spoilers"].isin(options)]
+
+    # Filter by Crossover
+    if exclude_crossover:
+        nightshadeOnly = nightshadeOnly[~nightshadeOnly["fandom"].str.contains("Crossover", regex=False)]
+
 
     # Choose to filter by fandoms
     # 25.03: use fandom_str to filter by a fandom when multiple are listed - good for crossovers...kinda
@@ -365,34 +415,34 @@ if __name__ == '__main__':
     with open(file_path_output, 'r') as file:
         test_rel_series = json.load(file)
 
-    # twewy_related_series_list = RelatedSeriesList()
-    # twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
+    twewy_related_series_list = RelatedSeriesList()
+    twewy_related_series_list.loadSeriesOnlyFromJson(test_rel_series)
     
-    # # READ EXCEL FILE
-    # # TWEWY ----------------------------------------------------------- #
-    # twewy_art = ArtworkCategory(
-    #     sheet_name = 'TWEWY Series',
-    #     output_path = file_path_output_path,
-    #     fandoms_list = [
-    #             {
-    #                 "Section": "TWEWY",
-    #                 "Filename": "twewy-art"
-    #             },
-    #             {
-    #                 "Section": "NTWEWY",
-    #                 "Filename": "twewy-neo-art"
-    #             },
-    #             {
-    #                 "Section": "TWEWY, NTWEWY",
-    #                 "Filename": "twewy-series"
-    #             } 
-    #         ],
-    #     base_url = "art/twewy/"
-    # )
+    # READ EXCEL FILE
+    # TWEWY ----------------------------------------------------------- #
+    twewy_art = ArtworkCategory(
+        sheet_name = 'TWEWY Series',
+        output_path = file_path_output_path,
+        fandoms_list = [
+                {
+                    "Section": "TWEWY",
+                    "Filename": "twewy-art"
+                },
+                {
+                    "Section": "NTWEWY",
+                    "Filename": "twewy-neo-art"
+                },
+                {
+                    "Section": "TWEWY, NTWEWY",
+                    "Filename": "twewy-series"
+                } 
+            ],
+        base_url = "art/twewy/"
+    )
 
-    # for category in twewy_art.Fandoms:
-    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
-    #     main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
+    for category in twewy_art.Fandoms:
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=twewy_art.BaseURL)
+        main(twewy_art.SheetName, twewy_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=twewy_art.BaseURL)
 
     # # Write Related Series JSON
     # # Sort Series Enrties by index
@@ -475,7 +525,17 @@ if __name__ == '__main__':
     #     main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
     # ArtFight
-    addCategory("ArtFight","Other")
+    # addCategorySingle("ArtFight","Other")
+
+    ## ProjectMoon
+    # addCategorySingle("ProjectMoon","Other")
+    addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
+
+    # addCategoryFromMultiple("Pikmin","Other")
+    # addCategoryFromMultiple("void-stranger","Other")
+    # addCategoryFromMultiple("super-puzzled-cat","Other")
+    # addCategoryFromMultiple("Splatoon","Other")
+
 
     # HOW TO HANDLE THE CROSS OVER STUFF
     # xover ----------------------------------------------------------- #
@@ -500,12 +560,14 @@ if __name__ == '__main__':
              artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), 
              fandoms = [category["Section"]], include_spoilers=False, 
              base_url=artworksCategories.NewBaseURL, 
-             fandoms_str=category["Section"])
+             fandoms_str=category["Section"],
+             exclude_crossover=False)
         main(artworksCategories.SheetName, 
              artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), 
              fandoms = [category["Section"]], include_spoilers=True, 
              base_url=artworksCategories.NewBaseURL, 
-             fandoms_str=category["Section"])
+             fandoms_str=category["Section"]
+             ,exclude_crossover=False)
 
    
         

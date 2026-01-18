@@ -1,0 +1,16 @@
+---
+title: Splatoon - No Spoilers
+layout: /layouts/base.njk
+date: 2024-01-01
+---
+<p>Ordered by original post date.</p>
+
+{% assign spoilersClass = "content spoilers" %}
+{% assign nospoilersClass = "content" %}
+
+{% assign currentYear = "" %}
+{% for post in collections.SplatoonArtNoSpoilers | reverse %}
+    {% include 'partials/listing-artwork-general.njk' %}
+{% endfor %}
+
+<script src="/js/filterByTag.js"></script>
