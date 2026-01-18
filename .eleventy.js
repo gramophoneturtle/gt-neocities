@@ -183,18 +183,30 @@ module.exports = function (eleventyConfig) {
     })
   });
 
+  // TWEWY Series ------------------------------------------------------------//
+  eleventyConfig.addCollection("TWEWYSeriesArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("TWEWY") || item.data.aArtwork.fandom.includes("NTWEWY");
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  // Series No Spoilers
+  eleventyConfig.addCollection("TWEWYSeriesArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return (item.data.aArtwork.fandom.includes("TWEWY") || item.data.aArtwork.fandom.includes("NTWEWY")) &&  item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
   // TWEWY - OG
   eleventyConfig.addCollection("TWEWYArt", function (collectionApi) {
-    
-    let temp = collectionApi.getFilteredByTags("MyArt")
+    return collectionApi.getFilteredByTags("MyArt")
       .filter(function (item) { 
         return item.data.aArtwork.fandom.includes("TWEWY");
-      });
-    // let temp2 = temp.filter(function (item2) { 
-    //     return !item2.data.aArtwork.fandom.find( (item3) => item3 === "NTWEWY");
-    //   })
-      temp2 = temp.filter((item2) => item2.data.aArtwork.fandom !== "NTWEWY");
-    return temp2
+      })
       .sort(sortaArtworkDate);
   });
 
@@ -203,9 +215,6 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt")
       .filter(function (item) { 
         return item.data.aArtwork.fandom.includes("TWEWY") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
-      })
-      .filter(function (item) { 
-        return !item.data.aArtwork.fandom.includes("NTWEWY");
       })
       .sort(sortaArtworkDate);
   });
@@ -227,6 +236,7 @@ module.exports = function (eleventyConfig) {
       })
       .sort(sortaArtworkDate);
   });
+  // -------------------------------------------------------------------------- //
 
   eleventyConfig.addCollection("VoidStrangerArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
