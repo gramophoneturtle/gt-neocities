@@ -236,6 +236,15 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Splatoon");
     })
+    .sort(sortaArtworkDate);
+  });
+
+  // Splatoon
+  eleventyConfig.addCollection("SplatoonArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Splatoon") &&  item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
   });
 
   // TWEWY Series ------------------------------------------------------------//

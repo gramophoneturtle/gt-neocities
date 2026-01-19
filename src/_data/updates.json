@@ -2,32 +2,24 @@
     {
         "PostDate": "2026-01-22"
         ,"date": "2026-01-22"
-        ,"pubDate": "Sat, 17 Jan 2026"
+        ,"pubDate": "Sun, 22 Jan 2026"
         ,"Site": "Fixed Project Moon section sorting. Added Made By Humans / No AI icon. Added a horizontal gallery of recently added artwork to the site on the home and art pages."
         ,"ArtList": [
             {
-                "Category": "P",
+                "Category": "Splatoon",
                 "List": [
                     {
-                        "Title": "C",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "R",
-                        "URL": "/"
+                        "Title": "Cuties!",
+                        "URL": "/art/gen/2025-06-10-cuties/"
                     }
                 ] 
             },
             {
-                "Category": "T",
+                "Category": "Xenoblade X",
                 "List": [
                     {
-                        "Title": "R",
-                        "URL": "/"
-                    },
-                    {
-                        "Title": "A",
-                        "URL": "/"
+                        "Title": "Ignir - Overwhelm!",
+                        "URL": "/art/xcx/2025-07-05-ignir-over/"
                     }
                 ]
             }

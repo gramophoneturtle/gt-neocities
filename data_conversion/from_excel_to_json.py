@@ -527,8 +527,8 @@ if __name__ == '__main__':
     ## ArtFight
     addCategorySingle("ArtFight","Other")
 
-    ## ProjectMoon
-    # addCategorySingle("ProjectMoon","Other")
+    ## Fandoms
+    addCategorySingle("Splatoon","Other")
     addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
 
     # addCategoryFromMultiple("Pikmin","Other")
