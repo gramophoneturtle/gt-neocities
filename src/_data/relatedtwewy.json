@@ -397,6 +397,13 @@
         "URL": "art/twewy/2025-11-01-happy-birt",
         "ThumbnailURL": "\\img\\art\\twewy\\2025\\1101-bday-josh\\251101-thmb-joshwave-250.jpg",
         "ThumbnailAlt": "Joshua"
+      },
+      {
+        "Index": 20251224,
+        "Name": "Coco's Day",
+        "URL": "art/twewy/2025-12-24-cocos-day",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\1224-bday-coco\\251224-thmb-CocoBDay-D2-250.jpg",
+        "ThumbnailAlt": "Coco"
       }
     ]
   },
@@ -469,13 +476,6 @@
     "SeriesEntries": [
       {
         "Index": -1,
-        "Name": "Kubo, Higher Vibe Frequency.",
-        "URL": "art/twewy/2021-11-20-kubo-high",
-        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1120-hvfkubo\\20211120-thmb-Kubo-L1L2-250.jpg",
-        "ThumbnailAlt": "Kubo"
-      },
-      {
-        "Index": -1,
         "Name": "Mother and Father Are Watching",
         "URL": "art/twewy/2022-03-21-mother-and",
         "ThumbnailURL": "\\img\\art\\twewy\\2022\\0321-motherwatches\\20220321-thmb-MotherWatches-nDEFV1-pDEFV2.jpg",
@@ -487,6 +487,13 @@
         "URL": "art/twewy/2021-11-22-hanekoma",
         "ThumbnailURL": "",
         "ThumbnailAlt": ""
+      },
+      {
+        "Index": -1,
+        "Name": "Kubo, Higher Vibe Frequency.",
+        "URL": "art/twewy/2021-11-20-kubo-high",
+        "ThumbnailURL": "\\img\\art\\twewy\\2021\\1120-hvfkubo\\20211120-thmb-Kubo-L1L2-250.jpg",
+        "ThumbnailAlt": "Kubo"
       },
       {
         "Index": 4,
@@ -786,6 +793,13 @@
         "URL": "art/twewy/2023-12-24-warm-drink",
         "ThumbnailURL": "\\img\\art\\twewy\\2023\\1224-holineku\\20231224-thmb-HappyHolidaysNeku-L1L2-250.jpg",
         "ThumbnailAlt": "Neku"
+      },
+      {
+        "Index": 20251217,
+        "Name": "Warm Shiki",
+        "URL": "art/twewy/2025-12-17-warm-shiki",
+        "ThumbnailURL": "\\img\\art\\twewy\\2025\\1217-warmshiki\\251217-thmb-WarmShiki-D2-250.jpg",
+        "ThumbnailAlt": "Shiki"
       }
     ]
   }

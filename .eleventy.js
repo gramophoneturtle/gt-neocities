@@ -7,12 +7,21 @@ const utilsTemp = require("util");
 // const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 function sortaArtworkDate(a, b) {
-        let nameA = a.data.aArtwork.date.toUpperCase();
-        let nameB = b.data.aArtwork.date.toUpperCase();
-        if (nameA > nameB) return -1;
-        else if (nameA < nameB) return 1;
-        else return 0;
-    };
+  let nameA = a.data.aArtwork.date.toUpperCase();
+  let nameB = b.data.aArtwork.date.toUpperCase();
+  if (nameA > nameB) return -1;
+  else if (nameA < nameB) return 1;
+  else return 0;
+};
+
+function sortaArtworkWebsiteDate(a, b) {
+  let dateA = a.data.aArtwork.WebsiteDateUTC;
+  let dateB = b.data.aArtwork.WebsiteDateUTC;
+  if (dateA > dateB) return -1;
+  else if (dateA < dateB) return 1;
+  else return 0;
+};
+
 
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
@@ -39,6 +48,9 @@ module.exports = function (eleventyConfig) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyArt2All", "twewyArtNoSpoilers");
   });
+
+
+
 
   // SORTING ------------------------------------------------------------------- // 
   // Sort by TITLE
@@ -103,7 +115,6 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-
   // Filter artwork to get the most recently added ones
   eleventyConfig.addCollection("RecentArtwork", function (collectionApi) {
     // Get URLs from the latest 3 Update post into an array
@@ -123,7 +134,31 @@ module.exports = function (eleventyConfig) {
 			// Only return content that was originally a markdown file
 			let artworkURL = item.page.url;
 			return urlArr.includes(artworkURL);
-		});
+		}).sort(sortaArtworkWebsiteDate);
+  });
+
+  // Filter artwork to get the most recently added ones
+  eleventyConfig.addCollection("RecentArtworkNoSpoilers", function (collectionApi) {
+    // Get URLs from the latest 3 Update post into an array
+    var urlArr = [];
+    let artworkList;
+    for (let k= 0; k < 5; k++) {
+      artworkList = collectionApi.getFilteredByTags("UpdatePosts")[k].data.posts.ArtList;
+      for (let i = 0; i < artworkList.length; i++) {
+        for (let j = 0; j < artworkList[i].List.length; j++) {
+          urlArr.push(artworkList[i].List[j].URL);
+        }
+      } 
+    }
+
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) {
+        // Only return content that was originally a markdown file
+        let artworkURL = item.page.url;
+        return urlArr.includes(artworkURL);
+		  })
+      .sort(sortaArtworkWebsiteDate);
   });
 
   // BAsed on when the were posted online, not to the site
@@ -138,10 +173,28 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // BAsed on when the were posted online, not to the site
+  eleventyConfig.addCollection("RecentArtworkPostDateNoSpoilers", function (collectionApi) {
+    // Sort by artwork actual posted date on the intermets
+    return collectionApi.getFilteredByTags("MyArt")
+    .filter(function (item) { 
+        return item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+    .sort(function (a, b) {
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+    });
+  });
+
 
   eleventyConfig.addFilter("dump", (obj) => {
     return utilsTemp.inspect(obj);
   });
+
+  // FANDOMS -------------------------------------- //
 
   let fandoms = ["Pikmin"];
   // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];
@@ -155,9 +208,11 @@ module.exports = function (eleventyConfig) {
 
   // Project Moon
   eleventyConfig.addCollection("ProjectMoonArt", function (collectionApi) {
-    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			return item.data.aArtwork.fandom.includes("ProjectMoon");
-    })
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) {
+        return item.data.aArtwork.fandom.includes("ProjectMoon");
+      })
+      .sort(sortaArtworkDate);
   });
 
   // // was hoping to automate it... huh
@@ -181,6 +236,15 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Splatoon");
     })
+    .sort(sortaArtworkDate);
+  });
+
+  // Splatoon
+  eleventyConfig.addCollection("SplatoonArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Splatoon") &&  item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
   });
 
   // TWEWY Series ------------------------------------------------------------//

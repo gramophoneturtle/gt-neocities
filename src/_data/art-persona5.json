@@ -6,6 +6,7 @@
     "characters": "Loki",
     "date": "2021-02-12",
     "dateYear": "2021",
+    "WebsiteDateUTC": "",
     "uniqueUrl": "2021-02-12-hello-ther",
     "UniqueURLKey": "art/persona5/2021-02-12-hello-ther",
     "spoilers": "yes",
@@ -25,6 +26,14 @@
       {
         "sitename": "cohost",
         "url": "https://cohost.org/gramophoneturtle/post/5336026-hello-there"
+      },
+      {
+        "sitename": "Sheezy",
+        "url": "https://sheezy.art/gramophoneturtle/gallery/hello-there"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/487440b5-0c5c-4140-b192-b6be3c80ebe8"
       }
     ],
     "imgs": [
@@ -57,6 +66,7 @@
     "characters": "Akechi, Robin Hood",
     "date": "2019-03-16",
     "dateYear": "2019",
+    "WebsiteDateUTC": "2024-11-10 00:00:00",
     "uniqueUrl": "2019-03-16-crow-no-mo",
     "UniqueURLKey": "art/persona5/2019-03-16-crow-no-mo",
     "spoilers": "yes",

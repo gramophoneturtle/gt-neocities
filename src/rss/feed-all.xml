@@ -4,9 +4,39 @@
         <title>Gramophone Turtle's RSS Feed</title>
             <description>All Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-           <lastBuildDate> Sat, 17 Jan 2026 </lastBuildDate>
+           <lastBuildDate> Sun, 18 Jan 2026 </lastBuildDate>
     
     <ttl>20000</ttl>
+		<item>
+			<title>2026-01-18</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2026-01-18/</link>
+			<description>
+        <![CDATA[
+                <p>Art</p>
+                <details>
+                    <summary>Splatoon</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/gen/2025-06-10-cuties/"> Cuties!</a>
+                        </li>
+                        </ul>
+                </details>
+                <details>
+                    <summary>Xenoblade X</summary>
+                    <ul>
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org/art/xcx/2025-07-05-ignir-over/"> Ignir - Overwhelm!</a>
+                        </li>
+                        </ul>
+                </details>
+                <p>Site</p> 
+                <p>Fixed Project Moon section sorting. Added Made By Humans / No AI icon. Added a horizontal gallery of recently added artwork to the site on the home and art pages.</p>
+                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+        ]]>
+			</description>
+			<pubDate>Sun, 18 Jan 2026</pubDate>
+			<guid>https://gramophoneturtle.neocities.org/updates/2026-01-18/</guid>
+		</item>
 		<item>
 			<title>2026-01-17</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2026-01-17/</link>

@@ -1,0 +1,16 @@
+<div class="hozizontal-gallery">
+    <p>Recently Added To This Site, Spoiler Free</p>
+    
+    <div class="scroll-container">
+        <div>
+        {% for post in collections.RecentArtworkNoSpoilers | reverse | limit:24  %}
+            <a href="{{ post.url }}"> 
+                <img
+                    src="{{ post.data.aArtwork.thumbnailUrl }}"
+                    alt="{{ post.data.aArtwork.thumbnailAlt }}"
+                >
+            </a> 
+        {% endfor %}
+        </div>
+    </div> 
+</div>

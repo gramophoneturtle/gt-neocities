@@ -1,11 +1,73 @@
 [
   {
+    "title": "Ignir - Overwhelm!",
+    "summary": "Featuring Ignir, with the Chrome Pillum II, belonging to igniedelfuego on Tumblr from a raffle. I had fun drawing a fiery looking Cross!",
+    "details": "",
+    "characters": "Ignir",
+    "date": "2025-07-05",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "2026-01-18 00:00:00",
+    "uniqueUrl": "2025-07-05-ignir-over",
+    "UniqueURLKey": "art/xcx/2025-07-05-ignir-over",
+    "spoilers": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/788253936740188160/ignir-overwhelm-featuring-ignir-with-the"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6415722"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3ltadpv5wn22f"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/114801937142820307"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/d3787888-fbf8-4cc1-960f-9f0e3f5a3260"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\07\\0705-Ignir\\250705-Ignir-Purple-L1D2-800.jpg",
+        "alt": "Digital art of a Xenoblade X avatar/Cross called Ignir, raising and thrusting her javelin upwards with a purple border. The Art's name \"OVERWHELM\" is written in white at the bottom, with \"IGNIR\" written above and \"IGNIEDELFUEGO\", the Cross's owner, written below."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\2025\\07\\0705-Ignir\\250705_Ignir-Default-L1D2-800.jpg",
+        "alt": "Digital art of a Xenoblade X avatar/Cross called Ignir, raising and thrusting her javelin upwards with a light blue and green border. The Art's name \"OVERWHELM\" is written in white at the bottom, with \"IGNIR\" written above and \"IGNIEDELFUEGO\", the Cross's owner, written below."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\2025\\07\\0705-Ignir\\250705-Ignir-NoBorder-L1D2-800.jpg",
+        "alt": "Digital art of a Xenoblade X avatar/Cross called Ignir, raising and thrusting her javelin upwards."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\07\\0705-Ignir\\250705-thmb-Ignir-Purple-L1D2-250.jpg",
+    "thumbnailAlt": "Ignir",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "XCX"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "YCH Christie-pon",
     "summary": "YCH Nopon Commission for kingddd.bsky.social's Cross, Christie, as a Nopon! Thank you for the commission!",
     "details": "",
     "characters": "Nopon, Christie",
     "date": "2025-06-05",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-06-05 00:00:00",
     "uniqueUrl": "2025-06-05-ych-christ",
     "UniqueURLKey": "art/xcx/2025-06-05-ych-christ",
     "spoilers": "no",
@@ -52,6 +114,7 @@
     "characters": "Nopon, Sea, Nil",
     "date": "2025-06-02",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-06-05 00:00:00",
     "uniqueUrl": "2025-06-02-nopon-prid",
     "UniqueURLKey": "art/xcx/2025-06-02-nopon-prid",
     "spoilers": "no",
@@ -103,6 +166,7 @@
     "characters": "Lin, Frye, Alexa, Liesel, Nopon",
     "date": "2025-06-02",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-06-05 00:00:00",
     "uniqueUrl": "2025-06-02-nopon-frie",
     "UniqueURLKey": "art/xcx/2025-06-02-nopon-frie",
     "spoilers": "no",
@@ -155,6 +219,7 @@
     "characters": "Sera",
     "date": "2025-05-15",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-05-17 00:00:00",
     "uniqueUrl": "2025-05-15-sera-essen",
     "UniqueURLKey": "art/xcx/2025-05-15-sera-essen",
     "spoilers": "no",
@@ -178,6 +243,10 @@
       {
         "sitename": "Sheezy",
         "url": "https://sheezy.art/gramophoneturtle/gallery/sera-essence-exchange"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/cac0071e-474a-4980-8a8d-a14dfa16d24d"
       }
     ],
     "imgs": [
@@ -221,6 +290,7 @@
     "characters": "Xenoblade X, Rook",
     "date": "2025-05-14",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-05-17 00:00:00",
     "uniqueUrl": "2025-05-14-rook-decoy",
     "UniqueURLKey": "art/xcx/2025-05-14-rook-decoy",
     "spoilers": "no",
@@ -240,6 +310,10 @@
       {
         "sitename": "Mastodon",
         "url": "https://universeodon.com/deck/@gramophoneturtle/114509264519694162"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/0eaa663b-f4f8-4740-b98d-d2772265fc4a"
       }
     ],
     "imgs": [
@@ -283,6 +357,7 @@
     "characters": "Neil, Murderess, Blood Lobster",
     "date": "2025-05-04",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-05-17 00:00:00",
     "uniqueUrl": "2025-05-04-nopon-frie",
     "UniqueURLKey": "art/xcx/2025-05-04-nopon-frie",
     "spoilers": "no",
@@ -335,6 +410,7 @@
     "characters": "L, Yelv, H.B., Phog",
     "date": "2025-05-01",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-05-17 00:00:00",
     "uniqueUrl": "2025-05-01-nopon-frie",
     "UniqueURLKey": "art/xcx/2025-05-01-nopon-frie",
     "spoilers": "no",
@@ -387,6 +463,7 @@
     "characters": "Lao, Lin, Elma, Tatsu, Irina, Gwin, Doug, Sera",
     "date": "2025-04-25",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-05-17 00:00:00",
     "uniqueUrl": "2025-04-25-nopon-frie",
     "UniqueURLKey": "art/xcx/2025-04-25-nopon-frie",
     "spoilers": "no",
@@ -439,6 +516,7 @@
     "characters": "Lin, Elma, Tatsu, Irina, Gwin, Sera",
     "date": "2025-04-19",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2025-04-19-nopon-frie",
     "UniqueURLKey": "art/xcx/2025-04-19-nopon-frie",
     "spoilers": "no",
@@ -491,6 +569,7 @@
     "characters": "Elma",
     "date": "2025-04-16",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2025-04-16-elma-pract",
     "UniqueURLKey": "art/xcx/2025-04-16-elma-pract",
     "spoilers": "no",
@@ -537,6 +616,7 @@
     "characters": "Tatsu",
     "date": "2025-04-03",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2025-04-03-tatsu",
     "UniqueURLKey": "art/xcx/2025-04-03-tatsu",
     "spoilers": "no",
@@ -583,6 +663,7 @@
     "characters": "Yelv, Sera",
     "date": "2025-03-30",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2025-03-30-potato-clu",
     "UniqueURLKey": "art/xcx/2025-03-30-potato-clu",
     "spoilers": "no",
@@ -629,6 +710,7 @@
     "characters": "Sera",
     "date": "2025-03-18",
     "dateYear": "2025",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2025-03-18-sera-is-re",
     "UniqueURLKey": "art/xcx/2025-03-18-sera-is-re",
     "spoilers": "no",
@@ -675,6 +757,7 @@
     "characters": "Nagi",
     "date": "2017-08-21",
     "dateYear": "2017",
+    "WebsiteDateUTC": "2024-11-10 00:00:00",
     "uniqueUrl": "2017-08-21-nagi-sketc",
     "UniqueURLKey": "art/xcx/2017-08-21-nagi-sketc",
     "spoilers": "no",
@@ -709,6 +792,7 @@
     "characters": "Eleonora",
     "date": "2017-08-06",
     "dateYear": "2017",
+    "WebsiteDateUTC": "2024-11-10 00:00:00",
     "uniqueUrl": "2017-08-06-eleonora",
     "UniqueURLKey": "art/xcx/2017-08-06-eleonora",
     "spoilers": "no",
@@ -747,6 +831,7 @@
     "characters": "Cross",
     "date": "2017-07-18",
     "dateYear": "2017",
+    "WebsiteDateUTC": "2024-11-10 00:00:00",
     "uniqueUrl": "2017-07-18-seras-kni",
     "UniqueURLKey": "art/xcx/2017-07-18-seras-kni",
     "spoilers": "No",
@@ -785,6 +870,7 @@
     "characters": "Celica",
     "date": "2016-04-30",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-30-celica-2",
     "UniqueURLKey": "art/xcx/2016-04-30-celica-2",
     "spoilers": "no",
@@ -825,6 +911,7 @@
     "characters": "Lin, Sera, Tatsu",
     "date": "2016-04-24",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-24-family-hel",
     "UniqueURLKey": "art/xcx/2016-04-24-family-hel",
     "spoilers": "no",
@@ -890,6 +977,7 @@
     "characters": "Celica",
     "date": "2016-04-23",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-23-celica-1",
     "UniqueURLKey": "art/xcx/2016-04-23-celica-1",
     "spoilers": "no",
@@ -930,6 +1018,7 @@
     "characters": "Sera, Yelv",
     "date": "2016-04-17",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-17-cross-and",
     "UniqueURLKey": "art/xcx/2016-04-17-cross-and",
     "spoilers": "no",
@@ -964,6 +1053,7 @@
     "characters": "Lao, Lin, Elma, Sera",
     "date": "2016-04-14",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-14-family-hel",
     "UniqueURLKey": "art/xcx/2016-04-14-family-hel",
     "spoilers": "no",
@@ -1024,6 +1114,7 @@
     "characters": "Elma",
     "date": "2016-04-08",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-08-elma-expre",
     "UniqueURLKey": "art/xcx/2016-04-08-elma-expre",
     "spoilers": "no",
@@ -1064,6 +1155,7 @@
     "characters": "Lao",
     "date": "2016-04-04",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-04-lao-expres",
     "UniqueURLKey": "art/xcx/2016-04-04-lao-expres",
     "spoilers": "no",
@@ -1104,6 +1196,7 @@
     "characters": "Tatsu, Lao",
     "date": "2016-04-01",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-19 00:00:00",
     "uniqueUrl": "2016-04-01-tatsu-tots",
     "UniqueURLKey": "art/xcx/2016-04-01-tatsu-tots",
     "spoilers": "no",
@@ -1149,6 +1242,7 @@
     "characters": "Lin",
     "date": "2016-03-28",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2016-03-28-lin-expres",
     "UniqueURLKey": "art/xcx/2016-03-28-lin-expres",
     "spoilers": "no",
@@ -1189,6 +1283,7 @@
     "characters": "Sera",
     "date": "2016-03-19",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2016-03-19-sera-pose",
     "UniqueURLKey": "art/xcx/2016-03-19-sera-pose",
     "spoilers": "no",
@@ -1223,6 +1318,7 @@
     "characters": "Lin, Lao, Tatsu, Sera",
     "date": "2016-03-16",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2016-03-16-lin-lao-a",
     "UniqueURLKey": "art/xcx/2016-03-16-lin-lao-a",
     "spoilers": "no",
@@ -1263,6 +1359,7 @@
     "characters": "Sera",
     "date": "2016-03-12",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2016-03-12-sera-armou",
     "UniqueURLKey": "art/xcx/2016-03-12-sera-armou",
     "spoilers": "no",
@@ -1302,6 +1399,7 @@
     "characters": "Sera",
     "date": "2016-03-09",
     "dateYear": "2016",
+    "WebsiteDateUTC": "2025-04-09 00:00:00",
     "uniqueUrl": "2016-03-09-sera-pract",
     "UniqueURLKey": "art/xcx/2016-03-09-sera-pract",
     "spoilers": "no",
