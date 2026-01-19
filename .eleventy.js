@@ -14,6 +14,15 @@ function sortaArtworkDate(a, b) {
   else return 0;
 };
 
+function sortaArtworkWebsiteDate(a, b) {
+  let dateA = a.data.aArtwork.WebsiteDateUTC;
+  let dateB = b.data.aArtwork.WebsiteDateUTC;
+  if (dateA > dateB) return -1;
+  else if (dateA < dateB) return 1;
+  else return 0;
+};
+
+
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -39,6 +48,9 @@ module.exports = function (eleventyConfig) {
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
     return collectionApi.getFilteredByTags("twewyArt2All", "twewyArtNoSpoilers");
   });
+
+
+
 
   // SORTING ------------------------------------------------------------------- // 
   // Sort by TITLE
@@ -122,7 +134,7 @@ module.exports = function (eleventyConfig) {
 			// Only return content that was originally a markdown file
 			let artworkURL = item.page.url;
 			return urlArr.includes(artworkURL);
-		});
+		}).sort(sortaArtworkWebsiteDate);
   });
 
   // Filter artwork to get the most recently added ones
@@ -140,11 +152,13 @@ module.exports = function (eleventyConfig) {
     }
 
     // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
-    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			// Only return content that was originally a markdown file
-			let artworkURL = item.page.url;
-			return urlArr.includes(artworkURL);
-		});
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) {
+        // Only return content that was originally a markdown file
+        let artworkURL = item.page.url;
+        return urlArr.includes(artworkURL);
+		  })
+      .sort(sortaArtworkWebsiteDate);
   });
 
   // BAsed on when the were posted online, not to the site
