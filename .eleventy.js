@@ -7,12 +7,12 @@ const utilsTemp = require("util");
 // const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 function sortaArtworkDate(a, b) {
-        let nameA = a.data.aArtwork.date.toUpperCase();
-        let nameB = b.data.aArtwork.date.toUpperCase();
-        if (nameA > nameB) return -1;
-        else if (nameA < nameB) return 1;
-        else return 0;
-    };
+  let nameA = a.data.aArtwork.date.toUpperCase();
+  let nameB = b.data.aArtwork.date.toUpperCase();
+  if (nameA > nameB) return -1;
+  else if (nameA < nameB) return 1;
+  else return 0;
+};
 
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
@@ -103,9 +103,30 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-
   // Filter artwork to get the most recently added ones
   eleventyConfig.addCollection("RecentArtwork", function (collectionApi) {
+    // Get URLs from the latest 3 Update post into an array
+    var urlArr = [];
+    let artworkList;
+    for (let k= 0; k < 5; k++) {
+      artworkList = collectionApi.getFilteredByTags("UpdatePosts")[k].data.posts.ArtList;
+      for (let i = 0; i < artworkList.length; i++) {
+        for (let j = 0; j < artworkList[i].List.length; j++) {
+          urlArr.push(artworkList[i].List[j].URL);
+        }
+      } 
+    }
+
+    // ge filtered by Tags - is requiring BOTH tags - so good for spoiler tagging? 
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			// Only return content that was originally a markdown file
+			let artworkURL = item.page.url;
+			return urlArr.includes(artworkURL);
+		});
+  });
+
+  // Filter artwork to get the most recently added ones
+  eleventyConfig.addCollection("RecentArtworkNoSpoilers", function (collectionApi) {
     // Get URLs from the latest 3 Update post into an array
     var urlArr = [];
     let artworkList;
@@ -142,6 +163,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dump", (obj) => {
     return utilsTemp.inspect(obj);
   });
+
+  // FANDOMS -------------------------------------- //
 
   let fandoms = ["Pikmin"];
   // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];

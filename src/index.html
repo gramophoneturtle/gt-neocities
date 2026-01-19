@@ -7,6 +7,17 @@ layout: layouts/base.njk
 <p>This will be my art and maybe one day fandom page! Meaning, not only will there be ART on here, but also...some of the TWEWY language comparison stuff? Heck yeah, yeah?
     Feel free to check stuff out, but it will probably change a lot until it's ready to launch!</p>
 
+ <div class="scroll-container">
+    {% for post in collections.RecentArtworkNoSpoilers | reverse | limit:24  %}
+        <a href="{{ post.url }}"> 
+            <img
+                src="{{ post.data.aArtwork.thumbnailUrl }}"
+                alt="{{ post.data.aArtwork.thumbnailAlt }}"
+            >
+        </a> 
+    {% endfor %}
+</div> 
+
 <p>{% include 'partials/rss-feed-links.njk' %}</p>
 
 <p>Enjoy your stay!</p> 
