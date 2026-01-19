@@ -1,0 +1,46 @@
+---json
+{
+  "permalink": "feed-art.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Gramophone Turtle's RSS Feed",
+    "description": "Site, New Art and Archive Art!!!",
+	  "language": "en",
+    "base": "https://gramophoneturtle.neocities.org",
+    "author": {
+      "name": "Gramophone Turtle"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+{# <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.base | addPathPrefixToFullUrl }}" xmlns:atom="http://www.w3.org/2005/Atom"> #}
+	<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.base }}" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ metadata.title }}</title>
+    <description>{{ metadata.description }}</description>
+    <link>{{ metadata.base }}</link>
+    {% set singlePost = collections.UpdatePosts | first %}
+    <ttl>20000</ttl>
+
+    <lastBuildDate> {{singlePost.data.posts.pubDate}} </lastBuildDate>
+    
+    {%- for post in collections.UpdatePosts  %}
+		{%- set items = [metadata.base, post.url] -%}
+		{%- set absolutePostUrl = items | join  %}
+		<item>
+			<title>{{ post.data.posts.PostDate }}</title>
+			<link>{{ absolutePostUrl }}</link>
+			<description>
+        <![CDATA[
+				{%- set singlePost = post -%}
+				{% include 'partials/updates/update-rss-feeds-art.njk' %}
+        {% include 'partials/updates/update-rss-footer.njk' %}
+        ]]>
+			</description>
+			<pubDate>{{ post.data.posts.pubDate }}</pubDate>
+			<guid>{{ absolutePostUrl }}</guid>
+		</item>
+    {%- endfor %}
+  </channel>
+</rss>

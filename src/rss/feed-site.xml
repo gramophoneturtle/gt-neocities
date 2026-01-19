@@ -4,9 +4,22 @@
         <title>Gramophone Turtle's RSS Feed - Site</title>
             <description>Site Updates</description>
             <link>https://gramophoneturtle.neocities.org</link>
-           	<lastBuildDate> Sat, 17 Jan 2026 </lastBuildDate>
-    
-    <ttl>20000</ttl>
+           	<ttl>20000</ttl>
+
+    		<lastBuildDate> Sun, 18 Jan 2026 </lastBuildDate>
+		<item>
+			<title>2026-01-18</title>
+			<link>https://gramophoneturtle.neocities.org/updates/2026-01-18/</link>
+			<description>
+        <![CDATA[
+                <p>Site</p> 
+                <p>Fixed Project Moon section sorting. Added Made By Humans / No AI icon. Added a horizontal gallery of recently added artwork to the site on the home and art pages.</p>
+                <p>More <a href="https://gramophoneturtle.neocities.org/updates/">Updates.</a></p>
+        ]]>
+			</description>
+			<pubDate>Sun, 18 Jan 2026</pubDate>
+			<guid>https://gramophoneturtle.neocities.org/updates/2026-01-18/</guid>
+		</item>
 		<item>
 			<title>2026-01-17</title>
 			<link>https://gramophoneturtle.neocities.org/updates/2026-01-17/</link>

@@ -1,0 +1,18 @@
+            {%- if singlePost.data.posts.Art -%}
+                {{ "<p>Art</p><p>" | escape }}{{ singlePost.data.posts.Art }} {{ "</p>" | escape }}
+            {%- endif -%}
+            {%- if singlePost.data.posts.ArtList %}
+                <p>Art</p> 
+                {%- for cate in singlePost.data.posts.ArtList %}
+                <details>
+                    <summary>{{ cate.Category }}</summary>
+                    <ul>
+                        {% for item in cate.List -%}
+                        <li>
+                            <a href= "https://gramophoneturtle.neocities.org{{ item.URL }}"> {{ item.Title }}</a>
+                        </li>
+                        {% endfor -%}
+                    </ul>
+                </details>
+                {%- endfor -%}
+            {%- endif -%}
