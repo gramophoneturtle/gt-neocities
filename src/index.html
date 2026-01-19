@@ -2,38 +2,23 @@
 title: Hello There!
 layout: layouts/base.njk
 ---
-<p>Heyo and welcome, to a sneak peak of my website!</p>
+<p>Heyo and welcome, to my art and many things website!</p>
+<p>This is my WIP art and fandom page! Meaning, not only will there be ART on here, but also some of the TWEWY language comparison stuff. Enjoy your stay!</p>
 
-<p>This will be my art and maybe one day fandom page! Meaning, not only will there be ART on here, but also...some of the TWEWY language comparison stuff? Heck yeah, yeah?
-    Feel free to check stuff out, but it will probably change a lot until it's ready to launch!</p>
+{% include 'partials/artwork/display/horizontal-gallery.njk' %}
 
-    <div class="hozizontal-gallery">
-        <p>Recently Added To This Site</p>
-        
-        <div class="scroll-container">
-            <div>
-            {% for post in collections.RecentArtworkNoSpoilers | reverse | limit:24  %}
-                <a href="{{ post.url }}"> 
-                    <img
-                        src="{{ post.data.aArtwork.thumbnailUrl }}"
-                        alt="{{ post.data.aArtwork.thumbnailAlt }}"
-                    >
-                </a> 
-            {% endfor %}
-            </div>
-        </div> 
-    </div>
 
-<p>{% include 'partials/rss-feed-links.njk' %}</p>
 
-<p>Enjoy your stay!</p> 
+    <p>
 
-<img 
-src="https://gramophoneturtle.neocities.org/img/gramophoneturtle-button.png"
-alt="Gramophone Turtle" style="image-rendering: pixelated;">
-<a href="https://no-ai-icon.com/statement/?url=https://gramophoneturtle.neocities.org/">
-    <img src="/img/site/no-ai-icon-01.png" alt="! Made By Humans" style="height: 5em; margin-left: 1em;">
-</a>
+        <img 
+        src="https://gramophoneturtle.neocities.org/img/gramophoneturtle-button.png"
+        alt="Gramophone Turtle" style="image-rendering: pixelated;">
+        <a href="https://no-ai-icon.com/statement/?url=https://gramophoneturtle.neocities.org/"><img src="/img/site/no-ai-icon-01.png" alt="! Made By Humans" style="height: 5em; margin-left: 1em; margin-right: 1em;"></a>
+    </p>
+    <p>
+        {% include 'partials/rss-feed-links.njk' %}
+    </p>
 
 <h2>Latest Update</h2>
     {% assign singlePost = collections.UpdatePosts | first %}

@@ -3,8 +3,12 @@ title: My Art
 layout: /layouts/base.njk
 ---
 
+{% include 'partials/artwork/display/horizontal-gallery.njk' %}
+
 <p>
-  Recent: <a href="/art/recent-site/">Last few updates of art added</a>. All fandoms, includes spoilers | <a href="/art/recent-posted/">Chronological by socials' post date</a>. All fandoms, contains spoilers.
+  Chronological by socials' post date: 
+  <a href="/art/recent-posted-nospoilers/">All fandoms, no spoilers</a> |
+  <a href="/art/recent-posted/">All fandoms, contains spoilers</a>
 </p>
 
 <div class="table-overflow">

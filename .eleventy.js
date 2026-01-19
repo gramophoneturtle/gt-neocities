@@ -173,6 +173,22 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // BAsed on when the were posted online, not to the site
+  eleventyConfig.addCollection("RecentArtworkPostDateNoSpoilers", function (collectionApi) {
+    // Sort by artwork actual posted date on the intermets
+    return collectionApi.getFilteredByTags("MyArt")
+    .filter(function (item) { 
+        return item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+    .sort(function (a, b) {
+      let nameA = a.data.aArtwork.date.toUpperCase();
+      let nameB = b.data.aArtwork.date.toUpperCase();
+      if (nameA > nameB) return -1;
+      else if (nameA < nameB) return 1;
+      else return 0;
+    });
+  });
+
 
   eleventyConfig.addFilter("dump", (obj) => {
     return utilsTemp.inspect(obj);
