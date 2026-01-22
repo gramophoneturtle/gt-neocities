@@ -57,28 +57,28 @@ img {
 /* Light theme */
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #ccceb8;
-    --accent-bg: #b9c4b7f3;
+    --bg: #e3e4d7;
+    --accent-bg: #d2ddc3f3;
     --text: #1a1616;
     --text-light: #554f4f;
-    --border: #5b793a;
-    --accent: #7a5300;
+    --border: #436222;
+    --accent: #8b008b;
     --accent-lavendar-light: rgb(176, 14, 197);
     --border-color: #698b69;
-    --dark-background: #a591a3;
+    --dark-background: #d9c1d7;
     --hover-img-color: #dde6d8;
-    --background-container: #c7cebf;
+    --background-container: #d9e0d0;
     --background-container-warning: #d3c5a8;
 
     --button-arrow-color: #C48F97;
 
-    --null-light-green-base: #dde6d8;
+    --null-light-green-base: #f4ffee;
     --null-light-green-ivy: #859685;
     --null-dark-green-base: #c1cec1;
-    --null-dark-green-ivy: #698b69;
+    --null-dark-green-ivy: #839083;
 
     --null-background-container-border: #657365;
-    --null-background-container: #b9c4b7f3;
+    --null-background-container: #ced8cdf3;
 
     --quote-b: #9f6b30;
     --quote-c: #995890;
@@ -887,8 +887,8 @@ pre {
 /* || Horiaonztal Gallery ------------------------------------------ */
 
 div.hozizontal-gallery {
+  background-color: var(--background-container);
 
-  background-color: #333;
   padding: 0.5rem;
   border: 5px solid var(--border-color);
   border-radius: 10px;
