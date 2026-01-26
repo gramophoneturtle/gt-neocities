@@ -1,4 +1,68 @@
-[
+[{
+        "PostDate": "2026-01-25"
+        ,"date": "2026-01-25"
+        ,"pubDate": "Sun, 25 Jan 2026"
+        ,"Site": "Hozirontal gallery styling updated for light theme and mobile. New artwork pages for Kirby, Deltarune, Pokemon and La Mulana. Added art fandom TOC in the form of buttons and included the artwork number count per filter."
+        ,"ArtList": [
+             {
+                "Category": "Deltarune & Peraon 5 Spoilers",
+                "List": [
+                    {
+                        "Title": "They're Having Fun",
+                        "URL": "/art/gen/2025-08-07-theyre-hav/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Kirby",
+                "List": [
+                    {
+                        "Title": "Look At Starman Goooooo!",
+                        "URL": "/art/kirby/2025-08-21-look-at-st/"
+                    }
+                ] 
+            },
+            {
+                "Category": "La Mulana & Pokemon",
+                "List": [
+                    {
+                        "Title": "Spinda Map",
+                        "URL": "/art/gen/2025-08-04-spinda-map/"
+                    },
+                    {
+                        "Title": "Skinda Spinda Combo",
+                        "URL": "/art/gen/2025-08-14-skinda-spi/"
+                    },
+                    {
+                        "Title": "Wedges for a Spinda!",
+                        "URL": "/art/gen/2025-08-21-spinda-wed/"
+                    },
+                    {
+                        "Title": "Secret Slime Pit!",
+                        "URL": "/art/gen/2025-08-29-secret-sli/"
+                    }
+                ]
+            },
+            {
+                "Category": "Void Stranger Spoilers?",
+                "List": [
+                    {
+                        "Title": "Ksi Shi Shi Shi",
+                        "URL": "/art/voidstranger/2025-09-10-ksi-shi-sh/"
+                    }
+                ]
+            },
+            {
+                "Category": "Xenoblade X",
+                "List": [
+                    {
+                        "Title": "Nopon Friends 6!",
+                        "URL": "/art/xcx/2026-01-05-nopon-frie/"
+                    }
+                ]
+            }
+        ]
+    },
     {
         "PostDate": "2026-01-18"
         ,"date": "2026-01-18"

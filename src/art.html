@@ -11,6 +11,25 @@ layout: /layouts/base.njk
   <a href="/art/recent-posted/">All fandoms, contains spoilers</a>
 </p>
 
+<h2>Categories</h2>
+<p>Artwork below is filtered by fandoms. In the listings below, the number of artworks for each filter is in "()".</p>
+<div>
+  <a class="artwork-tag" href="#artfight">Art Fight</a> 
+  <a class="artwork-tag" href="#asuraswrath">Asura's Wrath</a>
+  <a class="artwork-tag" href="#deltarune">Deltarune</a>
+  <a class="artwork-tag" href="#kirby">Kirby</a></a>
+  <a class="artwork-tag" href="#la-mulana">La Mulana</a>
+  <a class="artwork-tag" href="#persona5">Persona 5</a>
+  <a class="artwork-tag" href="#pikmin">Pikmin</a>
+  <a class="artwork-tag" href="#pokemon">Pokemon</a>
+  <a class="artwork-tag" href="#projectmoon">Project Moon</a>
+  <a class="artwork-tag" href="#splatoon">Splatoon</a>
+  <a class="artwork-tag" href="#super-puzzled-cat">Super Puzzled Cat</a>
+  <a class="artwork-tag" href="#twewy-series">TWEWY Series</a>
+  <a class="artwork-tag" href="#void-stranger">Void Stranger</a>
+  <a class="artwork-tag" href="#xenoblade-x">Xenoblade X</a>
+</div>
+
 <div class="table-overflow">
   <table class = "table-toc-art">
     <tr>
@@ -18,85 +37,109 @@ layout: /layouts/base.njk
       <th>Spoiler Free</th>
       <th>With Spoilers</th>
     </tr>
-    <tr>
+    <tr id="artfight">
       <td>
         <p>ArtFight</p>
-        <p class="smaller">ArtFight Stuff!</p>
+        <p class="smaller">2025!</p>
       </td>
-      <td colspan="2"><a href="/art/artfight/nospoilers/">All</a></td>
+      <td colspan="2"><a href="/art/artfight/nospoilers/">All</br>({{collections.ArtFightNoSpoilers.length}})</a></td>
     </tr>
-    <tr>
+    <tr id="asuraswrath">
       <td>
         <p>Asura's Wrath</p>
         <p class="smaller">2017. Watched a playthrough and fell in love with the art direction. Some screenshot redraws that captured cool lighting and metal work.</p>
       </td>
-      <td><a href="/art/asuras-wrath/nospoilers/">No Spoilers</a></td>
+      <td><a href="/art/asuras-wrath/nospoilers/">No Spoilers</br>({{collections.AsurasWrathNoSpoilers.length}})</a></td>
       <td>All</td>
     </tr>
-    <tr>
+    <tr id="deltarune">
+      <td>
+        <p>Deltarune</p> 
+      </td>
+      <td colspan="2"><a href="/art/deltarune/all/">All, Spoilers </br>({{collections.DeltaruneArt.length}})</a></td>
+    </tr> 
+    <tr id="kirby">
+      <td>
+        <p>Kirby</p> 
+      </td>
+      <td colspan="2"><a href="/art/kirby/nospoilers/">All, No Spoilers </br>({{collections.KirbyArtNoSpoilers.length}})</a></td>
+    </tr> 
+    <tr id="la-mulana">
+      <td>
+        <p>La Mulana</p>
+      </td>
+      <td colspan="2"><a href="/art/lamulana/nospoilers/">All, No Spoilers </br>({{collections.KirbyArtNoSpoilers.length}})</a></td>
+    </tr> 
+    <tr id="persona5">
+      <td>
+        <p>Persona 5</p>
+        <p class="smaller">Watched main story plot videos and fell in love with a spoilery striped Person'a design.</p>
+      </td>
+      <td><a href="/art/persona5-nospoilers/">No Spoilers </br>({{collections.Persona5ArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/persona5/">All </br>({{collections.Persona5Art.length}})</a></td>
+    </tr>
+    <tr id="pikmin">
+      <td>
+        <p>Pikmin</p>
+      </td>
+      <td colspan="2"><a href="/art/Pikmin/nospoilers/">All </br>({{collections.PikminArt.length}})</a></td>
+    </tr>
+    <tr id="projectmoon">
+      <td>
+        <p>Project Moon</p>
+      </td>
+      <td colspan="2"><a href="/art/project-moon/nospoilers/">All </br>({{collections.ProjectMoonArt.length}})</a></td>
+    </tr>
+    <tr id="pokemon">
+      <td>
+        <p>Pokemon</p>
+      </td>
+      <td colspan="2"><a href="/art/pokemon/nospoilers/">All, No Spoilers </br>({{collections.PokemonArtNoSpoilers.length}})</a></td>
+    </tr> 
+    <tr id="splatoon">
+      <td>
+        <p>Splatoon</p>
+      </td>
+      <td><a href="/art/splatoon/nospoilers/">No Spoilers </br>({{collections.SplatoonArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/splatoon/all/">All </br>({{collections.SplatoonArt.length}})</a></td>
+    </tr>
+    <tr id="super-puzzled-cat">
+      <td>
+        <p>Super Puzzled Cat</p>
+      </td>
+      <td colspan="2"><a href="/art/super-puzzled-cat/nospoilers/">All </br>({{collections.SuperPuzzledCatArt.length}})</a></td>
+    </tr>
+    <tr id="twewy-series">
       <td rowspan="3">
           <p>TWEWY Series</p> 
           <p class="smaller">From 2020 to Current (2025). Dug into a lot of postgame lore and made OCs.</p>
           <p><a href="/art/twewy/related/">AUs and Series</a></p>
       </td>
-      <td><a href="/art/twewy-nospoilers/">Series</a></td>
-      <td><a href="/art/twewy/">Series Spoilers</a></td>
+      <td><a href="/art/twewy-nospoilers/">Series</br>({{collections.TWEWYSeriesArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/twewy/">Series Spoilers</br>({{collections.TWEWYSeriesArt.length}})</a></td>
     </tr>
     <tr>
-      <td><a href="/art/twewy-og-nospoilers/">OG</a></td>
-      <td><a href="/art/twewy-og/">OG Spoilers</a></td>
+      <td><a href="/art/twewy-og-nospoilers/">OG</br>({{collections.TWEWYArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/twewy-og/">OG Spoilers</br>({{collections.TWEWYArt.length}})</a></td>
     </tr>
     <tr>
-      <td><a href="/art/twewy-neo-nospoilers/">NEO</a></td>
-      <td><a href="/art/twewy-neo/">NEO Spoilers</a></td>
+      <td><a href="/art/twewy-neo-nospoilers/">NEO</br>({{collections.NEOTWEWYArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/twewy-neo/">NEO Spoilers</br>({{collections.NEOTWEWYArt.length}})</a></td>
     </tr>
-    <tr>
-      <td>
-        <p>Persona 5</p>
-        <p class="smaller">Watched main story plot videos and fell in love with a spoilery striped Person'a design.</p>
-      </td>
-      <td><a href="/art/persona5-nospoilers/">No Spoilers</a></td>
-      <td><a href="/art/persona5/">All</a></td>
-    </tr>
-    <tr>
-      <td>
-        <p>Pikmin</p>
-      </td>
-      <td colspan="2"><a href="/art/Pikmin/nospoilers/">All</a></td>
-    </tr>
-    <tr>
-      <td>
-        <p>Project Moon</p>
-        <p class="smaller">Various Project Moon Artwork.</p>
-      </td>
-      <td colspan="2"><a href="/art/project-moon/nospoilers/">All</a></td>
-    </tr>
-    <tr>
-      <td>
-        <p>Splatoon</p>
-      </td>
-      <td><a href="/art/splatoon/nospoilers/">No Spoilers</a></td>
-      <td><a href="/art/splatoon/all/">All</a></td>
-    </tr>
-    <tr>
-      <td>
-        <p>Super Puzzled Cat</p>
-      </td>
-      <td colspan="2"><a href="/art/super-puzzled-cat/nospoilers/">All</a></td>
-    </tr>
-    <tr>
+    <tr id="void-stranger">
       <td>
         <p>Void Stranger</p>
       </td>
-      <td colspan="2"><a href="/art/void-stranger/nospoilers/">All</a></td>
+      <td><a href="/art/void-stranger/nospoilers/">No Spoilers</br>({{collections.VoidStrangerArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/void-stranger/all/">All</br>({{collections.VoidStrangerArt.length}})</a></td>
     </tr>
-    <tr>
+    <tr id="xenoblade-x">
       <td>
         <p>Xenoblade X</p>
-        <p class="smaller">Played on thw Wii U and drew a lot of Lao and Lin, plus other folks' Crosses (OCs).</p>
+        <p class="smaller">Played on the Wii U and drew a lot of Lao and Lin, plus other folks' Crosses (OCs).</p>
           <p><a href="/art/xcx/related/">AUs and Series</a></p>
         </td>
-      <td><a href="/art/xcx/xcx-nospoilers/">No Spoilers</a></td>
+      <td><a href="/art/xcx/xcx-nospoilers/">No Spoilers</br>({{collections.XCXArtNoSpoilers.length}})</a></td>
       <td>All</td>
     </tr>
   </table>

@@ -156,7 +156,7 @@ module.exports = function (eleventyConfig) {
       .filter(function (item) {
         // Only return content that was originally a markdown file
         let artworkURL = item.page.url;
-        return urlArr.includes(artworkURL);
+        return urlArr.includes(artworkURL )&& item.data.aArtwork.spoilers.toUpperCase() === "NO";
 		  })
       .sort(sortaArtworkWebsiteDate);
   });
@@ -194,15 +194,78 @@ module.exports = function (eleventyConfig) {
     return utilsTemp.inspect(obj);
   });
 
+  // MISC -----------------------------------------//
+
+  eleventyConfig.addCollection("RSSFeed", function (collectionApi) {
+    return collectionApi.getFilteredByTags("UpdatePosts").slice(0,6);
+  });
+
   // FANDOMS -------------------------------------- //
 
   let fandoms = ["Pikmin"];
   // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];
 
+  eleventyConfig.addCollection("ArtFightNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("ArtFight") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  eleventyConfig.addCollection("AsurasWrathNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("asuras-wrath") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  eleventyConfig.addCollection("DeltaruneArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Deltarune");
+    })
+  });
+
+  eleventyConfig.addCollection("KirbyArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Kirby") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+  });
+
+  eleventyConfig.addCollection("LaMulanaArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("LaMulana") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+  });
+
+  // Persona 5
+  eleventyConfig.addCollection("Persona5ArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) {
+			  return item.data.aArtwork.fandom.includes("persona5") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate)
+  });
+
+  eleventyConfig.addCollection("Persona5Art", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+    .filter(function (item) {
+			return item.data.aArtwork.fandom.includes("persona5");
+    })
+    .sort(sortaArtworkDate)
+  });
+
   // Pikmin
   eleventyConfig.addCollection("PikminArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Pikmin");
+    })
+  });
+
+  eleventyConfig.addCollection("PokemonArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("Pokemon") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
     })
   });
 
@@ -302,10 +365,25 @@ module.exports = function (eleventyConfig) {
   });
   // -------------------------------------------------------------------------- //
 
+  // Void Stranger
+  eleventyConfig.addCollection("VoidStrangerArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("void-stranger") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+  });
+
   eleventyConfig.addCollection("VoidStrangerArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("void-stranger");
     })
+  });
+
+  eleventyConfig.addCollection("XCXArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("XCX") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
   });
 
   // RETURN ------------------------------------------------------------------- //

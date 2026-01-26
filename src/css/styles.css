@@ -57,28 +57,28 @@ img {
 /* Light theme */
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #ccceb8;
-    --accent-bg: #b9c4b7f3;
+    --bg: #e3e4d7;
+    --accent-bg: #d2ddc3f3;
     --text: #1a1616;
     --text-light: #554f4f;
-    --border: #5b793a;
-    --accent: #7a5300;
+    --border: #436222;
+    --accent: #8b008b;
     --accent-lavendar-light: rgb(176, 14, 197);
     --border-color: #698b69;
-    --dark-background: #a591a3;
+    --dark-background: #d9c1d7;
     --hover-img-color: #dde6d8;
-    --background-container: #c7cebf;
+    --background-container: #d9e0d0;
     --background-container-warning: #d3c5a8;
 
     --button-arrow-color: #C48F97;
 
-    --null-light-green-base: #dde6d8;
+    --null-light-green-base: #f4ffee;
     --null-light-green-ivy: #859685;
     --null-dark-green-base: #c1cec1;
-    --null-dark-green-ivy: #698b69;
+    --null-dark-green-ivy: #839083;
 
     --null-background-container-border: #657365;
-    --null-background-container: #b9c4b7f3;
+    --null-background-container: #ced8cdf3;
 
     --quote-b: #9f6b30;
     --quote-c: #995890;
@@ -446,6 +446,36 @@ header > nav {
 
 
 /* || ARTWORK */
+/* ArtWork Tags */
+
+/* || OC NAV ---------------------------------------- */
+
+
+.artwork-tag,
+.artwork-tag:visited {
+  background-color: var(--dark-background);
+  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border-color);
+  color: var(--text);
+
+  padding: 0.2rem 1rem;
+  margin: 0.15rem 0.15rem;
+
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.artwork-tag:hover,
+.artwork-tag.current {
+  border-color: var(--accent-lavendar-light);
+  cursor: pointer;
+}
+
+
+
+/* ARTWORK ROW ------------------------------------------------  */
 /** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
 .artworkRow {
   box-sizing: border-box;
@@ -885,16 +915,15 @@ pre {
 
 
 /* || Horiaonztal Gallery ------------------------------------------ */
-
 div.hozizontal-gallery {
+  background-color: var(--background-container);
 
-  background-color: #333;
   padding: 0.5rem;
   border: 5px solid var(--border-color);
   border-radius: 10px;
 
   p {
-    margin: 0.5rem;
+    margin: 0.25rem;
   }
 }
 
@@ -911,8 +940,8 @@ div.scroll-container {
 
 div.scroll-container img {
   padding: 0.25rem;
-  width: 10em;
-  height: 10em;
+  width: 8em;
+  height: 8em;
   -webkit-transition-property: all;
   -webkit-transition-duration: 0.3s;
   -webkit-transition-timing-function: ease;
@@ -920,4 +949,80 @@ div.scroll-container img {
 
 div.scroll-container img:hover {
     transform: scale(1.05);
+}
+
+/* Reduce header size on mobile */
+@media only screen and (max-width: 750px) {
+  
+  div.hozizontal-gallery {
+
+    padding: 0.5rem;
+
+    p {
+      margin: 0.25rem;
+      font-size: medium;
+    }
+  }
+
+  div.scroll-container {
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+  }
+
+  div.scroll-container img {
+    padding: 0.2rem;
+    width: 7em;
+    height: 7em;
+  }
+}
+
+
+/* Reduce header size on mobile */
+@media only screen and (max-width: 550px) {
+  
+  div.hozizontal-gallery {
+
+    padding: 0.3rem;
+
+    p {
+      margin: 0.25rem;
+      font-size: medium;
+    }
+  }
+
+  div.scroll-container {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+
+  div.scroll-container img {
+    padding: 0.15rem;
+    width: 6em;
+    height: 6em;
+  }
+}
+
+/* Reduce header size on mobile */
+@media only screen and (max-width: 400px) {
+  
+  div.hozizontal-gallery {
+
+    padding: 0.3rem;
+
+    p {
+      margin: 0.25rem;
+      font-size: medium;
+    }
+  }
+
+  div.scroll-container {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+
+  div.scroll-container img {
+    padding: 0.15rem;
+    width: 5.5em;
+    height: 5.5em;
+  }
 }

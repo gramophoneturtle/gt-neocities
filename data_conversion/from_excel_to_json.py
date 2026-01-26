@@ -525,16 +525,20 @@ if __name__ == '__main__':
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
     ## ArtFight
-    addCategorySingle("ArtFight","Other")
+    # addCategorySingle("ArtFight","Other")
+
 
     ## Fandoms
-    addCategorySingle("Splatoon","Other")
+    # addCategorySingle("Splatoon","Other")
     addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
 
     # addCategoryFromMultiple("Pikmin","Other")
-    # addCategoryFromMultiple("void-stranger","Other")
+    addCategoryFromMultiple("void-stranger","Other")
+    addCategoryFromMultiple("Pokemon","Other")
+    addCategoryFromMultiple("Kirby","Other")
+    addCategoryFromMultiple("Deltarune","Other")
+    addCategoryFromMultiple("LaMulana","Other")
     # addCategoryFromMultiple("super-puzzled-cat","Other")
-    # addCategoryFromMultiple("Splatoon","Other")
 
 
     # HOW TO HANDLE THE CROSS OVER STUFF

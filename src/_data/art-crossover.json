@@ -1,5 +1,64 @@
 [
   {
+    "title": "They're Having Fun",
+    "summary": "",
+    "details": "",
+    "characters": "Loki, Roaring Knight",
+    "date": "2025-08-07",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "2026-01-25 00:00:00",
+    "uniqueUrl": "2025-08-07-theyre-hav",
+    "UniqueURLKey": "2025-08-07-theyre-hav",
+    "spoilers": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/791283840986578944/theyre-having-fun"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6521264"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3lvugftu7mc2s"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/114999935146022990"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-RoaringKnight_03-D2-800.jpg",
+        "alt": "Digital art of full bodies of the Roaring Knight from Deltarune and Loki from Persona 5, swinging their swords. The Roaring Knight is at a side profile, with their sword swung down and around over their head. Loki's striped self is bowed, at a 3/4 angle."
+      },
+      {
+        "id": 2,
+        "url": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-RoaringKnight_02-D2-800.jpg",
+        "alt": "Digital art of full body of the Roaring Knight from Deltarune and 3/4 body of Loki from Persona 5, with an inverted body, swinging their swords. The Roaring Knight is at a side profile, with their sword swung down and around over their head. Loki's inverted striped self is bowed, at a 3/4 angle, with his sword slash effect causing an inversion over his body."
+      },
+      {
+        "id": 3,
+        "url": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-RoaringKnight_01-D2-800.jpg",
+        "alt": "Digital art of full body of the Roaring Knight from Deltarune and 3/4 body of Loki from Persona 5, swinging their swords, with Loki matching the Roaring Knight's black body and white outline style. The Roaring Knight is at a side profile, with their sword swung down and around over their head. Loki's black body is bowed, at a 3/4 angle, with his sword slash effect causing an inversion over his body."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-SHEEZY-RoaringKnight_03-D2-200.jpg",
+    "thumbnailAlt": "SPOILERS",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "persona5",
+      "Deltarune",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Hazuki Inkagi",
     "summary": "Hazuki Inkagi doodle, now with the Tentaclinger Earring.",
     "details": "",
