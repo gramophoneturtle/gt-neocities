@@ -446,6 +446,36 @@ header > nav {
 
 
 /* || ARTWORK */
+/* ArtWork Tags */
+
+/* || OC NAV ---------------------------------------- */
+
+
+.artwork-tag,
+.artwork-tag:visited {
+  background-color: var(--dark-background);
+  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border-color);
+  color: var(--text);
+
+  padding: 0.2rem 1rem;
+  margin: 0.15rem 0.15rem;
+
+  font-size: medium;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.artwork-tag:hover,
+.artwork-tag.current {
+  border-color: var(--accent-lavendar-light);
+  cursor: pointer;
+}
+
+
+
+/* ARTWORK ROW ------------------------------------------------  */
 /** https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp */
 .artworkRow {
   box-sizing: border-box;

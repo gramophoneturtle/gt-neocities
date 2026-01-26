@@ -205,6 +205,22 @@ module.exports = function (eleventyConfig) {
   let fandoms = ["Pikmin"];
   // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];
 
+  eleventyConfig.addCollection("ArtFightNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("ArtFight") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
+  eleventyConfig.addCollection("AsurasWrathNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("asuras-wrath") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
   eleventyConfig.addCollection("DeltaruneArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Deltarune");
@@ -360,6 +376,14 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("void-stranger");
     })
+  });
+
+  eleventyConfig.addCollection("XCXArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("XCX") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
   });
 
   // RETURN ------------------------------------------------------------------- //
