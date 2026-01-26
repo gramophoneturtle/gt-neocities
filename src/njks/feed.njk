@@ -1,10 +1,10 @@
 ---json
 {
-  "permalink": "feed.xml",
+  "permalink": "rss/feed-all.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
     "title": "Gramophone Turtle's RSS Feed",
-    "description": "Site, New Art and Archive Art!!!",
+    "description": "All Updates",
 	  "language": "en",
     "base": "https://gramophoneturtle.neocities.org",
     "author": {
@@ -14,18 +14,16 @@
 }
 ---
 <?xml version="1.0" encoding="utf-8"?>
-{# <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.base | addPathPrefixToFullUrl }}" xmlns:atom="http://www.w3.org/2005/Atom"> #}
 	<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.base }}" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ metadata.title }}</title>
     <description>{{ metadata.description }}</description>
     <link>{{ metadata.base }}</link>
-    {% set singlePost = collections.UpdatePosts | first %}
+    {% set singlePost = collections.RSSFeed | first %}
     <lastBuildDate> {{singlePost.data.posts.pubDate}} </lastBuildDate>
     
     <ttl>20000</ttl>
-    {#- <language>{{ metadata.language or page.lang }}</language> -#}
-    {%- for post in collections.UpdatePosts  %}
+    {%- for post in collections.RSSFeed  %}
 		{%- set items = [metadata.base, post.url] -%}
 		{%- set absolutePostUrl = items | join  %}
 		<item>

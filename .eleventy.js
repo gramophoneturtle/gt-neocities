@@ -194,6 +194,12 @@ module.exports = function (eleventyConfig) {
     return utilsTemp.inspect(obj);
   });
 
+  // MISC -----------------------------------------//
+
+  eleventyConfig.addCollection("RSSFeed", function (collectionApi) {
+    return collectionApi.getFilteredByTags("UpdatePosts").slice(0,6);
+  });
+
   // FANDOMS -------------------------------------- //
 
   let fandoms = ["Pikmin"];
