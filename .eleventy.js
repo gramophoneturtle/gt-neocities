@@ -202,6 +202,23 @@ module.exports = function (eleventyConfig) {
 
   // FANDOMS -------------------------------------- //
 
+  // OCs
+  eleventyConfig.addCollection("OCArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("OC") || item.data.aArtwork.oc.toUpperCase() === "YES";
+    })
+    .sort(sortaArtworkDate);
+  });
+
+  // OCs
+  eleventyConfig.addCollection("OCArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return (item.data.aArtwork.fandom.includes("OC") || item.data.aArtwork.oc.toUpperCase() === "YES") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
+  });
+
+  // Art Fight --------------------------------------------------------------- //
   eleventyConfig.addCollection("ArtFightNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt")
       .filter(function (item) { 
