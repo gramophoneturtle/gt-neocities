@@ -1,4 +1,43 @@
-[{
+[ 
+    {
+        "PostDate": "2026-01-27"
+        ,"date": "2026-01-27"
+        ,"pubDate": "Tue, 27 Jan 2026"
+        ,"Site": "New OC Category"
+        ,"ArtList": [
+             {
+                "Category": "OC",
+                "List": [
+                    {
+                        "Title": "Chibi King OC Commission",
+                        "URL": "/art/gen/2025-07-01-chibi-king/"
+                    },
+                     {
+                        "Title": "Chibi OC RoQue Commission",
+                        "URL": "/art/gen/2025-07-11-chibi-oc-r/"
+                    },
+                     {
+                        "Title": "DTIYS Colorgeist",
+                        "URL": "/art/gen/2025-08-19-dtiys-colo/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Xenoblade X",
+                "List": [
+                    {
+                        "Title": "Cross - Starlight Duster",
+                        "URL": "/art/xcx/2025-09-18-cross-star/"
+                    },
+                    {
+                        "Title": "Seeds from Sylvalum",
+                        "URL": "/art/xcx/2025-07-20-seeds-from/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "PostDate": "2026-01-25"
         ,"date": "2026-01-25"
         ,"pubDate": "Sun, 25 Jan 2026"

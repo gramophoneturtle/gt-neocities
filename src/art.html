@@ -33,9 +33,17 @@ layout: /layouts/base.njk
 <div class="table-overflow">
   <table class = "table-toc-art">
     <tr>
-      <th>Fandom</th>
+      <th>Category</th>
       <th>Spoiler Free</th>
       <th>With Spoilers</th>
+    </tr>
+    <tr id="ocs">
+      <td>
+        <p>OCs</p>
+        <p class="smaller">Mine and others' OCs!</p>
+      </td>
+      <td><a href="/art/ocs/nospoilers/">NoSpoilers</br>({{collections.OCArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/ocs/all/">All</br>({{collections.OCArt.length}})</a></td>
     </tr>
     <tr id="artfight">
       <td>
