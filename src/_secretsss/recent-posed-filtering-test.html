@@ -1,0 +1,334 @@
+---
+title: Chronological Artwork - All - TEST
+layout: /layouts/base.njk
+---
+<style>   
+    .collection {
+        display: flex; 
+        flex-direction: row-reverse; 
+        flex-wrap: wrap; 
+        gap: 3%;
+    }
+    .filters {width: 100%;}
+    .works {
+        width: 100%; 
+        margin-top: .75em;
+    }
+
+@media only screen and (width < 900px) {
+	.filters, .works {width: 100%;}
+} /* this part is essential for making the layout mobile-friendly */
+
+/* Works & Tags */
+
+    .work {
+        width: 100%; 
+        background: none;
+        border: dashed 0.2em purple; 
+        border-radius: 10px; 
+        padding: 0.5em; 
+        margin: 10px 0 15px 0;
+        box-sizing: border-box;
+    }
+    .works p:first-of-type {
+        margin-top: .3em;
+    }
+    .works p:nth-of-type(2) {
+        margin-bottom: 1.3em;
+    }
+    .work p.word-count {
+        font-size: .8em;
+        margin-bottom: .4em;
+    }
+
+    tag, fandom, pairing, warning {
+        font-size: .9em;
+        background: var(--tag); 
+        display: inline-block;
+        padding: 5px 10px;
+        margin-bottom: 5px; 
+    }
+
+    tag {
+        border-radius: 0.5em;
+        background-color: brown;
+    }
+
+    warning::before {content: '❕ '}
+
+
+    .filters h2 {
+        margin-top: .2em;}
+    .filters h3 {
+        font-size: 1.1em; 
+        margin: .5em 0 .5em .3em}
+        
+    .work h2 {
+        font-size: 1.5em; 
+        margin: .5em
+    }
+
+
+/* Focus Outlines */
+
+    *:focus-visible {
+        outline: px solid var(--accent); 
+        outline-offset: .15em; }
+        
+    input:focus-visible {
+        outline: none}
+        
+    label:has(input:focus-visible) {
+        outline: 2px solid var(--accent); 
+        outline-offset: .15em; 
+        border-radius: .2em 
+    }
+	
+/* Details Toggle */
+
+    details {
+        width: 100%; 
+        text-align: left; 
+        margin: 10px 0 20px 0;
+    }
+    summary {
+        background: var(--backing); 
+        padding: .5em;
+    }
+    summary:hover {
+        background: var(--hover); 
+        color: var(--page-bg); 
+        cursor: pointer;
+    }
+    .preface summary {
+        width: 95%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .filters summary { 
+        font-weight: bold; 
+        font-size: 1.1em; 
+    }
+
+
+/* --- Filtering Effects --- */
+
+/* Filter For */
+
+    /* ... */
+
+    /* This selector detects pairings that are left blank! If going by custom elements instead of custom attributes, replace .work:not([pairings=""]) with .work:not(:has(pairing.none)) */
+    .collection:has(#XCX:checked) .work:not([tags~="XCX"]) {display: none;}
+    .collection:has(#TWEWY:checked) .work:not([tags~="TWEWY"]) {display: none;}
+    .collection:has(#ProjectMoon:checked) .work:not([tags~="ProjectMoon"]) {display: none;}
+    .collection:has(#LobotomyCorporation:checked) .work:not([tags~="LobotomyCorporation"]) {display: none;}
+    .collection:has(#LibraryOfRuina:checked) .work:not([tags~="LibraryOfRuina"]) {display: none;}
+
+/* Highlight Selected Tag */
+
+    /* ... */
+    .collection:has(#XCX:checked) tag.XCX,
+    .collection:has(#TWEWY:checked) tag.TWEWY,
+    .collection:has(#LobotomyCorporation:checked) tag.LobotomyCorporation, 
+    .collection:has(#ProjectMoon:checked) tag.ProjectMoon, 
+    .collection:has(#LibraryOfRuina:checked) tag.LibraryOfRuina {
+        border: 1px solid var(--text);
+    } /* These are multiple different selectors stacked together. They MUST end with a comma EXCEPT for the very last one. */
+
+/* This selector detects pairings that are left blank! If going by custom elements instead of custom attributes, replace *[pairings=""] with .work:has(pairing.none) */
+
+    /* ... */
+
+    .collection:has(#no-TWEWY:checked) *[tags~="TWEWY"] {display: none;}
+    .collection:has(#no-ProjectMoon:checked) *[tags~="ProjectMoon"] {display: none;}
+    .collection:has(#no-LobotomyCorporation:checked) *[tags~="LobotomyCorporation"] {display: none;}
+    .collection:has(#no-LibraryOfRuina:checked) *[tags~="LibraryOfRuina"] {display: none;}
+    .collection:has(#no-XCX:checked) *[tags~="XCX"] {display: none;}
+
+    /* Attribute selectors: https://meyerweb.com/eric/articles/webrev/200008a.html 
+https://meyerweb.com/eric/articles/webrev/200008b.html */
+
+/* Filter Checkbox Inputs */
+
+    input {appearance: none;}
+    label {
+        margin: .3em 0; 
+        display: block;} 
+    label:hover {
+        cursor: pointer; 
+        color: var(--hover);}
+
+    label::before {
+        font-weight: bold; 
+        margin-left: .5em; 
+        filter: opacity(.3);
+    }
+    label:has(input[name="require"])::before {content: '✓ ';}
+    label:has(input[name="exclude"])::before {content: '✖ ';}
+
+    label:has(input:checked) {font-weight: bold}
+    label:has(input:checked)::before {filter: opacity(1)}
+    label:has(input:checked[name="require"])::before {color: var(--green);}
+    label:has(input:checked[name="exclude"])::before {color: var(--red);}
+
+/* Work Header Icons */
+
+    .work h2::before {
+        display: inline-block; 
+        margin-right: .5em; 
+        margin-left: -.3em;
+        transform: scale(1.3);
+    }
+
+</style>
+
+<p>Chronological Artwork. No filters, contains spoilers.</p>
+
+<p><a href="https://osteophage.neocities.org/projects/templates/archive-of-your-own">Source</a></p>
+
+<div class="collection">
+
+    <section class="filters">
+        <h2>Filtering Options</h2>
+
+        <details open>
+        <summary>Filter for:</summary>
+        <p>
+        <h3>Warnings</h3>
+        <label>
+            <input type="checkbox" id="no-warnings" name="require">
+            No Warnings
+        </label>
+        <label>
+            <input type="checkbox" id="watch-out" name="require">
+            Watch Out
+        </label>
+
+        <h3>Fandom</h3>
+        <label>
+            <input type="checkbox" id="made-up-movie" name="require">
+            Made-Up Movie
+        </label>
+        <label>
+            <input type="checkbox" id="ProjectMoonBIG" name="require">
+            Project Moon
+        </label>
+        <label>
+            <input type="checkbox" id="fabricated-fable" name="require">
+            Fabricated Fable
+        </label>
+        <label>
+            <input type="checkbox" id="original-work" name="require">
+            Original Work
+        </label>
+
+        <h3>Tags</h3>
+        <label>
+            <input type="checkbox" id="XCX" name="require">
+            XCX
+        </label>
+        <label>
+            <input type="checkbox" id="TWEWY" name="require">
+            TWEWY
+        </label>
+        <label>
+            <input type="checkbox" id="ProjectMoon" name="require">
+            ProjectMoon
+        </label>
+        <label>
+            <input type="checkbox" id="LobotomyCorporation" name="require">
+            LobotomyCorporation
+        </label>
+        <label>
+            <input type="checkbox" id="LibraryOfRuina" name="require">
+            LibraryOfRuina
+        </label>
+
+        <h3>Words</h3>
+        <label>
+            <input type="checkbox" id="over-1000" name="require">
+            1k+ words
+        </label>
+        <label>
+            <input type="checkbox" id="over-10000" name="require">
+            10k+ words
+        </label>
+
+        </details>
+
+        <details open>
+        <summary>Exclude:</summary>
+        <p>
+        <label>
+            <input type="checkbox" id="yes-warnings" name="exclude">
+            No Warnings
+        </label>
+        <label>
+            <input type="checkbox" id="no-watch-out" name="exclude">
+            Watch Out
+        </label>
+
+        <h3>Fandom</h3>
+        <label>
+            <input type="checkbox" id="no-made-up-movie" name="exclude">
+            Made-Up Movie
+        </label>
+        <label>
+            <input type="checkbox" id="no-ProjectMoonBIG" name="exclude">
+            Project Moon
+        </label>
+        <label>
+            <input type="checkbox" id="no-fabricated-fable" name="exclude">
+            Fabricated Fable
+        </label>
+        <label>
+            <input type="checkbox" id="no-original-work" name="exclude">
+            Original Work
+        </label>
+
+        <h3>Tags</h3>
+        <label>
+            <input type="checkbox" id="no-XCX" name="exclude">
+            XCX
+        </label>
+        <label>
+            <input type="checkbox" id="no-TWEWY" name="exclude">
+            TWEWY
+        </label>
+        <label>
+            <input type="checkbox" id="no-ProjectMoon" name="exclude">
+            ProjectMoon
+        </label>
+        <label>
+            <input type="checkbox" id="no-LobotomyCorporation" name="exclude">
+            LobotomyCorporation
+        </label>
+        <label>
+            <input type="checkbox" id="no-LibraryOfRuina" name="exclude">
+            LibraryOfRuina
+        </label>
+
+        <h3>Words</h3>
+        <label>
+            <input type="checkbox" id="no-over-1000" name="exclude">
+            1k+ words
+        </label>
+        <label>
+            <input type="checkbox" id="no-over-10000" name="exclude">
+            10k+ words
+        </label>
+        </details>
+
+    </section>
+
+    <section class="works"> <!-- WORKS GO HERE -->
+
+        {% assign currentYear = "" %}
+        {% for post in collections.RecentArtworkPostDate | reverse %}
+            {% include 'partials/listing-artwork-general-filter.njk' %}
+        {% endfor %}
+
+    </section>
+</div>
+
+<script src="/js/filterByTag.js"></script>
