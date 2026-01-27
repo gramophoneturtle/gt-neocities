@@ -202,9 +202,6 @@ module.exports = function (eleventyConfig) {
 
   // FANDOMS -------------------------------------- //
 
-  let fandoms = ["Pikmin"];
-  // let fandoms = ["void-stranger", "Pikmin", "super-puzzled-cat"];
-
   eleventyConfig.addCollection("ArtFightNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt")
       .filter(function (item) { 
@@ -278,16 +275,7 @@ module.exports = function (eleventyConfig) {
       .sort(sortaArtworkDate);
   });
 
-  // // was hoping to automate it... huh
-  // fandoms.forEach(item => {
-  //   let newFandom = item + "Art";
-  //   eleventyConfig.addCollection(newFandom, function (collectionApi) {
-  //     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-	// 		  return item.data.aArtwork.fandom.includes(item);
-  //     })
-  //   });
-  // });
-
+  // Super Puzzled Cat
   eleventyConfig.addCollection("SuperPuzzledCatArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("super-puzzled-cat");
