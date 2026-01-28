@@ -30,6 +30,9 @@ layout: /layouts/base.njk
   <a class="artwork-tag" href="#xenoblade-x">Xenoblade X</a>
 </div>
 
+<!-- TODO: get TWEWY's to work then should be good to replace -->
+<!--- {% include 'partials/artwork/artwork-fandom-table.njk' %} -->
+
 <div class="table-overflow">
   <table class = "table-toc-art">
     <tr>
@@ -86,8 +89,8 @@ layout: /layouts/base.njk
         <p>Persona 5</p>
         <p class="smaller">Watched main story plot videos and fell in love with a spoilery striped Person'a design.</p>
       </td>
-      <td><a href="/art/persona5-nospoilers/">No Spoilers </br>({{collections.Persona5ArtNoSpoilers.length}})</a></td>
-      <td><a href="/art/persona5/">All </br>({{collections.Persona5Art.length}})</a></td>
+      <td><a href="/art/persona5/nospoilers/">No Spoilers </br>({{collections.Persona5ArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/persona5/all/">All </br>({{collections.Persona5Art.length}})</a></td>
     </tr>
     <tr id="pikmin">
       <td>
@@ -132,7 +135,8 @@ layout: /layouts/base.njk
           <p><a href="/art/twewy/related/">AUs and Series</a></p>
       </td>
       <td><a href="/art/twewy-nospoilers/">Series</br>({{collections.TWEWYSeriesArtNoSpoilers.length}})</a></td>
-      <td><a href="/art/twewy/">Series Spoilers</br>({{collections.TWEWYSeriesArt.length}})</a></td>
+      <td><a href="/art/twewy/">Series Spoilers</br>({{collections.TWEWYSeriesArt.length}})</a>
+      </td>
     </tr>
     <tr>
       <td><a href="/art/twewy-og-nospoilers/">OG</br>({{collections.TWEWYArtNoSpoilers.length}})</a></td>
@@ -157,7 +161,7 @@ layout: /layouts/base.njk
           <p><a href="/art/xcx/related/">AUs and Series</a></p>
         </td>
       <td><a href="/art/xcx/xcx-nospoilers/">No Spoilers</br>({{collections.XCXArtNoSpoilers.length}})</a></td>
-      <td>All</td>
+      <td><a href="/art/xcx/all/">All</br>({{collections.XCXArt.length}})</a></td>
     </tr>
   </table>
 </div>

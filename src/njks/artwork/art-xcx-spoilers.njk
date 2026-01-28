@@ -1,0 +1,12 @@
+---
+tags:
+  - MyArt
+pagination:
+    data: art-xcx
+    size: 1
+    alias: aArtwork
+    addAllPagesToCollections: true
+permalink: "art/xcx/{{ aArtwork.uniqueUrl | slugify }}/"
+layout: /layouts/art
+---
+{% include 'partials/art-show-general.njk' %}

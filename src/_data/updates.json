@@ -3,7 +3,7 @@
         "PostDate": "2026-01-27"
         ,"date": "2026-01-27"
         ,"pubDate": "Tue, 27 Jan 2026"
-        ,"Site": "New OC Category. Added at least some description for each artwork category/fandom."
+        ,"Site": "New OC Category. Added at least some description for each artwork category/fandom. URL clean up: the main Persona 5 art pages for spoilers / no spoilers has been updated for consistency."
         ,"ArtList": [
              {
                 "Category": "OC",
@@ -34,7 +34,17 @@
                         "URL": "/art/xcx/2025-07-20-seeds-from/"
                     }
                 ]
+            },
+            {
+                "Category": "Xenoblade X Spoilers",
+                "List": [
+                    {
+                        "Title": "Compare And Constrast",
+                        "URL": "/art/xcx/2016-03-26-compare-an/"
+                    }
+                ]
             }
+            
         ]
     },
     {
