@@ -3,7 +3,7 @@
         "PostDate": "2026-01-27"
         ,"date": "2026-01-27"
         ,"pubDate": "Tue, 27 Jan 2026"
-        ,"Site": "New OC Category. Added at least some description for each artwork category/fandom. URL clean up: the main Persona 5 art pages for spoilers / no spoilers has been updated for consistency."
+        ,"Site": "New Artwork OC Category for OCs. Added at least some description for each artwork category/fandom. URL clean up: the main Persona 5 art pages for spoilers / no spoilers has been updated for consistency."
         ,"ArtList": [
              {
                 "Category": "OC",
@@ -19,6 +19,28 @@
                      {
                         "Title": "DTIYS Colorgeist",
                         "URL": "/art/gen/2025-08-19-dtiys-colo/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Pokemon",
+                "List": [
+                    {
+                        "Title": "Legends Z-A Countdown - 20 Days!",
+                        "URL": "/art/pokemon/2025-09-25-legends-co/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Pokemon & Void Stranger",
+                "List": [
+                    {
+                        "Title": "Something Is Wrong",
+                        "URL": "/art/gen/2025-10-21-something/"
+                    },
+                    {
+                        "Title": "Void Dreams and Nightmares",
+                        "URL": "/art/gen/2025-10-24-void-dream/"
                     }
                 ] 
             },

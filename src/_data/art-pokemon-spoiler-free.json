@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "title": "Legends Z-A Countdown - 20 Days!",
+    "summary": "",
+    "details": "",
+    "characters": "Chikorita, Tepig, Totodile",
+    "date": "2025-09-25",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2025-09-25-legends-co",
+    "UniqueURLKey": "2025-09-25-legends-co",
+    "spoilers": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/795700188092268544"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\09\\0919-za-countdown\\250919-LegendsZA20DAys-D2-800.jpg",
+        "alt": "Digital art of Totodile, Tepig and Chikorita forming a tower over three coloured rectangles of hexagons from blue, red and green. The text says \"20 DAYS TIL LEGENDS Z-A!\"."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\09\\0919-za-countdown\\250919-thmb-LegendsZA20DAys-D2-250.jpg",
+    "thumbnailAlt": "Pokemon",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "Pokemon"
+    ],
+    "RelatedWritingURL": ""
+  }
+]

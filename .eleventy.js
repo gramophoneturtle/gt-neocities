@@ -256,18 +256,21 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Deltarune");
     })
+    .sort(sortaArtworkDate);
   });
 
   eleventyConfig.addCollection("KirbyArtNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Kirby") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
     })
+    .sort(sortaArtworkDate);
   });
 
   eleventyConfig.addCollection("LaMulanaArtNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("LaMulana") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
     })
+    .sort(sortaArtworkDate);
   });
 
   // Persona 5
@@ -281,10 +284,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("Persona5Art", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt")
-    .filter(function (item) {
-			return item.data.aArtwork.fandom.includes("persona5");
-    })
-    .sort(sortaArtworkDate)
+      .filter(function (item) {
+        return item.data.aArtwork.fandom.includes("persona5");
+      })
+      .sort(sortaArtworkDate)
   });
 
   // Pikmin
@@ -292,12 +295,14 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Pikmin");
     })
+    .sort(sortaArtworkDate);
   });
 
   eleventyConfig.addCollection("PokemonArtNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("Pokemon") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
     })
+    .sort(sortaArtworkDate);
   });
 
   // Project Moon
@@ -314,6 +319,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("super-puzzled-cat");
     })
+    .sort(sortaArtworkDate);
   });
 
   // Splatoon
@@ -390,14 +396,16 @@ module.exports = function (eleventyConfig) {
   // Void Stranger
   eleventyConfig.addCollection("VoidStrangerArtNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			return item.data.aArtwork.fandom.includes("void-stranger") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+			return item.data.aArtwork.fandom.includes("VoidStranger") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
     })
+    .sort(sortaArtworkDate);
   });
 
   eleventyConfig.addCollection("VoidStrangerArt", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
-			return item.data.aArtwork.fandom.includes("void-stranger");
+			return item.data.aArtwork.fandom.includes("VoidStranger");
     })
+    .sort(sortaArtworkDate);
   });
 
   eleventyConfig.addCollection("XCXArtNoSpoilers", function (collectionApi) {

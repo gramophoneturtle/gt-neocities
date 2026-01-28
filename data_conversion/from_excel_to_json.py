@@ -543,7 +543,7 @@ if __name__ == '__main__':
     addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
     addCategoryFromMultiple("super-puzzled-cat","Other")
     addCategorySingle("Splatoon","Other")
-    addCategoryFromMultiple("void-stranger","Other")
+    addCategoryFromMultiple("VoidStranger","Other")
 
 
     # HOW TO HANDLE THE CROSS OVER STUFF
