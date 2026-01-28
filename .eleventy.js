@@ -23,6 +23,15 @@ function sortaArtworkWebsiteDate(a, b) {
 };
 
 
+function sortByHeader(a, b) {
+  let dateA = a.data.mainGrouping;
+  let dateB = b.data.mainGrouping;
+  if (dateA < dateB) return -1;
+  else if (dateA > dateB) return 1;
+  else return 0;
+}
+
+
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -49,6 +58,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("twewyArt2All", "twewyArtNoSpoilers");
   });
 
+  
 
 
 
@@ -113,6 +123,13 @@ module.exports = function (eleventyConfig) {
       else if (nameA < nameB) return 1;
       else return 0;
     });
+  });
+
+
+  // Fandom ------------------------------------------------------------------------ // 
+  eleventyConfig.addCollection("fandomArtworkSorted", function (collectionApi) {
+    return collectionApi.getFilteredByTags("fandomArtwork")
+      .sort(sortByHeader);
   });
 
   // Filter artwork to get the most recently added ones
@@ -387,6 +404,14 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("MyArt")
       .filter(function (item) { 
         return item.data.aArtwork.fandom.includes("XCX") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+      })
+      .sort(sortaArtworkDate);
+  });
+
+   eleventyConfig.addCollection("XCXArt", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt")
+      .filter(function (item) { 
+        return item.data.aArtwork.fandom.includes("XCX");
       })
       .sort(sortaArtworkDate);
   });

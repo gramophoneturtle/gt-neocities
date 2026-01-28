@@ -2,6 +2,18 @@
 title: Super Puzzled Cat - No Spoilers
 layout: /layouts/base.njk
 date: 2024-01-01
+
+id: super-puzzled-cat
+mainGrouping: SPC
+header: Super Puzzled Cat
+description: Watched someone play it in 2025 and fell in love with it. It's a puzzle platformer with save states that do not have the brain power/time for but it lives rent free in my head. I've mostly done crossover art with Void Stranger cause... there's... similarities?
+
+tags:
+    - fandomArtwork
+    - ArtworkSPC
+listCollection: 'SuperPuzzledCatArt'
+listSubCollection: ArtworkSPC
+spoilers: no
 ---
 <p>Ordered by original post date.</p>
 
@@ -9,7 +21,7 @@ date: 2024-01-01
 {% assign nospoilersClass = "content" %}
 
 {% assign currentYear = "" %}
-{% for post in collections.SuperPuzzledCatArt | reverse %}
+{% for post in collections[listCollection] | reverse %}
     {% include 'partials/listing-artwork-general.njk' %}
 {% endfor %}
 

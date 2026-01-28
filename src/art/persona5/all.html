@@ -1,0 +1,36 @@
+---
+title: Persona 5
+layout: /layouts/base.njk
+date: 2024-02-01
+
+id: persona5
+mainGrouping: Persona5
+header: Persona 5
+description: Watched main story plot videos and fell in love with a spoilery striped Person'a design.
+
+tags:
+    - fandomArtwork
+    - ArtworkPersona5
+listCollection: 'Persona5Art'
+listSubCollection: ArtworkPersona5
+spoilers: yes
+---
+<p>Ordered by original post date.</p>
+<details>
+  <summary>Characters</summary>
+<div id="myBtnContainer">
+  <div><button class="btn active" onclick="filterSelection('all')">Show all</button></div>
+  <div>
+    <button class="btn" onclick="filterSelection('Akechi')">Akechi</button>
+    <button class="btn" onclick="filterSelection('Robin Hood')">Robin Hood</button>
+    <button class="btn" onclick="filterSelection('Loki')">Loki</button>
+  </div>
+</div>
+</details>
+
+{% assign currentYear = "" %}
+{% for post in collections[listCollection] | reverse %}
+    {% include 'partials/listing-artwork-general.njk' %}
+{% endfor %}
+
+<script src="/js/filterByTag.js"></script>

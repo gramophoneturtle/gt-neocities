@@ -1,16 +1,18 @@
 ---
-title: Xenoblade X - No Spoilers
+title: Persona 5 - No Spoilers
 layout: /layouts/base.njk
 date: 2024-01-01
 
-id: xenoblade-x
-mainGrouping: XCX
-description: Played on the Wii U and drew a lot of Lao and Lin, plus other folks' Crosses (OCs).
+id: persona5
+mainGrouping: Persona5
+header: Persona 5
+description: Watched main story plot videos and fell in love with a spoilery striped Person'a design.
+
 tags:
     - fandomArtwork
-    - ArtworkXCX
-listCollection: 'XCXArtNoSpoilers'
-listSubCollection: ArtworkXCX
+    - ArtworkPersona5
+listCollection: 'Persona5ArtNoSpoilers'
+listSubCollection: ArtworkPersona5
 spoilers: no
 ---
 <p>Ordered by original post date.</p>
@@ -19,7 +21,9 @@ spoilers: no
 <div id="myBtnContainer">
   <div><button class="btn active" onclick="filterSelection('all')">Show all</button></div>
   <div>
-    {% include 'partials/artwork/characters/xcx-spoilerfree.njk' %}
+    <button class="btn" onclick="filterSelection('Akechi')">Akechi</button>
+    <button class="btn" onclick="filterSelection('Robin Hood')">Robin Hood</button>
+    <button class="btn" onclick="filterSelection('Loki')">Loki</button>
   </div>
 </div>
 </details>
