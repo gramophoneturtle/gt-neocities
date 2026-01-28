@@ -1,7 +1,19 @@
 ---
-title: Persona 5 - No Spoilers
+title: Persona 5
 layout: /layouts/base.njk
-date: 2024-01-01
+date: 2024-02-01
+
+id: persona5
+mainGrouping: Persona5
+header: Persona 5
+description: Watched main story plot videos and fell in love with a spoilery striped Person'a design.
+
+tags:
+    - fandomArtwork
+    - ArtworkPersona5
+listCollection: 'Persona5Art'
+listSubCollection: ArtworkPersona5
+spoilers: yes
 ---
 <p>Ordered by original post date.</p>
 <details>
@@ -16,11 +28,8 @@ date: 2024-01-01
 </div>
 </details>
 
-{% assign spoilersClass = "content spoilers" %}
-{% assign nospoilersClass = "content" %}
-
 {% assign currentYear = "" %}
-{% for post in collections.Persona5ArtNoSpoilers | reverse %}
+{% for post in collections[listCollection] | reverse %}
     {% include 'partials/listing-artwork-general.njk' %}
 {% endfor %}
 

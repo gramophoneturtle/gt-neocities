@@ -30,12 +30,23 @@ layout: /layouts/base.njk
   <a class="artwork-tag" href="#xenoblade-x">Xenoblade X</a>
 </div>
 
+<!-- TODO: get TWEWY's to work then should be good to replace -->
+<!--- {% include 'partials/artwork/artwork-fandom-table.njk' %} -->
+
 <div class="table-overflow">
   <table class = "table-toc-art">
     <tr>
-      <th>Fandom</th>
+      <th>Category</th>
       <th>Spoiler Free</th>
       <th>With Spoilers</th>
+    </tr>
+    <tr id="ocs">
+      <td>
+        <p>OCs</p>
+        <p class="smaller">Mine and others' OCs!</p>
+      </td>
+      <td><a href="/art/ocs/nospoilers/">NoSpoilers</br>({{collections.OCArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/ocs/all/">All</br>({{collections.OCArt.length}})</a></td>
     </tr>
     <tr id="artfight">
       <td>
@@ -54,51 +65,58 @@ layout: /layouts/base.njk
     </tr>
     <tr id="deltarune">
       <td>
-        <p>Deltarune</p> 
+        <p>Deltarune</p>
+        <p class="smaller">Misc Deltarune art, crossover stuff mostly.</p>
       </td>
       <td colspan="2"><a href="/art/deltarune/all/">All, Spoilers </br>({{collections.DeltaruneArt.length}})</a></td>
     </tr> 
     <tr id="kirby">
       <td>
         <p>Kirby</p> 
+        <p class="smaller">Generally love Kirby, played the games throughout my life. I just don't make a lot of fanart for it. Adore Kirby Air Riders.</p>
       </td>
       <td colspan="2"><a href="/art/kirby/nospoilers/">All, No Spoilers </br>({{collections.KirbyArtNoSpoilers.length}})</a></td>
     </tr> 
     <tr id="la-mulana">
       <td>
         <p>La Mulana</p>
+        <p class="smaller">Never played, but have watched any playthroughs of it. It's the platforming puzzle game that hates you and is a joy to watch and be amazed. Anyways the art is basically just Duvnin's Cowboy Spinda crossovers. I don't know what possessed me to do this but I'll take it.</p>
       </td>
-      <td colspan="2"><a href="/art/lamulana/nospoilers/">All, No Spoilers </br>({{collections.KirbyArtNoSpoilers.length}})</a></td>
+      <td colspan="2"><a href="/art/lamulana/nospoilers/">All, No Spoilers </br>({{collections.LaMulanaArtNoSpoilers.length}})</a></td>
     </tr> 
     <tr id="persona5">
       <td>
         <p>Persona 5</p>
         <p class="smaller">Watched main story plot videos and fell in love with a spoilery striped Person'a design.</p>
       </td>
-      <td><a href="/art/persona5-nospoilers/">No Spoilers </br>({{collections.Persona5ArtNoSpoilers.length}})</a></td>
-      <td><a href="/art/persona5/">All </br>({{collections.Persona5Art.length}})</a></td>
+      <td><a href="/art/persona5/nospoilers/">No Spoilers </br>({{collections.Persona5ArtNoSpoilers.length}})</a></td>
+      <td><a href="/art/persona5/all/">All </br>({{collections.Persona5Art.length}})</a></td>
     </tr>
     <tr id="pikmin">
       <td>
         <p>Pikmin</p>
+        <p class="smaller">Watched someone play through the first game and kinda remember it??? Picked up Pikmin Bloom in 2025 and I ADORE the decor Pikmin. Art is of my fave decor Pikmin or just my OCs as Pikmin.</p>
       </td>
       <td colspan="2"><a href="/art/Pikmin/nospoilers/">All </br>({{collections.PikminArt.length}})</a></td>
     </tr>
     <tr id="projectmoon">
       <td>
         <p>Project Moon</p>
+        <p class="smaller">I know very little of Project Moon other than it's fun to draw, and others love me drawing it!</p>
       </td>
       <td colspan="2"><a href="/art/project-moon/nospoilers/">All </br>({{collections.ProjectMoonArt.length}})</a></td>
     </tr>
     <tr id="pokemon">
       <td>
         <p>Pokemon</p>
+        <p class="smaller">Misc Pokemon art, but primarily Duvnin's SpindaTuber. Somehow in 2025 I've become known for Spindas.</p>
       </td>
       <td colspan="2"><a href="/art/pokemon/nospoilers/">All, No Spoilers </br>({{collections.PokemonArtNoSpoilers.length}})</a></td>
     </tr> 
     <tr id="splatoon">
       <td>
         <p>Splatoon</p>
+        <p class="smaller">Misc Splatoon art. Played since the Splatoon 1 testfire and played pretty conssitently. Fell off a few months to years for each game but enjoyed it. (Except Screen. Screen is AWFUL.)</p>
       </td>
       <td><a href="/art/splatoon/nospoilers/">No Spoilers </br>({{collections.SplatoonArtNoSpoilers.length}})</a></td>
       <td><a href="/art/splatoon/all/">All </br>({{collections.SplatoonArt.length}})</a></td>
@@ -106,6 +124,7 @@ layout: /layouts/base.njk
     <tr id="super-puzzled-cat">
       <td>
         <p>Super Puzzled Cat</p>
+        <p class="smaller">Watched someone play it in 2025 and fell in love with it. It's a puzzle platformer with save states that do not have the brain power/time for but it lives rent free in my head. I've mostly done crossover art with Void Stranger cause... there's... similarities?</p>
       </td>
       <td colspan="2"><a href="/art/super-puzzled-cat/nospoilers/">All </br>({{collections.SuperPuzzledCatArt.length}})</a></td>
     </tr>
@@ -116,7 +135,8 @@ layout: /layouts/base.njk
           <p><a href="/art/twewy/related/">AUs and Series</a></p>
       </td>
       <td><a href="/art/twewy-nospoilers/">Series</br>({{collections.TWEWYSeriesArtNoSpoilers.length}})</a></td>
-      <td><a href="/art/twewy/">Series Spoilers</br>({{collections.TWEWYSeriesArt.length}})</a></td>
+      <td><a href="/art/twewy/">Series Spoilers</br>({{collections.TWEWYSeriesArt.length}})</a>
+      </td>
     </tr>
     <tr>
       <td><a href="/art/twewy-og-nospoilers/">OG</br>({{collections.TWEWYArtNoSpoilers.length}})</a></td>
@@ -129,6 +149,7 @@ layout: /layouts/base.njk
     <tr id="void-stranger">
       <td>
         <p>Void Stranger</p>
+        <p class="smaller">Mostly crossover art between Super Puzzled Cat and Dunvin's SpindaTuber adventures. Found the game in 2024(?) and after a streamer got to a certain point in the game I NEEDED to know what the game had in store. It's a difficult game and at times cruel game, but it lives rent free in my head.</p>
       </td>
       <td><a href="/art/void-stranger/nospoilers/">No Spoilers</br>({{collections.VoidStrangerArtNoSpoilers.length}})</a></td>
       <td><a href="/art/void-stranger/all/">All</br>({{collections.VoidStrangerArt.length}})</a></td>
@@ -140,7 +161,7 @@ layout: /layouts/base.njk
           <p><a href="/art/xcx/related/">AUs and Series</a></p>
         </td>
       <td><a href="/art/xcx/xcx-nospoilers/">No Spoilers</br>({{collections.XCXArtNoSpoilers.length}})</a></td>
-      <td>All</td>
+      <td><a href="/art/xcx/all/">All</br>({{collections.XCXArt.length}})</a></td>
     </tr>
   </table>
 </div>

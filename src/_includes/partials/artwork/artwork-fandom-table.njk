@@ -1,0 +1,38 @@
+<p>Generating it</p>
+<div class="table-overflow">
+  <table class = "table-toc-art">
+    <tr>
+      <th>Category</th>
+      <th>Spoiler Free</th>
+      <th>With Spoilers</th>
+    </tr>
+    {% assign curGrouping = "" %}
+    <tr>
+    
+    {% for item in collections.fandomArtworkSorted %}
+      {% if curGrouping != item.data.mainGrouping %}
+        </tr >
+        {% assign curGrouping = item.data.mainGrouping %}
+          <td id = {{item.data.id}}>
+            <p style="margin-top: 0.5em; margin-bottom: 0.5em;">{{ item.data.header | default: item.data.mainGrouping }}</p>
+            <p class="smaller">{{item.data.description}}</p>
+
+            {{item.data.listSubCollection}}
+            {{ collections[item.data.listSubCollection].length }}
+          </td>
+      {% endif %}
+          {% if collections[item.data.listSubCollection].length == 1 %}
+            <td colspan="2" style="text-align: center;">
+          {% else %}
+            <td style="text-align: center;">
+          {% endif %}
+            {% if item.data.spoilers == "yes" %}
+              <a href={{item.page.url}}>All</br>({{collections[item.data.listCollection].length}})</a>
+            {% else %}
+              <a href={{item.page.url}}>No Spoilers</br>({{collections[item.data.listCollection].length}})</a>
+            {% endif %}
+          </td>
+    {% endfor %}
+    </tr>
+  </table>
+</div>

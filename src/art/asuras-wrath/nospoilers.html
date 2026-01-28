@@ -2,6 +2,18 @@
 title: Asura's Wrath - No Spoilers
 layout: /layouts/base.njk
 date: 2024-01-01
+
+id: asuraswrath
+mainGrouping: AsurasWrath
+header: Asura's Wrath
+description: 2017. Watched a playthrough and fell in love with the art direction. Some screenshot redraws that captured cool lighting and metal work.
+
+tags:
+    - fandomArtwork
+    - ArtworkAsurasWrath
+listCollection: 'TagAWArtNoSpoilers'
+listSubCollection: ArtworkAsurasWrath
+spoilers: no
 ---
 <p>Ordered by original post date.</p>
 <details>
@@ -20,7 +32,7 @@ date: 2024-01-01
 {% assign nospoilersClass = "content" %}
 
 {% assign currentYear = "" %}
-{% for post in collections.TagAWArtNoSpoilers | reverse %}
+{% for post in collections[listCollection] | reverse %}
     {% include 'partials/listing-artwork-general.njk' %}
 {% endfor %}
 

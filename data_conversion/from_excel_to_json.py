@@ -170,6 +170,11 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
 
         artwork_dictionary['spoilers'] = row['Spoilers']
 
+        if row['OC'] == "":
+           artwork_dictionary['oc'] = "no"
+        else:
+            artwork_dictionary['oc'] = row['OC']
+
         if row['title'] == "":
             print("        Title is missing for |{0}|".format(artworkname))
 
@@ -335,7 +340,7 @@ def main(sheet_name, file_path_output, fandoms = [""], include_spoilers = True, 
         file_path_input,
         sheet_name=sheet_name,
         usecols=['Artwork', 'NS?', "Earliest Date", "WebsIteDateUTC",
-                 'Spoilers',
+                 'Spoilers', 'OC',
                 'characters','fandom','PF Tags',
                 'title','summary','detail', 'warnings',
                 'RelatedSeries','RelatedSeriesOrder', 'RelatedWriting',
@@ -525,20 +530,20 @@ if __name__ == '__main__':
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
     ## ArtFight
-    # addCategorySingle("ArtFight","Other")
-
+    addCategorySingle("ArtFight","Other")
 
     ## Fandoms
-    # addCategorySingle("Splatoon","Other")
-    addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
+    addCategoryFromMultiple("OC","Other", exclude_crossover=True)
 
-    # addCategoryFromMultiple("Pikmin","Other")
-    addCategoryFromMultiple("void-stranger","Other")
-    addCategoryFromMultiple("Pokemon","Other")
-    addCategoryFromMultiple("Kirby","Other")
     addCategoryFromMultiple("Deltarune","Other")
+    addCategoryFromMultiple("Kirby","Other")
     addCategoryFromMultiple("LaMulana","Other")
-    # addCategoryFromMultiple("super-puzzled-cat","Other")
+    addCategoryFromMultiple("Pikmin","Other")
+    addCategoryFromMultiple("Pokemon","Other")
+    addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
+    addCategoryFromMultiple("super-puzzled-cat","Other")
+    addCategorySingle("Splatoon","Other")
+    addCategoryFromMultiple("VoidStranger","Other")
 
 
     # HOW TO HANDLE THE CROSS OVER STUFF

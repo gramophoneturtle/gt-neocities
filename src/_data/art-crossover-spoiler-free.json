@@ -1,5 +1,97 @@
 [
   {
+    "title": "Void Dreams and Nightmares",
+    "summary": "",
+    "details": "",
+    "characters": "Spinda",
+    "date": "2025-10-24",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2025-10-24-void-dream",
+    "UniqueURLKey": "2025-10-24-void-dream",
+    "spoilers": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/806402875640152064/void-cowboy-spinda-adventures-forgot-about-posting"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6826807"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3m3y5bcrw6k2z"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\10\\1024-vs02\\251024-VS02-SpindaDreamsNightmare-D2-800.jpg",
+        "alt": "Digital art of a Spinda sleeping under a tree with a cowboy hat placed next to it while holding the staff from Void Stranger. The left one is dreaming of three white blocks in a row, while the right one has a nightmare of a horned creature staring them down from above a room with some blocks arranged like a backwards \"C\"."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\10\\1024-vs02\\251024-thmb-VS02-SpindaDreamsNightmare-D2-250.jpg",
+    "thumbnailAlt": "Spinda",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "VoidStranger",
+      "Pokemon",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Something Is Wrong",
+    "summary": "But we have our bug friends.",
+    "details": "",
+    "characters": "Spinda",
+    "date": "2025-10-21",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2025-10-21-something",
+    "UniqueURLKey": "2025-10-21-something",
+    "spoilers": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/806402875640152064/void-cowboy-spinda-adventures-forgot-about-posting"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/6826807"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3m3qojskvtc24"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\10\\1021-vs01\\251021-VS01-SomethingIsWrong-D2-800.jpg",
+        "alt": "Digital art in grayscale of a Spinda wearing a cowboy hat frowns at a staff they are holding. Around them are four smiling glowing locusts."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\10\\1021-vs01\\251021-thmb-VS01-SomethingIsWrong-D2-250.jpg",
+    "thumbnailAlt": "Spinda",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "VoidStranger",
+      "Pokemon",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Secret Slime Pit!",
     "summary": "One final La Mulana Cowboy Spinda from Duvnin's La Mulana streams.",
     "details": "",
@@ -10,6 +102,7 @@
     "uniqueUrl": "2025-08-29-secret-sli",
     "UniqueURLKey": "2025-08-29-secret-sli",
     "spoilers": "no",
+    "oc": "no",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -67,6 +160,7 @@
     "uniqueUrl": "2025-08-21-spinda-wed",
     "UniqueURLKey": "2025-08-21-spinda-wed",
     "spoilers": "no",
+    "oc": "no",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -124,6 +218,7 @@
     "uniqueUrl": "2025-08-14-skinda-spi",
     "UniqueURLKey": "2025-08-14-skinda-spi",
     "spoilers": "no",
+    "oc": "no",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -173,6 +268,7 @@
     "uniqueUrl": "2025-08-04-spinda-map",
     "UniqueURLKey": "2025-08-04-spinda-map",
     "spoilers": "no",
+    "oc": "no",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -226,6 +322,7 @@
     "uniqueUrl": "2025-05-07-i-can-see",
     "UniqueURLKey": "2025-05-07-i-can-see",
     "spoilers": "no",
+    "oc": "No",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -276,6 +373,7 @@
     "uniqueUrl": "2025-03-09-mother-pik",
     "UniqueURLKey": "2025-03-09-mother-pik",
     "spoilers": "no",
+    "oc": "Yes",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -325,6 +423,7 @@
     "uniqueUrl": "2025-02-25-would-you",
     "UniqueURLKey": "2025-02-25-would-you",
     "spoilers": "no",
+    "oc": "No",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -375,6 +474,7 @@
     "uniqueUrl": "2025-02-20-snacks-no",
     "UniqueURLKey": "2025-02-20-snacks-no",
     "spoilers": "no",
+    "oc": "No",
     "urls": [
       {
         "sitename": "Tumblr",
@@ -408,7 +508,7 @@
     "vids": [],
     "fandom": [
       "Crossover",
-      "void-stranger",
+      "VoidStranger",
       "super-puzzled-cat"
     ],
     "RelatedWritingURL": ""

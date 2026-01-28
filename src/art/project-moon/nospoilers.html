@@ -2,6 +2,18 @@
 title: Project Moon - No Spoilers
 layout: /layouts/base.njk
 date: 2024-01-01
+
+id: projectmoon
+mainGrouping: ProjectMoon
+header: Project Moon
+description: I know very little of Project Moon other than it's fun to draw, and others love me drawing it!
+
+tags:
+    - fandomArtwork
+    - ArtworkProjectMoon
+listCollection: 'ProjectMoonArt'
+listSubCollection: ArtworkProjectMoon
+spoilers: no
 ---
 <p>Ordered by original post date.</p>
 <details>
@@ -21,7 +33,7 @@ date: 2024-01-01
 {% assign nospoilersClass = "content" %}
 
 {% assign currentYear = "" %}
-{% for post in collections.ProjectMoonArt | reverse %}
+{% for post in collections[listCollection] | reverse %}
     {% include 'partials/listing-artwork-general.njk' %}
 {% endfor %}
 
