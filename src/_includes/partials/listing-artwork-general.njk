@@ -1,15 +1,24 @@
-
 {% assign postYear = post.data.aArtwork.dateYear %}
   {% if currentYear != postYear %}
   {% assign currentYear = postYear %}
     <div class="boxheader"><h3>{{ postYear }}</h3></div>
   {% endif %}
     <div classs="row">
+
+ {% if post.data.aArtwork.warnings == "yes" %}
+      <div class="spoilers characters {{ post.data.aArtwork.characters }} show" >
+  {% else %}
       <div class="characters {{ post.data.aArtwork.characters }} show">
-            <div class= "content">
-              <a href="{{ post.url }}"> 
+  {% endif %}
+
+          <div class= "content">
+            <a href="{{ post.url }}"> 
                 <div class="desc"> 
-                  {{ post.data.aArtwork.title | truncate: 37 }}
+                  {% if post.data.aArtwork.warnings == "yes" %}
+                        <strong>[!!]</strong> {{ post.data.aArtwork.title | truncate: 32 }}
+                    {% else %}
+                        {{ post.data.aArtwork.title | truncate: 37 }}
+                    {% endif %}
                 </div>
                 {% if post.data.aArtwork.thumbnailUrl  %}
                   <img
