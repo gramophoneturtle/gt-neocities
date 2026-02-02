@@ -10,6 +10,7 @@
     "uniqueUrl": "2025-02-05-found-you",
     "UniqueURLKey": "art/twewy/2025-02-05-found-you",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -65,6 +66,7 @@
     "uniqueUrl": "2025-01-18-void-mew",
     "UniqueURLKey": "art/twewy/2025-01-18-void-mew",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -115,6 +117,7 @@
     "uniqueUrl": "2024-11-18-his-ward",
     "UniqueURLKey": "art/twewy/2024-11-18-his-ward",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -175,6 +178,7 @@
     "uniqueUrl": "2024-11-01-an-order-o",
     "UniqueURLKey": "art/twewy/2024-11-01-an-order-o",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -235,6 +239,7 @@
     "uniqueUrl": "2024-03-12-thank-you",
     "UniqueURLKey": "art/twewy/2024-03-12-thank-you",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -289,6 +294,7 @@
     "uniqueUrl": "2023-11-19-order-of-m",
     "UniqueURLKey": "art/twewy/2023-11-19-order-of-m",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -333,6 +339,7 @@
     "uniqueUrl": "2023-10-22-there-was",
     "UniqueURLKey": "art/twewy/2023-10-22-there-was",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -396,6 +403,7 @@
     "uniqueUrl": "2023-10-05-hazuki-ani",
     "UniqueURLKey": "art/twewy/2023-10-05-hazuki-ani",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -456,6 +464,7 @@
     "uniqueUrl": "2023-08-21-neo-joshua",
     "UniqueURLKey": "art/twewy/2023-08-21-neo-joshua",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -545,6 +554,7 @@
     "uniqueUrl": "2023-08-15-executor",
     "UniqueURLKey": "art/twewy/2023-08-15-executor",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -609,6 +619,7 @@
     "uniqueUrl": "2023-04-07-new-shoes",
     "UniqueURLKey": "art/twewy/2023-04-07-new-shoes",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -658,6 +669,7 @@
     "uniqueUrl": "2023-04-05-older-moth",
     "UniqueURLKey": "art/twewy/2023-04-05-older-moth",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -706,6 +718,7 @@
     "uniqueUrl": "2022-10-12-act-a-frie",
     "UniqueURLKey": "art/twewy/2022-10-12-act-a-frie",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -776,6 +789,7 @@
     "uniqueUrl": "2022-08-20-hazuki-pra",
     "UniqueURLKey": "art/twewy/2022-08-20-hazuki-pra",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -830,6 +844,7 @@
     "uniqueUrl": "2022-08-02-two-totez",
     "UniqueURLKey": "art/twewy/2022-08-02-two-totez",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -880,6 +895,7 @@
     "uniqueUrl": "2022-06-19-totally-no",
     "UniqueURLKey": "art/twewy/2022-06-19-totally-no",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -930,6 +946,7 @@
     "uniqueUrl": "2022-05-05-happy-birt",
     "UniqueURLKey": "art/twewy/2022-05-05-happy-birt",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -980,6 +997,7 @@
     "uniqueUrl": "2022-04-16-yoshi-nii",
     "UniqueURLKey": "art/twewy/2022-04-16-yoshi-nii",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1024,6 +1042,7 @@
     "uniqueUrl": "2022-03-21-mother-and",
     "UniqueURLKey": "art/twewy/2022-03-21-mother-and",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1088,6 +1107,7 @@
     "uniqueUrl": "2022-02-14-yoshi-ya-h",
     "UniqueURLKey": "art/twewy/2022-02-14-yoshi-ya-h",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1148,6 +1168,7 @@
     "uniqueUrl": "2022-02-08-they-call",
     "UniqueURLKey": "art/twewy/2022-02-08-they-call",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1208,6 +1229,7 @@
     "uniqueUrl": "2022-01-26-there-was",
     "UniqueURLKey": "art/twewy/2022-01-26-there-was",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1273,6 +1295,7 @@
     "uniqueUrl": "2022-01-20-happy-birt",
     "UniqueURLKey": "art/twewy/2022-01-20-happy-birt",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1323,6 +1346,7 @@
     "uniqueUrl": "2021-12-29-chain-of-c",
     "UniqueURLKey": "art/twewy/2021-12-29-chain-of-c",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1383,6 +1407,7 @@
     "uniqueUrl": "2021-12-23-purificati",
     "UniqueURLKey": "art/twewy/2021-12-23-purificati",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1433,6 +1458,7 @@
     "uniqueUrl": "2021-12-17-hoodie-bud",
     "UniqueURLKey": "art/twewy/2021-12-17-hoodie-bud",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1493,6 +1519,7 @@
     "uniqueUrl": "2021-12-03-hazukweho",
     "UniqueURLKey": "art/twewy/2021-12-03-hazukweho",
     "spoilers": "Yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1548,6 +1575,7 @@
     "uniqueUrl": "2021-11-22-hanekoma",
     "UniqueURLKey": "art/twewy/2021-11-22-hanekoma",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1602,6 +1630,7 @@
     "uniqueUrl": "2021-11-20-kubo-high",
     "UniqueURLKey": "art/twewy/2021-11-20-kubo-high",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1661,6 +1690,7 @@
     "uniqueUrl": "2021-11-14-didnt-you",
     "UniqueURLKey": "art/twewy/2021-11-14-didnt-you",
     "spoilers": "yes",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
