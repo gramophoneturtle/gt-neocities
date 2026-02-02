@@ -170,6 +170,11 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
 
         artwork_dictionary['spoilers'] = row['Spoilers']
 
+        if row['warnings'] == "":
+           artwork_dictionary['warnings'] = "no"
+        else:
+            artwork_dictionary['warnings'] = 'yes'
+
         if row['OC'] == "":
            artwork_dictionary['oc'] = "no"
         else:

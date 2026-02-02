@@ -173,7 +173,7 @@ module.exports = function (eleventyConfig) {
       .filter(function (item) {
         // Only return content that was originally a markdown file
         let artworkURL = item.page.url;
-        return urlArr.includes(artworkURL )&& item.data.aArtwork.spoilers.toUpperCase() === "NO";
+        return urlArr.includes(artworkURL )&& item.data.aArtwork.spoilers.toUpperCase() === "NO" && item.data.aArtwork.warnings.toUpperCase() === "NO";
 		  })
       .sort(sortaArtworkWebsiteDate);
   });
