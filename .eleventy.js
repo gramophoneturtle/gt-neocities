@@ -273,6 +273,20 @@ module.exports = function (eleventyConfig) {
     .sort(sortaArtworkDate);
   });
 
+  eleventyConfig.addCollection("MGS1ArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+      return item.data.aArtwork.fandom.includes("MGS1") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
+  });
+
+  eleventyConfig.addCollection("MoonRPGArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("MoonRPG") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
+  });
+
   // Persona 5
   eleventyConfig.addCollection("Persona5ArtNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt")

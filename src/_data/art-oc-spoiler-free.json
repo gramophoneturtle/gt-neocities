@@ -1,12 +1,65 @@
 [
   {
+    "title": "Happy 5th Twitch Anniversary Doodles",
+    "summary": "Happy 5th Twitch Anniversary doodles! Featuring my gramophone turtles & a Catsy, belonging to ClancyBee! I finally get to doodle the odd shapes & forms this strange creature can take...\nWe also learned about numerical contractions in more detail & are saddened a little by them",
+    "details": "Numerical contractions:\ni18n = internationalization (an example from wikipedia)\ng14e t4e = gramophone turtle\ng1o h1w c3d y1u?! = Gao how could you?! \nc4y is so c2l! = Clancy is so cool!",
+    "characters": "",
+    "date": "2025-12-20",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2025-12-20-happy-5th",
+    "UniqueURLKey": "2025-12-20-happy-5th",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "yes",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/803504499892289536/happy-5th-twitch-anniversary-doodles-i-just"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7015094"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mahlbixs2k2n"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115755263243284679"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/0619bfec-8bc6-461e-93b1-ba06b39590e2"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\12\\1220-twitch-anni\\2025-StreamAnniDoodles-D2-800.webp",
+        "alt": "Happy 5th Twitch Anniversary Gramophone Turtle (and one Catsy belonging to ClancyBee) digital art doodles!\n\nTop left: Catsy being a cat loaf in a box, sleeping happily.\nTop right: A confused gramophone turtle puddle. It is confused about \"i18n\" and sad that \"gramophone turtle\" can be written as \"g14e t4e\" and saying \"g1o h1w c3d y1u?!\" (\"Gao how could you?!\") Then it also says \"c4y is so c2l!\" (Clancy is so cool!\")\nMiddle row: A winged/bird gramophone turtle singing, and then a standing crying gramophone turtle that flops down and is lying down and crying big puddles of tears. Then a standing a happy or dancing gramophone turtle.\nBottom right: a gramophone turtle sitting as a turtle loaf."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\12\\1220-twitch-anni\\2025-thmb-StreamAnniDoodles-D2-250.webp",
+    "thumbnailAlt": "Gramophone turtle",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "OC"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "SuperkateProduction's Eris",
-    "summary": "VGen Commission of Eris, SuperkateProducations' Dungeons and Dragon's character/OC, from Twitch & YouTube! This was a super cool character to draw, I had a lot of fun with this!",
+    "summary": "VGen Commission of Eris, SuperkateProductions' Dungeons and Dragon's character/OC, from Twitch & YouTube! This was a super cool character to draw, I had a lot of fun with this!",
     "details": "",
     "characters": "Eris",
     "date": "2025-11-27",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "TODO!!",
     "uniqueUrl": "2025-11-27-eris-profi",
     "UniqueURLKey": "2025-11-27-eris-profi",
     "spoilers": "no",
@@ -222,7 +275,7 @@
     "characters": "Unknown",
     "date": "2025-04-08",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "TODO!!",
     "uniqueUrl": "2025-04-08-tumblr-raf",
     "UniqueURLKey": "2025-04-08-tumblr-raf",
     "spoilers": "no",
@@ -276,7 +329,7 @@
     "characters": "Bentley",
     "date": "2025-03-31",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "TODO!!",
     "uniqueUrl": "2025-03-31-wildflower",
     "UniqueURLKey": "2025-03-31-wildflower",
     "spoilers": "no",

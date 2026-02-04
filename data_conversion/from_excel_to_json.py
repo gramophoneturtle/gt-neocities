@@ -540,15 +540,17 @@ if __name__ == '__main__':
     ## Fandoms
     addCategoryFromMultiple("OC","Other", exclude_crossover=True)
 
-    addCategoryFromMultiple("Deltarune","Other")
-    addCategoryFromMultiple("Kirby","Other")
-    addCategoryFromMultiple("LaMulana","Other")
-    addCategoryFromMultiple("Pikmin","Other")
+    # addCategoryFromMultiple("Deltarune","Other")
+    # addCategoryFromMultiple("Kirby","Other")
+    # addCategoryFromMultiple("LaMulana","Other")
+    # addCategoryFromMultiple("MGS1","Other")
+    addCategoryFromMultiple("MoonRPG","Other")
+    # addCategoryFromMultiple("Pikmin","Other")
     addCategoryFromMultiple("Pokemon","Other")
     addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
-    addCategoryFromMultiple("super-puzzled-cat","Other")
-    addCategorySingle("Splatoon","Other")
-    addCategoryFromMultiple("VoidStranger","Other")
+    # addCategoryFromMultiple("super-puzzled-cat","Other")
+    # addCategorySingle("Splatoon","Other")
+    # addCategoryFromMultiple("VoidStranger","Other")
 
 
     # HOW TO HANDLE THE CROSS OVER STUFF

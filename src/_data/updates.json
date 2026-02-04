@@ -3,16 +3,25 @@
         "PostDate": "2026-02-03"
         ,"date": "2026-02-03"
         ,"pubDate": "Tue, 03 Jan 2026"
-        ,"Site": "Start of artwork warning labeling. At the moment artwork will have a red dashed border and an [!!] prepended to the artwork title. Added a new Analysis-ish post about my first week or so of trying out On-Together."
+        ,"Site": "Start of artwork warning labeling. At the moment artwork will have a red dashed border and an [!!] prepended to the artwork title. Added a new Analysis-ish post about my first week or so of trying out On-Together. Restored linking artwork to related writing."
         ,"ArtList": [
-             {
+            {
+                "Category": "Moon RPG",
+                "List": [
+                    {
+                        "Title": "...That is love. ...This is love.",
+                        "URL": "/art/moon-rpg/2025-12-19-this-is-lo/"
+                    }
+                ] 
+            },
+            {
                 "Category": "OC",
                 "List": [
-                     {
+                    {
                         "Title": "Tumblr Raffle",
                         "URL": "/art/gen/2025-04-08-tumblr-raf/"
                     },
-                     {
+                    {
                         "Title": "SuperkateProduction's Eris",
                         "URL": "/art/gen/2025-11-27-eris-profi/"
                     }
@@ -24,6 +33,36 @@
                     {
                         "Title": "Wildflower Bouquet (Scars and multiple eyes)",
                         "URL": "/art/gen/2025-03-31-wildflower/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Project Moon",
+                "List": [
+                     {
+                        "Title": "The world we used to know is gone like dreams",
+                        "URL": "/art/project-moon/2026-01-02-the-world/"
+                    },
+                     {
+                        "Title": "Moses Doodle from 2025",
+                        "URL": "/art/project-moon/2026-01-19-moses-dood/"
+                    }
+                ] 
+            },
+            {
+                "Category": "Pokemon Crossovers",
+                "List": [
+                    {
+                        "Title": "Me With My 21 Hats!",
+                        "URL": "/art/gen/2025-12-29-21-hats/"
+                    },
+                    {
+                        "Title": "I'm A Box!!",
+                        "URL": "/art/gen/2026-01-13-im-a-box/"
+                    },
+                     {
+                        "Title": "Accept Your Genes!",
+                        "URL": "/art/gen/2026-01-17-accept-you/"
                     }
                 ] 
             },

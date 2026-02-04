@@ -1,0 +1,24 @@
+---
+title: Moon RPG - No Spoilers
+layout: /layouts/base.njk
+date: 2024-01-01
+
+id: moon-rpg
+mainGrouping: moonrpg
+description: After watching a playthrough of Stray Children and hearing how many similarities to Moon it had, I wanted to watch it. It's a very cool game, despite being quite dated in some places.
+tags:
+    - fandomArtwork
+    - ArtworkMoonRPG
+listCollection: 'MoonRPGArtNoSpoilers'
+listSubCollection: ArtworkMoonRPG
+spoilers: no
+---
+{% include 'partials/artwork/artwork-fandom-page-desc.njk' %}
+{% assign spoilersClass = "content spoilers" %}
+{% assign nospoilersClass = "content" %}
+{% assign currentYear = "" %}
+{% for post in collections[listCollection]| reverse %}
+    {% include 'partials/listing-artwork-general.njk' %}
+{% endfor %}
+
+<script src="/js/filterByTag.js"></script>
