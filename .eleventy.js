@@ -173,7 +173,7 @@ module.exports = function (eleventyConfig) {
       .filter(function (item) {
         // Only return content that was originally a markdown file
         let artworkURL = item.page.url;
-        return urlArr.includes(artworkURL )&& item.data.aArtwork.spoilers.toUpperCase() === "NO";
+        return urlArr.includes(artworkURL )&& item.data.aArtwork.spoilers.toUpperCase() === "NO" && item.data.aArtwork.warnings.toUpperCase() === "NO";
 		  })
       .sort(sortaArtworkWebsiteDate);
   });
@@ -269,6 +269,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("LaMulanaArtNoSpoilers", function (collectionApi) {
     return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
 			return item.data.aArtwork.fandom.includes("LaMulana") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
+  });
+
+  eleventyConfig.addCollection("MGS1ArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+      return item.data.aArtwork.fandom.includes("MGS1") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
+    })
+    .sort(sortaArtworkDate);
+  });
+
+  eleventyConfig.addCollection("MoonRPGArtNoSpoilers", function (collectionApi) {
+    return collectionApi.getFilteredByTags("MyArt").filter(function (item) {
+			return item.data.aArtwork.fandom.includes("MoonRPG") && item.data.aArtwork.spoilers.toUpperCase() === "NO";
     })
     .sort(sortaArtworkDate);
   });

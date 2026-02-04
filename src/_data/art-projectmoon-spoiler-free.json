@@ -1,5 +1,113 @@
 [
   {
+    "title": "Moses Doodle from 2025",
+    "summary": "I like this style and wanted to do more of it, so I'm glad some of my daily drawings have been leaning in this direction.",
+    "details": "",
+    "characters": "Moses",
+    "date": "2026-01-19",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2026-01-19-moses-dood",
+    "UniqueURLKey": "2026-01-19-moses-dood",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/806215612830466048/moses-drawing-from-2025"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7147685"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mcsumqsyek2k"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115924521855457369"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/1a43e8fb-2590-4e10-823f-7a4d81c0d2bf"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2026\\01\\0119-moses-doodle\\260119-MosesDoodle-D2-800.webp",
+        "alt": "Digital art of Moses from Distortion Detective."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\01\\0119-moses-doodle\\260119-thmb-MosesDoodle-D2-250.webp",
+    "thumbnailAlt": "Moses",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "ProjectMoon",
+      "DistortionDetective"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "The world we used to know is gone like dreams.",
+    "summary": "VGen Commission for LetoLeGaosaure of Taii and Flower from WonderLab hugging each other. Thank you for the request, love drawing a good comfort hug...!",
+    "details": "",
+    "characters": "Taii, Flower",
+    "date": "2026-01-02",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "TODO!!",
+    "uniqueUrl": "2026-01-02-the-world",
+    "UniqueURLKey": "2026-01-02-the-world",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/804675285380448256/the-world-we-used-to-know-is-gone-like"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7068773"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3mbi3i54mbs2v"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115827951710049573"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/103dda3b-05f7-40b0-9db3-b034753a7141"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2026\\01\\0102-comm-gaohug\\260102-ARTIST-Gao-TaiiFlower-D2-800.jpg",
+        "alt": "Digital art of Taii and Flower from WonderLab, hugging each other from the side. Taii has their eyes closed as they hug Flower, who is upset and has tears in their eyes. Both characters have their hair slightly ruffled up and have scuff marks on their faces, and Flower has lost their arm band."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\01\\0102-comm-gaohug\\260102-thmb-ARTIST-Gao-TaiiFlower-D2-250.jpg",
+    "thumbnailAlt": "Taii and Flower",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "WonderLab",
+      "ProjectMoon"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Rose - Rip Space Commission",
     "summary": "Commission for LeGaosaure on VGen! Thanks for requesting such a chaotic action piece!",
     "details": "",
@@ -10,6 +118,7 @@
     "uniqueUrl": "2025-08-23-rose-rip-s",
     "UniqueURLKey": "2025-08-23-rose-rip-s",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -67,6 +176,7 @@
     "uniqueUrl": "2025-06-26-chibi-dant",
     "UniqueURLKey": "2025-06-26-chibi-dant",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {

@@ -101,6 +101,12 @@
   </div>
 {%- endif -%}
 
+{# RELATED WRITING #}
+{%- if aArtwork.RelatedWritingURL %}
+  <h2>Related Writing</h2>
+  <a href="{{aArtwork.RelatedWritingURL}}">Related Writing</a> - <a href="{{aArtwork.RelatedWritingURL}}" target="_blank" rel="noopener noreferrer">↗</a>
+{%- endif -%}
+
 {# AUs/RELATED SERIES #}
 {% if aArtwork.RelatedSeriesAndURL.length > 0 %}
 <div>

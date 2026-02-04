@@ -1,15 +1,133 @@
 [
   {
+    "title": "Accept Your Genes!",
+    "summary": "Spinda was given long jeans to wear during Duvnin's MGS1's Genes Talk. Help??",
+    "details": "",
+    "characters": "Spinda",
+    "date": "2026-01-17",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2026-01-17-accept-you",
+    "UniqueURLKey": "2026-01-17-accept-you",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3mcohf5tqwk24"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2026\\01\\0117-genes\\260117-spin-D2-754.webp",
+        "alt": "Digital art of Spinda wearing long jeans. From Duvnin's MGS1 stream where he put long jeans on his SpindaTuber."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\01\\0117-genes\\260117-thmb-spin-D2-250.webp",
+    "thumbnailAlt": "Spinda",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "Pokemon",
+      "MGS1",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "I'm A Box!!",
+    "summary": "For Duvnin's MGS playthrough.",
+    "details": "",
+    "characters": "Spinda",
+    "date": "2026-01-13",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2026-01-13-im-a-box",
+    "UniqueURLKey": "2026-01-13-im-a-box",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mce3qy5cgs2s"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2026\\01\\0113-imma-box\\260113-mgsSpinda-D2-800.webp",
+        "alt": "Digital art of two Spindas - the first is hiding in a box, and the second reveals the Spinda inside the box is wearing Snake's bandana from Metal Gear Solid, and smiling."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\01\\0113-imma-box\\260113-thmb-mgsSpinda-D2-250.webp",
+    "thumbnailAlt": "Spinda",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "Pokemon",
+      "MGS1",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Me With My 21 Hats!",
+    "summary": "For Duvnin.bsky.social's FF9 playthrough.",
+    "details": "Sometimes you accidentally buy 21 hats",
+    "characters": "Spinda",
+    "date": "2025-12-29",
+    "dateYear": "2025",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2025-12-29-21-hats",
+    "UniqueURLKey": "2025-12-29-21-hats",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mb65kifefc2i"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2025\\12\\1229-21hats\\251229-RMSpinda-21Hats-D2-800.webp",
+        "alt": "Digital art of a Spinda wearing a Red Mage outfit from the Final Fantasy series. The Spinda is wearing two hats and has another 19 hats surrounding them. The text at the top says \"21 HATS\"."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2025\\12\\1229-21hats\\251229-thmb-RMSpinda-21Hats-D2-250.webp",
+    "thumbnailAlt": "Spinda",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "Pokemon",
+      "Final Fantasy",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Void Dreams and Nightmares",
     "summary": "",
     "details": "",
     "characters": "Spinda",
     "date": "2025-10-24",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "2026-01-27 00:00:00",
     "uniqueUrl": "2025-10-24-void-dream",
     "UniqueURLKey": "2025-10-24-void-dream",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -52,10 +170,11 @@
     "characters": "Spinda",
     "date": "2025-10-21",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "2026-01-27 00:00:00",
     "uniqueUrl": "2025-10-21-something",
     "UniqueURLKey": "2025-10-21-something",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -102,6 +221,7 @@
     "uniqueUrl": "2025-08-29-secret-sli",
     "UniqueURLKey": "2025-08-29-secret-sli",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -160,6 +280,7 @@
     "uniqueUrl": "2025-08-21-spinda-wed",
     "UniqueURLKey": "2025-08-21-spinda-wed",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -218,6 +339,7 @@
     "uniqueUrl": "2025-08-14-skinda-spi",
     "UniqueURLKey": "2025-08-14-skinda-spi",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -268,6 +390,7 @@
     "uniqueUrl": "2025-08-04-spinda-map",
     "UniqueURLKey": "2025-08-04-spinda-map",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -322,6 +445,7 @@
     "uniqueUrl": "2025-05-07-i-can-see",
     "UniqueURLKey": "2025-05-07-i-can-see",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -373,6 +497,7 @@
     "uniqueUrl": "2025-03-09-mother-pik",
     "UniqueURLKey": "2025-03-09-mother-pik",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -423,6 +548,7 @@
     "uniqueUrl": "2025-02-25-would-you",
     "UniqueURLKey": "2025-02-25-would-you",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -474,6 +600,7 @@
     "uniqueUrl": "2025-02-20-snacks-no",
     "UniqueURLKey": "2025-02-20-snacks-no",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {

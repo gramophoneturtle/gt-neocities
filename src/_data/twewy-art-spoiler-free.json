@@ -1,5 +1,58 @@
 [
   {
+    "title": "Mikan's Koi Fish Adventure",
+    "summary": "<p>New OC time! And new short story time! And new Father lore! All fresh from today! It features his cat, Mikan, from his Reaper days meeting a koi fish for the first time. It's cute, I promise, as drawn above!</p>\n<p>The whole thing is inspired by this adorable gif of cats interacting with pond fish playfully and created as a last day idea of joining VGen's Monthly Challenge of \"Adventure\"! </p>",
+    "details": "",
+    "characters": "Father, Mikan",
+    "date": "2026-01-31",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "TODO",
+    "uniqueUrl": "2026-01-31-mikans-koi",
+    "UniqueURLKey": "art/twewy/2026-01-31-mikans-koi",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/807322076008660992/mikans-koi-fish-adventure-new-oc-time-and-new"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7201892"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3mdrfg5wvts2z"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/115993594186207381"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/bd202140-b0c2-4e10-9edc-3258749618ea"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2026\\01\\0131-vgen-adventure\\260131-vgen-adventure-mikan-D2-800.jpg",
+        "alt": "Digital art painting of an orange cat with white paws and a nose looking down at a Hikari Muji Koi Fish, rising out of the water. Mikan, the orange cat, tentatively reaches a paw out towards the approaching fish as she crouches down on the ledge of a rocky and mossy pond edge."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\01\\0131-vgen-adventure\\260131-thmb-vgen-adventure-mikan-D2-250.jpg",
+    "thumbnailAlt": "Cat",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY"
+    ],
+    "RelatedWritingURL": "/writing/mikans-koi-fish-adventure/"
+  },
+  {
     "title": "Happy Birthday Mother!!",
     "summary": "Happy Birthday to Mother!! It\u2019s my first year celebrating it, it was a lot of fun thinking of gifts for her, and having chat help me figure out what to draw/get for her! I love Mother, and I\u2019m very grateful for everyone who\u2019s shown love towards her as well!!!",
     "details": "Father got her an awful joke tie and an actual birthday gift - Maki! Null and Chisa went together on a gift - oolong tea and honey! Joshua got her a #1 Mother mug and Hazuki folded her a parrot origami to match Father's joke parrot tie. Twitch chat got her a cake and LinkOfHyrule0 brought in the streamers!",
@@ -10,6 +63,7 @@
     "uniqueUrl": "2026-01-10-happy-birt",
     "UniqueURLKey": "art/twewy/2026-01-10-happy-birt",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -62,6 +116,7 @@
     "uniqueUrl": "2025-12-17-warm-shiki",
     "UniqueURLKey": "art/twewy/2025-12-17-warm-shiki",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -120,6 +175,7 @@
     "uniqueUrl": "2025-12-02-alone-null",
     "UniqueURLKey": "art/twewy/2025-12-02-alone-null",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -169,6 +225,7 @@
     "uniqueUrl": "2025-11-26-a-gentle-s",
     "UniqueURLKey": "art/twewy/2025-11-26-a-gentle-s",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -213,6 +270,7 @@
     "uniqueUrl": "2025-11-20-reunion",
     "UniqueURLKey": "art/twewy/2025-11-20-reunion",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -265,6 +323,7 @@
     "uniqueUrl": "2025-11-17-bnnuy-glov",
     "UniqueURLKey": "art/twewy/2025-11-17-bnnuy-glov",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -317,6 +376,7 @@
     "uniqueUrl": "2025-11-15-father-and",
     "UniqueURLKey": "art/twewy/2025-11-15-father-and",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -369,6 +429,7 @@
     "uniqueUrl": "2025-11-05-angry-fath",
     "UniqueURLKey": "art/twewy/2025-11-05-angry-fath",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -426,6 +487,7 @@
     "uniqueUrl": "2025-11-01-happy-birt",
     "UniqueURLKey": "art/twewy/2025-11-01-happy-birt",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -484,6 +546,7 @@
     "uniqueUrl": "2025-10-18-noodles",
     "UniqueURLKey": "art/twewy/2025-10-18-noodles",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -543,6 +606,7 @@
     "uniqueUrl": "2025-10-06-father-spo",
     "UniqueURLKey": "art/twewy/2025-10-06-father-spo",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -595,6 +659,7 @@
     "uniqueUrl": "2025-10-05-father-gam",
     "UniqueURLKey": "art/twewy/2025-10-05-father-gam",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -647,6 +712,7 @@
     "uniqueUrl": "2025-08-25-bonus-hug",
     "UniqueURLKey": "art/twewy/2025-08-25-bonus-hug",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "yes",
     "urls": [
       {
@@ -695,6 +761,7 @@
     "uniqueUrl": "2025-08-03-rubi-and-i",
     "UniqueURLKey": "art/twewy/2025-08-03-rubi-and-i",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -757,6 +824,7 @@
     "uniqueUrl": "2025-07-02-tesuji-and",
     "UniqueURLKey": "art/twewy/2025-07-02-tesuji-and",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "no",
     "urls": [
       {
@@ -819,6 +887,7 @@
     "uniqueUrl": "2025-06-15-happy-fath",
     "UniqueURLKey": "art/twewy/2025-06-15-happy-fath",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -867,6 +936,7 @@
     "uniqueUrl": "2025-05-31-fathers-s",
     "UniqueURLKey": "art/twewy/2025-05-31-fathers-s",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -915,6 +985,7 @@
     "uniqueUrl": "2025-05-30-null-chibi",
     "UniqueURLKey": "art/twewy/2025-05-30-null-chibi",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -967,6 +1038,7 @@
     "uniqueUrl": "2025-05-12-sip-sip-hy",
     "UniqueURLKey": "art/twewy/2025-05-12-sip-sip-hy",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1015,6 +1087,7 @@
     "uniqueUrl": "2025-05-11-happy-moth",
     "UniqueURLKey": "art/twewy/2025-05-11-happy-moth",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1068,6 +1141,7 @@
     "uniqueUrl": "2025-05-08-whos-this",
     "UniqueURLKey": "art/twewy/2025-05-08-whos-this",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1116,6 +1190,7 @@
     "uniqueUrl": "2025-04-30-to-be-call",
     "UniqueURLKey": "art/twewy/2025-04-30-to-be-call",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1169,6 +1244,7 @@
     "uniqueUrl": "2025-04-29-father-str",
     "UniqueURLKey": "art/twewy/2025-04-29-father-str",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1217,6 +1293,7 @@
     "uniqueUrl": "2025-04-04-nao-doodle",
     "UniqueURLKey": "art/twewy/2025-04-04-nao-doodle",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1265,6 +1342,7 @@
     "uniqueUrl": "2025-02-28-thank-you",
     "UniqueURLKey": "art/twewy/2025-02-28-thank-you",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1313,6 +1391,7 @@
     "uniqueUrl": "2025-02-20-cheer-up",
     "UniqueURLKey": "art/twewy/2025-02-20-cheer-up",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1357,6 +1436,7 @@
     "uniqueUrl": "2025-01-31-serpent-co",
     "UniqueURLKey": "art/twewy/2025-01-31-serpent-co",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1409,6 +1489,7 @@
     "uniqueUrl": "2025-01-08-cat-comcat",
     "UniqueURLKey": "art/twewy/2025-01-08-cat-comcat",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1473,6 +1554,7 @@
     "uniqueUrl": "2025-01-05-mother-pra",
     "UniqueURLKey": "art/twewy/2025-01-05-mother-pra",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1517,6 +1599,7 @@
     "uniqueUrl": "2024-12-21-comforts-f",
     "UniqueURLKey": "art/twewy/2024-12-21-comforts-f",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1581,6 +1664,7 @@
     "uniqueUrl": "2024-12-12-shut-up-f",
     "UniqueURLKey": "art/twewy/2024-12-12-shut-up-f",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1625,6 +1709,7 @@
     "uniqueUrl": "2024-11-24-null-smile",
     "UniqueURLKey": "art/twewy/2024-11-24-null-smile",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1669,6 +1754,7 @@
     "uniqueUrl": "2024-11-12-love-you-n",
     "UniqueURLKey": "art/twewy/2024-11-12-love-you-n",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1713,6 +1799,7 @@
     "uniqueUrl": "2024-10-26-purfect-pa",
     "UniqueURLKey": "art/twewy/2024-10-26-purfect-pa",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1757,6 +1844,7 @@
     "uniqueUrl": "2024-10-02-null---why",
     "UniqueURLKey": "art/twewy/2024-10-02-null---why",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1806,6 +1894,7 @@
     "uniqueUrl": "2024-09-03-family-for",
     "UniqueURLKey": "art/twewy/2024-09-03-family-for",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1854,6 +1943,7 @@
     "uniqueUrl": "2024-08-21-null-heart",
     "UniqueURLKey": "art/twewy/2024-08-21-null-heart",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -1898,6 +1988,7 @@
     "uniqueUrl": "2024-06-04-upset-chi",
     "UniqueURLKey": "art/twewy/2024-06-04-upset-chi",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1942,6 +2033,7 @@
     "uniqueUrl": "2024-03-31-father-smu",
     "UniqueURLKey": "art/twewy/2024-03-31-father-smu",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -1982,6 +2074,7 @@
     "uniqueUrl": "2024-03-23-win-11-pai",
     "UniqueURLKey": "art/twewy/2024-03-23-win-11-pai",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2030,6 +2123,7 @@
     "uniqueUrl": "2024-02-11-a-supporti",
     "UniqueURLKey": "art/twewy/2024-02-11-a-supporti",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2103,6 +2197,7 @@
     "uniqueUrl": "2023-12-25-father-and",
     "UniqueURLKey": "art/twewy/2023-12-25-father-and",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2147,6 +2242,7 @@
     "uniqueUrl": "2023-12-24-warm-drink",
     "UniqueURLKey": "art/twewy/2023-12-24-warm-drink",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2209,6 +2305,7 @@
     "uniqueUrl": "2022-11-24-moodtwewy",
     "UniqueURLKey": "art/twewy/2022-11-24-moodtwewy",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -2253,6 +2350,7 @@
     "uniqueUrl": "2022-08-30-coat-tass",
     "UniqueURLKey": "art/twewy/2022-08-30-coat-tass",
     "spoilers": "no",
+    "warnings": "yes",
     "oc": "Yes",
     "urls": [
       {
@@ -2303,6 +2401,7 @@
     "uniqueUrl": "2022-06-10-pose-pract",
     "UniqueURLKey": "art/twewy/2022-06-10-pose-pract",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "Yes",
     "urls": [
       {
@@ -2352,6 +2451,7 @@
     "uniqueUrl": "2022-03-03-happy-birt",
     "UniqueURLKey": "art/twewy/2022-03-03-happy-birt",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2411,6 +2511,7 @@
     "uniqueUrl": "2022-03-01-hanyakoma",
     "UniqueURLKey": "art/twewy/2022-03-01-hanyakoma",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2466,6 +2567,7 @@
     "uniqueUrl": "2021-07-01-it-felt-li",
     "UniqueURLKey": "art/twewy/2021-07-01-it-felt-li",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2525,6 +2627,7 @@
     "uniqueUrl": "2020-11-04-noise-feat",
     "UniqueURLKey": "art/twewy/2020-11-04-noise-feat",
     "spoilers": "No",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2584,6 +2687,7 @@
     "uniqueUrl": "2020-08-23-ive-got-y",
     "UniqueURLKey": "art/twewy/2020-08-23-ive-got-y",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2640,6 +2744,7 @@
     "uniqueUrl": "2020-07-25-its-done",
     "UniqueURLKey": "art/twewy/2020-07-25-its-done",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2690,6 +2795,7 @@
     "uniqueUrl": "2020-07-16-a-slightly",
     "UniqueURLKey": "art/twewy/2020-07-16-a-slightly",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2740,6 +2846,7 @@
     "uniqueUrl": "2020-07-11-twewy-redr",
     "UniqueURLKey": "art/twewy/2020-07-11-twewy-redr",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2790,6 +2897,7 @@
     "uniqueUrl": "2020-07-01-added-a-co",
     "UniqueURLKey": "art/twewy/2020-07-01-added-a-co",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2840,6 +2948,7 @@
     "uniqueUrl": "2020-06-27-weve-got",
     "UniqueURLKey": "art/twewy/2020-06-27-weve-got",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2890,6 +2999,7 @@
     "uniqueUrl": "2020-06-18-would-you",
     "UniqueURLKey": "art/twewy/2020-06-18-would-you",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2940,6 +3050,7 @@
     "uniqueUrl": "2020-06-11-a-slightly",
     "UniqueURLKey": "art/twewy/2020-06-11-a-slightly",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -2990,6 +3101,7 @@
     "uniqueUrl": "2020-05-15-hanekoma-p",
     "UniqueURLKey": "art/twewy/2020-05-15-hanekoma-p",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {
@@ -3034,6 +3146,7 @@
     "uniqueUrl": "2020-04-18-been-meani",
     "UniqueURLKey": "art/twewy/2020-04-18-been-meani",
     "spoilers": "no",
+    "warnings": "no",
     "oc": "No",
     "urls": [
       {

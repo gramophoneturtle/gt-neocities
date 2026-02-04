@@ -170,6 +170,11 @@ def make_url_dict(mydataframe: pandas.DataFrame,base_url) -> list:
 
         artwork_dictionary['spoilers'] = row['Spoilers']
 
+        if row['warnings'] == "":
+           artwork_dictionary['warnings'] = "no"
+        else:
+            artwork_dictionary['warnings'] = 'yes'
+
         if row['OC'] == "":
            artwork_dictionary['oc'] = "no"
         else:
@@ -535,15 +540,17 @@ if __name__ == '__main__':
     ## Fandoms
     addCategoryFromMultiple("OC","Other", exclude_crossover=True)
 
-    addCategoryFromMultiple("Deltarune","Other")
-    addCategoryFromMultiple("Kirby","Other")
-    addCategoryFromMultiple("LaMulana","Other")
-    addCategoryFromMultiple("Pikmin","Other")
+    # addCategoryFromMultiple("Deltarune","Other")
+    # addCategoryFromMultiple("Kirby","Other")
+    # addCategoryFromMultiple("LaMulana","Other")
+    # addCategoryFromMultiple("MGS1","Other")
+    addCategoryFromMultiple("MoonRPG","Other")
+    # addCategoryFromMultiple("Pikmin","Other")
     addCategoryFromMultiple("Pokemon","Other")
     addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
-    addCategoryFromMultiple("super-puzzled-cat","Other")
-    addCategorySingle("Splatoon","Other")
-    addCategoryFromMultiple("VoidStranger","Other")
+    # addCategoryFromMultiple("super-puzzled-cat","Other")
+    # addCategorySingle("Splatoon","Other")
+    # addCategoryFromMultiple("VoidStranger","Other")
 
 
     # HOW TO HANDLE THE CROSS OVER STUFF

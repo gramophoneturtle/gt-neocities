@@ -75,6 +75,10 @@
     font-size: small; 
 }
 
+.spoilers.characters  {
+    border: red 3px dashed;
+}
+
 /* Content for the artwork thumbnail */
 .content {
     display: grid;
