@@ -1,8 +1,37 @@
-[ 
+[
+    {
+        "PostDate": "2026-02-10"
+        ,"date": "2026-02-10"
+        ,"pubDate": "Tue, 10 Feb 2026"
+        ,"Site": "New gifted item section! Currently it's under Works in the navigation menu. It includes art, writing, etc., and stuff I've commission too goes there!"
+        ,"ArtList": [
+            {
+                "Category": "Gifted Items",
+                "List": [
+                    {
+                        "Title": "Mother - Rumia",
+                        "URL": "/gifts/230906-mother-rumia/"
+                    },
+                    {
+                        "Title": "Father's Birthday - Vita (ClickBaitDemo)",
+                        "URL": "/gifts/250212-father-vita/"
+                    },
+                    {
+                        "Title": "Mother and Father Sprites - WaterPixelArt",
+                        "URL": "/gifts/251031-motherfather-waterpixelart/"
+                    },
+                    {
+                        "Title": "Mother - Blake Jekyll",
+                        "URL": "/gifts/260205-mother-blakejekyll/"
+                    }
+                ] 
+            }
+        ]
+    },
     {
         "PostDate": "2026-02-03"
         ,"date": "2026-02-03"
-        ,"pubDate": "Tue, 03 Jan 2026"
+        ,"pubDate": "Tue, 03 Feb 2026"
         ,"Site": "Start of artwork warning labeling. At the moment artwork will have a red dashed border and an [!!] prepended to the artwork title. Added a new Analysis-ish post about my first week or so of trying out On-Together. Restored linking artwork to related writing."
         ,"ArtList": [
             {

@@ -1,0 +1,24 @@
+{%- for art in ImgURLs -%}
+<img 
+    src="{{art}}"
+    alt="{{AltTexts[forloop.index0]}}"
+    >
+    <details>
+        <summary>ALT</summary>
+        {{AltTexts[forloop.index0]}}
+    </details>
+{%- endfor -%}
+
+{%- if notes -%}
+<p>{{notes}}</p>
+{%- endif -%}
+
+<h2>Posted On</h2>
+{%- for lnk in URLs -%}
+    {%- if forloop.length > 0 -%}
+    <a href="{{lnk}}">{{URLTexts[forloop.index0]}}</a> {% unless forloop.last %} | {% endunless -%}
+    {%- endif -%}
+{%- endfor -%}
+<p>Originally posted on: {{date | date: "%Y-%m-%d"}}</p>
+
+<p>Back to <a href="/gifts/">Gifts</a></p>
