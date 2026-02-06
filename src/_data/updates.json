@@ -8,17 +8,45 @@
             {
                 "Category": "Gifted Items",
                 "List": [
+                     {
+                        "Title": "Father and Mother - Kukon",
+                        "URL": "/gifts/221103-ocs-kukon/"
+                    },
                     {
                         "Title": "Mother - Rumia",
                         "URL": "/gifts/230906-mother-rumia/"
+                    },
+                    {
+                        "Title": "Null - Vita (ClickBaitDemo)",
+                        "URL": "/gifts/241128-null-vita/"
+                    },
+                    {
+                        "Title": "Mother, Null and Chisa - Vita (ClickBaitDemo)",
+                        "URL": "/gifts/241207-ocs-vita/"
                     },
                     {
                         "Title": "Father's Birthday - Vita (ClickBaitDemo)",
                         "URL": "/gifts/250212-father-vita/"
                     },
                     {
+                        "Title": "Null and Chisa Platypodes by Krykry, from Gao",
+                        "URL": "/gifts/250307-nullchisa-krykrygao/"
+                    },
+                    {
+                        "Title": "Chisa - PineAura",
+                        "URL": "/gifts/250514-chisa-pineaura/"
+                    },
+                    {
                         "Title": "Mother and Father Sprites - WaterPixelArt",
                         "URL": "/gifts/251031-motherfather-waterpixelart/"
+                    },
+                    {
+                        "Title": "Father - ClancyBee",
+                        "URL": "/gifts/251130-father-clancy/"
+                    },
+                    {
+                        "Title": "Null in a Koi Fish Cafe - ClancyBee",
+                        "URL": "/gifts/251221-null-clancy/"
                     },
                     {
                         "Title": "Mother - Blake Jekyll",
