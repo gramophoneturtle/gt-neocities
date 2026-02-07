@@ -1,8 +1,8 @@
 [
     {
-        "PostDate": "2026-02-10"
-        ,"date": "2026-02-10"
-        ,"pubDate": "Tue, 10 Feb 2026"
+        "PostDate": "2026-02-06"
+        ,"date": "2026-02-06"
+        ,"pubDate": "Fri, 06 Feb 2026"
         ,"Site": "New gifted item section! Currently it's under Works in the navigation menu. It includes art, writing, etc., and stuff I've commission too goes there! Gifted art also appears on each OC's page."
         ,"ArtList": [
             {
@@ -15,6 +15,10 @@
                     {
                         "Title": "Mother - Rumia",
                         "URL": "/gifts/230906-mother-rumia/"
+                    },
+                    {
+                        "Title": "Mother and Father Platypodes by Krykry, from Gao",
+                        "URL": "/gifts/231230-fathermother-krykrygao/"
                     },
                     {
                         "Title": "Null - Vita (ClickBaitDemo)",
@@ -47,6 +51,10 @@
                     {
                         "Title": "Null in a Koi Fish Cafe - ClancyBee",
                         "URL": "/gifts/251221-null-clancy/"
+                    },
+                    {
+                        "Title": "Null Creatures - Jaxx",
+                        "URL": "/gifts/251230-null-jaxx/"
                     },
                     {
                         "Title": "Mother - Blake Jekyll",
