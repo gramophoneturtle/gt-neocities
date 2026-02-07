@@ -1,0 +1,30 @@
+{%- for art in ImgURLs -%}
+<img 
+    src="{{art}}"
+    alt="{{AltTexts[forloop.index0]}}"
+    >
+    <details>
+        <summary>ALT</summary>
+        {{AltTexts[forloop.index0]}}
+    </details>
+{%- endfor -%}
+
+{%- if notes -%}
+<p>{{notes}}</p>
+{%- endif -%}
+
+{% comment %}Only show URLs if the URL field is defined and has a length of at least 1 entry{% endcomment %}
+{% if URLs and URLs.length > 0 %}
+    <h2>Posted On</h2>
+    {%- for lnk in URLs -%}
+        {%- if forloop.length > 0 -%}
+        <a href="{{lnk}}">{{URLTexts[forloop.index0]}}</a> {% unless forloop.last %} | {% endunless -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
+
+{%-if postDate-%}
+<p>Originally posted on: {{postDate}}</p>
+{%- endif -%}
+
+<p>Back to <a href="/gifts/">Gifts</a></p>

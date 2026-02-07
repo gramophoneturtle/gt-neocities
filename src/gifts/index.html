@@ -1,0 +1,62 @@
+---
+title: Gifts
+layout: /layouts/base
+---
+<p>Wonderful gifts people have made for me! This includes gifted items like art and writing, ArtFight attacks and pieces I've commissioned or have been gift commissioned for me.</p>
+<p>If you are the gifter and wish you have your gift displayed in a certain way or want it taken down, please contact me!</p>
+<div><a class="artwork-tag" href="#artwork">Artwork</a> <a class="artwork-tag" href="#writing">Writing</a> <a class="artwork-tag" href="#policy">Fanworks Policy</a></div>
+<h2 id="artwork">Artwork</h2>
+<div class="giftart-container">
+  <div class="grid-container">
+    {% for giftItem in collections.GiftArtByMostRecent %}
+    <div>
+        <a href="{{giftItem.page.url}}">
+          <img class="grid-item" src="{{giftItem.data.ImgURLs[0]}}" alt="{{giftItem.data.AltTexts[0]}}">
+            <p>
+              <span class="span-title">
+                {%- for chr in giftItem.data.characters -%}
+                {%- if forloop.length > 0 -%}{{chr}}{%- unless forloop.last -%}, {% endunless -%}{%- endif -%}
+                {%- endfor -%}
+                {%- if giftItem.data.ImgURLs.length > 1 %} ({{giftItem.data.ImgURLs.length}}){%- endif -%}
+              </span>
+              <span class="span-medium">
+                <br>{{giftItem.data.type}}ed art by {{giftItem.data.Artist}}
+              </span>
+              <br><span class="span-smaller">{{giftItem.data.postDate}}</span>
+            </p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div>
+    <h2 id="writing">Writing</h2>
+    <ul>
+        {% for giftItem in collections.GiftWriting %}
+        <li>
+            <a href="{{giftItem.page.url}}">{{giftItem.data.ficTitle}}</a>
+            (
+            {%- for chr in giftItem.data.characters -%}
+                {%- if forloop.length > 0 -%}{{chr}}{%- unless forloop.last -%}, {% endunless -%}{%- endif -%}
+            {%- endfor -%}
+            ) - {{giftItem.data.type}}ed by {{giftItem.data.Artist}}
+           
+        </li>
+    </ul>
+    {% endfor %}
+</div>
+
+<h2 id="policy">Fanworks Policy</h2>
+<details >
+  <summary>Rules</summary>
+  <ul>
+    <li>Keep it SFW and shipping free</li>
+    <li>No hate speech or anything along those lines</li>
+    <li>No use of generative AI - I'd rather you draw stick figures or labeled squares of my characters than use generative AI</li>
+    <li>Please respect the likes and dislikes of my OCs</li>
+  </ul>
+  <p>If you have any questions, feel free to ask! Otherwise, have fun with it!</p>
+</details>
+
+

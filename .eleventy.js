@@ -31,6 +31,13 @@ function sortByHeader(a, b) {
   else return 0;
 }
 
+function sortGiftArtByRecentDate(a, b) {
+  let nameA = a.data.postDate;
+  let nameB = b.data.postDate;
+  if (nameA > nameB) return -1;
+  else if (nameA < nameB) return 1;
+  else return 0;
+};
 
 module.exports = function (eleventyConfig) {
   // PASSTHROUGH COPIES ------------------------------------------------------------------- //
@@ -215,6 +222,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("RSSFeed", function (collectionApi) {
     return collectionApi.getFilteredByTags("UpdatePosts").slice(0,6);
+  });
+
+  // GIFT ART --------------------------------------//
+  eleventyConfig.addCollection("GiftArtByMostRecent", function (collectionApi) {
+    return collectionApi.getFilteredByTags("GiftArt")
+    .sort(sortGiftArtByRecentDate);
   });
 
   // FANDOMS -------------------------------------- //
