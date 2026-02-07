@@ -35,6 +35,7 @@ layout: /layouts/base
 
     <li><a href="#artwork">Artwork</a></li>
     <li><a href="#writing">Writing</a></li>
+    <li><a href="#gifts">Gifts</a></li>
 
     {%- if ocs.Inspirations.length %}
       <li><a href="#inspirations">Inspirations</a></li>
@@ -156,30 +157,49 @@ layout: /layouts/base
   {% endif %}
 
 <h2 id="artwork">Artwork</h2>
-  <ul>
-    {% for post in collections.twewyArt2 | reverse %}
-    {% set artworkCharacters = post.data.aArtwork.characters %}
-      {% if ocs.Name in artworkCharacters  %}
+<ul>
+  {% for post in collections.twewyArt2 | reverse %}
+  {% set artworkCharacters = post.data.aArtwork.characters %}
+    {% if ocs.Name in artworkCharacters  %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.aArtwork.title }}</a> 
+    </li>
+    {%- endif -%}
+  {% endfor %}
+</ul>
+<h2 id="writing">Writing</h2>
+<ul>
+  {%- for post in collections.Writing | reverse -%}
+  {%- set writingCharacters = post.data.story.Characters -%}
+  {%- if post.data.story.Chapters.length > 0 -%}
+      {% if ocs.Name in writingCharacters -%}
       <li>
-        <a href="{{ post.url }}">{{ post.data.aArtwork.title }}</a> 
+        <a href="{{ post.url }}">{{ post.data.story.Title }}</a> 
       </li>
       {%- endif -%}
-    {% endfor %}
-  </ul>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
 
-<h2 id="writing">Writing</h2>
-  <ul>
-    {% for post in collections.Writing | reverse %}
-    {% set writingCharacters = post.data.story.Characters %}
-    {% if post.data.story.Chapters.length > 0 %}
-        {% if ocs.Name in writingCharacters  %}
-        <li>
-          <a href="{{ post.url }}">{{ post.data.story.Title }}</a> 
-        </li>
-        {%- endif -%}
-      {%- endif -%}
-    {% endfor %}
-  </ul>
+<h2 id="gifts">Gifts</h2>
+<ul>
+  {%- for post in collections.GiftArt | reverse -%}
+  {%- set artworkCharacters = post.data.characters -%}
+    {%- if ocs.Name in artworkCharacters -%}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a> 
+    </li>
+    {%- endif -%}
+  {% endfor %}
+  {%- for post in collections.GiftWriting | reverse %}
+  {%- set artworkCharacters = post.data.characters -%}
+    {%- if ocs.Name in artworkCharacters  -%}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a> 
+    </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
 
 {%- if ocs.Inspirations.length %}
   <h2 id="inspirations">Inspirations</h2>
