@@ -1,3 +1,4 @@
+{% if ImgURLs and ImgURLs.length > 0 %}
 {%- for art in ImgURLs -%}
 <img 
     src="{{art}}"
@@ -8,12 +9,25 @@
         {{AltTexts[forloop.index0]}}
     </details>
 {%- endfor -%}
+{%- endif -%}
+
+{% if imgs and imgs.length > 0 %}
+{% for myImg in imgs %}
+	<img 
+        src="{{myImg[0]}}" 
+        alt="{{myImg[1]}}">
+	<details>
+		<summary>ALT</summary>
+		{{myImg[1]}}
+	</details>
+{% endfor %}
+{%- endif -%}
 
 {%- if notes -%}
 <p>{{notes}}</p>
 {%- endif -%}
 
-{% comment %}Only show URLs if the URL field is defined and has a length of at least 1 entry{% endcomment %}
+{%- comment -%}Only show URLs if the URL field is defined and has a length of at least 1 entry{%- endcomment -%}
 {% if URLs and URLs.length > 0 %}
     <h2>Posted On</h2>
     {%- for lnk in URLs -%}
@@ -21,6 +35,14 @@
         <a href="{{lnk}}">{{URLTexts[forloop.index0]}}</a> {% unless forloop.last %} | {% endunless -%}
         {%- endif -%}
     {%- endfor -%}
+{%- endif -%}
+
+{%- comment -%} Updated version of listing socials {%- endcomment -%}
+<h2>Posted On</h2>
+{% if socials and socials.length > 0 %}
+{% for social in socials %}
+    <a href="{{social[0]}}">{{social[1]}}</a> {% unless forloop.last %} | {% endunless -%}
+{% endfor %}
 {%- endif -%}
 
 {%-if postDate-%}

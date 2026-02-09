@@ -1,4 +1,41 @@
 [
+     {
+        "PostDate": "2026-02-10"
+        ,"date": "2026-02-10"
+        ,"pubDate": "Tue, 10 Feb 2026"
+        ,"Site": ""
+        ,"ArtList": [
+            {
+                "Category": "Gifted Items",
+                "List": [
+                     {
+                        "Title": "Mother and Father Friendship Bracelets",
+                        "URL": "/gifts/220520-bracelets-gao/"
+                    },
+                    {
+                        "Title": "Null Friendship Bracelet",
+                        "URL": "/gifts/240520-bracelet-gao/"
+                    },
+                    {
+                        "Title": "Father - Laridian",
+                        "URL": "/gifts/250701-father-laridian/"
+                    },
+                    {
+                        "Title": "Gramophone Turtle - thetechnician",
+                        "URL": "/gifts/250704-turtle-technician/"
+                    },
+                    {
+                        "Title": "Mother - DarkOverlordofRainbows",
+                        "URL": "/gifts/250705-mother-overlordrainbows/"
+                    },
+                    {
+                        "Title": "Mother - ErrantSquam",
+                        "URL": "/gifts/250706-mother-errant/"
+                    }
+                ] 
+            }
+        ]
+    },
     {
         "PostDate": "2026-02-06"
         ,"date": "2026-02-06"

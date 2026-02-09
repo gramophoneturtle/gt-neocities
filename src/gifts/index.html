@@ -11,13 +11,23 @@ layout: /layouts/base
     {% for giftItem in collections.GiftArtByMostRecent %}
     <div>
         <a href="{{giftItem.page.url}}">
+
+          {%- comment -%} New and old way of getting the first image {%- endcomment -%}
+          {%- if giftItem.data.ImgURLs and giftItem.data.ImgURLs.length > 0  -%}
           <img class="grid-item" src="{{giftItem.data.ImgURLs[0]}}" alt="{{giftItem.data.AltTexts[0]}}">
+          {%- endif -%}
+          {%- if giftItem.data.imgs and giftItem.data.imgs.length > 0 -%}
+          <img class="grid-item" src="{{giftItem.data.imgs[0][0]}}" alt="{{giftItem.data.imgs[0][1]}}">
+          {%- endif -%}
+
             <p>
               <span class="span-title">
                 {%- for chr in giftItem.data.characters -%}
                 {%- if forloop.length > 0 -%}{{chr}}{%- unless forloop.last -%}, {% endunless -%}{%- endif -%}
                 {%- endfor -%}
+                {%- comment -%} New and old way of getting the image count {%- endcomment -%}
                 {%- if giftItem.data.ImgURLs.length > 1 %} ({{giftItem.data.ImgURLs.length}}){%- endif -%}
+                {%- if giftItem.data.imgs.length > 1 %} ({{giftItem.data.imgs.length}}){%- endif -%}
               </span>
               <span class="span-medium">
                 <br>{{giftItem.data.type}}ed art by {{giftItem.data.Artist}}
