@@ -2,25 +2,35 @@
 title: Gifts
 layout: /layouts/base
 ---
-<p>Wonderful gifts people have made for me! This includes gifted items like art and writing, ArtFight attacks and pieces I've commissioned or have been gift commissioned for me.</p>
-<p>If you are the gifter and wish you have your gift displayed in a certain way or want it taken down, please contact me!</p>
-<div><a class="artwork-tag" href="#artwork">Artwork</a> <a class="artwork-tag" href="#writing">Writing</a> <a class="artwork-tag" href="#policy">Fanworks Policy</a></div>
-<h2 id="artwork">Artwork</h2>
+<p>WIP! Here are wonderful gifts people have made for me! This includes gifted items like art and writing, ArtFight attacks and pieces I've commissioned or have been gift commissioned for me.</p>
+<p>If you are the gifter and wish you have your gift displayed in a certain way or want it taken down, please contact me! I appreciate any fanworks people have taken the time to make and share, thank you so much!</p>
+<div><a class="artwork-tag" href="#artwork">Arts & Crafts</a> <a class="artwork-tag" href="#writing">Writing</a> <a class="artwork-tag" href="#policy">Fanworks Policy</a></div>
+<h2 id="artwork">Arts & Crafts</h2>
 <div class="giftart-container">
   <div class="grid-container">
     {% for giftItem in collections.GiftArtByMostRecent %}
     <div>
         <a href="{{giftItem.page.url}}">
+
+          {%- comment -%} New and old way of getting the first image {%- endcomment -%}
+          {%- if giftItem.data.ImgURLs and giftItem.data.ImgURLs.length > 0  -%}
           <img class="grid-item" src="{{giftItem.data.ImgURLs[0]}}" alt="{{giftItem.data.AltTexts[0]}}">
+          {%- endif -%}
+          {%- if giftItem.data.imgs and giftItem.data.imgs.length > 0 -%}
+          <img class="grid-item" src="{{giftItem.data.imgs[0][0]}}" alt="{{giftItem.data.imgs[0][1]}}">
+          {%- endif -%}
+
             <p>
               <span class="span-title">
                 {%- for chr in giftItem.data.characters -%}
                 {%- if forloop.length > 0 -%}{{chr}}{%- unless forloop.last -%}, {% endunless -%}{%- endif -%}
                 {%- endfor -%}
+                {%- comment -%} New and old way of getting the image count {%- endcomment -%}
                 {%- if giftItem.data.ImgURLs.length > 1 %} ({{giftItem.data.ImgURLs.length}}){%- endif -%}
+                {%- if giftItem.data.imgs.length > 1 %} ({{giftItem.data.imgs.length}}){%- endif -%}
               </span>
               <span class="span-medium">
-                <br>{{giftItem.data.type}}ed art by {{giftItem.data.Artist}}
+                <br>{{giftItem.data.type}}ed by {{giftItem.data.Artist}}
               </span>
               <br><span class="span-smaller">{{giftItem.data.postDate}}</span>
             </p>
@@ -48,7 +58,8 @@ layout: /layouts/base
 </div>
 
 <h2 id="policy">Fanworks Policy</h2>
-<details >
+<p>WIP! Since I've been getting fanart more frequently than I expected, I thought I should make this based on how ArtFight has it set up.</p>
+<details>
   <summary>Rules</summary>
   <ul>
     <li>Keep it SFW and shipping free</li>

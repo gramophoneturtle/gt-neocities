@@ -1026,7 +1026,7 @@ div.scroll-container img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   font-family: sans-serif;
   
   .grid-container {
@@ -1082,4 +1082,18 @@ div.scroll-container img:hover {
       }
     }
   }
+}
+
+.alt-details {
+  font-size: medium;
+
+  
+
+  p {
+    font-style: italic;
+  }
+}
+
+.alt-details[open] > summary {
+    margin-bottom: 0;
 }

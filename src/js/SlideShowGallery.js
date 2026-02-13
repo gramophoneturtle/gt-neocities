@@ -60,5 +60,5 @@ function showSlides(n) {
   captionText.innerHTML = theSlideNumber;
 
   // update alt text
-  altText.innerHTML="<summary>ALT</summary>" + slideImages[slideIndex-1].alt;
+  altText.innerHTML="<summary>ALT</summary><p>" + slideImages[slideIndex-1].alt + "</p>";
 }
