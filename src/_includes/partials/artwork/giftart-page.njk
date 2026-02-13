@@ -4,9 +4,9 @@
     src="{{art}}"
     alt="{{AltTexts[forloop.index0]}}"
     >
-    <details>
+    <details class="alt-details">
         <summary>ALT</summary>
-        {{AltTexts[forloop.index0]}}
+        <p>{{AltTexts[forloop.index0]}}</p>
     </details>
 {%- endfor -%}
 {%- endif -%}
@@ -27,9 +27,9 @@
 <p>{{notes}}</p>
 {%- endif -%}
 
+<h2>Posted On</h2>
 {%- comment -%}Only show URLs if the URL field is defined and has a length of at least 1 entry{%- endcomment -%}
 {% if URLs and URLs.length > 0 %}
-    <h2>Posted On</h2>
     {%- for lnk in URLs -%}
         {%- if forloop.length > 0 -%}
         <a href="{{lnk}}">{{URLTexts[forloop.index0]}}</a> {% unless forloop.last %} | {% endunless -%}
@@ -38,7 +38,6 @@
 {%- endif -%}
 
 {%- comment -%} Updated version of listing socials {%- endcomment -%}
-<h2>Posted On</h2>
 {% if socials and socials.length > 0 %}
 {% for social in socials %}
     <a href="{{social[0]}}">{{social[1]}}</a> {% unless forloop.last %} | {% endunless -%}
