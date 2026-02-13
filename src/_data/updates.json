@@ -1,8 +1,8 @@
 [
      {
-        "PostDate": "2026-02-10"
-        ,"date": "2026-02-10"
-        ,"pubDate": "Tue, 10 Feb 2026"
+        "PostDate": "2026-02-12"
+        ,"date": "2026-02-12"
+        ,"pubDate": "Thu, 12 Feb 2026"
         ,"Site": ""
         ,"ArtList": [
             {
@@ -25,12 +25,28 @@
                         "URL": "/gifts/250704-turtle-technician/"
                     },
                     {
-                        "Title": "Mother - DarkOverlordofRainbows",
+                        "Title": "Mother - DarkOverLordOfRainbows",
                         "URL": "/gifts/250705-mother-overlordrainbows/"
                     },
                     {
                         "Title": "Mother - ErrantSquam",
                         "URL": "/gifts/250706-mother-errant/"
+                    },
+                    {
+                        "Title": "Null & Poppies - PineAura",
+                        "URL": "/gifts/250713-null-pineaura/"
+                    },
+                    {
+                        "Title": "Father Eye Banner - CrimsonVixen",
+                        "URL": "/gifts/250718-father-crimson/"
+                    },
+                    {
+                        "Title": "Chisa and Father - ClickBaitDemo",
+                        "URL": "/gifts/250728-fatherchisa-vita/"
+                    },
+                    {
+                        "Title": "Silly Chibis - ItsAShowTime",
+                        "URL": "/gifts/260211-fathernull-show/"
                     }
                 ] 
             }
