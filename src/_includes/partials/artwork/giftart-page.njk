@@ -4,9 +4,9 @@
     src="{{art}}"
     alt="{{AltTexts[forloop.index0]}}"
     >
-    <details>
+    <details class="alt-details">
         <summary>ALT</summary>
-        {{AltTexts[forloop.index0]}}
+        <p>{{AltTexts[forloop.index0]}}</p>
     </details>
 {%- endfor -%}
 {%- endif -%}
