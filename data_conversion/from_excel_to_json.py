@@ -535,18 +535,18 @@ if __name__ == '__main__':
         main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
     ## ArtFight
-    addCategorySingle("ArtFight","Other")
+    # addCategorySingle("ArtFight","Other")
 
     ## Fandoms
-    addCategoryFromMultiple("OC","Other", exclude_crossover=True)
+    # addCategoryFromMultiple("OC","Other", exclude_crossover=True)
 
     # addCategoryFromMultiple("Deltarune","Other")
     # addCategoryFromMultiple("Kirby","Other")
     # addCategoryFromMultiple("LaMulana","Other")
     # addCategoryFromMultiple("MGS1","Other")
     addCategoryFromMultiple("MoonRPG","Other")
-    # addCategoryFromMultiple("Pikmin","Other")
-    addCategoryFromMultiple("Pokemon","Other")
+    # # addCategoryFromMultiple("Pikmin","Other")
+    # addCategoryFromMultiple("Pokemon","Other")
     addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
     # addCategoryFromMultiple("super-puzzled-cat","Other")
     # addCategorySingle("Splatoon","Other")

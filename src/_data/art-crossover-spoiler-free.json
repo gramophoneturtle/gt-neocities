@@ -6,7 +6,7 @@
     "characters": "Spinda",
     "date": "2026-01-17",
     "dateYear": "2026",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2026-01-17-accept-you",
     "UniqueURLKey": "2026-01-17-accept-you",
     "spoilers": "no",
@@ -14,8 +14,24 @@
     "oc": "no",
     "urls": [
       {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/807660248478416896/"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7218142"
+      },
+      {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3mcohf5tqwk24"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/116014758088814618"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/7b135580-1e6f-415a-aa4e-f9dabab52bb0"
       }
     ],
     "imgs": [
@@ -45,7 +61,7 @@
     "characters": "Spinda",
     "date": "2026-01-13",
     "dateYear": "2026",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2026-01-13-im-a-box",
     "UniqueURLKey": "2026-01-13-im-a-box",
     "spoilers": "no",
@@ -53,15 +69,31 @@
     "oc": "no",
     "urls": [
       {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/807660248478416896/"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7218142"
+      },
+      {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mce3qy5cgs2s"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/116014758088814618"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/7b135580-1e6f-415a-aa4e-f9dabab52bb0"
       }
     ],
     "imgs": [
       {
         "id": 1,
         "url": "\\img\\art\\2026\\01\\0113-imma-box\\260113-mgsSpinda-D2-800.webp",
-        "alt": "Digital art of two Spindas - the first is hiding in a box, and the second reveals the Spinda inside the box is wearing Snake's bandana from Metal Gear Solid, and smiling."
+        "alt": "Digital art of two Spindas - one is hiding in a box, and the other reveals the Spinda inside the box is wearing Snake's bandana from Metal Gear Solid, and smiling."
       }
     ],
     "thumbnailUrl": "\\img\\art\\2026\\01\\0113-imma-box\\260113-thmb-mgsSpinda-D2-250.webp",
@@ -84,7 +116,7 @@
     "characters": "Spinda",
     "date": "2025-12-29",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2025-12-29-21-hats",
     "UniqueURLKey": "2025-12-29-21-hats",
     "spoilers": "no",

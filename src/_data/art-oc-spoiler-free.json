@@ -1,12 +1,65 @@
 [
   {
+    "title": "Swiftdrawer Sketching",
+    "summary": "Surprise Me VGen Commission for Swiftdrawer of their alternative self, sketching in a forested and grassy area. This was a fun surprise me commission to work on!",
+    "details": "<a href=\"https://tamberella.gumroad.com/l/UrGvW?layout=profile&recommended_by=library\">Foliage & Grass Brushset</a> by Devin Elle Kurtz\n",
+    "characters": "Swiftdrawer",
+    "date": "2026-02-25",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "2026-02-27 00:00:00",
+    "uniqueUrl": "2026-02-25-swiftdrawe",
+    "UniqueURLKey": "2026-02-25-swiftdrawe",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/809622811290337280/swiftdrawer-sketching-a-surprise-me-vgen"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7307885"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/gramophoneturtle.bsky.social/post/3mfqdzijabc2h"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/116137824292082318"
+      },
+      {
+        "sitename": "Cara",
+        "url": "https://cara.app/post/094c96dc-f397-4be6-9cd9-89cc3c28d77a"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "\\img\\art\\2026\\02\\0225-comm-Swiftdrawer\\260225-ARTIST-Swiftdrawer-D2-800.jpg",
+        "alt": "Digital art of Swiftdrawer, who belongs to Swiftdrawer, sits in a forest area during a sunny day sketching on a fresh drawing canvas. Swiftdrawer has red hair, a scar over their right eye, and wears red and silver amour. They smile, with the sun and trees facing their back as they begin sketching with a pencil on their canvas. Their helmet is off and placed beside them."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\02\\0225-comm-Swiftdrawer\\260225-thmb-ARTIST-Swiftdrawer-D2-250.jpg",
+    "thumbnailAlt": "Swiftdrawer",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "OC"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Happy 5th Twitch Anniversary Doodles",
     "summary": "Happy 5th Twitch Anniversary doodles! Featuring my gramophone turtles & a Catsy, belonging to ClancyBee! I finally get to doodle the odd shapes & forms this strange creature can take...\nWe also learned about numerical contractions in more detail & are saddened a little by them",
-    "details": "Numerical contractions:\ni18n = internationalization (an example from wikipedia)\ng14e t4e = gramophone turtle\ng1o h1w c3d y1u?! = Gao how could you?! \nc4y is so c2l! = Clancy is so cool!",
-    "characters": "",
+    "details": "<p>Numerical contractions:</p>\n<ul><li>i18n = internationalization (an example from wikipedia)</li>\n<li>g14e t4e = gramophone turtle turtle</li>\n<li>g1o h1w c3d y1u?! = Gao how could you?! </li>\n<li>c4y is so c2l! = Clancy is so cool!</li></ul>",
+    "characters": "gramophone turtle, Catsy",
     "date": "2025-12-20",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2025-12-20-happy-5th",
     "UniqueURLKey": "2025-12-20-happy-5th",
     "spoilers": "no",
@@ -59,7 +112,7 @@
     "characters": "Eris",
     "date": "2025-11-27",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO!!",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2025-11-27-eris-profi",
     "UniqueURLKey": "2025-11-27-eris-profi",
     "spoilers": "no",
@@ -275,7 +328,7 @@
     "characters": "Unknown",
     "date": "2025-04-08",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO!!",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2025-04-08-tumblr-raf",
     "UniqueURLKey": "2025-04-08-tumblr-raf",
     "spoilers": "no",
@@ -329,7 +382,7 @@
     "characters": "Bentley",
     "date": "2025-03-31",
     "dateYear": "2025",
-    "WebsiteDateUTC": "TODO!!",
+    "WebsiteDateUTC": "2026-02-03 00:00:00",
     "uniqueUrl": "2025-03-31-wildflower",
     "UniqueURLKey": "2025-03-31-wildflower",
     "spoilers": "no",

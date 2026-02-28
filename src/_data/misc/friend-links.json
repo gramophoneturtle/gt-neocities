@@ -19,5 +19,12 @@
         "Description": "heartgrooooove's art archive and variety website with lots of misc. goodies.",
         "BannerURL": "\\img\\banners\\friends\\heartgrooooove-webbanner.png",
         "BannerAlt": "heartgrooooove website button"
+    },
+    {
+        "SiteURL": "https://sentient-tea.net/",
+        "Name": "sentient-tea",
+        "Description": "Pillowfort friend. Has Illustrrations and pixel art among other things!",
+        "BannerURL": "\\img\\banners\\friends\\sentilink.png",
+        "BannerAlt": "sentient-tea website button"
     }
 ]
