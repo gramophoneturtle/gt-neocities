@@ -1,5 +1,52 @@
 [
-     {
+    {
+        "PostDate": "2026-02-27"
+        ,"date": "2026-02-27"
+        ,"pubDate": "Fri, 27 Feb 2026"
+        ,"Site": "New friend link, sentient-tea! Better styling for listing gifted writing under Gifts."
+        ,"ArtList": [
+            {
+                "Category": "Gifted Items",
+                "List": [
+                     {
+                        "Title": "Father's Birthday - Blake Jekyll",
+                        "URL": "/gifts/260213-father-blakejekyll/"
+                    },
+                    {
+                        "Title": "Happy loss of your thought process! - LeGaosaure",
+                        "URL": "/gifts/260213-father-gao/"
+                    }
+                ] 
+            },
+            {
+                "Category": "OC Art",
+                "List": [
+                     {
+                        "Title": "Swiftdrawer Sketching",
+                        "URL": "/art/gen/2026-02-25-swiftdrawe/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY",
+                "List": [
+                    {
+                        "Title": "Lil' Sleeping Mikan",
+                        "URL": "/art/twewy/2026-02-11-lil-sleepi/"
+                    },
+                    {
+                        "Title": "Happy Birthday Father!",
+                        "URL": "/art/twewy/2026-02-13-happy-birt/"
+                    },
+                    {
+                        "Title": "Cozy Blanket and Snake Plushie!",
+                        "URL": "/art/twewy/2026-02-20-cozy-blank/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2026-02-12"
         ,"date": "2026-02-12"
         ,"pubDate": "Thu, 12 Feb 2026"
