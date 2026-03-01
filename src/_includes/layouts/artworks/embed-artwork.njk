@@ -1,0 +1,49 @@
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="{{aArtwork.title | truncate(57) }}" />
+    <meta name="description" content="{{aArtwork.summary | striptags | truncate(156)}}" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    {%- set items = ["https://gramophoneturtle.neocities.org", page.url] -%}
+    {%- set absolutePostUrl = items | join  %}
+    <meta property="og:url" content="{{absolutePostUrl}}" />
+    <meta property="og:site_name" content="GramophoneTurtle - Neocities">
+    <meta property="og:title" content="{{aArtwork.title | truncate(57)}}" />
+    <meta property="og:description" content="{{aArtwork.summary | striptags | truncate(156)}}" />
+{%- if aArtwork.imgs.length > 0 -%}
+{% for item in aArtwork.imgs -%}
+    {%- if loop.index0 < 4 -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", item.url] -%}
+    {%- set absoluteImgUrl = items | join  %}
+    <meta property="og:image" content="{{absoluteImgUrl}}" />
+    <meta property="og:image_url" content="{{absoluteImgUrl}}" />
+    <meta property="og:image:alt" content="{{ item.alt }}">
+    {% endif %}
+{%- endfor %}
+{%- endif -%}
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="{{absolutePostUrl}}" />
+    <meta property="twitter:title" content="{{aArtwork.title | truncate(57)}}" />
+    <meta property="twitter:description" content="{{aArtwork.summary | striptags | truncate(156)}}" />
+{%- if aArtwork.imgs.length > 0 -%}
+{% for item in aArtwork.imgs -%}
+    {%- if loop.index0 < 4 -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", item.url] -%}
+    {%- set absoluteImgUrl = items | join  %}
+    <meta name="twitter:image" content="{{absoluteImgUrl}}" />
+    <meta name="twitter:image:alt" content="{{ item.alt }}">
+    {%- endif -%}
+{%- endfor %}
+{%- endif -%}
+    <meta name="parsely-type" content="website">
+    <meta name="parsely-title" content="{{aArtwork.title | truncate(57)}}">
+    <meta name="parsely-link" content="{{absolutePostUrl}}">
+{%- if aArtwork.imgs.length > 0 -%}
+{% for item in aArtwork.imgs -%}
+    {%- if loop.index0 < 4 -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", item.url] -%}
+    {%- set absoluteImgUrl = items | join  %}
+    <meta name="parsely-image-url" content="{{absoluteImgUrl}}" />
+    {%- endif -%}
+{%- endfor %}
+{%- endif -%}
