@@ -1,0 +1,69 @@
+ <!-- Primary Meta Tags -->
+<meta name="title" content="{{title}}" />
+{%- set descs = [type, "ed by ", Artist]  -%}
+{%- set desc = descs | join  -%}
+<meta name="description" content="{{desc}}" />
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+{%- set items = ["https://gramophoneturtle.neocities.org", page.url] -%}
+{%- set absolutePostUrl = items | join  %}
+<meta property="og:url" content="{{absolutePostUrl}}" />
+<meta property="og:site_name" content="GramophoneTurtle - Neocities">
+<meta property="og:title" content="{{title}}" />
+<meta property="og:description" content="{{desc}}" />
+{%- if ImgURLs and ImgURLs.length > 0 -%}
+{% for art in ImgURLs -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", art] -%}
+    {%- set absoluteImgUrl = items | join  %}
+<meta property="og:image" content="{{absoluteImgUrl}}" />
+<meta property="og:image_url" content="{{absoluteImgUrl}}" />
+<meta property="og:image:alt" content="{{AltTexts[forloop.index0]}}">
+{%- endfor %}
+{%- endif -%}
+{%- if imgs and imgs.length > 0 -%}
+{% for myImg in imgs -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", myImg[0] ] -%}
+    {%- set absoluteImgUrl = items | join  -%}
+<meta name="og:image" content="{{absoluteImgUrl}}" />
+<meta name="og:image_url" content="{{absoluteImgUrl}}" />
+<meta name="og:image:alt" content="{{myImg[1]}}">
+{%- endfor %}
+{%- endif -%}
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="{{absolutePostUrl}}" />
+<meta property="twitter:title" content="{{title}}" />
+<meta property="twitter:description" content="{{desc}}" />
+{%- if ImgURLs and ImgURLs.length > 0 -%}
+{% for art in ImgURLs -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", art] -%}
+    {%- set absoluteImgUrl = items | join  %}
+<meta name="twitter:image" content="{{absoluteImgUrl}}" />
+<meta name="twitter:image:alt" content="{{AltTexts[forloop.index0]}}">
+{%- endfor %}
+{%- endif -%}
+{%- if imgs and imgs.length > 0 -%}
+{% for myImg in imgs -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", myImg[0] ] -%}
+    {%- set absoluteImgUrl = items | join  -%}
+<meta name="twitter:image" content="{{absoluteImgUrl}}" />
+<meta name="twitter:image:alt" content="{{myImg[1]}}">
+{%- endfor %}
+{%- endif -%}
+<meta name="parsely-type" content="website">
+<meta name="parsely-title" content="{{title}}">
+<meta name="parsely-link" content="{{absolutePostUrl}}">
+{%- if ImgURLs and ImgURLs.length > 0 -%}
+{% for art in ImgURLs -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", art] -%}
+    {%- set absoluteImgUrl = items | join  %}
+<meta name="parsely-image-url" content="{{absoluteImgUrl}}" />
+{%- endfor %}
+{%- endif -%}
+{%- if imgs and imgs.length > 0 -%}
+{% for myImg in imgs -%}
+    {%- set items = ["https://gramophoneturtle.neocities.org", myImg[0] ] -%}
+    {%- set absoluteImgUrl = items | join -%}
+<meta name="parsely-image-url" content="{{absoluteImgUrl}}" />
+{%- endfor %}
+{%- endif -%}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {%- include 'layouts/header/favicon.njk' %}
+    {%- include 'layouts/artworks/embed-artwork.njk' %}
+    <link rel="stylesheet" href="/css/simple.min.css">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/filterByTag.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {%- include 'layouts/header/rss.njk' %}
+    <title>
+      {%- include 'partials/title.njk' -%}
+    </title>
+  </head>
+  <body>
+    <header>
+      {%- include 'partials/header.njk' %}
+      <nav>{%- include 'partials/navigation.njk' %}</nav>
+    </header>
+    <main>
+        {{ content | safe }}
+    </main>
+  <footer>{% include 'partials/footer.njk' %}</footer>
+  </body>
+</html>
