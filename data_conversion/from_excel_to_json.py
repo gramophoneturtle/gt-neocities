@@ -546,7 +546,7 @@ if __name__ == '__main__':
     addCategoryFromMultiple("Deltarune","Other")
     addCategoryFromMultiple("Kirby","Other")
     addCategoryFromMultiple("LaMulana","Other")
-    addCategoryFromMultiple("MGS1","Other")
+    # addCategoryFromMultiple("MGS1","Other") #No MGS Art on its own
     addCategoryFromMultiple("MoonRPG","Other")
     # addCategoryFromMultiple("Pikmin","Other")
     addCategoryFromMultiple("Pokemon","Other")
