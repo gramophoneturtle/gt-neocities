@@ -33,17 +33,17 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-RoaringKnight_03-D2-800.jpg",
+        "url": "/img/art/2025/08/0807-roaringloki/Loki-RoaringKnight_03-D2-800.jpg",
         "alt": "Digital art of full bodies of the Roaring Knight from Deltarune and Loki from Persona 5, swinging their swords. The Roaring Knight is at a side profile, with their sword swung down and around over their head. Loki's striped self is bowed, at a 3/4 angle."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-RoaringKnight_02-D2-800.jpg",
+        "url": "/img/art/2025/08/0807-roaringloki/Loki-RoaringKnight_02-D2-800.jpg",
         "alt": "Digital art of full body of the Roaring Knight from Deltarune and 3/4 body of Loki from Persona 5, with an inverted body, swinging their swords. The Roaring Knight is at a side profile, with their sword swung down and around over their head. Loki's inverted striped self is bowed, at a 3/4 angle, with his sword slash effect causing an inversion over his body."
       },
       {
         "id": 3,
-        "url": "\\img\\art\\2025\\08\\0807-roaringloki\\Loki-RoaringKnight_01-D2-800.jpg",
+        "url": "/img/art/2025/08/0807-roaringloki/Loki-RoaringKnight_01-D2-800.jpg",
         "alt": "Digital art of full body of the Roaring Knight from Deltarune and 3/4 body of Loki from Persona 5, swinging their swords, with Loki matching the Roaring Knight's black body and white outline style. The Roaring Knight is at a side profile, with their sword swung down and around over their head. Loki's black body is bowed, at a 3/4 angle, with his sword slash effect causing an inversion over his body."
       }
     ],
@@ -90,7 +90,7 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\gen\\2023\\0528-inkagi\\20230528-SplatoonHazukiInkagi-L1L2-698.jpg",
+        "url": "/img/art/gen/2023/0528-inkagi/20230528-SplatoonHazukiInkagi-L1L2-698.jpg",
         "alt": "Digital Art of Hazuki Miakgi from NEO The World Ends With You as an inkling from Splatoon 3. He is kneeling and aiming the E-liter 4k sniper weapon in the direction towards the viewer. He has orange colored hair tied back, with one large bang on his right side. He's wearing a black and silver earring, a black and white jacket, and black and white patterned slip-ons."
       }
     ],
