@@ -33,12 +33,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\persona5\\2018\\1017-howwas\\20181007-howWasThat-Crow02-niDEFV1-g10V1-800.jpg",
+        "url": "/img/art/persona5/2018/1017-howwas/20181007-howWasThat-Crow02-niDEFV1-g10V1-800.jpg",
         "alt": "Art of Crow from Persona 5, holding his light saber sword up and resting in his left hand. He's smiling widely."
       },
       {
         "id": 2,
-        "url": "\\img\\art\\persona5\\2018\\1017-howwas\\20181007-howWasThat-Robin02-niDEFV1-gl10V1-800.jpg",
+        "url": "/img/art/persona5/2018/1017-howwas/20181007-howWasThat-Robin02-niDEFV1-gl10V1-800.jpg",
         "alt": "Art of Crow from Persona 5, holding his light saber sword up and resting in his left hand. He's smiling widely with his Robin Hood Persona behind him and crouched down, looking downwards."
       }
     ],

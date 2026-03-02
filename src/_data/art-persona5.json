@@ -41,12 +41,12 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\persona5\\2021\\0212-missyou\\20210212-lokiMissYouNoSword03_78-niDEFV1-gl10V1-800.jpg",
+        "url": "/img/art/persona5/2021/0212-missyou/20210212-lokiMissYouNoSword03_78-niDEFV1-gl10V1-800.jpg",
         "alt": "Art of Loki from Persona 5 from the waist up and his arms spread wide. Loki is a human and geometric shaped being with a chaotic black and white stripe pattern over his body, two horns coming out of his eyes, and many braided black and red strands. "
       },
       {
         "id": 2,
-        "url": "\\img\\art\\persona5\\2021\\0212-missyou\\20210212-lokiMissYouNoSword03-niDEFV1-gl10V1-800.jpg",
+        "url": "/img/art/persona5/2021/0212-missyou/20210212-lokiMissYouNoSword03-niDEFV1-gl10V1-800.jpg",
         "alt": "Art of Loki from Persona 5 from the ankles up and his arms spread wide. Loki is a human and geometric shaped being with a chaotic black and white stripe pattern over his body, two horns coming out of his eyes, and many braided black and red strands. "
       }
     ],
@@ -87,7 +87,7 @@
     "imgs": [
       {
         "id": 1,
-        "url": "\\img\\art\\persona5\\2019\\0319-crownomore\\20190316-crown04-nDEFV1-pDEFV2-800.jpg",
+        "url": "/img/art/persona5/2019/0319-crownomore/20190316-crown04-nDEFV1-pDEFV2-800.jpg",
         "alt": "Art of Goro Akechi giving Robin Hood a crown of lotus flowers on a ship, surrounded by city buildings."
       }
     ],
