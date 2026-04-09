@@ -471,22 +471,22 @@ if __name__ == '__main__':
     # Reset it???
     twewy_related_series_list = RelatedSeriesList()
     
-    # PERSONA 5 ----------------------------------------------------------- #
-    persona5_art = ArtworkCategory(
-        sheet_name = 'Other',
-        output_path = file_path_output_path,
-        fandoms_list = [
-                {
-                    "Section": "persona5",
-                    "Filename": "art-persona5"
-                }
-            ],
-        base_url = "art/persona5/"
-    )
+    # # PERSONA 5 ----------------------------------------------------------- #
+    # persona5_art = ArtworkCategory(
+    #     sheet_name = 'Other',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": "persona5",
+    #                 "Filename": "art-persona5"
+    #             }
+    #         ],
+    #     base_url = "art/persona5/"
+    # )
 
-    for category in persona5_art.Fandoms:
-        main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=persona5_art.BaseURL)
-        main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=persona5_art.BaseURL)
+    # for category in persona5_art.Fandoms:
+    #     main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=persona5_art.BaseURL)
+    #     main(persona5_art.SheetName, persona5_art.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=persona5_art.BaseURL)
 
     # XCX----------------------------------------------------------- #
     fandomkey = "XCX"
@@ -519,41 +519,41 @@ if __name__ == '__main__':
     # Reset it???
     twewy_related_series_list = RelatedSeriesList()
 
-    # Asura's wrath----------------------------------------------------------- #
-    fandomkey = "asuras-wrath"
-    artworksCategories = ArtworkCategory(
-        sheet_name = 'Other',
-        output_path = file_path_output_path,
-        fandoms_list = [
-                {
-                    "Section": fandomkey,
-                    "Filename": "art-{0}".format(fandomkey.lower())
-                }
-            ],
-        base_url = "art/{0}/".format(fandomkey.lower()),
-    )
+    # # Asura's wrath----------------------------------------------------------- #
+    # fandomkey = "asuras-wrath"
+    # artworksCategories = ArtworkCategory(
+    #     sheet_name = 'Other',
+    #     output_path = file_path_output_path,
+    #     fandoms_list = [
+    #             {
+    #                 "Section": fandomkey,
+    #                 "Filename": "art-{0}".format(fandomkey.lower())
+    #             }
+    #         ],
+    #     base_url = "art/{0}/".format(fandomkey.lower()),
+    # )
 
-    for category in artworksCategories.Fandoms:
-        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
-        main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
+    # for category in artworksCategories.Fandoms:
+    #     main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = True, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=True, base_url=artworksCategories.BaseURL)
+    #     main(artworksCategories.SheetName, artworksCategories.getFileNamePath(spoilers = False, filename = category["Filename"]), fandoms = [category["Section"]], include_spoilers=False, base_url=artworksCategories.BaseURL)
 
     ## ArtFight
-    addCategorySingle("ArtFight","Other")
+    # addCategorySingle("ArtFight","Other")
 
     ## Fandoms
     addCategoryFromMultiple("OC","Other", exclude_crossover=True)
 
-    addCategoryFromMultiple("Deltarune","Other")
-    addCategoryFromMultiple("Kirby","Other")
-    addCategoryFromMultiple("LaMulana","Other")
-    # addCategoryFromMultiple("MGS1","Other") #No MGS Art on its own
-    addCategoryFromMultiple("MoonRPG","Other")
-    # addCategoryFromMultiple("Pikmin","Other")
+    # addCategoryFromMultiple("Deltarune","Other")
+    # addCategoryFromMultiple("Kirby","Other")
+    # addCategoryFromMultiple("LaMulana","Other")
+    # # addCategoryFromMultiple("MGS1","Other") #No MGS Art on its own
+    # addCategoryFromMultiple("MoonRPG","Other")
+    # # addCategoryFromMultiple("Pikmin","Other")
     addCategoryFromMultiple("Pokemon","Other")
-    addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
-    addCategoryFromMultiple("super-puzzled-cat","Other")
-    addCategorySingle("Splatoon","Other")
-    addCategoryFromMultiple("VoidStranger","Other")
+    # addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
+    # addCategoryFromMultiple("super-puzzled-cat","Other")
+    # addCategorySingle("Splatoon","Other")
+    # addCategoryFromMultiple("VoidStranger","Other")
 
 
     # HOW TO HANDLE THE CROSS OVER STUFF

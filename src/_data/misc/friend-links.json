@@ -26,5 +26,12 @@
         "Description": "Pillowfort friend. Has Illustrrations and pixel art among other things!",
         "BannerURL": "\\img\\banners\\friends\\sentilink.png",
         "BannerAlt": "sentient-tea website button"
+    },
+    {
+        "SiteURL": "https://crowcollection.neocities.org",
+        "Name": "Crow's Collection",
+        "Description": "Pillowfort friend. Collection of cool links and stuff!",
+        "BannerURL": "\\img\\banners\\friends\\siteButtonTiny.png",
+        "BannerAlt": "Crow's COllection website button"
     }
 ]
