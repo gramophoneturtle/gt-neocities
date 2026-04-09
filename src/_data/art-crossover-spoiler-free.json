@@ -1,5 +1,95 @@
 [
   {
+    "title": "Composer Spinda",
+    "summary": "A New Spinda Appears... For Duvnin's TWEWY playthrough. You know me, I had to!",
+    "details": "",
+    "characters": "",
+    "date": "2026-03-03",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "2026-04-08 00:00:00",
+    "uniqueUrl": "2026-03-03-composer-s",
+    "UniqueURLKey": "2026-03-03-composer-s",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mg7dy4p3ls2h"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "/img/art/2026/03/260303-SpindaComposer-D2.jpg",
+        "alt": "Digital art of Spinda from Pokemon in a glowing spirit form, like the Composer from The World Ends With You."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\03\\260303-thmb-SpindaComposer-D2-250.jpg",
+    "thumbnailAlt": "Spinda",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "TWEWY",
+      "Pokemon",
+      "Crossover"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
+    "title": "Nice To Finally Meet You!",
+    "summary": "For Duvnin's TWEWY playthrough. He really wanted to know what Mr. Mew was all about. And TWEWY of course!",
+    "details": "",
+    "characters": "Spinda, Mr. Mew",
+    "date": "2026-02-23",
+    "dateYear": "2026",
+    "WebsiteDateUTC": "2026-04-08 00:00:00",
+    "uniqueUrl": "2026-02-23-nice-to-me",
+    "UniqueURLKey": "2026-02-23-nice-to-me",
+    "spoilers": "no",
+    "warnings": "no",
+    "oc": "no",
+    "urls": [
+      {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/813379714533244928/nice-to-meet-you-for-duvnins-twewy-playthrough"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7517860"
+      },
+      {
+        "sitename": "Bluesky",
+        "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mfkuswd4522k"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/116372259866567765"
+      }
+    ],
+    "imgs": [
+      {
+        "id": 1,
+        "url": "/img/art/2026/02/260223-MewSpinda-D2-800.jpg",
+        "alt": "Digital art of Spinda from Pokemon and Mr. Mew from The World Ends With You, floating or falling as they curl around and face each other. Behind them is the Player Pin symbol from The World Ends With You."
+      }
+    ],
+    "thumbnailUrl": "\\img\\art\\2026\\02\\260223-thmb-MewSpinda-D2-250.jpg",
+    "thumbnailAlt": "Spinda and Mr. Mew",
+    "REF1": "",
+    "REFALT1": "",
+    "Warnings": "",
+    "vids": [],
+    "fandom": [
+      "Crossover",
+      "TWEWY",
+      "Pokemon"
+    ],
+    "RelatedWritingURL": ""
+  },
+  {
     "title": "Accept Your Genes!",
     "summary": "Spinda was given long jeans to wear during Duvnin's MGS1's Genes Talk. Help??",
     "details": "",

@@ -1,5 +1,44 @@
 [
     {
+        "PostDate": "2026-04-08"
+        ,"date": "2026-04-08"
+        ,"pubDate": "Wed, 08 Apr 2026"
+        ,"Site": "Crow's Collection friend link added!"
+        ,"ArtList": [
+             {
+                "Category": "Gifted Items",
+                "List": [
+                     {
+                        "Title": "Chisa - Blake Jekyll",
+                        "URL": "/gifts/260313-chisa-blakejekyll/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY",
+                "List": [
+                     {
+                        "Title": "Happy Birthday Hanekoma!",
+                        "URL": "/art/twewy/2026-03-03-happy-birt/"
+                    }
+                ] 
+            },
+            {
+                "Category": "TWEWY x Pokemon",
+                "List": [
+                    {
+                        "Title": "Nice To Finally Meet You!",
+                        "URL": "/art/gen/2026-02-23-nice-to-me/"
+                    },
+                    {
+                        "Title": "Composer Spinda",
+                        "URL": "/art/gen/2026-03-03-composer-s/"
+                    }
+                ] 
+            }
+        ]
+    },
+    {
         "PostDate": "2026-03-01"
         ,"date": "2026-03-01"
         ,"pubDate": "Sun, 01 Mar 2026"
