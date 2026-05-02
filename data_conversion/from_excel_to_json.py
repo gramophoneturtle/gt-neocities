@@ -541,7 +541,7 @@ if __name__ == '__main__':
     # addCategorySingle("ArtFight","Other")
 
     ## Fandoms
-    addCategoryFromMultiple("OC","Other", exclude_crossover=True)
+    # addCategoryFromMultiple("OC","Other", exclude_crossover=True)
 
     # addCategoryFromMultiple("Deltarune","Other")
     # addCategoryFromMultiple("Kirby","Other")
@@ -549,7 +549,7 @@ if __name__ == '__main__':
     # # addCategoryFromMultiple("MGS1","Other") #No MGS Art on its own
     # addCategoryFromMultiple("MoonRPG","Other")
     # # addCategoryFromMultiple("Pikmin","Other")
-    addCategoryFromMultiple("Pokemon","Other")
+    # addCategoryFromMultiple("Pokemon","Other")
     # addCategoryFromMultiple("ProjectMoon","Other", exclude_crossover=True)
     # addCategoryFromMultiple("super-puzzled-cat","Other")
     # addCategorySingle("Splatoon","Other")
