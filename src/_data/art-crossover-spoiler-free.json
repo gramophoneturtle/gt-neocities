@@ -14,15 +14,27 @@
     "oc": "no",
     "urls": [
       {
+        "sitename": "Tumblr",
+        "url": "https://gramophoneturtle.tumblr.com/post/814247658067738624/a-new-spinda-appears-for-duvnins-twewy"
+      },
+      {
+        "sitename": "Pillowfort",
+        "url": "https://www.pillowfort.social/posts/7562674"
+      },
+      {
         "sitename": "Bluesky",
         "url": "https://bsky.app/profile/did:plc:flbl2zveemgai3n6c3ffvdmh/post/3mg7dy4p3ls2h"
+      },
+      {
+        "sitename": "Mastodon",
+        "url": "https://universeodon.com/deck/@gramophoneturtle/116426475832729035"
       }
     ],
     "imgs": [
       {
         "id": 1,
         "url": "/img/art/2026/03/260303-SpindaComposer-D2.jpg",
-        "alt": "Digital art of Spinda from Pokemon in a glowing spirit form, like the Composer from The World Ends With You."
+        "alt": "Digital art of Spinda from Pokemon in a glowing spirit form, like the Composer from The World Ends With You. The body is white, the spots are a light grey, and they have grey, scribble aura around them with little swirls inside."
       }
     ],
     "thumbnailUrl": "\\img\\art\\2026\\03\\260303-thmb-SpindaComposer-D2-250.jpg",
