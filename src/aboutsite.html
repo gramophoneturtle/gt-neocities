@@ -1,0 +1,27 @@
+---
+title: About This Site
+layout: /layouts/base-without-h1title.njk
+---
+<h2>{{title}}</h2>
+<p>This Site was made using:</p>
+<ul>
+    <li>VSCode as a free code editor.</li>
+    <li>11ty (eleventy), Nunjucks and Liquid for generating static files using templates. (Not "Build Awesome", which is taking over 11ty and promoting Pro AI Agent features :/)</li>
+    <li>Github for version control/backup the site. (One day I'll gte off of Github)</li>
+    <li>A Github Action to automate building and pushing (deploying) the changes to Neocities. (Will need to replace this when moving off of Github)</li>
+    <li>Simple.css for base CSS.</li>
+    <li>Using JSON files to store data to populate the templates. For my artwork, it's stored in an Excel file which I have a Python script using pandas to convert the Excel file to JSON.</li>
+</ul>
+<h2>Tutorials Used For This Site</h3>
+<ul>
+    <li><a href="//flamedfury.com/guides/11ty-homepage-neocities/">Setting up a Neocities site using 11ty and Nunjucks. I started with this</a></li>
+    <li><a href="https://github.com/marketplace/actions/deploy-to-neocities">Github's sample Github Action to automate deployment to Neocities.</a> I had to change it to make it work for me. Calling the job 'deploy' didn't work but calling it 'build' did. I made my workflow file using another tutorial so maybe mixing the two caused issues.</li>
+    <li><a href="https://www.w3schools.com/howto/howto_js_portfolio_filter.asp">Portfolio Gallery with Filtering</a></li>
+    <li><a href="https://freefrontend.org/css-galleries">Gift art gallery</a>: Photo Gallery and also <a href="https://codepen.io/rperry1886/pen/KKwbQNP">here</a></li>
+    <li><a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp">Slideshow Gallery, for showing multiple images for pieces of art</a></li>
+    <li><a href="https://rssguide.neocities.org/">RSS - Basic Guideline</a></li>
+    <li><a href="https://css-tricks.com/solved-with-css-dropdown-menus/">Drop Down Menu</a>: Uses CSS only</li>
+    <li><a href="https://favicomatic.com/">Favicomatic</a>: Generate favicons for all sizes</li>
+    <li><a href="https://renjs.net/">Ren'JS</a>: For making web based Visual Novels</li>
+    <li><a href="https://itch.io/t/2289319/creating-htmlweb-builds-last-tested-with-75122070801">How to build RenPy for Web and Test Web Builds</a></li>
+</ul>

@@ -1,7 +1,13 @@
 <nav role="navigation" class="navtest2">
     <ul>
       <li><a class="navHeader" href="/">Home</a></li>
-      <li><a class="navHeader" href="/about/">About</a></li>
+      <li><a class="navHeader hasSubMenu" href="#" aria-haspopup="true">Info &#9662;</a>
+        <ul class="dropdown" aria-label="submenu">
+          <li><a class="navHeader" href="/about/">About Me</a></li>
+          <li><a class="navHeader" href="/aboutsite/">About Site</a></li>
+          <li><a class="navHeader" href="/artrefs/">Art Refs</a></li>
+        </ul>
+      </li>
       <li><a class="navHeader hasSubMenu" href="#" aria-haspopup="true">Works &#9662;</a>
         <ul class="dropdown" aria-label="submenu">
           <li><a class="navHeader" href="/art/">Art</a></li>
